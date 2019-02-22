@@ -1,0 +1,628 @@
+IQ-TREE multicore version 1.3.11.1 for Linux 64-bit built Feb  1 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    n114312.nbi.ac.uk (AVX2, FMA3, 15 GB RAM)
+Command: iqtree-omp -s ./014_results/operon.fasta -nt 8 -m HKY+G
+Seed:    593826 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Feb 22 13:28:03 2019
+Kernel:  AVX - 8 threads (8 CPU cores detected)
+
+Reading alignment file ./014_results/operon.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 476 sequences with 5920 columns and 1364 patterns (989 informative sites)
+                                             Gap/Ambiguity  Composition  p-value
+   1  Pseudomonas_aeruginosa_003028335_00           12.91%    passed     99.00%
+   2  Pseudomonas_aeruginosa_003028335_01           12.91%    passed     99.00%
+   3  Pseudomonas_aeruginosa_003028335_02           12.91%    passed     98.76%
+   4  Pseudomonas_aeruginosa_003028335_03           12.92%    passed     99.07%
+   5  Pseudomonas_chlororaphis_003851445_00          8.94%    passed     91.02%
+   6  Pseudomonas_chlororaphis_003851445_01         12.75%    passed     93.57%
+   7  Pseudomonas_chlororaphis_003851445_02         12.75%    passed     93.57%
+   8  Pseudomonas_chlororaphis_003851445_03         12.58%    passed     95.62%
+   9  Pseudomonas_chlororaphis_003851445_04         12.58%    passed     95.62%
+  10  Pseudomonas_aeruginosa_001721745_00           12.89%    passed     97.93%
+  11  Pseudomonas_aeruginosa_001721745_01           12.87%    passed     97.51%
+  12  Pseudomonas_aeruginosa_001721745_02           12.87%    passed     98.25%
+  13  Pseudomonas_aeruginosa_001721745_03           12.91%    passed     97.74%
+  14  Pseudomonas_aeruginosa_900069025_00           78.29%    passed     40.68%
+  15  Pseudomonas_aeruginosa_900069025_01           53.41%    passed     95.14%
+  16  Pseudomonas_aeruginosa_900069025_02           12.87%    passed     98.43%
+  17  Pseudomonas_aeruginosa_900069025_03           12.87%    passed     98.43%
+  18  Pseudomonas_aeruginosa_900069025_04           12.87%    passed     98.43%
+  19  Pseudomonas_aeruginosa_003204335_00           12.91%    passed     98.34%
+  20  Pseudomonas_aeruginosa_003204335_01           12.91%    passed     98.22%
+  21  Pseudomonas_aeruginosa_003204335_02           12.89%    passed     97.58%
+  22  Pseudomonas_aeruginosa_003204335_03           12.89%    passed     98.16%
+  23  Pseudomonas_aeruginosa_002237405_00           12.91%    passed     98.22%
+  24  Pseudomonas_aeruginosa_002237405_01           12.91%    passed     97.54%
+  25  Pseudomonas_aeruginosa_002237405_02           12.91%    passed     97.43%
+  26  Pseudomonas_aeruginosa_002237405_03           12.92%    passed     97.60%
+  27  Pseudomonas_aeruginosa_002192495_00           12.89%    passed     97.54%
+  28  Pseudomonas_aeruginosa_002192495_01           12.89%    passed     98.09%
+  29  Pseudomonas_aeruginosa_002192495_02           12.89%    passed     97.54%
+  30  Pseudomonas_aeruginosa_002192495_03           12.92%    passed     98.28%
+  31  Pseudomonas_stutzeri_000279165_00             11.84%    passed     72.14%
+  32  Pseudomonas_stutzeri_000279165_01             11.76%    passed     68.68%
+  33  Pseudomonas_stutzeri_000279165_02             11.52%    passed     76.60%
+  34  Pseudomonas_stutzeri_000279165_03             11.57%    passed     58.89%
+  35  Pseudomonas_aeruginosa_001679685_00           12.89%    passed     96.65%
+  36  Pseudomonas_aeruginosa_001679685_01           12.89%    passed     97.86%
+  37  Pseudomonas_aeruginosa_001679685_02           12.89%    passed     97.30%
+  38  Pseudomonas_aeruginosa_001679685_03           12.89%    passed     96.66%
+  39  Pseudomonas_fluorescens_001307155_00          12.03%    passed     98.31%
+  40  Pseudomonas_fluorescens_001307155_01          12.08%    passed     98.28%
+  41  Pseudomonas_fluorescens_001307155_02          11.42%    passed     81.32%
+  42  Pseudomonas_fluorescens_001307155_03          12.11%    passed     97.15%
+  43  Pseudomonas_fluorescens_001307155_04          12.03%    passed     98.31%
+  44  Pseudomonas_fluorescens_001307155_05          12.04%    passed     97.95%
+  45  Pseudomonas_syringae_002966555_00             11.45%    passed     97.60%
+  46  Pseudomonas_syringae_002966555_01             11.45%    passed     97.16%
+  47  Pseudomonas_syringae_002966555_02             11.44%    passed     97.38%
+  48  Pseudomonas_syringae_002966555_03             11.45%    passed     97.60%
+  49  Pseudomonas_syringae_002966555_04              7.69%    passed     98.97%
+  50  Pseudomonas_stutzeri_000327065_00             12.13%    passed     98.54%
+  51  Pseudomonas_stutzeri_000327065_01             12.08%    passed     98.73%
+  52  Pseudomonas_stutzeri_000327065_02             12.09%    passed     98.56%
+  53  Pseudomonas_stutzeri_000327065_03             12.09%    passed     98.53%
+  54  Pseudomonas_stutzeri_000219605_00             12.47%    passed     92.68%
+  55  Pseudomonas_stutzeri_000219605_01             12.47%    passed     90.49%
+  56  Pseudomonas_stutzeri_000219605_02             12.47%    passed     95.03%
+  57  Pseudomonas_stutzeri_000219605_03             12.47%    passed     92.01%
+  58  Pseudomonas_fluorescens_000963495_00          11.23%    passed     70.92%
+  59  Pseudomonas_fluorescens_000963495_01           8.11%    passed     62.93%
+  60  Pseudomonas_fluorescens_000963495_02          11.23%    passed     70.92%
+  61  Pseudomonas_fluorescens_000963495_03          11.91%    passed     77.79%
+  62  Pseudomonas_fluorescens_000963495_04          15.30%    passed     61.36%
+  63  Pseudomonas_fluorescens_000963495_05          11.23%    passed     72.77%
+  64  Pseudomonas_aeruginosa_002812825_00           12.89%    passed     98.47%
+  65  Pseudomonas_aeruginosa_002812825_01           12.89%    passed     97.86%
+  66  Pseudomonas_aeruginosa_002812825_02           12.89%    passed     98.33%
+  67  Pseudomonas_aeruginosa_002812825_03           12.89%    passed     98.72%
+  68  Pseudomonas_aeruginosa_000508765_00           12.89%    passed     98.33%
+  69  Pseudomonas_aeruginosa_000508765_01           12.85%    passed     98.00%
+  70  Pseudomonas_aeruginosa_000508765_02           13.61%    passed     95.81%
+  71  Pseudomonas_aeruginosa_000508765_03           12.91%    passed     98.83%
+  72  Pseudomonas_putida_001636055_00                8.89%    passed     97.31%
+  73  Pseudomonas_putida_001636055_01               13.24%    passed     97.00%
+  74  Pseudomonas_putida_001636055_02               13.24%    passed     95.99%
+  75  Pseudomonas_putida_001636055_03               13.24%    passed     98.87%
+  76  Pseudomonas_putida_001636055_04               11.54%    passed     96.52%
+  77  Pseudomonas_putida_001636055_05               13.24%    passed     98.98%
+  78  Pseudomonas_syringae_900235905_00             11.52%    passed     97.89%
+  79  Pseudomonas_syringae_900235905_01             11.52%    passed     97.89%
+  80  Pseudomonas_syringae_900235905_02             11.52%    passed     97.89%
+  81  Pseudomonas_syringae_900235905_03             11.52%    passed     98.29%
+  82  Pseudomonas_syringae_900235905_04              7.75%    passed     97.72%
+  83  Pseudomonas_chlororaphis_003850585_00          8.95%    passed     94.23%
+  84  Pseudomonas_chlororaphis_003850585_01         12.75%    passed     96.42%
+  85  Pseudomonas_chlororaphis_003850585_02         12.75%    passed     95.71%
+  86  Pseudomonas_chlororaphis_003850585_03         12.74%    passed     97.42%
+  87  Pseudomonas_chlororaphis_003850585_04         12.74%    passed     97.42%
+  88  Pseudomonas_chlororaphis_003850445_00          8.95%    passed     94.23%
+  89  Pseudomonas_chlororaphis_003850445_01         12.75%    passed     95.69%
+  90  Pseudomonas_chlororaphis_003850445_02         12.75%    passed     95.69%
+  91  Pseudomonas_chlororaphis_003850445_03         12.74%    passed     96.52%
+  92  Pseudomonas_chlororaphis_003850445_04         12.55%    passed     96.86%
+  93  Pseudomonas_syringae_003665415_00             11.52%    passed     97.52%
+  94  Pseudomonas_syringae_003665415_01             11.52%    passed     97.10%
+  95  Pseudomonas_syringae_003665415_02             11.52%    passed     97.10%
+  96  Pseudomonas_syringae_003665415_03             11.52%    passed     97.10%
+  97  Pseudomonas_syringae_003665415_04              7.75%    passed     98.21%
+  98  Pseudomonas_chlororaphis_003851305_00          8.73%    passed     92.59%
+  99  Pseudomonas_chlororaphis_003851305_01         12.57%    passed     97.00%
+ 100  Pseudomonas_chlororaphis_003851305_02         12.55%    passed     97.14%
+ 101  Pseudomonas_chlororaphis_003851305_03         12.55%    passed     97.14%
+ 102  Pseudomonas_chlororaphis_003851305_04         12.55%    passed     96.61%
+ 103  Pseudomonas_chlororaphis_003851385_00          8.94%    passed     90.81%
+ 104  Pseudomonas_chlororaphis_003851385_01         12.75%    passed     94.62%
+ 105  Pseudomonas_chlororaphis_003851385_02         12.75%    passed     95.72%
+ 106  Pseudomonas_chlororaphis_003851385_03         12.75%    passed     94.62%
+ 107  Pseudomonas_chlororaphis_003851385_04         12.58%    passed     96.55%
+ 108  Pseudomonas_fluorescens_001747385_00          12.03%    passed     87.78%
+ 109  Pseudomonas_fluorescens_001747385_01          11.98%    passed     86.99%
+ 110  Pseudomonas_fluorescens_001747385_02          11.74%    passed     78.08%
+ 111  Pseudomonas_fluorescens_001747385_03          11.94%    passed     85.03%
+ 112  Pseudomonas_fluorescens_001747385_04           8.14%    passed     76.39%
+ 113  Pseudomonas_fluorescens_001747385_05          11.96%    passed     87.36%
+ 114  Pseudomonas_chlororaphis_003851145_00          8.89%    passed     91.76%
+ 115  Pseudomonas_chlororaphis_003851145_01         12.72%    passed     95.68%
+ 116  Pseudomonas_chlororaphis_003851145_02         12.70%    passed     97.44%
+ 117  Pseudomonas_chlororaphis_003851145_03         12.72%    passed     96.38%
+ 118  Pseudomonas_chlororaphis_003851145_04         12.70%    passed     96.54%
+ 119  Pseudomonas_aeruginosa_001516205_00           12.89%    passed     97.86%
+ 120  Pseudomonas_aeruginosa_001516205_01           12.89%    passed     97.25%
+ 121  Pseudomonas_aeruginosa_001516205_02           12.87%    passed     98.97%
+ 122  Pseudomonas_aeruginosa_001516205_03           12.89%    passed     97.86%
+ 123  Pseudomonas_monteilii_000510325_00            15.66%    passed     98.01%
+ 124  Pseudomonas_monteilii_000510325_01            15.66%    passed     98.47%
+ 125  Pseudomonas_monteilii_000510325_02            15.66%    passed     98.89%
+ 126  Pseudomonas_monteilii_000510325_03            15.66%    passed     98.21%
+ 127  Pseudomonas_monteilii_000510325_04            15.66%    passed     98.89%
+ 128  Pseudomonas_monteilii_000510325_05            11.91%    passed     99.44%
+ 129  Pseudomonas_putida_000007565_01               16.30%    passed     99.61%
+ 130  Pseudomonas_putida_000007565_02               12.50%    passed     98.40%
+ 131  Pseudomonas_putida_000007565_03               16.10%    passed     99.23%
+ 132  Pseudomonas_putida_000007565_04               12.50%    passed     98.39%
+ 133  Pseudomonas_putida_000007565_05               11.40%    passed     95.37%
+ 134  Pseudomonas_aeruginosa_900070375_00           12.85%    passed     97.94%
+ 135  Pseudomonas_aeruginosa_900070375_01           12.87%    passed     98.16%
+ 136  Pseudomonas_aeruginosa_900070375_02           12.87%    passed     98.16%
+ 137  Pseudomonas_aeruginosa_900070375_03           12.87%    passed     97.93%
+ 138  Pseudomonas_aeruginosa_001516305_00           12.89%    passed     98.33%
+ 139  Pseudomonas_aeruginosa_001516305_01           12.89%    passed     97.58%
+ 140  Pseudomonas_aeruginosa_001516305_02           12.89%    passed     98.72%
+ 141  Pseudomonas_aeruginosa_001516305_03           12.89%    passed     98.07%
+ 142  Pseudomonas_aeruginosa_003073895_00           12.87%    passed     98.81%
+ 143  Pseudomonas_aeruginosa_003073895_01           12.87%    passed     99.00%
+ 144  Pseudomonas_aeruginosa_003073895_02           12.91%    passed     97.43%
+ 145  Pseudomonas_aeruginosa_003073895_03           12.89%    passed     98.33%
+ 146  Pseudomonas_putida_002741075_00               12.74%    passed     96.92%
+ 147  Pseudomonas_putida_002741075_01               12.74%    passed     97.17%
+ 148  Pseudomonas_putida_002741075_02               12.74%    passed     96.92%
+ 149  Pseudomonas_putida_002741075_03               12.74%    passed     96.92%
+ 150  Pseudomonas_putida_002741075_04                8.94%    passed     91.24%
+ 151  Pseudomonas_putida_002741075_05               12.74%    passed     96.61%
+ 152  Pseudomonas_aeruginosa_003798105_00           12.89%    passed     97.93%
+ 153  Pseudomonas_aeruginosa_003798105_01           12.91%    passed     96.99%
+ 154  Pseudomonas_aeruginosa_003798105_02           12.91%    passed     96.85%
+ 155  Pseudomonas_aeruginosa_003798105_03           12.91%    passed     97.86%
+ 156  Pseudomonas_putida_002736125_01               15.83%    passed     94.74%
+ 157  Pseudomonas_putida_002736125_02               11.06%    passed     98.34%
+ 158  Pseudomonas_putida_002736125_03               15.81%    passed     94.72%
+ 159  Pseudomonas_putida_002736125_04               15.84%    passed     94.58%
+ 160  Pseudomonas_putida_002736125_05               12.57%    passed     98.95%
+ 161  Pseudomonas_syringae_900235815_00              7.77%    passed     99.33%
+ 162  Pseudomonas_syringae_900235815_01             11.52%    passed     97.79%
+ 163  Pseudomonas_syringae_900235815_02             11.27%    passed     98.99%
+ 164  Pseudomonas_syringae_900235815_03             11.52%    passed     97.30%
+ 165  Pseudomonas_syringae_900235815_04             11.52%    passed     97.30%
+ 166  Pseudomonas_putida_002025705_00               16.00%    passed     97.86%
+ 167  Pseudomonas_putida_002025705_01               12.15%    passed     99.21%
+ 168  Pseudomonas_putida_002025705_02               11.98%    passed     98.76%
+ 169  Pseudomonas_putida_002025705_03               16.00%    passed     98.00%
+ 170  Pseudomonas_putida_002025705_04               16.00%    passed     97.16%
+ 171  Pseudomonas_stutzeri_003952645_00              7.91%    passed     84.11%
+ 172  Pseudomonas_stutzeri_003952645_01             11.69%    passed     92.85%
+ 173  Pseudomonas_stutzeri_003952645_02             11.45%    passed     85.95%
+ 174  Pseudomonas_stutzeri_003952645_03             11.69%    passed     92.85%
+ 175  Pseudomonas_stutzeri_003952645_04             11.47%    passed     84.24%
+ 176  Pseudomonas_stutzeri_003952645_05             15.03%    passed     81.09%
+ 177  Pseudomonas_stutzeri_003952645_06             11.69%    passed     93.56%
+ 178  Pseudomonas_aeruginosa_002085605_00           12.87%    passed     97.41%
+ 179  Pseudomonas_aeruginosa_002085605_01           12.91%    passed     97.93%
+ 180  Pseudomonas_aeruginosa_002085605_02           12.91%    passed     97.43%
+ 181  Pseudomonas_aeruginosa_002085605_03           12.89%    passed     97.58%
+ 182  Pseudomonas_aeruginosa_003571805_00           12.91%    passed     98.22%
+ 183  Pseudomonas_aeruginosa_003571805_01           12.89%    passed     97.58%
+ 184  Pseudomonas_aeruginosa_003571805_02           12.92%    passed     98.43%
+ 185  Pseudomonas_aeruginosa_003571805_03           12.91%    passed     98.30%
+ 186  Pseudomonas_chlororaphis_003850425_00          8.95%    passed     94.23%
+ 187  Pseudomonas_chlororaphis_003850425_01         12.77%    passed     95.57%
+ 188  Pseudomonas_chlororaphis_003850425_02         12.75%    passed     96.42%
+ 189  Pseudomonas_chlororaphis_003850425_03         12.74%    passed     97.42%
+ 190  Pseudomonas_chlororaphis_003850425_04         12.55%    passed     96.86%
+ 191  Pseudomonas_aeruginosa_003288355_00           13.01%    passed     99.16%
+ 192  Pseudomonas_aeruginosa_003288355_01           12.97%    passed     98.74%
+ 193  Pseudomonas_aeruginosa_003288355_02           13.06%    passed     98.69%
+ 194  Pseudomonas_aeruginosa_003288355_03           12.91%    passed     98.29%
+ 195  Pseudomonas_aeruginosa_000226155_00           12.92%    passed     98.40%
+ 196  Pseudomonas_aeruginosa_000226155_01           12.92%    passed     98.40%
+ 197  Pseudomonas_aeruginosa_000226155_02           12.92%    passed     98.40%
+ 198  Pseudomonas_aeruginosa_000226155_03           12.92%    passed     98.40%
+ 199  Pseudomonas_koreensis_003049825_00             8.31%    passed     95.36%
+ 200  Pseudomonas_koreensis_003049825_01            11.99%    passed     98.47%
+ 201  Pseudomonas_koreensis_003049825_02            11.71%    passed     96.42%
+ 202  Pseudomonas_koreensis_003049825_03            15.69%    passed     83.68%
+ 203  Pseudomonas_koreensis_003049825_04            11.98%    passed     98.40%
+ 204  Pseudomonas_koreensis_003049825_05            11.60%    passed     97.23%
+ 205  Pseudomonas_synxantha_003851465_00             7.94%    passed     69.82%
+ 206  Pseudomonas_synxantha_003851465_01            11.93%    passed     93.86%
+ 207  Pseudomonas_synxantha_003851465_02            11.74%    passed     84.59%
+ 208  Pseudomonas_synxantha_003851465_03            11.94%    passed     94.37%
+ 209  Pseudomonas_synxantha_003851465_04            11.76%    passed     82.63%
+ 210  Pseudomonas_synxantha_003851465_05            10.61%    passed     92.25%
+ 211  Pseudomonas_aeruginosa_002812865_00           12.89%    passed     97.83%
+ 212  Pseudomonas_aeruginosa_002812865_01           12.89%    passed     97.83%
+ 213  Pseudomonas_aeruginosa_002812865_02           12.89%    passed     97.43%
+ 214  Pseudomonas_aeruginosa_002812865_03           12.89%    passed     97.76%
+ 215  Pseudomonas_mendocina_002442555_00            11.89%    passed     90.31%
+ 216  Pseudomonas_mendocina_002442555_01            12.36%    passed     94.08%
+ 217  Pseudomonas_mendocina_002442555_02            11.89%    passed     90.97%
+ 218  Pseudomonas_mendocina_002442555_03            11.88%    passed     90.71%
+ 219  Pseudomonas_aeruginosa_001542835_00           12.91%    passed     98.22%
+ 220  Pseudomonas_aeruginosa_001542835_01           12.87%    passed     98.19%
+ 221  Pseudomonas_aeruginosa_001542835_02           12.87%    passed     98.66%
+ 222  Pseudomonas_aeruginosa_001542835_03           12.89%    passed     98.07%
+ 223  Pseudomonas_aeruginosa_000271365_00           12.89%    passed     98.72%
+ 224  Pseudomonas_aeruginosa_000271365_01           12.89%    passed     98.33%
+ 225  Pseudomonas_aeruginosa_000271365_02           12.89%    passed     98.33%
+ 226  Pseudomonas_aeruginosa_000271365_03           12.89%    passed     98.33%
+ 227  Pseudomonas_chlororaphis_003851835_00          8.73%    passed     92.59%
+ 228  Pseudomonas_chlororaphis_003851835_01         12.55%    passed     97.14%
+ 229  Pseudomonas_chlororaphis_003851835_02         12.55%    passed     97.14%
+ 230  Pseudomonas_chlororaphis_003851835_03         12.55%    passed     97.14%
+ 231  Pseudomonas_chlororaphis_003851835_04         12.55%    passed     97.14%
+ 232  Pseudomonas_aeruginosa_003950015_00           12.91%    passed     97.99%
+ 233  Pseudomonas_aeruginosa_003950015_01           12.89%    passed     98.37%
+ 234  Pseudomonas_aeruginosa_003950015_02           12.91%    passed     98.52%
+ 235  Pseudomonas_aeruginosa_003950015_03           12.89%    passed     97.86%
+ 236  Pseudomonas_aeruginosa_001045685_00           12.89%    passed     98.33%
+ 237  Pseudomonas_aeruginosa_001045685_01           12.89%    passed     98.72%
+ 238  Pseudomonas_aeruginosa_001045685_02           12.89%    passed     98.72%
+ 239  Pseudomonas_aeruginosa_001045685_03           12.89%    passed     98.72%
+ 240  Pseudomonas_aeruginosa_000496605_00           12.87%    passed     97.41%
+ 241  Pseudomonas_aeruginosa_000496605_01           12.87%    passed     97.41%
+ 242  Pseudomonas_aeruginosa_000496605_02           12.87%    passed     96.83%
+ 243  Pseudomonas_aeruginosa_000496605_03           12.87%    passed     96.83%
+ 244  Pseudomonas_aeruginosa_001594325_00           12.87%    passed     97.62%
+ 245  Pseudomonas_aeruginosa_001594325_01           12.89%    passed     98.33%
+ 246  Pseudomonas_aeruginosa_001594325_02           12.89%    passed     98.33%
+ 247  Pseudomonas_aeruginosa_001594325_03           12.87%    passed     97.72%
+ 248  Pseudomonas_parafulva_002021815_01            16.25%    passed     95.10%
+ 249  Pseudomonas_parafulva_002021815_02            12.30%    passed     97.73%
+ 250  Pseudomonas_parafulva_002021815_03            16.25%    passed     93.14%
+ 251  Pseudomonas_parafulva_002021815_04            12.30%    passed     98.22%
+ 252  Pseudomonas_parafulva_002021815_05            12.30%    passed     98.67%
+ 253  Pseudomonas_fluorescens_900636635_00          12.89%    passed     98.91%
+ 254  Pseudomonas_fluorescens_900636635_01          12.89%    passed     98.33%
+ 255  Pseudomonas_fluorescens_900636635_02          12.89%    passed     98.36%
+ 256  Pseudomonas_fluorescens_900636635_03          12.89%    passed     98.54%
+ 257  Pseudomonas_entomophila_003940825_00           8.58%    passed     97.17%
+ 258  Pseudomonas_entomophila_003940825_01          12.30%    passed     98.42%
+ 259  Pseudomonas_entomophila_003940825_02          12.25%    passed     99.26%
+ 260  Pseudomonas_entomophila_003940825_03          12.40%    passed     99.66%
+ 261  Pseudomonas_entomophila_003940825_04          12.36%    passed     99.56%
+ 262  Pseudomonas_entomophila_003940825_05          15.64%    passed     92.29%
+ 263  Pseudomonas_entomophila_003940825_06          12.31%    passed     96.69%
+ 264  Pseudomonas_putida_000410575_00               12.87%    passed     97.52%
+ 265  Pseudomonas_putida_000410575_01               16.22%    passed     99.89%
+ 266  Pseudomonas_putida_000410575_02               12.33%    passed     99.33%
+ 267  Pseudomonas_putida_000410575_03               12.35%    passed     99.55%
+ 268  Pseudomonas_putida_000410575_04               46.76%    passed     91.32%
+ 269  Pseudomonas_putida_000410575_05               11.18%    passed     96.61%
+ 270  Pseudomonas_chlororaphis_003850505_00          8.95%    passed     94.23%
+ 271  Pseudomonas_chlororaphis_003850505_01         12.75%    passed     95.69%
+ 272  Pseudomonas_chlororaphis_003850505_02         12.75%    passed     96.42%
+ 273  Pseudomonas_chlororaphis_003850505_03         12.74%    passed     97.42%
+ 274  Pseudomonas_chlororaphis_003850505_04         12.55%    passed     96.86%
+ 275  Pseudomonas_aeruginosa_001632245_00           12.92%    passed     97.32%
+ 276  Pseudomonas_aeruginosa_001632245_01           12.91%    passed     96.85%
+ 277  Pseudomonas_aeruginosa_001632245_02           12.89%    passed     98.59%
+ 278  Pseudomonas_aeruginosa_001632245_03           12.89%    passed     98.07%
+ 279  Pseudomonas_aeruginosa_002215345_00           12.89%    passed     98.16%
+ 280  Pseudomonas_aeruginosa_002215345_01           12.89%    passed     98.07%
+ 281  Pseudomonas_aeruginosa_002215345_02           12.89%    passed     97.58%
+ 282  Pseudomonas_aeruginosa_002215345_03           12.89%    passed     98.16%
+ 283  Pseudomonas_aeruginosa_003193645_00           12.92%    passed     97.39%
+ 284  Pseudomonas_aeruginosa_003193645_01           12.92%    passed     97.76%
+ 285  Pseudomonas_aeruginosa_003193645_02           12.92%    passed     97.76%
+ 286  Pseudomonas_aeruginosa_003193645_03           12.91%    passed     97.43%
+ 287  Pseudomonas_syringae_004006335_00              8.06%    passed     96.75%
+ 288  Pseudomonas_syringae_004006335_01             12.03%    passed     97.65%
+ 289  Pseudomonas_syringae_004006335_02             11.81%    passed     99.19%
+ 290  Pseudomonas_syringae_004006335_03             12.03%    passed     98.68%
+ 291  Pseudomonas_syringae_004006335_04             12.04%    passed     98.66%
+ 292  Pseudomonas_syringae_004006335_05             12.04%    passed     98.66%
+ 293  Pseudomonas_aeruginosa_001687285_00           12.89%    passed     98.07%
+ 294  Pseudomonas_aeruginosa_001687285_01           12.89%    passed     98.33%
+ 295  Pseudomonas_aeruginosa_001687285_02           12.87%    passed     98.66%
+ 296  Pseudomonas_aeruginosa_001687285_03           12.87%    passed     98.19%
+ 297  Pseudomonas_syringae_001281365_00             11.57%    passed     99.57%
+ 298  Pseudomonas_syringae_001281365_01             11.59%    passed     99.38%
+ 299  Pseudomonas_syringae_001281365_02              7.82%    passed     98.24%
+ 300  Pseudomonas_syringae_001281365_03             11.59%    passed     99.36%
+ 301  Pseudomonas_syringae_001281365_04             11.59%    passed     99.36%
+ 302  Pseudomonas_stutzeri_001648195_00             11.93%    passed     99.79%
+ 303  Pseudomonas_stutzeri_001648195_01             11.93%    passed     99.93%
+ 304  Pseudomonas_stutzeri_001648195_02             11.93%    passed     99.93%
+ 305  Pseudomonas_stutzeri_001648195_03             11.93%    passed     99.79%
+ 306  Pseudomonas_putida_000495455_00               12.28%    passed     99.00%
+ 307  Pseudomonas_putida_000495455_01               12.28%    passed     98.59%
+ 308  Pseudomonas_putida_000495455_02               12.28%    passed     98.82%
+ 309  Pseudomonas_putida_000495455_03               12.28%    passed     99.00%
+ 310  Pseudomonas_putida_000495455_04               12.42%    passed     98.97%
+ 311  Pseudomonas_putida_000495455_05               12.62%    passed     99.23%
+ 312  Pseudomonas_aeruginosa_002968655_00           12.91%    passed     98.19%
+ 313  Pseudomonas_aeruginosa_002968655_01           12.89%    passed     97.54%
+ 314  Pseudomonas_aeruginosa_002968655_02           12.89%    passed     98.09%
+ 315  Pseudomonas_aeruginosa_002968655_03           12.89%    passed     97.54%
+ 316  Pseudomonas_aeruginosa_002085755_00           12.91%    passed     99.00%
+ 317  Pseudomonas_aeruginosa_002085755_01           12.91%    passed     99.00%
+ 318  Pseudomonas_aeruginosa_002085755_02           12.89%    passed     98.54%
+ 319  Pseudomonas_aeruginosa_002085755_03           12.91%    passed     99.00%
+ 320  Pseudomonas_stutzeri_003952685_00             11.45%    passed     85.95%
+ 321  Pseudomonas_stutzeri_003952685_01             11.69%    passed     92.85%
+ 322  Pseudomonas_stutzeri_003952685_02              7.92%    passed     83.47%
+ 323  Pseudomonas_stutzeri_003952685_03             11.69%    passed     93.56%
+ 324  Pseudomonas_stutzeri_003952685_04             15.03%    passed     81.09%
+ 325  Pseudomonas_stutzeri_003952685_05             11.47%    passed     84.24%
+ 326  Pseudomonas_stutzeri_003952685_06             11.69%    passed     92.85%
+ 327  Pseudomonas_fluorescens_000262325_00           8.16%    passed     79.32%
+ 328  Pseudomonas_fluorescens_000262325_01          11.72%    passed     77.40%
+ 329  Pseudomonas_fluorescens_000262325_02          11.94%    passed     89.06%
+ 330  Pseudomonas_fluorescens_000262325_03          11.74%    passed     78.70%
+ 331  Pseudomonas_fluorescens_000262325_04          11.96%    passed     88.19%
+ 332  Pseudomonas_fluorescens_000262325_05          11.96%    passed     87.80%
+ 333  Pseudomonas_aeruginosa_001900195_00           12.87%    passed     98.43%
+ 334  Pseudomonas_aeruginosa_001900195_01           53.41%    passed     95.14%
+ 335  Pseudomonas_aeruginosa_001900195_02           73.92%    passed     41.53%
+ 336  Pseudomonas_aeruginosa_001900195_03           17.25%    passed     98.53%
+ 337  Pseudomonas_aeruginosa_001900195_04           12.87%    passed     98.43%
+ 338  Pseudomonas_putida_003671955_01               13.06%    passed     99.89%
+ 339  Pseudomonas_putida_003671955_02               13.06%    passed     99.88%
+ 340  Pseudomonas_putida_003671955_03               13.04%    passed     99.86%
+ 341  Pseudomonas_putida_003671955_04               13.06%    passed     99.80%
+ 342  Pseudomonas_putida_003671955_05               13.06%    passed     99.89%
+ 343  Pseudomonas_aeruginosa_001900225_00           12.87%    passed     98.43%
+ 344  Pseudomonas_aeruginosa_001900225_01           53.41%    passed     95.14%
+ 345  Pseudomonas_aeruginosa_001900225_02           73.92%    passed     41.53%
+ 346  Pseudomonas_aeruginosa_001900225_03           17.25%    passed     98.53%
+ 347  Pseudomonas_aeruginosa_001900225_04           12.87%    passed     98.43%
+ 348  Pseudomonas_aeruginosa_002812885_00           12.89%    passed     97.83%
+ 349  Pseudomonas_aeruginosa_002812885_01           12.89%    passed     97.83%
+ 350  Pseudomonas_aeruginosa_002812885_02           12.89%    passed     97.43%
+ 351  Pseudomonas_aeruginosa_002812885_03           12.89%    passed     97.76%
+ 352  Pseudomonas_syringae_900235835_00             11.45%    passed     97.58%
+ 353  Pseudomonas_syringae_900235835_01             11.45%    passed     97.58%
+ 354  Pseudomonas_syringae_900235835_02             11.45%    passed     97.58%
+ 355  Pseudomonas_syringae_900235835_03             11.45%    passed     97.09%
+ 356  Pseudomonas_syringae_900235835_04              7.69%    passed     98.87%
+ 357  Pseudomonas_chlororaphis_003945765_00          8.89%    passed     90.52%
+ 358  Pseudomonas_chlororaphis_003945765_01         12.70%    passed     97.49%
+ 359  Pseudomonas_chlororaphis_003945765_02         12.70%    passed     96.83%
+ 360  Pseudomonas_chlororaphis_003945765_03         12.70%    passed     97.36%
+ 361  Pseudomonas_chlororaphis_003945765_04         12.70%    passed     97.23%
+ 362  Pseudomonas_frederiksbergensis_002355315_00   11.96%    passed     99.17%
+ 363  Pseudomonas_frederiksbergensis_002355315_01   10.71%    passed     95.44%
+ 364  Pseudomonas_frederiksbergensis_002355315_02   11.69%    passed     99.25%
+ 365  Pseudomonas_frederiksbergensis_002355315_03   10.73%    passed     95.50%
+ 366  Pseudomonas_frederiksbergensis_002355315_04   10.71%    passed     95.44%
+ 367  Pseudomonas_frederiksbergensis_002355315_05   11.50%    passed     92.01%
+ 368  Pseudomonas_putida_003290365_00               13.33%    passed     97.51%
+ 369  Pseudomonas_putida_003290365_01               11.57%    passed     97.74%
+ 370  Pseudomonas_putida_003290365_02               11.57%    passed     97.67%
+ 371  Pseudomonas_putida_003290365_03               13.24%    passed     96.23%
+ 372  Pseudomonas_putida_003290365_04               13.31%    passed     98.71%
+ 373  Pseudomonas_putida_003290365_05                9.68%    passed     93.64%
+ 374  Pseudomonas_aeruginosa_003952325_00           12.82%    passed     98.58%
+ 375  Pseudomonas_aeruginosa_003952325_01           12.77%    passed     98.15%
+ 376  Pseudomonas_aeruginosa_003952325_02           12.85%    passed     97.83%
+ 377  Pseudomonas_aeruginosa_003952325_03           12.89%    passed     98.36%
+ 378  Pseudomonas_syringae_000648735_00             11.52%    passed     97.10%
+ 379  Pseudomonas_syringae_000648735_01             11.52%    passed     97.10%
+ 380  Pseudomonas_syringae_000648735_02             11.52%    passed     97.52%
+ 381  Pseudomonas_syringae_000648735_03             11.52%    passed     97.10%
+ 382  Pseudomonas_syringae_000648735_04              7.75%    passed     98.19%
+ 383  Pseudomonas_aeruginosa_002411865_00           12.87%    passed     98.59%
+ 384  Pseudomonas_aeruginosa_002411865_01           12.87%    passed     98.59%
+ 385  Pseudomonas_aeruginosa_002411865_02           12.87%    passed     98.59%
+ 386  Pseudomonas_aeruginosa_002411865_03           12.87%    passed     98.59%
+ 387  Pseudomonas_chlororaphis_003850485_00          8.94%    passed     95.70%
+ 388  Pseudomonas_chlororaphis_003850485_01         12.74%    passed     96.82%
+ 389  Pseudomonas_chlororaphis_003850485_02         12.55%    passed     96.86%
+ 390  Pseudomonas_chlororaphis_003850485_03         12.74%    passed     97.42%
+ 391  Pseudomonas_chlororaphis_003850485_04         12.74%    passed     96.82%
+ 392  Pseudomonas_chlororaphis_003851955_00          8.94%    passed     91.02%
+ 393  Pseudomonas_chlororaphis_003851955_01         12.75%    passed     93.57%
+ 394  Pseudomonas_chlororaphis_003851955_02         12.58%    passed     96.45%
+ 395  Pseudomonas_chlororaphis_003851955_03         12.58%    passed     95.62%
+ 396  Pseudomonas_chlororaphis_003851955_04         12.58%    passed     95.62%
+ 397  Pseudomonas_fluorescens_003410335_00          11.99%    passed     99.08%
+ 398  Pseudomonas_fluorescens_003410335_01          11.71%    passed     98.08%
+ 399  Pseudomonas_fluorescens_003410335_02          11.72%    passed     98.03%
+ 400  Pseudomonas_fluorescens_003410335_03           7.97%    passed     98.53%
+ 401  Pseudomonas_fluorescens_003410335_04          11.71%    passed     98.55%
+ 402  Pseudomonas_aeruginosa_003073695_00           12.97%    passed     98.28%
+ 403  Pseudomonas_aeruginosa_003073695_01           12.99%    passed     99.15%
+ 404  Pseudomonas_aeruginosa_003073695_02           12.91%    passed     97.48%
+ 405  Pseudomonas_aeruginosa_003073695_03           12.99%    passed     97.93%
+ 406  Pseudomonas_orientalis_003852045_00            7.92%    passed     79.00%
+ 407  Pseudomonas_orientalis_003852045_01           11.52%    passed     84.46%
+ 408  Pseudomonas_orientalis_003852045_02           11.91%    passed     96.08%
+ 409  Pseudomonas_orientalis_003852045_03           11.72%    passed     92.41%
+ 410  Pseudomonas_orientalis_003852045_04           11.74%    passed     92.45%
+ 411  Pseudomonas_orientalis_003852045_05           11.42%    passed     88.88%
+ 412  Pseudomonas_stutzeri_000267545_00             12.08%    passed     99.62%
+ 413  Pseudomonas_stutzeri_000267545_01             12.08%    passed     99.43%
+ 414  Pseudomonas_stutzeri_000267545_02             12.06%    passed     99.42%
+ 415  Pseudomonas_stutzeri_000267545_03             12.08%    passed     99.43%
+ 416  Pseudomonas_aeruginosa_001721765_00           12.89%    passed     97.93%
+ 417  Pseudomonas_aeruginosa_001721765_01           12.87%    passed     97.51%
+ 418  Pseudomonas_aeruginosa_001721765_02           12.87%    passed     98.25%
+ 419  Pseudomonas_aeruginosa_001721765_03           12.91%    passed     97.74%
+ 420  Pseudomonas_aeruginosa_000816985_00           12.89%    passed     98.33%
+ 421  Pseudomonas_aeruginosa_000816985_01           12.89%    passed     97.30%
+ 422  Pseudomonas_aeruginosa_000816985_02           12.89%    passed     98.09%
+ 423  Pseudomonas_aeruginosa_000816985_03           12.87%    passed     98.61%
+ 424  Pseudomonas_aeruginosa_001516385_00           12.89%    passed     97.86%
+ 425  Pseudomonas_aeruginosa_001516385_01           12.87%    passed     98.80%
+ 426  Pseudomonas_aeruginosa_001516385_02           12.87%    passed     98.80%
+ 427  Pseudomonas_aeruginosa_001516385_03           12.87%    passed     97.97%
+ 428  Pseudomonas_fluorescens_003612935_00           7.89%    passed     72.38%
+ 429  Pseudomonas_fluorescens_003612935_01          11.67%    passed     87.36%
+ 430  Pseudomonas_fluorescens_003612935_02          11.67%    passed     87.36%
+ 431  Pseudomonas_fluorescens_003612935_03          11.67%    passed     87.36%
+ 432  Pseudomonas_fluorescens_003612935_04          11.67%    passed     87.41%
+ 433  Pseudomonas_synxantha_003851495_00             8.09%    passed     78.18%
+ 434  Pseudomonas_synxantha_003851495_01            12.40%    passed     86.05%
+ 435  Pseudomonas_synxantha_003851495_02            11.76%    passed     80.38%
+ 436  Pseudomonas_synxantha_003851495_03            10.74%    passed     88.63%
+ 437  Pseudomonas_synxantha_003851495_04            11.76%    passed     80.38%
+ 438  Pseudomonas_synxantha_003851495_05            11.76%    passed     79.08%
+ 439  Pseudomonas_mendocina_000733715_00            12.23%    passed     99.64%
+ 440  Pseudomonas_mendocina_000733715_01            12.23%    passed     99.64%
+ 441  Pseudomonas_mendocina_000733715_02            12.23%    passed     99.64%
+ 442  Pseudomonas_mendocina_000733715_03            12.23%    passed     99.77%
+ 443  Pseudomonas_aeruginosa_000026645_00           12.89%    passed     97.58%
+ 444  Pseudomonas_aeruginosa_000026645_01           12.89%    passed     98.33%
+ 445  Pseudomonas_aeruginosa_000026645_02           12.89%    passed     98.33%
+ 446  Pseudomonas_aeruginosa_000026645_03           12.89%    passed     98.72%
+ 447  Pseudomonas_chlororaphis_003851265_00          8.82%    passed     95.05%
+ 448  Pseudomonas_chlororaphis_003851265_01         12.79%    passed     97.47%
+ 449  Pseudomonas_chlororaphis_003851265_02         12.64%    passed     99.09%
+ 450  Pseudomonas_chlororaphis_003851265_03         12.77%    passed     97.42%
+ 451  Pseudomonas_chlororaphis_003851265_04         12.77%    passed     98.02%
+ 452  Pseudomonas_aeruginosa_003812885_00           12.91%    passed     99.00%
+ 453  Pseudomonas_aeruginosa_003812885_01           12.91%    passed     98.45%
+ 454  Pseudomonas_aeruginosa_003812885_02           12.91%    passed     99.00%
+ 455  Pseudomonas_aeruginosa_003812885_03           12.92%    passed     99.07%
+ 456  Pseudomonas_aeruginosa_000524595_00           12.87%    passed     98.43%
+ 457  Pseudomonas_aeruginosa_000524595_01           12.89%    passed     97.86%
+ 458  Pseudomonas_aeruginosa_000524595_02           12.87%    passed     98.43%
+ 459  Pseudomonas_aeruginosa_000524595_03           12.87%    passed     97.97%
+ 460  Pseudomonas_aeruginosa_001900265_00           12.87%    passed     98.43%
+ 461  Pseudomonas_aeruginosa_001900265_01           73.92%    passed     41.53%
+ 462  Pseudomonas_aeruginosa_001900265_02           53.41%    passed     95.14%
+ 463  Pseudomonas_aeruginosa_001900265_03           12.87%    passed     98.43%
+ 464  Pseudomonas_aeruginosa_001900265_04           12.87%    passed     98.43%
+ 465  Pseudomonas_protegens_000397205_00            12.09%    passed     81.73%
+ 466  Pseudomonas_protegens_000397205_01            12.09%    passed     81.73%
+ 467  Pseudomonas_protegens_000397205_02            12.09%    passed     83.08%
+ 468  Pseudomonas_protegens_000397205_03            12.09%    passed     81.73%
+ 469  Pseudomonas_protegens_000397205_04            12.09%    passed     81.73%
+ 470  Pseudomonas_fluorescens_000293885_00          73.87%    passed     59.71%
+ 471  Pseudomonas_fluorescens_000293885_01          12.18%    passed     98.61%
+ 472  Pseudomonas_fluorescens_000293885_02           8.19%    passed     89.24%
+ 473  Pseudomonas_fluorescens_000293885_03          12.62%    passed     97.27%
+ 474  Pseudomonas_fluorescens_000293885_04          11.93%    passed     97.84%
+ 475  Pseudomonas_fluorescens_000293885_05          12.18%    passed     98.63%
+ 476  Pseudomonas_fluorescens_000293885_06          46.39%    passed     74.56%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                         13.44%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 126 identical sequences will be ignored during tree search
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.088 seconds
+
+NOTE: 60 MB RAM is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -40368.947
+2. Current log-likelihood: -37098.201
+3. Current log-likelihood: -36714.680
+4. Current log-likelihood: -36713.035
+Optimal log-likelihood: -36713.030
+Rate parameters:  A-C: 1.000  A-G: 2.840  A-T: 1.000  C-G: 1.000  C-T: 2.840  G-T: 1.000
+Base frequencies:   A: 0.261  C: 0.219  G: 0.302  T: 0.218
+Gamma shape alpha: 0.136
+Parameters optimization took 4 rounds (2.295 sec)
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Computing ML distances based on estimated model parameters... 1.812 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.078 seconds
+Log-likelihood of BIONJ tree: -37617.608
+Generating 98 parsimony trees... 10.387 seconds 100 distinct starting trees
+Computing log-likelihood of 100 initial trees ... 11.903 seconds
+Optimizing top 20 initial trees with NNI...
+Iteration 1 / LogL: -36561.360 / Time: 0h:0m:26s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -36561.240
+Iteration 2 / LogL: -36569.394 / Time: 0h:0m:26s
+Iteration 3 / LogL: -36578.097 / Time: 0h:0m:27s
+Iteration 4 / LogL: -36555.858 / Time: 0h:0m:28s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -36555.800
+Iteration 5 / LogL: -36566.302 / Time: 0h:0m:29s
+Iteration 6 / LogL: -36581.595 / Time: 0h:0m:29s
+Iteration 7 / LogL: -36569.067 / Time: 0h:0m:30s
+Iteration 8 / LogL: -36583.889 / Time: 0h:0m:30s
+Iteration 9 / LogL: -36600.157 / Time: 0h:0m:31s
+Iteration 10 / LogL: -36589.397 / Time: 0h:0m:31s
+Iteration 11 / LogL: -36583.009 / Time: 0h:0m:32s
+Iteration 12 / LogL: -36593.358 / Time: 0h:0m:32s
+Iteration 13 / LogL: -36577.532 / Time: 0h:0m:33s
+Iteration 14 / LogL: -36578.610 / Time: 0h:0m:33s
+Iteration 15 / LogL: -36607.776 / Time: 0h:0m:34s
+Iteration 16 / LogL: -36592.799 / Time: 0h:0m:34s
+Iteration 17 / LogL: -36612.728 / Time: 0h:0m:36s
+Iteration 18 / LogL: -36596.041 / Time: 0h:0m:36s
+Iteration 19 / LogL: -36592.901 / Time: 0h:0m:37s
+Iteration 20 / LogL: -36604.236 / Time: 0h:0m:37s
+Average CPU time for 1 NNI search: 4.634
+Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
+Current best tree score: -36555.800 / CPU time: 196.128
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 28: -36545.379
+Iteration 30 / LogL: -36603.626 / Time: 0h:0m:47s (0h:2m:41s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 31: -36539.624
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 33: -36536.226
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 36: -36517.359
+Iteration 40 / LogL: -36635.566 / Time: 0h:0m:59s (0h:2m:25s left)
+Iteration 50 / LogL: -36528.304 / Time: 0h:1m:10s (0h:2m:3s left)
+Iteration 60 / LogL: -36567.432 / Time: 0h:1m:22s (0h:1m:46s left)
+Iteration 70 / LogL: -36585.949 / Time: 0h:1m:33s (0h:1m:29s left)
+Iteration 80 / LogL: -36626.877 / Time: 0h:1m:44s (0h:1m:14s left)
+Iteration 90 / LogL: -36589.414 / Time: 0h:1m:54s (0h:0m:59s left)
+Iteration 100 / LogL: -36555.393 / Time: 0h:2m:5s (0h:0m:45s left)
+Iteration 110 / LogL: -36515.574 / Time: 0h:2m:17s (0h:0m:32s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 110: -36515.553
+Iteration 120 / LogL: -36573.352 / Time: 0h:2m:28s (0h:1m:52s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 122: -36512.154
+Iteration 130 / LogL: -36555.054 / Time: 0h:2m:41s (0h:1m:54s left)
+Iteration 140 / LogL: -36752.759 / Time: 0h:2m:52s (0h:1m:41s left)
+Iteration 150 / LogL: -36649.799 / Time: 0h:3m:2s (0h:1m:28s left)
+Iteration 160 / LogL: -36766.887 / Time: 0h:3m:14s (0h:1m:15s left)
+Iteration 170 / LogL: -36592.128 / Time: 0h:3m:23s (0h:1m:2s left)
+Iteration 180 / LogL: -36536.562 / Time: 0h:3m:34s (0h:0m:50s left)
+Iteration 190 / LogL: -36626.003 / Time: 0h:3m:44s (0h:0m:37s left)
+Iteration 200 / LogL: -36558.342 / Time: 0h:3m:55s (0h:0m:26s left)
+Iteration 210 / LogL: -36718.166 / Time: 0h:4m:5s (0h:0m:14s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 214: -36510.816
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 218: -36509.496
+Iteration 220 / LogL: -36580.076 / Time: 0h:4m:17s (0h:1m:55s left)
+Iteration 230 / LogL: -36509.388 / Time: 0h:4m:27s (0h:1m:42s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 230: -36508.856
+Iteration 240 / LogL: -36555.853 / Time: 0h:4m:39s (0h:1m:45s left)
+Iteration 250 / LogL: -36562.135 / Time: 0h:4m:50s (0h:1m:33s left)
+Iteration 260 / LogL: -36574.575 / Time: 0h:4m:59s (0h:1m:20s left)
+Iteration 270 / LogL: -36569.127 / Time: 0h:5m:10s (0h:1m:9s left)
+Iteration 280 / LogL: -36520.937 / Time: 0h:5m:20s (0h:0m:57s left)
+Iteration 290 / LogL: -36589.015 / Time: 0h:5m:29s (0h:0m:45s left)
+Iteration 300 / LogL: -36521.375 / Time: 0h:5m:39s (0h:0m:33s left)
+Iteration 310 / LogL: -36588.713 / Time: 0h:5m:49s (0h:0m:22s left)
+Iteration 320 / LogL: -36800.706 / Time: 0h:5m:59s (0h:0m:11s left)
+Iteration 330 / LogL: -36582.463 / Time: 0h:6m:10s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 330 ITERATIONS / Time: 0h:6m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -36508.857
+2. Current log-likelihood: -36508.827
+Optimal log-likelihood: -36508.827
+Rate parameters:  A-C: 1.000  A-G: 2.843  A-T: 1.000  C-G: 1.000  C-T: 2.843  G-T: 1.000
+Base frequencies:   A: 0.261  C: 0.219  G: 0.302  T: 0.218
+Gamma shape alpha: 0.134
+Parameters optimization took 2 rounds (0.921 sec)
+
+BEST SCORE FOUND : -36508.827
+Total tree length: 3.034
+
+Total number of iterations: 330
+CPU time used for tree search: 2786.960 sec (0h:46m:26s)
+Wall-clock time used for tree search: 367.642 sec (0h:6m:7s)
+Total CPU time used: 2815.436 sec (0h:46m:55s)
+Total wall-clock time used: 371.832 sec (0h:6m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./014_results/operon.fasta.iqtree
+  Maximum-likelihood tree:       ./014_results/operon.fasta.treefile
+  Likelihood distances:          ./014_results/operon.fasta.mldist
+  Screen log file:               ./014_results/operon.fasta.log
+
+Date and Time: Fri Feb 22 13:34:15 2019

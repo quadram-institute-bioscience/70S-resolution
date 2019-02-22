@@ -1,0 +1,973 @@
+IQ-TREE 1.3.11.1 built Feb  1 2016
+
+Input file name: ./014_results/Staphylococcus.fasta
+Type of analysis: tree reconstruction
+Random seed number: 882015
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh (2015)
+IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol. Biol. Evol., 32:268-274.
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 442 sequences with 7296 nucleotide sites
+Number of constant sites: 5959 (= 81.6749% of all sites)
+Number of site patterns: 1456
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.4330
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.4330
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2816
+  pi(C) = 0.2035
+  pi(G) = 0.2817
+  pi(T) = 0.2331
+
+Rate matrix Q:
+
+  A    -1.012    0.1835    0.6182    0.2102
+  C     0.254     -1.02    0.2541    0.5115
+  G    0.6179    0.1835    -1.012    0.2102
+  T     0.254    0.4465    0.2541   -0.9545
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.1571
+
+ Category  Relative_rate  Proportion
+  1         8.066e-05      0.25
+  2         0.01325        0.25
+  3         0.2632         0.25
+  4         3.723          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -29735.1920 (s.e. 606.3262)
+Unconstrained log-likelihood (without tree): -34019.3595
+Number of free parameters (#branches + #model parameters): 886
+Akaike information criterion (AIC) score: 61242.3840
+Corrected Akaike information criterion (AICc) score: 61487.6272
+Bayesian information criterion (BIC) score: 67351.4262
+
+Total tree length (sum of branch lengths): 0.9727
+Sum of internal branch lengths: 0.6690 (68.7831% of tree length)
+
+WARNING: 226 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Staphylococcus_aureus_900324415_01' is drawn at root
+
++**Staphylococcus_aureus_900324415_01
+|
+|                             +--Staphylococcus_aureus_900324415_02
+|                          +--|
+|                          |  |  +--Staphylococcus_aureus_900324285_00
+|                          |  +**|
+|                          |     |  +--Staphylococcus_aureus_002089055_04
+|                          |     +**|
+|                          |        |     +**Staphylococcus_aureus_900324295_02
+|                          |        |  +**|
+|                          |        |  |  +**Staphylococcus_aureus_900324315_02
+|                          |        +**|
+|                          |           |  +--Staphylococcus_aureus_003111745_04
+|                          |           +**|
+|                          |              +**Staphylococcus_aureus_002204575_04
+|                       +--|
+|                       |  +**Staphylococcus_aureus_002089095_04
+|                    +--|
+|                    |  +**Staphylococcus_aureus_001465635_04
+|                 +--|
+|                 |  |              +--Staphylococcus_aureus_900324415_03
+|                 |  |           +**|
+|                 |  |           |  +**Staphylococcus_aureus_900324315_01
+|                 |  |        +--|
+|                 |  |        |  |  +**Staphylococcus_aureus_900324285_01
+|                 |  |        |  +**|
+|                 |  |        |     +**Staphylococcus_aureus_900324295_01
+|                 |  |     +**|
+|                 |  |     |  |                                                        +--Staphylococcus_aureus_900324415_04
+|                 |  |     |  |                                                     +--|
+|                 |  |     |  |                                                     |  |     +**Staphylococcus_aureus_900324285_02
+|                 |  |     |  |                                                     |  |  +**|
+|                 |  |     |  |                                                     |  |  |  +**Staphylococcus_aureus_900324315_00
+|                 |  |     |  |                                                     |  +**|
+|                 |  |     |  |                                                     |     +--Staphylococcus_aureus_900324295_00
+|                 |  |     |  |                                                  +--|
+|                 |  |     |  |                                                  |  |  +--Staphylococcus_aureus_002089055_02
+|                 |  |     |  |                                                  |  +**|
+|                 |  |     |  |                                                  |     |  +--Staphylococcus_aureus_003111745_02
+|                 |  |     |  |                                                  |     +**|
+|                 |  |     |  |                                                  |        |  +**Staphylococcus_aureus_001465635_02
+|                 |  |     |  |                                                  |        +**|
+|                 |  |     |  |                                                  |           +**Staphylococcus_aureus_002204575_02
+|                 |  |     |  |                                               +--|
+|                 |  |     |  |                                               |  |           +--Staphylococcus_aureus_003354865_02
+|                 |  |     |  |                                               |  |        +--|
+|                 |  |     |  |                                               |  |        |  |        +--Staphylococcus_aureus_002795285_02
+|                 |  |     |  |                                               |  |        |  |     +**|
+|                 |  |     |  |                                               |  |        |  |     |  +**Staphylococcus_aureus_003573835_02
+|                 |  |     |  |                                               |  |        |  |  +**|
+|                 |  |     |  |                                               |  |        |  |  |  +--Staphylococcus_aureus_003952625_04
+|                 |  |     |  |                                               |  |        |  +**|
+|                 |  |     |  |                                               |  |        |     +**Staphylococcus_aureus_002633825_02
+|                 |  |     |  |                                               |  |     +**|
+|                 |  |     |  |                                               |  |     |  +--Staphylococcus_aureus_003193785_02
+|                 |  |     |  |                                               |  |  +--|
+|                 |  |     |  |                                               |  |  |  +--Staphylococcus_aureus_003347055_02
+|                 |  |     |  |                                               |  +--|
+|                 |  |     |  |                                               |     +--Staphylococcus_aureus_900474695_02
+|                 |  |     |  |                                            +--|
+|                 |  |     |  |                                            |  |     +--Staphylococcus_aureus_900323965_00
+|                 |  |     |  |                                            |  |  +--|
+|                 |  |     |  |                                            |  |  |  |  +--Staphylococcus_aureus_900004855_01
+|                 |  |     |  |                                            |  |  |  +--|
+|                 |  |     |  |                                            |  |  |     +--Staphylococcus_aureus_900004855_02
+|                 |  |     |  |                                            |  +--|
+|                 |  |     |  |                                            |     |                                         +--Staphylococcus_xylosus_002078255_00
+|                 |  |     |  |                                            |     |                          +--------------|
+|                 |  |     |  |                                            |     |                          |              |  +**Staphylococcus_xylosus_002078255_01
+|                 |  |     |  |                                            |     |                          |              +--|
+|                 |  |     |  |                                            |     |                          |                 +**Staphylococcus_xylosus_002078255_02
+|                 |  |     |  |                                            |     |                       +--|
+|                 |  |     |  |                                            |     |                       |  |                        +--Staphylococcus_condimenti_900637235_00
+|                 |  |     |  |                                            |     |                       |  |                     +--|
+|                 |  |     |  |                                            |     |                       |  |                     |  +--Staphylococcus_condimenti_900637235_01
+|                 |  |     |  |                                            |     |                       |  |                  +--|
+|                 |  |     |  |                                            |     |                       |  |                  |  +--Staphylococcus_condimenti_900637235_02
+|                 |  |     |  |                                            |     |                       |  |           +------|
+|                 |  |     |  |                                            |     |                       |  |           |      +**Staphylococcus_condimenti_900637235_04
+|                 |  |     |  |                                            |     |                       |  +-----------|
+|                 |  |     |  |                                            |     |                       |              |      +--Staphylococcus_simulans_003096155_00
+|                 |  |     |  |                                            |     |                       |              |   +--|
+|                 |  |     |  |                                            |     |                       |              |   |  +--Staphylococcus_simulans_003096155_02
+|                 |  |     |  |                                            |     |                       |              +---|
+|                 |  |     |  |                                            |     |                       |                  |  +--Staphylococcus_simulans_003096155_01
+|                 |  |     |  |                                            |     |                       |                  +**|
+|                 |  |     |  |                                            |     |                       |                     +--Staphylococcus_simulans_003096155_04
+|                 |  |     |  |                                            |     |                 +-----|
+|                 |  |     |  |                                            |     |                 |     |                       +--Staphylococcus_hyicus_900474585_00
+|                 |  |     |  |                                            |     |                 |     |                    +--|
+|                 |  |     |  |                                            |     |                 |     |                    |  +--Staphylococcus_hyicus_900474585_01
+|                 |  |     |  |                                            |     |                 |     +--------------------|
+|                 |  |     |  |                                            |     |                 |                          |  +--Staphylococcus_hyicus_900474585_02
+|                 |  |     |  |                                            |     |                 |                          +--|
+|                 |  |     |  |                                            |     |                 |                             +**Staphylococcus_hyicus_900474585_04
+|                 |  |     |  |                                            |     |              +--|
+|                 |  |     |  |                                            |     |              |  |                          +--Staphylococcus_haemolyticus_000009865_00
+|                 |  |     |  |                                            |     |              |  |                       +--|
+|                 |  |     |  |                                            |     |              |  |                       |  +--Staphylococcus_haemolyticus_002952715_00
+|                 |  |     |  |                                            |     |              |  |                    +**|
+|                 |  |     |  |                                            |     |              |  |                    |  |  +--Staphylococcus_haemolyticus_000009865_01
+|                 |  |     |  |                                            |     |              |  |                    |  +--|
+|                 |  |     |  |                                            |     |              |  |                    |     +--Staphylococcus_haemolyticus_002952715_04
+|                 |  |     |  |                                            |     |              |  |              +-----|
+|                 |  |     |  |                                            |     |              |  |              |     |  +--Staphylococcus_haemolyticus_000009865_04
+|                 |  |     |  |                                            |     |              |  |              |     +--|
+|                 |  |     |  |                                            |     |              |  |              |        +--Staphylococcus_haemolyticus_002952715_01
+|                 |  |     |  |                                            |     |              |  |           +--|
+|                 |  |     |  |                                            |     |              |  |           |  |  +--Staphylococcus_haemolyticus_000009865_02
+|                 |  |     |  |                                            |     |              |  |           |  +--|
+|                 |  |     |  |                                            |     |              |  |           |     +**Staphylococcus_haemolyticus_002952715_03
+|                 |  |     |  |                                            |     |              |  |  +--------|
+|                 |  |     |  |                                            |     |              |  |  |        +--Staphylococcus_haemolyticus_000009865_03
+|                 |  |     |  |                                            |     |              |  +--|
+|                 |  |     |  |                                            |     |              |     |                   +--Staphylococcus_lugdunensis_000025085_00
+|                 |  |     |  |                                            |     |              |     |                +**|
+|                 |  |     |  |                                            |     |              |     |                |  |     +**Staphylococcus_lugdunensis_002591215_03
+|                 |  |     |  |                                            |     |              |     |                |  |  +--|
+|                 |  |     |  |                                            |     |              |     |                |  |  |  +--Staphylococcus_lugdunensis_002250095_01
+|                 |  |     |  |                                            |     |              |     |                |  +--|
+|                 |  |     |  |                                            |     |              |     |                |     +--Staphylococcus_lugdunensis_002250095_00
+|                 |  |     |  |                                            |     |              |     |             +**|
+|                 |  |     |  |                                            |     |              |     |             |  +--Staphylococcus_lugdunensis_000025085_04
+|                 |  |     |  |                                            |     |              |     |        +----|
+|                 |  |     |  |                                            |     |              |     |        |    |  +--Staphylococcus_lugdunensis_000025085_01
+|                 |  |     |  |                                            |     |              |     |        |    +--|
+|                 |  |     |  |                                            |     |              |     |        |       |     +**Staphylococcus_lugdunensis_002591215_01
+|                 |  |     |  |                                            |     |              |     |        |       |  +--|
+|                 |  |     |  |                                            |     |              |     |        |       |  |  +**Staphylococcus_lugdunensis_002250095_05
+|                 |  |     |  |                                            |     |              |     |        |       +--|
+|                 |  |     |  |                                            |     |              |     |        |          +--Staphylococcus_lugdunensis_002591215_02
+|                 |  |     |  |                                            |     |              |     |     +--|
+|                 |  |     |  |                                            |     |              |     |     |  |  +--Staphylococcus_lugdunensis_000025085_02
+|                 |  |     |  |                                            |     |              |     |     |  +--|
+|                 |  |     |  |                                            |     |              |     |     |     |  +**Staphylococcus_lugdunensis_002591215_04
+|                 |  |     |  |                                            |     |              |     |     |     +--|
+|                 |  |     |  |                                            |     |              |     |     |        +**Staphylococcus_lugdunensis_002250095_02
+|                 |  |     |  |                                            |     |              |     +-----|
+|                 |  |     |  |                                            |     |              |           |  +--Staphylococcus_lugdunensis_002250095_03
+|                 |  |     |  |                                            |     |              |           +--|
+|                 |  |     |  |                                            |     |              |              +--Staphylococcus_lugdunensis_002250095_04
+|                 |  |     |  |                                            |     |           +--|
+|                 |  |     |  |                                            |     |           |  |                         +--Staphylococcus_warneri_900636265_00
+|                 |  |     |  |                                            |     |           |  |                      +--|
+|                 |  |     |  |                                            |     |           |  |                      |  +--Staphylococcus_warneri_900636265_01
+|                 |  |     |  |                                            |     |           |  |                   +--|
+|                 |  |     |  |                                            |     |           |  |                   |  |  +**Staphylococcus_warneri_003571725_00
+|                 |  |     |  |                                            |     |           |  |                   |  +--|
+|                 |  |     |  |                                            |     |           |  |                   |     |     +**Staphylococcus_epidermidis_900636255_00
+|                 |  |     |  |                                            |     |           |  |                   |     |  +--|
+|                 |  |     |  |                                            |     |           |  |                   |     |  |  +--Staphylococcus_epidermidis_900636255_01
+|                 |  |     |  |                                            |     |           |  |                   |     +--|
+|                 |  |     |  |                                            |     |           |  |                   |        +--Staphylococcus_epidermidis_900636255_04
+|                 |  |     |  |                                            |     |           |  |                +**|
+|                 |  |     |  |                                            |     |           |  |                |  +**Staphylococcus_warneri_003691405_00
+|                 |  |     |  |                                            |     |           |  |             +--|
+|                 |  |     |  |                                            |     |           |  |             |  |           +--Staphylococcus_warneri_003691405_01
+|                 |  |     |  |                                            |     |           |  |             |  |        +**|
+|                 |  |     |  |                                            |     |           |  |             |  |        |  +--Staphylococcus_warneri_000332735_01
+|                 |  |     |  |                                            |     |           |  |             |  |     +**|
+|                 |  |     |  |                                            |     |           |  |             |  |     |  +--Staphylococcus_warneri_000332735_04
+|                 |  |     |  |                                            |     |           |  |             |  |  +--|
+|                 |  |     |  |                                            |     |           |  |             |  |  |  |  +**Staphylococcus_warneri_000332735_00
+|                 |  |     |  |                                            |     |           |  |             |  |  |  +**|
+|                 |  |     |  |                                            |     |           |  |             |  |  |     +**Staphylococcus_warneri_000332735_02
+|                 |  |     |  |                                            |     |           |  |             |  +--|
+|                 |  |     |  |                                            |     |           |  |             |     +**Staphylococcus_warneri_000332735_03
+|                 |  |     |  |                                            |     |           |  |        +----|
+|                 |  |     |  |                                            |     |           |  |        |    |     +--Staphylococcus_warneri_900636265_04
+|                 |  |     |  |                                            |     |           |  |        |    |  +--|
+|                 |  |     |  |                                            |     |           |  |        |    |  |  |  +**Staphylococcus_warneri_003571725_01
+|                 |  |     |  |                                            |     |           |  |        |    |  |  +**|
+|                 |  |     |  |                                            |     |           |  |        |    |  |     +--Staphylococcus_warneri_003571725_04
+|                 |  |     |  |                                            |     |           |  |        |    +**|
+|                 |  |     |  |                                            |     |           |  |        |       +--Staphylococcus_warneri_003691405_04
+|                 |  |     |  |                                            |     |           |  |     +--|
+|                 |  |     |  |                                            |     |           |  |     |  +--Staphylococcus_warneri_003691405_03
+|                 |  |     |  |                                            |     |           |  +-----|
+|                 |  |     |  |                                            |     |           |        |        +--Staphylococcus_warneri_900636265_02
+|                 |  |     |  |                                            |     |           |        |     +--|
+|                 |  |     |  |                                            |     |           |        |     |  +--Staphylococcus_warneri_003691405_02
+|                 |  |     |  |                                            |     |           |        |  +--|
+|                 |  |     |  |                                            |     |           |        |  |  +--Staphylococcus_epidermidis_900636255_02
+|                 |  |     |  |                                            |     |           |        +--|
+|                 |  |     |  |                                            |     |           |           +--Staphylococcus_warneri_003571725_02
+|                 |  |     |  |                                            |     +-----------|
+|                 |  |     |  |                                            |                 |                    +--Staphylococcus_epidermidis_002085695_00
+|                 |  |     |  |                                            |                 |                 +**|
+|                 |  |     |  |                                            |                 |                 |  +--Staphylococcus_epidermidis_900086615_03
+|                 |  |     |  |                                            |                 |              +--|
+|                 |  |     |  |                                            |                 |              |  |  +--Staphylococcus_epidermidis_000759555_02
+|                 |  |     |  |                                            |                 |              |  +--|
+|                 |  |     |  |                                            |                 |              |     +--Staphylococcus_epidermidis_000759555_03
+|                 |  |     |  |                                            |                 |           +--|
+|                 |  |     |  |                                            |                 |           |  +--Staphylococcus_epidermidis_002085695_01
+|                 |  |     |  |                                            |                 |        +**|
+|                 |  |     |  |                                            |                 |        |  |                 +--Staphylococcus_epidermidis_002085695_02
+|                 |  |     |  |                                            |                 |        |  |              +--|
+|                 |  |     |  |                                            |                 |        |  |              |  +--Staphylococcus_epidermidis_000759555_00
+|                 |  |     |  |                                            |                 |        |  |           +**|
+|                 |  |     |  |                                            |                 |        |  |           |  +--Staphylococcus_epidermidis_003856455_04
+|                 |  |     |  |                                            |                 |        |  |        +--|
+|                 |  |     |  |                                            |                 |        |  |        |  +--Staphylococcus_epidermidis_900086615_02
+|                 |  |     |  |                                            |                 |        |  |     +--|
+|                 |  |     |  |                                            |                 |        |  |     |  +--Staphylococcus_epidermidis_900086615_01
+|                 |  |     |  |                                            |                 |        |  |  +**|
+|                 |  |     |  |                                            |                 |        |  |  |  +**Staphylococcus_epidermidis_002085695_04
+|                 |  |     |  |                                            |                 |        |  +**|
+|                 |  |     |  |                                            |                 |        |     +--Staphylococcus_epidermidis_900086615_00
+|                 |  |     |  |                                            |                 |     +--|
+|                 |  |     |  |                                            |                 |     |  |        +--Staphylococcus_epidermidis_900086615_04
+|                 |  |     |  |                                            |                 |     |  |     +--|
+|                 |  |     |  |                                            |                 |     |  |     |  +--Staphylococcus_epidermidis_003856455_02
+|                 |  |     |  |                                            |                 |     |  |  +--|
+|                 |  |     |  |                                            |                 |     |  |  |  +--Staphylococcus_epidermidis_003856455_03
+|                 |  |     |  |                                            |                 |     |  +--|
+|                 |  |     |  |                                            |                 |     |     +**Staphylococcus_epidermidis_003856455_01
+|                 |  |     |  |                                            |                 |  +--|
+|                 |  |     |  |                                            |                 |  |  +--Staphylococcus_epidermidis_000759555_01
+|                 |  |     |  |                                            |                 +--|
+|                 |  |     |  |                                            |                    |          +**Staphylococcus_caprae_003966625_00
+|                 |  |     |  |                                            |                    |       +--|
+|                 |  |     |  |                                            |                    |       |  |  +--Staphylococcus_caprae_003966625_01
+|                 |  |     |  |                                            |                    |       |  +--|
+|                 |  |     |  |                                            |                    |       |     +--Staphylococcus_caprae_003966625_04
+|                 |  |     |  |                                            |                    |    +--|
+|                 |  |     |  |                                            |                    |    |  +--Staphylococcus_caprae_003966625_03
+|                 |  |     |  |                                            |                    +----|
+|                 |  |     |  |                                            |                         +--Staphylococcus_caprae_003966625_02
+|                 |  |     |  |                                         +--|
+|                 |  |     |  |                                         |  |     +**Staphylococcus_aureus_003354645_02
+|                 |  |     |  |                                         |  |  +--|
+|                 |  |     |  |                                         |  |  |  +--Staphylococcus_aureus_003354905_02
+|                 |  |     |  |                                         |  +--|
+|                 |  |     |  |                                         |     |                                      +--Staphylococcus_aureus_000967405_00
+|                 |  |     |  |                                         |     |                                   +--|
+|                 |  |     |  |                                         |     |                                   |  +--Staphylococcus_aureus_000967345_00
+|                 |  |     |  |                                         |     |                                +**|
+|                 |  |     |  |                                         |     |                                |  +--Staphylococcus_aureus_003203655_04
+|                 |  |     |  |                                         |     |                             +**|
+|                 |  |     |  |                                         |     |                             |  |     +**Staphylococcus_aureus_001018775_00
+|                 |  |     |  |                                         |     |                             |  |  +**|
+|                 |  |     |  |                                         |     |                             |  |  |  +**Staphylococcus_aureus_003194405_02
+|                 |  |     |  |                                         |     |                             |  +**|
+|                 |  |     |  |                                         |     |                             |     +**Staphylococcus_aureus_003073715_02
+|                 |  |     |  |                                         |     |                          +**|
+|                 |  |     |  |                                         |     |                          |  +--Staphylococcus_aureus_003193705_02
+|                 |  |     |  |                                         |     |                       +--|
+|                 |  |     |  |                                         |     |                       |  +--Staphylococcus_aureus_000024585_02
+|                 |  |     |  |                                         |     |                    +--|
+|                 |  |     |  |                                         |     |                    |  +--Staphylococcus_aureus_002633865_02
+|                 |  |     |  |                                         |     |                 +--|
+|                 |  |     |  |                                         |     |                 |  |  +--Staphylococcus_aureus_000967405_02
+|                 |  |     |  |                                         |     |                 |  +**|
+|                 |  |     |  |                                         |     |                 |     +--Staphylococcus_aureus_000967345_02
+|                 |  |     |  |                                         |     |              +**|
+|                 |  |     |  |                                         |     |              |  +--Staphylococcus_aureus_000452385_03
+|                 |  |     |  |                                         |     |           +**|
+|                 |  |     |  |                                         |     |           |  +**Staphylococcus_aureus_003184985_02
+|                 |  |     |  |                                         |     |        +**|
+|                 |  |     |  |                                         |     |        |  |                                         +**Staphylococcus_aureus_900635265_02
+|                 |  |     |  |                                         |     |        |  |                                      +**|
+|                 |  |     |  |                                         |     |        |  |                                      |  |                 +**Staphylococcus_aureus_002000785_03
+|                 |  |     |  |                                         |     |        |  |                                      |  |              +**|
+|                 |  |     |  |                                         |     |        |  |                                      |  |              |  +**Staphylococcus_aureus_002000605_03
+|                 |  |     |  |                                         |     |        |  |                                      |  |           +**|
+|                 |  |     |  |                                         |     |        |  |                                      |  |           |  +**Staphylococcus_aureus_002000625_03
+|                 |  |     |  |                                         |     |        |  |                                      |  |        +**|
+|                 |  |     |  |                                         |     |        |  |                                      |  |        |  +**Staphylococcus_aureus_002000805_03
+|                 |  |     |  |                                         |     |        |  |                                      |  |     +**|
+|                 |  |     |  |                                         |     |        |  |                                      |  |     |  +**Staphylococcus_aureus_002000725_03
+|                 |  |     |  |                                         |     |        |  |                                      |  |  +**|
+|                 |  |     |  |                                         |     |        |  |                                      |  |  |  +**Staphylococcus_aureus_002000865_03
+|                 |  |     |  |                                         |     |        |  |                                      |  +--|
+|                 |  |     |  |                                         |     |        |  |                                      |     |     +**Staphylococcus_aureus_003595505_03
+|                 |  |     |  |                                         |     |        |  |                                      |     |  +**|
+|                 |  |     |  |                                         |     |        |  |                                      |     |  |  +**Staphylococcus_aureus_003595445_03
+|                 |  |     |  |                                         |     |        |  |                                      |     +**|
+|                 |  |     |  |                                         |     |        |  |                                      |        +**Staphylococcus_aureus_003595365_03
+|                 |  |     |  |                                         |     |        |  |                                   +**|
+|                 |  |     |  |                                         |     |        |  |                                   |  +--Staphylococcus_aureus_001641025_02
+|                 |  |     |  |                                         |     |        |  |                                +**|
+|                 |  |     |  |                                         |     |        |  |                                |  |        +**Staphylococcus_aureus_003193725_02
+|                 |  |     |  |                                         |     |        |  |                                |  |     +**|
+|                 |  |     |  |                                         |     |        |  |                                |  |     |  +**Staphylococcus_aureus_003595365_02
+|                 |  |     |  |                                         |     |        |  |                                |  |  +**|
+|                 |  |     |  |                                         |     |        |  |                                |  |  |  +**Staphylococcus_aureus_003595505_02
+|                 |  |     |  |                                         |     |        |  |                                |  +**|
+|                 |  |     |  |                                         |     |        |  |                                |     +**Staphylococcus_aureus_003595445_02
+|                 |  |     |  |                                         |     |        |  |                             +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |                          +**Staphylococcus_aureus_002000785_02
+|                 |  |     |  |                                         |     |        |  |                             |  |                       +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |                       |  +**Staphylococcus_aureus_002000605_02
+|                 |  |     |  |                                         |     |        |  |                             |  |                    +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |                    |  +**Staphylococcus_aureus_002000865_02
+|                 |  |     |  |                                         |     |        |  |                             |  |                 +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |                 |  +**Staphylococcus_aureus_001045795_02
+|                 |  |     |  |                                         |     |        |  |                             |  |              +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |              |  +**Staphylococcus_aureus_001021875_02
+|                 |  |     |  |                                         |     |        |  |                             |  |           +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |           |  +**Staphylococcus_aureus_002000805_02
+|                 |  |     |  |                                         |     |        |  |                             |  |        +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |        |  +**Staphylococcus_aureus_002000725_02
+|                 |  |     |  |                                         |     |        |  |                             |  |     +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |     |  +**Staphylococcus_aureus_001021895_02
+|                 |  |     |  |                                         |     |        |  |                             |  |  +**|
+|                 |  |     |  |                                         |     |        |  |                             |  |  |  +**Staphylococcus_aureus_002000625_02
+|                 |  |     |  |                                         |     |        |  |                             |  +**|
+|                 |  |     |  |                                         |     |        |  |                             |     +**Staphylococcus_aureus_000815085_02
+|                 |  |     |  |                                         |     |        |  |                          +**|
+|                 |  |     |  |                                         |     |        |  |                          |  |  +--Staphylococcus_aureus_000626615_02
+|                 |  |     |  |                                         |     |        |  |                          |  +**|
+|                 |  |     |  |                                         |     |        |  |                          |     +--Staphylococcus_aureus_000013465_02
+|                 |  |     |  |                                         |     |        |  |                       +--|
+|                 |  |     |  |                                         |     |        |  |                       |  |  +--Staphylococcus_aureus_002355355_02
+|                 |  |     |  |                                         |     |        |  |                       |  +**|
+|                 |  |     |  |                                         |     |        |  |                       |     +**Staphylococcus_aureus_002386245_02
+|                 |  |     |  |                                         |     |        |  |                    +--|
+|                 |  |     |  |                                         |     |        |  |                    |  |  +--Staphylococcus_aureus_001515705_02
+|                 |  |     |  |                                         |     |        |  |                    |  +--|
+|                 |  |     |  |                                         |     |        |  |                    |     +--Staphylococcus_aureus_001515685_02
+|                 |  |     |  |                                         |     |        |  |                 +--|
+|                 |  |     |  |                                         |     |        |  |                 |  |  +--Staphylococcus_aureus_001717975_00
+|                 |  |     |  |                                         |     |        |  |                 |  +**|
+|                 |  |     |  |                                         |     |        |  |                 |     +**Staphylococcus_aureus_001717725_02
+|                 |  |     |  |                                         |     |        |  |              +**|
+|                 |  |     |  |                                         |     |        |  |              |  +--Staphylococcus_aureus_002140115_02
+|                 |  |     |  |                                         |     |        |  |           +--|
+|                 |  |     |  |                                         |     |        |  |           |  +--Staphylococcus_aureus_003186105_03
+|                 |  |     |  |                                         |     |        |  |        +--|
+|                 |  |     |  |                                         |     |        |  |        |  +**Staphylococcus_aureus_000239235_02
+|                 |  |     |  |                                         |     |        |  |     +**|
+|                 |  |     |  |                                         |     |        |  |     |  |        +--Staphylococcus_aureus_900636695_02
+|                 |  |     |  |                                         |     |        |  |     |  |     +--|
+|                 |  |     |  |                                         |     |        |  |     |  |     |  +--Staphylococcus_aureus_900635315_02
+|                 |  |     |  |                                         |     |        |  |     |  |  +--|
+|                 |  |     |  |                                         |     |        |  |     |  |  |  |  +--Staphylococcus_aureus_003627835_02
+|                 |  |     |  |                                         |     |        |  |     |  |  |  +--|
+|                 |  |     |  |                                         |     |        |  |     |  |  |     +--Staphylococcus_aureus_003030085_00
+|                 |  |     |  |                                         |     |        |  |     |  +**|
+|                 |  |     |  |                                         |     |        |  |     |     +--Staphylococcus_aureus_003426145_02
+|                 |  |     |  |                                         |     |        |  |  +**|
+|                 |  |     |  |                                         |     |        |  |  |  +**Staphylococcus_aureus_001018725_04
+|                 |  |     |  |                                         |     |        |  +--|
+|                 |  |     |  |                                         |     |        |     +--Staphylococcus_aureus_000695215_02
+|                 |  |     |  |                                         |     |     +--|
+|                 |  |     |  |                                         |     |     |  +--Staphylococcus_aureus_001019495_00
+|                 |  |     |  |                                         |     |  +**|
+|                 |  |     |  |                                         |     |  |  |           +**Staphylococcus_aureus_900478245_02
+|                 |  |     |  |                                         |     |  |  |        +--|
+|                 |  |     |  |                                         |     |  |  |        |  +**Staphylococcus_aureus_000953255_01
+|                 |  |     |  |                                         |     |  |  |     +**|
+|                 |  |     |  |                                         |     |  |  |     |  +**Staphylococcus_aureus_003944865_01
+|                 |  |     |  |                                         |     |  |  |  +**|
+|                 |  |     |  |                                         |     |  |  |  |  +**Staphylococcus_aureus_000953255_00
+|                 |  |     |  |                                         |     |  |  +--|
+|                 |  |     |  |                                         |     |  |     +**Staphylococcus_aureus_003944865_02
+|                 |  |     |  |                                         |     +**|
+|                 |  |     |  |                                         |        |     +**Staphylococcus_aureus_003288395_03
+|                 |  |     |  |                                         |        |  +**|
+|                 |  |     |  |                                         |        |  |  +**Staphylococcus_aureus_002633845_02
+|                 |  |     |  |                                         |        +--|
+|                 |  |     |  |                                         |           |     +**Staphylococcus_aureus_002442975_02
+|                 |  |     |  |                                         |           |  +**|
+|                 |  |     |  |                                         |           |  |  +**Staphylococcus_aureus_000470865_02
+|                 |  |     |  |                                         |           +--|
+|                 |  |     |  |                                         |              +--Staphylococcus_aureus_000737615_02
+|                 |  |     |  |                                      +--|
+|                 |  |     |  |                                      |  |                          +--Staphylococcus_aureus_000967405_01
+|                 |  |     |  |                                      |  |                       +--|
+|                 |  |     |  |                                      |  |                       |  +**Staphylococcus_aureus_000967345_01
+|                 |  |     |  |                                      |  |                    +**|
+|                 |  |     |  |                                      |  |                    |  +**Staphylococcus_aureus_003194405_01
+|                 |  |     |  |                                      |  |                 +**|
+|                 |  |     |  |                                      |  |                 |  +--Staphylococcus_aureus_003193705_01
+|                 |  |     |  |                                      |  |              +--|
+|                 |  |     |  |                                      |  |              |  +--Staphylococcus_aureus_000024585_01
+|                 |  |     |  |                                      |  |           +--|
+|                 |  |     |  |                                      |  |           |  +--Staphylococcus_aureus_001019495_01
+|                 |  |     |  |                                      |  |        +--|
+|                 |  |     |  |                                      |  |        |  |                                      +**Staphylococcus_aureus_002000785_01
+|                 |  |     |  |                                      |  |        |  |                                   +**|
+|                 |  |     |  |                                      |  |        |  |                                   |  +**Staphylococcus_aureus_002000725_01
+|                 |  |     |  |                                      |  |        |  |                                +**|
+|                 |  |     |  |                                      |  |        |  |                                |  +**Staphylococcus_aureus_002000805_01
+|                 |  |     |  |                                      |  |        |  |                             +**|
+|                 |  |     |  |                                      |  |        |  |                             |  +**Staphylococcus_aureus_003595505_01
+|                 |  |     |  |                                      |  |        |  |                          +**|
+|                 |  |     |  |                                      |  |        |  |                          |  +**Staphylococcus_aureus_002000605_01
+|                 |  |     |  |                                      |  |        |  |                       +**|
+|                 |  |     |  |                                      |  |        |  |                       |  +**Staphylococcus_aureus_002000865_01
+|                 |  |     |  |                                      |  |        |  |                    +**|
+|                 |  |     |  |                                      |  |        |  |                    |  +**Staphylococcus_aureus_003595445_01
+|                 |  |     |  |                                      |  |        |  |                 +**|
+|                 |  |     |  |                                      |  |        |  |                 |  +**Staphylococcus_aureus_002000625_01
+|                 |  |     |  |                                      |  |        |  |              +**|
+|                 |  |     |  |                                      |  |        |  |              |  +**Staphylococcus_aureus_000815085_01
+|                 |  |     |  |                                      |  |        |  |           +--|
+|                 |  |     |  |                                      |  |        |  |           |  +--Staphylococcus_aureus_003595365_01
+|                 |  |     |  |                                      |  |        |  |        +**|
+|                 |  |     |  |                                      |  |        |  |        |  +--Staphylococcus_aureus_001641025_01
+|                 |  |     |  |                                      |  |        |  |     +**|
+|                 |  |     |  |                                      |  |        |  |     |  +--Staphylococcus_aureus_000013465_01
+|                 |  |     |  |                                      |  |        |  |  +**|
+|                 |  |     |  |                                      |  |        |  |  |  +--Staphylococcus_aureus_001515705_01
+|                 |  |     |  |                                      |  |        |  +--|
+|                 |  |     |  |                                      |  |        |     +--Staphylococcus_aureus_001515685_01
+|                 |  |     |  |                                      |  |     +--|
+|                 |  |     |  |                                      |  |     |  +--Staphylococcus_aureus_001515685_00
+|                 |  |     |  |                                      |  |  +--|
+|                 |  |     |  |                                      |  |  |  |     +**Staphylococcus_aureus_000737615_00
+|                 |  |     |  |                                      |  |  |  |  +--|
+|                 |  |     |  |                                      |  |  |  |  |  +**Staphylococcus_aureus_000470865_00
+|                 |  |     |  |                                      |  |  |  +**|
+|                 |  |     |  |                                      |  |  |     +--Staphylococcus_aureus_000462955_02
+|                 |  |     |  |                                      |  +--|
+|                 |  |     |  |                                      |     |     +--Staphylococcus_argenteus_002812345_00
+|                 |  |     |  |                                      |     |  +--|
+|                 |  |     |  |                                      |     |  |  +--Staphylococcus_argenteus_002812345_01
+|                 |  |     |  |                                      |     +--|
+|                 |  |     |  |                                      |        +--Staphylococcus_aureus_900478245_01
+|                 |  |     |  |                                   +--|
+|                 |  |     |  |                                   |  +--Staphylococcus_argenteus_002812345_02
+|                 |  |     |  |                                +--|
+|                 |  |     |  |                                |  +--Staphylococcus_argenteus_002812345_03
+|                 |  |     |  |                             +--|
+|                 |  |     |  |                             |  +--Staphylococcus_argenteus_002812345_04
+|                 |  |     |  |                          +--|
+|                 |  |     |  |                          |  |                                +--Staphylococcus_aureus_003354645_00
+|                 |  |     |  |                          |  |                             +--|
+|                 |  |     |  |                          |  |                             |  +--Staphylococcus_aureus_003354905_00
+|                 |  |     |  |                          |  |                          +--|
+|                 |  |     |  |                          |  |                          |  |  +**Staphylococcus_aureus_003354645_03
+|                 |  |     |  |                          |  |                          |  +--|
+|                 |  |     |  |                          |  |                          |     +**Staphylococcus_aureus_003354905_03
+|                 |  |     |  |                          |  |                       +--|
+|                 |  |     |  |                          |  |                       |  +**Staphylococcus_aureus_003354865_00
+|                 |  |     |  |                          |  |                    +--|
+|                 |  |     |  |                          |  |                    |  +--Staphylococcus_aureus_003855575_02
+|                 |  |     |  |                          |  |                 +**|
+|                 |  |     |  |                          |  |                 |  |              +**Staphylococcus_aureus_000967405_03
+|                 |  |     |  |                          |  |                 |  |           +**|
+|                 |  |     |  |                          |  |                 |  |           |  +**Staphylococcus_aureus_000967345_03
+|                 |  |     |  |                          |  |                 |  |        +**|
+|                 |  |     |  |                          |  |                 |  |        |  +--Staphylococcus_aureus_000024585_03
+|                 |  |     |  |                          |  |                 |  |     +**|
+|                 |  |     |  |                          |  |                 |  |     |  +**Staphylococcus_aureus_003193705_03
+|                 |  |     |  |                          |  |                 |  |  +**|
+|                 |  |     |  |                          |  |                 |  |  |  |        +**Staphylococcus_aureus_001018775_01
+|                 |  |     |  |                          |  |                 |  |  |  |     +**|
+|                 |  |     |  |                          |  |                 |  |  |  |     |  +**Staphylococcus_aureus_003203655_03
+|                 |  |     |  |                          |  |                 |  |  |  |  +**|
+|                 |  |     |  |                          |  |                 |  |  |  |  |  +**Staphylococcus_aureus_003194405_03
+|                 |  |     |  |                          |  |                 |  |  |  +**|
+|                 |  |     |  |                          |  |                 |  |  |     +**Staphylococcus_aureus_003073715_03
+|                 |  |     |  |                          |  |                 |  +--|
+|                 |  |     |  |                          |  |                 |     +--Staphylococcus_aureus_002633865_03
+|                 |  |     |  |                          |  |              +**|
+|                 |  |     |  |                          |  |              |  |           +**Staphylococcus_aureus_001018775_02
+|                 |  |     |  |                          |  |              |  |        +**|
+|                 |  |     |  |                          |  |              |  |        |  +**Staphylococcus_aureus_001019495_03
+|                 |  |     |  |                          |  |              |  |     +**|
+|                 |  |     |  |                          |  |              |  |     |  +**Staphylococcus_aureus_001019495_04
+|                 |  |     |  |                          |  |              |  |  +**|
+|                 |  |     |  |                          |  |              |  |  |  +**Staphylococcus_aureus_003073715_04
+|                 |  |     |  |                          |  |              |  +**|
+|                 |  |     |  |                          |  |              |     +**Staphylococcus_aureus_003194405_04
+|                 |  |     |  |                          |  |           +**|
+|                 |  |     |  |                          |  |           |  +--Staphylococcus_aureus_002633865_04
+|                 |  |     |  |                          |  |        +**|
+|                 |  |     |  |                          |  |        |  |     +**Staphylococcus_aureus_000967405_04
+|                 |  |     |  |                          |  |        |  |  +**|
+|                 |  |     |  |                          |  |        |  |  |  +**Staphylococcus_aureus_000967345_04
+|                 |  |     |  |                          |  |        |  +**|
+|                 |  |     |  |                          |  |        |     +**Staphylococcus_aureus_000024585_04
+|                 |  |     |  |                          |  |     +**|
+|                 |  |     |  |                          |  |     |  |  +--Staphylococcus_aureus_000463055_00
+|                 |  |     |  |                          |  |     |  +**|
+|                 |  |     |  |                          |  |     |     +--Staphylococcus_aureus_003203655_02
+|                 |  |     |  |                          |  |  +--|
+|                 |  |     |  |                          |  |  |  +**Staphylococcus_aureus_003193705_04
+|                 |  |     |  |                          |  +**|
+|                 |  |     |  |                          |     |  +--Staphylococcus_aureus_900323965_03
+|                 |  |     |  |                          |     +--|
+|                 |  |     |  |                          |        +--Staphylococcus_aureus_000144955_01
+|                 |  |     |  |                       +**|
+|                 |  |     |  |                       |  |  +--Staphylococcus_aureus_000024585_00
+|                 |  |     |  |                       |  +--|
+|                 |  |     |  |                       |     |              +**Staphylococcus_aureus_003193705_00
+|                 |  |     |  |                       |     |           +--|
+|                 |  |     |  |                       |     |           |  |  +**Staphylococcus_aureus_001018775_03
+|                 |  |     |  |                       |     |           |  +**|
+|                 |  |     |  |                       |     |           |     +**Staphylococcus_aureus_003203655_01
+|                 |  |     |  |                       |     |        +**|
+|                 |  |     |  |                       |     |        |  +**Staphylococcus_aureus_003073715_00
+|                 |  |     |  |                       |     |     +**|
+|                 |  |     |  |                       |     |     |  +**Staphylococcus_aureus_002633865_00
+|                 |  |     |  |                       |     |  +--|
+|                 |  |     |  |                       |     |  |  +--Staphylococcus_aureus_003194405_00
+|                 |  |     |  |                       |     +--|
+|                 |  |     |  |                       |        +--Staphylococcus_aureus_001019495_02
+|                 |  |     |  |                    +**|
+|                 |  |     |  |                    |  |        +--Staphylococcus_aureus_003288395_00
+|                 |  |     |  |                    |  |     +--|
+|                 |  |     |  |                    |  |     |  |  +**Staphylococcus_aureus_002633845_00
+|                 |  |     |  |                    |  |     |  +**|
+|                 |  |     |  |                    |  |     |     +--Staphylococcus_aureus_002442975_00
+|                 |  |     |  |                    |  |  +**|
+|                 |  |     |  |                    |  |  |  |  +**Staphylococcus_aureus_900474695_00
+|                 |  |     |  |                    |  |  |  +--|
+|                 |  |     |  |                    |  |  |     +--Staphylococcus_aureus_900474695_04
+|                 |  |     |  |                    |  +--|
+|                 |  |     |  |                    |     +--Staphylococcus_aureus_000737615_04
+|                 |  |     |  |                 +--|
+|                 |  |     |  |                 |  |              +--Staphylococcus_aureus_003354645_04
+|                 |  |     |  |                 |  |           +**|
+|                 |  |     |  |                 |  |           |  |     +--Staphylococcus_aureus_003184985_04
+|                 |  |     |  |                 |  |           |  |  +--|
+|                 |  |     |  |                 |  |           |  |  |  +--Staphylococcus_aureus_000695215_04
+|                 |  |     |  |                 |  |           |  +--|
+|                 |  |     |  |                 |  |           |     +**Staphylococcus_aureus_000463055_02
+|                 |  |     |  |                 |  |        +--|
+|                 |  |     |  |                 |  |        |  |              +--Staphylococcus_aureus_003288395_02
+|                 |  |     |  |                 |  |        |  |           +--|
+|                 |  |     |  |                 |  |        |  |           |  |  +**Staphylococcus_aureus_002633845_03
+|                 |  |     |  |                 |  |        |  |           |  +**|
+|                 |  |     |  |                 |  |        |  |           |     +**Staphylococcus_aureus_000737615_03
+|                 |  |     |  |                 |  |        |  |        +**|
+|                 |  |     |  |                 |  |        |  |        |  +**Staphylococcus_aureus_000470865_03
+|                 |  |     |  |                 |  |        |  |     +--|
+|                 |  |     |  |                 |  |        |  |     |  +--Staphylococcus_aureus_000462955_00
+|                 |  |     |  |                 |  |        |  |  +**|
+|                 |  |     |  |                 |  |        |  |  |  |        +--Staphylococcus_aureus_001611365_00
+|                 |  |     |  |                 |  |        |  |  |  |     +--|
+|                 |  |     |  |                 |  |        |  |  |  |     |  +--Staphylococcus_aureus_001611365_03
+|                 |  |     |  |                 |  |        |  |  |  |  +**|
+|                 |  |     |  |                 |  |        |  |  |  |  |  +**Staphylococcus_aureus_000463055_01
+|                 |  |     |  |                 |  |        |  |  |  +--|
+|                 |  |     |  |                 |  |        |  |  |     +--Staphylococcus_aureus_001611365_02
+|                 |  |     |  |                 |  |        |  +**|
+|                 |  |     |  |                 |  |        |     +--Staphylococcus_aureus_003354905_04
+|                 |  |     |  |                 |  |     +**|
+|                 |  |     |  |                 |  |     |  +--Staphylococcus_aureus_001611365_04
+|                 |  |     |  |                 |  |  +**|
+|                 |  |     |  |                 |  |  |  |                    +--Staphylococcus_aureus_900323965_01
+|                 |  |     |  |                 |  |  |  |                 +--|
+|                 |  |     |  |                 |  |  |  |                 |  |     +--Staphylococcus_aureus_900004855_00
+|                 |  |     |  |                 |  |  |  |                 |  |  +--|
+|                 |  |     |  |                 |  |  |  |                 |  |  |  +--Staphylococcus_aureus_900004855_04
+|                 |  |     |  |                 |  |  |  |                 |  +--|
+|                 |  |     |  |                 |  |  |  |                 |     +--Staphylococcus_aureus_900004855_03
+|                 |  |     |  |                 |  |  |  |              +--|
+|                 |  |     |  |                 |  |  |  |              |  |              +**Staphylococcus_aureus_000239235_00
+|                 |  |     |  |                 |  |  |  |              |  |           +**|
+|                 |  |     |  |                 |  |  |  |              |  |           |  |     +--Staphylococcus_aureus_003347055_00
+|                 |  |     |  |                 |  |  |  |              |  |           |  |  +**|
+|                 |  |     |  |                 |  |  |  |              |  |           |  |  |  +**Staphylococcus_aureus_003193785_04
+|                 |  |     |  |                 |  |  |  |              |  |           |  +--|
+|                 |  |     |  |                 |  |  |  |              |  |           |     +--Staphylococcus_aureus_002140115_00
+|                 |  |     |  |                 |  |  |  |              |  |        +**|
+|                 |  |     |  |                 |  |  |  |              |  |        |  +**Staphylococcus_aureus_003952625_01
+|                 |  |     |  |                 |  |  |  |              |  |     +--|
+|                 |  |     |  |                 |  |  |  |              |  |     |  +--Staphylococcus_aureus_003573835_00
+|                 |  |     |  |                 |  |  |  |              |  |  +**|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |           +**Staphylococcus_aureus_003288395_01
+|                 |  |     |  |                 |  |  |  |              |  |  |  |        +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |        |  |  +**Staphylococcus_aureus_002633845_04
+|                 |  |     |  |                 |  |  |  |              |  |  |  |        |  +**|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |        |     |  +**Staphylococcus_aureus_002442975_04
+|                 |  |     |  |                 |  |  |  |              |  |  |  |        |     +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |        |        +**Staphylococcus_aureus_000470865_04
+|                 |  |     |  |                 |  |  |  |              |  |  |  |     +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |     |  |  +--Staphylococcus_aureus_900478245_00
+|                 |  |     |  |                 |  |  |  |              |  |  |  |     |  +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |     |     +**Staphylococcus_aureus_003944865_00
+|                 |  |     |  |                 |  |  |  |              |  |  |  |  +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |  |  |  +--Staphylococcus_aureus_003030085_02
+|                 |  |     |  |                 |  |  |  |              |  |  |  +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |     |              +--Staphylococcus_aureus_900478245_04
+|                 |  |     |  |                 |  |  |  |              |  |  |     |           +**|
+|                 |  |     |  |                 |  |  |  |              |  |  |     |           |  +--Staphylococcus_aureus_000953255_04
+|                 |  |     |  |                 |  |  |  |              |  |  |     |        +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |     |        |  +**Staphylococcus_aureus_003855575_04
+|                 |  |     |  |                 |  |  |  |              |  |  |     |     +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |     |     |  +--Staphylococcus_aureus_003944865_04
+|                 |  |     |  |                 |  |  |  |              |  |  |     |  +**|
+|                 |  |     |  |                 |  |  |  |              |  |  |     |  |  +**Staphylococcus_aureus_003855575_00
+|                 |  |     |  |                 |  |  |  |              |  |  |     +--|
+|                 |  |     |  |                 |  |  |  |              |  |  |        +**Staphylococcus_aureus_003855575_01
+|                 |  |     |  |                 |  |  |  |              |  +**|
+|                 |  |     |  |                 |  |  |  |              |     +**Staphylococcus_aureus_002633825_00
+|                 |  |     |  |                 |  |  |  |           +**|
+|                 |  |     |  |                 |  |  |  |           |  |  +**Staphylococcus_aureus_000462955_01
+|                 |  |     |  |                 |  |  |  |           |  +--|
+|                 |  |     |  |                 |  |  |  |           |     +--Staphylococcus_aureus_000462955_04
+|                 |  |     |  |                 |  |  |  |        +--|
+|                 |  |     |  |                 |  |  |  |        |  |                             +**Staphylococcus_aureus_002000785_04
+|                 |  |     |  |                 |  |  |  |        |  |                          +**|
+|                 |  |     |  |                 |  |  |  |        |  |                          |  +**Staphylococcus_aureus_002000625_04
+|                 |  |     |  |                 |  |  |  |        |  |                       +**|
+|                 |  |     |  |                 |  |  |  |        |  |                       |  +**Staphylococcus_aureus_002000605_04
+|                 |  |     |  |                 |  |  |  |        |  |                    +**|
+|                 |  |     |  |                 |  |  |  |        |  |                    |  +**Staphylococcus_aureus_002000865_04
+|                 |  |     |  |                 |  |  |  |        |  |                 +**|
+|                 |  |     |  |                 |  |  |  |        |  |                 |  +**Staphylococcus_aureus_002000725_04
+|                 |  |     |  |                 |  |  |  |        |  |              +**|
+|                 |  |     |  |                 |  |  |  |        |  |              |  +**Staphylococcus_aureus_001021895_04
+|                 |  |     |  |                 |  |  |  |        |  |           +**|
+|                 |  |     |  |                 |  |  |  |        |  |           |  +**Staphylococcus_aureus_001021875_04
+|                 |  |     |  |                 |  |  |  |        |  |        +**|
+|                 |  |     |  |                 |  |  |  |        |  |        |  +**Staphylococcus_aureus_001045795_04
+|                 |  |     |  |                 |  |  |  |        |  |     +**|
+|                 |  |     |  |                 |  |  |  |        |  |     |  +**Staphylococcus_aureus_002000805_04
+|                 |  |     |  |                 |  |  |  |        |  |  +--|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |                    +**Staphylococcus_aureus_003193725_03
+|                 |  |     |  |                 |  |  |  |        |  |  |  |                 +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |                 |  +**Staphylococcus_aureus_001717975_04
+|                 |  |     |  |                 |  |  |  |        |  |  |  |              +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |              |  +--Staphylococcus_aureus_001717725_01
+|                 |  |     |  |                 |  |  |  |        |  |  |  |           +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |           |  |  +**Staphylococcus_aureus_001021895_03
+|                 |  |     |  |                 |  |  |  |        |  |  |  |           |  +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |           |     +**Staphylococcus_aureus_001045795_03
+|                 |  |     |  |                 |  |  |  |        |  |  |  |        +--|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |        |  +--Staphylococcus_aureus_001021875_03
+|                 |  |     |  |                 |  |  |  |        |  |  |  |     +--|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |     |  |  +--Staphylococcus_aureus_003186105_00
+|                 |  |     |  |                 |  |  |  |        |  |  |  |     |  +--|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |     |     +--Staphylococcus_aureus_003186105_04
+|                 |  |     |  |                 |  |  |  |        |  |  |  |  +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |  |  |  +--Staphylococcus_aureus_001717975_03
+|                 |  |     |  |                 |  |  |  |        |  |  |  +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |     |           +**Staphylococcus_aureus_003193725_04
+|                 |  |     |  |                 |  |  |  |        |  |  |     |        +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |     |        |  +**Staphylococcus_aureus_001717725_00
+|                 |  |     |  |                 |  |  |  |        |  |  |     |     +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |     |     |  +**Staphylococcus_aureus_003595365_04
+|                 |  |     |  |                 |  |  |  |        |  |  |     |  +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |     |  |  +**Staphylococcus_aureus_003595445_04
+|                 |  |     |  |                 |  |  |  |        |  |  |     +**|
+|                 |  |     |  |                 |  |  |  |        |  |  |        +**Staphylococcus_aureus_003595505_04
+|                 |  |     |  |                 |  |  |  |        |  +**|
+|                 |  |     |  |                 |  |  |  |        |     |              +--Staphylococcus_aureus_000239235_01
+|                 |  |     |  |                 |  |  |  |        |     |           +**|
+|                 |  |     |  |                 |  |  |  |        |     |           |  +**Staphylococcus_aureus_000239235_04
+|                 |  |     |  |                 |  |  |  |        |     |        +--|
+|                 |  |     |  |                 |  |  |  |        |     |        |  |        +**Staphylococcus_aureus_002795285_04
+|                 |  |     |  |                 |  |  |  |        |     |        |  |     +**|
+|                 |  |     |  |                 |  |  |  |        |     |        |  |     |  +**Staphylococcus_aureus_003952625_02
+|                 |  |     |  |                 |  |  |  |        |     |        |  |  +**|
+|                 |  |     |  |                 |  |  |  |        |     |        |  |  |  +--Staphylococcus_aureus_002633825_04
+|                 |  |     |  |                 |  |  |  |        |     |        |  +--|
+|                 |  |     |  |                 |  |  |  |        |     |        |     +**Staphylococcus_aureus_003573835_04
+|                 |  |     |  |                 |  |  |  |        |     |     +--|
+|                 |  |     |  |                 |  |  |  |        |     |     |  +--Staphylococcus_aureus_002795285_01
+|                 |  |     |  |                 |  |  |  |        |     |  +**|
+|                 |  |     |  |                 |  |  |  |        |     |  |  +--Staphylococcus_aureus_003030085_01
+|                 |  |     |  |                 |  |  |  |        |     +**|
+|                 |  |     |  |                 |  |  |  |        |        +--Staphylococcus_aureus_002442975_03
+|                 |  |     |  |                 |  |  |  |     +--|
+|                 |  |     |  |                 |  |  |  |     |  +**Staphylococcus_aureus_002795285_00
+|                 |  |     |  |                 |  |  |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |                                               +**Staphylococcus_aureus_900635265_03
+|                 |  |     |  |                 |  |  |  |  |  |                                            +**|
+|                 |  |     |  |                 |  |  |  |  |  |                                            |  |  +--Staphylococcus_aureus_001515705_03
+|                 |  |     |  |                 |  |  |  |  |  |                                            |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |                                            |     +**Staphylococcus_aureus_001641025_03
+|                 |  |     |  |                 |  |  |  |  |  |                                         +**|
+|                 |  |     |  |                 |  |  |  |  |  |                                         |  +**Staphylococcus_aureus_000626615_01
+|                 |  |     |  |                 |  |  |  |  |  |                                      +**|
+|                 |  |     |  |                 |  |  |  |  |  |                                      |  +**Staphylococcus_aureus_002386245_03
+|                 |  |     |  |                 |  |  |  |  |  |                                   +--|
+|                 |  |     |  |                 |  |  |  |  |  |                                   |  +--Staphylococcus_aureus_002355355_03
+|                 |  |     |  |                 |  |  |  |  |  |                                +**|
+|                 |  |     |  |                 |  |  |  |  |  |                                |  +--Staphylococcus_aureus_000815085_03
+|                 |  |     |  |                 |  |  |  |  |  |                             +**|
+|                 |  |     |  |                 |  |  |  |  |  |                             |  +**Staphylococcus_aureus_000013465_03
+|                 |  |     |  |                 |  |  |  |  |  |                          +--|
+|                 |  |     |  |                 |  |  |  |  |  |                          |  +--Staphylococcus_aureus_003426145_01
+|                 |  |     |  |                 |  |  |  |  |  |                       +**|
+|                 |  |     |  |                 |  |  |  |  |  |                       |  +--Staphylococcus_aureus_900474695_03
+|                 |  |     |  |                 |  |  |  |  |  |                    +**|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |        +**Staphylococcus_aureus_003354865_03
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |     +--|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |     |  +**Staphylococcus_aureus_003354865_04
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |           +**Staphylococcus_aureus_000452385_02
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |        +--|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |        |  +**Staphylococcus_aureus_000452385_04
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |     +--|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |     |  +--Staphylococcus_aureus_000452385_05
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  |  |  +--Staphylococcus_aureus_003184985_00
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |                    |  |  |     +**Staphylococcus_aureus_000695215_00
+|                 |  |     |  |                 |  |  |  |  |  |                    |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |                    |     |  +--Staphylococcus_aureus_002089095_02
+|                 |  |     |  |                 |  |  |  |  |  |                    |     +**|
+|                 |  |     |  |                 |  |  |  |  |  |                    |        +--Staphylococcus_aureus_000462955_03
+|                 |  |     |  |                 |  |  |  |  |  |                 +--|
+|                 |  |     |  |                 |  |  |  |  |  |                 |  |  +--Staphylococcus_aureus_002795285_03
+|                 |  |     |  |                 |  |  |  |  |  |                 |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |                 |     |  +**Staphylococcus_aureus_002633825_03
+|                 |  |     |  |                 |  |  |  |  |  |                 |     +**|
+|                 |  |     |  |                 |  |  |  |  |  |                 |        +--Staphylococcus_aureus_003573835_03
+|                 |  |     |  |                 |  |  |  |  |  |              +**|
+|                 |  |     |  |                 |  |  |  |  |  |              |  +--Staphylococcus_aureus_003952625_03
+|                 |  |     |  |                 |  |  |  |  |  |           +**|
+|                 |  |     |  |                 |  |  |  |  |  |           |  +--Staphylococcus_aureus_001018725_00
+|                 |  |     |  |                 |  |  |  |  |  |        +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                    +**Staphylococcus_aureus_900635265_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |        +--Staphylococcus_aureus_002355355_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |     +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |     |  |     +--Staphylococcus_aureus_001641025_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |     |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |     |  |  |  +--Staphylococcus_aureus_001515685_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |     |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |     |     +**Staphylococcus_aureus_000013465_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  |  |  +--Staphylococcus_aureus_003426145_00
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |                 |     +--Staphylococcus_aureus_000626615_00
+|                 |  |     |  |                 |  |  |  |  |  |        |  |              +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |              |  +**Staphylococcus_aureus_002386245_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |           +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |           |  +--Staphylococcus_aureus_001515705_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |        +**|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |        |  +**Staphylococcus_aureus_000815085_04
+|                 |  |     |  |                 |  |  |  |  |  |        |  |     +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |     |  |  +**Staphylococcus_aureus_000239235_03
+|                 |  |     |  |                 |  |  |  |  |  |        |  |     |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |     |     +--Staphylococcus_aureus_003186105_02
+|                 |  |     |  |                 |  |  |  |  |  |        |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |  |  |  +--Staphylococcus_aureus_001515685_03
+|                 |  |     |  |                 |  |  |  |  |  |        |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |     |     +**Staphylococcus_aureus_003627835_00
+|                 |  |     |  |                 |  |  |  |  |  |        |     |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |     |  |  +**Staphylococcus_aureus_003627835_01
+|                 |  |     |  |                 |  |  |  |  |  |        |     +--|
+|                 |  |     |  |                 |  |  |  |  |  |        |        +--Staphylococcus_aureus_003627835_04
+|                 |  |     |  |                 |  |  |  |  |  |     +**|
+|                 |  |     |  |                 |  |  |  |  |  |     |  |     +**Staphylococcus_aureus_003347055_03
+|                 |  |     |  |                 |  |  |  |  |  |     |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |     |  |  |  |  +**Staphylococcus_aureus_003193785_01
+|                 |  |     |  |                 |  |  |  |  |  |     |  |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |     |  |  |     +--Staphylococcus_aureus_000463055_03
+|                 |  |     |  |                 |  |  |  |  |  |     |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |     |     |  +--Staphylococcus_aureus_003184985_03
+|                 |  |     |  |                 |  |  |  |  |  |     |     +--|
+|                 |  |     |  |                 |  |  |  |  |  |     |        +--Staphylococcus_aureus_000695215_03
+|                 |  |     |  |                 |  |  |  |  |  |  +**|
+|                 |  |     |  |                 |  |  |  |  |  |  |  |  +--Staphylococcus_aureus_900636695_01
+|                 |  |     |  |                 |  |  |  |  |  |  |  +--|
+|                 |  |     |  |                 |  |  |  |  |  |  |     +--Staphylococcus_aureus_003030085_03
+|                 |  |     |  |                 |  |  |  |  |  +**|
+|                 |  |     |  |                 |  |  |  |  |     |        +**Staphylococcus_aureus_003347055_04
+|                 |  |     |  |                 |  |  |  |  |     |     +--|
+|                 |  |     |  |                 |  |  |  |  |     |     |  |  +--Staphylococcus_aureus_003193785_00
+|                 |  |     |  |                 |  |  |  |  |     |     |  +--|
+|                 |  |     |  |                 |  |  |  |  |     |     |     +**Staphylococcus_aureus_000463055_04
+|                 |  |     |  |                 |  |  |  |  |     |  +**|
+|                 |  |     |  |                 |  |  |  |  |     |  |  +--Staphylococcus_aureus_002140115_04
+|                 |  |     |  |                 |  |  |  |  |     +**|
+|                 |  |     |  |                 |  |  |  |  |        +--Staphylococcus_aureus_002140115_03
+|                 |  |     |  |                 |  |  |  +--|
+|                 |  |     |  |                 |  |  |     |           +**Staphylococcus_aureus_900636695_00
+|                 |  |     |  |                 |  |  |     |        +--|
+|                 |  |     |  |                 |  |  |     |        |  +**Staphylococcus_aureus_900635315_00
+|                 |  |     |  |                 |  |  |     |     +**|
+|                 |  |     |  |                 |  |  |     |     |  +--Staphylococcus_aureus_900635315_03
+|                 |  |     |  |                 |  |  |     |  +--|
+|                 |  |     |  |                 |  |  |     |  |  |  +**Staphylococcus_aureus_900636695_04
+|                 |  |     |  |                 |  |  |     |  |  +--|
+|                 |  |     |  |                 |  |  |     |  |     +**Staphylococcus_aureus_900635315_04
+|                 |  |     |  |                 |  |  |     +**|
+|                 |  |     |  |                 |  |  |        +--Staphylococcus_aureus_900636695_03
+|                 |  |     |  |                 |  +--|
+|                 |  |     |  |                 |     |                    +**Staphylococcus_aureus_900635265_00
+|                 |  |     |  |                 |     |                 +**|
+|                 |  |     |  |                 |     |                 |  +**Staphylococcus_aureus_000626615_04
+|                 |  |     |  |                 |     |              +--|
+|                 |  |     |  |                 |     |              |  |                                         +**Staphylococcus_aureus_002000785_00
+|                 |  |     |  |                 |     |              |  |                                      +**|
+|                 |  |     |  |                 |     |              |  |                                      |  +**Staphylococcus_aureus_002000625_00
+|                 |  |     |  |                 |     |              |  |                                   +**|
+|                 |  |     |  |                 |     |              |  |                                   |  +**Staphylococcus_aureus_002000865_00
+|                 |  |     |  |                 |     |              |  |                                +**|
+|                 |  |     |  |                 |     |              |  |                                |  +**Staphylococcus_aureus_002000805_00
+|                 |  |     |  |                 |     |              |  |                             +**|
+|                 |  |     |  |                 |     |              |  |                             |  +**Staphylococcus_aureus_002000605_00
+|                 |  |     |  |                 |     |              |  |                          +**|
+|                 |  |     |  |                 |     |              |  |                          |  +**Staphylococcus_aureus_002000725_00
+|                 |  |     |  |                 |     |              |  |                       +**|
+|                 |  |     |  |                 |     |              |  |                       |  +**Staphylococcus_aureus_001021895_00
+|                 |  |     |  |                 |     |              |  |                    +**|
+|                 |  |     |  |                 |     |              |  |                    |  |        +**Staphylococcus_aureus_003193725_00
+|                 |  |     |  |                 |     |              |  |                    |  |     +**|
+|                 |  |     |  |                 |     |              |  |                    |  |     |  +**Staphylococcus_aureus_003595505_00
+|                 |  |     |  |                 |     |              |  |                    |  |  +**|
+|                 |  |     |  |                 |     |              |  |                    |  |  |  +**Staphylococcus_aureus_003595445_00
+|                 |  |     |  |                 |     |              |  |                    |  +**|
+|                 |  |     |  |                 |     |              |  |                    |     +**Staphylococcus_aureus_003595365_00
+|                 |  |     |  |                 |     |              |  |                 +**|
+|                 |  |     |  |                 |     |              |  |                 |  +--Staphylococcus_aureus_001021875_00
+|                 |  |     |  |                 |     |              |  |              +**|
+|                 |  |     |  |                 |     |              |  |              |  +--Staphylococcus_aureus_001045795_00
+|                 |  |     |  |                 |     |              |  |           +**|
+|                 |  |     |  |                 |     |              |  |           |  +--Staphylococcus_aureus_001717725_04
+|                 |  |     |  |                 |     |              |  |        +--|
+|                 |  |     |  |                 |     |              |  |        |  +--Staphylococcus_aureus_001717975_02
+|                 |  |     |  |                 |     |              |  |     +**|
+|                 |  |     |  |                 |     |              |  |     |  +--Staphylococcus_aureus_003426145_04
+|                 |  |     |  |                 |     |              |  |  +**|
+|                 |  |     |  |                 |     |              |  |  |  +**Staphylococcus_aureus_002386245_00
+|                 |  |     |  |                 |     |              |  +**|
+|                 |  |     |  |                 |     |              |     |  +**Staphylococcus_aureus_002355355_00
+|                 |  |     |  |                 |     |              |     +**|
+|                 |  |     |  |                 |     |              |        +**Staphylococcus_aureus_001641025_00
+|                 |  |     |  |                 |     |           +**|
+|                 |  |     |  |                 |     |           |  +**Staphylococcus_aureus_000815085_00
+|                 |  |     |  |                 |     |        +**|
+|                 |  |     |  |                 |     |        |  +**Staphylococcus_aureus_000013465_00
+|                 |  |     |  |                 |     |     +--|
+|                 |  |     |  |                 |     |     |  |  +--Staphylococcus_aureus_000144955_03
+|                 |  |     |  |                 |     |     |  +--|
+|                 |  |     |  |                 |     |     |     +**Staphylococcus_aureus_000144955_04
+|                 |  |     |  |                 |     |  +**|
+|                 |  |     |  |                 |     |  |  |  +--Staphylococcus_aureus_000737615_01
+|                 |  |     |  |                 |     |  |  +--|
+|                 |  |     |  |                 |     |  |     +**Staphylococcus_aureus_000470865_01
+|                 |  |     |  |                 |     +**|
+|                 |  |     |  |                 |        |  +--Staphylococcus_aureus_001515705_00
+|                 |  |     |  |                 |        +**|
+|                 |  |     |  |                 |           |  +**Staphylococcus_aureus_001018725_01
+|                 |  |     |  |                 |           +**|
+|                 |  |     |  |                 |              +**Staphylococcus_aureus_001018725_02
+|                 |  |     |  |              +--|
+|                 |  |     |  |              |  |     +--Staphylococcus_aureus_000452385_01
+|                 |  |     |  |              |  |  +--|
+|                 |  |     |  |              |  |  |  +--Staphylococcus_aureus_003627835_03
+|                 |  |     |  |              |  +**|
+|                 |  |     |  |              |     |  +--Staphylococcus_aureus_000144955_00
+|                 |  |     |  |              |     +--|
+|                 |  |     |  |              |        +--Staphylococcus_aureus_000144955_02
+|                 |  |     |  |           +--|
+|                 |  |     |  |           |  +--Staphylococcus_aureus_900323965_02
+|                 |  |     |  |        +**|
+|                 |  |     |  |        |  +--Staphylococcus_aureus_002089055_03
+|                 |  |     |  |     +**|
+|                 |  |     |  |     |  +**Staphylococcus_aureus_003111745_03
+|                 |  |     |  |  +**|
+|                 |  |     |  |  |  +**Staphylococcus_aureus_002089095_03
+|                 |  |     |  +**|
+|                 |  |     |     +**Staphylococcus_aureus_001465635_03
+|                 |  |  +**|
+|                 |  |  |  +**Staphylococcus_aureus_002204575_03
+|                 |  +--|
+|                 |     |        +**Staphylococcus_aureus_900478245_03
+|                 |     |     +**|
+|                 |     |     |  |  +**Staphylococcus_aureus_000953255_02
+|                 |     |     |  +--|
+|                 |     |     |     +**Staphylococcus_aureus_000953255_03
+|                 |     |  +**|
+|                 |     |  |  +**Staphylococcus_aureus_003855575_03
+|                 |     +--|
+|                 |        +--Staphylococcus_aureus_003944865_03
+|              +**|
+|              |  +**Staphylococcus_aureus_002089095_00
+|           +--|
+|           |  +--Staphylococcus_aureus_002089055_00
+|        +**|
+|        |  +--Staphylococcus_aureus_001465635_00
+|     +--|
+|     |  |  +--Staphylococcus_aureus_003111745_00
+|     |  +**|
+|     |     +**Staphylococcus_aureus_002204575_00
+|  +**|
+|  |  +**Staphylococcus_aureus_900324285_04
++**|
+|  +**Staphylococcus_aureus_900324315_03
+|
++**Staphylococcus_aureus_900324295_03
+
+Tree in newick format:
+
+(Staphylococcus_aureus_900324415_01:0.000000,((((((((((Staphylococcus_aureus_900324415_02:0.000370,(Staphylococcus_aureus_900324285_00:0.000370,(Staphylococcus_aureus_002089055_04:0.000740,((Staphylococcus_aureus_900324295_02:0.000000,Staphylococcus_aureus_900324315_02:0.000000):0.000002,(Staphylococcus_aureus_003111745_04:0.000741,Staphylococcus_aureus_002204575_04:0.000002):0.000002):0.000002):0.000002):0.000002):0.000369,Staphylococcus_aureus_002089095_04:0.000002):0.000370,Staphylococcus_aureus_001465635_04:0.000002):0.000369,(((((Staphylococcus_aureus_900324415_03:0.000322,Staphylococcus_aureus_900324315_01:0.000002):0.000002,(Staphylococcus_aureus_900324285_01:0.000000,Staphylococcus_aureus_900324295_01:0.000000):0.000002):0.000321,(((((((((((((((((((Staphylococcus_aureus_900324415_04:0.002473,((Staphylococcus_aureus_900324285_02:0.000000,Staphylococcus_aureus_900324315_00:0.000000):0.000002,Staphylococcus_aureus_900324295_00:0.000308):0.000002):0.000307,(Staphylococcus_aureus_002089055_02:0.000307,(Staphylococcus_aureus_003111745_02:0.000308,(Staphylococcus_aureus_001465635_02:0.000000,Staphylococcus_aureus_002204575_02:0.000000):0.000002):0.000002):0.000002):0.001232,((((Staphylococcus_aureus_003354865_02:0.000926,(((Staphylococcus_aureus_002795285_02:0.000619,Staphylococcus_aureus_003573835_02:0.000002):0.000002,Staphylococcus_aureus_003952625_04:0.000308):0.000002,Staphylococcus_aureus_002633825_02:0.000002):0.000002):0.000309,Staphylococcus_aureus_003193785_02:0.000308):0.000002,Staphylococcus_aureus_003347055_02:0.000308):0.000439,Staphylococcus_aureus_900474695_02:0.000890):0.000836):0.001077,((Staphylococcus_aureus_900323965_00:0.001041,(Staphylococcus_aureus_900004855_01:0.001120,Staphylococcus_aureus_900004855_02:0.000341):0.000729):0.001775,((((((Staphylococcus_xylosus_002078255_00:0.000474,(Staphylococcus_xylosus_002078255_01:0.000000,Staphylococcus_xylosus_002078255_02:0.000000):0.003091):0.051471,((((Staphylococcus_condimenti_900637235_00:0.002460,Staphylococcus_condimenti_900637235_01:0.003093):0.001307,Staphylococcus_condimenti_900637235_02:0.006035):0.001178,Staphylococcus_condimenti_900637235_04:0.000118):0.025808,((Staphylococcus_simulans_003096155_00:0.000436,Staphylococcus_simulans_003096155_02:0.005341):0.000377,(Staphylococcus_simulans_003096155_01:0.001940,Staphylococcus_simulans_003096155_04:0.002168):0.000002):0.014165):0.040318):0.010596,((Staphylococcus_hyicus_900474585_00:0.001726,Staphylococcus_hyicus_900474585_01:0.000350):0.008205,(Staphylococcus_hyicus_900474585_02:0.003646,Staphylococcus_hyicus_900474585_04:0.000004):0.004691):0.071498):0.020622,((((((Staphylococcus_haemolyticus_000009865_00:0.001539,Staphylococcus_haemolyticus_002952715_00:0.000760):0.001868,(Staphylococcus_haemolyticus_000009865_01:0.000342,Staphylococcus_haemolyticus_002952715_04:0.000697):0.008456):0.000002,(Staphylococcus_haemolyticus_000009865_04:0.000821,Staphylococcus_haemolyticus_002952715_01:0.001072):0.001504):0.020001,(Staphylococcus_haemolyticus_000009865_02:0.001665,Staphylococcus_haemolyticus_002952715_03:0.000002):0.001399):0.001660,Staphylococcus_haemolyticus_000009865_03:0.007288):0.030430,(((((Staphylococcus_lugdunensis_000025085_00:0.001372,((Staphylococcus_lugdunensis_002591215_03:0.000002,Staphylococcus_lugdunensis_002250095_01:0.000336):0.000651,Staphylococcus_lugdunensis_002250095_00:0.011097):0.002393):0.000002,Staphylococcus_lugdunensis_000025085_04:0.001311):0.000100,(Staphylococcus_lugdunensis_000025085_01:0.000656,((Staphylococcus_lugdunensis_002591215_01:0.000000,Staphylococcus_lugdunensis_002250095_05:0.000000):0.000334,Staphylococcus_lugdunensis_002591215_02:0.001690):0.001016):0.000556):0.016625,(Staphylococcus_lugdunensis_000025085_02:0.003552,(Staphylococcus_lugdunensis_002591215_04:0.000000,Staphylococcus_lugdunensis_002250095_02:0.000000):0.003281):0.002043):0.003443,(Staphylococcus_lugdunensis_002250095_03:0.000236,Staphylococcus_lugdunensis_002250095_04:0.004476):0.009787):0.022102):0.007904):0.002678,(((((((Staphylococcus_warneri_900636265_00:0.002154,Staphylococcus_warneri_900636265_01:0.001166):0.000367,(Staphylococcus_warneri_003571725_00:0.000002,((Staphylococcus_epidermidis_900636255_00:0.000002,Staphylococcus_epidermidis_900636255_01:0.001845):0.000368,Staphylococcus_epidermidis_900636255_04:0.000368):0.000367):0.000428):0.001044,Staphylococcus_warneri_003691405_00:0.000002):0.000002,((((Staphylococcus_warneri_003691405_01:0.001842,Staphylococcus_warneri_000332735_01:0.000366):0.000002,Staphylococcus_warneri_000332735_04:0.000734):0.000002,(Staphylococcus_warneri_000332735_00:0.000000,Staphylococcus_warneri_000332735_02:0.000000):0.000002):0.000366,Staphylococcus_warneri_000332735_03:0.000002):0.000560):0.000280,((Staphylococcus_warneri_900636265_04:0.012809,(Staphylococcus_warneri_003571725_01:0.000002,Staphylococcus_warneri_003571725_04:0.000735):0.000002):0.000367,Staphylococcus_warneri_003691405_04:0.000367):0.000002):0.018222,Staphylococcus_warneri_003691405_03:0.000968):0.001281,(((Staphylococcus_warneri_900636265_02:0.000342,Staphylococcus_warneri_003691405_02:0.000343):0.000699,Staphylococcus_epidermidis_900636255_02:0.000673):0.000343,Staphylococcus_warneri_003571725_02:0.000401):0.004026):0.022322):0.006851,(((((((Staphylococcus_epidermidis_002085695_00:0.000416,Staphylococcus_epidermidis_900086615_03:0.002077):0.000002,(Staphylococcus_epidermidis_000759555_02:0.002502,Staphylococcus_epidermidis_000759555_03:0.000829):0.000825):0.000413,Staphylococcus_epidermidis_002085695_01:0.000416):0.000411,((((((Staphylococcus_epidermidis_002085695_02:0.001665,Staphylococcus_epidermidis_000759555_00:0.000665):0.000331,Staphylococcus_epidermidis_003856455_04:0.000997):0.000002,Staphylococcus_epidermidis_900086615_02:0.000996):0.001857,Staphylococcus_epidermidis_900086615_01:0.001743):0.001252,Staphylococcus_epidermidis_002085695_04:0.000002):0.000002,Staphylococcus_epidermidis_900086615_00:0.001657):0.000002):0.000002,(((Staphylococcus_epidermidis_900086615_04:0.001246,Staphylococcus_epidermidis_003856455_02:0.000833):0.000416,Staphylococcus_epidermidis_003856455_03:0.000832):0.000832,Staphylococcus_epidermidis_003856455_01:0.000002):0.000414):0.000646,Staphylococcus_epidermidis_000759555_01:0.001673):0.011706,(((Staphylococcus_caprae_003966625_00:0.000002,(Staphylococcus_caprae_003966625_01:0.001253,Staphylococcus_caprae_003966625_04:0.002927):0.000412):0.008831,Staphylococcus_caprae_003966625_03:0.000945):0.000755,Staphylococcus_caprae_003966625_02:0.001361):0.018668):0.012791):0.040514):0.001179):0.000906,((Staphylococcus_aureus_003354645_02:0.000002,Staphylococcus_aureus_003354905_02:0.000974):0.000649,(((((((((((((Staphylococcus_aureus_000967405_00:0.000188,Staphylococcus_aureus_000967345_00:0.000531):0.000905,Staphylococcus_aureus_003203655_04:0.000324):0.000002,((Staphylococcus_aureus_001018775_00:0.000000,Staphylococcus_aureus_003194405_02:0.000000):0.000000,Staphylococcus_aureus_003073715_02:0.000000):0.000002):0.000002,Staphylococcus_aureus_003193705_02:0.000325):0.000002,Staphylococcus_aureus_000024585_02:0.001624):0.000649,Staphylococcus_aureus_002633865_02:0.000325):0.000650,(Staphylococcus_aureus_000967405_02:0.000324,Staphylococcus_aureus_000967345_02:0.000282):0.000042):0.000614,Staphylococcus_aureus_000452385_03:0.001730):0.000036,Staphylococcus_aureus_003184985_02:0.000002):0.000002,((((((((((((((Staphylococcus_aureus_900635265_02:0.000002,((((((Staphylococcus_aureus_002000785_03:0.000000,Staphylococcus_aureus_002000605_03:0.000000):0.000000,Staphylococcus_aureus_002000625_03:0.000000):0.000000,Staphylococcus_aureus_002000805_03:0.000000):0.000000,Staphylococcus_aureus_002000725_03:0.000000):0.000000,Staphylococcus_aureus_002000865_03:0.000000):0.000002,((Staphylococcus_aureus_003595505_03:0.000000,Staphylococcus_aureus_003595445_03:0.000000):0.000000,Staphylococcus_aureus_003595365_03:0.000000):0.000002):0.000975):0.000002,Staphylococcus_aureus_001641025_02:0.000649):0.000002,(((Staphylococcus_aureus_003193725_02:0.000000,Staphylococcus_aureus_003595365_02:0.000000):0.000000,Staphylococcus_aureus_003595505_02:0.000000):0.000000,Staphylococcus_aureus_003595445_02:0.000000):0.000002):0.000002,(((((((((Staphylococcus_aureus_002000785_02:0.000000,Staphylococcus_aureus_002000605_02:0.000000):0.000000,Staphylococcus_aureus_002000865_02:0.000000):0.000000,Staphylococcus_aureus_001045795_02:0.000000):0.000000,Staphylococcus_aureus_001021875_02:0.000000):0.000000,Staphylococcus_aureus_002000805_02:0.000000):0.000000,Staphylococcus_aureus_002000725_02:0.000000):0.000000,Staphylococcus_aureus_001021895_02:0.000000):0.000000,Staphylococcus_aureus_002000625_02:0.000000):0.000000,Staphylococcus_aureus_000815085_02:0.000000):0.000002):0.000002,(Staphylococcus_aureus_000626615_02:0.000325,Staphylococcus_aureus_000013465_02:0.000324):0.000002):0.000002,(Staphylococcus_aureus_002355355_02:0.000324,Staphylococcus_aureus_002386245_02:0.000002):0.000002):0.000324,(Staphylococcus_aureus_001515705_02:0.000650,Staphylococcus_aureus_001515685_02:0.000649):0.000325):0.000324,(Staphylococcus_aureus_001717975_00:0.000649,Staphylococcus_aureus_001717725_02:0.000002):0.000002):0.000324,Staphylococcus_aureus_002140115_02:0.000649):0.000002,Staphylococcus_aureus_003186105_03:0.001627):0.000324,Staphylococcus_aureus_000239235_02:0.000002):0.000324,(((Staphylococcus_aureus_900636695_02:0.000324,Staphylococcus_aureus_900635315_02:0.000325):0.000976,(Staphylococcus_aureus_003627835_02:0.001822,Staphylococcus_aureus_003030085_00:0.000324):0.000362):0.000362,Staphylococcus_aureus_003426145_02:0.000975):0.000002):0.000002,Staphylococcus_aureus_001018725_04:0.000002):0.000002,Staphylococcus_aureus_000695215_02:0.001299):0.000361):0.000002,Staphylococcus_aureus_001019495_00:0.000324):0.000362,((((Staphylococcus_aureus_900478245_02:0.000002,Staphylococcus_aureus_000953255_01:0.000002):0.000647,Staphylococcus_aureus_003944865_01:0.000002):0.000002,Staphylococcus_aureus_000953255_00:0.000002):0.000002,Staphylococcus_aureus_003944865_02:0.000002):0.000458):0.000002,((Staphylococcus_aureus_003288395_03:0.000002,Staphylococcus_aureus_002633845_02:0.000002):0.000002,((Staphylococcus_aureus_002442975_02:0.000000,Staphylococcus_aureus_000470865_02:0.000000):0.000002,Staphylococcus_aureus_000737615_02:0.000649):0.000649):0.000973):0.000002):0.000679):0.001858,(((((((((Staphylococcus_aureus_000967405_01:0.002000,Staphylococcus_aureus_000967345_01:0.000002):0.000282,Staphylococcus_aureus_003194405_01:0.000002):0.000002,Staphylococcus_aureus_003193705_01:0.000566):0.000002,Staphylococcus_aureus_000024585_01:0.000282):0.000566,Staphylococcus_aureus_001019495_01:0.000283):0.000287,(((((((((((((Staphylococcus_aureus_002000785_01:0.000000,Staphylococcus_aureus_002000725_01:0.000000):0.000000,Staphylococcus_aureus_002000805_01:0.000000):0.000000,Staphylococcus_aureus_003595505_01:0.000000):0.000000,Staphylococcus_aureus_002000605_01:0.000000):0.000000,Staphylococcus_aureus_002000865_01:0.000000):0.000000,Staphylococcus_aureus_003595445_01:0.000000):0.000000,Staphylococcus_aureus_002000625_01:0.000000):0.000002,Staphylococcus_aureus_000815085_01:0.000002):0.000002,Staphylococcus_aureus_003595365_01:0.000282):0.000282,Staphylococcus_aureus_001641025_01:0.000282):0.000002,Staphylococcus_aureus_000013465_01:0.000332):0.000002,Staphylococcus_aureus_001515705_01:0.000564):0.000002,Staphylococcus_aureus_001515685_01:0.000564):0.000277):0.002195,Staphylococcus_aureus_001515685_00:0.000354):0.000581,((Staphylococcus_aureus_000737615_00:0.000000,Staphylococcus_aureus_000470865_00:0.000000):0.000709,Staphylococcus_aureus_000462955_02:0.005009):0.000002):0.000332,((Staphylococcus_argenteus_002812345_00:0.001590,Staphylococcus_argenteus_002812345_01:0.007966):0.009315,Staphylococcus_aureus_900478245_01:0.001970):0.000994):0.003013):0.006085,Staphylococcus_argenteus_002812345_02:0.008495):0.008456,Staphylococcus_argenteus_002812345_03:0.001162):0.011362,Staphylococcus_argenteus_002812345_04:0.007196):0.008468,(((((((((((Staphylococcus_aureus_003354645_00:0.000362,Staphylococcus_aureus_003354905_00:0.000362):0.000363,(Staphylococcus_aureus_003354645_03:0.000000,Staphylococcus_aureus_003354905_03:0.000000):0.002831):0.000804,Staphylococcus_aureus_003354865_00:0.000002):0.000326,Staphylococcus_aureus_003855575_02:0.000984):0.000326,(((((Staphylococcus_aureus_000967405_03:0.000000,Staphylococcus_aureus_000967345_03:0.000000):0.000002,Staphylococcus_aureus_000024585_03:0.000327):0.000002,Staphylococcus_aureus_003193705_03:0.000002):0.000002,(((Staphylococcus_aureus_001018775_01:0.000000,Staphylococcus_aureus_003203655_03:0.000000):0.000000,Staphylococcus_aureus_003194405_03:0.000000):0.000000,Staphylococcus_aureus_003073715_03:0.000000):0.000002):0.000002,Staphylococcus_aureus_002633865_03:0.000327):0.000325):0.000002,((((Staphylococcus_aureus_001018775_02:0.000000,Staphylococcus_aureus_001019495_03:0.000000):0.000000,Staphylococcus_aureus_001019495_04:0.000000):0.000000,Staphylococcus_aureus_003073715_04:0.000000):0.000000,Staphylococcus_aureus_003194405_04:0.000000):0.000002):0.000002,Staphylococcus_aureus_002633865_04:0.000327):0.000002,((Staphylococcus_aureus_000967405_04:0.000000,Staphylococcus_aureus_000967345_04:0.000000):0.000000,Staphylococcus_aureus_000024585_04:0.000000):0.000002):0.000002,(Staphylococcus_aureus_000463055_00:0.002130,Staphylococcus_aureus_003203655_02:0.000982):0.000002):0.000002,Staphylococcus_aureus_003193705_04:0.000002):0.000605,(Staphylococcus_aureus_900323965_03:0.000742,Staphylococcus_aureus_000144955_01:0.000905):0.000906):0.000135):0.001055,(Staphylococcus_aureus_000024585_00:0.000362,(((((Staphylococcus_aureus_003193705_00:0.000002,(Staphylococcus_aureus_001018775_03:0.000000,Staphylococcus_aureus_003203655_01:0.000000):0.000002):0.000362,Staphylococcus_aureus_003073715_00:0.000002):0.000002,Staphylococcus_aureus_002633865_00:0.000002):0.000002,Staphylococcus_aureus_003194405_00:0.000370):0.000362,Staphylococcus_aureus_001019495_02:0.000363):0.000363):0.000362):0.000002,(((Staphylococcus_aureus_003288395_00:0.000726,(Staphylococcus_aureus_002633845_00:0.000002,Staphylococcus_aureus_002442975_00:0.000362):0.000002):0.000725,(Staphylococcus_aureus_900474695_00:0.000002,Staphylococcus_aureus_900474695_04:0.000362):0.000362):0.000002,Staphylococcus_aureus_000737615_04:0.001089):0.000362):0.000002,(((((Staphylococcus_aureus_003354645_04:0.000362,((Staphylococcus_aureus_003184985_04:0.000363,Staphylococcus_aureus_000695215_04:0.000362):0.001089,Staphylococcus_aureus_000463055_02:0.000002):0.000358):0.000002,(((((Staphylococcus_aureus_003288395_02:0.000362,(Staphylococcus_aureus_002633845_03:0.000000,Staphylococcus_aureus_000737615_03:0.000000):0.000002):0.000362,Staphylococcus_aureus_000470865_03:0.000002):0.000002,Staphylococcus_aureus_000462955_00:0.002561):0.000361,(((Staphylococcus_aureus_001611365_00:0.000727,Staphylococcus_aureus_001611365_03:0.000362):0.000363,Staphylococcus_aureus_000463055_01:0.000002):0.000002,Staphylococcus_aureus_001611365_02:0.001454):0.000412):0.000002,Staphylococcus_aureus_003354905_04:0.000362):0.000002):0.000406,Staphylococcus_aureus_001611365_04:0.002635):0.000002,(((((((Staphylococcus_aureus_900323965_01:0.001384,((Staphylococcus_aureus_900004855_00:0.001037,Staphylococcus_aureus_900004855_04:0.001701):0.000679,Staphylococcus_aureus_900004855_03:0.000338):0.000679):0.000678,(((((Staphylococcus_aureus_000239235_00:0.000002,((Staphylococcus_aureus_003347055_00:0.000383,Staphylococcus_aureus_003193785_04:0.000002):0.000002,Staphylococcus_aureus_002140115_00:0.000383):0.000383):0.000002,Staphylococcus_aureus_003952625_01:0.000002):0.000002,Staphylococcus_aureus_003573835_00:0.001180):0.000383,((((Staphylococcus_aureus_003288395_01:0.000002,(Staphylococcus_aureus_002633845_04:0.000002,(Staphylococcus_aureus_002442975_04:0.000000,Staphylococcus_aureus_000470865_04:0.000000):0.000345):0.000002):0.000345,(Staphylococcus_aureus_900478245_00:0.000345,Staphylococcus_aureus_003944865_00:0.000002):0.000692):0.000345,Staphylococcus_aureus_003030085_02:0.000692):0.000343,(((((Staphylococcus_aureus_900478245_04:0.000338,Staphylococcus_aureus_000953255_04:0.000338):0.000002,Staphylococcus_aureus_003855575_04:0.000002):0.000338,Staphylococcus_aureus_003944865_04:0.000339):0.000457,Staphylococcus_aureus_003855575_00:0.000002):0.000002,Staphylococcus_aureus_003855575_01:0.000002):0.001609):0.000536):0.000002,Staphylococcus_aureus_002633825_00:0.000002):0.000002):0.000379,(Staphylococcus_aureus_000462955_01:0.000002,Staphylococcus_aureus_000462955_04:0.000785):0.001466):0.000002,((((((((((Staphylococcus_aureus_002000785_04:0.000000,Staphylococcus_aureus_002000625_04:0.000000):0.000000,Staphylococcus_aureus_002000605_04:0.000000):0.000000,Staphylococcus_aureus_002000865_04:0.000000):0.000000,Staphylococcus_aureus_002000725_04:0.000000):0.000000,Staphylococcus_aureus_001021895_04:0.000000):0.000000,Staphylococcus_aureus_001021875_04:0.000000):0.000000,Staphylococcus_aureus_001045795_04:0.000000):0.000000,Staphylococcus_aureus_002000805_04:0.000000):0.000002,(((((((Staphylococcus_aureus_003193725_03:0.000000,Staphylococcus_aureus_001717975_04:0.000000):0.000002,Staphylococcus_aureus_001717725_01:0.006763):0.000002,(Staphylococcus_aureus_001021895_03:0.000000,Staphylococcus_aureus_001045795_03:0.000000):0.000002):0.000002,Staphylococcus_aureus_001021875_03:0.000392):0.000392,(Staphylococcus_aureus_003186105_00:0.000346,Staphylococcus_aureus_003186105_04:0.001181):0.000346):0.000345,Staphylococcus_aureus_001717975_03:0.000392):0.000002,((((Staphylococcus_aureus_003193725_04:0.000000,Staphylococcus_aureus_001717725_00:0.000000):0.000000,Staphylococcus_aureus_003595365_04:0.000000):0.000000,Staphylococcus_aureus_003595445_04:0.000000):0.000000,Staphylococcus_aureus_003595505_04:0.000000):0.000002):0.000002):0.000345,(((((Staphylococcus_aureus_000239235_01:0.000600,Staphylococcus_aureus_000239235_04:0.000002):0.000002,(((Staphylococcus_aureus_002795285_04:0.000002,Staphylococcus_aureus_003952625_02:0.000002):0.000002,Staphylococcus_aureus_002633825_04:0.001382):0.000002,Staphylococcus_aureus_003573835_04:0.000002):0.001033):0.000507,Staphylococcus_aureus_002795285_01:0.002673):0.000248,Staphylococcus_aureus_003030085_01:0.000372):0.000008,Staphylococcus_aureus_002442975_03:0.000767):0.000002):0.000004):0.000785,Staphylococcus_aureus_002795285_00:0.000002):0.001308,((((((((((((((((Staphylococcus_aureus_900635265_03:0.000002,(Staphylococcus_aureus_001515705_03:0.001248,Staphylococcus_aureus_001641025_03:0.000002):0.000310):0.000002,Staphylococcus_aureus_000626615_01:0.000002):0.000002,Staphylococcus_aureus_002386245_03:0.000002):0.000002,Staphylococcus_aureus_002355355_03:0.000349):0.000310,Staphylococcus_aureus_000815085_03:0.004822):0.000002,Staphylococcus_aureus_000013465_03:0.000002):0.000002,Staphylococcus_aureus_003426145_01:0.000311):0.000633,Staphylococcus_aureus_900474695_03:0.000699):0.000002,(((Staphylococcus_aureus_003354865_03:0.000000,Staphylococcus_aureus_003354865_04:0.000000):0.000623,((((Staphylococcus_aureus_000452385_02:0.000002,Staphylococcus_aureus_000452385_04:0.000002):0.000622,Staphylococcus_aureus_000452385_05:0.000311):0.000833,Staphylococcus_aureus_003184985_00:0.001723):0.000413,Staphylococcus_aureus_000695215_00:0.000002):0.000002):0.000002,(Staphylococcus_aureus_002089095_02:0.002705,Staphylococcus_aureus_000462955_03:0.001048):0.000002):0.000336):0.000002,(Staphylococcus_aureus_002795285_03:0.000935,(Staphylococcus_aureus_002633825_03:0.000002,Staphylococcus_aureus_003573835_03:0.000623):0.000002):0.000621):0.000343,Staphylococcus_aureus_003952625_03:0.000311):0.000002,Staphylococcus_aureus_001018725_00:0.000311):0.000002,(((((((Staphylococcus_aureus_900635265_04:0.000002,(((Staphylococcus_aureus_002355355_04:0.000311,((Staphylococcus_aureus_001641025_04:0.000623,Staphylococcus_aureus_001515685_04:0.000310):0.000311,Staphylococcus_aureus_000013465_04:0.000002):0.000002):0.000002,Staphylococcus_aureus_003426145_00:0.000623):0.000002,Staphylococcus_aureus_000626615_00:0.000311):0.000002):0.000002,Staphylococcus_aureus_002386245_04:0.000002):0.000002,Staphylococcus_aureus_001515705_04:0.000935):0.000310,Staphylococcus_aureus_000815085_04:0.000002):0.000002,(Staphylococcus_aureus_000239235_03:0.000002,Staphylococcus_aureus_003186105_02:0.001718):0.000342):0.000283,Staphylococcus_aureus_001515685_03:0.005411):0.001843,((Staphylococcus_aureus_003627835_00:0.000002,Staphylococcus_aureus_003627835_01:0.000002):0.000917,Staphylococcus_aureus_003627835_04:0.003060):0.000777):0.000468):0.000002,((Staphylococcus_aureus_003347055_03:0.000002,(Staphylococcus_aureus_003193785_01:0.000002,Staphylococcus_aureus_000463055_03:0.000306):0.000613):0.000613,(Staphylococcus_aureus_003184985_03:0.000613,Staphylococcus_aureus_000695215_03:0.000919):0.000919):0.000002):0.000002,(Staphylococcus_aureus_900636695_01:0.001401,Staphylococcus_aureus_003030085_03:0.000624):0.000558):0.000002,(((Staphylococcus_aureus_003347055_04:0.000002,(Staphylococcus_aureus_003193785_00:0.000311,Staphylococcus_aureus_000463055_04:0.000002):0.000623):0.000311,Staphylococcus_aureus_002140115_04:0.000623):0.000002,Staphylococcus_aureus_002140115_03:0.000311):0.000002):0.000002):0.000524,((((Staphylococcus_aureus_900636695_00:0.000002,Staphylococcus_aureus_900635315_00:0.000002):0.000349,Staphylococcus_aureus_900635315_03:0.000349):0.000002,(Staphylococcus_aureus_900636695_04:0.000000,Staphylococcus_aureus_900635315_04:0.000000):0.000700):0.000349,Staphylococcus_aureus_900636695_03:0.001375):0.000002):0.001320):0.000002,(((((((Staphylococcus_aureus_900635265_00:0.000000,Staphylococcus_aureus_000626615_04:0.000000):0.000002,((((((((((((((Staphylococcus_aureus_002000785_00:0.000000,Staphylococcus_aureus_002000625_00:0.000000):0.000000,Staphylococcus_aureus_002000865_00:0.000000):0.000000,Staphylococcus_aureus_002000805_00:0.000000):0.000000,Staphylococcus_aureus_002000605_00:0.000000):0.000000,Staphylococcus_aureus_002000725_00:0.000000):0.000000,Staphylococcus_aureus_001021895_00:0.000000):0.000002,(((Staphylococcus_aureus_003193725_00:0.000000,Staphylococcus_aureus_003595505_00:0.000000):0.000000,Staphylococcus_aureus_003595445_00:0.000000):0.000000,Staphylococcus_aureus_003595365_00:0.000000):0.000002):0.000002,Staphylococcus_aureus_001021875_00:0.000725):0.000002,Staphylococcus_aureus_001045795_00:0.000362):0.000002,Staphylococcus_aureus_001717725_04:0.002186):0.000002,Staphylococcus_aureus_001717975_02:0.000726):0.000362,Staphylococcus_aureus_003426145_04:0.000726):0.000002,Staphylococcus_aureus_002386245_00:0.000002):0.000002,(Staphylococcus_aureus_002355355_00:0.000000,Staphylococcus_aureus_001641025_00:0.000000):0.000002):0.000002):0.000362,Staphylococcus_aureus_000815085_00:0.000002):0.000002,Staphylococcus_aureus_000013465_00:0.000002):0.000002,(Staphylococcus_aureus_000144955_03:0.000362,Staphylococcus_aureus_000144955_04:0.000002):0.000362):0.000362,(Staphylococcus_aureus_000737615_01:0.000274,Staphylococcus_aureus_000470865_01:0.000002):0.000825):0.000002,(Staphylococcus_aureus_001515705_00:0.004380,(Staphylococcus_aureus_001018725_01:0.000000,Staphylococcus_aureus_001018725_02:0.000000):0.000002):0.000002):0.000002):0.000529):0.000353,((Staphylococcus_aureus_000452385_01:0.001242,Staphylococcus_aureus_003627835_03:0.004766):0.001251,(Staphylococcus_aureus_000144955_00:0.000362,Staphylococcus_aureus_000144955_02:0.001089):0.000362):0.000002):0.000812,Staphylococcus_aureus_900323965_02:0.001089):0.000808,Staphylococcus_aureus_002089055_03:0.000321):0.000002,Staphylococcus_aureus_003111745_03:0.000002):0.000002,Staphylococcus_aureus_002089095_03:0.000002):0.000002,Staphylococcus_aureus_001465635_03:0.000002):0.000002):0.000002,Staphylococcus_aureus_002204575_03:0.000002):0.000002,(((Staphylococcus_aureus_900478245_03:0.000002,(Staphylococcus_aureus_000953255_02:0.000002,Staphylococcus_aureus_000953255_03:0.000002):0.000649):0.000002,Staphylococcus_aureus_003855575_03:0.000002):0.000002,Staphylococcus_aureus_003944865_03:0.000363):0.000974):0.000765):0.001533,Staphylococcus_aureus_002089095_00:0.000002):0.000002,Staphylococcus_aureus_002089055_00:0.000654):0.000327,Staphylococcus_aureus_001465635_00:0.000655):0.000002,(Staphylococcus_aureus_003111745_00:0.000327,Staphylococcus_aureus_002204575_00:0.000002):0.000002):0.000370,Staphylococcus_aureus_900324285_04:0.000000):0.000000,Staphylococcus_aureus_900324315_03:0.000000):0.000000,Staphylococcus_aureus_900324295_03:0.000000);
+
+TIME STAMP
+----------
+
+Date and time: Fri Feb 22 15:50:24 2019
+Total CPU time used: 939.98 seconds (0h:15m:39s)
+Total wall-clock time used: 129.59 seconds (0h:2m:9s)
+
