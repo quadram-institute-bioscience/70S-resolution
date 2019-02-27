@@ -1,0 +1,899 @@
+IQ-TREE multicore version 1.3.11.1 for Linux 64-bit built Feb  1 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    n114312.nbi.ac.uk (AVX2, FMA3, 15 GB RAM)
+Command: iqtree-omp -s ./016_results/16Sv4_long.fasta -nt 8 -m HKY+G
+Seed:    46306 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Feb 25 18:06:48 2019
+Kernel:  AVX - 8 threads (8 CPU cores detected)
+
+Reading alignment file ./016_results/16Sv4_long.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 758 sequences with 514 columns and 262 patterns (146 informative sites)
+                                          Gap/Ambiguity  Composition  p-value
+   1  Pseudomonas_putida_002736045               43.77%    passed     98.23%
+   2  Salmonella_enterica_003589865              43.58%    passed     80.52%
+   3  Escherichia_coli_003180975                 43.58%    passed     79.64%
+   4  Pseudomonas_aeruginosa_001516165           43.77%    passed     99.33%
+   5  Neisseria_meningitidis_001697305           43.77%    passed     93.59%
+   6  Neisseria_gonorrhoeae_001661115            43.77%    passed     99.30%
+   7  Leptospira_mayottensis_003429525           45.14%    passed     96.92%
+   8  Neisseria_meningitidis_001697525           43.77%    passed     93.59%
+   9  Escherichia_coli_002870165                 43.58%    passed     79.64%
+  10  Pseudomonas_putida_003671955               44.16%    passed     98.01%
+  11  Salmonella_enterica_001975365              43.58%    passed     80.52%
+  12  Salmonella_enterica_003071485              43.58%    passed     80.52%
+  13  Neisseria_meningitidis_003355215           43.77%    passed     94.10%
+  14  Escherichia_coli_000599645                 43.58%    passed     79.64%
+  15  Helicobacter_pylori_000148895              44.94%    passed     34.48%
+  16  Pseudomonas_aeruginosa_001516205           43.77%    passed     99.33%
+  17  Pseudomonas_aeruginosa_001548135           43.77%    passed     99.77%
+  18  Salmonella_enterica_003324955              43.77%    passed     77.23%
+  19  Salmonella_enterica_000245535              43.58%    passed     80.52%
+  20  Salmonella_enterica_003717675              43.77%    passed     70.56%
+  21  Pseudomonas_putida_003228315               44.16%    passed     95.02%
+  22  Salmonella_enterica_900477885              43.58%    passed     73.02%
+  23  Neisseria_meningitidis_001697485           43.77%    passed     93.59%
+  24  Pseudomonas_aeruginosa_003369755           44.16%    passed     98.90%
+  25  Helicobacter_pylori_000178935              44.94%    passed     30.98%
+  26  Pseudomonas_parafulva_003410295            44.16%    passed     98.01%
+  27  Neisseria_meningitidis_000191505           43.77%    passed     96.47%
+  28  Pseudomonas_aeruginosa_001900265           43.77%    passed     99.33%
+  29  Neisseria_meningitidis_001697425           43.77%    passed     93.59%
+  30  Pseudomonas_syringae_002905815             44.16%    passed     94.98%
+  31  Pseudomonas_koreensis_001654515            43.77%    passed     99.88%
+  32  Salmonella_enterica_001121865              43.58%    passed     80.52%
+  33  Escherichia_coli_002786655                 43.77%    passed     82.29%
+  34  Escherichia_coli_002812545                 43.58%    passed     79.64%
+  35  Pseudomonas_synxantha_003851495            44.16%    passed     95.06%
+  36  Escherichia_coli_001566615                 43.58%    passed     85.63%
+  37  Pseudomonas_stutzeri_000327065             43.97%    passed     98.69%
+  38  Pseudomonas_aeruginosa_000504045           43.77%    passed     99.33%
+  39  Pseudomonas_syringae_900235885             44.16%    passed     97.07%
+  40  Pseudomonas_aeruginosa_002812905           44.16%    passed     98.90%
+  41  Neisseria_meningitidis_900638595           43.77%    passed     98.23%
+  42  Neisseria_meningitidis_002073675           43.77%    passed     94.10%
+  43  Neisseria_gonorrhoeae_001047225            43.77%    passed     99.30%
+  44  Pseudomonas_aeruginosa_001482325           43.77%    passed     99.33%
+  45  Pseudomonas_aeruginosa_002085605           43.77%    passed     99.33%
+  46  Helicobacter_pylori_002952495              45.33%    passed     36.83%
+  47  Pseudomonas_chlororaphis_003851985         44.16%    passed     99.13%
+  48  Salmonella_enterica_003717955              43.58%    passed     74.52%
+  49  Pseudomonas_aeruginosa_001792855           43.77%    passed     99.33%
+  50  Pseudomonas_fluorescens_000963495          43.77%    passed     90.78%
+  51  Neisseria_gonorrhoeae_000020105            43.77%    passed     99.30%
+  52  Helicobacter_cinaedi_000284635             45.33%    passed     36.76%
+  53  Escherichia_coli_002142695                 43.58%    passed     84.82%
+  54  Neisseria_meningitidis_001029815           43.77%    passed     93.59%
+  55  Escherichia_albertii_003312545             43.58%    passed     85.63%
+  56  Escherichia_coli_002741255                 43.58%    passed     85.63%
+  57  Escherichia_coli_000014845                 43.58%    passed     85.63%
+  58  Pseudomonas_aeruginosa_002215345           43.77%    passed     99.33%
+  59  Pseudomonas_aeruginosa_001687285           44.16%    passed     98.90%
+  60  Pseudomonas_aeruginosa_003812885           44.16%    passed     98.90%
+  61  Helicobacter_pylori_000277365              44.94%    passed     34.48%
+  62  Neisseria_meningitidis_001974965           43.77%    passed     99.30%
+  63  Pseudomonas_aeruginosa_002237405           43.77%    passed     99.33%
+  64  Helicobacter_pylori_900120135              45.33%    passed     36.83%
+  65  Escherichia_albertii_003860385             43.77%    passed     87.74%
+  66  Pseudomonas_parafulva_002021815            43.77%    passed     98.23%
+  67  Pseudomonas_stutzeri_900636845             44.16%    passed     98.56%
+  68  Pseudomonas_chlororaphis_003850405         44.16%    passed     98.93%
+  69  Neisseria_meningitidis_001697685           43.77%    passed     93.59%
+  70  Pseudomonas_aeruginosa_000510305           43.77%    passed     99.33%
+  71  Salmonella_enterica_001705055              43.58%    passed     80.52%
+  72  Escherichia_albertii_003312525             43.58%    passed     85.63%
+  73  Pseudomonas_synxantha_003852025            44.16%    passed     95.06%
+  74  Pseudomonas_aeruginosa_003206535           44.16%    passed     98.90%
+  75  Pseudomonas_aeruginosa_000473745           43.77%    passed     99.33%
+  76  Escherichia_albertii_001549955             43.58%    passed     85.63%
+  77  Pseudomonas_aeruginosa_001750705           43.77%    passed     99.33%
+  78  Escherichia_coli_003956305                 43.58%    passed     79.64%
+  79  Escherichia_coli_002011965                 43.58%    passed     85.63%
+  80  Pseudomonas_fluorescens_003410335          44.16%    passed     98.36%
+  81  Salmonella_bongori_002211925               43.58%    passed     53.91%
+  82  Escherichia_coli_000597845                 43.58%    passed     79.64%
+  83  Neisseria_meningitidis_000800315           43.77%    passed     95.90%
+  84  Neisseria_gonorrhoeae_001661135            43.77%    passed     99.30%
+  85  Neisseria_meningitidis_001698065           43.77%    passed     93.59%
+  86  Pseudomonas_aeruginosa_900636755           44.16%    passed     98.90%
+  87  Pseudomonas_aeruginosa_003641125           44.16%    passed     98.90%
+  88  Helicobacter_cinaedi_003574195             45.53%    passed     39.38%
+  89  Pseudomonas_chlororaphis_001023535         43.77%    passed     97.28%
+  90  Pseudomonas_chlororaphis_002844145         45.33%    passed     98.80%
+  91  Escherichia_albertii_003312485             43.58%    passed     85.63%
+  92  Salmonella_enterica_002760915              43.58%    passed     80.52%
+  93  Pseudomonas_aeruginosa_003952325           44.16%    passed     98.90%
+  94  Neisseria_meningitidis_002556585           43.77%    passed     93.59%
+  95  Pseudomonas_protegens_002208745            44.16%    passed     97.47%
+  96  Salmonella_enterica_002224405              43.58%    passed     80.52%
+  97  Pseudomonas_chlororaphis_003850425         44.16%    passed     98.93%
+  98  Salmonella_enterica_001629755              43.58%    passed     74.61%
+  99  Pseudomonas_chlororaphis_003851225         44.16%    passed     99.13%
+ 100  Escherichia_coli_001280405                 43.58%    passed     84.82%
+ 101  Pseudomonas_putida_000410575               43.77%    passed     98.23%
+ 102  Escherichia_coli_000022665                 43.58%    passed     85.63%
+ 103  Helicobacter_pylori_003957395              45.14%    passed     24.96%
+ 104  Neisseria_meningitidis_003355295           43.77%    passed     89.42%
+ 105  Pseudomonas_aeruginosa_900618325           44.16%    passed     98.90%
+ 106  Salmonella_enterica_000009505              43.58%    passed     80.52%
+ 107  Salmonella_enterica_001447095              43.58%    passed     80.52%
+ 108  Pseudomonas_brassicacearum_001449085       43.77%    passed     99.57%
+ 109  Helicobacter_pylori_002952575              45.33%    passed     36.83%
+ 110  Neisseria_gonorrhoeae_900637245            43.77%    passed     98.97%
+ 111  Salmonella_enterica_002208255              43.58%    passed     80.52%
+ 112  Pseudomonas_aeruginosa_900636735           44.16%    passed     98.90%
+ 113  Neisseria_meningitidis_001697885           43.77%    passed     93.59%
+ 114  Escherichia_coli_000025165                 43.58%    passed     84.82%
+ 115  Escherichia_coli_900636065                 43.58%    passed     85.63%
+ 116  Escherichia_coli_003367885                 43.58%    passed     79.64%
+ 117  Pseudomonas_stutzeri_000279165             44.16%    passed     99.58%
+ 118  Escherichia_coli_002249955                 43.58%    passed     84.82%
+ 119  Pseudomonas_syringae_002966555             44.16%    passed     94.98%
+ 120  Pseudomonas_putida_000183645               43.77%    passed     98.23%
+ 121  Salmonella_enterica_002761155              43.58%    passed     80.52%
+ 122  Pseudomonas_orientalis_003851585           44.16%    passed     99.17%
+ 123  Neisseria_meningitidis_000008805           43.77%    passed     89.42%
+ 124  Neisseria_meningitidis_000800355           48.83%    passed     98.85%
+ 125  Pseudomonas_chlororaphis_000963835         43.77%    passed     99.94%
+ 126  Neisseria_meningitidis_002951575           43.77%    passed     95.17%
+ 127  Helicobacter_pylori_900120205              45.33%    passed     36.83%
+ 128  Pseudomonas_chlororaphis_003852005         44.16%    passed     99.13%
+ 129  Neisseria_gonorrhoeae_001047275            43.77%    passed     99.30%
+ 130  Neisseria_meningitidis_001698085           43.77%    passed     96.47%
+ 131  Salmonella_enterica_001361075              43.58%    passed     80.52%
+ 132  Pseudomonas_fluorescens_001747385          43.77%    passed     90.78%
+ 133  Pseudomonas_aeruginosa_002812925           44.16%    passed     98.90%
+ 134  Salmonella_enterica_001577505              43.77%    passed     77.14%
+ 135  Salmonella_enterica_001623775              43.58%    passed     80.52%
+ 136  Escherichia_albertii_002872455             43.58%    passed     85.63%
+ 137  Escherichia_coli_002952875                 43.58%    passed     79.64%
+ 138  Pseudomonas_aeruginosa_000829255           43.77%    passed     99.33%
+ 139  Pseudomonas_aeruginosa_000524595           43.77%    passed     99.33%
+ 140  Escherichia_coli_001618325                 43.58%    passed     85.63%
+ 141  Salmonella_enterica_001447115              43.77%    passed     81.77%
+ 142  Pseudomonas_chlororaphis_003850585         44.16%    passed     98.93%
+ 143  Pseudomonas_aeruginosa_002812865           44.16%    passed     98.90%
+ 144  Escherichia_coli_002012265                 43.58%    passed     79.64%
+ 145  Helicobacter_cinaedi_003213725             45.33%    passed     42.26%
+ 146  Salmonella_bongori_000709535               43.58%    passed     53.91%
+ 147  Pseudomonas_aeruginosa_003798125           44.16%    passed     98.90%
+ 148  Pseudomonas_putida_001515585               43.77%    passed     99.11%
+ 149  Salmonella_enterica_003429445              43.77%    passed     83.17%
+ 150  Salmonella_enterica_001975515              43.58%    passed     80.52%
+ 151  Neisseria_meningitidis_000191525           43.77%    passed     93.59%
+ 152  Helicobacter_pylori_000021165              45.14%    passed     32.44%
+ 153  Pseudomonas_aeruginosa_000006765           44.16%    passed     97.63%
+ 154  Pseudomonas_chlororaphis_003851445         44.16%    passed     99.13%
+ 155  Helicobacter_pylori_000196755              45.14%    passed     32.44%
+ 156  Salmonella_enterica_900205265              43.39%    passed     78.05%
+ 157  Pseudomonas_putida_002025705               43.77%    passed     98.23%
+ 158  Pseudomonas_aeruginosa_001632245           43.77%    passed     99.33%
+ 159  Pseudomonas_chlororaphis_003851365         44.16%    passed     99.13%
+ 160  Helicobacter_pylori_000255955              45.33%    passed     36.83%
+ 161  Pseudomonas_monteilii_003671975            44.16%    passed     98.79%
+ 162  Helicobacter_pylori_002951975              45.33%    passed     36.83%
+ 163  Helicobacter_pylori_000827025              47.28%    passed     70.05%
+ 164  Neisseria_meningitidis_000009465           43.77%    passed     93.59%
+ 165  Helicobacter_pylori_002906555              45.33%    passed     36.83%
+ 166  Helicobacter_pylori_900120315              45.33%    passed     36.83%
+ 167  Neisseria_meningitidis_001697785           43.77%    passed     93.59%
+ 168  Pseudomonas_chlororaphis_900636995         44.16%    passed     98.93%
+ 169  Neisseria_gonorrhoeae_001047255            43.77%    passed     99.30%
+ 170  Salmonella_enterica_003710205              43.58%    passed     73.02%
+ 171  Pseudomonas_fluorescens_001307275          44.16%    passed     98.36%
+ 172  Neisseria_meningitidis_003355435           43.77%    passed     96.92%
+ 173  Helicobacter_pylori_000307835              45.53%    passed     28.13%
+ 174  Salmonella_enterica_002210025              43.58%    passed     80.52%
+ 175  Pseudomonas_syringae_900235835             44.16%    passed     94.98%
+ 176  Pseudomonas_mendocina_002442555            43.77%    passed     99.70%
+ 177  Pseudomonas_orientalis_003851605           44.16%    passed     99.17%
+ 178  Neisseria_meningitidis_001697385           43.77%    passed     93.59%
+ 179  Neisseria_meningitidis_001029835           43.77%    passed     96.47%
+ 180  Salmonella_enterica_000623615              43.58%    passed     80.52%
+ 181  Escherichia_coli_900635325                 43.58%    passed     85.63%
+ 182  Helicobacter_pylori_000093185              44.94%    passed     34.48%
+ 183  Salmonella_enterica_000626375              43.58%    passed     80.52%
+ 184  Escherichia_coli_002953435                 43.58%    passed     79.64%
+ 185  Escherichia_albertii_002285455             43.58%    passed     84.82%
+ 186  Neisseria_meningitidis_002073235           43.77%    passed     95.03%
+ 187  Escherichia_coli_000147855                 43.58%    passed     85.63%
+ 188  Pseudomonas_aeruginosa_001900225           53.31%    passed     81.11%
+ 189  Pseudomonas_fluorescens_000293885          43.77%    passed     99.88%
+ 190  Pseudomonas_chlororaphis_003851905         44.16%    passed     99.13%
+ 191  Pseudomonas_aeruginosa_003028335           44.16%    passed     98.90%
+ 192  Pseudomonas_chlororaphis_003851805         44.16%    passed     99.13%
+ 193  Pseudomonas_mendocina_000733715            43.77%    passed     99.70%
+ 194  Escherichia_coli_004010655                 43.58%    passed     85.63%
+ 195  Pseudomonas_syringae_002024305             43.77%    passed     99.57%
+ 196  Pseudomonas_syringae_001482725             43.77%    passed     99.57%
+ 197  Pseudomonas_aeruginosa_001516265           43.77%    passed     99.33%
+ 198  Salmonella_enterica_000007545              43.58%    passed     80.52%
+ 199  Neisseria_meningitidis_000009105           43.77%    passed     93.59%
+ 200  Helicobacter_pylori_000224555              44.94%    passed     34.48%
+ 201  Escherichia_coli_003073955                 43.77%    passed     75.62%
+ 202  Neisseria_meningitidis_001697985           43.77%    passed     93.59%
+ 203  Escherichia_coli_001900885                 43.58%    passed     85.63%
+ 204  Salmonella_enterica_003718655              43.58%    passed     74.52%
+ 205  Neisseria_meningitidis_001697545           43.77%    passed     96.34%
+ 206  Salmonella_enterica_001975345              43.58%    passed     80.52%
+ 207  Helicobacter_pylori_000600145              44.94%    passed     34.48%
+ 208  Pseudomonas_stutzeri_003952685             44.16%    passed     95.02%
+ 209  Pseudomonas_fluorescens_003626995          44.16%    passed     94.73%
+ 210  Salmonella_bongori_000252995               43.58%    passed     53.91%
+ 211  Pseudomonas_brassicacearum_001746815       43.77%    passed     99.57%
+ 212  Pseudomonas_aeruginosa_000026645           43.77%    passed     99.33%
+ 213  Pseudomonas_aeruginosa_001792835           43.77%    passed     99.33%
+ 214  Pseudomonas_stutzeri_003047145             44.16%    passed     98.56%
+ 215  Pseudomonas_aeruginosa_900618315           44.16%    passed     98.90%
+ 216  Pseudomonas_aeruginosa_001515915           43.77%    passed     99.33%
+ 217  Pseudomonas_chlororaphis_003851865         44.16%    passed     99.13%
+ 218  Pseudomonas_aeruginosa_002104595           43.77%    passed     99.33%
+ 219  Neisseria_gonorrhoeae_002073655            43.77%    passed     98.97%
+ 220  Helicobacter_pylori_000685745              45.14%    passed     32.44%
+ 221  Escherichia_coli_001900675                 43.58%    passed     85.63%
+ 222  Escherichia_coli_002591135                 43.58%    passed     84.82%
+ 223  Pseudomonas_aeruginosa_001721825           43.77%    passed     99.77%
+ 224  Pseudomonas_chlororaphis_003851305         44.16%    passed     99.13%
+ 225  Pseudomonas_synxantha_003851525            44.16%    passed     95.06%
+ 226  Pseudomonas_monteilii_001534745            43.77%    passed     99.11%
+ 227  Salmonella_enterica_002211865              43.58%    passed     79.20%
+ 228  Salmonella_enterica_001441205              43.58%    passed     80.52%
+ 229  Helicobacter_pylori_000829095              47.67%    passed     51.61%
+ 230  Pseudomonas_fluorescens_000730425          43.77%    passed     98.47%
+ 231  Neisseria_meningitidis_001697725           43.77%    passed     93.59%
+ 232  Helicobacter_pylori_003050665              45.33%    passed     36.83%
+ 233  Salmonella_enterica_001119245              43.58%    passed     80.52%
+ 234  Leptospira_interrogans_000231175           45.14%    passed     96.92%
+ 235  Escherichia_coli_002846135                 43.77%    passed     82.29%
+ 236  Leptospira_interrogans_001047655           45.14%    passed     96.92%
+ 237  Pseudomonas_stutzeri_000267545             43.77%    passed     99.70%
+ 238  Neisseria_meningitidis_001750825           43.77%    passed     93.59%
+ 239  Escherichia_coli_002056635                 43.58%    passed     79.64%
+ 240  Pseudomonas_syringae_001913215             43.77%    passed     99.57%
+ 241  Pseudomonas_chlororaphis_002355875         43.77%    passed     99.94%
+ 242  Escherichia_coli_002357915                 43.58%    passed     85.63%
+ 243  Neisseria_meningitidis_001697605           43.77%    passed     96.34%
+ 244  Helicobacter_pylori_000600045              45.14%    passed     32.44%
+ 245  Escherichia_coli_001900615                 43.58%    passed     79.64%
+ 246  Neisseria_meningitidis_001697765           43.77%    passed     97.82%
+ 247  Pseudomonas_aeruginosa_000284555           43.77%    passed     99.33%
+ 248  Neisseria_meningitidis_001697505           43.77%    passed     89.71%
+ 249  Escherichia_coli_001675145                 43.58%    passed     85.63%
+ 250  Escherichia_coli_003018535                 43.58%    passed     79.64%
+ 251  Pseudomonas_aeruginosa_000359505           43.77%    passed     99.33%
+ 252  Salmonella_enterica_001975265              43.58%    passed     80.52%
+ 253  Salmonella_enterica_001362195              43.39%    passed     83.41%
+ 254  Pseudomonas_aeruginosa_000829885           43.77%    passed     99.33%
+ 255  Pseudomonas_chlororaphis_003851835         44.16%    passed     99.13%
+ 256  Escherichia_coli_000833635                 43.58%    passed     85.63%
+ 257  Salmonella_enterica_003718195              43.58%    passed     74.52%
+ 258  Pseudomonas_aeruginosa_900618305           44.55%    passed     97.57%
+ 259  Helicobacter_pylori_000270005              44.94%    passed     26.60%
+ 260  Salmonella_enterica_001623685              43.58%    passed     80.52%
+ 261  Pseudomonas_putida_002736125               43.77%    passed     98.23%
+ 262  Helicobacter_pylori_000828955              45.33%    passed     32.80%
+ 263  Neisseria_meningitidis_000191465           43.77%    passed     96.47%
+ 264  Salmonella_enterica_000623375              43.58%    passed     80.52%
+ 265  Salmonella_enterica_000020885              43.39%    passed     78.05%
+ 266  Neisseria_meningitidis_002073275           43.77%    passed     96.92%
+ 267  Pseudomonas_aeruginosa_001518975           43.77%    passed     99.33%
+ 268  Salmonella_enterica_002761075              43.58%    passed     80.52%
+ 269  Salmonella_enterica_002119485              43.58%    passed     85.87%
+ 270  Escherichia_coli_002850675                 43.58%    passed     79.64%
+ 271  Pseudomonas_aeruginosa_001516185           43.77%    passed     99.33%
+ 272  Pseudomonas_fluorescens_003612935          44.16%    passed     95.06%
+ 273  Salmonella_enterica_003717075              43.58%    passed     74.52%
+ 274  Salmonella_enterica_001890165              43.58%    passed     80.52%
+ 275  Salmonella_enterica_003032035              43.58%    passed     80.52%
+ 276  Helicobacter_pylori_000091345              45.14%    passed     32.44%
+ 277  Salmonella_enterica_000623335              43.58%    passed     80.52%
+ 278  Helicobacter_pylori_000498315              45.14%    passed     32.44%
+ 279  Salmonella_enterica_002762135              43.58%    passed     80.52%
+ 280  Helicobacter_pylori_000317875              44.94%    passed     34.48%
+ 281  Salmonella_enterica_001953695              43.58%    passed     80.52%
+ 282  Leptospira_interrogans_000941035           45.14%    passed     96.92%
+ 283  Pseudomonas_aeruginosa_001879525           43.77%    passed     99.33%
+ 284  Neisseria_meningitidis_000800235           43.77%    passed     93.59%
+ 285  Neisseria_meningitidis_001697445           43.77%    passed     93.59%
+ 286  Pseudomonas_aeruginosa_002075065           43.77%    passed     99.33%
+ 287  Escherichia_albertii_002741375             43.58%    passed     84.82%
+ 288  Pseudomonas_syringae_000452705             43.77%    passed     99.57%
+ 289  Escherichia_coli_001280325                 43.58%    passed     85.63%
+ 290  Neisseria_meningitidis_001697405           43.77%    passed     93.59%
+ 291  Escherichia_coli_001020945                 43.58%    passed     85.63%
+ 292  Pseudomonas_aeruginosa_900185255           43.77%    passed     99.33%
+ 293  Salmonella_enterica_002313105              43.58%    passed     80.52%
+ 294  Neisseria_meningitidis_001697205           43.77%    passed     93.59%
+ 295  Pseudomonas_putida_000412675               43.77%    passed     98.23%
+ 296  Pseudomonas_putida_002356095               43.77%    passed     98.23%
+ 297  Neisseria_meningitidis_000191485           43.77%    passed     96.47%
+ 298  Pseudomonas_chlororaphis_003850485         44.16%    passed     98.93%
+ 299  Pseudomonas_fluorescens_900475215          44.16%    passed     93.31%
+ 300  Pseudomonas_syringae_001281365             43.77%    passed     99.57%
+ 301  Pseudomonas_aeruginosa_003332705           44.16%    passed     98.90%
+ 302  Pseudomonas_fluorescens_000237065          43.77%    passed     99.11%
+ 303  Helicobacter_pylori_000008785              45.33%    passed     36.83%
+ 304  Helicobacter_pylori_900119955              45.33%    passed     36.83%
+ 305  Escherichia_coli_003017805                 43.58%    passed     79.64%
+ 306  Pseudomonas_putida_003290365               44.16%    passed     98.01%
+ 307  Leptospira_borgpetersenii_000013965        44.94%    passed     97.82%
+ 308  Escherichia_albertii_003864095             43.58%    passed     85.63%
+ 309  Pseudomonas_synxantha_003851465            44.16%    passed     95.06%
+ 310  Pseudomonas_aeruginosa_000829275           43.77%    passed     99.33%
+ 311  Pseudomonas_fluorescens_001307155          44.16%    passed     98.46%
+ 312  Neisseria_meningitidis_001697825           43.77%    passed     93.59%
+ 313  Neisseria_meningitidis_900638575           43.77%    passed     89.42%
+ 314  Salmonella_enterica_003718555              43.58%    passed     74.52%
+ 315  Pseudomonas_aeruginosa_003288355           44.16%    passed     98.90%
+ 316  Helicobacter_pylori_900119995              45.33%    passed     36.83%
+ 317  Leptospira_interrogans_001293065           44.94%    passed     96.46%
+ 318  Pseudomonas_aeruginosa_003991465           44.16%    passed     98.90%
+ 319  Salmonella_enterica_000272895              43.58%    passed     80.52%
+ 320  Helicobacter_pylori_000392455              44.94%    passed     34.48%
+ 321  Escherichia_coli_001559615                 43.58%    passed     85.63%
+ 322  Salmonella_enterica_001729225              43.58%    passed     80.52%
+ 323  Escherichia_coli_002011985                 43.58%    passed     90.32%
+ 324  Pseudomonas_syringae_900235815             44.16%    passed     97.07%
+ 325  Helicobacter_pylori_000498335              45.14%    passed     32.44%
+ 326  Helicobacter_pylori_000192335              45.33%    passed     36.83%
+ 327  Pseudomonas_koreensis_001605965            43.77%    passed     99.88%
+ 328  Pseudomonas_putida_001636055               43.77%    passed     99.11%
+ 329  Neisseria_meningitidis_002073595           43.77%    passed     89.42%
+ 330  Helicobacter_pylori_000020245              44.94%    passed     34.48%
+ 331  Pseudomonas_fluorescens_001708445          43.77%    passed     98.47%
+ 332  Salmonella_enterica_003717795              43.58%    passed     74.52%
+ 333  Helicobacter_pylori_000192315              45.33%    passed     36.83%
+ 334  Escherichia_coli_002999075                 43.58%    passed     79.64%
+ 335  Pseudomonas_syringae_000452445             44.16%    passed     94.98%
+ 336  Helicobacter_pylori_000392535              44.94%    passed     34.48%
+ 337  Neisseria_meningitidis_000816165           43.77%    passed     93.59%
+ 338  Pseudomonas_aeruginosa_003193645           44.16%    passed     98.90%
+ 339  Pseudomonas_aeruginosa_002968695           44.16%    passed     98.90%
+ 340  Helicobacter_pylori_000148915              44.94%    passed     34.48%
+ 341  Pseudomonas_stutzeri_003952645             44.16%    passed     95.02%
+ 342  Pseudomonas_aeruginosa_900618275           44.16%    passed     98.90%
+ 343  Pseudomonas_putida_002741075               43.77%    passed     99.11%
+ 344  Salmonella_enterica_001623625              43.58%    passed     80.52%
+ 345  Escherichia_coli_002105735                 43.58%    passed     84.82%
+ 346  Escherichia_coli_900635215                 43.58%    passed     83.15%
+ 347  Pseudomonas_koreensis_003049825            44.16%    passed     98.12%
+ 348  Pseudomonas_synxantha_000968415            44.16%    passed     93.31%
+ 349  Salmonella_enterica_000271905              43.58%    passed     80.52%
+ 350  Pseudomonas_entomophila_003940825          44.16%    passed     98.93%
+ 351  Neisseria_meningitidis_003355375           43.77%    passed     89.42%
+ 352  Pseudomonas_parafulva_000800255            61.09%    passed     84.11%
+ 353  Pseudomonas_fluorescens_001708465          43.77%    passed     98.47%
+ 354  Salmonella_enterica_000027025              43.58%    passed     80.52%
+ 355  Leptospira_interrogans_000092565           45.14%    passed     97.59%
+ 356  Neisseria_meningitidis_001697625           43.77%    passed     96.47%
+ 357  Salmonella_enterica_000624395              43.58%    passed     80.52%
+ 358  Pseudomonas_protegens_000397205            43.77%    passed     99.83%
+ 359  Neisseria_meningitidis_001697165           43.77%    passed     93.59%
+ 360  Helicobacter_pylori_000270025              44.94%    passed     30.98%
+ 361  Helicobacter_pylori_000600205              44.94%    passed     34.48%
+ 362  Neisseria_meningitidis_000014105           43.77%    passed     93.59%
+ 363  Pseudomonas_entomophila_003940785          44.16%    passed     98.93%
+ 364  Pseudomonas_entomophila_000026105          43.77%    passed     99.11%
+ 365  Salmonella_enterica_003325015              43.77%    passed     70.56%
+ 366  Pseudomonas_aeruginosa_002812825           44.16%    passed     98.90%
+ 367  Helicobacter_pylori_000185185              45.14%    passed     32.44%
+ 368  Neisseria_meningitidis_002073575           43.77%    passed     89.42%
+ 369  Pseudomonas_chlororaphis_003851925         44.16%    passed     99.13%
+ 370  Helicobacter_pylori_000270045              44.94%    passed     34.48%
+ 371  Neisseria_meningitidis_000800275           43.77%    passed     93.59%
+ 372  Pseudomonas_putida_000325725               43.77%    passed     98.23%
+ 373  Neisseria_meningitidis_003355275           43.77%    passed     94.10%
+ 374  Pseudomonas_aeruginosa_000496605           43.77%    passed     99.33%
+ 375  Escherichia_coli_001900415                 43.58%    passed     85.63%
+ 376  Pseudomonas_chlororaphis_003851955         44.16%    passed     99.13%
+ 377  Pseudomonas_syringae_000344475             44.16%    passed     94.98%
+ 378  Escherichia_coli_003112185                 43.58%    passed     83.96%
+ 379  Salmonella_enterica_000623275              43.58%    passed     80.52%
+ 380  Escherichia_coli_001900905                 43.58%    passed     85.63%
+ 381  Pseudomonas_mendocina_000016565            43.77%    passed     99.70%
+ 382  Pseudomonas_aeruginosa_003957825           44.16%    passed     98.90%
+ 383  Neisseria_lactamica_002022745              43.77%    passed     99.88%
+ 384  Salmonella_enterica_001127485              43.58%    passed     80.52%
+ 385  Neisseria_meningitidis_001697365           43.77%    passed     96.47%
+ 386  Pseudomonas_aeruginosa_003194245           44.16%    passed     98.90%
+ 387  Escherichia_coli_002741455                 43.58%    passed     84.82%
+ 388  Pseudomonas_chlororaphis_003850385         44.16%    passed     98.93%
+ 389  Pseudomonas_aeruginosa_001515845           57.98%    passed     81.39%
+ 390  Helicobacter_pylori_001653475              45.14%    passed     32.44%
+ 391  Salmonella_enterica_003030125              43.77%    passed     70.56%
+ 392  Salmonella_enterica_003031875              43.58%    passed     74.52%
+ 393  Escherichia_albertii_002285475             43.58%    passed     84.82%
+ 394  Pseudomonas_syringae_000648735             43.77%    passed     99.57%
+ 395  Neisseria_meningitidis_000026965           43.77%    passed     96.47%
+ 396  Salmonella_enterica_002234775              43.58%    passed     80.52%
+ 397  Pseudomonas_chlororaphis_003851165         44.16%    passed     99.13%
+ 398  Escherichia_coli_003019115                 43.58%    passed     79.64%
+ 399  Helicobacter_pylori_002356595              44.94%    passed     34.48%
+ 400  Escherichia_coli_003856695                 43.58%    passed     79.64%
+ 401  Salmonella_enterica_001095585              43.58%    passed     80.52%
+ 402  Pseudomonas_putida_000264665               44.16%    passed     98.01%
+ 403  Pseudomonas_aeruginosa_003571505           44.16%    passed     98.90%
+ 404  Helicobacter_pylori_002952555              45.33%    passed     36.83%
+ 405  Salmonella_enterica_003717855              43.58%    passed     74.52%
+ 406  Pseudomonas_monteilii_002943995            44.16%    passed     98.01%
+ 407  Pseudomonas_chlororaphis_003850605         44.16%    passed     98.93%
+ 408  Helicobacter_pylori_000307815              45.53%    passed     28.13%
+ 409  Escherichia_coli_002165115                 43.58%    passed     79.64%
+ 410  Pseudomonas_aeruginosa_002208645           43.77%    passed     99.33%
+ 411  Pseudomonas_stutzeri_003008495             44.16%    passed     98.56%
+ 412  Pseudomonas_chlororaphis_003850365         44.16%    passed     98.93%
+ 413  Neisseria_meningitidis_000626595           43.77%    passed     93.59%
+ 414  Pseudomonas_aeruginosa_000496455           43.77%    passed     99.33%
+ 415  Helicobacter_pylori_002952355              45.33%    passed     36.83%
+ 416  Leptospira_mayottensis_003429505           45.14%    passed     96.92%
+ 417  Escherichia_coli_002012185                 43.58%    passed     85.63%
+ 418  Salmonella_enterica_000750375              43.58%    passed     80.52%
+ 419  Escherichia_coli_900174625                 43.58%    passed     85.63%
+ 420  Neisseria_meningitidis_001697325           43.77%    passed     93.59%
+ 421  Neisseria_meningitidis_002073555           43.77%    passed     96.92%
+ 422  Neisseria_elongata_000818035               43.77%    passed     98.53%
+ 423  Helicobacter_pylori_000439295              44.94%    passed     34.48%
+ 424  Helicobacter_pylori_000392515              45.14%    passed     24.96%
+ 425  Helicobacter_cinaedi_003213825             45.53%    passed     39.38%
+ 426  Pseudomonas_aeruginosa_004010895           44.16%    passed     98.90%
+ 427  Leptospira_interrogans_002073495           45.14%    passed     96.92%
+ 428  Pseudomonas_aeruginosa_002237425           43.77%    passed     99.33%
+ 429  Neisseria_meningitidis_001697965           43.77%    passed     93.59%
+ 430  Escherichia_coli_003856675                 43.58%    passed     85.63%
+ 431  Pseudomonas_chlororaphis_003851145         44.16%    passed     99.13%
+ 432  Helicobacter_pylori_000348865              45.14%    passed     32.44%
+ 433  Salmonella_enterica_002946375              43.77%    passed     83.17%
+ 434  Pseudomonas_aeruginosa_003073735           44.16%    passed     98.90%
+ 435  Pseudomonas_protegens_003363755            44.16%    passed     96.74%
+ 436  Pseudomonas_syringae_000344355             43.77%    passed     99.57%
+ 437  Pseudomonas_putida_000007565               44.55%    passed     96.24%
+ 438  Pseudomonas_aeruginosa_003073895           44.16%    passed     98.90%
+ 439  Escherichia_coli_900636195                 43.58%    passed     79.64%
+ 440  Pseudomonas_syringae_000007805             44.94%    passed     98.58%
+ 441  Pseudomonas_aeruginosa_001077475           43.77%    passed     99.33%
+ 442  Helicobacter_pylori_002952475              45.33%    passed     36.83%
+ 443  Neisseria_elongata_003351545               43.77%    passed     99.43%
+ 444  Neisseria_meningitidis_000083565           43.77%    passed     93.59%
+ 445  Pseudomonas_chlororaphis_001602135         43.77%    passed     99.94%
+ 446  Pseudomonas_aeruginosa_001516365           43.77%    passed     99.33%
+ 447  Salmonella_enterica_003718615              43.58%    passed     74.52%
+ 448  Pseudomonas_frederiksbergensis_001952935   43.77%    passed     98.98%
+ 449  Neisseria_gonorrhoeae_003571465            43.77%    passed     98.97%
+ 450  Escherichia_coli_000814145                 43.58%    passed     85.63%
+ 451  Helicobacter_pylori_000600165              45.14%    passed     24.96%
+ 452  Pseudomonas_syringae_000988395             43.77%    passed     99.57%
+ 453  Pseudomonas_aeruginosa_900637045           44.16%    passed     98.90%
+ 454  Pseudomonas_aeruginosa_001874465           43.77%    passed     99.33%
+ 455  Pseudomonas_putida_000226035               51.17%    passed     82.66%
+ 456  Escherichia_coli_003722195                 43.58%    passed     85.63%
+ 457  Pseudomonas_putida_000691565               43.77%    passed     98.67%
+ 458  Salmonella_enterica_003595645              43.58%    passed     85.37%
+ 459  Pseudomonas_syringae_000988485             43.77%    passed     99.57%
+ 460  Helicobacter_pylori_000011725              44.94%    passed     34.48%
+ 461  Pseudomonas_fluorescens_900636825          44.16%    passed     98.93%
+ 462  Pseudomonas_aeruginosa_001618925           43.77%    passed     99.33%
+ 463  Pseudomonas_orientalis_002934065           44.16%    passed     99.17%
+ 464  Escherichia_albertii_000512125             43.77%    passed     82.29%
+ 465  Pseudomonas_aeruginosa_003073795           44.16%    passed     98.90%
+ 466  Escherichia_albertii_003860365             43.58%    passed     85.63%
+ 467  Salmonella_enterica_000623135              43.58%    passed     80.52%
+ 468  Helicobacter_pylori_900176185              45.33%    passed     36.83%
+ 469  Helicobacter_pylori_002983705              45.14%    passed     40.73%
+ 470  Salmonella_enterica_900185485              43.58%    passed     74.52%
+ 471  Salmonella_enterica_001620115              43.58%    passed     80.52%
+ 472  Neisseria_elongata_900475815               43.77%    passed     99.43%
+ 473  Helicobacter_pylori_003939085              45.33%    passed     36.83%
+ 474  Pseudomonas_chlororaphis_003945765         44.16%    passed     99.13%
+ 475  Pseudomonas_synxantha_003851555            44.16%    passed     95.06%
+ 476  Pseudomonas_fluorescens_003055645          44.16%    passed     99.13%
+ 477  Helicobacter_pylori_000148875              44.94%    passed     34.48%
+ 478  Helicobacter_pylori_000277385              44.94%    passed     34.48%
+ 479  Salmonella_enterica_001973275              43.58%    passed     80.52%
+ 480  Salmonella_enterica_000330485              43.39%    passed     78.05%
+ 481  Neisseria_gonorrhoeae_900186935            43.77%    passed     99.30%
+ 482  Salmonella_enterica_000272715              43.58%    passed     80.52%
+ 483  Pseudomonas_frederiksbergensis_001874645   43.77%    passed     99.57%
+ 484  Salmonella_enterica_001362335              43.58%    passed     80.52%
+ 485  Escherichia_albertii_003316815             43.58%    passed     85.63%
+ 486  Escherichia_coli_900474495                 43.58%    passed     79.64%
+ 487  Pseudomonas_stutzeri_000661915             43.77%    passed     99.43%
+ 488  Pseudomonas_aeruginosa_001547955           43.77%    passed     99.33%
+ 489  Escherichia_coli_002163935                 43.58%    passed     85.63%
+ 490  Pseudomonas_stutzeri_003001655             44.16%    passed     98.56%
+ 491  Salmonella_enterica_001690115              43.58%    passed     80.52%
+ 492  Salmonella_enterica_003717355              43.58%    passed     74.52%
+ 493  Salmonella_enterica_000272755              43.77%    passed     83.17%
+ 494  Escherichia_coli_000520035                 43.58%    passed     79.64%
+ 495  Neisseria_meningitidis_001698105           43.77%    passed     93.59%
+ 496  Pseudomonas_aeruginosa_003813025           44.16%    passed     98.90%
+ 497  Neisseria_meningitidis_001697105           43.77%    passed     93.59%
+ 498  Helicobacter_pylori_900120055              45.33%    passed     36.83%
+ 499  Neisseria_meningitidis_001697465           43.77%    passed     93.59%
+ 500  Pseudomonas_fluorescens_000934565          43.77%    passed     90.78%
+ 501  Pseudomonas_aeruginosa_001729505           43.77%    passed     99.33%
+ 502  Salmonella_enterica_003324935              43.77%    passed     70.56%
+ 503  Pseudomonas_aeruginosa_003073695           44.16%    passed     98.90%
+ 504  Pseudomonas_aeruginosa_003433235           44.16%    passed     98.90%
+ 505  Escherichia_coli_001723505                 43.58%    passed     85.63%
+ 506  Pseudomonas_aeruginosa_003369735           44.16%    passed     98.90%
+ 507  Pseudomonas_fluorescens_000009225          43.77%    passed     97.81%
+ 508  Pseudomonas_monteilii_000510285            43.77%    passed     99.70%
+ 509  Neisseria_meningitidis_001697665           43.77%    passed     97.82%
+ 510  Salmonella_enterica_000494385              43.58%    passed     80.52%
+ 511  Pseudomonas_putida_900636645               44.16%    passed     98.01%
+ 512  Pseudomonas_chlororaphis_003850465         44.16%    passed     98.93%
+ 513  Pseudomonas_aeruginosa_001722025           43.77%    passed     99.77%
+ 514  Escherichia_coli_002090355                 43.58%    passed     85.63%
+ 515  Escherichia_coli_003017935                 43.58%    passed     79.64%
+ 516  Neisseria_meningitidis_001697905           43.77%    passed     93.59%
+ 517  Neisseria_meningitidis_003355235           43.77%    passed     94.10%
+ 518  Neisseria_meningitidis_003355395           43.77%    passed     94.10%
+ 519  Helicobacter_pylori_000259235              45.14%    passed     40.73%
+ 520  Helicobacter_pylori_000685625              45.14%    passed     32.44%
+ 521  Escherichia_coli_002741215                 43.39%    passed     83.16%
+ 522  Escherichia_coli_002953075                 43.58%    passed     79.64%
+ 523  Pseudomonas_chlororaphis_003851265         44.16%    passed     99.13%
+ 524  Neisseria_meningitidis_001698045           43.77%    passed     93.59%
+ 525  Pseudomonas_syringae_000344335             43.77%    passed     99.57%
+ 526  Pseudomonas_syringae_900235905             44.16%    passed     94.98%
+ 527  Helicobacter_pylori_000023805              44.94%    passed     34.48%
+ 528  Escherichia_coli_001901315                 43.58%    passed     85.63%
+ 529  Neisseria_meningitidis_001697125           43.77%    passed     93.59%
+ 530  Salmonella_enterica_002761015              43.58%    passed     73.02%
+ 531  Neisseria_meningitidis_001697945           43.77%    passed     93.59%
+ 532  Pseudomonas_aeruginosa_001516005           43.77%    passed     99.33%
+ 533  Neisseria_elongata_003351685               43.77%    passed     99.43%
+ 534  Pseudomonas_mendocina_000204295            43.77%    passed     99.70%
+ 535  Pseudomonas_aeruginosa_900618285           44.16%    passed     98.90%
+ 536  Pseudomonas_syringae_900235865             44.16%    passed     94.98%
+ 537  Pseudomonas_syringae_900289125             44.16%    passed     97.07%
+ 538  Pseudomonas_aeruginosa_000271365           43.77%    passed     99.33%
+ 539  Pseudomonas_aeruginosa_002968955           44.16%    passed     98.90%
+ 540  Escherichia_coli_002211725                 43.58%    passed     85.63%
+ 541  Escherichia_coli_000022225                 43.58%    passed     84.82%
+ 542  Pseudomonas_chlororaphis_003850445         44.16%    passed     98.93%
+ 543  Pseudomonas_chlororaphis_003850505         44.16%    passed     98.93%
+ 544  Pseudomonas_aeruginosa_001542835           43.77%    passed     99.33%
+ 545  Helicobacter_pylori_000829115              48.44%    passed     71.96%
+ 546  Pseudomonas_fluorescens_001708485          43.77%    passed     90.78%
+ 547  Helicobacter_pylori_000600225              45.14%    passed     32.44%
+ 548  Pseudomonas_mendocina_900636545            44.16%    passed     98.79%
+ 549  Helicobacter_pylori_000600085              45.14%    passed     32.44%
+ 550  Neisseria_meningitidis_001698005           43.77%    passed     93.59%
+ 551  Pseudomonas_chlororaphis_003850345         44.16%    passed     98.93%
+ 552  Leptospira_interrogans_000007685           44.94%    passed     96.46%
+ 553  Escherichia_coli_003591595                 43.58%    passed     79.64%
+ 554  Pseudomonas_syringae_003665415             44.16%    passed     94.98%
+ 555  Escherichia_coli_000219515                 43.58%    passed     85.63%
+ 556  Escherichia_coli_002899495                 43.58%    passed     79.64%
+ 557  Pseudomonas_syringae_004006335             44.16%    passed     99.13%
+ 558  Escherichia_coli_002164595                 43.58%    passed     85.63%
+ 559  Pseudomonas_chlororaphis_003851205         44.16%    passed     99.13%
+ 560  Escherichia_coli_002741555                 43.58%    passed     85.63%
+ 561  Helicobacter_pylori_000224535              44.94%    passed     34.48%
+ 562  Neisseria_gonorrhoeae_002073535            43.77%    passed     98.97%
+ 563  Pseudomonas_aeruginosa_001722005           43.77%    passed     99.33%
+ 564  Salmonella_enterica_000973665              43.58%    passed     80.52%
+ 565  Pseudomonas_putida_000498395               43.77%    passed     96.36%
+ 566  Pseudomonas_chlororaphis_003851405         44.16%    passed     99.13%
+ 567  Salmonella_enterica_003589805              43.58%    passed     85.37%
+ 568  Pseudomonas_stutzeri_001648195             43.77%    passed     99.83%
+ 569  Neisseria_gonorrhoeae_900186875            43.77%    passed     99.30%
+ 570  Escherichia_coli_001677475                 43.58%    passed     84.82%
+ 571  Helicobacter_pylori_001991095              45.14%    passed     32.44%
+ 572  Helicobacter_pylori_000315955              44.94%    passed     34.48%
+ 573  Pseudomonas_protegens_000012265            43.77%    passed     99.83%
+ 574  Salmonella_enterica_003718235              43.39%    passed     78.05%
+ 575  Helicobacter_pylori_001653395              44.94%    passed     34.48%
+ 576  Escherichia_coli_003018395                 43.58%    passed     79.64%
+ 577  Neisseria_meningitidis_900638605           43.77%    passed     96.92%
+ 578  Leptospira_borgpetersenii_003254845        45.14%    passed     96.92%
+ 579  Helicobacter_cinaedi_003214155             45.33%    passed     34.61%
+ 580  Salmonella_enterica_000973685              43.58%    passed     80.52%
+ 581  Pseudomonas_putida_000016865               43.77%    passed     98.23%
+ 582  Neisseria_meningitidis_001697585           43.77%    passed     93.59%
+ 583  Helicobacter_pylori_000829135              47.47%    passed     64.97%
+ 584  Salmonella_enterica_002234755              43.58%    passed     74.52%
+ 585  Helicobacter_pylori_001433495              45.14%    passed     32.44%
+ 586  Pseudomonas_mendocina_003008615            44.16%    passed     99.00%
+ 587  Neisseria_gonorrhoeae_001661085            43.77%    passed     99.30%
+ 588  Escherichia_coli_000148605                 43.58%    passed     84.82%
+ 589  Helicobacter_pylori_000185225              45.14%    passed     32.44%
+ 590  Helicobacter_pylori_002952455              45.33%    passed     36.83%
+ 591  Neisseria_meningitidis_000191445           43.77%    passed     93.59%
+ 592  Helicobacter_pylori_000185245              45.33%    passed     36.83%
+ 593  Pseudomonas_frederiksbergensis_002355315   43.77%    passed     99.57%
+ 594  Leptospira_borgpetersenii_000013945        44.94%    passed     97.82%
+ 595  Neisseria_meningitidis_001697865           43.77%    passed     96.47%
+ 596  Helicobacter_pylori_001653375              45.14%    passed     32.44%
+ 597  Leptospira_mayottensis_000306675           45.14%    passed     96.92%
+ 598  Pseudomonas_protegens_000828695            43.77%    passed     99.83%
+ 599  Salmonella_enterica_003073555              43.58%    passed     80.52%
+ 600  Pseudomonas_aeruginosa_000014625           43.77%    passed     99.33%
+ 601  Pseudomonas_putida_000019445               43.77%    passed     96.36%
+ 602  Pseudomonas_stutzeri_001038645             43.77%    passed     99.74%
+ 603  Pseudomonas_protegens_002006545            43.77%    passed     99.88%
+ 604  Pseudomonas_aeruginosa_001516325           43.77%    passed     99.33%
+ 605  Escherichia_coli_001558995                 43.58%    passed     84.82%
+ 606  Helicobacter_pylori_000185205              45.33%    passed     36.83%
+ 607  Escherichia_coli_003018275                 43.58%    passed     79.64%
+ 608  Neisseria_meningitidis_001698025           43.77%    passed     89.71%
+ 609  Helicobacter_pylori_900120335              45.33%    passed     36.83%
+ 610  Neisseria_meningitidis_003355415           43.77%    passed     89.42%
+ 611  Escherichia_coli_001651965                 43.58%    passed     84.82%
+ 612  Escherichia_coli_003018095                 43.58%    passed     79.64%
+ 613  Pseudomonas_aeruginosa_002205375           43.77%    passed     99.33%
+ 614  Escherichia_coli_001890265                 43.58%    passed     84.82%
+ 615  Helicobacter_pylori_000213135              44.94%    passed     34.48%
+ 616  Escherichia_coli_002201835                 43.58%    passed     84.82%
+ 617  Neisseria_gonorrhoeae_900186915            43.77%    passed     99.30%
+ 618  Pseudomonas_syringae_900235825             44.16%    passed     93.82%
+ 619  Escherichia_coli_000023365                 43.58%    passed     85.63%
+ 620  Neisseria_lactamica_000196295              43.77%    passed     99.99%
+ 621  Neisseria_meningitidis_001697845           43.77%    passed     96.47%
+ 622  Pseudomonas_chlororaphis_003851345         44.16%    passed     99.13%
+ 623  Escherichia_coli_001682305                 43.58%    passed     79.64%
+ 624  Pseudomonas_aeruginosa_001516245           43.77%    passed     99.33%
+ 625  Pseudomonas_putida_000019125               43.77%    passed     98.23%
+ 626  Helicobacter_pylori_002906515              45.33%    passed     36.83%
+ 627  Pseudomonas_fluorescens_000012445          43.77%    passed     99.94%
+ 628  Helicobacter_pylori_001653415              45.14%    passed     32.44%
+ 629  Pseudomonas_fluorescens_900636635          44.16%    passed     98.90%
+ 630  Salmonella_enterica_000018705              43.58%    passed     80.52%
+ 631  Helicobacter_pylori_002906535              45.33%    passed     36.83%
+ 632  Pseudomonas_aeruginosa_000508765           44.36%    passed     97.59%
+ 633  Pseudomonas_putida_000495455               43.77%    passed     98.23%
+ 634  Escherichia_coli_900636055                 43.58%    passed     79.64%
+ 635  Neisseria_meningitidis_002075815           43.77%    passed     93.59%
+ 636  Escherichia_coli_003018935                 43.58%    passed     79.64%
+ 637  Helicobacter_pylori_900478295              45.33%    passed     36.83%
+ 638  Neisseria_meningitidis_000152165           43.77%    passed     96.47%
+ 639  Pseudomonas_aeruginosa_001594325           43.77%    passed     99.33%
+ 640  Leptospira_borgpetersenii_003516145        45.14%    passed     96.92%
+ 641  Salmonella_enterica_000430165              43.58%    passed     80.52%
+ 642  Pseudomonas_aeruginosa_003429185           44.16%    passed     98.90%
+ 643  Neisseria_gonorrhoeae_003855435            43.77%    passed     98.97%
+ 644  Salmonella_enterica_900635725              43.58%    passed     73.81%
+ 645  Salmonella_enterica_003717475              43.58%    passed     74.52%
+ 646  Pseudomonas_aeruginosa_900069025           53.31%    passed     81.11%
+ 647  Pseudomonas_syringae_002024285             43.77%    passed     99.57%
+ 648  Pseudomonas_stutzeri_000013785             43.77%    passed     99.43%
+ 649  Salmonella_enterica_001975445              43.58%    passed     66.60%
+ 650  Salmonella_enterica_001540845              43.58%    passed     80.52%
+ 651  Pseudomonas_syringae_001913235             43.77%    passed     99.57%
+ 652  Salmonella_bongori_000439255               43.58%    passed     53.91%
+ 653  Pseudomonas_putida_001886975               43.77%    passed     98.23%
+ 654  Neisseria_lactamica_003351565              43.97%    passed     99.35%
+ 655  Helicobacter_pylori_000013245              45.33%    passed     36.83%
+ 656  Salmonella_enterica_000623295              43.77%    passed     83.17%
+ 657  Pseudomonas_stutzeri_000219605             43.77%    passed     99.94%
+ 658  Neisseria_gonorrhoeae_000006845            43.97%    passed     99.05%
+ 659  Neisseria_meningitidis_000800415           43.77%    passed     93.59%
+ 660  Salmonella_enterica_001956735              43.58%    passed     80.52%
+ 661  Pseudomonas_aeruginosa_900636975           44.16%    passed     98.90%
+ 662  Pseudomonas_aeruginosa_001606045           43.77%    passed     99.33%
+ 663  Helicobacter_pylori_002906495              45.33%    passed     36.83%
+ 664  Pseudomonas_aeruginosa_003204335           44.16%    passed     98.90%
+ 665  Escherichia_coli_002903125                 43.58%    passed     79.64%
+ 666  Leptospira_interrogans_001047635           44.94%    passed     96.46%
+ 667  Helicobacter_pylori_003640585              45.14%    passed     32.44%
+ 668  Helicobacter_pylori_000348885              44.94%    passed     34.48%
+ 669  Pseudomonas_aeruginosa_001721765           43.77%    passed     99.77%
+ 670  Pseudomonas_syringae_000012245             44.16%    passed     94.98%
+ 671  Pseudomonas_syringae_003047185             44.16%    passed     94.98%
+ 672  Helicobacter_pylori_000148855              45.14%    passed     32.44%
+ 673  Salmonella_enterica_000272735              43.58%    passed     80.52%
+ 674  Pseudomonas_aeruginosa_001045685           43.77%    passed     99.33%
+ 675  Pseudomonas_putida_000219705               43.77%    passed     99.70%
+ 676  Salmonella_enterica_003073575              43.58%    passed     80.52%
+ 677  Pseudomonas_stutzeri_000590475             43.77%    passed     99.83%
+ 678  Escherichia_coli_001753525                 43.58%    passed     84.82%
+ 679  Helicobacter_cinaedi_000349975             45.33%    passed     42.80%
+ 680  Neisseria_meningitidis_003355255           43.77%    passed     94.10%
+ 681  Pseudomonas_stutzeri_900638035             44.16%    passed     98.93%
+ 682  Leptospira_interrogans_001010765           45.14%    passed     96.92%
+ 683  Pseudomonas_fluorescens_000262325          43.77%    passed     90.78%
+ 684  Helicobacter_pylori_000826985              47.67%    passed     51.61%
+ 685  Pseudomonas_orientalis_003851645           44.16%    passed     99.17%
+ 686  Pseudomonas_putida_001767335               43.77%    passed     98.23%
+ 687  Pseudomonas_aeruginosa_900618255           44.16%    passed     97.63%
+ 688  Escherichia_coli_000184185                 43.58%    passed     85.63%
+ 689  Pseudomonas_aeruginosa_003319235           44.16%    passed     98.90%
+ 690  Helicobacter_pylori_001433515              45.14%    passed     32.44%
+ 691  Escherichia_coli_002009315                 43.58%    passed     79.64%
+ 692  Escherichia_coli_003111785                 43.58%    passed     85.63%
+ 693  Pseudomonas_brassicacearum_000194805       43.77%    passed     99.57%
+ 694  Pseudomonas_brassicacearum_000585995       43.77%    passed     98.47%
+ 695  Neisseria_meningitidis_001697345           43.77%    passed     96.47%
+ 696  Escherichia_coli_002853655                 43.58%    passed     83.96%
+ 697  Escherichia_coli_001936315                 43.58%    passed     79.64%
+ 698  Escherichia_coli_003966775                 43.58%    passed     79.64%
+ 699  Pseudomonas_aeruginosa_900149285           43.77%    passed     99.33%
+ 700  Escherichia_coli_000010485                 43.58%    passed     85.63%
+ 701  Neisseria_meningitidis_003355315           43.77%    passed     94.10%
+ 702  Salmonella_enterica_001620155              44.16%    passed     94.87%
+ 703  Pseudomonas_aeruginosa_003798105           44.16%    passed     98.90%
+ 704  Helicobacter_pylori_900120225              45.33%    passed     36.83%
+ 705  Helicobacter_pylori_900638475              45.33%    passed     36.83%
+ 706  Pseudomonas_aeruginosa_900095805           43.77%    passed     99.33%
+ 707  Helicobacter_pylori_002952615              45.33%    passed     36.83%
+ 708  Pseudomonas_aeruginosa_000271985           43.77%    passed     99.33%
+ 709  Escherichia_coli_001280385                 43.58%    passed     84.82%
+ 710  Pseudomonas_chlororaphis_003008635         44.16%    passed     98.93%
+ 711  Neisseria_meningitidis_000191425           43.77%    passed     93.59%
+ 712  Neisseria_meningitidis_001697805           43.77%    passed     96.34%
+ 713  Pseudomonas_aeruginosa_003812905           44.16%    passed     98.90%
+ 714  Helicobacter_pylori_900120255              45.33%    passed     36.83%
+ 715  Leptospira_borgpetersenii_003716785        45.14%    passed     96.92%
+ 716  Neisseria_meningitidis_001697745           43.77%    passed     93.59%
+ 717  Salmonella_enterica_000486445              43.58%    passed     80.52%
+ 718  Helicobacter_pylori_002222575              45.14%    passed     32.44%
+ 719  Pseudomonas_chlororaphis_003851385         44.16%    passed     99.13%
+ 720  Helicobacter_pylori_000277425              45.33%    passed     36.83%
+ 721  Salmonella_enterica_001975325              43.58%    passed     80.52%
+ 722  Pseudomonas_chlororaphis_003851785         44.16%    passed     99.13%
+ 723  Neisseria_meningitidis_003355335           43.77%    passed     94.10%
+ 724  Pseudomonas_aeruginosa_003408495           44.16%    passed     98.90%
+ 725  Salmonella_enterica_002763415              43.58%    passed     73.02%
+ 726  Neisseria_meningitidis_001697645           43.77%    passed     93.59%
+ 727  Salmonella_enterica_001305235              43.58%    passed     80.52%
+ 728  Pseudomonas_chlororaphis_003850525         44.16%    passed     98.93%
+ 729  Helicobacter_pylori_000224575              45.14%    passed     24.96%
+ 730  Neisseria_gonorrhoeae_003571445            43.77%    passed     98.97%
+ 731  Salmonella_enterica_003718595              43.58%    passed     74.52%
+ 732  Escherichia_coli_003204155                 43.58%    passed     79.64%
+ 733  Neisseria_gonorrhoeae_002073615            43.77%    passed     98.97%
+ 734  Neisseria_meningitidis_001697925           43.77%    passed     93.59%
+ 735  Salmonella_enterica_002386325              43.77%    passed     83.17%
+ 736  Escherichia_coli_000671295                 43.58%    passed     79.64%
+ 737  Pseudomonas_aeruginosa_003073615           44.16%    passed     98.90%
+ 738  Pseudomonas_orientalis_003852045           44.16%    passed     99.17%
+ 739  Pseudomonas_monteilii_000510325            43.77%    passed     99.70%
+ 740  Pseudomonas_syringae_002763655             44.16%    passed     97.07%
+ 741  Salmonella_enterica_002984035              43.58%    passed     80.52%
+ 742  Leptospira_borgpetersenii_001444465        45.14%    passed     96.92%
+ 743  Escherichia_coli_003410275                 43.58%    passed     85.63%
+ 744  Neisseria_meningitidis_000253215           43.77%    passed     93.59%
+ 745  Escherichia_coli_003571665                 43.58%    passed     79.64%
+ 746  Escherichia_albertii_002895205             43.58%    passed     85.63%
+ 747  Neisseria_meningitidis_001697705           43.77%    passed     93.59%
+ 748  Pseudomonas_putida_000271965               43.77%    passed     98.23%
+ 749  Helicobacter_pylori_000008525              45.91%    passed     33.76%
+ 750  Salmonella_enterica_000940895              43.58%    passed     80.52%
+ 751  Pseudomonas_chlororaphis_000761195         43.77%    passed     99.94%
+ 752  Neisseria_meningitidis_001697565           43.77%    passed     93.59%
+ 753  Helicobacter_pylori_000277405              44.94%    passed     34.48%
+ 754  Pseudomonas_stutzeri_000195105             43.77%    passed     99.43%
+ 755  Pseudomonas_aeruginosa_001721805           43.77%    passed     99.77%
+ 756  Pseudomonas_chlororaphis_000698865         44.16%    passed     99.97%
+ 757  Neisseria_meningitidis_000787195           43.77%    passed     93.59%
+ 758  Helicobacter_pylori_000685705              45.14%    passed     32.44%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      44.13%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 599 identical sequences will be ignored during tree search
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+
+NOTE: 5 MB RAM is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3233.729
+2. Current log-likelihood: -2808.613
+3. Current log-likelihood: -2799.927
+4. Current log-likelihood: -2797.769
+5. Current log-likelihood: -2797.047
+6. Current log-likelihood: -2796.765
+7. Current log-likelihood: -2796.652
+Optimal log-likelihood: -2796.589
+Rate parameters:  A-C: 1.000  A-G: 3.873  A-T: 1.000  C-G: 1.000  C-T: 3.873  G-T: 1.000
+Base frequencies:   A: 0.263  C: 0.203  G: 0.324  T: 0.211
+Gamma shape alpha: 0.400
+Parameters optimization took 7 rounds (0.246 sec)
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Computing ML distances based on estimated model parameters... 0.276 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.012 seconds
+Log-likelihood of BIONJ tree: -2814.307
+Generating 98 parsimony trees... 1.111 seconds 100 distinct starting trees
+Computing log-likelihood of 100 initial trees ... 2.554 seconds
+Optimizing top 20 initial trees with NNI...
+Iteration 1 / LogL: -2781.717 / Time: 0h:0m:4s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2781.694
+Iteration 2 / LogL: -2782.744 / Time: 0h:0m:4s
+Iteration 3 / LogL: -2780.528 / Time: 0h:0m:4s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -2780.498
+Iteration 4 / LogL: -2781.738 / Time: 0h:0m:4s
+Iteration 5 / LogL: -2784.522 / Time: 0h:0m:4s
+Iteration 6 / LogL: -2781.739 / Time: 0h:0m:4s
+Iteration 7 / LogL: -2783.904 / Time: 0h:0m:4s
+Iteration 8 / LogL: -2783.407 / Time: 0h:0m:4s
+Iteration 9 / LogL: -2783.346 / Time: 0h:0m:4s
+Iteration 10 / LogL: -2785.128 / Time: 0h:0m:4s
+Iteration 11 / LogL: -2783.438 / Time: 0h:0m:4s
+Iteration 12 / LogL: -2783.837 / Time: 0h:0m:5s
+Iteration 13 / LogL: -2783.405 / Time: 0h:0m:5s
+Iteration 14 / LogL: -2785.584 / Time: 0h:0m:5s
+Iteration 15 / LogL: -2785.516 / Time: 0h:0m:5s
+Iteration 16 / LogL: -2786.928 / Time: 0h:0m:5s
+Iteration 17 / LogL: -2785.518 / Time: 0h:0m:5s
+Iteration 18 / LogL: -2785.478 / Time: 0h:0m:5s
+Iteration 19 / LogL: -2785.999 / Time: 0h:0m:5s
+Iteration 20 / LogL: -2786.188 / Time: 0h:0m:5s
+Average CPU time for 1 NNI search: 0.630
+Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
+Current best tree score: -2780.498 / CPU time: 33.672
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2810.497 / Time: 0h:0m:7s (0h:0m:17s left)
+Iteration 40 / LogL: -2790.351 / Time: 0h:0m:8s (0h:0m:14s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 47: -2779.692
+Iteration 50 / LogL: -2806.779 / Time: 0h:0m:10s (0h:0m:20s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 56: -2778.012
+Iteration 60 / LogL: -2802.707 / Time: 0h:0m:12s (0h:0m:19s left)
+Iteration 70 / LogL: -2788.718 / Time: 0h:0m:13s (0h:0m:16s left)
+Iteration 80 / LogL: -2789.158 / Time: 0h:0m:14s (0h:0m:14s left)
+Iteration 90 / LogL: -2793.114 / Time: 0h:0m:16s (0h:0m:11s left)
+Iteration 100 / LogL: -2804.969 / Time: 0h:0m:17s (0h:0m:10s left)
+Iteration 110 / LogL: -2804.689 / Time: 0h:0m:19s (0h:0m:8s left)
+Iteration 120 / LogL: -2804.975 / Time: 0h:0m:20s (0h:0m:6s left)
+Iteration 130 / LogL: -2817.874 / Time: 0h:0m:22s (0h:0m:4s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 132: -2776.438
+Iteration 140 / LogL: -2789.489 / Time: 0h:0m:26s (0h:0m:17s left)
+Iteration 150 / LogL: -2783.164 / Time: 0h:0m:28s (0h:0m:15s left)
+Iteration 160 / LogL: -2788.063 / Time: 0h:0m:30s (0h:0m:13s left)
+Iteration 170 / LogL: -2789.719 / Time: 0h:0m:31s (0h:0m:11s left)
+Iteration 180 / LogL: -2791.367 / Time: 0h:0m:33s (0h:0m:9s left)
+Iteration 190 / LogL: -2796.811 / Time: 0h:0m:35s (0h:0m:7s left)
+Iteration 200 / LogL: -2826.308 / Time: 0h:0m:37s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 207: -2775.934
+Iteration 210 / LogL: -2797.041 / Time: 0h:0m:39s (0h:0m:18s left)
+Iteration 220 / LogL: -2801.356 / Time: 0h:0m:40s (0h:0m:16s left)
+Iteration 230 / LogL: -2803.399 / Time: 0h:0m:42s (0h:0m:14s left)
+Iteration 240 / LogL: -2787.919 / Time: 0h:0m:43s (0h:0m:12s left)
+Iteration 250 / LogL: -2792.987 / Time: 0h:0m:46s (0h:0m:10s left)
+Iteration 260 / LogL: -2801.590 / Time: 0h:0m:48s (0h:0m:8s left)
+Iteration 270 / LogL: -2776.029 / Time: 0h:0m:50s (0h:0m:6s left)
+Iteration 280 / LogL: -2785.018 / Time: 0h:0m:52s (0h:0m:5s left)
+Iteration 290 / LogL: -2787.885 / Time: 0h:0m:54s (0h:0m:3s left)
+Iteration 300 / LogL: -2783.319 / Time: 0h:0m:55s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 307 ITERATIONS / Time: 0h:0m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2775.934
+Optimal log-likelihood: -2775.926
+Rate parameters:  A-C: 1.000  A-G: 3.833  A-T: 1.000  C-G: 1.000  C-T: 3.833  G-T: 1.000
+Base frequencies:   A: 0.263  C: 0.203  G: 0.324  T: 0.211
+Gamma shape alpha: 0.386
+Parameters optimization took 1 rounds (0.023 sec)
+
+BEST SCORE FOUND : -2775.926
+Total tree length: 61.844
+
+Total number of iterations: 307
+CPU time used for tree search: 418.476 sec (0h:6m:58s)
+Wall-clock time used for tree search: 56.343 sec (0h:0m:56s)
+Total CPU time used: 421.672 sec (0h:7m:1s)
+Total wall-clock time used: 56.772 sec (0h:0m:56s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./016_results/16Sv4_long.fasta.iqtree
+  Maximum-likelihood tree:       ./016_results/16Sv4_long.fasta.treefile
+  Likelihood distances:          ./016_results/16Sv4_long.fasta.mldist
+  Screen log file:               ./016_results/16Sv4_long.fasta.log
+
+Date and Time: Mon Feb 25 18:07:44 2019

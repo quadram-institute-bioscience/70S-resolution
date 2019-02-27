@@ -1,0 +1,759 @@
+,Accession Number,Consensus 16S,Consensus 23S,Consensus 5S,Copies 16S,Copies 23S,Copies 5S,File Name,Longest 16S,Longest 23S,Longest 5S,Organism,Species
+0,GCF_002736045.1,1547,2917,116,7,7,8,GCF_002736045.1_ASM273604v1_genomic.gbff.gz,1547,2916,116,Pseudomonas putida,Pseudomonas putida
+1,GCF_003589865.1,1554,3109,116,7,7,8,GCF_003589865.1_ASM358986v1_genomic.gbff.gz,1552,2929,116,Salmonella enterica subsp. enterica serovar Dublin,Salmonella enterica
+2,GCF_003180975.1,1554,2933,116,7,7,8,GCF_003180975.1_ASM318097v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+3,GCF_001516165.2,1544,2912,116,4,4,4,GCF_001516165.2_ASM151616v2_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+4,GCF_001697305.1,1551,2898,114,4,4,4,GCF_001697305.1_ASM169730v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+5,GCF_001661115.1,1551,2898,114,4,4,4,GCF_001661115.1_ASM166111v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+6,GCF_003429525.1,1514,2968,117,2,2,1,GCF_003429525.1_ASM342952v1_genomic.gbff.gz,1514,2968,117,Leptospira mayottensis,Leptospira mayottensis
+7,GCF_001697525.1,1551,2898,114,4,4,4,GCF_001697525.1_ASM169752v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+8,GCF_002870165.1,1554,2932,116,7,7,8,GCF_002870165.1_ASM287016v1_genomic.gbff.gz,1554,2931,116,Escherichia coli,Escherichia coli
+9,GCF_003671955.1,1538,2917,116,8,8,9,GCF_003671955.1_ASM367195v1_genomic.gbff.gz,1538,2917,116,Pseudomonas putida,Pseudomonas putida
+10,GCF_001975365.1,1556,3028,116,7,7,8,GCF_001975365.1_ASM197536v1_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Djakarta str. S-1087,Salmonella enterica
+11,GCF_003071485.1,1554,3035,116,7,7,8,GCF_003071485.1_ASM307148v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2010K-0257,Salmonella enterica
+12,GCF_003355215.1,1548,2898,114,4,4,4,GCF_003355215.1_ASM335521v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+13,GCF_000599645.1,1567,5180,116,10,11,10,GCF_000599645.1_ASM59964v1_genomic.gbff.gz,1554,2070,115,Escherichia coli,Escherichia coli
+14,GCF_000148895.1,1511,2891,118,2,2,2,GCF_000148895.1_ASM14889v1_genomic.gbff.gz,1511,2891,118,Helicobacter pylori Cuz20,Helicobacter pylori
+15,GCF_001516205.2,1544,2912,116,4,4,4,GCF_001516205.2_ASM151620v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+16,GCF_001548135.1,1544,2912,116,4,4,4,GCF_001548135.1_ASM154813v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+17,GCF_003324955.1,1554,3028,116,7,7,8,GCF_003324955.1_ASM332495v1_genomic.gbff.gz,1551,2929,116,Salmonella enterica,Salmonella enterica
+18,GCF_000245535.1,1556,3027,116,7,7,8,GCF_000245535.1_ASM24553v1_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi str. P-stx-12,Salmonella enterica
+19,GCF_003717675.1,1553,3027,116,7,7,7,GCF_003717675.1_ASM371767v1_genomic.gbff.gz,1553,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+20,GCF_003228315.1,1538,2916,116,6,6,7,GCF_003228315.1_ASM322831v1_genomic.gbff.gz,1538,2916,116,Pseudomonas putida,Pseudomonas putida
+21,GCF_900477885.1,1554,3033,116,7,7,8,GCF_900477885.1_46801_F01_genomic.gbff.gz,1552,2926,116,Salmonella enterica subsp. enterica serovar Aberdeen,Salmonella enterica
+22,GCF_001697485.1,1551,2898,114,4,4,4,GCF_001697485.1_ASM169748v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+23,GCF_003369755.1,1537,2912,116,4,4,4,GCF_003369755.1_ASM336975v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+24,GCF_000178935.2,1511,2889,118,2,2,2,GCF_000178935.2_ASM17893v2_genomic.gbff.gz,1511,2889,118,Helicobacter pylori 35A,Helicobacter pylori
+25,GCF_003410295.1,1538,2916,116,6,6,7,GCF_003410295.1_ASM341029v1_genomic.gbff.gz,1537,2916,116,Pseudomonas parafulva,Pseudomonas parafulva
+26,GCF_000191505.1,1552,2898,114,4,4,4,GCF_000191505.1_ASM19150v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis M04-240196,Neisseria meningitidis
+27,GCF_001900265.1,1544,2912,116,4,4,4,GCF_001900265.1_ASM190026v1_genomic.gbff.gz,1544,2512,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+28,GCF_001697425.1,1551,2898,114,4,4,4,GCF_001697425.1_ASM169742v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+29,GCF_002905815.2,1540,2918,116,5,5,5,GCF_002905815.2_ASM290581v2_genomic.gbff.gz,1540,2918,116,Pseudomonas syringae pv. syringae,Pseudomonas syringae
+30,GCF_001654515.1,1547,2916,116,6,6,7,GCF_001654515.1_ASM165451v1_genomic.gbff.gz,1547,2916,116,Pseudomonas koreensis,Pseudomonas koreensis
+31,GCF_001121865.2,1564,3038,116,7,7,8,GCF_001121865.2_404Ty_genomic.gbff.gz,1556,3022,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+32,GCF_002786655.1,1554,2933,116,7,7,8,GCF_002786655.1_ASM278665v1_genomic.gbff.gz,1553,2930,116,Escherichia coli,Escherichia coli
+33,GCF_002812545.1,1554,2933,116,7,7,8,GCF_002812545.1_ASM281254v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+34,GCF_003851495.1,1538,2916,116,6,6,7,GCF_003851495.1_ASM385149v1_genomic.gbff.gz,1538,2916,116,Pseudomonas synxantha,Pseudomonas synxantha
+35,GCF_001566615.1,1556,2925,116,7,7,8,GCF_001566615.1_ASM156661v1_genomic.gbff.gz,1556,2924,116,Escherichia coli,Escherichia coli
+36,GCF_000327065.1,1546,2915,116,4,4,4,GCF_000327065.1_ASM32706v1_genomic.gbff.gz,1545,2914,116,Pseudomonas stutzeri RCH2,Pseudomonas stutzeri
+37,GCF_000504045.1,1544,2912,116,4,4,4,GCF_000504045.1_ASM50404v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa MTB-1,Pseudomonas aeruginosa
+38,GCF_900235885.1,1540,2917,116,5,5,6,GCF_900235885.1_CFBP6109_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae pv. cerasicola,Pseudomonas syringae
+39,GCF_002812905.1,1537,2912,116,4,4,4,GCF_002812905.1_ASM281290v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+40,GCF_900638595.1,1548,2898,114,4,4,4,GCF_900638595.1_58116_H01_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+41,GCF_002073675.2,1548,2898,114,4,4,4,GCF_002073675.2_ASM207367v2_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+42,GCF_001047225.1,1551,2898,114,4,4,4,GCF_001047225.1_ASM104722v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+43,GCF_001482325.1,1544,2912,116,4,4,4,GCF_001482325.1_ASM148232v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+44,GCF_002085605.1,1544,2912,116,4,4,4,GCF_002085605.1_ASM208560v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+45,GCF_002952495.1,1509,2889,118,2,2,2,GCF_002952495.1_ASM295249v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+46,GCF_003851985.1,1538,2916,116,5,5,6,GCF_003851985.1_ASM385198v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+47,GCF_003717955.1,1554,3027,116,7,7,9,GCF_003717955.1_ASM371795v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+48,GCF_001792855.1,1544,2912,116,4,4,4,GCF_001792855.1_ASM179285v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+49,GCF_000963495.1,1547,2916,116,6,6,7,GCF_000963495.1_ASM96349v1_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens PICF7,Pseudomonas fluorescens
+50,GCF_000020105.1,1551,2898,114,4,4,4,GCF_000020105.1_ASM2010v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae NCCP11945,Neisseria gonorrhoeae
+51,GCF_000284635.1,1504,2889,116,2,2,2,GCF_000284635.1_ASM28463v1_genomic.gbff.gz,1504,2888,116,Helicobacter cinaedi PAGU611,Helicobacter cinaedi
+52,GCF_002142695.1,1556,2933,116,7,7,8,GCF_002142695.1_ASM214269v1_genomic.gbff.gz,1554,2926,116,Escherichia coli,Escherichia coli
+53,GCF_001029815.1,1551,2898,114,4,4,4,GCF_001029815.1_ASM102981v1_genomic.gbff.gz,1551,2897,114,Neisseria meningitidis,Neisseria meningitidis
+54,GCF_003312545.2,1552,2926,116,7,7,8,GCF_003312545.2_ASM331254v2_genomic.gbff.gz,1552,2926,116,Escherichia albertii,Escherichia albertii
+55,GCF_002741255.1,1556,2931,116,7,7,8,GCF_002741255.1_ASM274125v1_genomic.gbff.gz,1556,2928,116,Escherichia coli O114:H49,Escherichia coli
+56,GCF_000014845.1,1582,2958,116,7,7,8,GCF_000014845.1_ASM1484v1_genomic.gbff.gz,1556,2925,116,Escherichia coli APEC O1,Escherichia coli
+57,GCF_002215345.1,1544,2912,116,4,4,4,GCF_002215345.1_ASM221534v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+58,GCF_001687285.1,1537,2912,116,4,4,4,GCF_001687285.1_ASM168728v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+59,GCF_003812885.1,1537,2912,116,4,4,4,GCF_003812885.1_ASM381288v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+60,GCF_000277365.1,1511,2895,118,2,2,2,GCF_000277365.1_ASM27736v1_genomic.gbff.gz,1511,2895,118,Helicobacter pylori Shi417,Helicobacter pylori
+61,GCF_001974965.1,1551,2898,114,4,4,4,GCF_001974965.1_ASM197496v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+62,GCF_002237405.1,1544,2912,116,4,4,4,GCF_002237405.1_ASM223740v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+63,GCF_900120135.1,1509,2890,118,2,2,2,GCF_900120135.1_HE132_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+64,GCF_003860385.1,1552,2926,116,7,7,8,GCF_003860385.1_ASM386038v1_genomic.gbff.gz,1551,2925,116,Escherichia albertii,Escherichia albertii
+65,GCF_002021815.1,1547,2917,116,7,7,8,GCF_002021815.1_ASM202181v1_genomic.gbff.gz,1547,2917,116,Pseudomonas parafulva,Pseudomonas parafulva
+66,GCF_900636845.1,1538,2915,116,4,4,4,GCF_900636845.1_44858_G01_genomic.gbff.gz,1538,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+67,GCF_003850405.1,1538,2916,116,5,5,6,GCF_003850405.1_ASM385040v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+68,GCF_001697685.1,1551,2898,114,4,4,4,GCF_001697685.1_ASM169768v1_genomic.gbff.gz,1551,2896,114,Neisseria meningitidis,Neisseria meningitidis
+69,GCF_000510305.1,1544,2912,116,4,4,4,GCF_000510305.1_ASM51030v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa SCV20265,Pseudomonas aeruginosa
+70,GCF_001705055.1,1554,3066,116,7,7,8,GCF_001705055.1_ASM170505v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica,Salmonella enterica
+71,GCF_003312525.2,1552,2926,116,7,7,8,GCF_003312525.2_ASM331252v2_genomic.gbff.gz,1552,2925,116,Escherichia albertii,Escherichia albertii
+72,GCF_003852025.1,1538,2916,116,6,6,7,GCF_003852025.1_ASM385202v1_genomic.gbff.gz,1538,2916,116,Pseudomonas synxantha,Pseudomonas synxantha
+73,GCF_003206535.1,1537,2912,116,4,4,4,GCF_003206535.1_ASM320653v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+74,GCF_000473745.2,1544,2912,116,8,8,11,GCF_000473745.2_ASM47374v3_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa VRFPA04,Pseudomonas aeruginosa
+75,GCF_001549955.1,1552,2933,116,7,7,8,GCF_001549955.1_ASM154995v1_genomic.gbff.gz,1552,2835,116,Escherichia albertii,Escherichia albertii
+76,GCF_001750705.1,1544,2912,116,4,4,4,GCF_001750705.1_ASM175070v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+77,GCF_003956305.1,1554,2933,116,7,7,8,GCF_003956305.1_ASM395630v1_genomic.gbff.gz,1554,2929,116,Escherichia coli,Escherichia coli
+78,GCF_002011965.1,1556,2925,116,7,7,8,GCF_002011965.1_ASM201196v1_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+79,GCF_003410335.1,1538,2916,116,5,5,6,GCF_003410335.1_ASM341033v1_genomic.gbff.gz,1538,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+80,GCF_002211925.1,1554,3026,116,7,7,8,GCF_002211925.1_ASM221192v1_genomic.gbff.gz,1554,2926,116,Salmonella bongori serovar 66:z41:- str. SA19983605,Salmonella bongori
+81,GCF_000597845.1,1554,2932,116,7,8,9,GCF_000597845.1_ASM59784v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+82,GCF_000800315.1,1551,2899,114,4,4,5,GCF_000800315.1_ASM80031v1_genomic.gbff.gz,1549,2873,112,Neisseria meningitidis,Neisseria meningitidis
+83,GCF_001661135.1,1551,2898,114,4,4,4,GCF_001661135.1_ASM166113v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+84,GCF_001698065.1,1551,2898,114,4,4,4,GCF_001698065.1_ASM169806v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+85,GCF_900636755.1,1537,2912,116,4,4,4,GCF_900636755.1_43941_E01_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+86,GCF_003641125.1,1537,2912,116,4,4,4,GCF_003641125.1_ASM364112v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+87,GCF_003574195.1,1501,2888,116,2,2,2,GCF_003574195.1_ASM357419v1_genomic.gbff.gz,1501,2888,116,Helicobacter cinaedi,Helicobacter cinaedi
+88,GCF_001023535.1,1548,2933,116,5,5,7,GCF_001023535.1_ASM102353v1_genomic.gbff.gz,1544,2904,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+89,GCF_002844145.1,1557,2916,116,5,5,6,GCF_002844145.1_ASM284414v1_genomic.gbff.gz,1507,2910,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+90,GCF_003312485.2,1552,2931,116,7,7,8,GCF_003312485.2_ASM331248v2_genomic.gbff.gz,1552,2924,116,Escherichia albertii,Escherichia albertii
+91,GCF_002760915.1,1554,3066,116,7,7,8,GCF_002760915.1_ASM276091v1_genomic.gbff.gz,1552,2923,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+92,GCF_003952325.1,1543,2920,116,4,4,4,GCF_003952325.1_ASM395232v1_genomic.gbff.gz,1538,2909,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+93,GCF_002556585.1,1551,2898,114,4,4,4,GCF_002556585.1_ASM255658v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+94,GCF_002208745.2,1540,2916,116,5,5,6,GCF_002208745.2_ASM220874v2_genomic.gbff.gz,1539,2914,116,Pseudomonas protegens,Pseudomonas protegens
+95,GCF_002224405.1,1556,3113,116,7,7,8,GCF_002224405.1_ASM222440v1_genomic.gbff.gz,1554,2924,116,Salmonella enterica subsp. enterica serovar Indiana,Salmonella enterica
+96,GCF_003850425.1,1538,2916,116,5,5,6,GCF_003850425.1_ASM385042v1_genomic.gbff.gz,1538,2915,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+97,GCF_001629755.1,1558,3114,116,7,7,8,GCF_001629755.1_ASM162975v1_genomic.gbff.gz,1554,2930,116,Salmonella enterica subsp. diarizonae,Salmonella enterica
+98,GCF_003851225.1,1538,2916,116,5,5,6,GCF_003851225.1_ASM385122v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+99,GCF_001280405.1,1557,2925,116,7,7,8,GCF_001280405.1_ASM128040v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+100,GCF_000410575.1,1547,2917,116,5,6,7,GCF_000410575.1_ASM41057v1_genomic.gbff.gz,1547,2914,116,Pseudomonas putida H8234,Pseudomonas putida
+101,GCF_000022665.1,1556,2940,116,7,7,8,GCF_000022665.1_ASM2266v1_genomic.gbff.gz,1556,2925,116,Escherichia coli BL21(DE3),Escherichia coli
+102,GCF_003957395.1,1510,2889,118,2,2,2,GCF_003957395.1_ASM395739v1_genomic.gbff.gz,1510,2889,118,Helicobacter pylori,Helicobacter pylori
+103,GCF_003355295.1,1548,2898,114,4,4,4,GCF_003355295.1_ASM335529v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+104,GCF_900618325.1,1537,2912,116,4,4,4,GCF_900618325.1_paerg011_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+105,GCF_000009505.1,1556,3066,116,7,7,8,GCF_000009505.1_ASM950v1_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis str. P125109,Salmonella enterica
+106,GCF_001447095.1,1557,2905,116,6,6,6,GCF_001447095.1_ASM144709v1_genomic.gbff.gz,1556,2905,116,Salmonella enterica subsp. enterica serovar Anatum,Salmonella enterica
+107,GCF_001449085.1,1546,2916,116,5,5,6,GCF_001449085.1_ASM144908v1_genomic.gbff.gz,1546,2916,116,Pseudomonas brassicacearum,Pseudomonas brassicacearum
+108,GCF_002952575.1,1509,2889,118,2,2,2,GCF_002952575.1_ASM295257v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+109,GCF_900637245.1,1548,2898,114,4,4,5,GCF_900637245.1_50305_B01_genomic.gbff.gz,1548,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+110,GCF_002208255.1,1556,2929,116,7,7,8,GCF_002208255.1_ASM220825v1_genomic.gbff.gz,1554,2924,116,Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086,Salmonella enterica
+111,GCF_900636735.1,1537,2912,116,4,4,4,GCF_900636735.1_43941_C01_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+112,GCF_001697885.1,1551,2898,114,4,4,4,GCF_001697885.1_ASM169788v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+113,GCF_000025165.1,1556,2931,116,7,7,8,GCF_000025165.1_ASM2516v1_genomic.gbff.gz,1554,2930,116,Escherichia coli O55:H7 str. CB9615,Escherichia coli
+114,GCF_900636065.1,1554,2926,116,7,7,8,GCF_900636065.1_38670_D01_genomic.gbff.gz,1552,2925,116,Escherichia coli,Escherichia coli
+115,GCF_003367885.1,1554,2933,116,7,7,8,GCF_003367885.1_ASM336788v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+116,GCF_000279165.1,1546,2915,116,4,4,4,GCF_000279165.1_ASM27916v1_genomic.gbff.gz,1535,2915,116,Pseudomonas stutzeri DSM 10701,Pseudomonas stutzeri
+117,GCF_002249955.1,1556,2938,116,7,7,8,GCF_002249955.1_ASM224995v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+118,GCF_002966555.1,1540,2917,116,5,5,6,GCF_002966555.1_ASM296655v1_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae pv. tomato,Pseudomonas syringae
+119,GCF_000183645.1,1547,2917,116,7,7,8,GCF_000183645.1_ASM18364v1_genomic.gbff.gz,1547,2914,116,Pseudomonas putida BIRD-1,Pseudomonas putida
+120,GCF_002761155.1,1554,3066,116,7,7,8,GCF_002761155.1_ASM276115v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+121,GCF_003851585.1,1538,2916,116,6,6,7,GCF_003851585.1_ASM385158v1_genomic.gbff.gz,1538,2916,116,Pseudomonas orientalis,Pseudomonas orientalis
+122,GCF_000008805.1,1544,2891,117,4,4,4,GCF_000008805.1_ASM880v1_genomic.gbff.gz,1544,2891,117,Neisseria meningitidis MC58,Neisseria meningitidis
+123,GCF_000800355.1,1551,2898,114,5,5,4,GCF_000800355.1_ASM80035v1_genomic.gbff.gz,1409,2498,114,Neisseria meningitidis,Neisseria meningitidis
+124,GCF_000963835.1,1547,2913,116,5,5,6,GCF_000963835.1_ASM96383v1_genomic.gbff.gz,1547,2913,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+125,GCF_002951575.1,1548,2898,114,4,4,4,GCF_002951575.1_ASM295157v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+126,GCF_900120205.1,1509,2890,118,2,2,2,GCF_900120205.1_HE141_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+127,GCF_003852005.1,1538,2916,116,5,5,6,GCF_003852005.1_ASM385200v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+128,GCF_001047275.1,1551,2898,114,4,4,4,GCF_001047275.1_ASM104727v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+129,GCF_001698085.1,1551,2898,114,4,4,4,GCF_001698085.1_ASM169808v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+130,GCF_001361075.2,1556,3027,116,7,7,7,GCF_001361075.2_Ty585_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+131,GCF_001747385.1,1547,2916,116,6,6,7,GCF_001747385.1_ASM174738v1_genomic.gbff.gz,1547,2915,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+132,GCF_002812925.1,1537,2912,116,4,4,4,GCF_002812925.1_ASM281292v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+133,GCF_001577505.1,1556,3113,116,7,7,8,GCF_001577505.1_ASM157750v1_genomic.gbff.gz,1553,3010,116,Salmonella enterica subsp. enterica serovar Typhimurium,Salmonella enterica
+134,GCF_001623775.1,1556,3113,116,7,7,8,GCF_001623775.1_ASM162377v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2009K-2059,Salmonella enterica
+135,GCF_002872455.1,1552,2932,116,7,7,8,GCF_002872455.1_ASM287245v1_genomic.gbff.gz,1552,2926,116,Escherichia albertii,Escherichia albertii
+136,GCF_002952875.1,1554,2933,116,7,7,9,GCF_002952875.1_ASM295287v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+137,GCF_000829255.1,1544,2912,116,4,4,4,GCF_000829255.1_ASM82925v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+138,GCF_000524595.1,1544,2912,116,4,4,4,GCF_000524595.1_ASM52459v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa YL84,Pseudomonas aeruginosa
+139,GCF_001618325.1,1556,2925,116,7,7,8,GCF_001618325.1_ASM161832v1_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+140,GCF_001447115.1,1558,2832,116,8,8,5,GCF_001447115.1_ASM144711v1_genomic.gbff.gz,1550,2142,116,Salmonella enterica subsp. enterica serovar Anatum,Salmonella enterica
+141,GCF_003850585.1,1538,2916,116,5,5,6,GCF_003850585.1_ASM385058v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+142,GCF_002812865.1,1537,2912,116,4,4,4,GCF_002812865.1_ASM281286v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+143,GCF_002012265.1,1554,2925,116,7,7,8,GCF_002012265.1_ASM201226v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+144,GCF_003213725.2,1502,2888,116,2,2,2,GCF_003213725.2_ASM321372v2_genomic.gbff.gz,1502,2888,116,Helicobacter cinaedi,Helicobacter cinaedi
+145,GCF_000709535.1,1554,3026,116,7,7,8,GCF_000709535.1_ASM70953v1_genomic.gbff.gz,1554,2926,116,Salmonella bongori serovar 48:z41:-- str. RKS3044,Salmonella bongori
+146,GCF_003798125.1,1537,2912,116,4,4,4,GCF_003798125.1_ASM379812v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+147,GCF_001515585.1,1547,2917,116,7,7,8,GCF_001515585.1_ASM151558v2_genomic.gbff.gz,1547,2914,116,Pseudomonas putida,Pseudomonas putida
+148,GCF_003429445.1,1554,2931,116,7,7,8,GCF_003429445.1_ASM342944v1_genomic.gbff.gz,1551,2929,116,Salmonella enterica subsp. enterica,Salmonella enterica
+149,GCF_001975515.1,1556,3028,116,7,7,8,GCF_001975515.1_ASM197551v1_genomic.gbff.gz,1552,2928,116,Salmonella enterica subsp. enterica serovar Manchester str. ST278,Salmonella enterica
+150,GCF_000191525.1,1551,2898,114,4,4,4,GCF_000191525.1_ASM19152v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis NZ-05/33,Neisseria meningitidis
+151,GCF_000021165.1,1510,2888,118,2,2,2,GCF_000021165.1_ASM2116v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori G27,Helicobacter pylori
+152,GCF_000006765.1,1537,2892,960,4,4,5,GCF_000006765.1_ASM676v1_genomic.gbff.gz,1536,2889,120,Pseudomonas aeruginosa PAO1,Pseudomonas aeruginosa
+153,GCF_003851445.1,1538,2916,116,5,5,6,GCF_003851445.1_ASM385144v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+154,GCF_000196755.1,1510,2889,118,2,2,2,GCF_000196755.1_ASM19675v1_genomic.gbff.gz,1510,2889,118,Helicobacter pylori B8,Helicobacter pylori
+155,GCF_900205265.1,1557,3027,116,7,7,8,GCF_900205265.1_lupe_GEN0059_5_genomic.gbff.gz,1555,3026,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+156,GCF_002025705.1,1547,2917,116,7,7,8,GCF_002025705.1_ASM202570v1_genomic.gbff.gz,1547,2916,116,Pseudomonas putida,Pseudomonas putida
+157,GCF_001632245.1,1544,2912,116,4,4,4,GCF_001632245.1_ASM163224v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+158,GCF_003851365.1,1538,2916,116,5,5,7,GCF_003851365.1_ASM385136v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+159,GCF_000255955.1,1509,2889,118,2,2,2,GCF_000255955.1_ASM25595v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori ELS37,Helicobacter pylori
+160,GCF_003671975.1,1538,2917,117,7,7,8,GCF_003671975.1_ASM367197v1_genomic.gbff.gz,1538,2917,116,Pseudomonas monteilii,Pseudomonas monteilii
+161,GCF_002951975.1,1508,2889,118,2,2,2,GCF_002951975.1_ASM295197v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+162,GCF_000827025.1,1510,2889,118,2,2,2,GCF_000827025.1_ASM82702v1_genomic.gbff.gz,1449,2869,118,Helicobacter pylori,Helicobacter pylori
+163,GCF_000009465.1,1551,2898,114,4,4,4,GCF_000009465.1_ASM946v1_genomic.gbff.gz,1551,2897,114,Neisseria meningitidis FAM18,Neisseria meningitidis
+164,GCF_002906555.1,1509,2888,118,2,2,2,GCF_002906555.1_ASM290655v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori,Helicobacter pylori
+165,GCF_900120315.1,1509,2890,118,2,2,2,GCF_900120315.1_HE170_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+166,GCF_001697785.1,1551,2898,114,4,4,4,GCF_001697785.1_ASM169778v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+167,GCF_900636995.1,1538,2916,116,5,5,6,GCF_900636995.1_46338_G02_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+168,GCF_001047255.1,1551,2898,114,4,4,4,GCF_001047255.1_ASM104725v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+169,GCF_003710205.1,1554,3136,116,7,7,8,GCF_003710205.1_ASM371020v1_genomic.gbff.gz,1552,2927,116,Salmonella enterica subsp. enterica serovar Mbandaka,Salmonella enterica
+170,GCF_001307275.1,1538,2916,116,5,5,6,GCF_001307275.1_ASM130727v1_genomic.gbff.gz,1538,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+171,GCF_003355435.1,1548,2898,114,4,4,4,GCF_003355435.1_ASM335543v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+172,GCF_000307835.1,1509,2889,118,2,2,2,GCF_000307835.1_ASM30783v1_genomic.gbff.gz,1506,2888,118,Helicobacter pylori Rif2,Helicobacter pylori
+173,GCF_002210025.1,1556,3113,116,7,7,8,GCF_002210025.1_ASM221002v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Typhimurium,Salmonella enterica
+174,GCF_900235835.1,1540,2917,116,5,5,6,GCF_900235835.1_CFBP3846_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae pv. avii,Pseudomonas syringae
+175,GCF_002442555.1,1546,2914,116,4,4,4,GCF_002442555.1_ASM244255v1_genomic.gbff.gz,1546,2914,116,Pseudomonas mendocina,Pseudomonas mendocina
+176,GCF_003851605.1,1538,2916,116,6,6,7,GCF_003851605.1_ASM385160v1_genomic.gbff.gz,1538,2916,116,Pseudomonas orientalis,Pseudomonas orientalis
+177,GCF_001697385.1,1551,2898,114,4,4,4,GCF_001697385.1_ASM169738v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+178,GCF_001029835.1,1551,2898,114,4,4,4,GCF_001029835.1_ASM102983v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis M0579,Neisseria meningitidis
+179,GCF_000623615.2,1556,3066,116,7,7,8,GCF_000623615.2_ASM62361v2_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis str. SA19960848,Salmonella enterica
+180,GCF_900635325.1,1554,2929,116,7,7,8,GCF_900635325.1_41556_D01_genomic.gbff.gz,1552,2929,116,Escherichia coli,Escherichia coli
+181,GCF_000093185.1,1511,2890,118,2,2,2,GCF_000093185.1_ASM9318v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori v225d,Helicobacter pylori
+182,GCF_000626375.1,1556,3066,116,7,7,8,GCF_000626375.1_ASM62637v1_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20111095,Salmonella enterica
+183,GCF_002953435.1,1554,2930,116,7,7,7,GCF_002953435.1_ASM295343v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+184,GCF_002285455.1,1556,2932,116,7,7,8,GCF_002285455.1_ASM228545v1_genomic.gbff.gz,1554,2923,116,Escherichia albertii,Escherichia albertii
+185,GCF_002073235.2,1548,2898,114,4,4,4,GCF_002073235.2_ASM207323v2_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+186,GCF_000147855.2,1557,2931,116,7,7,8,GCF_000147855.2_ASM14785v3_genomic.gbff.gz,1556,2929,116,Escherichia coli KO11FL,Escherichia coli
+187,GCF_001900225.1,1544,2912,116,4,4,4,GCF_001900225.1_ASM190022v1_genomic.gbff.gz,1285,2512,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+188,GCF_000293885.2,1547,2921,116,6,6,7,GCF_000293885.2_ASM29388v3_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens NCIMB 11764,Pseudomonas fluorescens
+189,GCF_003851905.1,1538,2916,116,5,5,6,GCF_003851905.1_ASM385190v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+190,GCF_003028335.1,1537,2912,116,4,4,4,GCF_003028335.1_ASM302833v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+191,GCF_003851805.1,1538,2916,116,5,5,6,GCF_003851805.1_ASM385180v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+192,GCF_000733715.2,1546,2914,116,4,4,4,GCF_000733715.2_ASM73371v2_genomic.gbff.gz,1546,2914,116,Pseudomonas mendocina S5.2,Pseudomonas mendocina
+193,GCF_004010655.1,1554,2938,116,7,7,8,GCF_004010655.1_ASM401065v1_genomic.gbff.gz,1552,2930,116,Escherichia coli,Escherichia coli
+194,GCF_002024305.1,1548,2917,116,5,5,6,GCF_002024305.1_ASM202430v1_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae pv. actinidiae,Pseudomonas syringae
+195,GCF_001482725.1,1548,2918,116,5,5,6,GCF_001482725.1_ASM148272v1_genomic.gbff.gz,1548,2918,116,Pseudomonas syringae pv. lapsa,Pseudomonas syringae
+196,GCF_001516265.1,1544,2912,116,4,4,4,GCF_001516265.1_ASM151626v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+197,GCF_000007545.1,1557,3028,116,7,7,8,GCF_000007545.1_ASM754v1_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi str. Ty2,Salmonella enterica
+198,GCF_000009105.1,1551,2898,114,4,4,4,GCF_000009105.1_ASM910v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis Z2491,Neisseria meningitidis
+199,GCF_000224555.1,1511,2889,118,2,2,2,GCF_000224555.1_ASM22455v1_genomic.gbff.gz,1511,2889,118,Helicobacter pylori Puno135,Helicobacter pylori
+200,GCF_003073955.1,1554,2931,116,7,7,8,GCF_003073955.1_ASM307395v1_genomic.gbff.gz,1553,2929,116,Escherichia coli,Escherichia coli
+201,GCF_001697985.1,1551,2898,114,4,4,4,GCF_001697985.1_ASM169798v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+202,GCF_001900885.1,1557,2935,116,7,7,8,GCF_001900885.1_ASM190088v1_genomic.gbff.gz,1556,2931,116,Escherichia coli,Escherichia coli
+203,GCF_003718655.1,1554,3027,116,7,7,9,GCF_003718655.1_ASM371865v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+204,GCF_001697545.1,1551,2898,114,4,4,4,GCF_001697545.1_ASM169754v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+205,GCF_001975345.1,1558,3110,116,7,7,8,GCF_001975345.1_ASM197534v1_genomic.gbff.gz,1556,2927,116,Salmonella enterica subsp. enterica serovar Borreze str. SA20041063,Salmonella enterica
+206,GCF_000600145.1,1511,2888,118,2,2,2,GCF_000600145.1_ASM60014v1_genomic.gbff.gz,1511,2888,118,Helicobacter pylori oki154,Helicobacter pylori
+207,GCF_003952685.1,1538,2918,116,7,7,8,GCF_003952685.1_ASM395268v1_genomic.gbff.gz,1538,2917,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+208,GCF_003626995.1,1538,2918,116,5,5,6,GCF_003626995.1_ASM362699v1_genomic.gbff.gz,1538,2918,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+209,GCF_000252995.1,1554,3026,116,7,7,8,GCF_000252995.1_ASM25299v1_genomic.gbff.gz,1554,2926,116,Salmonella bongori NCTC 12419,Salmonella bongori
+210,GCF_001746815.1,1546,2918,116,5,5,6,GCF_001746815.1_ASM174681v1_genomic.gbff.gz,1546,2916,116,Pseudomonas brassicacearum,Pseudomonas brassicacearum
+211,GCF_000026645.1,1544,2912,116,4,4,4,GCF_000026645.1_ASM2664v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa LESB58,Pseudomonas aeruginosa
+212,GCF_001792835.1,1544,2912,116,4,4,4,GCF_001792835.1_ASM179283v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+213,GCF_003047145.2,1538,2915,116,4,4,4,GCF_003047145.2_ASM304714v2_genomic.gbff.gz,1537,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+214,GCF_900618315.1,1537,2912,116,4,4,4,GCF_900618315.1_paerg010_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+215,GCF_001515915.2,1544,2912,116,4,4,4,GCF_001515915.2_ASM151591v2_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+216,GCF_003851865.1,1538,2916,116,5,5,6,GCF_003851865.1_ASM385186v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+217,GCF_002104595.1,1544,2912,116,4,4,4,GCF_002104595.1_ASM210459v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+218,GCF_002073655.2,1548,2898,114,4,4,4,GCF_002073655.2_ASM207365v2_genomic.gbff.gz,1548,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+219,GCF_000685745.1,1510,2890,118,2,2,2,GCF_000685745.1_ASM68574v1_genomic.gbff.gz,1510,2890,118,Helicobacter pylori,Helicobacter pylori
+220,GCF_001900675.1,1556,2932,116,7,7,8,GCF_001900675.1_ASM190067v1_genomic.gbff.gz,1556,2926,116,Escherichia coli,Escherichia coli
+221,GCF_002591135.1,1556,2926,116,7,7,8,GCF_002591135.1_ASM259113v1_genomic.gbff.gz,1554,2921,116,Escherichia coli,Escherichia coli
+222,GCF_001721825.1,1544,2912,116,4,4,4,GCF_001721825.1_ASM172182v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+223,GCF_003851305.1,1538,2916,116,5,5,6,GCF_003851305.1_ASM385130v1_genomic.gbff.gz,1538,2915,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+224,GCF_003851525.1,1538,2916,116,6,6,7,GCF_003851525.1_ASM385152v1_genomic.gbff.gz,1538,2916,116,Pseudomonas synxantha,Pseudomonas synxantha
+225,GCF_001534745.1,1547,2916,116,7,7,7,GCF_001534745.1_ASM153474v1_genomic.gbff.gz,1546,2215,116,Pseudomonas monteilii,Pseudomonas monteilii
+226,GCF_002211865.1,1558,3115,116,7,7,8,GCF_002211865.1_ASM221186v1_genomic.gbff.gz,1556,2934,116,Salmonella enterica subsp. salamae serovar 55:k:z39 str. 1315K,Salmonella enterica
+227,GCF_001441205.1,1556,3114,116,7,7,8,GCF_001441205.1_ASM144120v1_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Heidelberg,Salmonella enterica
+228,GCF_000829095.1,1510,2889,118,2,2,2,GCF_000829095.1_ASM82909v1_genomic.gbff.gz,1445,2869,118,Helicobacter pylori 26695-1,Helicobacter pylori
+229,GCF_000730425.1,1547,2918,116,6,6,7,GCF_000730425.1_ASM73042v1_genomic.gbff.gz,1547,2918,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+230,GCF_001697725.1,1551,2898,114,4,4,4,GCF_001697725.1_ASM169772v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+231,GCF_003050665.1,1509,2888,118,2,2,2,GCF_003050665.1_ASM305066v1_genomic.gbff.gz,1509,2887,118,Helicobacter pylori,Helicobacter pylori
+232,GCF_001119245.2,1556,3027,116,7,7,8,GCF_001119245.2_76_1292_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+233,GCF_000231175.1,1514,2967,117,2,2,1,GCF_000231175.1_ASM23117v1_genomic.gbff.gz,1514,2967,117,Leptospira interrogans serovar Lai str. IPAV,Leptospira interrogans
+234,GCF_002846135.1,1554,2930,116,7,7,8,GCF_002846135.1_ASM284613v1_genomic.gbff.gz,1551,2919,116,Escherichia coli,Escherichia coli
+235,GCF_001047655.1,1514,2967,117,2,2,1,GCF_001047655.1_ASM104765v1_genomic.gbff.gz,1514,2967,117,Leptospira interrogans serovar Manilae,Leptospira interrogans
+236,GCF_000267545.1,1546,2916,116,4,4,4,GCF_000267545.1_ASM26754v1_genomic.gbff.gz,1546,2915,116,Pseudomonas stutzeri CCUG 29243,Pseudomonas stutzeri
+237,GCF_001750825.1,1551,2899,114,4,4,4,GCF_001750825.1_ASM175082v1_genomic.gbff.gz,1551,2894,114,Neisseria meningitidis,Neisseria meningitidis
+238,GCF_002056635.1,1554,2925,116,7,7,8,GCF_002056635.1_ASM205663v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+239,GCF_001913215.1,1548,2917,116,5,5,6,GCF_001913215.1_ASM191321v1_genomic.gbff.gz,1547,2917,116,Pseudomonas syringae pv. actinidiae,Pseudomonas syringae
+240,GCF_002355875.1,1550,2916,116,5,5,6,GCF_002355875.1_ASM235587v1_genomic.gbff.gz,1547,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+241,GCF_002357915.1,1556,2933,116,7,7,8,GCF_002357915.1_ASM235791v1_genomic.gbff.gz,1556,2926,116,Escherichia coli,Escherichia coli
+242,GCF_001697605.1,1551,2898,114,4,4,4,GCF_001697605.1_ASM169760v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+243,GCF_000600045.1,1510,2888,118,2,2,2,GCF_000600045.1_ASM60004v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori oki102,Helicobacter pylori
+244,GCF_001900615.1,1554,2925,116,7,7,8,GCF_001900615.1_ASM190061v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+245,GCF_001697765.1,1551,2898,114,4,4,4,GCF_001697765.1_ASM169776v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+246,GCF_000284555.1,1544,2912,116,4,4,4,GCF_000284555.1_ASM28455v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa NCGM2.S1,Pseudomonas aeruginosa
+247,GCF_001697505.1,1551,2898,114,4,4,4,GCF_001697505.1_ASM169750v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+248,GCF_001675145.1,1556,2925,116,7,7,8,GCF_001675145.1_ASM167514v1_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+249,GCF_003018535.1,1554,2936,116,7,7,8,GCF_003018535.1_ASM301853v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+250,GCF_000359505.1,1545,2912,116,4,4,4,GCF_000359505.1_ASM35950v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa B136-33,Pseudomonas aeruginosa
+251,GCF_001975265.1,1556,3069,116,7,7,8,GCF_001975265.1_ASM197526v1_genomic.gbff.gz,1552,2923,116,Salmonella enterica subsp. enterica serovar Blegdam str. S-1824,Salmonella enterica
+252,GCF_001362195.2,1557,3027,116,7,7,8,GCF_001362195.2_H12ESR00755-001A_genomic.gbff.gz,1555,3025,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+253,GCF_000829885.1,1544,2912,116,4,4,4,GCF_000829885.1_ASM82988v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+254,GCF_003851835.1,1538,2916,116,5,5,6,GCF_003851835.1_ASM385183v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+255,GCF_000833635.2,1556,2933,116,7,7,8,GCF_000833635.2_ASM83363v2_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+256,GCF_003718195.1,1554,3027,116,7,7,7,GCF_003718195.1_ASM371819v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+257,GCF_900618305.1,1537,2914,116,4,4,4,GCF_900618305.1_paerg009_genomic.gbff.gz,1531,2801,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+258,GCF_000270005.1,1511,2889,118,2,2,2,GCF_000270005.1_ASM27000v1_genomic.gbff.gz,1511,2889,118,Helicobacter pylori F16,Helicobacter pylori
+259,GCF_001623685.1,1556,3112,116,7,7,8,GCF_001623685.1_ASM162368v1_genomic.gbff.gz,1554,3011,116,Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2011K-1702,Salmonella enterica
+260,GCF_002736125.1,1547,2917,116,7,7,8,GCF_002736125.1_ASM273612v1_genomic.gbff.gz,1547,2915,116,Pseudomonas putida,Pseudomonas putida
+261,GCF_000828955.1,1509,2888,118,2,2,2,GCF_000828955.1_ASM82895v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori NY40,Helicobacter pylori
+262,GCF_000191465.1,1551,2898,114,4,4,4,GCF_000191465.1_ASM19146v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis M01-240149,Neisseria meningitidis
+263,GCF_000623375.1,1561,3080,116,7,7,8,GCF_000623375.1_ASM62337v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110356,Salmonella enterica
+264,GCF_000020885.1,1558,3110,116,7,7,8,GCF_000020885.1_ASM2088v1_genomic.gbff.gz,1555,2927,116,Salmonella enterica subsp. enterica serovar Agona str. SL483,Salmonella enterica
+265,GCF_002073275.2,1548,2898,114,4,4,4,GCF_002073275.2_ASM207327v2_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+266,GCF_001518975.1,1544,2912,116,4,4,4,GCF_001518975.1_ASM151897v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+267,GCF_002761075.1,1554,3065,116,7,7,8,GCF_002761075.1_ASM276107v1_genomic.gbff.gz,1552,2924,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+268,GCF_002119485.1,1556,3029,116,7,7,8,GCF_002119485.1_ASM211948v1_genomic.gbff.gz,1554,2924,116,Salmonella enterica,Salmonella enterica
+269,GCF_002850675.3,1554,2933,116,7,7,8,GCF_002850675.3_ASM285067v4_genomic.gbff.gz,1554,2927,116,Escherichia coli,Escherichia coli
+270,GCF_001516185.2,1544,2912,116,4,4,4,GCF_001516185.2_ASM151618v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+271,GCF_003612935.1,1538,2916,116,5,5,6,GCF_003612935.1_ASM361293v1_genomic.gbff.gz,1538,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+272,GCF_003717075.1,1554,3027,116,7,7,8,GCF_003717075.1_ASM371707v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+273,GCF_001890165.1,1556,3010,116,7,7,8,GCF_001890165.1_ASM189016v1_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Newport,Salmonella enterica
+274,GCF_003032035.1,1554,3066,116,7,7,8,GCF_003032035.1_ASM303203v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+275,GCF_000091345.1,1510,2890,118,2,2,2,GCF_000091345.1_ASM9134v1_genomic.gbff.gz,1510,2890,118,Helicobacter pylori B38,Helicobacter pylori
+276,GCF_000623335.1,1557,3068,116,7,7,8,GCF_000623335.1_ASM62333v1_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110358,Salmonella enterica
+277,GCF_000498315.1,1510,2888,118,2,2,2,GCF_000498315.1_ASM49831v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori BM012A,Helicobacter pylori
+278,GCF_002762135.3,1554,3113,116,7,7,8,GCF_002762135.3_ASM276213v3_genomic.gbff.gz,1552,2926,116,Salmonella enterica subsp. enterica serovar Typhimurium,Salmonella enterica
+279,GCF_000317875.1,1511,2891,118,2,2,2,GCF_000317875.1_ASM31787v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori Aklavik86,Helicobacter pylori
+280,GCF_001953695.1,1556,3112,116,7,7,8,GCF_001953695.1_ASM195369v1_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Saintpaul,Salmonella enterica
+281,GCF_000941035.1,1514,2967,117,2,2,1,GCF_000941035.1_ASM94103v1_genomic.gbff.gz,1514,2967,117,Leptospira interrogans serovar Linhai str. 56609,Leptospira interrogans
+282,GCF_001879525.1,1544,2915,116,4,4,4,GCF_001879525.1_ASM187952v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+283,GCF_000800235.1,1551,2898,114,4,4,4,GCF_000800235.1_ASM80023v1_genomic.gbff.gz,1551,2895,114,Neisseria meningitidis,Neisseria meningitidis
+284,GCF_001697445.1,1551,2898,114,4,4,4,GCF_001697445.1_ASM169744v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+285,GCF_002075065.1,1544,2912,116,4,4,4,GCF_002075065.1_ASM207506v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+286,GCF_002741375.1,1556,2933,116,7,7,8,GCF_002741375.1_ASM274137v1_genomic.gbff.gz,1554,2924,116,Escherichia albertii,Escherichia albertii
+287,GCF_000452705.1,1548,2918,116,5,5,6,GCF_000452705.1_ASM45270v3_genomic.gbff.gz,1546,2918,116,Pseudomonas syringae CC1557,Pseudomonas syringae
+288,GCF_001280325.1,1555,2930,116,7,7,8,GCF_001280325.1_ASM128032v1_genomic.gbff.gz,1552,2923,116,Escherichia coli,Escherichia coli
+289,GCF_001697405.1,1551,2898,114,4,4,4,GCF_001697405.1_ASM169740v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+290,GCF_001020945.2,1556,2933,116,7,7,7,GCF_001020945.2_ASM102094v2_genomic.gbff.gz,1556,2930,116,Escherichia coli K-12,Escherichia coli
+291,GCF_900185255.1,1544,2912,116,4,4,4,GCF_900185255.1_NN2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa C-NN2,Pseudomonas aeruginosa
+292,GCF_002313105.1,1556,3066,116,7,7,8,GCF_002313105.1_ASM231310v1_genomic.gbff.gz,1554,2925,116,Salmonella enterica,Salmonella enterica
+293,GCF_001697205.1,1551,2898,114,4,4,4,GCF_001697205.1_ASM169720v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+294,GCF_000412675.1,1547,2916,116,7,7,8,GCF_000412675.1_ASM41267v1_genomic.gbff.gz,1547,2916,116,Pseudomonas putida NBRC 14164,Pseudomonas putida
+295,GCF_002356095.1,1547,2917,116,7,7,8,GCF_002356095.1_ASM235609v1_genomic.gbff.gz,1547,2916,116,Pseudomonas putida,Pseudomonas putida
+296,GCF_000191485.1,1551,2898,114,4,4,4,GCF_000191485.1_ASM19148v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis M01-240355,Neisseria meningitidis
+297,GCF_003850485.1,1538,2916,116,5,5,6,GCF_003850485.1_ASM385048v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+298,GCF_900475215.1,1538,2916,116,6,6,7,GCF_900475215.1_42727_B01_genomic.gbff.gz,1538,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+299,GCF_001281365.1,1548,2918,116,5,5,6,GCF_001281365.1_ASM128136v1_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae UMAF0158,Pseudomonas syringae
+300,GCF_003332705.2,1537,2912,116,4,4,4,GCF_003332705.2_ASM333270v2_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+301,GCF_000237065.1,1546,2917,116,5,5,6,GCF_000237065.1_ASM23706v1_genomic.gbff.gz,1546,2916,116,Pseudomonas fluorescens F113,Pseudomonas fluorescens
+302,GCF_000008785.1,1509,2888,118,2,2,2,GCF_000008785.1_ASM878v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori J99,Helicobacter pylori
+303,GCF_900119955.1,1509,2890,118,2,2,2,GCF_900119955.1_HE171_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+304,GCF_003017805.1,1554,2931,116,7,7,8,GCF_003017805.1_ASM301780v1_genomic.gbff.gz,1554,2931,116,Escherichia coli,Escherichia coli
+305,GCF_003290365.1,1538,2917,116,6,6,7,GCF_003290365.1_ASM329036v1_genomic.gbff.gz,1535,2903,116,Pseudomonas putida,Pseudomonas putida
+306,GCF_000013965.1,1515,3632,117,2,2,1,GCF_000013965.1_ASM1396v1_genomic.gbff.gz,1515,3632,117,Leptospira borgpetersenii serovar Hardjo-bovis str. JB197,Leptospira borgpetersenii
+307,GCF_003864095.1,1552,2929,116,7,7,8,GCF_003864095.1_ASM386409v1_genomic.gbff.gz,1552,2929,116,Escherichia albertii,Escherichia albertii
+308,GCF_003851465.1,1538,2916,116,6,6,7,GCF_003851465.1_ASM385146v1_genomic.gbff.gz,1538,2915,116,Pseudomonas synxantha,Pseudomonas synxantha
+309,GCF_000829275.1,1544,2912,116,4,4,4,GCF_000829275.1_ASM82927v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+310,GCF_001307155.1,1538,2917,118,6,6,7,GCF_001307155.1_ASM130715v1_genomic.gbff.gz,1537,2913,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+311,GCF_001697825.1,1551,2898,114,4,4,4,GCF_001697825.1_ASM169782v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+312,GCF_900638575.1,1548,2898,114,4,4,4,GCF_900638575.1_58116_E01_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+313,GCF_003718555.1,1554,3027,116,7,7,8,GCF_003718555.1_ASM371855v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+314,GCF_003288355.1,1537,2912,116,4,4,4,GCF_003288355.1_ASM328835v1_genomic.gbff.gz,1536,2904,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+315,GCF_900119995.1,1509,2890,118,2,2,2,GCF_900119995.1_HE143_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+316,GCF_001293065.1,1515,2967,117,2,2,1,GCF_001293065.1_ASM129306v1_genomic.gbff.gz,1515,2967,117,Leptospira interrogans serovar Hardjo str. Norma,Leptospira interrogans
+317,GCF_003991465.1,1541,2915,116,4,4,4,GCF_003991465.1_ASM399146v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+318,GCF_000272895.2,1556,3015,116,7,7,8,GCF_000272895.2_ASM27289v3_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Newport str. CVM 22462,Salmonella enterica
+319,GCF_000392455.3,1511,2889,118,2,2,2,GCF_000392455.3_ASM39245v3_genomic.gbff.gz,1511,2889,118,Helicobacter pylori UM032,Helicobacter pylori
+320,GCF_001559615.2,1556,2940,116,7,7,8,GCF_001559615.2_ASM155961v2_genomic.gbff.gz,1556,2925,116,Escherichia coli B,Escherichia coli
+321,GCF_001729225.1,1556,3113,116,7,7,8,GCF_001729225.1_ASM172922v1_genomic.gbff.gz,1554,3011,116,Salmonella enterica subsp. enterica serovar Typhimurium,Salmonella enterica
+322,GCF_002011985.1,1554,2926,116,7,7,8,GCF_002011985.1_ASM201198v1_genomic.gbff.gz,1552,2924,116,Escherichia coli,Escherichia coli
+323,GCF_900235815.1,1540,2917,116,5,5,6,GCF_900235815.1_CFBP3840_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae,Pseudomonas syringae
+324,GCF_000498335.1,1510,2888,118,2,2,2,GCF_000498335.1_ASM49833v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori BM012S,Helicobacter pylori
+325,GCF_000192335.1,1509,2890,118,1,1,1,GCF_000192335.1_ASM19233v1_genomic.gbff.gz,1509,2890,118,Helicobacter pylori 2018,Helicobacter pylori
+326,GCF_001605965.1,1547,2918,116,5,5,6,GCF_001605965.1_ASM160596v1_genomic.gbff.gz,1547,2918,116,Pseudomonas koreensis,Pseudomonas koreensis
+327,GCF_001636055.1,1547,2917,116,6,6,7,GCF_001636055.1_ASM163605v1_genomic.gbff.gz,1547,2914,116,Pseudomonas putida,Pseudomonas putida
+328,GCF_002073595.2,1548,2898,114,4,4,4,GCF_002073595.2_ASM207359v2_genomic.gbff.gz,1548,2897,114,Neisseria meningitidis,Neisseria meningitidis
+329,GCF_000020245.1,1511,2895,118,2,2,2,GCF_000020245.1_ASM2024v1_genomic.gbff.gz,1511,2895,118,Helicobacter pylori Shi470,Helicobacter pylori
+330,GCF_001708445.1,1547,2916,116,1,1,1,GCF_001708445.1_ASM170844v1_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+331,GCF_003717795.1,1554,3027,116,7,7,9,GCF_003717795.1_ASM371779v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+332,GCF_000192315.1,1509,2890,118,1,1,1,GCF_000192315.1_ASM19231v1_genomic.gbff.gz,1509,2890,118,Helicobacter pylori 2017,Helicobacter pylori
+333,GCF_002999075.1,1554,2931,116,7,7,8,GCF_002999075.1_ASM299907v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+334,GCF_000452445.2,1540,2917,116,5,5,6,GCF_000452445.2_ASM45244v3_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae pv. pisi str. PP1,Pseudomonas syringae
+335,GCF_000392535.3,1511,2891,118,2,2,2,GCF_000392535.3_ASM39253v3_genomic.gbff.gz,1511,2891,118,Helicobacter pylori UM066,Helicobacter pylori
+336,GCF_000816165.1,1551,2917,114,4,4,4,GCF_000816165.1_ASM81616v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis LNP21362,Neisseria meningitidis
+337,GCF_003193645.1,1537,2912,116,4,4,4,GCF_003193645.1_ASM319364v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+338,GCF_002968695.1,1537,2912,116,4,4,4,GCF_002968695.1_ASM296869v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+339,GCF_000148915.1,1511,2893,118,2,2,2,GCF_000148915.1_ASM14891v1_genomic.gbff.gz,1511,2893,118,Helicobacter pylori Sat464,Helicobacter pylori
+340,GCF_003952645.1,1538,2918,116,7,7,8,GCF_003952645.1_ASM395264v1_genomic.gbff.gz,1538,2917,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+341,GCF_900618275.1,1537,2912,116,4,4,4,GCF_900618275.1_paerg003_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+342,GCF_002741075.1,1547,2915,116,6,6,7,GCF_002741075.1_IEC330191.0_genomic.gbff.gz,1547,2915,116,Pseudomonas putida,Pseudomonas putida
+343,GCF_001623625.1,1558,3109,116,7,7,8,GCF_001623625.1_ASM162362v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1766,Salmonella enterica
+344,GCF_002105735.1,1556,2931,116,7,7,8,GCF_002105735.1_ASM210573v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+345,GCF_900635215.1,1554,2933,116,7,7,8,GCF_900635215.1_39859_D02_genomic.gbff.gz,1554,2929,116,Escherichia coli,Escherichia coli
+346,GCF_003049825.1,1547,2931,116,6,6,7,GCF_003049825.1_ASM304982v1_genomic.gbff.gz,1537,2913,116,Pseudomonas koreensis,Pseudomonas koreensis
+347,GCF_000968415.2,1538,2916,116,6,6,7,GCF_000968415.2_ASM96841v2_genomic.gbff.gz,1538,2916,116,Pseudomonas synxantha,Pseudomonas synxantha
+348,GCF_000271905.2,1556,3015,116,7,7,8,GCF_000271905.2_ASM27190v2_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Newport str. Levine 15,Salmonella enterica
+349,GCF_003940825.1,1564,2944,116,7,7,8,GCF_003940825.1_ASM394082v1_genomic.gbff.gz,1538,2917,116,Pseudomonas entomophila,Pseudomonas entomophila
+350,GCF_003355375.1,1548,2898,114,4,4,4,GCF_003355375.1_ASM335537v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+351,GCF_000800255.1,1548,2916,116,7,7,7,GCF_000800255.1_ASM80025v1_genomic.gbff.gz,1075,2405,116,Pseudomonas parafulva,Pseudomonas parafulva
+352,GCF_001708465.1,1547,2916,116,1,1,2,GCF_001708465.1_ASM170846v1_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+353,GCF_000027025.1,1556,3113,116,7,7,8,GCF_000027025.1_ASM2702v1_genomic.gbff.gz,1554,3011,116,Salmonella enterica subsp. enterica serovar Typhimurium str. D23580,Salmonella enterica
+354,GCF_000092565.1,1509,2912,117,2,2,1,GCF_000092565.1_ASM9256v1_genomic.gbff.gz,1508,2912,117,Leptospira interrogans serovar Lai str. 56601,Leptospira interrogans
+355,GCF_001697625.1,1551,2898,114,4,4,4,GCF_001697625.1_ASM169762v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+356,GCF_000624395.2,1556,3065,116,7,7,8,GCF_000624395.2_ASM62439v2_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20120002,Salmonella enterica
+357,GCF_000397205.1,1549,2916,116,5,5,5,GCF_000397205.1_ASM39720v1_genomic.gbff.gz,1549,2916,116,Pseudomonas protegens CHA0,Pseudomonas protegens
+358,GCF_001697165.1,1551,2898,114,4,4,4,GCF_001697165.1_ASM169716v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+359,GCF_000270025.1,1511,2891,118,2,2,2,GCF_000270025.1_ASM27002v1_genomic.gbff.gz,1511,2891,118,Helicobacter pylori F30,Helicobacter pylori
+360,GCF_000600205.1,1511,2890,118,2,2,2,GCF_000600205.1_ASM60020v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori oki828,Helicobacter pylori
+361,GCF_000014105.1,1551,2898,114,4,4,4,GCF_000014105.1_ASM1410v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis 053442,Neisseria meningitidis
+362,GCF_003940785.1,1538,2918,116,7,7,8,GCF_003940785.1_ASM394078v1_genomic.gbff.gz,1538,2915,116,Pseudomonas entomophila,Pseudomonas entomophila
+363,GCF_000026105.1,1547,2915,116,7,7,8,GCF_000026105.1_ASM2610v1_genomic.gbff.gz,1547,2914,116,Pseudomonas entomophila L48,Pseudomonas entomophila
+364,GCF_003325015.1,1554,3110,116,7,7,8,GCF_003325015.1_ASM332501v1_genomic.gbff.gz,1550,2927,116,Salmonella enterica,Salmonella enterica
+365,GCF_002812825.1,1537,2912,116,4,4,4,GCF_002812825.1_ASM281282v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+366,GCF_000185185.1,1510,2890,118,2,2,2,GCF_000185185.1_ASM18518v1_genomic.gbff.gz,1510,2890,118,Helicobacter pylori India7,Helicobacter pylori
+367,GCF_002073575.2,1548,2898,114,4,4,4,GCF_002073575.2_ASM207357v2_genomic.gbff.gz,1548,2897,114,Neisseria meningitidis,Neisseria meningitidis
+368,GCF_003851925.1,1538,2916,116,5,5,6,GCF_003851925.1_ASM385192v1_genomic.gbff.gz,1538,2915,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+369,GCF_000270045.1,1511,2890,118,2,2,2,GCF_000270045.1_ASM27004v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori F32,Helicobacter pylori
+370,GCF_000800275.1,1561,2914,114,5,5,5,GCF_000800275.1_ASM80027v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis M7124,Neisseria meningitidis
+371,GCF_000325725.1,1547,2917,116,7,7,8,GCF_000325725.1_ASM32572v1_genomic.gbff.gz,1547,2914,116,Pseudomonas putida HB3267,Pseudomonas putida
+372,GCF_003355275.1,1548,2898,114,4,4,4,GCF_003355275.1_ASM335527v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+373,GCF_000496605.2,1544,2912,116,4,4,4,GCF_000496605.2_ASM49660v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa PA1,Pseudomonas aeruginosa
+374,GCF_001900415.1,1556,2931,116,7,7,8,GCF_001900415.1_ASM190041v1_genomic.gbff.gz,1556,2931,116,Escherichia coli,Escherichia coli
+375,GCF_003851955.1,1538,2916,116,5,5,6,GCF_003851955.1_ASM385195v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+376,GCF_000344475.3,1540,2917,116,5,5,6,GCF_000344475.3_ASM34447v3_genomic.gbff.gz,1539,2917,116,Pseudomonas syringae pv. actinidiae str. Shaanxi_M228,Pseudomonas syringae
+377,GCF_003112185.1,1554,2936,116,7,7,8,GCF_003112185.1_ASM311218v1_genomic.gbff.gz,1552,2923,116,Escherichia coli O26 str. RM8426,Escherichia coli
+378,GCF_000623275.1,1556,3070,116,7,7,8,GCF_000623275.1_ASM62327v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110361,Salmonella enterica
+379,GCF_001900905.1,1556,2931,116,7,7,8,GCF_001900905.1_ASM190090v1_genomic.gbff.gz,1556,2908,116,Escherichia coli,Escherichia coli
+380,GCF_000016565.1,1546,2914,116,4,4,4,GCF_000016565.1_ASM1656v1_genomic.gbff.gz,1546,2914,116,Pseudomonas mendocina ymp,Pseudomonas mendocina
+381,GCF_003957825.1,1537,2912,116,4,4,4,GCF_003957825.1_ASM395782v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+382,GCF_002022745.1,1551,2898,114,4,4,4,GCF_002022745.1_ASM202274v1_genomic.gbff.gz,1551,2898,114,Neisseria lactamica,Neisseria lactamica
+383,GCF_001127485.2,1557,3027,116,7,7,8,GCF_001127485.2_ERL041834_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+384,GCF_001697365.1,1551,2898,114,4,4,4,GCF_001697365.1_ASM169736v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+385,GCF_003194245.1,1537,2912,116,4,4,4,GCF_003194245.1_ASM319424v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+386,GCF_002741455.1,1556,2936,116,7,7,8,GCF_002741455.1_ASM274145v1_genomic.gbff.gz,1554,2925,116,Escherichia coli O128:H27,Escherichia coli
+387,GCF_003850385.1,1538,2916,116,5,5,6,GCF_003850385.1_ASM385038v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+388,GCF_001515845.2,1544,2912,116,4,4,4,GCF_001515845.2_ASM151584v2_genomic.gbff.gz,1155,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+389,GCF_001653475.1,1510,2891,118,1,1,1,GCF_001653475.1_ASM165347v1_genomic.gbff.gz,1510,2891,118,Helicobacter pylori,Helicobacter pylori
+390,GCF_003030125.1,1554,3109,116,7,7,8,GCF_003030125.1_ASM303012v1_genomic.gbff.gz,1550,2925,116,Salmonella enterica,Salmonella enterica
+391,GCF_003031875.1,1554,3114,116,7,7,8,GCF_003031875.1_ASM303187v1_genomic.gbff.gz,1554,2928,116,Salmonella enterica subsp. enterica serovar Tennessee,Salmonella enterica
+392,GCF_002285475.1,1554,2934,116,7,7,8,GCF_002285475.1_ASM228547v1_genomic.gbff.gz,1554,2926,116,Escherichia albertii,Escherichia albertii
+393,GCF_000648735.3,1548,2917,116,5,5,6,GCF_000648735.3_ASM64873v3_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae pv. actinidiae ICMP 18884,Pseudomonas syringae
+394,GCF_000026965.1,1551,2898,114,4,4,4,GCF_000026965.1_ASM2696v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis 8013,Neisseria meningitidis
+395,GCF_002234775.1,1552,3114,116,7,7,8,GCF_002234775.1_ASM223477v1_genomic.gbff.gz,1552,2927,116,Salmonella enterica subsp. enterica serovar Braenderup,Salmonella enterica
+396,GCF_003851165.1,1538,2916,116,5,5,6,GCF_003851165.1_ASM385116v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+397,GCF_003019115.1,1554,2936,116,7,7,8,GCF_003019115.1_ASM301911v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+398,GCF_002356595.1,1511,2891,118,2,2,2,GCF_002356595.1_ASM235659v1_genomic.gbff.gz,1511,2891,118,Helicobacter pylori,Helicobacter pylori
+399,GCF_003856695.1,1554,2925,116,7,7,8,GCF_003856695.1_ASM385669v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+400,GCF_001095585.2,1557,3027,116,7,7,8,GCF_001095585.2_ERL114000_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+401,GCF_000264665.2,1538,2918,116,6,6,7,GCF_000264665.2_ASM26466v2_genomic.gbff.gz,1538,2915,116,Pseudomonas putida ND6,Pseudomonas putida
+402,GCF_003571505.1,1537,2912,116,4,4,4,GCF_003571505.1_ASM357150v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+403,GCF_002952555.1,1509,2889,118,2,2,2,GCF_002952555.1_ASM295255v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+404,GCF_003717855.1,1554,3027,116,7,7,8,GCF_003717855.1_ASM371785v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+405,GCF_002943995.1,1538,2917,116,7,7,8,GCF_002943995.1_ASM294399v1_genomic.gbff.gz,1538,2916,116,Pseudomonas monteilii,Pseudomonas monteilii
+406,GCF_003850605.1,1538,2913,116,5,5,6,GCF_003850605.1_ASM385060v1_genomic.gbff.gz,1538,2913,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+407,GCF_000307815.1,1509,2889,118,2,2,2,GCF_000307815.1_ASM30781v1_genomic.gbff.gz,1506,2888,118,Helicobacter pylori Rif1,Helicobacter pylori
+408,GCF_002165115.2,1554,2932,116,7,7,8,GCF_002165115.2_ASM216511v2_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+409,GCF_002208645.1,1544,2912,116,4,4,4,GCF_002208645.1_ASM220864v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+410,GCF_003008495.1,1538,2914,116,4,4,4,GCF_003008495.1_ASM300849v1_genomic.gbff.gz,1537,2913,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+411,GCF_003850365.1,1538,2916,116,5,5,6,GCF_003850365.1_ASM385036v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+412,GCF_000626595.1,1551,2898,114,4,4,4,GCF_000626595.1_ASM62659v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+413,GCF_000496455.2,1544,2912,116,4,4,4,GCF_000496455.2_ASM49645v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa DHS01,Pseudomonas aeruginosa
+414,GCF_002952355.1,1509,2890,118,2,2,2,GCF_002952355.1_ASM295235v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+415,GCF_003429505.1,1514,2968,117,2,2,1,GCF_003429505.1_ASM342950v1_genomic.gbff.gz,1514,2966,117,Leptospira mayottensis,Leptospira mayottensis
+416,GCF_002012185.1,1556,2933,116,7,7,8,GCF_002012185.1_ASM201218v1_genomic.gbff.gz,1556,2930,116,Escherichia coli,Escherichia coli
+417,GCF_000750375.1,1556,3067,116,7,7,8,GCF_000750375.1_ASM75037v1_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+418,GCF_900174625.1,1556,2931,116,7,7,8,GCF_900174625.1_WI1-reUpload_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+419,GCF_001697325.1,1551,2898,114,4,4,4,GCF_001697325.1_ASM169732v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+420,GCF_002073555.2,1548,2898,114,4,4,4,GCF_002073555.2_ASM207355v2_genomic.gbff.gz,1548,2897,114,Neisseria meningitidis,Neisseria meningitidis
+421,GCF_000818035.1,1551,2898,114,4,4,4,GCF_000818035.1_ASM81803v1_genomic.gbff.gz,1551,2898,114,Neisseria elongata subsp. glycolytica ATCC 29315,Neisseria elongata
+422,GCF_000439295.2,1511,2889,118,2,2,2,GCF_000439295.2_ASM43929v2_genomic.gbff.gz,1511,2889,118,Helicobacter pylori UM298,Helicobacter pylori
+423,GCF_000392515.3,1510,2887,118,2,2,2,GCF_000392515.3_ASM39251v3_genomic.gbff.gz,1510,2887,118,Helicobacter pylori UM037,Helicobacter pylori
+424,GCF_003213825.2,1501,2888,116,2,2,2,GCF_003213825.2_ASM321382v2_genomic.gbff.gz,1501,2888,116,Helicobacter cinaedi,Helicobacter cinaedi
+425,GCF_004010895.1,1537,2912,116,4,4,4,GCF_004010895.1_ASM401089v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+426,GCF_002073495.2,1514,2967,117,2,2,1,GCF_002073495.2_ASM207349v2_genomic.gbff.gz,1514,2966,117,Leptospira interrogans serovar Copenhageni,Leptospira interrogans
+427,GCF_002237425.1,1544,2912,116,4,4,4,GCF_002237425.1_ASM223742v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+428,GCF_001697965.1,1551,2898,114,4,4,4,GCF_001697965.1_ASM169796v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+429,GCF_003856675.1,1554,2932,116,7,7,8,GCF_003856675.1_ASM385667v1_genomic.gbff.gz,1552,2925,116,Escherichia coli,Escherichia coli
+430,GCF_003851145.1,1538,2916,116,5,5,6,GCF_003851145.1_ASM385114v1_genomic.gbff.gz,1538,2915,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+431,GCF_000348865.1,1510,2892,118,2,2,2,GCF_000348865.1_ASM34886v1_genomic.gbff.gz,1510,2892,118,Helicobacter pylori OK113,Helicobacter pylori
+432,GCF_002946375.1,1554,3112,116,7,7,8,GCF_002946375.1_ASM294637v1_genomic.gbff.gz,1546,2922,116,Salmonella enterica subsp. enterica serovar Derby,Salmonella enterica
+433,GCF_003073735.1,1537,2912,116,4,4,4,GCF_003073735.1_ASM307373v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+434,GCF_003363755.1,1540,2916,116,5,5,7,GCF_003363755.1_ASM336375v1_genomic.gbff.gz,1540,2916,116,Pseudomonas protegens,Pseudomonas protegens
+435,GCF_000344355.2,1548,2917,116,5,5,6,GCF_000344355.2_ASM34435v2_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae pv. actinidiae ICMP 18708,Pseudomonas syringae
+436,GCF_000007565.2,1522,2902,120,7,7,8,GCF_000007565.2_ASM756v2_genomic.gbff.gz,1522,2902,120,Pseudomonas putida KT2440,Pseudomonas putida
+437,GCF_003073895.1,1537,2912,116,4,4,4,GCF_003073895.1_ASM307389v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+438,GCF_900636195.1,1554,2927,116,7,7,8,GCF_900636195.1_39220_B01_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+439,GCF_000007805.1,1518,2903,120,5,5,5,GCF_000007805.1_ASM780v1_genomic.gbff.gz,1518,2903,120,Pseudomonas syringae pv. tomato str. DC3000,Pseudomonas syringae
+440,GCF_001077475.1,1544,2912,116,4,4,4,GCF_001077475.1_ASM107747v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+441,GCF_002952475.1,1509,2889,118,2,2,2,GCF_002952475.1_ASM295247v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+442,GCF_003351545.1,1546,2898,114,4,4,4,GCF_003351545.1_ASM335154v1_genomic.gbff.gz,1546,2898,114,Neisseria elongata,Neisseria elongata
+443,GCF_000083565.1,1551,2898,114,4,4,4,GCF_000083565.1_ASM8356v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis alpha14,Neisseria meningitidis
+444,GCF_001602135.1,1547,2918,116,5,5,6,GCF_001602135.1_ASM160213v1_genomic.gbff.gz,1547,2916,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+445,GCF_001516365.2,1544,2912,116,4,4,4,GCF_001516365.2_ASM151636v2_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+446,GCF_003718615.1,1554,3027,116,7,7,8,GCF_003718615.1_ASM371861v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+447,GCF_001952935.1,1549,2916,116,7,7,8,GCF_001952935.1_ASM195293v1_genomic.gbff.gz,1544,2916,116,Pseudomonas frederiksbergensis,Pseudomonas frederiksbergensis
+448,GCF_003571465.1,1548,2898,114,4,4,4,GCF_003571465.1_ASM357146v1_genomic.gbff.gz,1548,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+449,GCF_000814145.2,1556,2933,116,7,7,8,GCF_000814145.2_ASM81414v2_genomic.gbff.gz,1556,2930,116,Escherichia coli,Escherichia coli
+450,GCF_000600165.1,1510,2900,118,2,2,2,GCF_000600165.1_ASM60016v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori oki422,Helicobacter pylori
+451,GCF_000988395.1,1549,2918,116,5,5,6,GCF_000988395.1_ASM98839v1_genomic.gbff.gz,1548,2918,116,Pseudomonas syringae pv. syringae HS191,Pseudomonas syringae
+452,GCF_900637045.1,1537,2912,116,4,4,4,GCF_900637045.1_46837_C02_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+453,GCF_001874465.1,1544,2912,116,4,4,4,GCF_001874465.1_ASM187446v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+454,GCF_000226035.2,1541,2919,116,8,9,8,GCF_000226035.2_ASM22603v3_genomic.gbff.gz,1345,2875,116,Pseudomonas putida B6-2,Pseudomonas putida
+455,GCF_003722195.1,1554,2939,116,7,7,8,GCF_003722195.1_ASM372219v1_genomic.gbff.gz,1552,2923,116,Escherichia coli O157:H7,Escherichia coli
+456,GCF_000691565.1,1549,2918,116,5,5,6,GCF_000691565.1_ASM69156v1_genomic.gbff.gz,1546,2916,115,Pseudomonas putida,Pseudomonas putida
+457,GCF_003595645.1,1554,3109,116,7,7,8,GCF_003595645.1_ASM359564v1_genomic.gbff.gz,1552,2927,116,Salmonella enterica subsp. enterica serovar Dublin,Salmonella enterica
+458,GCF_000988485.1,1548,2918,116,5,5,6,GCF_000988485.1_ASM98848v1_genomic.gbff.gz,1548,2918,116,Pseudomonas syringae pv. syringae B301D,Pseudomonas syringae
+459,GCF_000011725.1,1511,2890,118,2,2,2,GCF_000011725.1_ASM1172v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori 51,Helicobacter pylori
+460,GCF_900636825.1,1539,2918,116,6,6,8,GCF_900636825.1_44858_E01_genomic.gbff.gz,1538,2918,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+461,GCF_001618925.1,1544,2912,116,4,4,4,GCF_001618925.1_ASM161892v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+462,GCF_002934065.1,1538,2916,116,6,6,7,GCF_002934065.1_ASM293406v1_genomic.gbff.gz,1538,2916,116,Pseudomonas orientalis,Pseudomonas orientalis
+463,GCF_000512125.1,1561,2941,116,7,7,8,GCF_000512125.1_ASM51212v1_genomic.gbff.gz,1553,2929,116,Escherichia albertii KF1,Escherichia albertii
+464,GCF_003073795.1,1537,2912,116,4,4,4,GCF_003073795.1_ASM307379v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+465,GCF_003860365.1,1552,2932,116,7,7,8,GCF_003860365.1_ASM386036v1_genomic.gbff.gz,1552,2930,116,Escherichia albertii,Escherichia albertii
+466,GCF_000623135.1,1556,3066,116,7,7,8,GCF_000623135.1_ASM62313v2_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20121180,Salmonella enterica
+467,GCF_900176185.1,1509,2890,118,2,2,2,GCF_900176185.1_HE93_10_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+468,GCF_002983705.1,1508,2888,118,2,2,2,GCF_002983705.1_ASM298370v1_genomic.gbff.gz,1508,2887,118,Helicobacter pylori,Helicobacter pylori
+469,GCF_900185485.1,1555,3027,116,7,7,8,GCF_900185485.1_BL60006_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+470,GCF_001620115.1,1558,3109,116,7,7,8,GCF_001620115.1_ASM162011v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1736,Salmonella enterica
+471,GCF_900475815.1,1546,2898,114,4,4,4,GCF_900475815.1_46758_G01_genomic.gbff.gz,1546,2898,114,Neisseria elongata subsp. glycolytica,Neisseria elongata
+472,GCF_003939085.1,1509,2888,118,2,2,2,GCF_003939085.1_ASM393908v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori,Helicobacter pylori
+473,GCF_003945765.1,1538,2916,116,5,5,6,GCF_003945765.1_ASM394576v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. chlororaphis,Pseudomonas chlororaphis
+474,GCF_003851555.1,1538,2916,116,6,6,7,GCF_003851555.1_ASM385155v1_genomic.gbff.gz,1538,2916,116,Pseudomonas synxantha,Pseudomonas synxantha
+475,GCF_003055645.1,1538,2912,116,6,6,7,GCF_003055645.1_ASM305564v1_genomic.gbff.gz,1538,2910,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+476,GCF_000148875.1,1511,2889,118,2,2,2,GCF_000148875.1_ASM14887v1_genomic.gbff.gz,1511,2888,118,Helicobacter pylori PeCan4,Helicobacter pylori
+477,GCF_000277385.1,1511,2891,118,2,2,2,GCF_000277385.1_ASM27738v1_genomic.gbff.gz,1511,2891,118,Helicobacter pylori Shi169,Helicobacter pylori
+478,GCF_001973275.2,1556,3065,116,7,7,8,GCF_001973275.2_ASM197327v2_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+479,GCF_000330485.2,1556,3010,116,7,7,9,GCF_000330485.2_ASM33048v2_genomic.gbff.gz,1555,3010,116,Salmonella enterica subsp. enterica serovar Pullorum str. ATCC 9120,Salmonella enterica
+480,GCF_900186935.1,1551,2898,114,4,4,4,GCF_900186935.1_49677_G01_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+481,GCF_000272715.4,1556,3015,116,7,7,8,GCF_000272715.4_ASM27271v4_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Newport str. CVM 21550,Salmonella enterica
+482,GCF_001874645.1,1549,2916,116,7,7,8,GCF_001874645.1_ASM187464v1_genomic.gbff.gz,1549,2915,116,Pseudomonas frederiksbergensis,Pseudomonas frederiksbergensis
+483,GCF_001362335.2,1557,3027,116,6,6,7,GCF_001362335.2_Ty2_genomic.gbff.gz,1556,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+484,GCF_003316815.1,1552,2933,116,7,7,8,GCF_003316815.1_ASM331681v2_genomic.gbff.gz,1552,2924,116,Escherichia albertii,Escherichia albertii
+485,GCF_900474495.1,1554,2933,116,7,7,8,GCF_900474495.1_38344_F01_genomic.gbff.gz,1554,2927,116,Escherichia coli,Escherichia coli
+486,GCF_000661915.1,1546,2915,116,4,4,4,GCF_000661915.1_ASM66191v1_genomic.gbff.gz,1546,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+487,GCF_001547955.1,1544,2912,116,4,4,4,GCF_001547955.1_ASM154795v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+488,GCF_002163935.1,1554,2936,116,7,7,8,GCF_002163935.1_ASM216393v1_genomic.gbff.gz,1552,2927,116,Escherichia coli,Escherichia coli
+489,GCF_003001655.1,1537,2915,116,4,4,4,GCF_003001655.1_ASM300165v1_genomic.gbff.gz,1537,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+490,GCF_001690115.1,1556,3114,116,7,7,8,GCF_001690115.1_ASM169011v1_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Heidelberg,Salmonella enterica
+491,GCF_003717355.1,1554,3027,116,7,7,8,GCF_003717355.1_ASM371735v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+492,GCF_000272755.4,1556,3015,116,7,7,8,GCF_000272755.4_ASM27275v4_genomic.gbff.gz,1553,2926,116,Salmonella enterica subsp. enterica serovar Newport str. CVM 21538,Salmonella enterica
+493,GCF_000520035.1,1555,2933,116,7,7,8,GCF_000520035.1_ASM52003v1_genomic.gbff.gz,1554,2929,116,Escherichia coli O145:H28 str. RM13514,Escherichia coli
+494,GCF_001698105.1,1551,2898,114,4,4,4,GCF_001698105.1_ASM169810v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+495,GCF_003813025.1,1537,2912,116,4,4,4,GCF_003813025.1_ASM381302v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+496,GCF_001697105.1,1552,2898,114,4,4,4,GCF_001697105.1_ASM169710v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+497,GCF_900120055.1,1509,2890,118,2,2,2,GCF_900120055.1_HE178_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+498,GCF_001697465.1,1551,2898,114,4,4,4,GCF_001697465.1_ASM169746v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+499,GCF_000934565.1,1547,2916,116,6,6,7,GCF_000934565.1_ASM93456v1_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+500,GCF_001729505.1,1544,2912,116,4,4,4,GCF_001729505.1_ASM172950v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+501,GCF_003324935.1,1554,3109,116,7,7,8,GCF_003324935.1_ASM332493v1_genomic.gbff.gz,1550,2927,116,Salmonella enterica,Salmonella enterica
+502,GCF_003073695.1,1537,2912,116,4,4,4,GCF_003073695.1_ASM307369v1_genomic.gbff.gz,1536,2908,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+503,GCF_003433235.1,1537,2912,116,4,4,4,GCF_003433235.1_ASM343323v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+504,GCF_001723505.1,1556,2933,116,7,7,8,GCF_001723505.1_ASM172350v1_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+505,GCF_003369735.1,1537,2912,116,4,4,4,GCF_003369735.1_ASM336973v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+506,GCF_000009225.2,1547,2916,116,5,5,6,GCF_000009225.2_ASM922v1_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens SBW25,Pseudomonas fluorescens
+507,GCF_000510285.1,1547,2916,116,6,6,7,GCF_000510285.1_ASM51028v1_genomic.gbff.gz,1547,2916,116,Pseudomonas monteilii SB3078,Pseudomonas monteilii
+508,GCF_001697665.1,1551,2898,114,4,4,4,GCF_001697665.1_ASM169766v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+509,GCF_000494385.2,1558,3110,116,7,7,8,GCF_000494385.2_ASM49438v2_genomic.gbff.gz,1556,2927,116,Salmonella enterica subsp. enterica serovar Agona str. 392869-2,Salmonella enterica
+510,GCF_900636645.1,1538,2917,116,7,7,8,GCF_900636645.1_43295_H02_genomic.gbff.gz,1538,2914,116,Pseudomonas putida,Pseudomonas putida
+511,GCF_003850465.1,1538,2916,116,5,5,6,GCF_003850465.1_ASM385046v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+512,GCF_001722025.1,1544,2912,116,4,4,4,GCF_001722025.1_ASM172202v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+513,GCF_002090355.1,1556,2940,116,7,7,8,GCF_002090355.1_ASM209035v1_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+514,GCF_003017935.1,1554,2930,116,7,7,8,GCF_003017935.1_ASM301793v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+515,GCF_001697905.1,1551,2898,114,4,4,4,GCF_001697905.1_ASM169790v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+516,GCF_003355235.1,1548,2898,114,4,4,4,GCF_003355235.1_ASM335523v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+517,GCF_003355395.1,1548,2898,114,4,4,4,GCF_003355395.1_ASM335539v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+518,GCF_000259235.1,1510,2888,118,2,2,2,GCF_000259235.1_ASM25923v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori HUP-B14,Helicobacter pylori
+519,GCF_000685625.1,1510,2889,118,2,2,2,GCF_000685625.1_ASM68562v1_genomic.gbff.gz,1510,2889,118,Helicobacter pylori J166,Helicobacter pylori
+520,GCF_002741215.1,1556,2933,116,7,7,8,GCF_002741215.1_ASM274121v1_genomic.gbff.gz,1555,2929,116,Escherichia coli O15:H11,Escherichia coli
+521,GCF_002953075.1,1554,2933,116,7,7,9,GCF_002953075.1_ASM295307v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+522,GCF_003851265.1,1538,2916,116,5,5,6,GCF_003851265.1_ASM385126v1_genomic.gbff.gz,1538,2915,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+523,GCF_001698045.1,1551,2898,114,4,4,4,GCF_001698045.1_ASM169804v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+524,GCF_000344335.2,1548,2917,116,5,5,6,GCF_000344335.2_ASM34433v2_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae pv. actinidiae ICMP 9853,Pseudomonas syringae
+525,GCF_900235905.1,1540,2918,116,5,5,6,GCF_900235905.1_CFBP6411_genomic.gbff.gz,1540,2918,116,Pseudomonas syringae group genomosp. 3,Pseudomonas syringae
+526,GCF_000023805.1,1511,2889,118,2,2,2,GCF_000023805.1_ASM2380v1_genomic.gbff.gz,1511,2889,118,Helicobacter pylori 52,Helicobacter pylori
+527,GCF_001901315.1,1556,2925,116,7,7,8,GCF_001901315.1_ASM190131v1_genomic.gbff.gz,1556,2925,108,Escherichia coli,Escherichia coli
+528,GCF_001697125.1,1551,2898,114,4,4,4,GCF_001697125.1_ASM169712v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+529,GCF_002761015.1,1554,3066,116,7,7,8,GCF_002761015.1_ASM276101v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+530,GCF_001697945.1,1551,2898,114,4,4,4,GCF_001697945.1_ASM169794v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+531,GCF_001516005.1,1544,2912,116,4,4,4,GCF_001516005.1_ASM151600v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+532,GCF_003351685.1,1546,2898,114,4,4,4,GCF_003351685.1_ASM335168v1_genomic.gbff.gz,1546,2898,114,Neisseria elongata,Neisseria elongata
+533,GCF_000204295.1,1547,2914,116,4,4,4,GCF_000204295.1_ASM20429v1_genomic.gbff.gz,1547,2914,116,Pseudomonas mendocina NK-01,Pseudomonas mendocina
+534,GCF_900618285.1,1537,2912,116,4,4,4,GCF_900618285.1_paerg005_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+535,GCF_900235865.1,1540,2918,116,5,5,6,GCF_900235865.1_CFBP2118_genomic.gbff.gz,1540,2918,116,Pseudomonas syringae pv. syringae,Pseudomonas syringae
+536,GCF_900289125.1,1540,2917,116,5,5,6,GCF_900289125.1_CFBP2116_finsihed_replicons_genomic.gbff.gz,1540,2916,116,Pseudomonas syringae,Pseudomonas syringae
+537,GCF_000271365.1,1544,2912,116,4,4,4,GCF_000271365.1_ASM27136v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa DK2,Pseudomonas aeruginosa
+538,GCF_002968955.1,1537,2912,116,4,4,4,GCF_002968955.1_ASM296895v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+539,GCF_002211725.1,1556,2933,116,7,7,8,GCF_002211725.1_ASM221172v1_genomic.gbff.gz,1556,2925,116,Escherichia coli,Escherichia coli
+540,GCF_000022225.1,1556,2938,116,7,7,8,GCF_000022225.1_ASM2222v1_genomic.gbff.gz,1554,2930,116,Escherichia coli O157:H7 str. TW14359,Escherichia coli
+541,GCF_003850445.1,1538,2916,116,5,5,6,GCF_003850445.1_ASM385044v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+542,GCF_003850505.1,1538,2916,116,5,5,6,GCF_003850505.1_ASM385050v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+543,GCF_001542835.1,1544,2912,116,4,4,4,GCF_001542835.1_ASM154283v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+544,GCF_000829115.1,1510,2888,118,2,2,2,GCF_000829115.1_ASM82911v1_genomic.gbff.gz,1419,2868,118,Helicobacter pylori 26695-1CL,Helicobacter pylori
+545,GCF_001708485.1,1547,2916,91,5,1,1,GCF_001708485.1_ASM170848v1_genomic.gbff.gz,1547,2916,91,Pseudomonas fluorescens,Pseudomonas fluorescens
+546,GCF_000600225.1,1510,2888,118,2,2,2,GCF_000600225.1_ASM60022v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori oki898,Helicobacter pylori
+547,GCF_900636545.1,1538,2914,116,4,4,4,GCF_900636545.1_42727_C01_genomic.gbff.gz,1537,2914,116,Pseudomonas mendocina,Pseudomonas mendocina
+548,GCF_000600085.1,1510,2888,118,2,2,2,GCF_000600085.1_ASM60008v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori oki112,Helicobacter pylori
+549,GCF_001698005.1,1551,2898,114,4,4,4,GCF_001698005.1_ASM169800v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+550,GCF_003850345.1,1538,2916,116,5,5,6,GCF_003850345.1_ASM385034v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+551,GCF_000007685.1,1514,2967,117,2,2,1,GCF_000007685.1_ASM768v1_genomic.gbff.gz,1513,2967,117,Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130,Leptospira interrogans
+552,GCF_003591595.1,1554,2927,116,7,7,8,GCF_003591595.1_ASM359159v1_genomic.gbff.gz,1554,2924,116,Escherichia coli ATCC 8739,Escherichia coli
+553,GCF_003665415.1,1540,2917,116,5,5,6,GCF_003665415.1_ASM366541v1_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae pv. actinidiae,Pseudomonas syringae
+554,GCF_000219515.2,1554,2925,116,7,7,8,GCF_000219515.2_ASM21951v3_genomic.gbff.gz,1552,2925,116,Escherichia coli PCN033,Escherichia coli
+555,GCF_002899495.1,1554,2933,116,7,7,8,GCF_002899495.1_ASM289949v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+556,GCF_004006335.1,1538,2915,116,6,6,7,GCF_004006335.1_ASM400633v1_genomic.gbff.gz,1538,2912,116,Pseudomonas syringae,Pseudomonas syringae
+557,GCF_002164595.2,1554,2932,116,7,7,8,GCF_002164595.2_ASM216459v2_genomic.gbff.gz,1552,2926,116,Escherichia coli,Escherichia coli
+558,GCF_003851205.1,1538,2916,116,5,5,6,GCF_003851205.1_ASM385120v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+559,GCF_002741555.1,1556,2939,116,7,7,8,GCF_002741555.1_ASM274155v1_genomic.gbff.gz,1556,2924,116,Escherichia coli,Escherichia coli
+560,GCF_000224535.1,1511,2889,118,2,2,2,GCF_000224535.1_ASM22453v1_genomic.gbff.gz,1511,2889,118,Helicobacter pylori Puno120,Helicobacter pylori
+561,GCF_002073535.2,1548,2898,114,4,4,4,GCF_002073535.2_ASM207353v2_genomic.gbff.gz,1548,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+562,GCF_001722005.2,1544,2912,116,4,4,4,GCF_001722005.2_ASM172200v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+563,GCF_000973665.2,1556,2934,116,7,7,8,GCF_000973665.2_ASM97366v2_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Montevideo str. CDC 86-0391,Salmonella enterica
+564,GCF_000498395.2,1547,2917,116,7,7,8,GCF_000498395.2_ASM49839v3_genomic.gbff.gz,1547,2916,116,Pseudomonas putida S13.1.2,Pseudomonas putida
+565,GCF_003851405.1,1538,2916,116,5,5,6,GCF_003851405.1_ASM385140v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+566,GCF_003589805.1,1554,3109,116,7,7,8,GCF_003589805.1_ASM358980v1_genomic.gbff.gz,1552,2929,116,Salmonella enterica subsp. enterica serovar Dublin,Salmonella enterica
+567,GCF_001648195.1,1546,2915,116,4,4,4,GCF_001648195.1_ASM164819v1_genomic.gbff.gz,1546,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+568,GCF_900186875.1,1551,2898,114,4,4,4,GCF_900186875.1_49677_F01_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+569,GCF_001677475.1,1556,2930,116,7,7,8,GCF_001677475.1_ASM167747v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+570,GCF_001991095.1,1510,2888,118,2,2,2,GCF_001991095.1_ASM199109v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori PMSS1,Helicobacter pylori
+571,GCF_000315955.1,1511,2892,118,2,2,2,GCF_000315955.1_ASM31595v1_genomic.gbff.gz,1511,2892,118,Helicobacter pylori Aklavik117,Helicobacter pylori
+572,GCF_000012265.1,1549,2916,116,5,5,6,GCF_000012265.1_ASM1226v1_genomic.gbff.gz,1549,2916,116,Pseudomonas protegens Pf-5,Pseudomonas protegens
+573,GCF_003718235.1,1555,3027,116,7,7,9,GCF_003718235.1_ASM371823v1_genomic.gbff.gz,1555,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+574,GCF_001653395.1,1511,2889,118,1,1,1,GCF_001653395.1_ASM165339v1_genomic.gbff.gz,1511,2889,118,Helicobacter pylori,Helicobacter pylori
+575,GCF_003018395.1,1554,2931,116,7,7,8,GCF_003018395.1_ASM301839v1_genomic.gbff.gz,1554,2931,116,Escherichia coli,Escherichia coli
+576,GCF_900638605.1,1548,2898,114,4,4,4,GCF_900638605.1_58116_G01_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+577,GCF_003254845.1,1514,3632,117,2,2,1,GCF_003254845.1_ASM325484v1_genomic.gbff.gz,1514,3632,117,Leptospira borgpetersenii serovar Hardjo-bovis,Leptospira borgpetersenii
+578,GCF_003214155.2,1502,2888,116,2,2,2,GCF_003214155.2_ASM321415v2_genomic.gbff.gz,1502,2888,116,Helicobacter cinaedi,Helicobacter cinaedi
+579,GCF_000973685.2,1554,3015,116,7,7,8,GCF_000973685.2_ASM97368v2_genomic.gbff.gz,1552,2926,116,Salmonella enterica subsp. enterica serovar Newport str. CDC 2010K-2159,Salmonella enterica
+580,GCF_000016865.1,1547,2917,116,6,6,7,GCF_000016865.1_ASM1686v1_genomic.gbff.gz,1547,2914,116,Pseudomonas putida F1,Pseudomonas putida
+581,GCF_001697585.1,1551,2898,114,4,4,4,GCF_001697585.1_ASM169758v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+582,GCF_000829135.1,1510,2889,118,2,2,2,GCF_000829135.1_ASM82913v1_genomic.gbff.gz,1448,2869,118,Helicobacter pylori 26695-1CH,Helicobacter pylori
+583,GCF_002234755.1,1554,3113,116,7,7,8,GCF_002234755.1_ASM223475v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Derby,Salmonella enterica
+584,GCF_001433495.1,1510,2888,122,2,2,3,GCF_001433495.1_ASM143349v1_genomic.gbff.gz,1510,2887,118,Helicobacter pylori,Helicobacter pylori
+585,GCF_003008615.1,1538,2916,116,4,4,4,GCF_003008615.1_ASM300861v1_genomic.gbff.gz,1538,2916,116,Pseudomonas mendocina,Pseudomonas mendocina
+586,GCF_001661085.1,1551,2898,114,4,4,4,GCF_001661085.1_ASM166108v1_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+587,GCF_000148605.1,1556,2931,116,7,7,8,GCF_000148605.1_ASM14860v1_genomic.gbff.gz,1554,2556,116,Escherichia coli UM146,Escherichia coli
+588,GCF_000185225.1,1510,2886,118,2,2,2,GCF_000185225.1_ASM18522v1_genomic.gbff.gz,1510,2886,118,Helicobacter pylori Lithuania75,Helicobacter pylori
+589,GCF_002952455.1,1509,2889,118,2,2,2,GCF_002952455.1_ASM295245v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+590,GCF_000191445.1,1551,2898,114,4,4,4,GCF_000191445.1_ASM19144v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis H44/76,Neisseria meningitidis
+591,GCF_000185245.1,1509,2889,118,2,2,2,GCF_000185245.1_ASM18524v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori SouthAfrica7,Helicobacter pylori
+592,GCF_002355315.1,1549,2916,116,6,6,7,GCF_002355315.1_ASM235531v1_genomic.gbff.gz,1548,2916,116,Pseudomonas frederiksbergensis,Pseudomonas frederiksbergensis
+593,GCF_000013945.1,1517,3632,117,2,2,1,GCF_000013945.1_ASM1394v1_genomic.gbff.gz,1515,3632,117,Leptospira borgpetersenii serovar Hardjo-bovis str. L550,Leptospira borgpetersenii
+594,GCF_001697865.1,1551,2898,114,4,4,4,GCF_001697865.1_ASM169786v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+595,GCF_001653375.1,1510,2890,118,1,1,1,GCF_001653375.1_ASM165337v1_genomic.gbff.gz,1510,2890,118,Helicobacter pylori,Helicobacter pylori
+596,GCF_000306675.2,1514,2968,117,2,2,1,GCF_000306675.2_ASM30667v3_genomic.gbff.gz,1514,2968,117,Leptospira mayottensis 200901116,Leptospira mayottensis
+597,GCF_000828695.1,1550,2916,116,5,5,6,GCF_000828695.1_ASM82869v1_genomic.gbff.gz,1549,2916,116,Pseudomonas protegens Cab57,Pseudomonas protegens
+598,GCF_003073555.1,1554,3109,116,7,7,8,GCF_003073555.1_ASM307355v1_genomic.gbff.gz,1552,2924,116,Salmonella enterica,Salmonella enterica
+599,GCF_000014625.1,1544,2912,116,4,4,4,GCF_000014625.1_ASM1462v1_genomic.gbff.gz,1544,2905,116,Pseudomonas aeruginosa UCBPP-PA14,Pseudomonas aeruginosa
+600,GCF_000019445.1,1547,2916,116,7,7,8,GCF_000019445.1_ASM1944v1_genomic.gbff.gz,1547,2916,116,Pseudomonas putida W619,Pseudomonas putida
+601,GCF_001038645.1,1548,2913,116,4,4,4,GCF_001038645.1_ASM103864v1_genomic.gbff.gz,1546,2909,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+602,GCF_002006545.1,1550,2917,116,5,5,6,GCF_002006545.1_ASM200654v1_genomic.gbff.gz,1544,2911,115,Pseudomonas protegens,Pseudomonas protegens
+603,GCF_001516325.2,1544,2912,116,4,4,4,GCF_001516325.2_ASM151632v2_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+604,GCF_001558995.2,1556,2938,116,7,7,8,GCF_001558995.2_ASM155899v2_genomic.gbff.gz,1554,2930,116,Escherichia coli O157:H7,Escherichia coli
+605,GCF_000185205.1,1509,2891,118,2,2,2,GCF_000185205.1_ASM18520v1_genomic.gbff.gz,1509,2891,118,Helicobacter pylori Gambia94/24,Helicobacter pylori
+606,GCF_003018275.1,1554,2931,116,7,7,8,GCF_003018275.1_ASM301827v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+607,GCF_001698025.1,1551,2898,114,4,4,4,GCF_001698025.1_ASM169802v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+608,GCF_900120335.1,1509,2890,118,2,2,2,GCF_900120335.1_HE147_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+609,GCF_003355415.1,1548,2898,114,4,4,4,GCF_003355415.1_ASM335541v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+610,GCF_001651965.2,1556,2932,116,7,7,8,GCF_001651965.2_ASM165196v2_genomic.gbff.gz,1554,2932,116,Escherichia coli O157:H7,Escherichia coli
+611,GCF_003018095.1,1554,2932,116,7,7,8,GCF_003018095.1_ASM301809v1_genomic.gbff.gz,1554,2926,116,Escherichia coli,Escherichia coli
+612,GCF_002205375.1,1544,2912,116,4,4,4,GCF_002205375.1_ASM220537v1_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+613,GCF_001890265.1,1556,2938,116,7,7,8,GCF_001890265.1_ASM189026v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+614,GCF_000213135.1,1511,2890,118,2,2,2,GCF_000213135.1_ASM21313v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori 83,Helicobacter pylori
+615,GCF_002201835.1,1556,2933,116,7,7,8,GCF_002201835.1_ASM220183v1_genomic.gbff.gz,1554,2926,116,Escherichia coli,Escherichia coli
+616,GCF_900186915.1,1551,2898,114,4,4,4,GCF_900186915.1_49699_A01_genomic.gbff.gz,1551,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+617,GCF_900235825.1,1540,2918,116,5,5,6,GCF_900235825.1_CFBP4215_genomic.gbff.gz,1540,2918,116,Pseudomonas syringae pv. syringae,Pseudomonas syringae
+618,GCF_000023365.1,1556,2933,116,7,7,8,GCF_000023365.1_ASM2336v1_genomic.gbff.gz,1556,2925,116,Escherichia coli DH1,Escherichia coli
+619,GCF_000196295.1,1551,2898,114,4,4,4,GCF_000196295.1_ASM19629v1_genomic.gbff.gz,1551,2898,114,Neisseria lactamica 020-06,Neisseria lactamica
+620,GCF_001697845.1,1551,2898,114,4,4,4,GCF_001697845.1_ASM169784v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+621,GCF_003851345.1,1538,2916,116,5,5,6,GCF_003851345.1_ASM385134v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+622,GCF_001682305.2,1554,2933,116,7,7,8,GCF_001682305.2_ASM168230v2_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+623,GCF_001516245.2,1544,2912,116,4,4,4,GCF_001516245.2_ASM151624v2_genomic.gbff.gz,1544,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+624,GCF_000019125.1,1547,2917,116,7,7,8,GCF_000019125.1_ASM1912v1_genomic.gbff.gz,1547,2917,116,Pseudomonas putida GB-1,Pseudomonas putida
+625,GCF_002906515.1,1509,2888,118,2,2,2,GCF_002906515.1_ASM290651v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori,Helicobacter pylori
+626,GCF_000012445.1,1547,2915,116,6,6,7,GCF_000012445.1_ASM1244v1_genomic.gbff.gz,1547,2912,116,Pseudomonas fluorescens Pf0-1,Pseudomonas fluorescens
+627,GCF_001653415.1,1510,2889,118,1,1,1,GCF_001653415.1_ASM165341v1_genomic.gbff.gz,1510,2889,118,Helicobacter pylori,Helicobacter pylori
+628,GCF_900636635.1,1537,2912,116,4,4,4,GCF_900636635.1_43721_H02_genomic.gbff.gz,1537,2912,116,Pseudomonas fluorescens,Pseudomonas fluorescens
+629,GCF_000018705.1,1556,2929,116,7,7,8,GCF_000018705.1_ASM1870v1_genomic.gbff.gz,1554,2928,116,Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7,Salmonella enterica
+630,GCF_002906535.1,1509,2888,118,2,2,2,GCF_002906535.1_ASM290653v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori,Helicobacter pylori
+631,GCF_000508765.1,1546,2912,116,4,4,4,GCF_000508765.1_ASM50876v1_genomic.gbff.gz,1532,2883,116,Pseudomonas aeruginosa LES431,Pseudomonas aeruginosa
+632,GCF_000495455.2,1547,2917,116,6,6,6,GCF_000495455.2_ASM49545v2_genomic.gbff.gz,1547,2917,116,Pseudomonas putida S12,Pseudomonas putida
+633,GCF_900636055.1,1554,2933,116,7,7,8,GCF_900636055.1_38656_H02_genomic.gbff.gz,1554,2926,116,Escherichia coli,Escherichia coli
+634,GCF_002075815.1,1551,2898,114,4,4,4,GCF_002075815.1_ASM207581v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+635,GCF_003018935.1,1554,2930,116,7,7,8,GCF_003018935.1_ASM301893v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+636,GCF_900478295.1,1509,2888,118,2,2,2,GCF_900478295.1_35377_D02_genomic.gbff.gz,1509,2888,118,Helicobacter pylori NCTC 11637 = CCUG 17874 = ATCC 43504,Helicobacter pylori
+637,GCF_000152165.1,1551,2898,114,4,4,4,GCF_000152165.1_ASM15216v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis alpha710,Neisseria meningitidis
+638,GCF_001594325.2,1544,2912,116,4,4,4,GCF_001594325.2_ASM159432v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+639,GCF_003516145.1,1514,2966,117,2,2,1,GCF_003516145.1_ASM351614v1_genomic.gbff.gz,1514,2966,117,Leptospira borgpetersenii serovar Ceylonica,Leptospira borgpetersenii
+640,GCF_000430165.1,1554,3114,116,8,8,8,GCF_000430165.1_ASM43016v1_genomic.gbff.gz,1552,2162,116,"Salmonella enterica subsp. enterica serovar 4,[5],12:i:- str. 08-1736",Salmonella enterica
+641,GCF_003429185.1,1537,2912,116,4,4,4,GCF_003429185.1_ASM342918v1_genomic.gbff.gz,1536,2910,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+642,GCF_003855435.1,1548,2898,114,4,4,4,GCF_003855435.1_ASM385543v1_genomic.gbff.gz,1548,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+643,GCF_900635725.1,1554,3125,116,7,7,8,GCF_900635725.1_32752_C01_genomic.gbff.gz,1552,3028,116,Salmonella enterica subsp. houtenae,Salmonella enterica
+644,GCF_003717475.1,1554,3027,116,7,7,8,GCF_003717475.1_ASM371747v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+645,GCF_900069025.1,1544,2912,116,4,4,4,GCF_900069025.1_ASM90006902v1_genomic.gbff.gz,1285,2512,116,Pseudomonas aeruginosa DK1,Pseudomonas aeruginosa
+646,GCF_002024285.1,1548,2917,116,5,5,6,GCF_002024285.1_ASM202428v1_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae pv. actinidiae,Pseudomonas syringae
+647,GCF_000013785.1,1549,2915,116,4,4,4,GCF_000013785.1_ASM1378v1_genomic.gbff.gz,1546,2915,116,Pseudomonas stutzeri A1501,Pseudomonas stutzeri
+648,GCF_001975445.1,1556,3117,116,7,7,8,GCF_001975445.1_ASM197544v1_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Krefeld str. SA20030536,Salmonella enterica
+649,GCF_001540845.1,1556,3113,116,7,7,8,GCF_001540845.1_SO4698_09_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Typhimurium,Salmonella enterica
+650,GCF_001913235.1,1548,2917,116,5,5,6,GCF_001913235.1_ASM191323v1_genomic.gbff.gz,1548,2917,116,Pseudomonas syringae pv. actinidiae,Pseudomonas syringae
+651,GCF_000439255.1,1554,3035,116,7,7,8,GCF_000439255.1_ASM43925v1_genomic.gbff.gz,1554,2924,116,Salmonella bongori N268-08,Salmonella bongori
+652,GCF_001886975.1,1547,2917,116,7,7,8,GCF_001886975.1_ASM188697v1_genomic.gbff.gz,1547,2917,116,Pseudomonas putida,Pseudomonas putida
+653,GCF_003351565.1,1545,2898,114,4,4,4,GCF_003351565.1_ASM335156v1_genomic.gbff.gz,1545,2898,114,Neisseria lactamica,Neisseria lactamica
+654,GCF_000013245.1,1509,2890,118,2,2,2,GCF_000013245.1_ASM1324v1_genomic.gbff.gz,1509,2890,118,Helicobacter pylori HPAG1,Helicobacter pylori
+655,GCF_000623295.1,1556,3073,116,7,7,8,GCF_000623295.1_ASM62329v1_genomic.gbff.gz,1553,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110360,Salmonella enterica
+656,GCF_000219605.1,1549,2915,116,4,4,4,GCF_000219605.1_ASM21960v1_genomic.gbff.gz,1549,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+657,GCF_000006845.1,1545,2911,117,4,4,4,GCF_000006845.1_ASM684v1_genomic.gbff.gz,1545,2903,117,Neisseria gonorrhoeae FA 1090,Neisseria gonorrhoeae
+658,GCF_000800415.1,1551,2898,114,4,4,4,GCF_000800415.1_ASM80041v1_genomic.gbff.gz,1551,2897,114,Neisseria meningitidis,Neisseria meningitidis
+659,GCF_001956735.1,1556,3109,116,7,7,8,GCF_001956735.1_ASM195673v1_genomic.gbff.gz,1554,2924,116,Salmonella enterica subsp. enterica serovar Antsalova str. S01-0511,Salmonella enterica
+660,GCF_900636975.1,1537,2912,116,4,4,4,GCF_900636975.1_45813_F01_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+661,GCF_001606045.1,1544,2912,116,4,4,4,GCF_001606045.1_ASM160604v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+662,GCF_002906495.1,1509,2888,118,2,2,2,GCF_002906495.1_ASM290649v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori,Helicobacter pylori
+663,GCF_003204335.1,1537,2912,116,4,4,4,GCF_003204335.1_ASM320433v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+664,GCF_002903125.1,1554,2933,116,7,7,8,GCF_002903125.1_ASM290312v1_genomic.gbff.gz,1554,2930,116,Escherichia coli,Escherichia coli
+665,GCF_001047635.1,1514,2967,117,2,2,1,GCF_001047635.1_ASM104763v1_genomic.gbff.gz,1513,2967,117,Leptospira interrogans serovar Manilae,Leptospira interrogans
+666,GCF_003640585.1,1520,2892,118,2,2,2,GCF_003640585.1_ASM364058v1_genomic.gbff.gz,1510,2884,118,Helicobacter pylori,Helicobacter pylori
+667,GCF_000348885.1,1511,2890,118,2,2,2,GCF_000348885.1_ASM34888v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori OK310,Helicobacter pylori
+668,GCF_001721765.1,1544,2912,116,4,4,4,GCF_001721765.1_ASM172176v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+669,GCF_000012245.1,1538,2903,115,5,5,6,GCF_000012245.1_ASM1224v1_genomic.gbff.gz,1538,2903,115,Pseudomonas syringae pv. syringae B728a,Pseudomonas syringae
+670,GCF_003047185.1,1540,2918,116,5,5,6,GCF_003047185.1_ASM304718v1_genomic.gbff.gz,1540,2917,116,Pseudomonas syringae pv. atrofaciens,Pseudomonas syringae
+671,GCF_000148855.1,1510,2891,118,2,2,2,GCF_000148855.1_ASM14885v1_genomic.gbff.gz,1510,2889,118,Helicobacter pylori SJM180,Helicobacter pylori
+672,GCF_000272735.4,1556,3015,116,7,7,8,GCF_000272735.4_ASM27273v4_genomic.gbff.gz,1554,2926,116,Salmonella enterica subsp. enterica serovar Newport str. CVM 22513,Salmonella enterica
+673,GCF_001045685.1,1544,2912,116,4,4,4,GCF_001045685.1_ASM104568v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa DSM 50071 = NBRC 12689,Pseudomonas aeruginosa
+674,GCF_000219705.1,1549,2918,116,6,6,7,GCF_000219705.1_ASM21970v1_genomic.gbff.gz,1547,2917,116,Pseudomonas putida S16,Pseudomonas putida
+675,GCF_003073575.1,1554,3028,116,7,7,8,GCF_003073575.1_ASM307357v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica subsp. enterica serovar Montevideo str. 531954,Salmonella enterica
+676,GCF_000590475.1,1546,2915,116,4,4,4,GCF_000590475.1_ASM59047v1_genomic.gbff.gz,1546,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+677,GCF_001753525.1,1556,2938,116,7,7,8,GCF_001753525.1_ASM175352v1_genomic.gbff.gz,1554,2930,116,Escherichia coli O157:H7,Escherichia coli
+678,GCF_000349975.1,1504,2888,116,2,2,2,GCF_000349975.1_ASM34997v1_genomic.gbff.gz,1504,2888,116,Helicobacter cinaedi CCUG 18818 = ATCC BAA-847,Helicobacter cinaedi
+679,GCF_003355255.1,1548,2898,114,4,4,4,GCF_003355255.1_ASM335525v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+680,GCF_900638035.1,1538,2915,116,4,4,4,GCF_900638035.1_55147_C01_genomic.gbff.gz,1538,2915,116,Pseudomonas stutzeri,Pseudomonas stutzeri
+681,GCF_001010765.1,1514,2967,117,2,2,1,GCF_001010765.1_ASM101076v1_genomic.gbff.gz,1514,2967,117,Leptospira interrogans serovar Bratislava,Leptospira interrogans
+682,GCF_000262325.2,1547,2916,116,6,6,7,GCF_000262325.2_ASM26232v2_genomic.gbff.gz,1547,2916,116,Pseudomonas fluorescens A506,Pseudomonas fluorescens
+683,GCF_000826985.1,1510,2889,118,2,2,2,GCF_000826985.1_ASM82698v1_genomic.gbff.gz,1445,2869,118,Helicobacter pylori 26695-1,Helicobacter pylori
+684,GCF_003851645.1,1538,2916,116,6,6,7,GCF_003851645.1_ASM385164v1_genomic.gbff.gz,1538,2916,116,Pseudomonas orientalis,Pseudomonas orientalis
+685,GCF_001767335.1,1547,2920,116,6,6,7,GCF_001767335.1_ASM176733v1_genomic.gbff.gz,1546,2917,115,Pseudomonas putida JB,Pseudomonas putida
+686,GCF_900618255.1,1537,2912,116,4,4,4,GCF_900618255.1_paerg002_genomic.gbff.gz,1535,2905,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+687,GCF_000184185.1,1556,2931,116,7,7,8,GCF_000184185.1_ASM18418v1_genomic.gbff.gz,1556,2929,116,Escherichia coli W,Escherichia coli
+688,GCF_003319235.1,1537,2912,116,4,4,4,GCF_003319235.1_ASM331923v1_genomic.gbff.gz,1537,2911,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+689,GCF_001433515.1,1510,2886,118,2,2,2,GCF_001433515.1_ASM143351v1_genomic.gbff.gz,1510,2884,118,Helicobacter pylori,Helicobacter pylori
+690,GCF_002009315.1,1554,2933,116,7,7,8,GCF_002009315.1_ASM200931v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+691,GCF_003111785.1,1554,2933,116,7,7,8,GCF_003111785.1_ASM311178v1_genomic.gbff.gz,1552,2927,116,Escherichia coli,Escherichia coli
+692,GCF_000194805.1,1546,2916,116,5,5,6,GCF_000194805.1_ASM19480v1_genomic.gbff.gz,1546,2916,116,Pseudomonas brassicacearum subsp. brassicacearum NFM421,Pseudomonas brassicacearum
+693,GCF_000585995.1,1546,2916,116,5,5,6,GCF_000585995.1_ASM58599v1_genomic.gbff.gz,1546,2916,116,Pseudomonas brassicacearum,Pseudomonas brassicacearum
+694,GCF_001697345.1,1551,2898,114,4,4,4,GCF_001697345.1_ASM169734v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+695,GCF_002853655.1,1554,2933,116,7,7,8,GCF_002853655.1_ASM285365v1_genomic.gbff.gz,1552,2923,116,Escherichia coli,Escherichia coli
+696,GCF_001936315.1,1554,2932,116,7,7,8,GCF_001936315.1_ASM193631v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+697,GCF_003966775.1,1554,2925,116,7,7,8,GCF_003966775.1_ASM396677v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+698,GCF_900149285.1,1544,2912,116,4,4,4,GCF_900149285.1_PcyII-10_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+699,GCF_000010485.1,1556,2925,116,7,7,8,GCF_000010485.1_ASM1048v1_genomic.gbff.gz,1556,2925,116,Escherichia coli SE15,Escherichia coli
+700,GCF_003355315.1,1548,2898,114,4,4,4,GCF_003355315.1_ASM335531v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+701,GCF_001620155.1,1558,3109,116,8,7,8,GCF_001620155.1_ASM162015v1_genomic.gbff.gz,1540,2927,116,Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1783,Salmonella enterica
+702,GCF_003798105.1,1537,2912,116,4,4,4,GCF_003798105.1_ASM379810v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+703,GCF_900120225.1,1509,2890,118,2,2,2,GCF_900120225.1_HE136_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+704,GCF_900638475.1,1509,2890,118,2,2,2,GCF_900638475.1_57685_G01_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+705,GCF_900095805.1,1544,2912,116,4,4,4,GCF_900095805.1_PA14Or_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+706,GCF_002952615.1,1509,2889,118,2,2,2,GCF_002952615.1_ASM295261v1_genomic.gbff.gz,1509,2889,118,Helicobacter pylori,Helicobacter pylori
+707,GCF_000271985.2,1544,2912,116,4,4,4,GCF_000271985.2_ASM27198v2_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa SJTD-1,Pseudomonas aeruginosa
+708,GCF_001280385.1,1556,2930,116,7,7,8,GCF_001280385.1_ASM128038v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+709,GCF_003008635.1,1538,2916,116,5,5,6,GCF_003008635.1_ASM300863v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+710,GCF_000191425.1,1551,2898,114,4,4,4,GCF_000191425.1_ASM19142v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis G2136,Neisseria meningitidis
+711,GCF_001697805.1,1551,2898,114,4,4,4,GCF_001697805.1_ASM169780v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+712,GCF_003812905.1,1537,2912,116,4,4,4,GCF_003812905.1_ASM381290v1_genomic.gbff.gz,1537,2910,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+713,GCF_900120255.1,1509,2890,118,2,2,2,GCF_900120255.1_HE101_09_genomic.gbff.gz,1509,2890,118,Helicobacter pylori,Helicobacter pylori
+714,GCF_003716785.1,1516,3632,117,2,2,1,GCF_003716785.1_ASM371678v1_genomic.gbff.gz,1514,3632,117,Leptospira borgpetersenii serovar Hardjo-bovis,Leptospira borgpetersenii
+715,GCF_001697745.1,1551,2898,114,4,4,4,GCF_001697745.1_ASM169774v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+716,GCF_000486445.2,1556,3131,116,7,7,8,GCF_000486445.2_ASM48644v2_genomic.gbff.gz,1554,2929,116,Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791,Salmonella enterica
+717,GCF_002222575.1,1510,2891,118,2,2,2,GCF_002222575.1_ASM222257v1_genomic.gbff.gz,1510,2891,118,Helicobacter pylori,Helicobacter pylori
+718,GCF_003851385.1,1538,2916,116,5,5,6,GCF_003851385.1_ASM385138v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. aureofaciens,Pseudomonas chlororaphis
+719,GCF_000277425.1,1511,2888,118,2,2,2,GCF_000277425.1_ASM27742v1_genomic.gbff.gz,1509,2888,118,Helicobacter pylori PeCan18,Helicobacter pylori
+720,GCF_001975325.1,1556,3118,116,7,7,8,GCF_001975325.1_ASM197532v1_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Bergen str. ST350,Salmonella enterica
+721,GCF_003851785.1,1538,2916,116,5,5,6,GCF_003851785.1_ASM385178v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+722,GCF_003355335.1,1549,2898,114,4,4,4,GCF_003355335.1_ASM335533v1_genomic.gbff.gz,1548,2898,114,Neisseria meningitidis,Neisseria meningitidis
+723,GCF_003408495.1,1537,2912,116,4,4,4,GCF_003408495.1_ASM340849v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+724,GCF_002763415.1,1554,3066,116,7,7,8,GCF_002763415.1_ASM276341v1_genomic.gbff.gz,1552,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+725,GCF_001697645.1,1551,2898,114,4,4,4,GCF_001697645.1_ASM169764v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+726,GCF_001305235.1,1556,3066,116,7,7,8,GCF_001305235.1_ASM130523v1_genomic.gbff.gz,1554,2925,116,Salmonella enterica subsp. enterica serovar Enteritidis,Salmonella enterica
+727,GCF_003850525.1,1538,2916,116,5,5,6,GCF_003850525.1_ASM385052v1_genomic.gbff.gz,1538,2916,116,Pseudomonas chlororaphis subsp. piscium,Pseudomonas chlororaphis
+728,GCF_000224575.1,1510,2891,118,2,2,2,GCF_000224575.1_ASM22457v1_genomic.gbff.gz,1510,2891,118,Helicobacter pylori SNT49,Helicobacter pylori
+729,GCF_003571445.1,1548,2898,114,4,4,4,GCF_003571445.1_ASM357144v1_genomic.gbff.gz,1548,2898,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+730,GCF_003718595.1,1554,3027,116,7,7,8,GCF_003718595.1_ASM371859v1_genomic.gbff.gz,1554,3027,116,Salmonella enterica subsp. enterica serovar Typhi,Salmonella enterica
+731,GCF_003204155.1,1554,2931,116,7,7,8,GCF_003204155.1_ASM320415v1_genomic.gbff.gz,1554,2925,116,Escherichia coli,Escherichia coli
+732,GCF_002073615.2,1548,2898,114,4,4,4,GCF_002073615.2_ASM207361v2_genomic.gbff.gz,1548,2897,114,Neisseria gonorrhoeae,Neisseria gonorrhoeae
+733,GCF_001697925.1,1551,2898,114,4,4,4,GCF_001697925.1_ASM169792v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+734,GCF_002386325.1,1554,3112,116,7,7,8,GCF_002386325.1_ASM238632v1_genomic.gbff.gz,1553,2928,116,Salmonella enterica subsp. enterica serovar Saintpaul,Salmonella enterica
+735,GCF_000671295.1,1555,2933,116,7,7,8,GCF_000671295.1_ASM67129v1_genomic.gbff.gz,1554,2929,116,Escherichia coli O145:H28 str. RM12581,Escherichia coli
+736,GCF_003073615.1,1537,2912,116,4,4,4,GCF_003073615.1_ASM307361v1_genomic.gbff.gz,1537,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+737,GCF_003852045.1,1538,2916,116,6,6,7,GCF_003852045.1_ASM385204v1_genomic.gbff.gz,1538,2916,116,Pseudomonas orientalis,Pseudomonas orientalis
+738,GCF_000510325.1,1547,2916,116,6,6,7,GCF_000510325.1_ASM51032v1_genomic.gbff.gz,1547,2916,116,Pseudomonas monteilii SB3101,Pseudomonas monteilii
+739,GCF_002763655.1,1540,2917,116,5,5,6,GCF_002763655.1_ASM276365v1_genomic.gbff.gz,1536,2907,116,Pseudomonas syringae pv. actinidiae,Pseudomonas syringae
+740,GCF_002984035.1,1554,3168,116,7,7,8,GCF_002984035.1_ASM298403v1_genomic.gbff.gz,1552,2923,116,Salmonella enterica,Salmonella enterica
+741,GCF_001444465.1,1516,2966,117,2,2,1,GCF_001444465.1_ASM144446v1_genomic.gbff.gz,1514,2965,117,Leptospira borgpetersenii serovar Ballum,Leptospira borgpetersenii
+742,GCF_003410275.1,1554,2933,116,7,7,8,GCF_003410275.1_ASM341027v1_genomic.gbff.gz,1552,2925,116,Escherichia coli,Escherichia coli
+743,GCF_000253215.1,1556,2902,114,4,4,4,GCF_000253215.1_ASM25321v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis WUE 2594,Neisseria meningitidis
+744,GCF_003571665.1,1554,2925,116,7,7,8,GCF_003571665.1_ASM357166v1_genomic.gbff.gz,1554,2924,116,Escherichia coli,Escherichia coli
+745,GCF_002895205.1,1552,2930,116,7,7,8,GCF_002895205.1_ASM289520v1_genomic.gbff.gz,1552,2929,116,Escherichia albertii,Escherichia albertii
+746,GCF_001697705.1,1551,2898,114,4,4,4,GCF_001697705.1_ASM169770v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+747,GCF_000271965.2,1547,2917,116,6,6,7,GCF_000271965.2_ASM27196v2_genomic.gbff.gz,1547,2914,116,Pseudomonas putida SJTE-1,Pseudomonas putida
+748,GCF_000008525.1,1501,2976,135,2,2,3,GCF_000008525.1_ASM852v1_genomic.gbff.gz,1498,2975,118,Helicobacter pylori 26695,Helicobacter pylori
+749,GCF_000940895.2,1558,3117,116,7,7,8,GCF_000940895.2_ASM94089v2_genomic.gbff.gz,1554,2927,116,Salmonella enterica subsp. enterica serovar Anatum str. CDC 06-0532,Salmonella enterica
+750,GCF_000761195.1,1547,2916,116,5,5,6,GCF_000761195.1_ASM76119v1_genomic.gbff.gz,1547,2915,116,Pseudomonas chlororaphis subsp. aurantiaca,Pseudomonas chlororaphis
+751,GCF_001697565.1,1551,2898,114,4,4,4,GCF_001697565.1_ASM169756v1_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+752,GCF_000277405.1,1511,2890,118,2,2,2,GCF_000277405.1_ASM27740v1_genomic.gbff.gz,1511,2890,118,Helicobacter pylori Shi112,Helicobacter pylori
+753,GCF_000195105.1,1549,2915,116,4,4,4,GCF_000195105.1_ASM19510v1_genomic.gbff.gz,1549,2915,116,Pseudomonas stutzeri DSM 4166,Pseudomonas stutzeri
+754,GCF_001721805.1,1544,2912,116,4,4,4,GCF_001721805.1_ASM172180v1_genomic.gbff.gz,1544,2912,116,Pseudomonas aeruginosa,Pseudomonas aeruginosa
+755,GCF_000698865.1,1547,2916,116,5,5,6,GCF_000698865.1_ASM69886v1_genomic.gbff.gz,1540,2916,116,Pseudomonas chlororaphis,Pseudomonas chlororaphis
+756,GCF_000787195.2,1551,2898,114,4,4,4,GCF_000787195.2_ASM78719v2_genomic.gbff.gz,1551,2898,114,Neisseria meningitidis,Neisseria meningitidis
+757,GCF_000685705.1,1510,2888,118,2,2,2,GCF_000685705.1_ASM68570v1_genomic.gbff.gz,1510,2888,118,Helicobacter pylori,Helicobacter pylori

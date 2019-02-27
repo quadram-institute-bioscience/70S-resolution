@@ -1,0 +1,1344 @@
+IQ-TREE 1.6.1 built Feb 16 2018
+
+Input file name: ./016_results/23S5S_consensus.fasta
+Type of analysis: tree reconstruction
+Random seed number: 307267
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 758 sequences with 7424 nucleotide sites
+Number of constant sites: 5615 (= 75.6331% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 5615 (= 75.6331% of all sites)
+Number of parsimony informative sites: 1656
+Number of distinct site patterns: 1879
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 3.0168
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 3.0168
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2667
+  pi(C) = 0.2172
+  pi(G) = 0.3048
+  pi(T) = 0.2113
+
+Rate matrix Q:
+
+  A    -1.072    0.1727    0.7315     0.168
+  C    0.2122   -0.9616    0.2425     0.507
+  G    0.6401    0.1727   -0.9809     0.168
+  T    0.2122    0.5211    0.2425   -0.9758
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.206
+
+ Category  Relative_rate  Proportion
+  1         0.0006494      0.25
+  2         0.0373         0.25
+  3         0.3991         0.25
+  4         3.563          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -37839.2969 (s.e. 859.1738)
+Unconstrained log-likelihood (without tree): -35947.8545
+Number of free parameters (#branches + #model parameters): 1254
+Akaike information criterion (AIC) score: 78186.5939
+Corrected Akaike information criterion (AICc) score: 78696.8127
+Bayesian information criterion (BIC) score: 86854.8354
+
+Total tree length (sum of branch lengths): 9.7745
+Sum of internal branch lengths: 8.8008 (90.0387% of tree length)
+
+WARNING: 285 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Pseudomonas_putida_002736045' is drawn at root
+
++**Pseudomonas_putida_002736045
+|
+|                                                                                +**Salmonella_enterica_003589865
+|                                                                             +--|
+|                                                                             |  |  +**Salmonella_enterica_003595645
+|                                                                             |  +**|
+|                                                                             |     +**Salmonella_enterica_003589805
+|                                                                          +--|
+|                                                                          |  |     +**Salmonella_enterica_000272895
+|                                                                          |  |  +--|
+|                                                                          |  |  |  |           +--Salmonella_enterica_000330485
+|                                                                          |  |  |  |        +**|
+|                                                                          |  |  |  |        |  +**Salmonella_enterica_000973685
+|                                                                          |  |  |  |     +**|
+|                                                                          |  |  |  |     |  +**Salmonella_enterica_000272735
+|                                                                          |  |  |  |  +**|
+|                                                                          |  |  |  |  |  +**Salmonella_enterica_000272715
+|                                                                          |  |  |  +**|
+|                                                                          |  |  |     +**Salmonella_enterica_000272755
+|                                                                          |  +--|
+|                                                                          |     +**Salmonella_enterica_002984035
+|                                                                       +--|
+|                                                                       |  |                                                                       +**Salmonella_enterica_001705055
+|                                                                       |  |                                                                    +**|
+|                                                                       |  |                                                                    |  |     +**Salmonella_enterica_002761155
+|                                                                       |  |                                                                    |  |  +**|
+|                                                                       |  |                                                                    |  |  |  |     +**Salmonella_enterica_001975265
+|                                                                       |  |                                                                    |  |  |  |  +**|
+|                                                                       |  |                                                                    |  |  |  |  |  +**Salmonella_enterica_002763415
+|                                                                       |  |                                                                    |  |  |  +--|
+|                                                                       |  |                                                                    |  |  |     +**Salmonella_enterica_002761015
+|                                                                       |  |                                                                    |  +**|
+|                                                                       |  |                                                                    |     +**Salmonella_enterica_002313105
+|                                                                       |  |                                                                 +**|
+|                                                                       |  |                                                                 |  +**Salmonella_enterica_001305235
+|                                                                       |  |                                                              +**|
+|                                                                       |  |                                                              |  +**Salmonella_enterica_002760915
+|                                                                       |  |                                                           +**|
+|                                                                       |  |                                                           |  +**Salmonella_enterica_000750375
+|                                                                       |  |                                                        +**|
+|                                                                       |  |                                                        |  +**Salmonella_enterica_000009505
+|                                                                       |  |                                                     +**|
+|                                                                       |  |                                                     |  +**Salmonella_enterica_000623615
+|                                                                       |  |                                                  +**|
+|                                                                       |  |                                                  |  +**Salmonella_enterica_000626375
+|                                                                       |  |                                               +**|
+|                                                                       |  |                                               |  +**Salmonella_enterica_002761075
+|                                                                       |  |                                            +**|
+|                                                                       |  |                                            |  +**Salmonella_enterica_000624395
+|                                                                       |  |                                         +**|
+|                                                                       |  |                                         |  +**Salmonella_enterica_001973275
+|                                                                       |  |                                      +--|
+|                                                                       |  |                                      |  +**Salmonella_enterica_000623335
+|                                                                       |  |                                   +--|
+|                                                                       |  |                                   |  |  +--Salmonella_enterica_000623375
+|                                                                       |  |                                   |  +--|
+|                                                                       |  |                                   |     |  +**Salmonella_enterica_000623275
+|                                                                       |  |                                   |     +--|
+|                                                                       |  |                                   |        +**Salmonella_enterica_000623295
+|                                                                       |  |                                +--|
+|                                                                       |  |                                |  |     +**Salmonella_enterica_001890165
+|                                                                       |  |                                |  |  +--|
+|                                                                       |  |                                |  |  |  +**Salmonella_enterica_000271905
+|                                                                       |  |                                |  +--|
+|                                                                       |  |                                |     +--Salmonella_enterica_000486445
+|                                                                       |  |                             +--|
+|                                                                       |  |                             |  |        +**Salmonella_enterica_001975345
+|                                                                       |  |                             |  |     +**|
+|                                                                       |  |                             |  |     |  |  +--Salmonella_enterica_002119485
+|                                                                       |  |                             |  |     |  +--|
+|                                                                       |  |                             |  |     |     |     +--Salmonella_enterica_002762135
+|                                                                       |  |                             |  |     |     |  +**|
+|                                                                       |  |                             |  |     |     |  |  +**Salmonella_enterica_001975325
+|                                                                       |  |                             |  |     |     +**|
+|                                                                       |  |                             |  |     |        +**Salmonella_enterica_002234755
+|                                                                       |  |                             |  |  +**|
+|                                                                       |  |                             |  |  |  +**Salmonella_enterica_000020885
+|                                                                       |  |                             |  +--|
+|                                                                       |  |                             |     +**Salmonella_enterica_000940895
+|                                                                       |  |                          +--|
+|                                                                       |  |                          |  +--Salmonella_enterica_003324935
+|                                                                       |  |                       +**|
+|                                                                       |  |                       |  |              +--Salmonella_enterica_002224405
+|                                                                       |  |                       |  |           +--|
+|                                                                       |  |                       |  |           |  |           +**Salmonella_enterica_001577505
+|                                                                       |  |                       |  |           |  |        +**|
+|                                                                       |  |                       |  |           |  |        |  |  +**Salmonella_enterica_002210025
+|                                                                       |  |                       |  |           |  |        |  +**|
+|                                                                       |  |                       |  |           |  |        |     +**Salmonella_enterica_001540845
+|                                                                       |  |                       |  |           |  |     +**|
+|                                                                       |  |                       |  |           |  |     |  +**Salmonella_enterica_001623685
+|                                                                       |  |                       |  |           |  |  +--|
+|                                                                       |  |                       |  |           |  |  |  +**Salmonella_enterica_001953695
+|                                                                       |  |                       |  |           |  +**|
+|                                                                       |  |                       |  |           |     |           +**Salmonella_enterica_001623775
+|                                                                       |  |                       |  |           |     |        +**|
+|                                                                       |  |                       |  |           |     |        |  |        +**Salmonella_enterica_001729225
+|                                                                       |  |                       |  |           |     |        |  |     +**|
+|                                                                       |  |                       |  |           |     |        |  |     |  +**Salmonella_enterica_003031875
+|                                                                       |  |                       |  |           |     |        |  |  +**|
+|                                                                       |  |                       |  |           |     |        |  |  |  +**Salmonella_enterica_000430165
+|                                                                       |  |                       |  |           |     |        |  +**|
+|                                                                       |  |                       |  |           |     |        |     +**Salmonella_enterica_000027025
+|                                                                       |  |                       |  |           |     |     +**|
+|                                                                       |  |                       |  |           |     |     |  +**Salmonella_enterica_001441205
+|                                                                       |  |                       |  |           |     |  +--|
+|                                                                       |  |                       |  |           |     |  |  +**Salmonella_enterica_001690115
+|                                                                       |  |                       |  |           |     +--|
+|                                                                       |  |                       |  |           |        |  +--Salmonella_enterica_003710205
+|                                                                       |  |                       |  |           |        +--|
+|                                                                       |  |                       |  |           |           +--Salmonella_enterica_900635725
+|                                                                       |  |                       |  |        +--|
+|                                                                       |  |                       |  |        |  +--Salmonella_enterica_003325015
+|                                                                       |  |                       |  |     +--|
+|                                                                       |  |                       |  |     |  +--Salmonella_enterica_002386325
+|                                                                       |  |                       |  |  +**|
+|                                                                       |  |                       |  |  |  +**Salmonella_enterica_001956735
+|                                                                       |  |                       |  +--|
+|                                                                       |  |                       |     +**Salmonella_enterica_003030125
+|                                                                       |  |                    +**|
+|                                                                       |  |                    |  +**Salmonella_enterica_002234775
+|                                                                       |  |                 +**|
+|                                                                       |  |                 |  +**Salmonella_enterica_002946375
+|                                                                       |  |              +--|
+|                                                                       |  |              |  +**Salmonella_enterica_003073555
+|                                                                       |  |           +--|
+|                                                                       |  |           |  |  +--Salmonella_enterica_001629755
+|                                                                       |  |           |  +--|
+|                                                                       |  |           |     +--Salmonella_enterica_002211865
+|                                                                       |  |        +--|
+|                                                                       |  |        |  +**Salmonella_enterica_001975445
+|                                                                       |  |     +**|
+|                                                                       |  |     |  +**Salmonella_enterica_001620155
+|                                                                       |  |  +**|
+|                                                                       |  |  |  +**Salmonella_enterica_001620115
+|                                                                       |  +**|
+|                                                                       |     +**Salmonella_enterica_001623625
+|                                                                    +--|
+|                                                                    |  +--Salmonella_enterica_001975365
+|                                                                 +--|
+|                                                                 |  |     +**Salmonella_enterica_003071485
+|                                                                 |  |  +**|
+|                                                                 |  |  |  |              +**Salmonella_enterica_000245535
+|                                                                 |  |  |  |           +**|
+|                                                                 |  |  |  |           |  |        +**Salmonella_enterica_003717675
+|                                                                 |  |  |  |           |  |     +**|
+|                                                                 |  |  |  |           |  |     |  +**Salmonella_enterica_001121865
+|                                                                 |  |  |  |           |  |  +**|
+|                                                                 |  |  |  |           |  |  |  +**Salmonella_enterica_001095585
+|                                                                 |  |  |  |           |  +**|
+|                                                                 |  |  |  |           |     +**Salmonella_enterica_003717955
+|                                                                 |  |  |  |        +**|
+|                                                                 |  |  |  |        |  +**Salmonella_enterica_001361075
+|                                                                 |  |  |  |     +--|
+|                                                                 |  |  |  |     |  +**Salmonella_enterica_000007545
+|                                                                 |  |  |  |  +**|
+|                                                                 |  |  |  |  |  +--Salmonella_enterica_001975515
+|                                                                 |  |  |  +--|
+|                                                                 |  |  |     |  +**Salmonella_enterica_002208255
+|                                                                 |  |  |     +--|
+|                                                                 |  |  |        |     +--Salmonella_enterica_003429445
+|                                                                 |  |  |        |  +--|
+|                                                                 |  |  |        |  |  +**Salmonella_enterica_000018705
+|                                                                 |  |  |        +--|
+|                                                                 |  |  |           +--Salmonella_enterica_000973665
+|                                                                 |  +--|
+|                                                                 |     +**Salmonella_enterica_003073575
+|                                                              +--|
+|                                                              |  |  +--Salmonella_enterica_003324955
+|                                                              |  +--|
+|                                                              |     +--Salmonella_enterica_900477885
+|                                                           +--|
+|                                                           |  |  +**Salmonella_enterica_001447095
+|                                                           |  +--|
+|                                                           |     +--Salmonella_enterica_001447115
+|                                                        +--|
+|                                                        |  |        +**Salmonella_bongori_002211925
+|                                                        |  |     +**|
+|                                                        |  |     |  +**Salmonella_bongori_000252995
+|                                                        |  |  +**|
+|                                                        |  |  |  +**Salmonella_bongori_000709535
+|                                                        |  +--|
+|                                                        |     +**Salmonella_bongori_000439255
+|                                                     +--|
+|                                                     |  |                                                        +**Escherichia_coli_003180975
+|                                                     |  |                                                     +**|
+|                                                     |  |                                                     |  |              +**Escherichia_coli_003956305
+|                                                     |  |                                                     |  |           +**|
+|                                                     |  |                                                     |  |           |  +**Escherichia_coli_900636055
+|                                                     |  |                                                     |  |        +--|
+|                                                     |  |                                                     |  |        |  |  +**Escherichia_coli_000814145
+|                                                     |  |                                                     |  |        |  +**|
+|                                                     |  |                                                     |  |        |     +--Escherichia_coli_003111785
+|                                                     |  |                                                     |  |     +--|
+|                                                     |  |                                                     |  |     |  +**Escherichia_coli_002741215
+|                                                     |  |                                                     |  |  +**|
+|                                                     |  |                                                     |  |  |  +**Escherichia_coli_002953075
+|                                                     |  |                                                     |  +**|
+|                                                     |  |                                                     |     +**Escherichia_coli_002201835
+|                                                     |  |                                                  +**|
+|                                                     |  |                                                  |  +**Escherichia_coli_001682305
+|                                                     |  |                                               +**|
+|                                                     |  |                                               |  +--Escherichia_coli_001936315
+|                                                     |  |                                            +**|
+|                                                     |  |                                            |  +**Escherichia_coli_000023365
+|                                                     |  |                                         +--|
+|                                                     |  |                                         |  +**Escherichia_coli_002012185
+|                                                     |  |                                      +--|
+|                                                     |  |                                      |  |                          +--Escherichia_coli_002870165
+|                                                     |  |                                      |  |                       +**|
+|                                                     |  |                                      |  |                       |  +**Escherichia_coli_000833635
+|                                                     |  |                                      |  |                    +**|
+|                                                     |  |                                      |  |                    |  +**Escherichia_coli_003367885
+|                                                     |  |                                      |  |                 +**|
+|                                                     |  |                                      |  |                 |  +**Escherichia_coli_002952875
+|                                                     |  |                                      |  |              +**|
+|                                                     |  |                                      |  |              |  +**Escherichia_coli_001723505
+|                                                     |  |                                      |  |           +**|
+|                                                     |  |                                      |  |           |  +**Escherichia_coli_900635215
+|                                                     |  |                                      |  |        +**|
+|                                                     |  |                                      |  |        |  +**Escherichia_coli_002903125
+|                                                     |  |                                      |  |     +**|
+|                                                     |  |                                      |  |     |  +**Escherichia_coli_001020945
+|                                                     |  |                                      |  |  +**|
+|                                                     |  |                                      |  |  |  +**Escherichia_coli_002850675
+|                                                     |  |                                      |  +--|
+|                                                     |  |                                      |     +**Escherichia_coli_002786655
+|                                                     |  |                                   +--|
+|                                                     |  |                                   |  |     +**Escherichia_coli_002142695
+|                                                     |  |                                   |  |  +**|
+|                                                     |  |                                   |  |  |  |     +**Escherichia_coli_000520035
+|                                                     |  |                                   |  |  |  |  +--|
+|                                                     |  |                                   |  |  |  |  |  +**Escherichia_coli_000671295
+|                                                     |  |                                   |  |  |  +--|
+|                                                     |  |                                   |  |  |     +**Escherichia_coli_002853655
+|                                                     |  |                                   |  +--|
+|                                                     |  |                                   |     +--Escherichia_coli_900474495
+|                                                     |  |                                +**|
+|                                                     |  |                                |  |  +**Escherichia_coli_900174625
+|                                                     |  |                                |  +**|
+|                                                     |  |                                |     +**Escherichia_coli_003018275
+|                                                     |  |                             +**|
+|                                                     |  |                             |  +**Escherichia_coli_900636195
+|                                                     |  |                          +--|
+|                                                     |  |                          |  +**Escherichia_coli_003591595
+|                                                     |  |                       +**|
+|                                                     |  |                       |  +--Escherichia_coli_003018395
+|                                                     |  |                    +--|
+|                                                     |  |                    |  |     +**Escherichia_coli_003073955
+|                                                     |  |                    |  |  +**|
+|                                                     |  |                    |  |  |  +**Escherichia_coli_002165115
+|                                                     |  |                    |  +--|
+|                                                     |  |                    |     +--Escherichia_coli_001900415
+|                                                     |  |                 +**|
+|                                                     |  |                 |  +**Escherichia_coli_003019115
+|                                                     |  |              +--|
+|                                                     |  |              |  |  +--Escherichia_coli_001900885
+|                                                     |  |              |  +**|
+|                                                     |  |              |     |        +--Escherichia_coli_001900615
+|                                                     |  |              |     |     +**|
+|                                                     |  |              |     |     |  +--Escherichia_coli_003018535
+|                                                     |  |              |     |  +**|
+|                                                     |  |              |     |  |  +**Escherichia_coli_003112185
+|                                                     |  |              |     +--|
+|                                                     |  |              |        +**Escherichia_coli_002741455
+|                                                     |  |           +--|
+|                                                     |  |           |  |                          +--Escherichia_coli_002812545
+|                                                     |  |           |  |                       +--|
+|                                                     |  |           |  |                       |  +**Escherichia_coli_000219515
+|                                                     |  |           |  |                    +--|
+|                                                     |  |           |  |                    |  +**Escherichia_coli_003204155
+|                                                     |  |           |  |                 +--|
+|                                                     |  |           |  |                 |  +--Escherichia_coli_900635325
+|                                                     |  |           |  |              +--|
+|                                                     |  |           |  |              |  +**Escherichia_coli_000025165
+|                                                     |  |           |  |           +--|
+|                                                     |  |           |  |           |  |              +**Escherichia_coli_002249955
+|                                                     |  |           |  |           |  |           +**|
+|                                                     |  |           |  |           |  |           |  |     +**Escherichia_coli_001651965
+|                                                     |  |           |  |           |  |           |  |  +**|
+|                                                     |  |           |  |           |  |           |  |  |  +**Escherichia_coli_001753525
+|                                                     |  |           |  |           |  |           |  +**|
+|                                                     |  |           |  |           |  |           |     +**Escherichia_coli_001890265
+|                                                     |  |           |  |           |  |        +**|
+|                                                     |  |           |  |           |  |        |  +**Escherichia_coli_004010655
+|                                                     |  |           |  |           |  |     +**|
+|                                                     |  |           |  |           |  |     |  +**Escherichia_coli_001558995
+|                                                     |  |           |  |           |  |  +**|
+|                                                     |  |           |  |           |  |  |  +**Escherichia_coli_000022225
+|                                                     |  |           |  |           |  +--|
+|                                                     |  |           |  |           |     +**Escherichia_coli_002741555
+|                                                     |  |           |  |        +--|
+|                                                     |  |           |  |        |  +--Escherichia_coli_003722195
+|                                                     |  |           |  |     +--|
+|                                                     |  |           |  |     |  +--Escherichia_coli_001900675
+|                                                     |  |           |  |  +**|
+|                                                     |  |           |  |  |  +--Escherichia_coli_003017935
+|                                                     |  |           |  +--|
+|                                                     |  |           |     +**Escherichia_coli_001900905
+|                                                     |  |        +--|
+|                                                     |  |        |  +**Escherichia_coli_002211725
+|                                                     |  |     +--|
+|                                                     |  |     |  |        +**Escherichia_coli_000147855
+|                                                     |  |     |  |     +**|
+|                                                     |  |     |  |     |  |  +--Escherichia_coli_003017805
+|                                                     |  |     |  |     |  +--|
+|                                                     |  |     |  |     |     +**Escherichia_coli_002163935
+|                                                     |  |     |  |  +**|
+|                                                     |  |     |  |  |  +**Escherichia_coli_000184185
+|                                                     |  |     |  +**|
+|                                                     |  |     |     +**Escherichia_coli_002999075
+|                                                     |  |  +**|
+|                                                     |  |  |  |                                               +**Escherichia_coli_001566615
+|                                                     |  |  |  |                                            +**|
+|                                                     |  |  |  |                                            |  |  +--Escherichia_coli_000014845
+|                                                     |  |  |  |                                            |  +**|
+|                                                     |  |  |  |                                            |     +**Escherichia_coli_003966775
+|                                                     |  |  |  |                                         +**|
+|                                                     |  |  |  |                                         |  +**Escherichia_coli_003571665
+|                                                     |  |  |  |                                      +**|
+|                                                     |  |  |  |                                      |  +**Escherichia_coli_002056635
+|                                                     |  |  |  |                                   +**|
+|                                                     |  |  |  |                                   |  +**Escherichia_coli_002012265
+|                                                     |  |  |  |                                +**|
+|                                                     |  |  |  |                                |  +**Escherichia_coli_003856695
+|                                                     |  |  |  |                             +**|
+|                                                     |  |  |  |                             |  +**Escherichia_coli_002011965
+|                                                     |  |  |  |                          +**|
+|                                                     |  |  |  |                          |  +**Escherichia_coli_000010485
+|                                                     |  |  |  |                       +--|
+|                                                     |  |  |  |                       |  +**Escherichia_coli_001618325
+|                                                     |  |  |  |                    +--|
+|                                                     |  |  |  |                    |  |  +**Escherichia_coli_900636065
+|                                                     |  |  |  |                    |  +--|
+|                                                     |  |  |  |                    |     +**Escherichia_coli_002011985
+|                                                     |  |  |  |                 +--|
+|                                                     |  |  |  |                 |  +**Escherichia_coli_003410275
+|                                                     |  |  |  |              +**|
+|                                                     |  |  |  |              |  |        +**Escherichia_coli_001280405
+|                                                     |  |  |  |              |  |     +--|
+|                                                     |  |  |  |              |  |     |  |           +**Escherichia_coli_002953435
+|                                                     |  |  |  |              |  |     |  |        +**|
+|                                                     |  |  |  |              |  |     |  |        |  +**Escherichia_coli_002846135
+|                                                     |  |  |  |              |  |     |  |     +**|
+|                                                     |  |  |  |              |  |     |  |     |  +**Escherichia_coli_000148605
+|                                                     |  |  |  |              |  |     |  |  +**|
+|                                                     |  |  |  |              |  |     |  |  |  +**Escherichia_coli_001280325
+|                                                     |  |  |  |              |  |     |  +**|
+|                                                     |  |  |  |              |  |     |     +**Escherichia_coli_001280385
+|                                                     |  |  |  |              |  |  +--|
+|                                                     |  |  |  |              |  |  |  +--Escherichia_coli_001675145
+|                                                     |  |  |  |              |  +--|
+|                                                     |  |  |  |              |     |     +**Escherichia_coli_002357915
+|                                                     |  |  |  |              |     |  +**|
+|                                                     |  |  |  |              |     |  |  +--Escherichia_coli_003018095
+|                                                     |  |  |  |              |     +--|
+|                                                     |  |  |  |              |        +**Escherichia_coli_002009315
+|                                                     |  |  |  |           +--|
+|                                                     |  |  |  |           |  |  +**Escherichia_coli_000022665
+|                                                     |  |  |  |           |  +--|
+|                                                     |  |  |  |           |     +**Escherichia_coli_001559615
+|                                                     |  |  |  |        +--|
+|                                                     |  |  |  |        |  |  +**Escherichia_coli_002591135
+|                                                     |  |  |  |        |  +--|
+|                                                     |  |  |  |        |     |  +**Escherichia_coli_003856675
+|                                                     |  |  |  |        |     +--|
+|                                                     |  |  |  |        |        +**Escherichia_coli_002164595
+|                                                     |  |  |  |     +--|
+|                                                     |  |  |  |     |  +**Escherichia_coli_001677475
+|                                                     |  |  |  |  +**|
+|                                                     |  |  |  |  |  +**Escherichia_coli_003018935
+|                                                     |  |  |  +--|
+|                                                     |  |  |     +**Escherichia_coli_002105735
+|                                                     |  +--|
+|                                                     |     |        +**Escherichia_coli_000599645
+|                                                     |     |     +**|
+|                                                     |     |     |  +--Escherichia_coli_001901315
+|                                                     |     |  +--|
+|                                                     |     |  |  +**Escherichia_coli_000597845
+|                                                     |     +--|
+|                                                     |        +**Escherichia_coli_002741255
+|                                                  +--|
+|                                                  |  +--Escherichia_albertii_003312525
+|                                               +**|
+|                                               |  |  +--Escherichia_albertii_003312545
+|                                               |  +--|
+|                                               |     +--Escherichia_albertii_003312485
+|                                            +--|
+|                                            |  +**Escherichia_albertii_002872455
+|                                         +--|
+|                                         |  |     +--Escherichia_albertii_003860385
+|                                         |  |  +--|
+|                                         |  |  |  |  +**Escherichia_albertii_002285475
+|                                         |  |  |  +--|
+|                                         |  |  |     +--Escherichia_albertii_003860365
+|                                         |  +--|
+|                                         |     |  +--Escherichia_albertii_002285455
+|                                         |     +--|
+|                                         |        |  +--Escherichia_albertii_002741375
+|                                         |        +--|
+|                                         |           |  +--Escherichia_albertii_003864095
+|                                         |           +--|
+|                                         |              |  +--Escherichia_albertii_000512125
+|                                         |              +--|
+|                                         |                 +--Escherichia_albertii_002895205
+|                                      +--|
+|                                      |  +**Escherichia_albertii_001549955
+|                              +-------|
+|                              |       +**Escherichia_albertii_003316815
+|                          +---|
+|                          |   |                                                        +**Neisseria_meningitidis_001697305
+|                          |   |                                                     +**|
+|                          |   |                                                     |  +**Neisseria_meningitidis_001697805
+|                          |   |                                                  +**|
+|                          |   |                                                  |  |  +**Neisseria_meningitidis_001697785
+|                          |   |                                                  |  +**|
+|                          |   |                                                  |     +**Neisseria_meningitidis_001697825
+|                          |   |                                               +--|
+|                          |   |                                               |  +**Neisseria_meningitidis_000800235
+|                          |   |                                            +--|
+|                          |   |                                            |  |     +**Neisseria_meningitidis_001029815
+|                          |   |                                            |  |  +--|
+|                          |   |                                            |  |  |  +**Neisseria_meningitidis_000191425
+|                          |   |                                            |  +--|
+|                          |   |                                            |     |           +**Neisseria_meningitidis_001698085
+|                          |   |                                            |     |        +**|
+|                          |   |                                            |     |        |  +**Neisseria_meningitidis_001697505
+|                          |   |                                            |     |     +**|
+|                          |   |                                            |     |     |  +**Neisseria_meningitidis_001697345
+|                          |   |                                            |     |  +**|
+|                          |   |                                            |     |  |  +**Neisseria_meningitidis_001697625
+|                          |   |                                            |     +--|
+|                          |   |                                            |        +**Neisseria_meningitidis_001698025
+|                          |   |                                         +--|
+|                          |   |                                         |  |              +**Neisseria_meningitidis_001697525
+|                          |   |                                         |  |           +**|
+|                          |   |                                         |  |           |  |              +**Neisseria_meningitidis_001697485
+|                          |   |                                         |  |           |  |           +**|
+|                          |   |                                         |  |           |  |           |  |     +--Neisseria_meningitidis_000800275
+|                          |   |                                         |  |           |  |           |  |  +**|
+|                          |   |                                         |  |           |  |           |  |  |  +**Neisseria_meningitidis_002075815
+|                          |   |                                         |  |           |  |           |  +**|
+|                          |   |                                         |  |           |  |           |     +**Neisseria_meningitidis_000787195
+|                          |   |                                         |  |           |  |        +**|
+|                          |   |                                         |  |           |  |        |  +**Neisseria_meningitidis_000009465
+|                          |   |                                         |  |           |  |     +**|
+|                          |   |                                         |  |           |  |     |  +**Neisseria_meningitidis_002556585
+|                          |   |                                         |  |           |  |  +**|
+|                          |   |                                         |  |           |  |  |  |     +**Neisseria_meningitidis_001698065
+|                          |   |                                         |  |           |  |  |  |  +**|
+|                          |   |                                         |  |           |  |  |  |  |  |  +**Neisseria_meningitidis_001697385
+|                          |   |                                         |  |           |  |  |  |  |  +**|
+|                          |   |                                         |  |           |  |  |  |  |     +--Neisseria_meningitidis_003355235
+|                          |   |                                         |  |           |  |  |  +--|
+|                          |   |                                         |  |           |  |  |     +**Neisseria_meningitidis_001697725
+|                          |   |                                         |  |           |  +**|
+|                          |   |                                         |  |           |     +**Neisseria_meningitidis_000800315
+|                          |   |                                         |  |        +--|
+|                          |   |                                         |  |        |  +**Neisseria_meningitidis_001697545
+|                          |   |                                         |  |     +--|
+|                          |   |                                         |  |     |  +**Neisseria_meningitidis_002073675
+|                          |   |                                         |  |  +--|
+|                          |   |                                         |  |  |  |  +**Neisseria_meningitidis_900638595
+|                          |   |                                         |  |  |  +--|
+|                          |   |                                         |  |  |     +--Neisseria_meningitidis_003355295
+|                          |   |                                         |  +**|
+|                          |   |                                         |     |              +**Neisseria_meningitidis_000191505
+|                          |   |                                         |     |           +--|
+|                          |   |                                         |     |           |  +**Neisseria_meningitidis_003355435
+|                          |   |                                         |     |        +--|
+|                          |   |                                         |     |        |  |  +**Neisseria_meningitidis_000008805
+|                          |   |                                         |     |        |  +--|
+|                          |   |                                         |     |        |     |     +**Neisseria_meningitidis_002073595
+|                          |   |                                         |     |        |     |  +**|
+|                          |   |                                         |     |        |     |  |  +--Neisseria_meningitidis_000816165
+|                          |   |                                         |     |        |     +**|
+|                          |   |                                         |     |        |        +**Neisseria_meningitidis_000191445
+|                          |   |                                         |     |     +--|
+|                          |   |                                         |     |     |  +--Neisseria_meningitidis_000014105
+|                          |   |                                         |     |  +--|
+|                          |   |                                         |     |  |  +--Neisseria_meningitidis_003355315
+|                          |   |                                         |     +--|
+|                          |   |                                         |        |  +--Neisseria_meningitidis_000083565
+|                          |   |                                         |        +--|
+|                          |   |                                         |           +--Neisseria_meningitidis_003355395
+|                          |   |                                      +--|
+|                          |   |                                      |  +--Neisseria_meningitidis_003355375
+|                          |   |                                   +**|
+|                          |   |                                   |  |  +--Neisseria_meningitidis_001974965
+|                          |   |                                   |  +--|
+|                          |   |                                   |     |        +**Neisseria_meningitidis_000191525
+|                          |   |                                   |     |     +**|
+|                          |   |                                   |     |     |  +**Neisseria_meningitidis_001029835
+|                          |   |                                   |     |  +--|
+|                          |   |                                   |     |  |  +**Neisseria_meningitidis_001697105
+|                          |   |                                   |     +--|
+|                          |   |                                   |        +--Neisseria_meningitidis_000152165
+|                          |   |                                +--|
+|                          |   |                                |  +--Neisseria_meningitidis_000026965
+|                          |   |                             +**|
+|                          |   |                             |  +--Neisseria_meningitidis_003355215
+|                          |   |                          +--|
+|                          |   |                          |  |        +**Neisseria_meningitidis_000009105
+|                          |   |                          |  |     +--|
+|                          |   |                          |  |     |  +**Neisseria_meningitidis_900638575
+|                          |   |                          |  |  +--|
+|                          |   |                          |  |  |  |     +**Neisseria_meningitidis_001750825
+|                          |   |                          |  |  |  |  +--|
+|                          |   |                          |  |  |  |  |  +**Neisseria_meningitidis_000626595
+|                          |   |                          |  |  |  +--|
+|                          |   |                          |  |  |     +**Neisseria_meningitidis_000253215
+|                          |   |                          |  +--|
+|                          |   |                          |     +--Neisseria_meningitidis_001697125
+|                          |   |                       +**|
+|                          |   |                       |  |  +--Neisseria_meningitidis_002073235
+|                          |   |                       |  +--|
+|                          |   |                       |     |  +**Neisseria_meningitidis_002073275
+|                          |   |                       |     +**|
+|                          |   |                       |        +**Neisseria_meningitidis_002073555
+|                          |   |                    +--|
+|                          |   |                    |  +--Neisseria_meningitidis_000191485
+|                          |   |                 +--|
+|                          |   |                 |  |                          +--Neisseria_gonorrhoeae_001661115
+|                          |   |                 |  |                       +**|
+|                          |   |                 |  |                       |  +--Neisseria_gonorrhoeae_001047255
+|                          |   |                 |  |                    +**|
+|                          |   |                 |  |                    |  +**Neisseria_gonorrhoeae_002073655
+|                          |   |                 |  |                 +**|
+|                          |   |                 |  |                 |  |        +**Neisseria_gonorrhoeae_000020105
+|                          |   |                 |  |                 |  |     +**|
+|                          |   |                 |  |                 |  |     |  +--Neisseria_gonorrhoeae_900186875
+|                          |   |                 |  |                 |  |  +**|
+|                          |   |                 |  |                 |  |  |  +**Neisseria_gonorrhoeae_900186915
+|                          |   |                 |  |                 |  +--|
+|                          |   |                 |  |                 |     +**Neisseria_gonorrhoeae_003571465
+|                          |   |                 |  |              +--|
+|                          |   |                 |  |              |  +--Neisseria_gonorrhoeae_003855435
+|                          |   |                 |  |           +**|
+|                          |   |                 |  |           |  +--Neisseria_gonorrhoeae_900186935
+|                          |   |                 |  |        +--|
+|                          |   |                 |  |        |  +**Neisseria_gonorrhoeae_900637245
+|                          |   |                 |  |     +--|
+|                          |   |                 |  |     |  |        +**Neisseria_gonorrhoeae_001047225
+|                          |   |                 |  |     |  |     +**|
+|                          |   |                 |  |     |  |     |  +**Neisseria_gonorrhoeae_002073535
+|                          |   |                 |  |     |  |  +--|
+|                          |   |                 |  |     |  |  |  |  +--Neisseria_gonorrhoeae_001661135
+|                          |   |                 |  |     |  |  |  +**|
+|                          |   |                 |  |     |  |  |     +--Neisseria_gonorrhoeae_001661085
+|                          |   |                 |  |     |  +**|
+|                          |   |                 |  |     |     |  +**Neisseria_gonorrhoeae_001047275
+|                          |   |                 |  |     |     +**|
+|                          |   |                 |  |     |        +**Neisseria_gonorrhoeae_002073615
+|                          |   |                 |  |  +--|
+|                          |   |                 |  |  |  +--Neisseria_gonorrhoeae_000006845
+|                          |   |                 |  +--|
+|                          |   |                 |     |     +--Neisseria_lactamica_002022745
+|                          |   |                 |     |  +--|
+|                          |   |                 |     |  |  +--Neisseria_lactamica_003351565
+|                          |   |                 |     +--|
+|                          |   |                 |        +--Neisseria_lactamica_000196295
+|                          |   |              +--|
+|                          |   |              |  |  +**Neisseria_elongata_000818035
+|                          |   |              |  +--|
+|                          |   |              |     +**Neisseria_elongata_900475815
+|                          |   |           +--|
+|                          |   |           |  +--Neisseria_elongata_003351685
+|                          |   |   +-------|
+|                          |   |   |       +**Neisseria_elongata_003351545
+|                          |   +---|
+|                          |       |                                               +**Leptospira_mayottensis_003429525
+|                          |       |                                            +--|
+|                          |       |                                            |  +**Leptospira_mayottensis_000306675
+|                          |       |                                         +--|
+|                          |       |                                         |  +**Leptospira_mayottensis_003429505
+|                          |       |              +--------------------------|
+|                          |       |              |                          |              +**Leptospira_interrogans_000231175
+|                          |       |              |                          |           +**|
+|                          |       |              |                          |           |  +**Leptospira_interrogans_000092565
+|                          |       |              |                          |        +--|
+|                          |       |              |                          |        |  +**Leptospira_interrogans_001293065
+|                          |       |              |                          |     +--|
+|                          |       |              |                          |     |  |        +**Leptospira_interrogans_001047655
+|                          |       |              |                          |     |  |     +**|
+|                          |       |              |                          |     |  |     |  +**Leptospira_interrogans_002073495
+|                          |       |              |                          |     |  |  +--|
+|                          |       |              |                          |     |  |  |  +--Leptospira_interrogans_001010765
+|                          |       |              |                          |     |  +--|
+|                          |       |              |                          |     |     +**Leptospira_interrogans_000941035
+|                          |       |              |                          |  +--|
+|                          |       |              |                          |  |  |  +**Leptospira_borgpetersenii_003516145
+|                          |       |              |                          |  |  +--|
+|                          |       |              |                          |  |     +**Leptospira_borgpetersenii_001444465
+|                          |       |              |                          +--|
+|                          |       |              |                             |  +--Leptospira_borgpetersenii_000013965
+|                          |       |              |                             +--|
+|                          |       |              |                                |  +**Leptospira_borgpetersenii_003254845
+|                          |       |              |                                +**|
+|                          |       |              |                                   +**Leptospira_borgpetersenii_000013945
+|                          |       +--------------|
+|                          |                      |                                                       +--Helicobacter_pylori_000148895
+|                          |                      |                                                    +**|
+|                          |                      |                                                    |  |        +--Helicobacter_pylori_000277365
+|                          |                      |                                                    |  |     +**|
+|                          |                      |                                                    |  |     |  +--Helicobacter_pylori_000148915
+|                          |                      |                                                    |  |  +--|
+|                          |                      |                                                    |  |  |  +--Helicobacter_pylori_000277385
+|                          |                      |                                                    |  +--|
+|                          |                      |                                                    |     +--Helicobacter_pylori_000020245
+|                          |                      |                                                 +--|
+|                          |                      |                                                 |  +--Helicobacter_pylori_000277405
+|                          |                      |                                              +--|
+|                          |                      |                                              |  |                    +--Helicobacter_pylori_000178935
+|                          |                      |                                              |  |                 +--|
+|                          |                      |                                              |  |                 |  +--Helicobacter_pylori_000270025
+|                          |                      |                                              |  |              +--|
+|                          |                      |                                              |  |              |  |     +--Helicobacter_pylori_003957395
+|                          |                      |                                              |  |              |  |  +**|
+|                          |                      |                                              |  |              |  |  |  +--Helicobacter_pylori_001653395
+|                          |                      |                                              |  |              |  +--|
+|                          |                      |                                              |  |              |     +--Helicobacter_pylori_000270005
+|                          |                      |                                              |  |           +--|
+|                          |                      |                                              |  |           |  +--Helicobacter_pylori_000348865
+|                          |                      |                                              |  |        +--|
+|                          |                      |                                              |  |        |  |        +--Helicobacter_pylori_000600145
+|                          |                      |                                              |  |        |  |     +--|
+|                          |                      |                                              |  |        |  |     |  +--Helicobacter_pylori_000600205
+|                          |                      |                                              |  |        |  |  +--|
+|                          |                      |                                              |  |        |  |  |  +--Helicobacter_pylori_002356595
+|                          |                      |                                              |  |        |  +--|
+|                          |                      |                                              |  |        |     |  +**Helicobacter_pylori_000392455
+|                          |                      |                                              |  |        |     +--|
+|                          |                      |                                              |  |        |        +**Helicobacter_pylori_000439295
+|                          |                      |                                              |  |     +--|
+|                          |                      |                                              |  |     |  |        +--Helicobacter_pylori_000685745
+|                          |                      |                                              |  |     |  |     +--|
+|                          |                      |                                              |  |     |  |     |  +--Helicobacter_pylori_000392535
+|                          |                      |                                              |  |     |  |  +--|
+|                          |                      |                                              |  |     |  |  |  +--Helicobacter_pylori_000213135
+|                          |                      |                                              |  |     |  +--|
+|                          |                      |                                              |  |     |     |     +--Helicobacter_pylori_000317875
+|                          |                      |                                              |  |     |     |  +--|
+|                          |                      |                                              |  |     |     |  |  |     +--Helicobacter_pylori_000270045
+|                          |                      |                                              |  |     |     |  |  |  +--|
+|                          |                      |                                              |  |     |     |  |  |  |  |  +--Helicobacter_pylori_000023805
+|                          |                      |                                              |  |     |     |  |  |  |  +--|
+|                          |                      |                                              |  |     |     |  |  |  |     +--Helicobacter_pylori_002222575
+|                          |                      |                                              |  |     |     |  |  +**|
+|                          |                      |                                              |  |     |     |  |     +--Helicobacter_pylori_000011725
+|                          |                      |                                              |  |     |     +--|
+|                          |                      |                                              |  |     |        +--Helicobacter_pylori_000348885
+|                          |                      |                                              |  |  +--|
+|                          |                      |                                              |  |  |  |                             +**Helicobacter_pylori_002952495
+|                          |                      |                                              |  |  |  |                          +**|
+|                          |                      |                                              |  |  |  |                          |  +**Helicobacter_pylori_002952575
+|                          |                      |                                              |  |  |  |                       +--|
+|                          |                      |                                              |  |  |  |                       |  +**Helicobacter_pylori_002952355
+|                          |                      |                                              |  |  |  |                    +**|
+|                          |                      |                                              |  |  |  |                    |  |  +--Helicobacter_pylori_003939085
+|                          |                      |                                              |  |  |  |                    |  +--|
+|                          |                      |                                              |  |  |  |                    |     +--Helicobacter_pylori_003640585
+|                          |                      |                                              |  |  |  |                 +--|
+|                          |                      |                                              |  |  |  |                 |  |     +**Helicobacter_pylori_000498315
+|                          |                      |                                              |  |  |  |                 |  |  +--|
+|                          |                      |                                              |  |  |  |                 |  |  |  +**Helicobacter_pylori_000498335
+|                          |                      |                                              |  |  |  |                 |  +--|
+|                          |                      |                                              |  |  |  |                 |     +--Helicobacter_pylori_000013245
+|                          |                      |                                              |  |  |  |              +--|
+|                          |                      |                                              |  |  |  |              |  |  +--Helicobacter_pylori_001433495
+|                          |                      |                                              |  |  |  |              |  +--|
+|                          |                      |                                              |  |  |  |              |     +--Helicobacter_pylori_000185225
+|                          |                      |                                              |  |  |  |           +**|
+|                          |                      |                                              |  |  |  |           |  |        +--Helicobacter_pylori_000021165
+|                          |                      |                                              |  |  |  |           |  |     +--|
+|                          |                      |                                              |  |  |  |           |  |     |  +--Helicobacter_pylori_000091345
+|                          |                      |                                              |  |  |  |           |  |  +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |     +--Helicobacter_pylori_000255955
+|                          |                      |                                              |  |  |  |           |  |  |  |  +--|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |              +**Helicobacter_pylori_000827025
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |           +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |           |  |  +**Helicobacter_pylori_000307835
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |           |  +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |           |     |  +**Helicobacter_pylori_000307815
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |           |     +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |           |        +**Helicobacter_pylori_000008525
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |        +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |        |  +**Helicobacter_pylori_000829095
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |     +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |     |  +**Helicobacter_pylori_000829115
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |  +**|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  |  |  +**Helicobacter_pylori_002906555
+|                          |                      |                                              |  |  |  |           |  |  |  |  |  +--|
+|                          |                      |                                              |  |  |  |           |  |  |  |  |     +--Helicobacter_pylori_000829135
+|                          |                      |                                              |  |  |  |           |  |  |  +--|
+|                          |                      |                                              |  |  |  |           |  |  |     |  +--Helicobacter_pylori_000828955
+|                          |                      |                                              |  |  |  |           |  |  |     +--|
+|                          |                      |                                              |  |  |  |           |  |  |        +--Helicobacter_pylori_001433515
+|                          |                      |                                              |  |  |  |           |  +--|
+|                          |                      |                                              |  |  |  |           |     |     +**Helicobacter_pylori_003050665
+|                          |                      |                                              |  |  |  |           |     |  +--|
+|                          |                      |                                              |  |  |  |           |     |  |  +**Helicobacter_pylori_900478295
+|                          |                      |                                              |  |  |  |           |     +**|
+|                          |                      |                                              |  |  |  |           |        |  +--Helicobacter_pylori_000185185
+|                          |                      |                                              |  |  |  |           |        +--|
+|                          |                      |                                              |  |  |  |           |           +--Helicobacter_pylori_000224575
+|                          |                      |                                              |  |  |  |        +--|
+|                          |                      |                                              |  |  |  |        |  +--Helicobacter_pylori_000685625
+|                          |                      |                                              |  |  |  |     +**|
+|                          |                      |                                              |  |  |  |     |  +--Helicobacter_pylori_000259235
+|                          |                      |                                              |  |  |  |  +--|
+|                          |                      |                                              |  |  |  |  |  +--Helicobacter_pylori_001991095
+|                          |                      |                                              |  |  |  +--|
+|                          |                      |                                              |  |  |     |        +**Helicobacter_pylori_000600045
+|                          |                      |                                              |  |  |     |     +**|
+|                          |                      |                                              |  |  |     |     |  +**Helicobacter_pylori_000600085
+|                          |                      |                                              |  |  |     |  +--|
+|                          |                      |                                              |  |  |     |  |  |  +--Helicobacter_pylori_000600165
+|                          |                      |                                              |  |  |     |  |  +--|
+|                          |                      |                                              |  |  |     |  |     +--Helicobacter_pylori_000600225
+|                          |                      |                                              |  |  |     +--|
+|                          |                      |                                              |  |  |        +--Helicobacter_pylori_000148855
+|                          |                      |                                              |  +--|
+|                          |                      |                                              |     +--Helicobacter_pylori_000315955
+|                          |                      |                                           +**|
+|                          |                      |                                           |  |  +--Helicobacter_pylori_000224555
+|                          |                      |                                           |  +--|
+|                          |                      |                                           |     +--Helicobacter_pylori_000224535
+|                          |                      |                                        +--|
+|                          |                      |                                        |  +--Helicobacter_pylori_000093185
+|                          |                      |                                     +**|
+|                          |                      |                                     |  +--Helicobacter_pylori_000277425
+|                          |                      |                                  +--|
+|                          |                      |                                  |  |           +**Helicobacter_pylori_900120135
+|                          |                      |                                  |  |        +--|
+|                          |                      |                                  |  |        |  +**Helicobacter_pylori_900120205
+|                          |                      |                                  |  |     +--|
+|                          |                      |                                  |  |     |  +--Helicobacter_pylori_001653475
+|                          |                      |                                  |  |  +--|
+|                          |                      |                                  |  |  |  |              +--Helicobacter_pylori_000008785
+|                          |                      |                                  |  |  |  |           +--|
+|                          |                      |                                  |  |  |  |           |  +**Helicobacter_pylori_002983705
+|                          |                      |                                  |  |  |  |        +--|
+|                          |                      |                                  |  |  |  |        |  |     +--Helicobacter_pylori_000192335
+|                          |                      |                                  |  |  |  |        |  |  +--|
+|                          |                      |                                  |  |  |  |        |  |  |  +--Helicobacter_pylori_000192315
+|                          |                      |                                  |  |  |  |        |  +--|
+|                          |                      |                                  |  |  |  |        |     +--Helicobacter_pylori_000185245
+|                          |                      |                                  |  |  |  |     +--|
+|                          |                      |                                  |  |  |  |     |  +--Helicobacter_pylori_900638475
+|                          |                      |                                  |  |  |  |  +--|
+|                          |                      |                                  |  |  |  |  |  +--Helicobacter_pylori_001653415
+|                          |                      |                                  |  |  |  +--|
+|                          |                      |                                  |  |  |     +--Helicobacter_pylori_000185205
+|                          |                      |                                  |  +--|
+|                          |                      |                                  |     +--Helicobacter_pylori_000148875
+|                          |                      |                               +--|
+|                          |                      |                               |  +--Helicobacter_pylori_001653375
+|                          |                      |                           +---|
+|                          |                      |                           |   +--Helicobacter_pylori_000392515
+|                          |                      +---------------------------|
+|                          |                                                  |     +--Helicobacter_cinaedi_000284635
+|                          |                                                  |  +--|
+|                          |                                                  |  |  |     +**Helicobacter_cinaedi_003574195
+|                          |                                                  |  |  |  +**|
+|                          |                                                  |  |  |  |  +--Helicobacter_cinaedi_003213725
+|                          |                                                  |  |  +--|
+|                          |                                                  |  |     +**Helicobacter_cinaedi_003213825
+|                          |                                                  +--|
+|                          |                                                     |  +**Helicobacter_cinaedi_003214155
+|                          |                                                     +**|
+|                          |                                                        +--Helicobacter_cinaedi_000349975
+|                       +--|
+|                       |  |        +**Pseudomonas_stutzeri_000327065
+|                       |  |     +**|
+|                       |  |     |  +**Pseudomonas_stutzeri_003001655
+|                       |  |  +--|
+|                       |  |  |  |        +--Pseudomonas_stutzeri_000279165
+|                       |  |  |  |     +--|
+|                       |  |  |  |     |  |  +--Pseudomonas_stutzeri_001648195
+|                       |  |  |  |     |  +--|
+|                       |  |  |  |     |     +--Pseudomonas_stutzeri_000590475
+|                       |  |  |  |  +--|
+|                       |  |  |  |  |  |  +**Pseudomonas_stutzeri_000267545
+|                       |  |  |  |  |  +--|
+|                       |  |  |  |  |     +**Pseudomonas_stutzeri_900638035
+|                       |  |  |  +--|
+|                       |  |  |     +--Pseudomonas_stutzeri_000661915
+|                       |  +--|
+|                       |     |                 +**Pseudomonas_stutzeri_900636845
+|                       |     |              +--|
+|                       |     |              |  +**Pseudomonas_stutzeri_000219605
+|                       |     |           +**|
+|                       |     |           |  +**Pseudomonas_stutzeri_000013785
+|                       |     |        +--|
+|                       |     |        |  +**Pseudomonas_stutzeri_003047145
+|                       |     |     +**|
+|                       |     |     |  +--Pseudomonas_stutzeri_001038645
+|                       |     |  +**|
+|                       |     |  |  +**Pseudomonas_stutzeri_000195105
+|                       |     +--|
+|                       |        +--Pseudomonas_stutzeri_003008495
+|                    +--|
+|                    |  |              +--Pseudomonas_mendocina_002442555
+|                    |  |           +--|
+|                    |  |           |  +--Pseudomonas_mendocina_000016565
+|                    |  |        +--|
+|                    |  |        |  +**Pseudomonas_mendocina_000733715
+|                    |  |     +**|
+|                    |  |     |  +**Pseudomonas_mendocina_900636545
+|                    |  |  +--|
+|                    |  |  |  +**Pseudomonas_mendocina_000204295
+|                    |  +--|
+|                    |     +--Pseudomonas_mendocina_003008615
+|                 +--|
+|                 |  |                                                           +**Pseudomonas_aeruginosa_001516165
+|                 |  |                                                        +--|
+|                 |  |                                                        |  |                                                        +**Pseudomonas_aeruginosa_001516205
+|                 |  |                                                        |  |                                                     +**|
+|                 |  |                                                        |  |                                                     |  |  +**Pseudomonas_aeruginosa_002812865
+|                 |  |                                                        |  |                                                     |  +**|
+|                 |  |                                                        |  |                                                     |     +**Pseudomonas_aeruginosa_001516185
+|                 |  |                                                        |  |                                                  +**|
+|                 |  |                                                        |  |                                                  |  +**Pseudomonas_aeruginosa_003369755
+|                 |  |                                                        |  |                                               +**|
+|                 |  |                                                        |  |                                               |  +**Pseudomonas_aeruginosa_000026645
+|                 |  |                                                        |  |                                            +**|
+|                 |  |                                                        |  |                                            |  |        +**Pseudomonas_aeruginosa_002085605
+|                 |  |                                                        |  |                                            |  |     +**|
+|                 |  |                                                        |  |                                            |  |     |  |        +**Pseudomonas_aeruginosa_001879525
+|                 |  |                                                        |  |                                            |  |     |  |     +**|
+|                 |  |                                                        |  |                                            |  |     |  |     |  +**Pseudomonas_aeruginosa_000271365
+|                 |  |                                                        |  |                                            |  |     |  |  +**|
+|                 |  |                                                        |  |                                            |  |     |  |  |  +**Pseudomonas_aeruginosa_000508765
+|                 |  |                                                        |  |                                            |  |     |  +**|
+|                 |  |                                                        |  |                                            |  |     |     +**Pseudomonas_aeruginosa_003408495
+|                 |  |                                                        |  |                                            |  |  +**|
+|                 |  |                                                        |  |                                            |  |  |  +**Pseudomonas_aeruginosa_003571505
+|                 |  |                                                        |  |                                            |  +**|
+|                 |  |                                                        |  |                                            |     +**Pseudomonas_aeruginosa_000829885
+|                 |  |                                                        |  |                                         +**|
+|                 |  |                                                        |  |                                         |  |     +**Pseudomonas_aeruginosa_001900265
+|                 |  |                                                        |  |                                         |  |  +**|
+|                 |  |                                                        |  |                                         |  |  |  +**Pseudomonas_aeruginosa_001900225
+|                 |  |                                                        |  |                                         |  +**|
+|                 |  |                                                        |  |                                         |     |        +**Pseudomonas_aeruginosa_001792855
+|                 |  |                                                        |  |                                         |     |     +**|
+|                 |  |                                                        |  |                                         |     |     |  +**Pseudomonas_aeruginosa_001792835
+|                 |  |                                                        |  |                                         |     |  +**|
+|                 |  |                                                        |  |                                         |     |  |  +**Pseudomonas_aeruginosa_003369735
+|                 |  |                                                        |  |                                         |     +--|
+|                 |  |                                                        |  |                                         |        +**Pseudomonas_aeruginosa_002205375
+|                 |  |                                                        |  |                                      +**|
+|                 |  |                                                        |  |                                      |  |  +**Pseudomonas_aeruginosa_900185255
+|                 |  |                                                        |  |                                      |  +**|
+|                 |  |                                                        |  |                                      |     +**Pseudomonas_aeruginosa_001045685
+|                 |  |                                                        |  |                                   +**|
+|                 |  |                                                        |  |                                   |  |              +**Pseudomonas_aeruginosa_001687285
+|                 |  |                                                        |  |                                   |  |           +**|
+|                 |  |                                                        |  |                                   |  |           |  |           +**Pseudomonas_aeruginosa_000524595
+|                 |  |                                                        |  |                                   |  |           |  |        +**|
+|                 |  |                                                        |  |                                   |  |           |  |        |  +**Pseudomonas_aeruginosa_001594325
+|                 |  |                                                        |  |                                   |  |           |  |     +**|
+|                 |  |                                                        |  |                                   |  |           |  |     |  |  +**Pseudomonas_aeruginosa_000496605
+|                 |  |                                                        |  |                                   |  |           |  |     |  +**|
+|                 |  |                                                        |  |                                   |  |           |  |     |     +**Pseudomonas_aeruginosa_001618925
+|                 |  |                                                        |  |                                   |  |           |  |  +**|
+|                 |  |                                                        |  |                                   |  |           |  |  |  +**Pseudomonas_aeruginosa_001516245
+|                 |  |                                                        |  |                                   |  |           |  +--|
+|                 |  |                                                        |  |                                   |  |           |     +--Pseudomonas_aeruginosa_003193645
+|                 |  |                                                        |  |                                   |  |        +--|
+|                 |  |                                                        |  |                                   |  |        |  +**Pseudomonas_aeruginosa_900636755
+|                 |  |                                                        |  |                                   |  |     +**|
+|                 |  |                                                        |  |                                   |  |     |  +**Pseudomonas_aeruginosa_001515915
+|                 |  |                                                        |  |                                   |  |  +**|
+|                 |  |                                                        |  |                                   |  |  |  +**Pseudomonas_aeruginosa_000271985
+|                 |  |                                                        |  |                                   |  +**|
+|                 |  |                                                        |  |                                   |     +**Pseudomonas_aeruginosa_001515845
+|                 |  |                                                        |  |                                +**|
+|                 |  |                                                        |  |                                |  |              +**Pseudomonas_aeruginosa_002215345
+|                 |  |                                                        |  |                                |  |           +**|
+|                 |  |                                                        |  |                                |  |           |  +**Pseudomonas_aeruginosa_003206535
+|                 |  |                                                        |  |                                |  |        +**|
+|                 |  |                                                        |  |                                |  |        |  +**Pseudomonas_fluorescens_900636635
+|                 |  |                                                        |  |                                |  |     +--|
+|                 |  |                                                        |  |                                |  |     |  +--Pseudomonas_aeruginosa_003073695
+|                 |  |                                                        |  |                                |  |  +**|
+|                 |  |                                                        |  |                                |  |  |  +**Pseudomonas_aeruginosa_000496455
+|                 |  |                                                        |  |                                |  +**|
+|                 |  |                                                        |  |                                |     +**Pseudomonas_aeruginosa_000510305
+|                 |  |                                                        |  |                             +--|
+|                 |  |                                                        |  |                             |  +**Pseudomonas_aeruginosa_001077475
+|                 |  |                                                        |  |                          +**|
+|                 |  |                                                        |  |                          |  +**Pseudomonas_aeruginosa_900636735
+|                 |  |                                                        |  |                       +**|
+|                 |  |                                                        |  |                       |  |                    +--Pseudomonas_aeruginosa_003952325
+|                 |  |                                                        |  |                       |  |                 +**|
+|                 |  |                                                        |  |                       |  |                 |  +**Pseudomonas_aeruginosa_000359505
+|                 |  |                                                        |  |                       |  |              +**|
+|                 |  |                                                        |  |                       |  |              |  +**Pseudomonas_aeruginosa_003991465
+|                 |  |                                                        |  |                       |  |           +**|
+|                 |  |                                                        |  |                       |  |           |  +**Pseudomonas_aeruginosa_001518975
+|                 |  |                                                        |  |                       |  |        +**|
+|                 |  |                                                        |  |                       |  |        |  +**Pseudomonas_aeruginosa_001516365
+|                 |  |                                                        |  |                       |  |     +**|
+|                 |  |                                                        |  |                       |  |     |  +**Pseudomonas_aeruginosa_001722025
+|                 |  |                                                        |  |                       |  |  +--|
+|                 |  |                                                        |  |                       |  |  |  +**Pseudomonas_aeruginosa_001721825
+|                 |  |                                                        |  |                       |  +**|
+|                 |  |                                                        |  |                       |     +**Pseudomonas_aeruginosa_001547955
+|                 |  |                                                        |  |                    +**|
+|                 |  |                                                        |  |                    |  +**Pseudomonas_aeruginosa_000504045
+|                 |  |                                                        |  |                 +**|
+|                 |  |                                                        |  |                 |  +**Pseudomonas_aeruginosa_003813025
+|                 |  |                                                        |  |              +--|
+|                 |  |                                                        |  |              |  +**Pseudomonas_aeruginosa_001516325
+|                 |  |                                                        |  |           +**|
+|                 |  |                                                        |  |           |  +--Pseudomonas_aeruginosa_000006765
+|                 |  |                                                        |  |        +**|
+|                 |  |                                                        |  |        |  +**Pseudomonas_aeruginosa_004010895
+|                 |  |                                                        |  |     +**|
+|                 |  |                                                        |  |     |  +**Pseudomonas_aeruginosa_003957825
+|                 |  |                                                        |  |  +**|
+|                 |  |                                                        |  |  |  +**Pseudomonas_aeruginosa_001729505
+|                 |  |                                                        |  +**|
+|                 |  |                                                        |     +**Pseudomonas_aeruginosa_900636975
+|                 |  |                                                     +**|
+|                 |  |                                                     |  +**Pseudomonas_aeruginosa_002104595
+|                 |  |                                                  +**|
+|                 |  |                                                  |  +**Pseudomonas_aeruginosa_001874465
+|                 |  |                                               +**|
+|                 |  |                                               |  +**Pseudomonas_aeruginosa_003812885
+|                 |  |                                            +**|
+|                 |  |                                            |  +**Pseudomonas_aeruginosa_002812905
+|                 |  |                                         +**|
+|                 |  |                                         |  +**Pseudomonas_aeruginosa_002968955
+|                 |  |                                      +**|
+|                 |  |                                      |  +**Pseudomonas_aeruginosa_003433235
+|                 |  |                                   +--|
+|                 |  |                                   |  +**Pseudomonas_aeruginosa_003288355
+|                 |  |                                +**|
+|                 |  |                                |  +**Pseudomonas_aeruginosa_002812825
+|                 |  |                             +**|
+|                 |  |                             |  +**Pseudomonas_aeruginosa_003798125
+|                 |  |                          +**|
+|                 |  |                          |  +--Pseudomonas_aeruginosa_001482325
+|                 |  |                       +**|
+|                 |  |                       |  +**Pseudomonas_aeruginosa_900618285
+|                 |  |                    +**|
+|                 |  |                    |  +**Pseudomonas_aeruginosa_001632245
+|                 |  |                 +**|
+|                 |  |                 |  +**Pseudomonas_aeruginosa_002237405
+|                 |  |              +**|
+|                 |  |              |  +**Pseudomonas_aeruginosa_002237425
+|                 |  |           +**|
+|                 |  |           |  |     +**Pseudomonas_aeruginosa_001548135
+|                 |  |           |  |  +**|
+|                 |  |           |  |  |  +**Pseudomonas_aeruginosa_001516005
+|                 |  |           |  +--|
+|                 |  |           |     |  +**Pseudomonas_aeruginosa_900618325
+|                 |  |           |     +**|
+|                 |  |           |        +**Pseudomonas_aeruginosa_900618315
+|                 |  |        +**|
+|                 |  |        |  +**Pseudomonas_aeruginosa_900095805
+|                 |  |     +**|
+|                 |  |     |  +**Pseudomonas_aeruginosa_000014625
+|                 |  |  +--|
+|                 |  |  |  +**Pseudomonas_aeruginosa_900618305
+|                 |  +--|
+|                 |     +--Pseudomonas_aeruginosa_003332705
+|              +--|
+|              |  |                          +--Pseudomonas_putida_003228315
+|              |  |                       +--|
+|              |  |                       |  |        +--Pseudomonas_chlororaphis_003851985
+|              |  |                       |  |     +--|
+|              |  |                       |  |     |  |                       +**Pseudomonas_chlororaphis_002844145
+|              |  |                       |  |     |  |                    +**|
+|              |  |                       |  |     |  |                    |  +**Pseudomonas_chlororaphis_003851365
+|              |  |                       |  |     |  |                 +**|
+|              |  |                       |  |     |  |                 |  +**Pseudomonas_chlororaphis_003851405
+|              |  |                       |  |     |  |              +**|
+|              |  |                       |  |     |  |              |  +**Pseudomonas_chlororaphis_003851905
+|              |  |                       |  |     |  |           +--|
+|              |  |                       |  |     |  |           |  |  +**Pseudomonas_chlororaphis_003851265
+|              |  |                       |  |     |  |           |  +--|
+|              |  |                       |  |     |  |           |     +--Pseudomonas_chlororaphis_003851785
+|              |  |                       |  |     |  |        +**|
+|              |  |                       |  |     |  |        |  +**Pseudomonas_chlororaphis_003851865
+|              |  |                       |  |     |  |     +**|
+|              |  |                       |  |     |  |     |  |                 +**Pseudomonas_chlororaphis_003851225
+|              |  |                       |  |     |  |     |  |              +**|
+|              |  |                       |  |     |  |     |  |              |  |  +**Pseudomonas_chlororaphis_003851305
+|              |  |                       |  |     |  |     |  |              |  +**|
+|              |  |                       |  |     |  |     |  |              |     +**Pseudomonas_chlororaphis_000761195
+|              |  |                       |  |     |  |     |  |           +**|
+|              |  |                       |  |     |  |     |  |           |  +**Pseudomonas_chlororaphis_002355875
+|              |  |                       |  |     |  |     |  |        +**|
+|              |  |                       |  |     |  |     |  |        |  +**Pseudomonas_chlororaphis_003851385
+|              |  |                       |  |     |  |     |  |     +--|
+|              |  |                       |  |     |  |     |  |     |  +**Pseudomonas_chlororaphis_003851925
+|              |  |                       |  |     |  |     |  |  +**|
+|              |  |                       |  |     |  |     |  |  |  +**Pseudomonas_chlororaphis_003851345
+|              |  |                       |  |     |  |     |  +--|
+|              |  |                       |  |     |  |     |     +**Pseudomonas_chlororaphis_000698865
+|              |  |                       |  |     |  |  +**|
+|              |  |                       |  |     |  |  |  +**Pseudomonas_chlororaphis_003851445
+|              |  |                       |  |     |  +**|
+|              |  |                       |  |     |     +**Pseudomonas_chlororaphis_003852005
+|              |  |                       |  |  +**|
+|              |  |                       |  |  |  |  +**Pseudomonas_chlororaphis_003850405
+|              |  |                       |  |  |  +**|
+|              |  |                       |  |  |     |     +**Pseudomonas_chlororaphis_003850425
+|              |  |                       |  |  |     |  +**|
+|              |  |                       |  |  |     |  |  |        +**Pseudomonas_chlororaphis_900636995
+|              |  |                       |  |  |     |  |  |     +**|
+|              |  |                       |  |  |     |  |  |     |  +**Pseudomonas_chlororaphis_003850385
+|              |  |                       |  |  |     |  |  |  +--|
+|              |  |                       |  |  |     |  |  |  |  |  +--Pseudomonas_chlororaphis_003850605
+|              |  |                       |  |  |     |  |  |  |  +--|
+|              |  |                       |  |  |     |  |  |  |     +**Pseudomonas_chlororaphis_003850345
+|              |  |                       |  |  |     |  |  +**|
+|              |  |                       |  |  |     |  |     +**Pseudomonas_chlororaphis_003850445
+|              |  |                       |  |  |     +**|
+|              |  |                       |  |  |        +**Pseudomonas_chlororaphis_003850465
+|              |  |                       |  +--|
+|              |  |                       |     |                       +**Pseudomonas_protegens_002208745
+|              |  |                       |     |                    +**|
+|              |  |                       |     |                    |  +**Pseudomonas_protegens_000397205
+|              |  |                       |     |                 +**|
+|              |  |                       |     |                 |  +--Pseudomonas_protegens_000828695
+|              |  |                       |     |              +--|
+|              |  |                       |     |              |  +**Pseudomonas_protegens_002006545
+|              |  |                       |     |           +--|
+|              |  |                       |     |           |  +--Pseudomonas_protegens_003363755
+|              |  |                       |     |        +--|
+|              |  |                       |     |        |  +--Pseudomonas_chlororaphis_000963835
+|              |  |                       |     |     +--|
+|              |  |                       |     |     |  |  +**Pseudomonas_chlororaphis_003851145
+|              |  |                       |     |     |  +**|
+|              |  |                       |     |     |     +**Pseudomonas_chlororaphis_001602135
+|              |  |                       |     |  +--|
+|              |  |                       |     |  |  +**Pseudomonas_chlororaphis_003945765
+|              |  |                       |     +--|
+|              |  |                       |        +**Pseudomonas_chlororaphis_003008635
+|              |  |                    +--|
+|              |  |                    |  |     +**Pseudomonas_fluorescens_003410335
+|              |  |                    |  |  +**|
+|              |  |                    |  |  |  +--Pseudomonas_fluorescens_001307275
+|              |  |                    |  +--|
+|              |  |                    |     |     +**Pseudomonas_brassicacearum_001449085
+|              |  |                    |     |  +--|
+|              |  |                    |     |  |  |     +**Pseudomonas_brassicacearum_001746815
+|              |  |                    |     |  |  |  +--|
+|              |  |                    |     |  |  |  |  +**Pseudomonas_fluorescens_000237065
+|              |  |                    |     |  |  +**|
+|              |  |                    |     |  |     +**Pseudomonas_brassicacearum_000194805
+|              |  |                    |     +--|
+|              |  |                    |        +--Pseudomonas_brassicacearum_000585995
+|              |  |                 +--|
+|              |  |                 |  |     +--Pseudomonas_fluorescens_003055645
+|              |  |                 |  |  +--|
+|              |  |                 |  |  |  +**Pseudomonas_fluorescens_000012445
+|              |  |                 |  +--|
+|              |  |                 |     +**Pseudomonas_syringae_004006335
+|              |  |              +--|
+|              |  |              |  +--Pseudomonas_koreensis_003049825
+|              |  |           +--|
+|              |  |           |  |  +**Pseudomonas_koreensis_001605965
+|              |  |           |  +--|
+|              |  |           |     +--Pseudomonas_fluorescens_900636825
+|              |  |        +--|
+|              |  |        |  +**Pseudomonas_koreensis_001654515
+|              |  |     +--|
+|              |  |     |  |                          +**Pseudomonas_synxantha_003851495
+|              |  |     |  |                       +**|
+|              |  |     |  |                       |  +**Pseudomonas_synxantha_003851555
+|              |  |     |  |                    +**|
+|              |  |     |  |                    |  +**Pseudomonas_synxantha_003851465
+|              |  |     |  |                 +**|
+|              |  |     |  |                 |  +**Pseudomonas_synxantha_003851525
+|              |  |     |  |              +**|
+|              |  |     |  |              |  +**Pseudomonas_synxantha_003852025
+|              |  |     |  |           +**|
+|              |  |     |  |           |  +**Pseudomonas_synxantha_000968415
+|              |  |     |  |        +--|
+|              |  |     |  |        |  |        +**Pseudomonas_orientalis_003851585
+|              |  |     |  |        |  |     +--|
+|              |  |     |  |        |  |     |  |  +**Pseudomonas_orientalis_003851605
+|              |  |     |  |        |  |     |  +**|
+|              |  |     |  |        |  |     |     |  +**Pseudomonas_orientalis_003851645
+|              |  |     |  |        |  |     |     +**|
+|              |  |     |  |        |  |     |        +**Pseudomonas_orientalis_003852045
+|              |  |     |  |        |  |  +--|
+|              |  |     |  |        |  |  |  |              +--Pseudomonas_fluorescens_000293885
+|              |  |     |  |        |  |  |  |           +--|
+|              |  |     |  |        |  |  |  |           |  |  +**Pseudomonas_fluorescens_001307155
+|              |  |     |  |        |  |  |  |           |  +**|
+|              |  |     |  |        |  |  |  |           |     +--Pseudomonas_frederiksbergensis_001874645
+|              |  |     |  |        |  |  |  |        +--|
+|              |  |     |  |        |  |  |  |        |  |  +--Pseudomonas_frederiksbergensis_001952935
+|              |  |     |  |        |  |  |  |        |  +--|
+|              |  |     |  |        |  |  |  |        |     +--Pseudomonas_frederiksbergensis_002355315
+|              |  |     |  |        |  |  |  |     +--|
+|              |  |     |  |        |  |  |  |     |  +--Pseudomonas_fluorescens_003626995
+|              |  |     |  |        |  |  |  |  +--|
+|              |  |     |  |        |  |  |  |  |  +--Pseudomonas_fluorescens_000009225
+|              |  |     |  |        |  |  |  +--|
+|              |  |     |  |        |  |  |     +**Pseudomonas_orientalis_002934065
+|              |  |     |  |        |  +--|
+|              |  |     |  |        |     |  +--Pseudomonas_fluorescens_900475215
+|              |  |     |  |        |     +--|
+|              |  |     |  |        |        |  +**Pseudomonas_fluorescens_001708445
+|              |  |     |  |        |        +--|
+|              |  |     |  |        |           +**Pseudomonas_fluorescens_001708465
+|              |  |     |  |     +--|
+|              |  |     |  |     |  |  +**Pseudomonas_fluorescens_001747385
+|              |  |     |  |     |  +--|
+|              |  |     |  |     |     +**Pseudomonas_fluorescens_000262325
+|              |  |     |  |  +--|
+|              |  |     |  |  |  |  +--Pseudomonas_chlororaphis_001023535
+|              |  |     |  |  |  +--|
+|              |  |     |  |  |     +**Pseudomonas_fluorescens_000730425
+|              |  |     |  +--|
+|              |  |     |     |     +**Pseudomonas_fluorescens_000963495
+|              |  |     |     |  +**|
+|              |  |     |     |  |  +**Pseudomonas_fluorescens_000934565
+|              |  |     |     +--|
+|              |  |     |        |  +--Pseudomonas_fluorescens_003612935
+|              |  |     |        +--|
+|              |  |     |           +--Pseudomonas_fluorescens_001708485
+|              |  |  +--|
+|              |  |  |  |  +**Pseudomonas_stutzeri_003952685
+|              |  |  |  +--|
+|              |  |  |     +**Pseudomonas_stutzeri_003952645
+|              |  +--|
+|              |     |                          +**Pseudomonas_syringae_002905815
+|              |     |                       +--|
+|              |     |                       |  |  +--Pseudomonas_syringae_000988485
+|              |     |                       |  +**|
+|              |     |                       |     +**Pseudomonas_syringae_900235865
+|              |     |                    +**|
+|              |     |                    |  +**Pseudomonas_syringae_000012245
+|              |     |                 +**|
+|              |     |                 |  +**Pseudomonas_syringae_900235825
+|              |     |              +**|
+|              |     |              |  +--Pseudomonas_syringae_000452445
+|              |     |           +**|
+|              |     |           |  +**Pseudomonas_syringae_001482725
+|              |     |        +--|
+|              |     |        |  +**Pseudomonas_syringae_003047185
+|              |     |     +**|
+|              |     |     |  +--Pseudomonas_syringae_001281365
+|              |     |  +**|
+|              |     |  |  |                 +**Pseudomonas_syringae_002966555
+|              |     |  |  |              +**|
+|              |     |  |  |              |  +--Pseudomonas_syringae_900235835
+|              |     |  |  |           +--|
+|              |     |  |  |           |  |        +**Pseudomonas_syringae_002024305
+|              |     |  |  |           |  |     +**|
+|              |     |  |  |           |  |     |  +**Pseudomonas_syringae_001913215
+|              |     |  |  |           |  |  +--|
+|              |     |  |  |           |  |  |  +--Pseudomonas_syringae_002763655
+|              |     |  |  |           |  +--|
+|              |     |  |  |           |     +**Pseudomonas_syringae_000344335
+|              |     |  |  |        +--|
+|              |     |  |  |        |  +**Pseudomonas_syringae_900235905
+|              |     |  |  |     +**|
+|              |     |  |  |     |  +**Pseudomonas_syringae_000452705
+|              |     |  |  |  +--|
+|              |     |  |  |  |  +**Pseudomonas_syringae_000007805
+|              |     |  |  +--|
+|              |     |  |     +**Pseudomonas_syringae_000988395
+|              |     +--|
+|              |        |  +--Pseudomonas_syringae_900235885
+|              |        +--|
+|              |           |  +**Pseudomonas_syringae_900235815
+|              |           +--|
+|              |              +**Pseudomonas_syringae_900289125
+|           +--|
+|           |  |  +--Pseudomonas_entomophila_003940825
+|           |  +--|
+|           |     +--Pseudomonas_entomophila_003940785
+|        +--|
+|        |  |  +--Pseudomonas_putida_001515585
+|        |  +--|
+|        |     +**Pseudomonas_entomophila_000026105
+|     +--|
+|     |  +--Pseudomonas_putida_002025705
+|  +--|
+|  |  |                                +--Pseudomonas_putida_003671955
+|  |  |                             +**|
+|  |  |                             |  +**Pseudomonas_putida_000016865
+|  |  |                          +**|
+|  |  |                          |  +**Pseudomonas_putida_000226035
+|  |  |                       +**|
+|  |  |                       |  +**Pseudomonas_putida_000271965
+|  |  |                    +--|
+|  |  |                    |  +**Pseudomonas_putida_000264665
+|  |  |                 +--|
+|  |  |                 |  |     +**Pseudomonas_putida_000410575
+|  |  |                 |  |  +**|
+|  |  |                 |  |  |  |  +**Pseudomonas_putida_000325725
+|  |  |                 |  |  |  +--|
+|  |  |                 |  |  |     |  +**Pseudomonas_putida_000019125
+|  |  |                 |  |  |     +**|
+|  |  |                 |  |  |        +**Pseudomonas_putida_001886975
+|  |  |                 |  +--|
+|  |  |                 |     |     +**Pseudomonas_putida_000412675
+|  |  |                 |     |  +**|
+|  |  |                 |     |  |  +**Pseudomonas_putida_000498395
+|  |  |                 |     +--|
+|  |  |                 |        +**Pseudomonas_putida_002356095
+|  |  |              +--|
+|  |  |              |  |  +--Pseudomonas_parafulva_002021815
+|  |  |              |  +**|
+|  |  |              |     |        +**Pseudomonas_putida_000183645
+|  |  |              |     |     +--|
+|  |  |              |     |     |  |  +**Pseudomonas_putida_000495455
+|  |  |              |     |     |  +**|
+|  |  |              |     |     |     +**Pseudomonas_putida_001767335
+|  |  |              |     |  +**|
+|  |  |              |     |  |  +**Pseudomonas_putida_900636645
+|  |  |              |     +**|
+|  |  |              |        +**Pseudomonas_putida_000007565
+|  |  |           +**|
+|  |  |           |  +--Pseudomonas_monteilii_003671975
+|  |  |        +--|
+|  |  |        |  |  +**Pseudomonas_putida_000691565
+|  |  |        |  +--|
+|  |  |        |     |     +**Pseudomonas_monteilii_000510285
+|  |  |        |     |  +**|
+|  |  |        |     |  |  +**Pseudomonas_monteilii_000510325
+|  |  |        |     +**|
+|  |  |        |        +**Pseudomonas_putida_000219705
+|  |  |     +**|
+|  |  |     |  |        +**Pseudomonas_parafulva_003410295
+|  |  |     |  |     +--|
+|  |  |     |  |     |  +**Pseudomonas_parafulva_000800255
+|  |  |     |  |  +--|
+|  |  |     |  |  |  +--Pseudomonas_putida_002741075
+|  |  |     |  +--|
+|  |  |     |     |  +**Pseudomonas_putida_003290365
+|  |  |     |     +--|
+|  |  |     |        +**Pseudomonas_putida_001636055
+|  |  |  +--|
+|  |  |  |  +**Pseudomonas_monteilii_002943995
+|  |  +--|
+|  |     +--Pseudomonas_putida_000019445
++--|
+|  +--Pseudomonas_monteilii_001534745
+|
++**Pseudomonas_putida_002736125
+
+Tree in newick format:
+
+(Pseudomonas_putida_002736045:0.0000020744,(((((((((((((((((((((((((Salmonella_enterica_003589865:0.0000020754,(Salmonella_enterica_003595645:0.0000020446,Salmonella_enterica_003589805:0.0000020446):0.0000022424):0.0006122299,((Salmonella_enterica_000272895:0.0000020446,((((Salmonella_enterica_000330485:0.0030858743,Salmonella_enterica_000973685:0.0000020446):0.0000026103,Salmonella_enterica_000272735:0.0000022465):0.0000022285,Salmonella_enterica_000272715:0.0000020446):0.0000023561,Salmonella_enterica_000272755:0.0000020446):0.0000024492):0.0047264709,Salmonella_enterica_002984035:0.0000022660):0.0055658377):0.0005583029,((((((((((((((((((((((((Salmonella_enterica_001705055:0.0000020446,((Salmonella_enterica_002761155:0.0000022709,((Salmonella_enterica_001975265:0.0000021641,Salmonella_enterica_002763415:0.0000020446):0.0000021302,Salmonella_enterica_002761015:0.0000020446):0.0013020344):0.0000022774,Salmonella_enterica_002313105:0.0000020446):0.0000020486):0.0000023681,Salmonella_enterica_001305235:0.0000020446):0.0000016706,Salmonella_enterica_002760915:0.0000029211):0.0000021737,Salmonella_enterica_000750375:0.0000020446):0.0000027317,Salmonella_enterica_000009505:0.0000020446):0.0000017755,Salmonella_enterica_000623615:0.0000020446):0.0000021745,Salmonella_enterica_000626375:0.0000020446):0.0000027300,Salmonella_enterica_002761075:0.0000020446):0.0000020446,Salmonella_enterica_000624395:0.0000020446):0.0000020230,Salmonella_enterica_001973275:0.0000020446):0.0000027197,Salmonella_enterica_000623335:0.0000029108):0.0329163611,(Salmonella_enterica_000623375:0.0075461882,(Salmonella_enterica_000623275:0.0000029681,Salmonella_enterica_000623295:0.0000020446):0.0006399455):0.0215299610):0.0297086031,((Salmonella_enterica_001890165:0.0000020968,Salmonella_enterica_000271905:0.0000022668):0.0027006506,Salmonella_enterica_000486445:0.0057038694):0.0067243527):0.0093750059,(((Salmonella_enterica_001975345:0.0000020446,(Salmonella_enterica_002119485:0.0068083680,((Salmonella_enterica_002762135:0.0006158584,Salmonella_enterica_001975325:0.0000025943):0.0000026949,Salmonella_enterica_002234755:0.0000020446):0.0000022757):0.0112755736):0.0000020403,Salmonella_enterica_000020885:0.0000020446):0.0000027379,Salmonella_enterica_000940895:0.0000021704):0.0166955096):0.0161706729,Salmonella_enterica_003324935:0.0012003534):0.0006518868,(((((Salmonella_enterica_002224405:0.0012293014,((((Salmonella_enterica_001577505:0.0000020446,(Salmonella_enterica_002210025:0.0000020446,Salmonella_enterica_001540845:0.0000020446):0.0000025534):0.0000026394,Salmonella_enterica_001623685:0.0000020446):0.0000023899,Salmonella_enterica_001953695:0.0000020446):0.0005952120,((((Salmonella_enterica_001623775:0.0000020446,(((Salmonella_enterica_001729225:0.0000020446,Salmonella_enterica_003031875:0.0000025354):0.0000029038,Salmonella_enterica_000430165:0.0000020446):0.0000021536,Salmonella_enterica_000027025:0.0000020446):0.0000020657):0.0000025048,Salmonella_enterica_001441205:0.0000020446):0.0000024480,Salmonella_enterica_001690115:0.0000020446):0.0070180371,(Salmonella_enterica_003710205:0.0095122487,Salmonella_enterica_900635725:0.0307628571):0.0056968506):0.0007896992):0.0000024781):0.0017253644,Salmonella_enterica_003325015:0.0084598857):0.0006919240,Salmonella_enterica_002386325:0.0023878106):0.0117161359,Salmonella_enterica_001956735:0.0000023959):0.0000024817,Salmonella_enterica_003030125:0.0000020446):0.0007670198):0.0000023742,Salmonella_enterica_002234775:0.0000020446):0.0000022730,Salmonella_enterica_002946375:0.0000020446):0.0000020523,Salmonella_enterica_003073555:0.0000020446):0.0015696251,(Salmonella_enterica_001629755:0.0062914610,Salmonella_enterica_002211865:0.0030918803):0.0119312996):0.0018829116,Salmonella_enterica_001975445:0.0000022917):0.0019291739,Salmonella_enterica_001620155:0.0000020446):0.0000021413,Salmonella_enterica_001620115:0.0000020446):0.0000028465,Salmonella_enterica_001623625:0.0000020446):0.0000020374):0.0079207621,Salmonella_enterica_001975365:0.0014975554):0.0006232882,((Salmonella_enterica_003071485:0.0000021227,(((((Salmonella_enterica_000245535:0.0000020446,(((Salmonella_enterica_003717675:0.0000020446,Salmonella_enterica_001121865:0.0000020486):0.0000020446,Salmonella_enterica_001095585:0.0000020446):0.0000020446,Salmonella_enterica_003717955:0.0000020446):0.0000025750):0.0000020446,Salmonella_enterica_001361075:0.0000020446):0.0000023142,Salmonella_enterica_000007545:0.0000020446):0.0098287686,Salmonella_enterica_001975515:0.0007122144):0.0000027806,(Salmonella_enterica_002208255:0.0000021082,((Salmonella_enterica_003429445:0.0058001982,Salmonella_enterica_000018705:0.0000024436):0.0017790038,Salmonella_enterica_000973665:0.0051121410):0.0004937548):0.0086400473):0.0018413608):0.0000023417,Salmonella_enterica_003073575:0.0000020446):0.0033781605):0.0014765844,(Salmonella_enterica_003324955:0.0006621539,Salmonella_enterica_900477885:0.0006612035):0.0004923996):0.0104895952,(Salmonella_enterica_001447095:0.0000020446,Salmonella_enterica_001447115:0.0009140698):0.0008528434):0.0078987107,(((Salmonella_bongori_002211925:0.0000020446,Salmonella_bongori_000252995:0.0000020446):0.0000020446,Salmonella_bongori_000709535:0.0000020446):0.0000026233,Salmonella_bongori_000439255:0.0000029084):0.0428551502):0.0254691109,(((((((((((((((((((Escherichia_coli_003180975:0.0000020446,(((((Escherichia_coli_003956305:0.0000020446,Escherichia_coli_900636055:0.0000021960):0.0000023542,(Escherichia_coli_000814145:0.0000022942,Escherichia_coli_003111785:0.0041006755):0.0000026690):0.0008155432,Escherichia_coli_002741215:0.0000021892):0.0001659652,Escherichia_coli_002953075:0.0000020446):0.0000012456,Escherichia_coli_002201835:0.0000020446):0.0000010138):0.0000010064,Escherichia_coli_001682305:0.0000020446):0.0000015125,Escherichia_coli_001936315:0.0008342774):0.0000011067,Escherichia_coli_000023365:0.0000020446):0.0000010500,Escherichia_coli_002012185:0.0000020446):0.0006370005,(((((((((Escherichia_coli_002870165:0.0016153584,Escherichia_coli_000833635:0.0000020446):0.0000011177,Escherichia_coli_003367885:0.0000020446):0.0000026955,Escherichia_coli_002952875:0.0000025741):0.0000010966,Escherichia_coli_001723505:0.0000020446):0.0000028440,Escherichia_coli_900635215:0.0000020446):0.0000028567,Escherichia_coli_002903125:0.0000020446):0.0000026997,Escherichia_coli_001020945:0.0000020446):0.0000026028,Escherichia_coli_002850675:0.0000020446):0.0000021018,Escherichia_coli_002786655:0.0000020446):0.0008151976):0.0022500975,((Escherichia_coli_002142695:0.0000021445,((Escherichia_coli_000520035:0.0000025334,Escherichia_coli_000671295:0.0000025169):0.0032897505,Escherichia_coli_002853655:0.0000022894):0.0008114807):0.0000026413,Escherichia_coli_900474495:0.0016414092):0.0005426083):0.0012823699,(Escherichia_coli_900174625:0.0000020308,Escherichia_coli_003018275:0.0000021301):0.0000021814):0.0000015122,Escherichia_coli_900636195:0.0000020446):0.0000016611,Escherichia_coli_003591595:0.0000020446):0.0008086815,Escherichia_coli_003018395:0.0041005443):0.0000026190,((Escherichia_coli_003073955:0.0000020446,Escherichia_coli_002165115:0.0000027071):0.0000026172,Escherichia_coli_001900415:0.0008164684):0.0008155181):0.0016282159,Escherichia_coli_003019115:0.0000021914):0.0000025812,(Escherichia_coli_001900885:0.0057856924,(((Escherichia_coli_001900615:0.0008197050,Escherichia_coli_003018535:0.0008139450):0.0000025342,Escherichia_coli_003112185:0.0000020446):0.0000021946,Escherichia_coli_002741455:0.0000020446):0.0016017425):0.0000020954):0.0007806516,(((((((((Escherichia_coli_002812545:0.0009300652,Escherichia_coli_000219515:0.0000028803):0.0098009360,Escherichia_coli_003204155:0.0000023155):0.0013878029,Escherichia_coli_900635325:0.0014140013):0.0033651993,Escherichia_coli_000025165:0.0000026847):0.0021262603,(((((Escherichia_coli_002249955:0.0000020446,((Escherichia_coli_001651965:0.0000029369,Escherichia_coli_001753525:0.0000020446):0.0000010642,Escherichia_coli_001890265:0.0000020446):0.0000029378):0.0000010938,Escherichia_coli_004010655:0.0000020446):0.0000010157,Escherichia_coli_001558995:0.0000020446):0.0000022687,Escherichia_coli_000022225:0.0000020446):0.0000020462,Escherichia_coli_002741555:0.0000020446):0.0008254125):0.0023627878,Escherichia_coli_003722195:0.0007905890):0.0085066452,Escherichia_coli_001900675:0.0047446127):0.0031992486,Escherichia_coli_003017935:0.0024636736):0.0000021245,Escherichia_coli_001900905:0.0000020248):0.0019918436):0.0008202277,Escherichia_coli_002211725:0.0000022820):0.0059504077,(((Escherichia_coli_000147855:0.0000021864,(Escherichia_coli_003017805:0.0012334461,Escherichia_coli_002163935:0.0000026500):0.0011900438):0.0000016887,Escherichia_coli_000184185:0.0000020446):0.0000019885,Escherichia_coli_002999075:0.0000020446):0.0000028109):0.0013305588,((((((((((((((((Escherichia_coli_001566615:0.0000020446,(Escherichia_coli_000014845:0.0311053454,Escherichia_coli_003966775:0.0000020446):0.0000020446):0.0000020446,Escherichia_coli_003571665:0.0000020446):0.0000020521,Escherichia_coli_002056635:0.0000020446):0.0000020521,Escherichia_coli_002012265:0.0000020446):0.0000020521,Escherichia_coli_003856695:0.0000020446):0.0000020521,Escherichia_coli_002011965:0.0000020446):0.0000020521,Escherichia_coli_000010485:0.0000020446):0.0000024570,Escherichia_coli_001618325:0.0000029714):0.0091042806,(Escherichia_coli_900636065:0.0000026536,Escherichia_coli_002011985:0.0000026693):0.0024570687):0.0010306193,Escherichia_coli_003410275:0.0000026951):0.0019964816,(((Escherichia_coli_001280405:0.0000020446,((((Escherichia_coli_002953435:0.0000020446,Escherichia_coli_002846135:0.0000020446):0.0000020446,Escherichia_coli_000148605:0.0000020446):0.0000020816,Escherichia_coli_001280325:0.0000020446):0.0000022268,Escherichia_coli_001280385:0.0000020446):0.0000020446):0.0028223380,Escherichia_coli_001675145:0.0025300436):0.0112551581,((Escherichia_coli_002357915:0.0000020446,Escherichia_coli_003018095:0.0012071219):0.0000023435,Escherichia_coli_002009315:0.0000022736):0.0011774900):0.0057251302):0.0000020613,(Escherichia_coli_000022665:0.0000020446,Escherichia_coli_001559615:0.0000020446):0.0008160243):0.0076351714,(Escherichia_coli_002591135:0.0000029341,(Escherichia_coli_003856675:0.0000024008,Escherichia_coli_002164595:0.0000020692):0.0020301183):0.0040596773):0.0043683201,Escherichia_coli_001677475:0.0000023727):0.0020914395,Escherichia_coli_003018935:0.0000026442):0.0000012798,Escherichia_coli_002105735:0.0000020446):0.0008890064):0.0000020702,(((Escherichia_coli_000599645:0.0000020446,Escherichia_coli_001901315:0.0012271583):0.0000023862,Escherichia_coli_000597845:0.0000020446):0.0018361894,Escherichia_coli_002741255:0.0000021520):0.0018272707):0.0102781409):0.0118132926,Escherichia_albertii_003312525:0.0014866694):0.0121202329,(Escherichia_albertii_003312545:0.0032943569,Escherichia_albertii_003312485:0.0008151183):0.0008152742):0.0000025663,Escherichia_albertii_002872455:0.0000020446):0.0008655636,((Escherichia_albertii_003860385:0.0008169650,(Escherichia_albertii_002285475:0.0000020446,Escherichia_albertii_003860365:0.0008131361):0.0032711254):0.0016376532,(Escherichia_albertii_002285455:0.0067593003,(Escherichia_albertii_002741375:0.0016811571,(Escherichia_albertii_003864095:0.0017186341,(Escherichia_albertii_000512125:0.0192641614,Escherichia_albertii_002895205:0.0016607048):0.0017150220):0.0056927074):0.0013573513):0.0008501618):0.0035014179):0.0016254696,Escherichia_albertii_001549955:0.0000021909):0.0032790717,Escherichia_albertii_003316815:0.0000020751):0.6341726185,(((((((((((((((((Neisseria_meningitidis_001697305:0.0000020446,Neisseria_meningitidis_001697805:0.0000020446):0.0000028641,(Neisseria_meningitidis_001697785:0.0000020446,Neisseria_meningitidis_001697825:0.0000020997):0.0000026336):0.0000012758,Neisseria_meningitidis_000800235:0.0000023738):0.0008310810,((Neisseria_meningitidis_001029815:0.0000020234,Neisseria_meningitidis_000191425:0.0000020230):0.0047998410,((((Neisseria_meningitidis_001698085:0.0000020446,Neisseria_meningitidis_001697505:0.0000020446):0.0000020446,Neisseria_meningitidis_001697345:0.0000020446):0.0000020446,Neisseria_meningitidis_001697625:0.0000020446):0.0000020728,Neisseria_meningitidis_001698025:0.0000025811):0.0066871128):0.0028508419):0.0008402643,(((((Neisseria_meningitidis_001697525:0.0000020446,(((((Neisseria_meningitidis_001697485:0.0000020446,((Neisseria_meningitidis_000800275:0.0044805230,Neisseria_meningitidis_002075815:0.0000020446):0.0000020446,Neisseria_meningitidis_000787195:0.0000020446):0.0000020446):0.0000020446,Neisseria_meningitidis_000009465:0.0000020446):0.0000020446,Neisseria_meningitidis_002556585:0.0000020446):0.0000020446,((Neisseria_meningitidis_001698065:0.0000020446,(Neisseria_meningitidis_001697385:0.0000020446,Neisseria_meningitidis_003355235:0.0005599720):0.0000016863):0.0000011287,Neisseria_meningitidis_001697725:0.0000020446):0.0002697362):0.0000023751,Neisseria_meningitidis_000800315:0.0000020446):0.0000010404):0.0000021563,Neisseria_meningitidis_001697545:0.0000020446):0.0008895646,Neisseria_meningitidis_002073675:0.0000020952):0.0017810367,(Neisseria_meningitidis_900638595:0.0000025071,Neisseria_meningitidis_003355295:0.0025027206):0.0041841100):0.0008963487,(((((Neisseria_meningitidis_000191505:0.0000020446,Neisseria_meningitidis_003355435:0.0000020446):0.0008331296,(Neisseria_meningitidis_000008805:0.0000026165,((Neisseria_meningitidis_002073595:0.0000020446,Neisseria_meningitidis_000816165:0.0103078212):0.0000027663,Neisseria_meningitidis_000191445:0.0000020446):0.0000028174):0.0018382209):0.0009220165,Neisseria_meningitidis_000014105:0.0025112772):0.0009243268,Neisseria_meningitidis_003355315:0.0025115589):0.0009209280,(Neisseria_meningitidis_000083565:0.0025133159,Neisseria_meningitidis_003355395:0.0025065440):0.0008373036):0.0009148716):0.0000022129):0.0008653325,Neisseria_meningitidis_003355375:0.0033648366):0.0017487573,(Neisseria_meningitidis_001974965:0.0008353945,(((Neisseria_meningitidis_000191525:0.0000020446,Neisseria_meningitidis_001029835:0.0000020446):0.0000025221,Neisseria_meningitidis_001697105:0.0000020446):0.0008329853,Neisseria_meningitidis_000152165:0.0008325484):0.0008324434):0.0008347377):0.0000024819,Neisseria_meningitidis_000026965:0.0016706626):0.0034845900,Neisseria_meningitidis_003355215:0.0025063082):0.0000025747,(((Neisseria_meningitidis_000009105:0.0000027832,Neisseria_meningitidis_900638575:0.0000027861):0.0016795136,((Neisseria_meningitidis_001750825:0.0000024888,Neisseria_meningitidis_000626595:0.0000024665):0.0008313033,Neisseria_meningitidis_000253215:0.0000021252):0.0008217947):0.0038447851,Neisseria_meningitidis_001697125:0.0008216330):0.0028719470):0.0016771234,(Neisseria_meningitidis_002073235:0.0008325422,(Neisseria_meningitidis_002073275:0.0000020446,Neisseria_meningitidis_002073555:0.0000020446):0.0000020446):0.0008341020):0.0000026032,Neisseria_meningitidis_000191485:0.0025004774):0.0066917772,(((((((((Neisseria_gonorrhoeae_001661115:0.0008339257,Neisseria_gonorrhoeae_001047255:0.0008338520):0.0000020446,Neisseria_gonorrhoeae_002073655:0.0000020446):0.0000020446,(((Neisseria_gonorrhoeae_000020105:0.0000020446,Neisseria_gonorrhoeae_900186875:0.0006618620):0.0000012701,Neisseria_gonorrhoeae_900186915:0.0000020446):0.0000015960,Neisseria_gonorrhoeae_003571465:0.0000020446):0.0001685234):0.0000026248,Neisseria_gonorrhoeae_003855435:0.0008338824):0.0008338608,Neisseria_gonorrhoeae_900186935:0.0008340346):0.0000029204,Neisseria_gonorrhoeae_900637245:0.0000022328):0.0008337947,(((Neisseria_gonorrhoeae_001047225:0.0000020446,Neisseria_gonorrhoeae_002073535:0.0000020446):0.0000021825,(Neisseria_gonorrhoeae_001661135:0.0008339814,Neisseria_gonorrhoeae_001661085:0.0008340002):0.0000020446):0.0008337780,(Neisseria_gonorrhoeae_001047275:0.0000020446,Neisseria_gonorrhoeae_002073615:0.0000021844):0.0000025334):0.0000026935):0.0016102302,Neisseria_gonorrhoeae_000006845:0.0129725750):0.0143039554,((Neisseria_lactamica_002022745:0.0034180854,Neisseria_lactamica_003351565:0.0024473335):0.0016371173,Neisseria_lactamica_000196295:0.0027615353):0.0206151391):0.0093770766):0.0095666375,(Neisseria_elongata_000818035:0.0000020446,Neisseria_elongata_900475815:0.0000020298):0.0077589762):0.0033293475,Neisseria_elongata_003351685:0.0015700131):0.0051589610,Neisseria_elongata_003351545:0.0000028150):0.6223107377,((((Leptospira_mayottensis_003429525:0.0000020446,Leptospira_mayottensis_000306675:0.0000020446):0.0008790985,Leptospira_mayottensis_003429505:0.0000027027):0.0016842799,(((((Leptospira_interrogans_000231175:0.0000020446,Leptospira_interrogans_000092565:0.0000020446):0.0000020446,Leptospira_interrogans_001293065:0.0000020446):0.0008272434,(((Leptospira_interrogans_001047655:0.0000020446,Leptospira_interrogans_002073495:0.0000020446):0.0000020446,Leptospira_interrogans_001010765:0.0007941681):0.0039989514,Leptospira_interrogans_000941035:0.0000020446):0.0023575723):0.0244622130,(Leptospira_borgpetersenii_003516145:0.0000020446,Leptospira_borgpetersenii_001444465:0.0000020446):0.0038964476):0.0040241572,(Leptospira_borgpetersenii_000013965:0.0004948470,(Leptospira_borgpetersenii_003254845:0.0000020446,Leptospira_borgpetersenii_000013945:0.0000020446):0.0000031177):0.0123996629):0.0130058914):1.9742138161,((((((((((Helicobacter_pylori_000148895:0.0016836637,(((Helicobacter_pylori_000277365:0.0025211939,Helicobacter_pylori_000148915:0.0033806641):0.0000027867,Helicobacter_pylori_000277385:0.0033689501):0.0008387726,Helicobacter_pylori_000020245:0.0016779789):0.0008317242):0.0000029701,Helicobacter_pylori_000277405:0.0042491234):0.0008379608,(((((((Helicobacter_pylori_000178935:0.0025152862,Helicobacter_pylori_000270025:0.0016898942):0.0018416279,((Helicobacter_pylori_003957395:0.0042305354,Helicobacter_pylori_001653395:0.0028586968):0.0000025219,Helicobacter_pylori_000270005:0.0033581433):0.0017264651):0.0028584682,Helicobacter_pylori_000348865:0.0041045853):0.0009021522,(((Helicobacter_pylori_000600145:0.0025422540,Helicobacter_pylori_000600205:0.0033981473):0.0025292663,Helicobacter_pylori_002356595:0.0042409529):0.0008470514,(Helicobacter_pylori_000392455:0.0000020446,Helicobacter_pylori_000439295:0.0000020446):0.0050786290):0.0008905976):0.0008590932,(((Helicobacter_pylori_000685745:0.0034149358,Helicobacter_pylori_000392535:0.0042459573):0.0008168250,Helicobacter_pylori_000213135:0.0034052850):0.0017513898,((Helicobacter_pylori_000317875:0.0050967840,((Helicobacter_pylori_000270045:0.0017038367,(Helicobacter_pylori_000023805:0.0025494410,Helicobacter_pylori_002222575:0.0042559096):0.0025379504):0.0008297498,Helicobacter_pylori_000011725:0.0033991159):0.0000022830):0.0025307672,Helicobacter_pylori_000348885:0.0025485529):0.0007839016):0.0008292800):0.0008778872,((((((((((Helicobacter_pylori_002952495:0.0000020446,Helicobacter_pylori_002952575:0.0000020446):0.0000020446,Helicobacter_pylori_002952355:0.0000020446):0.0033740515,(Helicobacter_pylori_003939085:0.0017030678,Helicobacter_pylori_003640585:0.0077175012):0.0016826277):0.0000020477,((Helicobacter_pylori_000498315:0.0000020446,Helicobacter_pylori_000498335:0.0000025954):0.0025589740,Helicobacter_pylori_000013245:0.0033942185):0.0025338190):0.0008433735,(Helicobacter_pylori_001433495:0.0074890148,Helicobacter_pylori_000185225:0.0034126285):0.0018530544):0.0009074381,(((Helicobacter_pylori_000021165:0.0025533581,Helicobacter_pylori_000091345:0.0062112177):0.0008581705,((Helicobacter_pylori_000255955:0.0026496998,(((((Helicobacter_pylori_000827025:0.0000020446,(Helicobacter_pylori_000307835:0.0000020446,(Helicobacter_pylori_000307815:0.0000020446,Helicobacter_pylori_000008525:0.0000020534):0.0000020534):0.0000020446):0.0000020446,Helicobacter_pylori_000829095:0.0000020446):0.0000020446,Helicobacter_pylori_000829115:0.0000020446):0.0000020446,Helicobacter_pylori_002906555:0.0000020446):0.0000020446,Helicobacter_pylori_000829135:0.0008421281):0.0027788259):0.0009470558,(Helicobacter_pylori_000828955:0.0025382689,Helicobacter_pylori_001433515:0.0017036099):0.0008365541):0.0048195337):0.0000027327,((Helicobacter_pylori_003050665:0.0000023819,Helicobacter_pylori_900478295:0.0000022125):0.0042333763,(Helicobacter_pylori_000185185:0.0033864768,Helicobacter_pylori_000224575:0.0051187536):0.0025327134):0.0000026601):0.0009947692):0.0000020090,Helicobacter_pylori_000685625:0.0025242340):0.0053454979,Helicobacter_pylori_000259235:0.0025357933):0.0000022062,Helicobacter_pylori_001991095:0.0025287503):0.0011219365,(((Helicobacter_pylori_000600045:0.0000020446,Helicobacter_pylori_000600085:0.0000020446):0.0000026508,(Helicobacter_pylori_000600165:0.0093638075,Helicobacter_pylori_000600225:0.0008444107):0.0008387056):0.0017374227,Helicobacter_pylori_000148855:0.0033577170):0.0016884851):0.0063866382):0.0012662470,Helicobacter_pylori_000315955:0.0016871462):0.0012567624):0.0010049951,(Helicobacter_pylori_000224555:0.0011414896,Helicobacter_pylori_000224535:0.0050752630):0.0022749851):0.0000021641,Helicobacter_pylori_000093185:0.0025369880):0.0040764430,Helicobacter_pylori_000277425:0.0051247003):0.0000022323,((((Helicobacter_pylori_900120135:0.0000020446,Helicobacter_pylori_900120205:0.0000020446):0.0016911673,Helicobacter_pylori_001653475:0.0165602932):0.0016794507,(((((Helicobacter_pylori_000008785:0.0016872556,Helicobacter_pylori_002983705:0.0000022832):0.0032513275,((Helicobacter_pylori_000192335:0.0016818982,Helicobacter_pylori_000192315:0.0008431066):0.0025501722,Helicobacter_pylori_000185245:0.0059714617):0.0009585562):0.0008397666,Helicobacter_pylori_900638475:0.0035314732):0.0012237849,Helicobacter_pylori_001653415:0.0022106201):0.0006406107,Helicobacter_pylori_000185205:0.0025331204):0.0008369644):0.0030403751,Helicobacter_pylori_000148875:0.0042527135):0.0019948987):0.0042587146,Helicobacter_pylori_001653375:0.0060140555):0.0022100682,Helicobacter_pylori_000392515:0.0046541771):0.3148216029,((Helicobacter_cinaedi_000284635:0.0016940588,((Helicobacter_cinaedi_003574195:0.0000020446,Helicobacter_cinaedi_003213725:0.0007034962):0.0000021083,Helicobacter_cinaedi_003213825:0.0000020446):0.0001354430):0.0032867408,(Helicobacter_cinaedi_003214155:0.0000027950,Helicobacter_cinaedi_000349975:0.0025353356):0.0001083194):0.1896868634):2.0243293176):1.1201581924):0.3219159442):0.3273577779,(((Pseudomonas_stutzeri_000327065:0.0000020446,Pseudomonas_stutzeri_003001655:0.0000020446):0.0000023087,(((Pseudomonas_stutzeri_000279165:0.0348311011,(Pseudomonas_stutzeri_001648195:0.0036905161,Pseudomonas_stutzeri_000590475:0.0032032717):0.0135317067):0.0074484160,(Pseudomonas_stutzeri_000267545:0.0000020446,Pseudomonas_stutzeri_900638035:0.0000020446):0.0009988533):0.0023238339,Pseudomonas_stutzeri_000661915:0.0008276572):0.0008286304):0.0103132350,((((((Pseudomonas_stutzeri_900636845:0.0000020446,Pseudomonas_stutzeri_000219605:0.0000020446):0.0005042147,Pseudomonas_stutzeri_000013785:0.0000020446):0.0000015850,Pseudomonas_stutzeri_003047145:0.0000020446):0.0003195292,Pseudomonas_stutzeri_001038645:0.0008268659):0.0000025471,Pseudomonas_stutzeri_000195105:0.0000020446):0.0000010862,Pseudomonas_stutzeri_003008495:0.0008267597):0.0040997737):0.0175025821):0.0180845390,(((((Pseudomonas_mendocina_002442555:0.0025343668,Pseudomonas_mendocina_000016565:0.0011599316):0.0141038923,Pseudomonas_mendocina_000733715:0.0000025945):0.0008726408,Pseudomonas_mendocina_900636545:0.0000020446):0.0000024996,Pseudomonas_mendocina_000204295:0.0000020446):0.0102832278,Pseudomonas_mendocina_003008615:0.0135982638):0.0324772714):0.0274845746,((((((((((((((((((((Pseudomonas_aeruginosa_001516165:0.0000020446,(((((((((((((((((((Pseudomonas_aeruginosa_001516205:0.0000023679,(Pseudomonas_aeruginosa_002812865:0.0000020446,Pseudomonas_aeruginosa_001516185:0.0000020446):0.0000020446):0.0000020446,Pseudomonas_aeruginosa_003369755:0.0000020446):0.0000020446,Pseudomonas_aeruginosa_000026645:0.0000020446):0.0000020446,(((Pseudomonas_aeruginosa_002085605:0.0000020446,(((Pseudomonas_aeruginosa_001879525:0.0000020446,Pseudomonas_aeruginosa_000271365:0.0000020446):0.0000020446,Pseudomonas_aeruginosa_000508765:0.0000020446):0.0000020446,Pseudomonas_aeruginosa_003408495:0.0000020446):0.0000020446):0.0000020446,Pseudomonas_aeruginosa_003571505:0.0000020446):0.0000020446,Pseudomonas_aeruginosa_000829885:0.0000020446):0.0000020446):0.0000020446,((Pseudomonas_aeruginosa_001900265:0.0000020446,Pseudomonas_aeruginosa_001900225:0.0000020446):0.0000020446,(((Pseudomonas_aeruginosa_001792855:0.0000020446,Pseudomonas_aeruginosa_001792835:0.0000020446):0.0000010205,Pseudomonas_aeruginosa_003369735:0.0000020446):0.0000012299,Pseudomonas_aeruginosa_002205375:0.0000020446):0.0008284247):0.0000020446):0.0000020446,(Pseudomonas_aeruginosa_900185255:0.0000020446,Pseudomonas_aeruginosa_001045685:0.0000020446):0.0000020446):0.0000020446,(((((Pseudomonas_aeruginosa_001687285:0.0000020446,((((Pseudomonas_aeruginosa_000524595:0.0000020446,Pseudomonas_aeruginosa_001594325:0.0000020446):0.0000020446,(Pseudomonas_aeruginosa_000496605:0.0000020446,Pseudomonas_aeruginosa_001618925:0.0000020446):0.0000020446):0.0000026281,Pseudomonas_aeruginosa_001516245:0.0000020446):0.0000025871,Pseudomonas_aeruginosa_003193645:0.0008305720):0.0003899469):0.0000011766,Pseudomonas_aeruginosa_900636755:0.0000020446):0.0004070526,Pseudomonas_aeruginosa_001515915:0.0000020446):0.0000024766,Pseudomonas_aeruginosa_000271985:0.0000020446):0.0000015211,Pseudomonas_aeruginosa_001515845:0.0000020446):0.0000271504):0.0000026369,(((((Pseudomonas_aeruginosa_002215345:0.0000020446,Pseudomonas_aeruginosa_003206535:0.0000020446):0.0000025226,Pseudomonas_fluorescens_900636635:0.0000020446):0.0000012165,Pseudomonas_aeruginosa_003073695:0.0025131909):0.0008271877,Pseudomonas_aeruginosa_000496455:0.0000020446):0.0000011107,Pseudomonas_aeruginosa_000510305:0.0000020446):0.0000010209):0.0000020396,Pseudomonas_aeruginosa_001077475:0.0000020446):0.0008265952,Pseudomonas_aeruginosa_900636735:0.0000020446):0.0000024773,(((((((Pseudomonas_aeruginosa_003952325:0.0011670845,Pseudomonas_aeruginosa_000359505:0.0000029166):0.0000014983,Pseudomonas_aeruginosa_003991465:0.0000020446):0.0000021974,Pseudomonas_aeruginosa_001518975:0.0000020446):0.0000021069,Pseudomonas_aeruginosa_001516365:0.0000020446):0.0000011229,Pseudomonas_aeruginosa_001722025:0.0000020446):0.0000010415,Pseudomonas_aeruginosa_001721825:0.0000020446):0.0011265868,Pseudomonas_aeruginosa_001547955:0.0000020446):0.0000248759):0.0000025673,Pseudomonas_aeruginosa_000504045:0.0000020446):0.0000014056,Pseudomonas_aeruginosa_003813025:0.0000020446):0.0000010256,Pseudomonas_aeruginosa_001516325:0.0000020446):0.0011598735,Pseudomonas_aeruginosa_000006765:0.0458435334):0.0000020446,Pseudomonas_aeruginosa_004010895:0.0000020446):0.0000020446,Pseudomonas_aeruginosa_003957825:0.0000020446):0.0000020446,Pseudomonas_aeruginosa_001729505:0.0000020446):0.0000023697,Pseudomonas_aeruginosa_900636975:0.0000020446):0.0000021434):0.0011197831,Pseudomonas_aeruginosa_002104595:0.0000020446):0.0000023173,Pseudomonas_aeruginosa_001874465:0.0000020446):0.0000522571,Pseudomonas_aeruginosa_003812885:0.0000020446):0.0000021502,Pseudomonas_aeruginosa_002812905:0.0000020446):0.0000021568,Pseudomonas_aeruginosa_002968955:0.0000020446):0.0000023173,Pseudomonas_aeruginosa_003433235:0.0000020446):0.0000020405,Pseudomonas_aeruginosa_003288355:0.0000020446):0.0011678518,Pseudomonas_aeruginosa_002812825:0.0000020446):0.0000025624,Pseudomonas_aeruginosa_003798125:0.0000020446):0.0000020748,Pseudomonas_aeruginosa_001482325:0.0008328059):0.0000029280,Pseudomonas_aeruginosa_900618285:0.0000020446):0.0000022513,Pseudomonas_aeruginosa_001632245:0.0000020446):0.0000022513,Pseudomonas_aeruginosa_002237405:0.0000020446):0.0000027965,Pseudomonas_aeruginosa_002237425:0.0000020446):0.0000029908,((Pseudomonas_aeruginosa_001548135:0.0000020446,Pseudomonas_aeruginosa_001516005:0.0000027119):0.0000024897,(Pseudomonas_aeruginosa_900618325:0.0000027857,Pseudomonas_aeruginosa_900618315:0.0000028551):0.0000026232):0.0008306967):0.0000020507,Pseudomonas_aeruginosa_900095805:0.0000021296):0.0000021849,Pseudomonas_aeruginosa_000014625:0.0000020446):0.0000029038,Pseudomonas_aeruginosa_900618305:0.0000022819):0.0007741846,Pseudomonas_aeruginosa_003332705:0.0009000623):0.0773323131):0.0117006713,(((((((((Pseudomonas_putida_003228315:0.0031152821,(((Pseudomonas_chlororaphis_003851985:0.0024890938,((((((((Pseudomonas_chlororaphis_002844145:0.0000027330,Pseudomonas_chlororaphis_003851365:0.0000027329):0.0000026307,Pseudomonas_chlororaphis_003851405:0.0000020446):0.0000023602,Pseudomonas_chlororaphis_003851905:0.0000020446):0.0000026324,(Pseudomonas_chlororaphis_003851265:0.0000026710,Pseudomonas_chlororaphis_003851785:0.0016543387):0.0008263530):0.0008169054,Pseudomonas_chlororaphis_003851865:0.0000020446):0.0000090795,((((((Pseudomonas_chlororaphis_003851225:0.0000020446,(Pseudomonas_chlororaphis_003851305:0.0000020446,Pseudomonas_chlororaphis_000761195:0.0000020446):0.0000020446):0.0000020446,Pseudomonas_chlororaphis_002355875:0.0000020446):0.0000016680,Pseudomonas_chlororaphis_003851385:0.0000020446):0.0000014456,Pseudomonas_chlororaphis_003851925:0.0000020446):0.0006310623,Pseudomonas_chlororaphis_003851345:0.0000020446):0.0000014601,Pseudomonas_chlororaphis_000698865:0.0000020446):0.0001899368):0.0000026574,Pseudomonas_chlororaphis_003851445:0.0000020446):0.0000020015,Pseudomonas_chlororaphis_003852005:0.0000020446):0.0000025772):0.0008257055,(Pseudomonas_chlororaphis_003850405:0.0000020446,((Pseudomonas_chlororaphis_003850425:0.0000020446,(((Pseudomonas_chlororaphis_900636995:0.0000020446,Pseudomonas_chlororaphis_003850385:0.0000020446):0.0000022947,(Pseudomonas_chlororaphis_003850605:0.0016565243,Pseudomonas_chlororaphis_003850345:0.0000020591):0.0008269859):0.0008218382,Pseudomonas_chlororaphis_003850445:0.0000021732):0.0000012372):0.0000026443,Pseudomonas_chlororaphis_003850465:0.0000020446):0.0000020920):0.0000023641):0.0000020622,((((((((Pseudomonas_protegens_002208745:0.0000020446,Pseudomonas_protegens_000397205:0.0000020446):0.0000025248,Pseudomonas_protegens_000828695:0.0008259963):0.0000020446,Pseudomonas_protegens_002006545:0.0000020446):0.0008276749,Pseudomonas_protegens_003363755:0.0033179312):0.0075865272,Pseudomonas_chlororaphis_000963835:0.0118892624):0.0016451231,(Pseudomonas_chlororaphis_003851145:0.0000020446,Pseudomonas_chlororaphis_001602135:0.0000025026):0.0000026064):0.0008252651,Pseudomonas_chlororaphis_003945765:0.0000026427):0.0008252757,Pseudomonas_chlororaphis_003008635:0.0000022169):0.0008254736):0.0052528075):0.0025598333,((Pseudomonas_fluorescens_003410335:0.0000025149,Pseudomonas_fluorescens_001307275:0.0008308189):0.0000020168,((Pseudomonas_brassicacearum_001449085:0.0000020446,((Pseudomonas_brassicacearum_001746815:0.0000020446,Pseudomonas_fluorescens_000237065:0.0000020446):0.0002144294,Pseudomonas_brassicacearum_000194805:0.0000021299):0.0000024346):0.0005833924,Pseudomonas_brassicacearum_000585995:0.0042409393):0.0033469095):0.0188668549):0.0017055901,((Pseudomonas_fluorescens_003055645:0.0008294842,Pseudomonas_fluorescens_000012445:0.0000021246):0.0041616824,Pseudomonas_syringae_004006335:0.0000022009):0.0018380135):0.0068026655,Pseudomonas_koreensis_003049825:0.0054458674):0.0023669226,(Pseudomonas_koreensis_001605965:0.0000024620,Pseudomonas_fluorescens_900636825:0.0016539112):0.0025085722):0.0034602701,Pseudomonas_koreensis_001654515:0.0000022634):0.0051904121,(((((((((Pseudomonas_synxantha_003851495:0.0000020446,Pseudomonas_synxantha_003851555:0.0000020446):0.0000021461,Pseudomonas_synxantha_003851465:0.0000020446):0.0000024071,Pseudomonas_synxantha_003851525:0.0000020446):0.0000020799,Pseudomonas_synxantha_003852025:0.0000020446):0.0000026247,Pseudomonas_synxantha_000968415:0.0000020446):0.0000020002,(((Pseudomonas_orientalis_003851585:0.0000024858,(Pseudomonas_orientalis_003851605:0.0000020446,(Pseudomonas_orientalis_003851645:0.0000020446,Pseudomonas_orientalis_003852045:0.0000020446):0.0000020446):0.0000023600):0.0050477385,(((((Pseudomonas_fluorescens_000293885:0.0050473453,(Pseudomonas_fluorescens_001307155:0.0000025750,Pseudomonas_frederiksbergensis_001874645:0.0066923216):0.0000025741):0.0069035581,(Pseudomonas_frederiksbergensis_001952935:0.0090984068,Pseudomonas_frederiksbergensis_002355315:0.0069156573):0.0035875018):0.0043936942,Pseudomonas_fluorescens_003626995:0.0009897698):0.0047475083,Pseudomonas_fluorescens_000009225:0.0065109336):0.0019696089,Pseudomonas_orientalis_002934065:0.0000024038):0.0016773650):0.0016846713,(Pseudomonas_fluorescens_900475215:0.0034007101,(Pseudomonas_fluorescens_001708445:0.0000023241,Pseudomonas_fluorescens_001708465:0.0000025538):0.0064412615):0.0027377109):0.0025289369):0.0051190659,(Pseudomonas_fluorescens_001747385:0.0000020446,Pseudomonas_fluorescens_000262325:0.0000029514):0.0016246581):0.0016751789,(Pseudomonas_chlororaphis_001023535:0.0044784479,Pseudomonas_fluorescens_000730425:0.0000024934):0.0051586928):0.0044049077,((Pseudomonas_fluorescens_000963495:0.0000025124,Pseudomonas_fluorescens_000934565:0.0000020446):0.0000024476,(Pseudomonas_fluorescens_003612935:0.0016212169,Pseudomonas_fluorescens_001708485:0.0093145815):0.0033824749):0.0032523677):0.0035810347):0.0046441790,(Pseudomonas_stutzeri_003952685:0.0000020446,Pseudomonas_stutzeri_003952645:0.0000020446):0.0029729286):0.0161588451,(((((((((Pseudomonas_syringae_002905815:0.0000026141,(Pseudomonas_syringae_000988485:0.0056689434,Pseudomonas_syringae_900235865:0.0000023512):0.0000026899):0.0011861591,Pseudomonas_syringae_000012245:0.0000020446):0.0000013697,Pseudomonas_syringae_900235825:0.0000021664):0.0000028867,Pseudomonas_syringae_000452445:0.0008254401):0.0000027510,Pseudomonas_syringae_001482725:0.0000020446):0.0000023852,Pseudomonas_syringae_003047185:0.0000020446):0.0030667002,Pseudomonas_syringae_001281365:0.0024918710):0.0000025437,((((((Pseudomonas_syringae_002966555:0.0000027153,Pseudomonas_syringae_900235835:0.0016521576):0.0000027124,(((Pseudomonas_syringae_002024305:0.0000020446,Pseudomonas_syringae_001913215:0.0000020446):0.0000023261,Pseudomonas_syringae_002763655:0.0008239994):0.0008253969,Pseudomonas_syringae_000344335:0.0000025809):0.0008241492):0.0016494075,Pseudomonas_syringae_900235905:0.0000028162):0.0016449994,Pseudomonas_syringae_000452705:0.0000028776):0.0000023773,Pseudomonas_syringae_000007805:0.0000022012):0.0073010800,Pseudomonas_syringae_000988395:0.0000022008):0.0009049283):0.0000021911,(Pseudomonas_syringae_900235885:0.0012789542,(Pseudomonas_syringae_900235815:0.0000020446,Pseudomonas_syringae_900289125:0.0000029612):0.0005228747):0.0031638292):0.0245197708):0.0148190528):0.0250654948,(Pseudomonas_entomophila_003940825:0.0173310087,Pseudomonas_entomophila_003940785:0.0016281101):0.0020070874):0.0020074997,(Pseudomonas_putida_001515585:0.0057437389,Pseudomonas_entomophila_000026105:0.0000027717):0.0079312239):0.0068088095,Pseudomonas_putida_002025705:0.0012628672):0.0102435530,(((((((((((Pseudomonas_putida_003671955:0.0008215629,Pseudomonas_putida_000016865:0.0000020446):0.0000028098,Pseudomonas_putida_000226035:0.0000020446):0.0000025160,Pseudomonas_putida_000271965:0.0000025428):0.0000029030,Pseudomonas_putida_000264665:0.0000024092):0.0008343961,((Pseudomonas_putida_000410575:0.0000020446,(Pseudomonas_putida_000325725:0.0000027335,(Pseudomonas_putida_000019125:0.0000020446,Pseudomonas_putida_001886975:0.0000020446):0.0000022133):0.0024569364):0.0000027273,((Pseudomonas_putida_000412675:0.0000020268,Pseudomonas_putida_000498395:0.0000020446):0.0000026595,Pseudomonas_putida_002356095:0.0000028415):0.0037442649):0.0046714923):0.0016554326,(Pseudomonas_parafulva_002021815:0.0075883374,(((Pseudomonas_putida_000183645:0.0000020446,(Pseudomonas_putida_000495455:0.0000024201,Pseudomonas_putida_001767335:0.0000020446):0.0000021307):0.0024428389,Pseudomonas_putida_900636645:0.0000020446):0.0000020980,Pseudomonas_putida_000007565:0.0000021163):0.0000024527):0.0000021137):0.0041240005,Pseudomonas_monteilii_003671975:0.0016513310):0.0000023594,(Pseudomonas_putida_000691565:0.0000020446,((Pseudomonas_monteilii_000510285:0.0000020446,Pseudomonas_monteilii_000510325:0.0000020446):0.0000020446,Pseudomonas_putida_000219705:0.0000020446):0.0000023294):0.0058318311):0.0024658068,(((Pseudomonas_parafulva_003410295:0.0000021098,Pseudomonas_parafulva_000800255:0.0000025687):0.0098619538,Pseudomonas_putida_002741075:0.0135055348):0.0085180543,(Pseudomonas_putida_003290365:0.0000020446,Pseudomonas_putida_001636055:0.0000020446):0.0076985137):0.0077427927):0.0000026202,Pseudomonas_monteilii_002943995:0.0000025625):0.0063733640,Pseudomonas_putida_000019445:0.0016677596):0.0008229294):0.0018698119,Pseudomonas_monteilii_001534745:0.0290571838):0.0016583740,Pseudomonas_putida_002736125:0.0000027723);
+
+TIME STAMP
+----------
+
+Date and time: Tue Feb 26 17:22:01 2019
+Total CPU time used: 24503.3 seconds (6h:48m:23s)
+Total wall-clock time used: 3232.43 seconds (0h:53m:52s)
+
