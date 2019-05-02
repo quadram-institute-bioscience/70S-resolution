@@ -1,0 +1,145 @@
+Considering the following 144 assemblies for download:
+GCF_000008525.1	Helicobacter pylori 26695
+GCF_000008785.1	Helicobacter pylori J99
+GCF_000011725.1	Helicobacter pylori 51
+GCF_000013245.1	Helicobacter pylori HPAG1
+GCF_000020245.1	Helicobacter pylori Shi470
+GCF_000021165.1	Helicobacter pylori G27
+GCF_000021465.1	Helicobacter pylori P12
+GCF_000023805.1	Helicobacter pylori 52
+GCF_000091345.1	Helicobacter pylori B38
+GCF_000093185.1	Helicobacter pylori v225d
+GCF_000148665.1	Helicobacter pylori 908
+GCF_000148855.1	Helicobacter pylori SJM180
+GCF_000148875.1	Helicobacter pylori PeCan4
+GCF_000148895.1	Helicobacter pylori Cuz20
+GCF_000148915.1	Helicobacter pylori Sat464
+GCF_000178935.2	Helicobacter pylori 35A
+GCF_000185185.1	Helicobacter pylori India7
+GCF_000185205.1	Helicobacter pylori Gambia94/24
+GCF_000185225.1	Helicobacter pylori Lithuania75
+GCF_000185245.1	Helicobacter pylori SouthAfrica7
+GCF_000192315.1	Helicobacter pylori 2017
+GCF_000192335.1	Helicobacter pylori 2018
+GCF_000196755.1	Helicobacter pylori B8
+GCF_000213135.1	Helicobacter pylori 83
+GCF_000224535.1	Helicobacter pylori Puno120
+GCF_000224555.1	Helicobacter pylori Puno135
+GCF_000224575.1	Helicobacter pylori SNT49
+GCF_000255955.1	Helicobacter pylori ELS37
+GCF_000259235.1	Helicobacter pylori HUP-B14
+GCF_000270005.1	Helicobacter pylori F16
+GCF_000270025.1	Helicobacter pylori F30
+GCF_000270045.1	Helicobacter pylori F32
+GCF_000270065.1	Helicobacter pylori F57
+GCF_000277365.1	Helicobacter pylori Shi417
+GCF_000277385.1	Helicobacter pylori Shi169
+GCF_000277405.1	Helicobacter pylori Shi112
+GCF_000277425.1	Helicobacter pylori PeCan18
+GCF_000307795.1	Helicobacter pylori 26695
+GCF_000307815.1	Helicobacter pylori Rif1
+GCF_000307835.1	Helicobacter pylori Rif2
+GCF_000315955.1	Helicobacter pylori Aklavik117
+GCF_000317875.1	Helicobacter pylori Aklavik86
+GCF_000348865.1	Helicobacter pylori OK113
+GCF_000348885.1	Helicobacter pylori OK310
+GCF_000392455.3	Helicobacter pylori UM032
+GCF_000392475.3	Helicobacter pylori UM299
+GCF_000392515.3	Helicobacter pylori UM037
+GCF_000392535.3	Helicobacter pylori UM066
+GCF_000439295.2	Helicobacter pylori UM298
+GCF_000498315.1	Helicobacter pylori BM012A
+GCF_000498335.1	Helicobacter pylori BM012S
+GCF_000600045.1	Helicobacter pylori oki102
+GCF_000600085.1	Helicobacter pylori oki112
+GCF_000600125.1	Helicobacter pylori oki128
+GCF_000600145.1	Helicobacter pylori oki154
+GCF_000600165.1	Helicobacter pylori oki422
+GCF_000600185.1	Helicobacter pylori oki673
+GCF_000600205.1	Helicobacter pylori oki828
+GCF_000600225.1	Helicobacter pylori oki898
+GCF_000685625.1	Helicobacter pylori J166
+GCF_000685665.1	Helicobacter pylori
+GCF_000685705.1	Helicobacter pylori
+GCF_000685745.1	Helicobacter pylori
+GCF_000817025.1	Helicobacter pylori
+GCF_000826985.1	Helicobacter pylori 26695-1
+GCF_000827025.1	Helicobacter pylori
+GCF_000828955.1	Helicobacter pylori NY40
+GCF_000829095.1	Helicobacter pylori 26695-1
+GCF_000829115.1	Helicobacter pylori 26695-1CL
+GCF_000829135.1	Helicobacter pylori 26695-1CH
+GCF_000982695.1	Helicobacter pylori J99
+GCF_001433495.1	Helicobacter pylori
+GCF_001433515.1	Helicobacter pylori
+GCF_001653375.1	Helicobacter pylori
+GCF_001653395.1	Helicobacter pylori
+GCF_001653415.1	Helicobacter pylori
+GCF_001653435.1	Helicobacter pylori
+GCF_001653455.1	Helicobacter pylori
+GCF_001653475.1	Helicobacter pylori
+GCF_001991095.1	Helicobacter pylori PMSS1
+GCF_002005525.1	Helicobacter pylori SS1
+GCF_002222575.1	Helicobacter pylori
+GCF_002356595.1	Helicobacter pylori
+GCF_002906495.1	Helicobacter pylori
+GCF_002906515.1	Helicobacter pylori
+GCF_002906535.1	Helicobacter pylori
+GCF_002906555.1	Helicobacter pylori
+GCF_002951975.1	Helicobacter pylori
+GCF_002952355.1	Helicobacter pylori
+GCF_002952455.1	Helicobacter pylori
+GCF_002952475.1	Helicobacter pylori
+GCF_002952495.1	Helicobacter pylori
+GCF_002952515.1	Helicobacter pylori
+GCF_002952535.1	Helicobacter pylori
+GCF_002952555.1	Helicobacter pylori
+GCF_002952575.1	Helicobacter pylori
+GCF_002952595.1	Helicobacter pylori
+GCF_002952615.1	Helicobacter pylori
+GCF_002952635.1	Helicobacter pylori
+GCF_002952655.1	Helicobacter pylori
+GCF_002952675.1	Helicobacter pylori
+GCF_002953555.1	Helicobacter pylori
+GCF_002983705.1	Helicobacter pylori
+GCF_003050665.1	Helicobacter pylori
+GCF_003640585.1	Helicobacter pylori
+GCF_003855475.1	Helicobacter pylori
+GCF_003939085.1	Helicobacter pylori
+GCF_003957395.1	Helicobacter pylori
+GCF_900119955.1	Helicobacter pylori
+GCF_900119995.1	Helicobacter pylori
+GCF_900120055.1	Helicobacter pylori
+GCF_900120135.1	Helicobacter pylori
+GCF_900120185.1	Helicobacter pylori
+GCF_900120205.1	Helicobacter pylori
+GCF_900120225.1	Helicobacter pylori
+GCF_900120255.1	Helicobacter pylori
+GCF_900120275.1	Helicobacter pylori
+GCF_900120315.1	Helicobacter pylori
+GCF_900120335.1	Helicobacter pylori
+GCF_900149805.1	Helicobacter pylori
+GCF_900176185.1	Helicobacter pylori
+GCF_900478295.1	Helicobacter pylori NCTC 11637 = CCUG 17874 = ATCC 43504
+GCF_900638475.1	Helicobacter pylori
+GCF_900638505.1	Helicobacter pylori
+GCF_000009305.1	Helicobacter acinonychis str. Sheeba
+GCF_000284635.1	Helicobacter cinaedi PAGU611
+GCF_000349975.1	Helicobacter cinaedi CCUG 18818 = ATCC BAA-847
+GCF_003213725.2	Helicobacter cinaedi
+GCF_003213825.2	Helicobacter cinaedi
+GCF_003214155.2	Helicobacter cinaedi
+GCF_003574195.1	Helicobacter cinaedi
+GCF_000200595.1	Helicobacter felis ATCC 49179
+GCF_000091985.1	Helicobacter mustelae 12198
+GCF_900476215.1	Helicobacter mustelae
+GCF_000007905.1	Helicobacter hepaticus ATCC 51449
+GCF_900638355.1	Helicobacter pullorum
+GCF_001999985.1	Helicobacter bilis
+GCF_900638485.1	Helicobacter cholecystus
+GCF_001460635.1	Helicobacter typhlonius
+GCF_003097575.1	Helicobacter apodemus
+GCF_000259255.1	Helicobacter cetorum MIT 00-7128
+GCF_000259275.1	Helicobacter cetorum MIT 99-5656
+GCF_001693335.1	Helicobacter sp. MIT 01-6242
+GCF_001602095.1	Helicobacter himalayensis

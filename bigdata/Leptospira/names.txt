@@ -1,0 +1,24 @@
+Considering the following 23 assemblies for download:
+GCF_000017605.1	Leptospira biflexa serovar Patoc strain 'Patoc 1 (Ames)'
+GCF_000017685.1	Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)'
+GCF_000007685.1	Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130
+GCF_000092565.1	Leptospira interrogans serovar Lai str. 56601
+GCF_000231175.1	Leptospira interrogans serovar Lai str. IPAV
+GCF_000941035.1	Leptospira interrogans serovar Linhai str. 56609
+GCF_001010765.1	Leptospira interrogans serovar Bratislava
+GCF_001047635.1	Leptospira interrogans serovar Manilae
+GCF_001047655.1	Leptospira interrogans serovar Manilae
+GCF_001293065.1	Leptospira interrogans serovar Hardjo str. Norma
+GCF_002073495.2	Leptospira interrogans serovar Copenhageni
+GCF_000013945.1	Leptospira borgpetersenii serovar Hardjo-bovis str. L550
+GCF_000013965.1	Leptospira borgpetersenii serovar Hardjo-bovis str. JB197
+GCF_001444465.1	Leptospira borgpetersenii serovar Ballum
+GCF_003254845.1	Leptospira borgpetersenii serovar Hardjo-bovis
+GCF_003516145.1	Leptospira borgpetersenii serovar Ceylonica
+GCF_003716785.1	Leptospira borgpetersenii serovar Hardjo-bovis
+GCF_000313175.2	Leptospira santarosai serovar Shermani str. LT 821
+GCF_001729245.1	Leptospira alstonii
+GCF_003722295.1	Leptospira kmetyi
+GCF_000306675.2	Leptospira mayottensis 200901116
+GCF_003429505.1	Leptospira mayottensis
+GCF_003429525.1	Leptospira mayottensis

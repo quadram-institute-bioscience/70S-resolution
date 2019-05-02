@@ -1,0 +1,567 @@
+Considering the following 566 assemblies for download:
+GCF_000006945.2	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+GCF_000007545.1	Salmonella enterica subsp. enterica serovar Typhi str. Ty2
+GCF_000008105.1	Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67
+GCF_000009505.1	Salmonella enterica subsp. enterica serovar Enteritidis str. P125109
+GCF_000009525.1	Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91
+GCF_000011885.1	Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150
+GCF_000016045.1	Salmonella enterica subsp. enterica serovar Newport str. SL254
+GCF_000018385.1	Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594
+GCF_000018625.1	Salmonella enterica subsp. arizonae serovar 62:z4,z23:-
+GCF_000018705.1	Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+GCF_000020705.1	Salmonella enterica subsp. enterica serovar Heidelberg str. SL476
+GCF_000020745.1	Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+GCF_000020885.1	Salmonella enterica subsp. enterica serovar Agona str. SL483
+GCF_000020925.1	Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853
+GCF_000022165.1	Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S
+GCF_000026565.1	Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601
+GCF_000027025.1	Salmonella enterica subsp. enterica serovar Typhimurium str. D23580
+GCF_000188735.1	Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74
+GCF_000188955.2	Salmonella enterica subsp. enterica serovar Montevideo str. 507440-20
+GCF_000195995.1	Salmonella enterica subsp. enterica serovar Typhi str. CT18
+GCF_000210855.2	Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+GCF_000213635.1	Salmonella enterica subsp. enterica serovar Typhimurium str. UK-1
+GCF_000240905.2	Salmonella enterica subsp. enterica serovar Pomona str. ATCC 10729
+GCF_000245535.1	Salmonella enterica subsp. enterica serovar Typhi str. P-stx-12
+GCF_000252875.1	Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+GCF_000258365.1	Salmonella enterica subsp. enterica serovar Heidelberg str. B182
+GCF_000271885.2	Salmonella enterica subsp. enterica serovar Newport str. Levine 1
+GCF_000271905.2	Salmonella enterica subsp. enterica serovar Newport str. Levine 15
+GCF_000272715.4	Salmonella enterica subsp. enterica serovar Newport str. CVM 21550
+GCF_000272735.4	Salmonella enterica subsp. enterica serovar Newport str. CVM 22513
+GCF_000272755.4	Salmonella enterica subsp. enterica serovar Newport str. CVM 21538
+GCF_000272775.4	Salmonella enterica subsp. enterica serovar Newport str. CVM 22425
+GCF_000272815.2	Salmonella enterica subsp. enterica serovar Newport str. CVM N18486
+GCF_000272835.4	Salmonella enterica subsp. enterica serovar Newport str. CVM N1543
+GCF_000272895.2	Salmonella enterica subsp. enterica serovar Newport str. CVM 22462
+GCF_000280315.2	Salmonella enterica subsp. enterica serovar Enteritidis str. 77-1427
+GCF_000283735.1	Salmonella enterica subsp. enterica serovar Typhimurium str. T000240
+GCF_000329365.2	Salmonella enterica subsp. enterica serovar Enteritidis str. CDC_2010K_0968
+GCF_000330485.2	Salmonella enterica subsp. enterica serovar Pullorum str. ATCC 9120
+GCF_000335875.2	Salmonella enterica subsp. enterica serovar Enteritidis str. 18569
+GCF_000335995.2	Salmonella enterica subsp. enterica serovar Gallinarum str. 9184
+GCF_000341425.1	Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+GCF_000380325.1	Salmonella enterica subsp. enterica serovar Typhimurium str. U288
+GCF_000385905.1	Salmonella enterica subsp. enterica serovar Typhi str. Ty21a
+GCF_000430085.2	Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN002069
+GCF_000430105.1	Salmonella enterica subsp. enterica serovar Heidelberg str. 41578
+GCF_000430125.1	Salmonella enterica subsp. enterica serovar Cubana str. CFSAN002050
+GCF_000430145.2	Salmonella enterica subsp. enterica serovar Typhimurium var. 5- str. CFSAN001921
+GCF_000430165.1	Salmonella enterica subsp. enterica serovar 4,[5],12:i:- str. 08-1736
+GCF_000439415.1	Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000189
+GCF_000442415.1	Salmonella enterica subsp. enterica serovar Newport str. USMARC-S3124.1
+GCF_000462995.1	Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. CDC1983-67
+GCF_000473275.1	Salmonella enterica subsp. enterica serovar Thompson str. RM6836
+GCF_000483715.2	Salmonella enterica subsp. enterica serovar Newport str. WA_14882
+GCF_000484195.2	Salmonella enterica subsp. enterica serovar Agona str. 460004 2-1
+GCF_000486045.2	Salmonella enterica subsp. enterica serovar Heidelberg str. SARA35
+GCF_000486165.2	Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+GCF_000486345.2	Salmonella enterica subsp. enterica serovar Typhimurium str. SARA13
+GCF_000486365.2	Salmonella enterica subsp. enterica serovar Thompson str. ATCC 8391
+GCF_000486405.2	Salmonella enterica subsp. enterica serovar Tennessee str. TXSC_TXSC08-19
+GCF_000486445.2	Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+GCF_000486585.2	Salmonella enterica subsp. enterica serovar Rubislaw str. ATCC 10717
+GCF_000486725.2	Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 11511
+GCF_000486765.2	Salmonella enterica subsp. enterica serovar Panama str. ATCC 7378
+GCF_000486815.2	Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+GCF_000486855.2	Salmonella enterica subsp. enterica serovar Minnesota str. ATCC 49284
+GCF_000486915.2	Salmonella enterica subsp. enterica serovar Mbandaka str. ATCC 51958
+GCF_000487015.2	Salmonella enterica subsp. enterica serovar Muenster str. 420
+GCF_000487035.2	Salmonella enterica subsp. enterica serovar Muenster str. 0315
+GCF_000487155.2	Salmonella enterica subsp. enterica serovar Inverness str. ATCC 10720
+GCF_000487255.2	Salmonella enterica subsp. enterica serovar Chester str. ATCC 11997
+GCF_000487295.3	Salmonella enterica subsp. enterica serovar Choleraesuis str. ATCC 10708
+GCF_000487515.2	Salmonella enterica subsp. enterica serovar Albany str. ATCC 51960
+GCF_000487575.2	Salmonella enterica subsp. enterica serovar Anatum str. ATCC BAA-1592
+GCF_000487615.2	Salmonella enterica subsp. enterica serovar Abony str. 0014
+GCF_000487775.1	Salmonella enterica subsp. enterica serovar Bredeney str. CFSAN001080
+GCF_000487915.2	Salmonella enterica subsp. enterica serovar Abaetetuba str. ATCC 35640
+GCF_000487935.2	Salmonella enterica subsp. enterica serovar Stanleyville str. CFSAN000624
+GCF_000493295.2	Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+GCF_000493535.2	Salmonella enterica subsp. enterica serovar Typhimurium str. DT2
+GCF_000493675.1	Salmonella enterica subsp. enterica serovar Typhimurium str. DT104
+GCF_000494385.2	Salmonella enterica subsp. enterica serovar Agona str. 392869-2
+GCF_000503845.1	Salmonella enterica subsp. enterica serovar Agona str. 24249
+GCF_000505365.2	Salmonella enterica subsp. enterica serovar Cerro str. CFSAN001588
+GCF_000505705.1	Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN002064
+GCF_000612325.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000623055.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20121175
+GCF_000623095.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20121178
+GCF_000623115.2	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20121179
+GCF_000623135.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20121180
+GCF_000623195.2	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20120005
+GCF_000623275.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110361
+GCF_000623295.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110360
+GCF_000623315.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110359
+GCF_000623335.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110358
+GCF_000623355.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110357
+GCF_000623375.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110356
+GCF_000623395.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19981857
+GCF_000623455.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19992322
+GCF_000623475.1	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19994216
+GCF_000623615.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19960848
+GCF_000623655.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19970510
+GCF_000623675.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19970769
+GCF_000623715.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19980677
+GCF_000623735.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA19981522
+GCF_000624055.2	Salmonella enterica subsp. enterica serovar Enteritidis str. SA20094352
+GCF_000624175.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20121177
+GCF_000624395.2	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20120002
+GCF_000625855.1	Salmonella enterica subsp. enterica serovar Enteritidis str. SA20082034
+GCF_000626095.2	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20120200
+GCF_000626175.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110354
+GCF_000626195.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20120008
+GCF_000626215.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20100101
+GCF_000626235.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110221
+GCF_000626255.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20090698
+GCF_000626275.2	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20090641
+GCF_000626295.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20110355
+GCF_000626335.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20111175
+GCF_000626355.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20111174
+GCF_000626375.1	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20111095
+GCF_000626695.2	Salmonella enterica subsp. enterica serovar Enteritidis str. EC20100325
+GCF_000636135.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_000715155.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_000742815.1	Salmonella enterica subsp. enterica serovar Choleraesuis
+GCF_000743055.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_000750215.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750255.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750295.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750335.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750375.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750395.2	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750415.2	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750435.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750455.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750475.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000750495.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000754375.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_000756465.1	Salmonella enterica subsp. arizonae serovar 62:z36:- str. RKS2983
+GCF_000783815.2	Salmonella enterica
+GCF_000818075.1	Salmonella enterica subsp. enterica serovar Paratyphi A
+GCF_000818115.1	Salmonella enterica subsp. enterica serovar Paratyphi A
+GCF_000828595.1	Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+GCF_000940895.2	Salmonella enterica subsp. enterica serovar Anatum str. CDC 06-0532
+GCF_000940935.2	Salmonella enterica subsp. enterica serovar Newport str. USDA-ARS-USMARC-1927
+GCF_000940975.1	Salmonella enterica subsp. enterica serovar Montevideo str. USDA-ARS-USMARC-1903
+GCF_000941015.2	Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1899
+GCF_000953495.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_000963535.2	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1175
+GCF_000973645.1	Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2011K-0870
+GCF_000973665.2	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 86-0391
+GCF_000973685.2	Salmonella enterica subsp. enterica serovar Newport str. CDC 2010K-2159
+GCF_000988525.3	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1735
+GCF_000993725.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001006525.1	Salmonella enterica subsp. enterica
+GCF_001048035.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001048375.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001079465.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001088345.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001095585.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001104165.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001104885.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001106745.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001118185.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001119245.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001121865.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001127485.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001135805.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001148125.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001148305.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001157245.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001163025.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001165785.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001185215.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_001185245.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_001188125.2	Salmonella enterica subsp. enterica
+GCF_001240865.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001278315.1	Salmonella enterica subsp. enterica serovar Newport
+GCF_001293505.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001302605.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001305235.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_001305815.1	Salmonella enterica subsp. enterica serovar Thompson
+GCF_001305835.1	Salmonella enterica subsp. enterica serovar Thompson
+GCF_001356455.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001357935.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001359015.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001360555.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001361075.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001362095.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001362135.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001362175.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001362195.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001362335.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001364695.2	Salmonella enterica subsp. enterica serovar Typhi
+GCF_001409135.1	Salmonella enterica subsp. enterica serovar Weltevreden
+GCF_001409155.1	Salmonella enterica subsp. enterica serovar Weltevreden
+GCF_001409175.1	Salmonella enterica subsp. enterica serovar Weltevreden
+GCF_001409195.1	Salmonella enterica subsp. enterica serovar Weltevreden
+GCF_001441205.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001441225.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001441245.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001447095.1	Salmonella enterica subsp. enterica serovar Anatum
+GCF_001447115.1	Salmonella enterica subsp. enterica serovar Anatum
+GCF_001448485.2	Salmonella enterica subsp. enterica serovar Kentucky str. SA20030505
+GCF_001448665.2	Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+GCF_001448705.2	Salmonella enterica subsp. enterica serovar Hvittingfoss str. SA20014981
+GCF_001448785.2	Salmonella enterica subsp. enterica serovar Milwaukee str. SA19950795
+GCF_001454965.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001457675.1	Salmonella enterica subsp. enterica serovar Senftenberg
+GCF_001484025.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_001535315.2	Salmonella enterica subsp. enterica serovar Tennessee
+GCF_001540845.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001558355.2	Salmonella enterica
+GCF_001576255.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001576275.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001577505.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001612515.1	Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+GCF_001617585.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001620115.1	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1736
+GCF_001620135.2	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1765
+GCF_001620155.1	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1783
+GCF_001620205.2	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1727
+GCF_001620225.1	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1676
+GCF_001623545.2	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1677
+GCF_001623585.1	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1728
+GCF_001623625.1	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1766
+GCF_001623645.2	Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2010K-1587
+GCF_001623665.2	Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1781
+GCF_001623685.1	Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2011K-1702
+GCF_001623705.1	Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1880
+GCF_001623725.1	Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1808
+GCF_001623745.2	Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+GCF_001623765.2	Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1898
+GCF_001623775.1	Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2009K-2059
+GCF_001623805.1	Salmonella enterica subsp. enterica serovar Typhimurium str. CDC 2009K-1640
+GCF_001623825.2	Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+GCF_001623845.1	Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+GCF_001628755.1	Salmonella enterica subsp. diarizonae
+GCF_001629755.1	Salmonella enterica subsp. diarizonae
+GCF_001629775.1	Salmonella enterica subsp. diarizonae
+GCF_001647045.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_001647755.1	Salmonella enterica
+GCF_001689935.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690005.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690035.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690055.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690075.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690095.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690115.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001690135.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692495.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692515.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692535.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692555.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692575.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692595.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692615.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692635.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001692655.1	Salmonella enterica subsp. enterica serovar Heidelberg
+GCF_001705055.1	Salmonella enterica
+GCF_001705365.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001729225.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001887015.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001890165.1	Salmonella enterica subsp. enterica serovar Newport
+GCF_001890185.1	Salmonella enterica subsp. enterica serovar Newport
+GCF_001890445.1	Salmonella enterica subsp. enterica serovar Newport
+GCF_001922165.1	Salmonella enterica subsp. enterica serovar Newport
+GCF_001922185.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_001931555.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_001931575.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_001931595.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_001931615.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_001941405.1	Salmonella enterica subsp. enterica serovar Cerro
+GCF_001952995.1	Salmonella enterica subsp. enterica serovar Saintpaul
+GCF_001953015.1	Salmonella enterica subsp. enterica serovar Thompson
+GCF_001953035.1	Salmonella enterica subsp. enterica serovar Dublin str. ATCC 39184
+GCF_001953675.1	Salmonella enterica subsp. enterica serovar Saintpaul
+GCF_001953695.1	Salmonella enterica subsp. enterica serovar Saintpaul
+GCF_001956735.1	Salmonella enterica subsp. enterica serovar Antsalova str. S01-0511
+GCF_001969425.1	Salmonella enterica subsp. enterica serovar Senftenberg
+GCF_001973275.2	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_001975245.1	Salmonella enterica subsp. enterica serovar Crossness str. 1422-74
+GCF_001975265.1	Salmonella enterica subsp. enterica serovar Blegdam str. S-1824
+GCF_001975285.1	Salmonella enterica subsp. enterica serovar Apapa str. SA20060561
+GCF_001975305.1	Salmonella enterica subsp. enterica serovar Bardo
+GCF_001975325.1	Salmonella enterica subsp. enterica serovar Bergen str. ST350
+GCF_001975345.1	Salmonella enterica subsp. enterica serovar Borreze str. SA20041063
+GCF_001975365.1	Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+GCF_001975385.1	Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+GCF_001975405.1	Salmonella enterica subsp. enterica serovar Johannesburg str. ST203
+GCF_001975425.1	Salmonella enterica subsp. enterica serovar Koessen str. S-1501
+GCF_001975445.1	Salmonella enterica subsp. enterica serovar Krefeld str. SA20030536
+GCF_001975515.1	Salmonella enterica subsp. enterica serovar Manchester str. ST278
+GCF_001975555.1	Salmonella enterica subsp. enterica serovar Moscow str. S-1843
+GCF_001975605.1	Salmonella enterica subsp. enterica serovar Nitra
+GCF_001975625.1	Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+GCF_001975645.1	Salmonella enterica subsp. enterica serovar Yovokome str. S-1850
+GCF_001989635.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002009155.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002119485.1	Salmonella enterica
+GCF_002128365.1	Salmonella enterica subsp. enterica
+GCF_002128385.1	Salmonella enterica subsp. enterica
+GCF_002163995.1	Salmonella enterica subsp. enterica
+GCF_002196535.1	Salmonella enterica subsp. enterica serovar Minnesota
+GCF_002201855.1	Salmonella enterica subsp. enterica
+GCF_002208255.1	Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+GCF_002208315.1	Salmonella enterica subsp. enterica serovar Quebec str. S-1267
+GCF_002208965.1	Salmonella enterica
+GCF_002209205.2	Salmonella enterica
+GCF_002209225.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002210025.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002211565.1	Salmonella enterica subsp. enterica serovar Ouakam str. SA20034636
+GCF_002211585.1	Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+GCF_002211825.1	Salmonella enterica subsp. diarizonae serovar 65:c:z str. SA20044251
+GCF_002211845.1	Salmonella enterica subsp. enterica serovar Waycross
+GCF_002211865.1	Salmonella enterica subsp. salamae serovar 55:k:z39 str. 1315K
+GCF_002211965.1	Salmonella enterica subsp. diarizonae serovar 50:k:z str. MZ0080
+GCF_002220345.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002224405.1	Salmonella enterica subsp. enterica serovar Indiana
+GCF_002234475.1	Salmonella enterica subsp. salamae serovar 57:z29:z42
+GCF_002234515.1	Salmonella enterica subsp. enterica serovar Mbandaka
+GCF_002234735.2	Salmonella enterica subsp. enterica serovar Saintpaul
+GCF_002234755.1	Salmonella enterica subsp. enterica serovar Derby
+GCF_002234775.1	Salmonella enterica subsp. enterica serovar Braenderup
+GCF_002234795.1	Salmonella enterica subsp. enterica serovar Manhattan
+GCF_002238275.1	Salmonella enterica subsp. enterica
+GCF_002290205.1	Salmonella enterica subsp. enterica serovar Saintpaul
+GCF_002313085.1	Salmonella enterica
+GCF_002313105.1	Salmonella enterica
+GCF_002313125.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002386165.1	Salmonella enterica subsp. enterica serovar Paratyphi A
+GCF_002386325.1	Salmonella enterica subsp. enterica serovar Saintpaul
+GCF_002504105.1	Salmonella enterica subsp. enterica
+GCF_002504125.1	Salmonella enterica subsp. enterica
+GCF_002741885.1	Salmonella enterica subsp. enterica serovar Gaminara
+GCF_002741905.1	Salmonella enterica subsp. enterica serovar Tennessee
+GCF_002741925.1	Salmonella enterica
+GCF_002760915.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002760935.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002760955.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002760975.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002760995.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761015.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761035.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761055.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761075.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761095.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761115.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761135.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761155.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002761335.1	Salmonella enterica subsp. enterica serovar Montevideo str. USDA-ARS-USMARC-1900
+GCF_002761355.1	Salmonella enterica subsp. enterica serovar Montevideo str. USDA-ARS-USMARC-1901
+GCF_002761375.1	Salmonella enterica subsp. enterica serovar Montevideo str. USDA-ARS-USMARC-1904
+GCF_002761395.1	Salmonella enterica subsp. enterica serovar Montevideo str. USDA-ARS-USMARC-1912
+GCF_002761415.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 07-0954
+GCF_002761435.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 08-1942
+GCF_002761455.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2011K-1674
+GCF_002761475.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2012K-1544
+GCF_002761495.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2013K-0218
+GCF_002762135.3	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002763415.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002777175.1	Salmonella enterica subsp. enterica serovar Hayindogo
+GCF_002794415.1	Salmonella enterica subsp. diarizonae
+GCF_002813935.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002813975.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002813995.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002863765.1	Salmonella enterica subsp. enterica serovar Give
+GCF_002863785.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_002900325.1	Salmonella enterica
+GCF_002946375.1	Salmonella enterica subsp. enterica serovar Derby
+GCF_002946675.1	Salmonella enterica
+GCF_002947135.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_002952975.1	Salmonella enterica subsp. enterica serovar Kentucky
+GCF_002982095.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_002983965.1	Salmonella enterica subsp. enterica
+GCF_002984035.1	Salmonella enterica
+GCF_002984285.1	Salmonella enterica subsp. enterica
+GCF_002999175.1	Salmonella enterica subsp. enterica
+GCF_003030105.1	Salmonella enterica
+GCF_003030125.1	Salmonella enterica
+GCF_003030265.1	Salmonella enterica subsp. enterica serovar Concord
+GCF_003030285.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_003031835.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_003031855.1	Salmonella enterica subsp. enterica serovar Tennessee
+GCF_003031875.1	Salmonella enterica subsp. enterica serovar Tennessee
+GCF_003031995.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003032015.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_003032035.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003052785.2	Salmonella enterica subsp. enterica serovar Thompson
+GCF_003054535.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2009K-0792
+GCF_003071485.1	Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2010K-0257
+GCF_003071545.1	Salmonella enterica subsp. enterica serovar Corvallis
+GCF_003073495.1	Salmonella enterica subsp. enterica serovar Senftenberg str. 361154004
+GCF_003073515.1	Salmonella enterica
+GCF_003073535.1	Salmonella enterica
+GCF_003073555.1	Salmonella enterica
+GCF_003073575.1	Salmonella enterica subsp. enterica serovar Montevideo str. 531954
+GCF_003073595.1	Salmonella enterica
+GCF_003130605.1	Salmonella enterica subsp. enterica serovar Montevideo
+GCF_003177235.1	Salmonella enterica
+GCF_003177255.1	Salmonella enterica
+GCF_003181075.1	Salmonella enterica
+GCF_003181155.1	Salmonella enterica
+GCF_003184325.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003184425.1	Salmonella enterica subsp. enterica serovar Enteritidis str. RM2968
+GCF_003194225.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_003231095.1	Salmonella enterica subsp. enterica serovar Anatum
+GCF_003312565.1	Salmonella enterica
+GCF_003324775.1	Salmonella enterica subsp. enterica
+GCF_003324795.1	Salmonella enterica subsp. enterica
+GCF_003324815.1	Salmonella enterica subsp. enterica
+GCF_003324835.1	Salmonella enterica subsp. enterica
+GCF_003324855.1	Salmonella enterica subsp. enterica
+GCF_003324875.1	Salmonella enterica subsp. enterica
+GCF_003324915.1	Salmonella enterica
+GCF_003324935.1	Salmonella enterica
+GCF_003324955.1	Salmonella enterica
+GCF_003324975.1	Salmonella enterica
+GCF_003324995.1	Salmonella enterica
+GCF_003325015.1	Salmonella enterica
+GCF_003325035.1	Salmonella enterica
+GCF_003325055.1	Salmonella enterica
+GCF_003325075.1	Salmonella enterica
+GCF_003325095.1	Salmonella enterica
+GCF_003325135.1	Salmonella enterica
+GCF_003325155.1	Salmonella enterica
+GCF_003325195.1	Salmonella enterica
+GCF_003325235.1	Salmonella enterica
+GCF_003325255.1	Salmonella enterica
+GCF_003325275.1	Salmonella enterica
+GCF_003325315.1	Salmonella enterica
+GCF_003325335.1	Salmonella enterica subsp. enterica
+GCF_003347075.1	Salmonella enterica subsp. enterica
+GCF_003429365.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003429425.1	Salmonella enterica subsp. enterica
+GCF_003429445.1	Salmonella enterica subsp. enterica
+GCF_003429465.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003515965.1	Salmonella enterica
+GCF_003571625.1	Salmonella enterica subsp. enterica serovar Senftenberg
+GCF_003589785.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003589805.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003589825.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003589845.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003589865.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003590695.1	Salmonella enterica subsp. enterica serovar Fresno
+GCF_003595645.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003595725.1	Salmonella enterica subsp. enterica serovar Dublin
+GCF_003606225.1	Salmonella enterica subsp. enterica serovar Pullorum
+GCF_003627015.1	Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000191
+GCF_003641265.1	Salmonella enterica subsp. enterica
+GCF_003641285.1	Salmonella enterica subsp. enterica
+GCF_003641305.1	Salmonella enterica subsp. enterica
+GCF_003641325.1	Salmonella enterica subsp. enterica
+GCF_003663765.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003691385.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003710125.1	Salmonella enterica subsp. enterica serovar Anatum
+GCF_003710145.1	Salmonella enterica subsp. enterica serovar Oranienburg
+GCF_003710165.1	Salmonella enterica subsp. enterica serovar Enteritidis
+GCF_003710185.1	Salmonella enterica subsp. enterica serovar Tennessee
+GCF_003710205.1	Salmonella enterica subsp. enterica serovar Mbandaka
+GCF_003716995.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717015.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717035.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717055.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717075.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717095.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717115.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717135.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717215.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717285.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717355.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717395.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717435.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717455.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717475.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717515.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717535.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717575.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717615.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717635.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717655.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717675.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717695.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717715.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717735.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717755.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717795.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717815.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717835.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717855.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717875.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717895.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717915.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717935.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717955.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717975.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003717995.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718015.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718035.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718055.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718075.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718095.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718115.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718135.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718155.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718175.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718195.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718235.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718255.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718275.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718295.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718315.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718355.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718395.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718415.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718435.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718455.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718475.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718495.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718515.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718535.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718555.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718595.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718615.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718635.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003718655.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003719215.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003719235.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003719255.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003719555.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_003856755.1	Salmonella enterica subsp. enterica serovar Virchow
+GCF_003864015.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_003864035.1	Salmonella enterica
+GCF_003864055.1	Salmonella enterica
+GCF_900086565.1	Salmonella enterica subsp. enterica serovar Java
+GCF_900166885.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_900184385.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_900185485.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_900205255.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_900205265.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_900205275.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_900205295.1	Salmonella enterica subsp. enterica serovar Typhi
+GCF_900475825.1	Salmonella enterica subsp. enterica serovar Thompson
+GCF_900475895.1	Salmonella enterica
+GCF_900475965.1	Salmonella enterica subsp. enterica serovar Stanley
+GCF_900477885.1	Salmonella enterica subsp. enterica serovar Aberdeen
+GCF_900477895.1	Salmonella enterica subsp. enterica
+GCF_900477905.1	Salmonella enterica subsp. enterica
+GCF_900477925.1	Salmonella enterica subsp. enterica serovar Give
+GCF_900477985.1	Salmonella enterica subsp. salamae
+GCF_900477995.1	Salmonella enterica subsp. enterica
+GCF_900478065.1	Salmonella enterica subsp. enterica serovar Senftenberg
+GCF_900478155.1	Salmonella enterica subsp. diarizonae
+GCF_900478195.1	Salmonella enterica subsp. salamae serovar Greenside
+GCF_900478205.1	Salmonella enterica subsp. enterica serovar Bredeney
+GCF_900478215.1	Salmonella enterica subsp. houtenae serovar Houten
+GCF_900478225.1	Salmonella enterica subsp. salamae
+GCF_900478235.1	Salmonella enterica subsp. enterica serovar Infantis
+GCF_900538085.1	Salmonella enterica subsp. enterica serovar Typhimurium
+GCF_900635575.1	Salmonella enterica subsp. enterica
+GCF_900635695.1	Salmonella enterica subsp. enterica serovar Goldcoast
+GCF_900635725.1	Salmonella enterica subsp. houtenae
+GCF_900636155.1	Salmonella enterica subsp. enterica
+GCF_000252995.1	Salmonella bongori NCTC 12419
+GCF_000439255.1	Salmonella bongori N268-08
+GCF_000709535.1	Salmonella bongori serovar 48:z41:-- str. RKS3044
+GCF_002211925.1	Salmonella bongori serovar 66:z41:- str. SA19983605

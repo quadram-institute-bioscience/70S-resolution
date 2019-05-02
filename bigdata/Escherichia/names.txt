@@ -1,0 +1,718 @@
+Considering the following 717 assemblies for download:
+GCF_000005845.2	Escherichia coli str. K-12 substr. MG1655
+GCF_000007445.1	Escherichia coli CFT073
+GCF_000008865.2	Escherichia coli O157:H7 str. Sakai
+GCF_000009565.1	Escherichia coli BL21(DE3)
+GCF_000010245.2	Escherichia coli str. K-12 substr. W3110
+GCF_000010385.1	Escherichia coli SE11
+GCF_000010485.1	Escherichia coli SE15
+GCF_000010745.1	Escherichia coli O103:H2 str. 12009
+GCF_000010765.1	Escherichia coli O111:H- str. 11128
+GCF_000013265.1	Escherichia coli UTI89
+GCF_000013305.1	Escherichia coli 536
+GCF_000014845.1	Escherichia coli APEC O1
+GCF_000017745.1	Escherichia coli O139:H28 str. E24377A
+GCF_000017765.1	Escherichia coli HS
+GCF_000017985.1	Escherichia coli B str. REL606
+GCF_000019385.1	Escherichia coli ATCC 8739
+GCF_000019425.1	Escherichia coli str. K-12 substr. DH10B
+GCF_000019645.1	Escherichia coli SMS-3-5
+GCF_000021125.1	Escherichia coli O157:H7 str. EC4115
+GCF_000022225.1	Escherichia coli O157:H7 str. TW14359
+GCF_000022345.1	Escherichia coli BW2952
+GCF_000022665.1	Escherichia coli BL21(DE3)
+GCF_000023365.1	Escherichia coli DH1
+GCF_000023665.1	Escherichia coli 'BL21-Gold(DE3)pLysS AG'
+GCF_000025165.1	Escherichia coli O55:H7 str. CB9615
+GCF_000025745.1	Escherichia coli IHE3034
+GCF_000026245.1	Escherichia coli 55989
+GCF_000026265.1	Escherichia coli IAI1
+GCF_000026285.1	Escherichia coli S88
+GCF_000026345.1	Escherichia coli IAI39
+GCF_000026545.1	Escherichia coli O127:H6 str. E2348/69
+GCF_000027125.1	Escherichia coli 042
+GCF_000091005.1	Escherichia coli O26:H11 str. 11368
+GCF_000147855.2	Escherichia coli KO11FL
+GCF_000148365.1	Escherichia coli ABU 83972
+GCF_000148605.1	Escherichia coli UM146
+GCF_000183345.1	Escherichia coli O83:H1 str. NRG 857C
+GCF_000184185.1	Escherichia coli W
+GCF_000210475.1	Escherichia coli ETEC H10407
+GCF_000212715.2	Escherichia coli UMNK88
+GCF_000219515.2	Escherichia coli PCN033
+GCF_000227625.1	Escherichia coli O7:K1 str. CE10
+GCF_000233875.1	Escherichia coli str. 'clone D i2'
+GCF_000233895.1	Escherichia coli str. 'clone D i14'
+GCF_000245515.1	Escherichia coli O55:H7 str. RM12579
+GCF_000258025.1	Escherichia coli KO11FL
+GCF_000258145.1	Escherichia coli W
+GCF_000262125.1	Escherichia coli Xuzhou21
+GCF_000270105.1	Escherichia coli DH1
+GCF_000284495.1	Escherichia coli LF82
+GCF_000285655.3	Escherichia coli O25b:H4-ST131
+GCF_000299255.1	Escherichia coli O104:H4 str. 2009EL-2050
+GCF_000299455.1	Escherichia coli O104:H4 str. 2011C-3493
+GCF_000299475.1	Escherichia coli O104:H4 str. 2009EL-2071
+GCF_000332755.1	Escherichia coli APEC O78
+GCF_000350185.1	Escherichia coli str. K-12 substr. MDS42
+GCF_000464955.2	Escherichia coli O104:H21 str. CFSAN002236
+GCF_000468515.1	Escherichia coli LY180
+GCF_000493755.1	Escherichia coli JJ1886
+GCF_000499485.1	Escherichia coli str. K-12 substr. MC4100
+GCF_000520035.1	Escherichia coli O145:H28 str. RM13514
+GCF_000520055.1	Escherichia coli O145:H28 str. RM13516
+GCF_000597845.1	Escherichia coli
+GCF_000599625.1	Escherichia coli
+GCF_000599645.1	Escherichia coli
+GCF_000599665.1	Escherichia coli
+GCF_000599685.1	Escherichia coli
+GCF_000599705.1	Escherichia coli
+GCF_000662395.1	Escherichia coli O145:H28 str. RM12761
+GCF_000671295.1	Escherichia coli O145:H28 str. RM12581
+GCF_000714595.1	Escherichia coli Nissle 1917
+GCF_000725305.1	Escherichia coli KLY
+GCF_000730345.1	Escherichia coli O157:H7 str. SS17
+GCF_000732965.1	Escherichia coli O157:H7 str. EDL933
+GCF_000743255.1	Escherichia coli ATCC 25922
+GCF_000750555.1	Escherichia coli BW25113
+GCF_000784925.1	Escherichia coli
+GCF_000800215.1	Escherichia coli ER2796
+GCF_000800765.1	Escherichia coli K-12
+GCF_000801165.1	Escherichia coli
+GCF_000801185.2	Escherichia coli
+GCF_000801205.1	Escherichia coli str. K-12 substr. MG1655
+GCF_000803705.1	Escherichia coli O157:H7 str. SS52
+GCF_000813165.1	Escherichia coli APEC IMT5155
+GCF_000814145.2	Escherichia coli
+GCF_000819645.1	Escherichia coli
+GCF_000827105.1	Escherichia coli O157:H16
+GCF_000829985.1	Escherichia coli 1303
+GCF_000830035.1	Escherichia coli
+GCF_000831565.1	Escherichia coli ECC-1470
+GCF_000833145.1	Escherichia coli
+GCF_000833635.2	Escherichia coli
+GCF_000931565.1	Escherichia coli
+GCF_000952955.1	Escherichia coli
+GCF_000953515.1	Escherichia coli
+GCF_000967155.2	Escherichia coli
+GCF_000968515.1	Escherichia coli VR50
+GCF_000971615.1	Escherichia coli
+GCF_000974405.1	Escherichia coli K-12
+GCF_000974465.1	Escherichia coli K-12
+GCF_000974505.1	Escherichia coli K-12
+GCF_000974535.1	Escherichia coli K-12
+GCF_000974575.1	Escherichia coli K-12
+GCF_000974825.1	Escherichia coli K-12
+GCF_000974865.1	Escherichia coli K-12
+GCF_000974885.1	Escherichia coli K-12
+GCF_000981485.1	Escherichia coli K-12
+GCF_000986765.1	Escherichia coli O104:H4 str. C227-11
+GCF_000987875.1	Escherichia coli
+GCF_000988355.1	Escherichia coli
+GCF_000988385.1	Escherichia coli
+GCF_000988465.1	Escherichia coli
+GCF_001007915.1	Escherichia coli
+GCF_001020945.2	Escherichia coli K-12
+GCF_001021005.2	Escherichia coli K-12
+GCF_001021595.1	Escherichia coli
+GCF_001021615.1	Escherichia coli APEC O18
+GCF_001021635.2	Escherichia coli APEC O2-211
+GCF_001029125.1	Escherichia coli PCN061
+GCF_001039415.1	Escherichia coli
+GCF_001043215.1	Escherichia coli
+GCF_001051135.1	Escherichia coli ACN001
+GCF_001183645.1	Escherichia coli
+GCF_001183665.1	Escherichia coli
+GCF_001183685.1	Escherichia coli
+GCF_001276585.2	Escherichia coli
+GCF_001280325.1	Escherichia coli
+GCF_001280345.1	Escherichia coli
+GCF_001280385.1	Escherichia coli
+GCF_001280405.1	Escherichia coli
+GCF_001307215.1	Escherichia coli O157:H7
+GCF_001308065.1	Escherichia coli str. K-12 substr. MG1655
+GCF_001308125.1	Escherichia coli
+GCF_001308165.1	Escherichia coli
+GCF_001420935.1	Escherichia coli
+GCF_001420955.1	Escherichia coli
+GCF_001442495.1	Escherichia coli
+GCF_001455385.1	Escherichia coli
+GCF_001469815.1	Escherichia coli
+GCF_001485455.1	Escherichia coli
+GCF_001513615.1	Escherichia coli
+GCF_001513635.1	Escherichia coli
+GCF_001515725.1	Escherichia coli
+GCF_001544635.1	Escherichia coli str. K-12 substr. MG1655
+GCF_001558995.2	Escherichia coli O157:H7
+GCF_001559615.2	Escherichia coli B
+GCF_001559635.1	Escherichia coli B
+GCF_001559655.1	Escherichia coli K-12
+GCF_001559675.1	Escherichia coli K-12
+GCF_001566335.1	Escherichia coli str. K-12 substr. MG1655
+GCF_001566615.1	Escherichia coli
+GCF_001566635.1	Escherichia coli
+GCF_001566675.1	Escherichia coli
+GCF_001577325.1	Escherichia coli
+GCF_001593565.1	Escherichia coli JJ1887
+GCF_001610755.1	Escherichia coli str. Sanji
+GCF_001612475.1	Escherichia coli
+GCF_001612495.1	Escherichia coli
+GCF_001617565.1	Escherichia coli
+GCF_001618325.1	Escherichia coli
+GCF_001618345.2	Escherichia coli
+GCF_001618365.1	Escherichia coli
+GCF_001644725.1	Escherichia coli
+GCF_001644745.1	Escherichia coli
+GCF_001650275.1	Escherichia coli O157
+GCF_001650295.1	Escherichia coli O157
+GCF_001651925.2	Escherichia coli O157:H7
+GCF_001651945.2	Escherichia coli O157:H7
+GCF_001651965.2	Escherichia coli O157:H7
+GCF_001660565.1	Escherichia coli
+GCF_001660585.1	Escherichia coli
+GCF_001663075.1	Escherichia coli
+GCF_001663475.1	Escherichia coli
+GCF_001675145.1	Escherichia coli
+GCF_001677475.1	Escherichia coli
+GCF_001677495.1	Escherichia coli
+GCF_001677515.1	Escherichia coli
+GCF_001678925.1	Escherichia coli
+GCF_001678965.1	Escherichia coli
+GCF_001679985.1	Escherichia coli
+GCF_001682305.2	Escherichia coli
+GCF_001683435.1	Escherichia coli
+GCF_001693315.1	Escherichia coli
+GCF_001693635.1	Escherichia coli
+GCF_001695515.1	Escherichia coli O157:H7
+GCF_001721125.1	Escherichia coli
+GCF_001721225.1	Escherichia coli
+GCF_001721525.1	Escherichia coli
+GCF_001723505.1	Escherichia coli
+GCF_001735705.1	Escherichia coli
+GCF_001750845.1	Escherichia coli
+GCF_001753445.1	Escherichia coli O157:H7
+GCF_001753465.1	Escherichia coli O157:H7
+GCF_001753485.1	Escherichia coli O157:H7
+GCF_001753505.1	Escherichia coli O157:H7
+GCF_001753525.1	Escherichia coli O157:H7
+GCF_001753545.1	Escherichia coli O157:H7
+GCF_001753565.1	Escherichia coli O157:H7
+GCF_001806265.1	Escherichia coli
+GCF_001806285.1	Escherichia coli
+GCF_001860505.1	Escherichia coli
+GCF_001865295.1	Escherichia coli
+GCF_001874485.1	Escherichia coli O25b:H4
+GCF_001886535.1	Escherichia coli
+GCF_001886555.1	Escherichia coli
+GCF_001886575.1	Escherichia coli
+GCF_001886755.1	Escherichia coli
+GCF_001886895.1	Escherichia coli
+GCF_001886935.1	Escherichia coli
+GCF_001888075.1	Escherichia coli
+GCF_001890205.1	Escherichia coli
+GCF_001890225.1	Escherichia coli
+GCF_001890245.1	Escherichia coli
+GCF_001890265.1	Escherichia coli
+GCF_001890285.1	Escherichia coli
+GCF_001890305.1	Escherichia coli
+GCF_001890325.1	Escherichia coli
+GCF_001890345.1	Escherichia coli
+GCF_001890365.1	Escherichia coli
+GCF_001900295.1	Escherichia coli
+GCF_001900315.1	Escherichia coli
+GCF_001900335.1	Escherichia coli
+GCF_001900355.1	Escherichia coli
+GCF_001900375.1	Escherichia coli
+GCF_001900395.1	Escherichia coli
+GCF_001900415.1	Escherichia coli
+GCF_001900435.1	Escherichia coli
+GCF_001900455.1	Escherichia coli
+GCF_001900475.1	Escherichia coli
+GCF_001900495.1	Escherichia coli
+GCF_001900515.1	Escherichia coli
+GCF_001900535.1	Escherichia coli
+GCF_001900555.1	Escherichia coli
+GCF_001900575.1	Escherichia coli
+GCF_001900595.1	Escherichia coli
+GCF_001900615.1	Escherichia coli
+GCF_001900635.1	Escherichia coli
+GCF_001900655.1	Escherichia coli
+GCF_001900675.1	Escherichia coli
+GCF_001900695.1	Escherichia coli
+GCF_001900715.1	Escherichia coli
+GCF_001900735.1	Escherichia coli
+GCF_001900775.1	Escherichia coli
+GCF_001900795.1	Escherichia coli
+GCF_001900815.1	Escherichia coli
+GCF_001900835.1	Escherichia coli
+GCF_001900885.1	Escherichia coli
+GCF_001900905.1	Escherichia coli
+GCF_001900925.1	Escherichia coli
+GCF_001900945.1	Escherichia coli
+GCF_001900965.1	Escherichia coli
+GCF_001900985.1	Escherichia coli
+GCF_001901005.1	Escherichia coli
+GCF_001901025.1	Escherichia coli
+GCF_001901045.1	Escherichia coli
+GCF_001901065.1	Escherichia coli
+GCF_001901085.1	Escherichia coli
+GCF_001901105.1	Escherichia coli
+GCF_001901125.1	Escherichia coli
+GCF_001901145.1	Escherichia coli
+GCF_001901165.1	Escherichia coli
+GCF_001901185.1	Escherichia coli
+GCF_001901215.1	Escherichia coli
+GCF_001901315.1	Escherichia coli
+GCF_001901365.1	Escherichia coli
+GCF_001901405.1	Escherichia coli
+GCF_001901425.1	Escherichia coli
+GCF_001901445.1	Escherichia coli
+GCF_001901465.1	Escherichia coli
+GCF_001932515.1	Escherichia coli
+GCF_001936315.1	Escherichia coli
+GCF_001969285.2	Escherichia coli
+GCF_001999185.1	Escherichia coli
+GCF_002007705.1	Escherichia coli
+GCF_002009315.1	Escherichia coli
+GCF_002011945.1	Escherichia coli
+GCF_002011965.1	Escherichia coli
+GCF_002011985.1	Escherichia coli
+GCF_002012005.1	Escherichia coli
+GCF_002012025.1	Escherichia coli
+GCF_002012045.1	Escherichia coli
+GCF_002012065.1	Escherichia coli
+GCF_002012085.1	Escherichia coli
+GCF_002012105.1	Escherichia coli
+GCF_002012125.1	Escherichia coli
+GCF_002012145.1	Escherichia coli
+GCF_002012165.1	Escherichia coli
+GCF_002012185.1	Escherichia coli
+GCF_002012205.1	Escherichia coli
+GCF_002012225.1	Escherichia coli
+GCF_002012245.1	Escherichia coli
+GCF_002012265.1	Escherichia coli
+GCF_002012305.1	Escherichia coli
+GCF_002024865.1	Escherichia coli NU14
+GCF_002055605.1	Escherichia coli
+GCF_002055635.1	Escherichia coli
+GCF_002056065.1	Escherichia coli
+GCF_002056145.1	Escherichia coli
+GCF_002056635.1	Escherichia coli
+GCF_002057245.1	Escherichia coli
+GCF_002057355.1	Escherichia coli
+GCF_002058765.1	Escherichia coli
+GCF_002077195.1	Escherichia coli
+GCF_002078275.1	Escherichia coli
+GCF_002078295.1	Escherichia coli
+GCF_002079225.1	Escherichia coli C
+GCF_002090355.1	Escherichia coli
+GCF_002105735.1	Escherichia coli
+GCF_002116715.1	Escherichia coli
+GCF_002118095.1	Escherichia coli
+GCF_002142675.1	Escherichia coli
+GCF_002142695.1	Escherichia coli
+GCF_002142715.1	Escherichia coli
+GCF_002156825.1	Escherichia coli
+GCF_002156845.1	Escherichia coli
+GCF_002157245.1	Escherichia coli
+GCF_002163655.1	Escherichia coli
+GCF_002163695.1	Escherichia coli
+GCF_002163935.1	Escherichia coli
+GCF_002163955.1	Escherichia coli
+GCF_002164595.2	Escherichia coli
+GCF_002164635.3	Escherichia coli
+GCF_002164645.2	Escherichia coli
+GCF_002165095.2	Escherichia coli
+GCF_002165115.2	Escherichia coli
+GCF_002180055.1	Escherichia coli
+GCF_002180095.1	Escherichia coli
+GCF_002180135.1	Escherichia coli
+GCF_002180195.1	Escherichia coli
+GCF_002180215.1	Escherichia coli
+GCF_002180275.1	Escherichia coli
+GCF_002192275.1	Escherichia coli
+GCF_002192295.1	Escherichia coli
+GCF_002193095.1	Escherichia coli
+GCF_002196475.1	Escherichia coli
+GCF_002196495.1	Escherichia coli
+GCF_002201835.1	Escherichia coli
+GCF_002202175.1	Escherichia coli
+GCF_002208865.2	Escherichia coli O157
+GCF_002209105.2	Escherichia coli O104:H4
+GCF_002211725.1	Escherichia coli
+GCF_002214205.1	Escherichia coli
+GCF_002214745.2	Escherichia coli
+GCF_002215095.1	Escherichia coli
+GCF_002220215.1	Escherichia coli
+GCF_002220265.1	Escherichia coli
+GCF_002237305.1	Escherichia coli
+GCF_002237325.1	Escherichia coli
+GCF_002249955.1	Escherichia coli
+GCF_002269325.1	Escherichia coli O6:H16
+GCF_002278115.2	Escherichia coli
+GCF_002285755.1	Escherichia coli
+GCF_002302315.1	Escherichia coli
+GCF_002302335.1	Escherichia coli
+GCF_002310555.1	Escherichia coli
+GCF_002310575.1	Escherichia coli
+GCF_002310595.1	Escherichia coli
+GCF_002310615.1	Escherichia coli
+GCF_002310635.1	Escherichia coli
+GCF_002310655.1	Escherichia coli
+GCF_002310675.1	Escherichia coli
+GCF_002310695.1	Escherichia coli
+GCF_002310715.1	Escherichia coli
+GCF_002310735.1	Escherichia coli
+GCF_002357875.1	Escherichia coli
+GCF_002357895.1	Escherichia coli
+GCF_002357915.1	Escherichia coli
+GCF_002393365.1	Escherichia coli
+GCF_002393465.1	Escherichia coli
+GCF_002494365.2	Escherichia coli
+GCF_002587005.1	Escherichia coli
+GCF_002589795.1	Escherichia coli
+GCF_002591135.1	Escherichia coli
+GCF_002716885.1	Escherichia coli O91 str. RM7190
+GCF_002741175.1	Escherichia coli O25:NM
+GCF_002741195.1	Escherichia coli O6:H16
+GCF_002741215.1	Escherichia coli O15:H11
+GCF_002741255.1	Escherichia coli O114:H49
+GCF_002741295.1	Escherichia coli
+GCF_002741315.1	Escherichia coli O25:H16
+GCF_002741335.1	Escherichia coli
+GCF_002741355.1	Escherichia coli
+GCF_002741435.1	Escherichia coli O169:H41
+GCF_002741455.1	Escherichia coli O128:H27
+GCF_002741475.1	Escherichia coli O27:H7
+GCF_002741495.1	Escherichia coli O169:H41
+GCF_002741535.1	Escherichia coli
+GCF_002741555.1	Escherichia coli
+GCF_002741575.1	Escherichia coli O6:H16
+GCF_002741595.1	Escherichia coli O178:H19
+GCF_002761835.1	Escherichia coli
+GCF_002763515.2	Escherichia coli
+GCF_002763995.1	Escherichia coli
+GCF_002764015.1	Escherichia coli
+GCF_002786655.1	Escherichia coli
+GCF_002787215.1	Escherichia coli
+GCF_002787315.1	Escherichia coli
+GCF_002787545.1	Escherichia coli
+GCF_002787645.1	Escherichia coli
+GCF_002787935.1	Escherichia coli
+GCF_002788115.1	Escherichia coli
+GCF_002788295.1	Escherichia coli
+GCF_002796445.1	Escherichia coli
+GCF_002796585.1	Escherichia coli
+GCF_002803805.1	Escherichia coli
+GCF_002803905.1	Escherichia coli
+GCF_002811555.3	Escherichia coli
+GCF_002812545.1	Escherichia coli
+GCF_002843685.1	Escherichia coli str. K-12 substr. MG1655
+GCF_002844165.1	Escherichia coli O121:H19
+GCF_002844685.1	Escherichia coli
+GCF_002846135.1	Escherichia coli
+GCF_002848225.1	Escherichia coli
+GCF_002850675.3	Escherichia coli
+GCF_002853655.1	Escherichia coli
+GCF_002853715.1	Escherichia coli
+GCF_002853805.1	Escherichia coli
+GCF_002854065.1	Escherichia coli
+GCF_002855325.1	Escherichia coli
+GCF_002855415.1	Escherichia coli
+GCF_002859105.1	Escherichia coli
+GCF_002860085.1	Escherichia coli
+GCF_002860105.1	Escherichia coli
+GCF_002863665.1	Escherichia coli
+GCF_002863685.1	Escherichia coli
+GCF_002863845.1	Escherichia coli
+GCF_002863885.1	Escherichia coli
+GCF_002870165.1	Escherichia coli
+GCF_002879975.1	Escherichia coli
+GCF_002887715.1	Escherichia coli
+GCF_002893905.2	Escherichia coli
+GCF_002899475.1	Escherichia coli
+GCF_002899495.1	Escherichia coli
+GCF_002899515.1	Escherichia coli
+GCF_002899535.1	Escherichia coli
+GCF_002900305.1	Escherichia coli
+GCF_002903105.1	Escherichia coli
+GCF_002903125.1	Escherichia coli
+GCF_002934025.1	Escherichia coli
+GCF_002934895.1	Escherichia coli
+GCF_002944935.1	Escherichia coli
+GCF_002945135.2	Escherichia coli
+GCF_002946715.1	Escherichia coli
+GCF_002948655.1	Escherichia coli
+GCF_002951855.1	Escherichia coli
+GCF_002952695.1	Escherichia coli
+GCF_002952855.1	Escherichia coli
+GCF_002952875.1	Escherichia coli
+GCF_002952895.1	Escherichia coli
+GCF_002952915.1	Escherichia coli
+GCF_002952935.1	Escherichia coli
+GCF_002952955.1	Escherichia coli
+GCF_002952995.1	Escherichia coli
+GCF_002953015.1	Escherichia coli
+GCF_002953035.1	Escherichia coli
+GCF_002953055.1	Escherichia coli
+GCF_002953075.1	Escherichia coli
+GCF_002953095.1	Escherichia coli
+GCF_002953435.1	Escherichia coli
+GCF_002953455.1	Escherichia coli
+GCF_002953755.1	Escherichia coli
+GCF_002953775.1	Escherichia coli
+GCF_002953795.1	Escherichia coli
+GCF_002953815.1	Escherichia coli
+GCF_002953835.1	Escherichia coli
+GCF_002953855.1	Escherichia coli
+GCF_002953875.1	Escherichia coli
+GCF_002953895.1	Escherichia coli
+GCF_002966755.1	Escherichia coli
+GCF_002968715.1	Escherichia coli
+GCF_002968735.1	Escherichia coli
+GCF_002983645.1	Escherichia coli O104:H4
+GCF_002993265.1	Escherichia coli
+GCF_002996665.1	Escherichia coli
+GCF_002996945.1	Escherichia coli
+GCF_002999075.1	Escherichia coli
+GCF_003013205.1	Escherichia coli
+GCF_003017375.1	Escherichia coli
+GCF_003017455.1	Escherichia coli
+GCF_003017555.1	Escherichia coli
+GCF_003017615.1	Escherichia coli
+GCF_003017765.1	Escherichia coli
+GCF_003017805.1	Escherichia coli
+GCF_003017915.1	Escherichia coli
+GCF_003017935.1	Escherichia coli
+GCF_003017975.1	Escherichia coli
+GCF_003017995.1	Escherichia coli
+GCF_003018035.1	Escherichia coli
+GCF_003018055.1	Escherichia coli
+GCF_003018075.1	Escherichia coli
+GCF_003018095.1	Escherichia coli
+GCF_003018115.1	Escherichia coli
+GCF_003018135.1	Escherichia coli
+GCF_003018155.1	Escherichia coli
+GCF_003018195.1	Escherichia coli
+GCF_003018215.1	Escherichia coli
+GCF_003018235.1	Escherichia coli
+GCF_003018255.1	Escherichia coli
+GCF_003018275.1	Escherichia coli
+GCF_003018315.1	Escherichia coli
+GCF_003018335.1	Escherichia coli
+GCF_003018355.1	Escherichia coli
+GCF_003018375.1	Escherichia coli
+GCF_003018395.1	Escherichia coli
+GCF_003018455.1	Escherichia coli
+GCF_003018475.1	Escherichia coli
+GCF_003018495.1	Escherichia coli
+GCF_003018535.1	Escherichia coli
+GCF_003018555.1	Escherichia coli
+GCF_003018575.1	Escherichia coli
+GCF_003018615.1	Escherichia coli
+GCF_003018655.1	Escherichia coli
+GCF_003018695.1	Escherichia coli
+GCF_003018715.1	Escherichia coli
+GCF_003018755.1	Escherichia coli
+GCF_003018775.1	Escherichia coli
+GCF_003018795.1	Escherichia coli
+GCF_003018815.1	Escherichia coli
+GCF_003018855.1	Escherichia coli
+GCF_003018875.1	Escherichia coli
+GCF_003018895.1	Escherichia coli
+GCF_003018915.1	Escherichia coli
+GCF_003018935.1	Escherichia coli
+GCF_003018995.1	Escherichia coli
+GCF_003019035.1	Escherichia coli
+GCF_003019055.1	Escherichia coli
+GCF_003019075.1	Escherichia coli
+GCF_003019095.1	Escherichia coli
+GCF_003019115.1	Escherichia coli
+GCF_003019155.1	Escherichia coli
+GCF_003019175.1	Escherichia coli
+GCF_003019215.1	Escherichia coli
+GCF_003020885.1	Escherichia coli
+GCF_003030025.1	Escherichia coli
+GCF_003030245.1	Escherichia coli
+GCF_003030365.1	Escherichia coli
+GCF_003031225.1	Escherichia coli
+GCF_003033905.1	Escherichia coli
+GCF_003043915.1	Escherichia coli
+GCF_003051985.2	Escherichia coli
+GCF_003052645.1	Escherichia coli
+GCF_003052665.1	Escherichia coli
+GCF_003073815.1	Escherichia coli
+GCF_003073835.1	Escherichia coli
+GCF_003073875.1	Escherichia coli
+GCF_003073955.1	Escherichia coli
+GCF_003095635.1	Escherichia coli
+GCF_003111785.1	Escherichia coli
+GCF_003112145.1	Escherichia coli O121 str. RM8352
+GCF_003112165.1	Escherichia coli O103 str. RM8385
+GCF_003112185.1	Escherichia coli O26 str. RM8426
+GCF_003112205.1	Escherichia coli O43 str. RM10042
+GCF_003112225.1	Escherichia coli O26 str. RM10386
+GCF_003112245.1	Escherichia coli O111 str. RM9322
+GCF_003122105.1	Escherichia coli
+GCF_003172465.2	Escherichia coli
+GCF_003176855.1	Escherichia coli
+GCF_003180975.1	Escherichia coli
+GCF_003180995.1	Escherichia coli
+GCF_003181035.1	Escherichia coli
+GCF_003194345.1	Escherichia coli
+GCF_003203755.1	Escherichia coli
+GCF_003204155.1	Escherichia coli
+GCF_003204955.1	Escherichia coli
+GCF_003231115.1	Escherichia coli
+GCF_003254065.1	Escherichia coli
+GCF_003268695.1	Escherichia coli
+GCF_003287245.1	Escherichia coli
+GCF_003288275.1	Escherichia coli
+GCF_003288295.1	Escherichia coli
+GCF_003288415.1	Escherichia coli
+GCF_003288455.1	Escherichia coli
+GCF_003290205.1	Escherichia coli
+GCF_003308955.1	Escherichia coli
+GCF_003308975.1	Escherichia coli
+GCF_003325975.1	Escherichia coli
+GCF_003336405.1	Escherichia coli
+GCF_003342715.1	Escherichia coli
+GCF_003344465.1	Escherichia coli
+GCF_003346835.1	Escherichia coli
+GCF_003351485.1	Escherichia coli
+GCF_003352425.1	Escherichia coli
+GCF_003355175.1	Escherichia coli
+GCF_003367885.1	Escherichia coli
+GCF_003402955.1	Escherichia coli
+GCF_003410275.1	Escherichia coli
+GCF_003413625.1	Escherichia coli
+GCF_003432305.1	Escherichia coli
+GCF_003433275.1	Escherichia coli NCCP15648
+GCF_003443795.1	Escherichia coli
+GCF_003443815.1	Escherichia coli
+GCF_003491165.1	Escherichia coli
+GCF_003546975.1	Escherichia coli Nissle 1917
+GCF_003571665.1	Escherichia coli
+GCF_003571685.1	Escherichia coli
+GCF_003571765.1	Escherichia coli
+GCF_003571785.1	Escherichia coli
+GCF_003571825.1	Escherichia coli
+GCF_003586065.1	Escherichia coli O145 str. RM9872
+GCF_003591595.1	Escherichia coli ATCC 8739
+GCF_003627195.1	Escherichia coli str. K-12 substr. MG1655
+GCF_003627855.1	Escherichia coli
+GCF_003667385.1	Escherichia coli
+GCF_003667405.1	Escherichia coli
+GCF_003667425.1	Escherichia coli
+GCF_003691425.1	Escherichia coli
+GCF_003697165.2	Escherichia coli DSM 30083 = JCM 1649 = ATCC 11775
+GCF_003703795.1	Escherichia coli
+GCF_003711005.1	Escherichia coli
+GCF_003711045.1	Escherichia coli
+GCF_003717595.1	Escherichia coli
+GCF_003722195.1	Escherichia coli O157:H7
+GCF_003790525.1	Escherichia coli
+GCF_003812625.1	Escherichia coli
+GCF_003812945.1	Escherichia coli
+GCF_003813145.1	Escherichia coli
+GCF_003856575.1	Escherichia coli
+GCF_003856615.1	Escherichia coli
+GCF_003856635.1	Escherichia coli
+GCF_003856655.1	Escherichia coli
+GCF_003856675.1	Escherichia coli
+GCF_003856695.1	Escherichia coli
+GCF_003956165.1	Escherichia coli
+GCF_003956185.1	Escherichia coli
+GCF_003956205.1	Escherichia coli
+GCF_003956225.1	Escherichia coli
+GCF_003956265.1	Escherichia coli
+GCF_003956285.1	Escherichia coli
+GCF_003956305.1	Escherichia coli
+GCF_003956325.1	Escherichia coli
+GCF_003956345.1	Escherichia coli
+GCF_003956405.1	Escherichia coli
+GCF_003956425.1	Escherichia coli
+GCF_003956445.1	Escherichia coli
+GCF_003956465.1	Escherichia coli
+GCF_003956485.1	Escherichia coli
+GCF_003966425.1	Escherichia coli
+GCF_003966445.1	Escherichia coli
+GCF_003966465.1	Escherichia coli
+GCF_003966775.1	Escherichia coli
+GCF_003966795.1	Escherichia coli O157:H7
+GCF_003971215.1	Escherichia coli
+GCF_003991155.1	Escherichia coli
+GCF_003999795.1	Escherichia coli
+GCF_004006545.1	Escherichia coli
+GCF_004006575.1	Escherichia coli
+GCF_004010575.1	Escherichia coli
+GCF_004010595.1	Escherichia coli
+GCF_004010615.1	Escherichia coli
+GCF_004010635.1	Escherichia coli
+GCF_004010655.1	Escherichia coli
+GCF_004010675.1	Escherichia coli
+GCF_004010695.1	Escherichia coli
+GCF_004010715.1	Escherichia coli
+GCF_004011015.1	Escherichia coli
+GCF_900092615.1	Escherichia coli
+GCF_900096795.1	Escherichia coli
+GCF_900096845.1	Escherichia coli
+GCF_900149875.1	Escherichia coli O127:H6
+GCF_900149915.1	Escherichia coli O127:H6
+GCF_900174625.1	Escherichia coli
+GCF_900174635.1	Escherichia coli
+GCF_900184875.1	Escherichia coli
+GCF_900186905.1	Escherichia coli
+GCF_900474445.1	Escherichia coli
+GCF_900474495.1	Escherichia coli
+GCF_900474625.1	Escherichia coli
+GCF_900618295.1	Escherichia coli
+GCF_900635145.1	Escherichia coli
+GCF_900635165.1	Escherichia coli
+GCF_900635175.1	Escherichia coli
+GCF_900635185.1	Escherichia coli
+GCF_900635205.1	Escherichia coli
+GCF_900635215.1	Escherichia coli
+GCF_900635235.1	Escherichia coli
+GCF_900635325.1	Escherichia coli
+GCF_900635635.1	Escherichia coli
+GCF_900635895.1	Escherichia coli
+GCF_900636005.1	Escherichia coli
+GCF_900636015.1	Escherichia coli
+GCF_900636045.1	Escherichia coli
+GCF_900636055.1	Escherichia coli
+GCF_900636065.1	Escherichia coli
+GCF_900636075.1	Escherichia coli
+GCF_900636105.1	Escherichia coli
+GCF_900636115.1	Escherichia coli
+GCF_900636125.1	Escherichia coli
+GCF_900636145.1	Escherichia coli
+GCF_900636175.1	Escherichia coli
+GCF_900636195.1	Escherichia coli
+GCF_900636215.1	Escherichia coli
+GCF_900636235.1	Escherichia coli
+GCF_900636245.1	Escherichia coli
+GCF_900636295.1	Escherichia coli
+GCF_900636305.1	Escherichia coli
+GCF_900636405.1	Escherichia coli
+GCF_900636595.1	Escherichia coli
+GCF_900636605.1	Escherichia coli
+GCF_900636785.1	Escherichia coli
+GCF_900636795.1	Escherichia coli
+GCF_900637015.1	Escherichia coli
+GCF_000026225.1	Escherichia fergusonii ATCC 35469
+GCF_000512125.1	Escherichia albertii KF1
+GCF_001549955.1	Escherichia albertii
+GCF_002285455.1	Escherichia albertii
+GCF_002285475.1	Escherichia albertii
+GCF_002741375.1	Escherichia albertii
+GCF_002872455.1	Escherichia albertii
+GCF_002895205.1	Escherichia albertii
+GCF_003312485.2	Escherichia albertii
+GCF_003312525.2	Escherichia albertii
+GCF_003312545.2	Escherichia albertii
+GCF_003316815.1	Escherichia albertii
+GCF_003860365.1	Escherichia albertii
+GCF_003860385.1	Escherichia albertii
+GCF_003864095.1	Escherichia albertii
+GCF_002900365.1	Escherichia marmotae

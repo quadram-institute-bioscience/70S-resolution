@@ -1,0 +1,243 @@
+Considering the following 242 assemblies for download:
+GCF_000007865.1	Mycobacterium avium subsp. paratuberculosis K-10
+GCF_000014985.1	Mycobacterium avium 104
+GCF_000390085.1	Mycobacterium avium subsp. paratuberculosis MAP4
+GCF_000829075.1	Mycobacterium avium subsp. hominissuis TH135
+GCF_000835225.1	Mycobacterium avium subsp. paratuberculosis
+GCF_000835265.1	Mycobacterium avium subsp. paratuberculosis
+GCF_001653355.1	Mycobacterium avium subsp. paratuberculosis
+GCF_001683455.1	Mycobacterium avium
+GCF_001865635.2	Mycobacterium avium subsp. hominissuis
+GCF_001936215.1	Mycobacterium avium subsp. hominissuis
+GCF_002208705.2	Mycobacterium avium subsp. paratuberculosis
+GCF_002716905.1	Mycobacterium avium subsp. hominissuis
+GCF_002716925.1	Mycobacterium avium subsp. hominissuis
+GCF_002716965.1	Mycobacterium avium subsp. hominissuis
+GCF_003408535.1	Mycobacterium avium subsp. hominissuis
+GCF_003640565.1	Mycobacterium avium
+GCF_003713025.1	Mycobacterium avium subsp. paratuberculosis
+GCF_003713045.1	Mycobacterium avium subsp. paratuberculosis
+GCF_003815795.1	Mycobacterium avium subsp. paratuberculosis
+GCF_003815815.1	Mycobacterium avium subsp. paratuberculosis
+GCF_003816035.1	Mycobacterium avium subsp. paratuberculosis
+GCF_003957335.1	Mycobacterium avium subsp. paratuberculosis
+GCF_000277125.1	Mycobacterium intracellulare ATCC 13950
+GCF_000277145.1	Mycobacterium intracellulare MOTT-02
+GCF_000298095.1	Mycobacterium intracellulare subsp. intracellulare MTCC 9506
+GCF_000418535.1	Mycobacterium intracellulare subsp. yongonense 05-1390
+GCF_002148175.1	Mycobacterium intracellulare subsp. yongonense
+GCF_002148195.1	Mycobacterium intracellulare subsp. yongonense
+GCF_002285675.1	Mycobacterium intracellulare
+GCF_002285695.1	Mycobacterium intracellulare
+GCF_000157895.3	Mycobacterium kansasii ATCC 12478
+GCF_000026685.1	Mycobacterium leprae Br4923
+GCF_000195855.1	Mycobacterium leprae TN
+GCF_003253775.1	Mycobacterium leprae
+GCF_003584725.1	Mycobacterium leprae Kyoto-2
+GCF_000008585.1	Mycobacterium tuberculosis CDC1551
+GCF_000009445.1	Mycobacterium tuberculosis variant bovis BCG str. Pasteur 1173P2
+GCF_000010685.1	Mycobacterium tuberculosis variant bovis BCG str. Tokyo 172
+GCF_000016145.1	Mycobacterium tuberculosis H37Ra
+GCF_000016925.1	Mycobacterium tuberculosis F11
+GCF_000023625.1	Mycobacterium tuberculosis KZN 1435
+GCF_000153685.2	Mycobacterium tuberculosis str. Haarlem
+GCF_000154585.2	Mycobacterium tuberculosis KZN 4207
+GCF_000154605.2	Mycobacterium tuberculosis KZN 605
+GCF_000193185.2	Mycobacterium tuberculosis W-148
+GCF_000194075.2	Mycobacterium tuberculosis variant bovis BCG str. ATCC 35743
+GCF_000195835.2	Mycobacterium tuberculosis variant bovis AF2122/97
+GCF_000195955.2	Mycobacterium tuberculosis H37Rv
+GCF_000224435.1	Mycobacterium tuberculosis CTRI-2
+GCF_000234725.1	Mycobacterium tuberculosis variant bovis BCG str. Mexico
+GCF_000253355.1	Mycobacterium tuberculosis variant africanum GM041182
+GCF_000270365.1	Mycobacterium tuberculosis CCDC5180
+GCF_000277735.2	Mycobacterium tuberculosis H37Rv
+GCF_000331445.1	Mycobacterium tuberculosis 7199-99
+GCF_000338715.2	Mycobacterium tuberculosis variant bovis BCG str. Korea 1168P
+GCF_000350205.1	Mycobacterium tuberculosis str. Erdman = ATCC 35801
+GCF_000364825.1	Mycobacterium tuberculosis str. Beijing/NITR203
+GCF_000389945.1	Mycobacterium tuberculosis EAI5/NITR206
+GCF_000400615.1	Mycobacterium tuberculosis CCDC5079
+GCF_000422125.1	Mycobacterium tuberculosis EAI5
+GCF_000572125.1	Mycobacterium tuberculosis HKBS1
+GCF_000572155.1	Mycobacterium tuberculosis BT2
+GCF_000572175.1	Mycobacterium tuberculosis BT1
+GCF_000572195.1	Mycobacterium tuberculosis CCDC5180
+GCF_000698475.1	Mycobacterium tuberculosis K
+GCF_000706665.1	Mycobacterium tuberculosis
+GCF_000738445.1	Mycobacterium tuberculosis
+GCF_000738475.1	Mycobacterium tuberculosis
+GCF_000756525.1	Mycobacterium tuberculosis
+GCF_000756545.1	Mycobacterium tuberculosis
+GCF_000786505.1	Mycobacterium tuberculosis 49-02
+GCF_000827085.1	Mycobacterium tuberculosis H37RvSiena
+GCF_000828995.1	Mycobacterium tuberculosis str. Kurono
+GCF_000934325.3	Mycobacterium tuberculosis variant bovis
+GCF_000967285.1	Mycobacterium tuberculosis variant bovis BCG str. Moreau RDJ
+GCF_001043255.1	Mycobacterium tuberculosis variant bovis BCG
+GCF_001078615.1	Mycobacterium tuberculosis variant bovis
+GCF_001274555.1	Mycobacterium tuberculosis variant bovis BCG
+GCF_001275565.2	Mycobacterium tuberculosis
+GCF_001483905.1	Mycobacterium tuberculosis variant bovis
+GCF_001544705.1	Mycobacterium tuberculosis
+GCF_001544955.1	Mycobacterium tuberculosis
+GCF_001545015.1	Mycobacterium tuberculosis
+GCF_001580385.1	Mycobacterium tuberculosis variant bovis BCG str. Tokyo 172
+GCF_001702435.1	Mycobacterium tuberculosis
+GCF_001708265.1	Mycobacterium tuberculosis
+GCF_001750865.1	Mycobacterium tuberculosis
+GCF_001855255.1	Mycobacterium tuberculosis
+GCF_001870145.1	Mycobacterium tuberculosis
+GCF_001895765.1	Mycobacterium tuberculosis
+GCF_001895785.1	Mycobacterium tuberculosis
+GCF_001895805.1	Mycobacterium tuberculosis
+GCF_001895825.1	Mycobacterium tuberculosis
+GCF_001895845.1	Mycobacterium tuberculosis
+GCF_001895865.1	Mycobacterium tuberculosis
+GCF_001922485.1	Mycobacterium tuberculosis
+GCF_001938725.1	Mycobacterium tuberculosis H37Ra
+GCF_002072775.2	Mycobacterium tuberculosis
+GCF_002116755.1	Mycobacterium tuberculosis
+GCF_002116775.1	Mycobacterium tuberculosis
+GCF_002116795.1	Mycobacterium tuberculosis
+GCF_002116815.1	Mycobacterium tuberculosis
+GCF_002116835.1	Mycobacterium tuberculosis
+GCF_002116855.1	Mycobacterium tuberculosis
+GCF_002208235.1	Mycobacterium tuberculosis
+GCF_002356015.1	Mycobacterium tuberculosis
+GCF_002356255.1	Mycobacterium tuberculosis
+GCF_002357935.1	Mycobacterium tuberculosis
+GCF_002357955.1	Mycobacterium tuberculosis
+GCF_002357975.1	Mycobacterium tuberculosis
+GCF_002446875.1	Mycobacterium tuberculosis
+GCF_002446895.1	Mycobacterium tuberculosis
+GCF_002446915.1	Mycobacterium tuberculosis
+GCF_002446935.1	Mycobacterium tuberculosis
+GCF_002446955.1	Mycobacterium tuberculosis
+GCF_002446975.1	Mycobacterium tuberculosis
+GCF_002446995.1	Mycobacterium tuberculosis
+GCF_002447015.1	Mycobacterium tuberculosis
+GCF_002447035.1	Mycobacterium tuberculosis
+GCF_002447055.1	Mycobacterium tuberculosis
+GCF_002447075.1	Mycobacterium tuberculosis
+GCF_002447095.1	Mycobacterium tuberculosis
+GCF_002447115.1	Mycobacterium tuberculosis
+GCF_002447135.1	Mycobacterium tuberculosis
+GCF_002447155.1	Mycobacterium tuberculosis
+GCF_002447175.1	Mycobacterium tuberculosis
+GCF_002447195.1	Mycobacterium tuberculosis
+GCF_002447215.1	Mycobacterium tuberculosis
+GCF_002447235.1	Mycobacterium tuberculosis
+GCF_002447255.1	Mycobacterium tuberculosis
+GCF_002447275.1	Mycobacterium tuberculosis
+GCF_002447295.1	Mycobacterium tuberculosis
+GCF_002447315.1	Mycobacterium tuberculosis
+GCF_002447335.1	Mycobacterium tuberculosis
+GCF_002447355.1	Mycobacterium tuberculosis
+GCF_002447375.1	Mycobacterium tuberculosis
+GCF_002447395.1	Mycobacterium tuberculosis
+GCF_002447415.1	Mycobacterium tuberculosis
+GCF_002447435.1	Mycobacterium tuberculosis
+GCF_002447455.1	Mycobacterium tuberculosis
+GCF_002447475.1	Mycobacterium tuberculosis
+GCF_002447495.1	Mycobacterium tuberculosis
+GCF_002447515.1	Mycobacterium tuberculosis
+GCF_002447535.1	Mycobacterium tuberculosis
+GCF_002447555.1	Mycobacterium tuberculosis
+GCF_002447575.1	Mycobacterium tuberculosis
+GCF_002447595.1	Mycobacterium tuberculosis
+GCF_002447615.1	Mycobacterium tuberculosis
+GCF_002447635.1	Mycobacterium tuberculosis
+GCF_002447655.1	Mycobacterium tuberculosis
+GCF_002447675.1	Mycobacterium tuberculosis
+GCF_002447695.1	Mycobacterium tuberculosis
+GCF_002447715.1	Mycobacterium tuberculosis
+GCF_002447735.1	Mycobacterium tuberculosis
+GCF_002447755.1	Mycobacterium tuberculosis
+GCF_002447775.1	Mycobacterium tuberculosis
+GCF_002447795.1	Mycobacterium tuberculosis
+GCF_002447815.1	Mycobacterium tuberculosis
+GCF_002447835.1	Mycobacterium tuberculosis
+GCF_002447855.1	Mycobacterium tuberculosis
+GCF_002447875.1	Mycobacterium tuberculosis
+GCF_002447895.1	Mycobacterium tuberculosis
+GCF_002447915.1	Mycobacterium tuberculosis
+GCF_002447935.1	Mycobacterium tuberculosis
+GCF_002447955.1	Mycobacterium tuberculosis
+GCF_002447975.1	Mycobacterium tuberculosis
+GCF_002447995.1	Mycobacterium tuberculosis
+GCF_002448015.1	Mycobacterium tuberculosis
+GCF_002448035.1	Mycobacterium tuberculosis
+GCF_002448055.1	Mycobacterium tuberculosis
+GCF_002448075.1	Mycobacterium tuberculosis
+GCF_002448095.1	Mycobacterium tuberculosis
+GCF_002448115.1	Mycobacterium tuberculosis
+GCF_002448135.1	Mycobacterium tuberculosis
+GCF_002448155.1	Mycobacterium tuberculosis
+GCF_002448175.1	Mycobacterium tuberculosis
+GCF_002448195.1	Mycobacterium tuberculosis
+GCF_002448215.1	Mycobacterium tuberculosis
+GCF_002886145.1	Mycobacterium tuberculosis
+GCF_002886165.1	Mycobacterium tuberculosis
+GCF_002886195.1	Mycobacterium tuberculosis
+GCF_002886225.1	Mycobacterium tuberculosis
+GCF_002886335.1	Mycobacterium tuberculosis
+GCF_002886405.1	Mycobacterium tuberculosis
+GCF_002886505.1	Mycobacterium tuberculosis
+GCF_002886585.1	Mycobacterium tuberculosis
+GCF_002886685.1	Mycobacterium tuberculosis
+GCF_002886775.1	Mycobacterium tuberculosis
+GCF_002886865.1	Mycobacterium tuberculosis
+GCF_002886945.1	Mycobacterium tuberculosis
+GCF_002887065.1	Mycobacterium tuberculosis
+GCF_002887145.1	Mycobacterium tuberculosis
+GCF_002887255.1	Mycobacterium tuberculosis
+GCF_002887335.1	Mycobacterium tuberculosis
+GCF_002975475.1	Mycobacterium tuberculosis variant bovis
+GCF_003006115.1	Mycobacterium tuberculosis
+GCF_003006135.1	Mycobacterium tuberculosis
+GCF_003265005.1	Mycobacterium tuberculosis
+GCF_003287125.1	Mycobacterium tuberculosis
+GCF_003287145.1	Mycobacterium tuberculosis
+GCF_003287165.1	Mycobacterium tuberculosis
+GCF_003287185.1	Mycobacterium tuberculosis
+GCF_003293655.1	Mycobacterium tuberculosis
+GCF_000018345.1	Mycobacterium marinum M
+GCF_000723425.2	Mycobacterium marinum E11
+GCF_003391395.1	Mycobacterium marinum
+GCF_003391415.1	Mycobacterium marinum
+GCF_003609695.1	Mycobacterium marinum
+GCF_000013925.1	Mycobacterium ulcerans Agy99
+GCF_002355775.1	Mycobacterium ulcerans subsp. shinshuense
+GCF_000340435.2	Mycobacterium haemophilum DSM 44634
+GCF_000253375.1	Mycobacterium canettii CIPT 140010059
+GCF_000014165.1	Mycobacterium sp. MCS
+GCF_000016005.1	Mycobacterium sp. JLS
+GCF_000015405.1	Mycobacterium sp. KMS
+GCF_000328565.1	Mycobacterium sp. JS623
+GCF_001750065.2	Mycobacterium chimaera
+GCF_002166795.1	Mycobacterium chimaera
+GCF_002219245.1	Mycobacterium chimaera
+GCF_002219265.1	Mycobacterium chimaera
+GCF_002219285.1	Mycobacterium chimaera
+GCF_002240155.1	Mycobacterium chimaera
+GCF_002287605.1	Mycobacterium chimaera
+GCF_900116695.1	Mycobacterium chimaera
+GCF_000026445.2	Mycobacterium liflandii 128FXT
+GCF_003584745.1	Mycobacterium pseudoshottsii JCM 15466
+GCF_002105755.1	Mycobacterium colombiense CECT 3035
+GCF_002157835.1	Mycobacterium dioxanotrophicus
+GCF_002285715.1	Mycobacterium marseillense
+GCF_002356315.1	Mycobacterium shigaense
+GCF_003515645.1	Mycobacterium shigaense
+GCF_000276825.1	Mycobacterium paraintracellulare
+GCF_000262165.1	Mycobacterium sp. MOTT36Y
+GCF_000416365.2	Mycobacterium sp. VKM Ac-1817D
+GCF_003614435.1	Mycobacterium paragordonae
+GCF_001021385.1	Mycobacterium sp. EPa45
+GCF_001611855.1	Mycobacterium sp. QIA-37
+GCF_001580405.1	Mycobacterium sp. NRRL B-3805
+GCF_001644575.1	Mycobacterium sp. YC-RL4
+GCF_001695755.1	Mycobacterium sp. djl-10
+GCF_001886515.1	Mycobacterium sp. WY10
+GCF_002335685.1	Mycobacterium sp. PYR15

@@ -1,0 +1,109 @@
+Considering the following 108 assemblies for download:
+GCF_000007785.1	Enterococcus faecalis V583
+GCF_000172575.2	Enterococcus faecalis OG1RF
+GCF_000281195.1	Enterococcus faecalis D32
+GCF_000317915.1	Enterococcus faecalis str. Symbioflor 1
+GCF_000550745.1	Enterococcus faecalis DENG1
+GCF_000742975.1	Enterococcus faecalis ATCC 29212
+GCF_001598635.1	Enterococcus faecalis
+GCF_001689055.2	Enterococcus faecalis
+GCF_001878735.1	Enterococcus faecalis
+GCF_001886675.1	Enterococcus faecalis
+GCF_001989555.1	Enterococcus faecalis
+GCF_002163735.1	Enterococcus faecalis
+GCF_002208945.1	Enterococcus faecalis
+GCF_002289045.2	Enterococcus faecalis
+GCF_002355755.1	Enterococcus faecalis
+GCF_002814115.1	Enterococcus faecalis ARO1/DG
+GCF_003030425.1	Enterococcus faecalis
+GCF_003345275.1	Enterococcus faecalis
+GCF_003812665.1	Enterococcus faecalis
+GCF_003966385.1	Enterococcus faecalis
+GCF_003966405.1	Enterococcus faecalis
+GCF_900636775.1	Enterococcus faecalis
+GCF_000174395.2	Enterococcus faecium DO
+GCF_000250945.1	Enterococcus faecium Aus0004
+GCF_000336405.1	Enterococcus faecium ATCC 8459 = NRRL B-2354
+GCF_000444405.1	Enterococcus faecium Aus0085
+GCF_000737555.1	Enterococcus faecium T110
+GCF_001298485.1	Enterococcus faecium
+GCF_001412695.1	Enterococcus faecium
+GCF_001518735.1	Enterococcus faecium
+GCF_001587115.1	Enterococcus faecium
+GCF_001635875.1	Enterococcus faecium
+GCF_001720945.1	Enterococcus faecium
+GCF_001721065.1	Enterococcus faecium
+GCF_001721905.1	Enterococcus faecium
+GCF_001750885.1	Enterococcus faecium
+GCF_001886635.1	Enterococcus faecium
+GCF_001895905.1	Enterococcus faecium
+GCF_001953235.1	Enterococcus faecium
+GCF_001953255.1	Enterococcus faecium
+GCF_002007625.1	Enterococcus faecium
+GCF_002024245.1	Enterococcus faecium
+GCF_002025045.1	Enterococcus faecium
+GCF_002025065.1	Enterococcus faecium
+GCF_002334625.1	Enterococcus faecium
+GCF_002442955.1	Enterococcus faecium
+GCF_002761255.1	Enterococcus faecium
+GCF_002761275.1	Enterococcus faecium
+GCF_002761555.1	Enterococcus faecium
+GCF_002777275.1	Enterococcus faecium
+GCF_002831505.1	Enterococcus faecium
+GCF_002848385.1	Enterococcus faecium
+GCF_002848625.1	Enterococcus faecium
+GCF_002848645.1	Enterococcus faecium
+GCF_002848665.1	Enterococcus faecium
+GCF_002848685.1	Enterococcus faecium
+GCF_002848705.1	Enterococcus faecium
+GCF_002848725.1	Enterococcus faecium
+GCF_002848745.1	Enterococcus faecium
+GCF_002850515.1	Enterococcus faecium
+GCF_002880635.1	Enterococcus faecium
+GCF_002983785.1	Enterococcus faecium
+GCF_003020685.1	Enterococcus faecium
+GCF_003020705.1	Enterococcus faecium
+GCF_003020725.1	Enterococcus faecium
+GCF_003020745.1	Enterococcus faecium
+GCF_003020765.1	Enterococcus faecium
+GCF_003071425.1	Enterococcus faecium
+GCF_003071445.1	Enterococcus faecium
+GCF_003269465.1	Enterococcus faecium
+GCF_003574925.1	Enterococcus faecium
+GCF_003667965.1	Enterococcus faecium
+GCF_003957785.1	Enterococcus faecium
+GCF_900044005.1	Enterococcus faecium
+GCF_900066025.1	Enterococcus faecium
+GCF_900092475.1	Enterococcus faecium
+GCF_900634805.1	Enterococcus faecium
+GCF_900635365.1	Enterococcus faecium
+GCF_900635415.1	Enterococcus faecium
+GCF_900637035.1	Enterococcus faecium
+GCF_900638765.1	Enterococcus faecium
+GCF_900638775.1	Enterococcus faecium
+GCF_900638785.1	Enterococcus faecium
+GCF_900638795.1	Enterococcus faecium
+GCF_900638805.1	Enterococcus faecium
+GCF_900638815.1	Enterococcus faecium
+GCF_900638825.1	Enterococcus faecium
+GCF_001558875.2	Enterococcus gallinarum
+GCF_000271405.2	Enterococcus hirae ATCC 9790
+GCF_001641305.1	Enterococcus hirae
+GCF_002278015.2	Enterococcus hirae
+GCF_900636615.1	Enterococcus hirae
+GCF_000157355.2	Enterococcus casseliflavus EC20
+GCF_003641225.1	Enterococcus casseliflavus
+GCF_900474605.1	Enterococcus cecorum
+GCF_001267395.1	Enterococcus durans
+GCF_001267865.1	Enterococcus durans
+GCF_002277935.1	Enterococcus durans
+GCF_000504125.1	Enterococcus mundtii QU 25
+GCF_002216705.1	Enterococcus mundtii
+GCF_002813755.1	Enterococcus mundtii
+GCF_003957375.1	Enterococcus mundtii
+GCF_003343305.1	Enterococcus gilvus
+GCF_002290025.1	Enterococcus thailandicus
+GCF_002197645.1	Enterococcus wangshanyuanii
+GCF_002850555.1	Enterococcus sp. CR-Ec1
+GCF_002393265.1	Enterococcus sp. FDAARGOS_375
+GCF_003812305.1	Enterococcus sp. FDAARGOS_553

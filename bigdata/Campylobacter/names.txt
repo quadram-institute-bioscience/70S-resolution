@@ -1,0 +1,230 @@
+Considering the following 229 assemblies for download:
+GCF_000465235.1	Campylobacter coli CVM N29710
+GCF_000494775.1	Campylobacter coli 15-537360
+GCF_000583755.1	Campylobacter coli RM1875
+GCF_000583795.1	Campylobacter coli RM5611
+GCF_000954195.1	Campylobacter coli
+GCF_001417635.1	Campylobacter coli
+GCF_001483845.1	Campylobacter coli
+GCF_001639125.1	Campylobacter coli
+GCF_001717605.1	Campylobacter coli
+GCF_001865455.1	Campylobacter coli
+GCF_001865475.1	Campylobacter coli
+GCF_001865495.1	Campylobacter coli
+GCF_001865515.1	Campylobacter coli
+GCF_001865535.1	Campylobacter coli
+GCF_001865555.1	Campylobacter coli
+GCF_001936355.1	Campylobacter coli
+GCF_002024185.1	Campylobacter coli
+GCF_002407145.1	Campylobacter coli
+GCF_002843985.1	Campylobacter coli
+GCF_003030205.1	Campylobacter coli
+GCF_000015085.1	Campylobacter fetus subsp. fetus 82-40
+GCF_000495505.1	Campylobacter fetus subsp. testudinum 03-427
+GCF_000512745.2	Campylobacter fetus subsp. venerealis cfvi03/293
+GCF_000759485.1	Campylobacter fetus subsp. fetus 04/554
+GCF_000759515.1	Campylobacter fetus subsp. venerealis 97/608
+GCF_000814265.1	Campylobacter fetus subsp. testudinum
+GCF_000967135.1	Campylobacter fetus subsp. venerealis str. 84-112
+GCF_001484645.1	Campylobacter fetus subsp. testudinum Sp3
+GCF_001686885.1	Campylobacter fetus subsp. venerealis
+GCF_002973655.1	Campylobacter fetus subsp. testudinum
+GCF_900475935.1	Campylobacter fetus subsp. fetus
+GCF_000009085.1	Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819
+GCF_000011865.1	Campylobacter jejuni RM1221
+GCF_000015525.1	Campylobacter jejuni subsp. jejuni 81-176
+GCF_000017905.1	Campylobacter jejuni subsp. jejuni 81116
+GCF_000025425.1	Campylobacter jejuni subsp. jejuni IA3902
+GCF_000148705.1	Campylobacter jejuni subsp. jejuni M1
+GCF_000171795.2	Campylobacter jejuni subsp. jejuni CG8421
+GCF_000184205.1	Campylobacter jejuni subsp. jejuni S3
+GCF_000302555.5	Campylobacter jejuni subsp. jejuni PT14
+GCF_000304375.1	Campylobacter jejuni subsp. jejuni NCTC 11168-BN148
+GCF_000430385.1	Campylobacter jejuni 32488
+GCF_000466065.2	Campylobacter jejuni subsp. jejuni 00-2538
+GCF_000466075.2	Campylobacter jejuni subsp. jejuni 00-2544
+GCF_000466105.2	Campylobacter jejuni subsp. jejuni 00-2426
+GCF_000468915.2	Campylobacter jejuni subsp. jejuni 00-2425
+GCF_000493495.1	Campylobacter jejuni 4031
+GCF_000737085.1	Campylobacter jejuni subsp. jejuni
+GCF_000772225.1	Campylobacter jejuni subsp. jejuni F38011
+GCF_000830775.1	Campylobacter jejuni subsp. jejuni NCTC 11168-K12E5
+GCF_000830805.1	Campylobacter jejuni subsp. jejuni NCTC 11168-Kf1
+GCF_000830825.1	Campylobacter jejuni subsp. jejuni NCTC 11168-mcK12E5
+GCF_000830845.1	Campylobacter jejuni subsp. jejuni NCTC 11168-mfK12E5
+GCF_000830865.1	Campylobacter jejuni subsp. jejuni NCTC 11168-GSv
+GCF_000835285.1	Campylobacter jejuni subsp. jejuni
+GCF_000835305.1	Campylobacter jejuni subsp. jejuni
+GCF_000835345.1	Campylobacter jejuni subsp. jejuni
+GCF_000835365.1	Campylobacter jejuni subsp. jejuni
+GCF_000934305.1	Campylobacter jejuni subsp. jejuni
+GCF_001299565.1	Campylobacter jejuni subsp. jejuni
+GCF_001299595.1	Campylobacter jejuni subsp. jejuni
+GCF_001314285.1	Campylobacter jejuni
+GCF_001412295.1	Campylobacter jejuni
+GCF_001457695.1	Campylobacter jejuni
+GCF_001506185.1	Campylobacter jejuni
+GCF_001506205.1	Campylobacter jejuni
+GCF_001506225.1	Campylobacter jejuni
+GCF_001506245.1	Campylobacter jejuni
+GCF_001506265.1	Campylobacter jejuni
+GCF_001506285.1	Campylobacter jejuni
+GCF_001506305.1	Campylobacter jejuni
+GCF_001506345.1	Campylobacter jejuni
+GCF_001506365.1	Campylobacter jejuni
+GCF_001506385.1	Campylobacter jejuni
+GCF_001506405.1	Campylobacter jejuni
+GCF_001506425.1	Campylobacter jejuni
+GCF_001506445.1	Campylobacter jejuni
+GCF_001506465.1	Campylobacter jejuni
+GCF_001506485.1	Campylobacter jejuni
+GCF_001506505.1	Campylobacter jejuni
+GCF_001506525.1	Campylobacter jejuni
+GCF_001506545.1	Campylobacter jejuni
+GCF_001506565.1	Campylobacter jejuni
+GCF_001506585.1	Campylobacter jejuni
+GCF_001506605.1	Campylobacter jejuni
+GCF_001506625.1	Campylobacter jejuni
+GCF_001506645.1	Campylobacter jejuni
+GCF_001506665.1	Campylobacter jejuni
+GCF_001506685.1	Campylobacter jejuni
+GCF_001506705.1	Campylobacter jejuni
+GCF_001506725.1	Campylobacter jejuni
+GCF_001506745.1	Campylobacter jejuni
+GCF_001506765.1	Campylobacter jejuni
+GCF_001506785.1	Campylobacter jejuni
+GCF_001506805.1	Campylobacter jejuni
+GCF_001506825.1	Campylobacter jejuni
+GCF_001506845.1	Campylobacter jejuni
+GCF_001506865.1	Campylobacter jejuni
+GCF_001506885.1	Campylobacter jejuni
+GCF_001506905.1	Campylobacter jejuni
+GCF_001506925.1	Campylobacter jejuni
+GCF_001506945.1	Campylobacter jejuni
+GCF_001506965.1	Campylobacter jejuni
+GCF_001506985.1	Campylobacter jejuni
+GCF_001507005.1	Campylobacter jejuni
+GCF_001507025.1	Campylobacter jejuni
+GCF_001507045.1	Campylobacter jejuni
+GCF_001507065.1	Campylobacter jejuni
+GCF_001507085.1	Campylobacter jejuni
+GCF_001507105.1	Campylobacter jejuni
+GCF_001507125.1	Campylobacter jejuni
+GCF_001507145.1	Campylobacter jejuni
+GCF_001507165.1	Campylobacter jejuni
+GCF_001507185.1	Campylobacter jejuni
+GCF_001507205.1	Campylobacter jejuni
+GCF_001507225.1	Campylobacter jejuni
+GCF_001507245.1	Campylobacter jejuni
+GCF_001507265.1	Campylobacter jejuni
+GCF_001563565.1	Campylobacter jejuni
+GCF_001587015.1	Campylobacter jejuni
+GCF_001587035.1	Campylobacter jejuni
+GCF_001686905.1	Campylobacter jejuni subsp. jejuni
+GCF_001717625.1	Campylobacter jejuni subsp. jejuni
+GCF_001721945.1	Campylobacter jejuni subsp. jejuni
+GCF_001721965.1	Campylobacter jejuni subsp. jejuni
+GCF_001721985.1	Campylobacter jejuni subsp. jejuni
+GCF_001767215.1	Campylobacter jejuni subsp. jejuni str. RM3420
+GCF_001865395.1	Campylobacter jejuni
+GCF_001865415.1	Campylobacter jejuni
+GCF_001865435.1	Campylobacter jejuni
+GCF_001865595.1	Campylobacter jejuni subsp. jejuni M129
+GCF_001870085.1	Campylobacter jejuni
+GCF_001870105.1	Campylobacter jejuni
+GCF_001951235.1	Campylobacter jejuni
+GCF_001951255.1	Campylobacter jejuni
+GCF_001951275.1	Campylobacter jejuni
+GCF_001951295.1	Campylobacter jejuni
+GCF_001951315.1	Campylobacter jejuni
+GCF_001951335.1	Campylobacter jejuni
+GCF_002024325.1	Campylobacter jejuni
+GCF_002028305.1	Campylobacter jejuni subsp. jejuni
+GCF_002101355.1	Campylobacter jejuni
+GCF_002209005.1	Campylobacter jejuni subsp. jejuni
+GCF_002209025.1	Campylobacter jejuni subsp. jejuni
+GCF_002209045.1	Campylobacter jejuni subsp. jejuni
+GCF_002209065.1	Campylobacter jejuni subsp. jejuni
+GCF_002214785.1	Campylobacter jejuni
+GCF_002224325.1	Campylobacter jejuni
+GCF_002224385.1	Campylobacter jejuni
+GCF_002234455.1	Campylobacter jejuni
+GCF_002238375.1	Campylobacter jejuni
+GCF_002407125.1	Campylobacter jejuni
+GCF_002587105.1	Campylobacter jejuni
+GCF_002587225.1	Campylobacter jejuni
+GCF_003030185.1	Campylobacter jejuni
+GCF_003060725.1	Campylobacter jejuni
+GCF_003060745.1	Campylobacter jejuni
+GCF_003060765.1	Campylobacter jejuni
+GCF_003060785.1	Campylobacter jejuni
+GCF_003368045.1	Campylobacter jejuni
+GCF_003368065.1	Campylobacter jejuni
+GCF_003368085.1	Campylobacter jejuni
+GCF_003368105.1	Campylobacter jejuni
+GCF_003368125.1	Campylobacter jejuni
+GCF_003368145.1	Campylobacter jejuni
+GCF_003368165.1	Campylobacter jejuni
+GCF_003368185.1	Campylobacter jejuni
+GCF_003368205.1	Campylobacter jejuni
+GCF_003368225.1	Campylobacter jejuni
+GCF_003368245.1	Campylobacter jejuni
+GCF_003574945.1	Campylobacter jejuni subsp. jejuni
+GCF_003950275.1	Campylobacter jejuni subsp. jejuni
+GCF_900475265.1	Campylobacter jejuni subsp. jejuni
+GCF_900638165.1	Campylobacter jejuni
+GCF_900638175.1	Campylobacter jejuni
+GCF_900638185.1	Campylobacter jejuni
+GCF_900638195.1	Campylobacter jejuni
+GCF_900638205.1	Campylobacter jejuni
+GCF_900638225.1	Campylobacter jejuni
+GCF_900638235.1	Campylobacter jejuni subsp. jejuni
+GCF_900638285.1	Campylobacter jejuni
+GCF_900638365.1	Campylobacter jejuni subsp. jejuni
+GCF_001643955.1	Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260
+GCF_001643975.1	Campylobacter hyointestinalis subsp. lawsonii
+GCF_000017725.2	Campylobacter concisus 13826
+GCF_001298465.1	Campylobacter concisus
+GCF_003048375.1	Campylobacter concisus
+GCF_000017465.2	Campylobacter curvus 525.92
+GCF_000019205.1	Campylobacter lari RM2100
+GCF_000816225.1	Campylobacter lari subsp. concheus LMG 11760
+GCF_000816365.1	Campylobacter lari NCTC 11845
+GCF_000816385.2	Campylobacter lari CCUG 22395
+GCF_000816405.1	Campylobacter lari RM16701
+GCF_000816425.1	Campylobacter lari RM16712
+GCF_001017575.1	Campylobacter lari
+GCF_900638335.1	Campylobacter lari
+GCF_002220735.1	Campylobacter sputorum bv. faecalis CCUG 20703
+GCF_002220755.1	Campylobacter sputorum bv. paraureolyticus LMG 11764
+GCF_002220775.1	Campylobacter sputorum
+GCF_002220795.1	Campylobacter sputorum bv. sputorum RM3237
+GCF_001190745.1	Campylobacter gracilis
+GCF_001190755.1	Campylobacter ureolyticus RIGS 9880
+GCF_900637395.1	Campylobacter upsaliensis
+GCF_002080395.1	Campylobacter helveticus
+GCF_002139935.1	Campylobacter lanienae NCTC 13004
+GCF_000017585.1	Campylobacter hominis ATCC BAA-381
+GCF_000816185.1	Campylobacter insulaenigrae NCTC 12927
+GCF_900637885.1	Campylobacter insulaenigrae
+GCF_900638675.1	Campylobacter insulaenigrae
+GCF_002104335.1	Campylobacter cuniculorum DSM 23162 = LMG 24588
+GCF_000816785.1	Campylobacter peloridis LMG 23910
+GCF_000816265.1	Campylobacter subantarcticus LMG 24374
+GCF_000816305.1	Campylobacter subantarcticus LMG 24377
+GCF_002238335.1	Campylobacter avium LMG 24591
+GCF_000816345.1	Campylobacter volucris LMG 24379
+GCF_000736415.1	Campylobacter iguaniorum
+GCF_001483985.1	Campylobacter iguaniorum
+GCF_001643995.1	Campylobacter iguaniorum
+GCF_000816245.1	Campylobacter sp. RM16704
+GCF_002139915.1	Campylobacter sp. NCTC 13003
+GCF_002139855.1	Campylobacter sp. RM6137
+GCF_002139895.1	Campylobacter sp. RM8964
+GCF_002139875.1	Campylobacter sp. RM12175
+GCF_001687475.2	Campylobacter hepaticus
+GCF_002021925.1	Campylobacter pinnipediorum subsp. pinnipediorum
+GCF_002021945.1	Campylobacter pinnipediorum subsp. pinnipediorum
+GCF_002021965.1	Campylobacter pinnipediorum subsp. pinnipediorum
+GCF_002021985.1	Campylobacter pinnipediorum subsp. caledonicus
+GCF_002022005.1	Campylobacter pinnipediorum subsp. caledonicus

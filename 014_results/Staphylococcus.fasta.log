@@ -1,823 +1,962 @@
-IQ-TREE multicore version 1.3.11.1 for Linux 64-bit built Feb  1 2016
-Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+IQ-TREE multicore version 1.6.1 for Linux 64-bit built Feb 16 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    n114312.nbi.ac.uk (AVX2, FMA3, 15 GB RAM)
-Command: iqtree-omp -s ./014_results/Staphylococcus.fasta -nt 8 -m HKY+G
-Seed:    977789 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Feb 25 15:25:56 2019
-Kernel:  AVX - 8 threads (8 CPU cores detected)
+Command: iqtree-omp -s Staphylococcus.fasta -nt 8 -m HKY+G
+Seed:    591004 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr 24 09:39:39 2019
+Kernel:  AVX+FMA - 8 threads (8 CPU cores detected)
 
-Reading alignment file ./014_results/Staphylococcus.fasta ... Fasta format detected
+Reading alignment file Staphylococcus.fasta ... Fasta format detected
 Alignment most likely contains DNA/RNA sequences
 WARNING: 1 sites contain only gaps or ambiguous characters.
-Alignment has 710 sequences with 7410 columns and 2012 patterns (1361 informative sites)
+Alignment has 709 sequences with 7407 columns, 1958 distinct patterns
+1323 parsimony-informative, 541 singleton sites, 5543 constant sites
                                               Gap/Ambiguity  Composition  p-value
-   1  Staphylococcus_saprophyticus_001558275_01      33.16%    passed     98.07%
-   2  Staphylococcus_saprophyticus_001558275_02      33.16%    passed     97.57%
-   3  Staphylococcus_saprophyticus_001558275_03      33.16%    passed     97.29%
-   4  Staphylococcus_saprophyticus_001558275_04      30.69%    passed     90.15%
-   5  Staphylococcus_pseudintermedius_003627735_01   31.73%    passed     85.09%
-   6  Staphylococcus_pseudintermedius_003627735_02   29.70%    passed     95.78%
-   7  Staphylococcus_pseudintermedius_003627735_03   31.73%    passed     83.39%
-   8  Staphylococcus_pseudintermedius_003627735_04   29.38%    passed     82.36%
-   9  Staphylococcus_schleiferi_001188855_00         33.77%    passed     53.41%
-  10  Staphylococcus_schleiferi_001188855_01         33.70%    passed     49.85%
-  11  Staphylococcus_schleiferi_001188855_02         30.96%    passed     49.13%
-  12  Staphylococcus_schleiferi_001188855_04         33.63%    passed     54.76%
-  13  Staphylococcus_lugdunensis_002250095_00        30.54%    passed     90.77%
-  14  Staphylococcus_lugdunensis_002250095_01        30.54%    passed     87.44%
-  15  Staphylococcus_lugdunensis_002250095_02        28.23%    passed     99.60%
-  16  Staphylococcus_lugdunensis_002250095_03        17.52%    passed     76.61%
-  17  Staphylococcus_lugdunensis_002250095_04        17.76%    passed     75.28%
-  18  Staphylococcus_lugdunensis_002250095_05        30.54%    passed     92.76%
-  19  Staphylococcus_aureus_002025145_00             31.34%    passed     94.28%
-  20  Staphylococcus_aureus_002025145_02             30.66%    passed     99.38%
-  21  Staphylococcus_aureus_002025145_03             31.11%    passed     81.93%
-  22  Staphylococcus_aureus_002025145_04             32.13%    passed     95.61%
-  23  Staphylococcus_capitis_002591175_00            32.15%    passed     96.73%
-  24  Staphylococcus_capitis_002591175_01            32.16%    passed     97.63%
-  25  Staphylococcus_capitis_002591175_02            29.62%    passed     91.80%
-  26  Staphylococcus_capitis_002591175_04            33.90%    passed     58.99%
-  27  Staphylococcus_haemolyticus_001611955_00       32.55%    passed     98.52%
-  28  Staphylococcus_haemolyticus_001611955_02       31.00%    passed     94.26%
-  29  Staphylococcus_haemolyticus_001611955_03       31.17%    passed     84.11%
-  30  Staphylococcus_haemolyticus_001611955_04       32.55%    passed     98.74%
-  31  Staphylococcus_epidermidis_900636255_00        32.01%    passed     96.58%
-  32  Staphylococcus_epidermidis_900636255_01        32.01%    passed     95.97%
-  33  Staphylococcus_epidermidis_900636255_02        31.35%    passed     94.34%
-  34  Staphylococcus_epidermidis_900636255_04        32.01%    passed     96.69%
-  35  Staphylococcus_hyicus_000816085_00             29.60%    passed     85.04%
-  36  Staphylococcus_hyicus_000816085_01             30.82%    passed     87.38%
-  37  Staphylococcus_hyicus_000816085_02             27.41%    passed     86.04%
-  38  Staphylococcus_hyicus_000816085_04             31.30%    passed     82.64%
-  39  Staphylococcus_schleiferi_001188915_00         33.72%    passed     51.24%
-  40  Staphylococcus_schleiferi_001188915_01         33.70%    passed     46.63%
-  41  Staphylococcus_schleiferi_001188915_02         30.96%    passed     48.80%
-  42  Staphylococcus_schleiferi_001188915_04         33.60%    passed     54.16%
-  43  Staphylococcus_aureus_002952015_01             38.43%    passed     37.28%
-  44  Staphylococcus_aureus_001717685_00             19.37%    passed     52.99%
-  45  Staphylococcus_aureus_001717685_01             32.15%    passed     94.48%
-  46  Staphylococcus_aureus_001717685_02             32.98%    passed     99.79%
-  47  Staphylococcus_aureus_001717685_03             32.98%    passed     99.83%
-  48  Staphylococcus_aureus_001717685_04             30.67%    passed     99.60%
-  49  Staphylococcus_aureus_000284535_00             31.09%    passed     83.99%
-  50  Staphylococcus_aureus_000284535_02             30.66%    passed     98.53%
-  51  Staphylococcus_aureus_000284535_03             29.45%    passed     53.35%
-  52  Staphylococcus_aureus_000284535_04             32.12%    passed     96.08%
-  53  Staphylococcus_condimenti_001618885_00         31.26%    passed     27.16%
-  54  Staphylococcus_condimenti_001618885_02         33.78%    passed     25.78%
-  55  Staphylococcus_condimenti_001618885_03         33.77%    passed     29.78%
-  56  Staphylococcus_condimenti_001618885_04         36.19%    passed     14.11%
-  57  Staphylococcus_aureus_003342775_00             32.77%    passed     99.49%
-  58  Staphylococcus_aureus_003342775_02             29.65%    passed     99.69%
-  59  Staphylococcus_aureus_003342775_03             29.47%    passed     53.96%
-  60  Staphylococcus_aureus_003342775_04             29.70%    passed     52.14%
-  61  Staphylococcus_aureus_001725965_00             32.13%    passed     95.82%
-  62  Staphylococcus_aureus_001725965_01             19.38%    passed     54.92%
-  63  Staphylococcus_aureus_001725965_02             30.66%    passed     98.95%
-  64  Staphylococcus_aureus_001725965_03             30.72%    passed     80.78%
-  65  Staphylococcus_aureus_001725965_04             30.72%    passed     81.99%
-  66  Staphylococcus_aureus_900324205_01             32.35%    passed     98.72%
-  67  Staphylococcus_aureus_900324205_02             32.35%    passed     98.97%
-  68  Staphylococcus_aureus_900324205_03             30.49%    passed     80.32%
-  69  Staphylococcus_aureus_900324205_04             29.62%    passed     99.83%
-  70  Staphylococcus_simulans_002386185_00           31.46%    passed     48.95%
-  71  Staphylococcus_simulans_002386185_01           36.26%    passed     34.38%
-  72  Staphylococcus_simulans_002386185_02           33.82%    passed     54.25%
-  73  Staphylococcus_simulans_002386185_03           33.81%    passed     55.45%
-  74  Staphylococcus_argenteus_003967115_00          31.96%    passed     94.47%
-  75  Staphylococcus_argenteus_003967115_02          30.63%    passed     99.11%
-  76  Staphylococcus_argenteus_003967115_03          33.00%    passed     99.85%
-  77  Staphylococcus_argenteus_003967115_04          31.66%    passed     92.02%
-  78  Staphylococcus_nepalensis_002442895_00         33.18%    passed     99.22%
-  79  Staphylococcus_nepalensis_002442895_01         33.18%    passed     99.53%
-  80  Staphylococcus_nepalensis_002442895_02         30.63%    passed     98.64%
-  81  Staphylococcus_nepalensis_002442895_04         33.18%    passed     99.27%
-  82  Staphylococcus_aureus_002356675_00             32.11%    passed     96.65%
-  83  Staphylococcus_aureus_002356675_02             30.66%    passed     99.47%
-  84  Staphylococcus_aureus_002356675_03             29.65%    passed     54.40%
-  85  Staphylococcus_aureus_002356675_04             29.62%    passed     50.89%
-  86  Staphylococcus_xylosus_000709415_00            33.06%    passed     97.99%
-  87  Staphylococcus_xylosus_000709415_01            33.13%    passed     98.67%
-  88  Staphylococcus_xylosus_000709415_02            30.61%    passed     98.41%
-  89  Staphylococcus_aureus_000452385_01             24.57%    failed      5.00%
-  90  Staphylococcus_aureus_000452385_02             29.68%    passed     60.86%
-  91  Staphylococcus_aureus_000452385_04             58.10%    passed     83.33%
-  92  Staphylococcus_aureus_000452385_05             29.69%    passed     61.44%
-  93  Staphylococcus_aureus_002209325_00             32.97%    passed     99.82%
-  94  Staphylococcus_aureus_002209325_01             19.39%    passed     53.04%
-  95  Staphylococcus_aureus_002209325_02             29.61%    passed     99.41%
-  96  Staphylococcus_aureus_002209325_03             29.68%    passed     60.21%
-  97  Staphylococcus_aureus_002209325_04             31.32%    passed     94.47%
-  98  Staphylococcus_aureus_003426145_00             29.69%    passed     59.77%
-  99  Staphylococcus_aureus_003426145_01             29.70%    passed     56.63%
- 100  Staphylococcus_aureus_003426145_02             30.70%    passed     99.08%
- 101  Staphylococcus_aureus_003426145_04             32.20%    passed     93.61%
- 102  Staphylococcus_equorum_001432245_00            33.06%    passed     96.09%
- 103  Staphylococcus_equorum_001432245_01            33.06%    passed     95.17%
- 104  Staphylococcus_equorum_001432245_03            30.50%    passed     98.06%
- 105  Staphylococcus_equorum_001432245_04            33.08%    passed     97.33%
- 106  Staphylococcus_equorum_001432245_05            33.06%    passed     96.17%
- 107  Staphylococcus_aureus_900635245_00             31.11%    passed     84.25%
- 108  Staphylococcus_aureus_900635245_02             30.66%    passed     98.53%
- 109  Staphylococcus_aureus_900635245_03             29.46%    passed     52.27%
- 110  Staphylococcus_aureus_900635245_04             32.13%    passed     96.28%
- 111  Staphylococcus_schleiferi_001188875_00         33.71%    passed     48.66%
- 112  Staphylococcus_schleiferi_001188875_01         33.71%    passed     49.22%
- 113  Staphylococcus_schleiferi_001188875_02         30.96%    passed     47.27%
- 114  Staphylococcus_schleiferi_001188875_03         19.73%    passed     35.82%
- 115  Staphylococcus_schleiferi_001188875_04         33.60%    passed     55.66%
- 116  Staphylococcus_lugdunensis_002407165_00        30.57%    passed     91.15%
- 117  Staphylococcus_lugdunensis_002407165_01        30.55%    passed     86.47%
- 118  Staphylococcus_lugdunensis_002407165_02        28.26%    passed     99.37%
- 119  Staphylococcus_lugdunensis_002407165_04        30.55%    passed     92.59%
- 120  Staphylococcus_aureus_900636695_00             31.32%    passed     85.96%
- 121  Staphylococcus_aureus_900636695_01             16.52%    passed     19.47%
- 122  Staphylococcus_aureus_900636695_02             30.66%    passed     99.08%
- 123  Staphylococcus_aureus_900636695_03             31.11%    passed     76.43%
- 124  Staphylococcus_aureus_900636695_04             31.32%    passed     88.33%
- 125  Staphylococcus_epidermidis_900086615_00        33.55%    passed     89.95%
- 126  Staphylococcus_epidermidis_900086615_01        19.46%    passed     40.91%
- 127  Staphylococcus_epidermidis_900086615_02        31.03%    passed     75.13%
- 128  Staphylococcus_epidermidis_900086615_03        33.56%    passed     90.40%
- 129  Staphylococcus_epidermidis_900086615_04        33.58%    passed     85.74%
- 130  Staphylococcus_aureus_003490125_00             31.31%    passed     86.37%
- 131  Staphylococcus_aureus_003490125_01             18.45%    passed     42.49%
- 132  Staphylococcus_aureus_003490125_02             38.16%    passed     99.21%
- 133  Staphylococcus_aureus_003490125_03             34.64%    passed     92.52%
- 134  Staphylococcus_aureus_003490125_04             37.00%    passed     92.01%
- 135  Staphylococcus_saprophyticus_002208905_01      33.16%    passed     97.67%
- 136  Staphylococcus_saprophyticus_002208905_02      33.16%    passed     97.46%
- 137  Staphylococcus_saprophyticus_002208905_03      33.16%    passed     97.80%
- 138  Staphylococcus_saprophyticus_002208905_04      30.69%    passed     91.00%
- 139  Staphylococcus_schleiferi_001548255_00         33.68%    passed     47.59%
- 140  Staphylococcus_schleiferi_001548255_01         33.68%    passed     46.46%
- 141  Staphylococcus_schleiferi_001548255_02         30.93%    passed     48.76%
- 142  Staphylococcus_schleiferi_001548255_03         20.93%    passed     38.97%
- 143  Staphylococcus_schleiferi_001548255_04         33.59%    passed     52.17%
- 144  Staphylococcus_epidermidis_002954055_00        33.59%    passed     89.27%
- 145  Staphylococcus_epidermidis_002954055_02        31.04%    passed     78.81%
- 146  Staphylococcus_epidermidis_002954055_03        33.58%    passed     91.74%
- 147  Staphylococcus_epidermidis_002954055_04        33.58%    passed     87.34%
- 148  Staphylococcus_simulans_003096155_00           33.81%    passed     43.76%
- 149  Staphylococcus_simulans_003096155_01           36.25%    passed     32.85%
- 150  Staphylococcus_simulans_003096155_02           31.44%    passed     45.34%
- 151  Staphylococcus_simulans_003096155_04           33.79%    passed     49.40%
- 152  Staphylococcus_aureus_003264815_00             32.15%    passed     96.63%
- 153  Staphylococcus_aureus_003264815_01             19.39%    passed     52.81%
- 154  Staphylococcus_aureus_003264815_02             32.67%    passed     96.69%
- 155  Staphylococcus_aureus_003264815_03             29.69%    passed     58.51%
- 156  Staphylococcus_aureus_003264815_04             29.69%    passed     58.26%
- 157  Staphylococcus_aureus_001887075_00             30.72%    passed     85.50%
- 158  Staphylococcus_aureus_001887075_02             29.61%    passed     99.83%
- 159  Staphylococcus_aureus_001887075_03             30.46%    passed     81.72%
- 160  Staphylococcus_aureus_001887075_04             32.33%    passed     98.59%
- 161  Staphylococcus_aureus_002310435_00             32.15%    passed     96.21%
- 162  Staphylococcus_aureus_002310435_01             19.37%    passed     52.90%
- 163  Staphylococcus_aureus_002310435_02             30.67%    passed     99.49%
- 164  Staphylococcus_aureus_002310435_03             29.69%    passed     59.99%
- 165  Staphylococcus_aureus_002310435_04             29.69%    passed     59.77%
- 166  Staphylococcus_aureus_000009005_00             31.08%    passed     82.62%
- 167  Staphylococcus_aureus_000009005_01             17.69%    passed     46.18%
- 168  Staphylococcus_aureus_000009005_02             29.62%    passed     99.50%
- 169  Staphylococcus_aureus_000009005_03             30.85%    passed     95.92%
- 170  Staphylococcus_aureus_000009005_04             32.13%    passed     97.43%
- 171  Staphylococcus_haemolyticus_002906615_00       32.58%    passed     98.82%
- 172  Staphylococcus_haemolyticus_002906615_01       31.19%    passed     86.88%
- 173  Staphylococcus_haemolyticus_002906615_02       31.08%    passed     95.89%
- 174  Staphylococcus_haemolyticus_002906615_04       32.58%    passed     98.76%
- 175  Staphylococcus_simulans_001559115_00           33.78%    passed     51.69%
- 176  Staphylococcus_simulans_001559115_01           36.26%    passed     36.95%
- 177  Staphylococcus_simulans_001559115_02           31.44%    passed     37.33%
- 178  Staphylococcus_simulans_001559115_04           33.79%    passed     56.84%
- 179  Staphylococcus_aureus_000967345_00             30.66%    passed     99.45%
- 180  Staphylococcus_aureus_000967345_01             19.38%    passed     56.78%
- 181  Staphylococcus_aureus_000967345_02             30.66%    passed     98.72%
- 182  Staphylococcus_aureus_000967345_03             30.72%    passed     80.78%
- 183  Staphylococcus_aureus_000967345_04             30.72%    passed     81.99%
- 184  Staphylococcus_lugdunensis_900478255_00        30.57%    passed     93.44%
- 185  Staphylococcus_lugdunensis_900478255_01        29.61%    passed     81.15%
- 186  Staphylococcus_lugdunensis_900478255_02        29.22%    passed     99.39%
- 187  Staphylococcus_lugdunensis_900478255_03        17.54%    passed     77.36%
- 188  Staphylococcus_lugdunensis_900478255_04        30.58%    passed     91.92%
- 189  Staphylococcus_condimenti_900637235_00         33.78%    passed     28.98%
- 190  Staphylococcus_condimenti_900637235_01         36.21%    passed     13.56%
- 191  Staphylococcus_condimenti_900637235_02         31.27%    passed     26.57%
- 192  Staphylococcus_condimenti_900637235_04         33.79%    passed     25.07%
- 193  Staphylococcus_aureus_001278745_00             32.13%    passed     95.95%
- 194  Staphylococcus_aureus_001278745_02             30.66%    passed     99.04%
- 195  Staphylococcus_aureus_001278745_03             30.72%    passed     80.78%
- 196  Staphylococcus_aureus_001278745_04             30.72%    passed     81.99%
- 197  Staphylococcus_warneri_003571725_00            32.01%    passed     96.94%
- 198  Staphylococcus_warneri_003571725_01            32.00%    passed     97.44%
- 199  Staphylococcus_warneri_003571725_02            31.38%    passed     94.05%
- 200  Staphylococcus_warneri_003571725_04            32.00%    passed     97.85%
- 201  Staphylococcus_simulans_003076375_00           33.81%    passed     43.76%
- 202  Staphylococcus_simulans_003076375_01           36.25%    passed     32.85%
- 203  Staphylococcus_simulans_003076375_02           31.44%    passed     45.34%
- 204  Staphylococcus_simulans_003076375_04           33.79%    passed     49.40%
- 205  Staphylococcus_epidermidis_000759555_00        31.04%    passed     77.47%
- 206  Staphylococcus_epidermidis_000759555_01        33.59%    passed     90.46%
- 207  Staphylococcus_epidermidis_000759555_02        33.59%    passed     87.89%
- 208  Staphylococcus_epidermidis_000759555_03        33.54%    passed     88.70%
- 209  Staphylococcus_lugdunensis_000270465_00        30.57%    passed     92.65%
- 210  Staphylococcus_lugdunensis_000270465_01        29.64%    passed     77.80%
- 211  Staphylococcus_lugdunensis_000270465_04        16.90%    passed     67.85%
- 212  Staphylococcus_lugdunensis_000270465_05        29.68%    passed     76.25%
- 213  Staphylococcus_aureus_002633825_00             32.97%    passed     99.89%
- 214  Staphylococcus_aureus_002633825_02             29.62%    passed     99.33%
- 215  Staphylococcus_aureus_002633825_03             31.31%    passed     89.71%
- 216  Staphylococcus_aureus_002633825_04             31.36%    passed     93.84%
- 217  Staphylococcus_aureus_001975005_00             32.13%    passed     96.25%
- 218  Staphylococcus_aureus_001975005_02             30.66%    passed     99.04%
- 219  Staphylococcus_aureus_001975005_03             30.72%    passed     80.78%
- 220  Staphylococcus_aureus_001975005_04             30.73%    passed     80.19%
- 221  Staphylococcus_caprae_003966605_00             33.56%    passed     70.98%
- 222  Staphylococcus_caprae_003966605_01             33.59%    passed     75.00%
- 223  Staphylococcus_caprae_003966605_02             31.55%    passed     45.46%
- 224  Staphylococcus_caprae_003966605_03             19.80%    passed     35.62%
- 225  Staphylococcus_caprae_003966605_04             33.56%    passed     68.79%
- 226  Staphylococcus_aureus_000017125_00             32.13%    passed     95.82%
- 227  Staphylococcus_aureus_000017125_02             30.66%    passed     99.04%
- 228  Staphylococcus_aureus_000017125_03             30.72%    passed     80.78%
- 229  Staphylococcus_aureus_000017125_04             30.72%    passed     81.99%
- 230  Staphylococcus_aureus_000815045_00             32.16%    passed     95.59%
- 231  Staphylococcus_aureus_000815045_01             28.15%    passed     95.25%
- 232  Staphylococcus_aureus_000815045_02             30.67%    passed     99.59%
- 233  Staphylococcus_aureus_000815045_03             29.68%    passed     58.33%
- 234  Staphylococcus_aureus_000815045_04             29.70%    passed     58.88%
- 235  Staphylococcus_saprophyticus_002209265_00      30.70%    passed     91.06%
- 236  Staphylococcus_saprophyticus_002209265_02      33.16%    passed     97.72%
- 237  Staphylococcus_saprophyticus_002209265_03      33.14%    passed     96.72%
- 238  Staphylococcus_saprophyticus_002209265_04      33.18%    passed     98.08%
- 239  Staphylococcus_epidermidis_000011925_00        33.55%    passed     89.05%
- 240  Staphylococcus_epidermidis_000011925_02        31.03%    passed     78.22%
- 241  Staphylococcus_epidermidis_000011925_03        33.56%    passed     86.17%
- 242  Staphylococcus_epidermidis_000011925_04        33.58%    passed     87.05%
- 243  Staphylococcus_epidermidis_003856455_01        33.58%    passed     88.95%
- 244  Staphylococcus_epidermidis_003856455_02        33.58%    passed     85.78%
- 245  Staphylococcus_epidermidis_003856455_03        33.62%    passed     88.71%
- 246  Staphylococcus_epidermidis_003856455_04        31.05%    passed     77.73%
- 247  Staphylococcus_saprophyticus_001558375_00      33.17%    passed     98.08%
- 248  Staphylococcus_saprophyticus_001558375_01      33.16%    passed     97.80%
- 249  Staphylococcus_saprophyticus_001558375_02      30.69%    passed     88.78%
- 250  Staphylococcus_saprophyticus_001558375_04      33.16%    passed     97.00%
- 251  Staphylococcus_aureus_003203655_01             32.15%    passed     95.90%
- 252  Staphylococcus_aureus_003203655_02             30.73%    passed     81.29%
- 253  Staphylococcus_aureus_003203655_03             30.73%    passed     81.39%
- 254  Staphylococcus_aureus_003203655_04             30.67%    passed     99.14%
- 255  Staphylococcus_pseudintermedius_000189495_00   31.73%    passed     83.20%
- 256  Staphylococcus_pseudintermedius_000189495_01   31.73%    passed     84.19%
- 257  Staphylococcus_pseudintermedius_000189495_02   29.37%    passed     81.53%
- 258  Staphylococcus_pseudintermedius_000189495_03   18.93%    passed     72.48%
- 259  Staphylococcus_pseudintermedius_000189495_04   31.70%    passed     86.09%
- 260  Staphylococcus_aureus_001618305_00             31.28%    passed     92.29%
- 261  Staphylococcus_aureus_001618305_01             31.34%    passed     93.03%
- 262  Staphylococcus_aureus_001618305_02             18.21%    passed     36.49%
- 263  Staphylococcus_aureus_001618305_03             31.28%    passed     92.29%
- 264  Staphylococcus_aureus_001618305_04             31.28%    passed     92.29%
- 265  Staphylococcus_aureus_000010465_00             32.13%    passed     96.10%
- 266  Staphylococcus_aureus_000010465_01             19.37%    passed     52.90%
- 267  Staphylococcus_aureus_000010465_02             30.66%    passed     99.47%
- 268  Staphylococcus_aureus_000010465_03             29.68%    passed     59.32%
- 269  Staphylococcus_aureus_000010465_04             29.68%    passed     59.14%
- 270  Staphylococcus_aureus_003354705_00             30.73%    passed     81.01%
- 271  Staphylococcus_aureus_003354705_01             19.38%    passed     56.71%
- 272  Staphylococcus_aureus_003354705_02             30.73%    passed     81.39%
- 273  Staphylococcus_aureus_003354705_03             30.67%    passed     98.89%
- 274  Staphylococcus_aureus_003354705_04             30.73%    passed     82.60%
- 275  Staphylococcus_epidermidis_002215535_00        33.58%    passed     85.47%
- 276  Staphylococcus_epidermidis_002215535_01        33.56%    passed     89.66%
- 277  Staphylococcus_epidermidis_002215535_02        31.00%    passed     79.85%
- 278  Staphylococcus_epidermidis_002215535_04        33.58%    passed     88.32%
- 279  Staphylococcus_aureus_001019305_00             19.38%    passed     56.51%
- 280  Staphylococcus_aureus_001019305_01             32.15%    passed     95.90%
- 281  Staphylococcus_aureus_001019305_02             30.74%    passed     82.04%
- 282  Staphylococcus_aureus_001019305_03             30.73%    passed     81.39%
- 283  Staphylococcus_aureus_001019305_04             30.67%    passed     99.11%
- 284  Staphylococcus_aureus_001549675_00             31.09%    passed     81.75%
- 285  Staphylococcus_aureus_001549675_01             16.53%    passed     17.51%
- 286  Staphylococcus_aureus_001549675_02             29.62%    passed     99.62%
- 287  Staphylococcus_aureus_001549675_03             29.46%    passed     53.43%
- 288  Staphylococcus_aureus_001549675_04             29.68%    passed     55.38%
- 289  Staphylococcus_aureus_002000665_00             32.13%    passed     95.56%
- 290  Staphylococcus_aureus_002000665_01             19.37%    passed     52.99%
- 291  Staphylococcus_aureus_002000665_02             30.66%    passed     99.47%
- 292  Staphylococcus_aureus_002000665_03             30.66%    passed     99.26%
- 293  Staphylococcus_aureus_002000665_04             32.97%    passed     99.84%
- 294  Staphylococcus_aureus_003203635_00             32.16%    passed     96.29%
- 295  Staphylococcus_aureus_003203635_02             30.70%    passed     99.04%
- 296  Staphylococcus_aureus_003203635_03             30.86%    passed     80.97%
- 297  Staphylococcus_aureus_003203635_04             30.80%    passed     77.69%
- 298  Staphylococcus_aureus_003354885_00             32.54%    passed     98.10%
- 299  Staphylococcus_aureus_003354885_02             30.67%    passed     99.49%
- 300  Staphylococcus_aureus_003354885_03             31.32%    passed     90.05%
- 301  Staphylococcus_aureus_003354885_04             29.69%    passed     61.47%
- 302  Staphylococcus_epidermidis_000007645_00        31.03%    passed     76.51%
- 303  Staphylococcus_epidermidis_000007645_01        33.55%    passed     87.89%
- 304  Staphylococcus_epidermidis_000007645_02        33.62%    passed     85.34%
- 305  Staphylococcus_epidermidis_000007645_03        19.50%    passed     40.37%
- 306  Staphylococcus_epidermidis_000007645_04        33.58%    passed     80.91%
- 307  Staphylococcus_aureus_000967405_00             30.69%    passed     99.15%
- 308  Staphylococcus_aureus_000967405_01             18.21%    passed     42.08%
- 309  Staphylococcus_aureus_000967405_02             30.67%    passed     98.96%
- 310  Staphylococcus_aureus_000967405_03             30.72%    passed     80.78%
- 311  Staphylococcus_aureus_000967405_04             30.72%    passed     81.99%
- 312  Staphylococcus_argenteus_002812345_00          31.92%    passed     92.14%
- 313  Staphylococcus_argenteus_002812345_01          17.72%    passed     34.93%
- 314  Staphylococcus_argenteus_002812345_02          30.63%    passed     99.35%
- 315  Staphylococcus_argenteus_002812345_03          33.00%    passed     99.85%
- 316  Staphylococcus_argenteus_002812345_04          31.66%    passed     92.78%
- 317  Staphylococcus_haemolyticus_003956005_01       32.60%    passed     98.42%
- 318  Staphylococcus_haemolyticus_003956005_02       32.59%    passed     98.02%
- 319  Staphylococcus_haemolyticus_003956005_03       31.21%    passed     82.24%
- 320  Staphylococcus_haemolyticus_003956005_04       31.08%    passed     95.90%
- 321  Staphylococcus_aureus_001018975_00             32.13%    passed     98.15%
- 322  Staphylococcus_aureus_001018975_01             30.67%    passed     98.51%
- 323  Staphylococcus_aureus_001018975_03             31.35%    passed     97.28%
- 324  Staphylococcus_aureus_001018975_04             31.12%    passed     96.08%
- 325  Staphylococcus_haemolyticus_002952715_00       32.58%    passed     98.07%
- 326  Staphylococcus_haemolyticus_002952715_01       32.58%    passed     98.03%
- 327  Staphylococcus_haemolyticus_002952715_03       31.01%    passed     91.96%
- 328  Staphylococcus_haemolyticus_002952715_04       31.21%    passed     84.41%
- 329  Staphylococcus_hyicus_900636345_00             33.82%    passed     39.89%
- 330  Staphylococcus_hyicus_900636345_01             36.28%    passed     30.55%
- 331  Staphylococcus_hyicus_900636345_02             31.44%    passed     44.47%
- 332  Staphylococcus_hyicus_900636345_04             33.79%    passed     55.87%
- 333  Staphylococcus_aureus_900324335_00             32.35%    passed     98.97%
- 334  Staphylococcus_aureus_900324335_01             30.49%    passed     80.32%
- 335  Staphylococcus_aureus_900324335_02             29.62%    passed     99.83%
- 336  Staphylococcus_aureus_900324335_04             32.35%    passed     98.53%
- 337  Staphylococcus_pseudintermedius_001685665_06   35.71%    passed     83.78%
- 338  Staphylococcus_epidermidis_002850315_00        33.56%    passed     85.87%
- 339  Staphylococcus_epidermidis_002850315_02        31.04%    passed     73.13%
- 340  Staphylococcus_epidermidis_002850315_03        33.58%    passed     89.76%
- 341  Staphylococcus_epidermidis_002850315_04        33.59%    passed     86.36%
- 342  Staphylococcus_aureus_003595485_00             32.15%    passed     95.71%
- 343  Staphylococcus_aureus_003595485_01             19.37%    passed     52.99%
- 344  Staphylococcus_aureus_003595485_02             30.67%    passed     99.49%
- 345  Staphylococcus_aureus_003595485_03             30.67%    passed     99.28%
- 346  Staphylococcus_aureus_003595485_04             32.98%    passed     99.79%
- 347  Staphylococcus_aureus_003193965_00             33.06%    passed     99.91%
- 348  Staphylococcus_aureus_003193965_01             33.05%    passed     99.81%
- 349  Staphylococcus_aureus_003193965_02             30.78%    passed     99.28%
- 350  Staphylococcus_aureus_003193965_04             32.19%    passed     96.03%
- 351  Staphylococcus_aureus_900475055_00             32.15%    passed     96.21%
- 352  Staphylococcus_aureus_900475055_02             30.67%    passed     99.49%
- 353  Staphylococcus_aureus_900475055_03             29.69%    passed     59.48%
- 354  Staphylococcus_aureus_900475055_04             29.69%    passed     59.77%
- 355  Staphylococcus_epidermidis_003812425_00        33.62%    passed     88.68%
- 356  Staphylococcus_epidermidis_003812425_01        33.60%    passed     87.24%
- 357  Staphylococcus_epidermidis_003812425_02        33.60%    passed     91.02%
- 358  Staphylococcus_epidermidis_003812425_04        31.01%    passed     80.55%
- 359  Staphylococcus_aureus_003264775_00             32.15%    passed     96.63%
- 360  Staphylococcus_aureus_003264775_02             30.67%    passed     98.94%
- 361  Staphylococcus_aureus_003264775_03             29.69%    passed     59.99%
- 362  Staphylococcus_aureus_003264775_04             29.69%    passed     58.26%
- 363  Staphylococcus_hyicus_900474585_00             29.61%    passed     84.00%
- 364  Staphylococcus_hyicus_900474585_01             30.84%    passed     86.42%
- 365  Staphylococcus_hyicus_900474585_02             27.42%    passed     85.13%
- 366  Staphylococcus_hyicus_900474585_04             31.31%    passed     81.57%
- 367  Staphylococcus_aureus_003952625_01             33.00%    passed     99.79%
- 368  Staphylococcus_aureus_003952625_02             31.36%    passed     94.41%
- 369  Staphylococcus_aureus_003952625_03             29.73%    passed     58.41%
- 370  Staphylococcus_aureus_003952625_04             29.62%    passed     99.31%
- 371  Staphylococcus_equorum_001683315_00            33.04%    passed     98.21%
- 372  Staphylococcus_equorum_001683315_01            33.04%    passed     98.27%
- 373  Staphylococcus_equorum_001683315_03            30.51%    passed     98.33%
- 374  Staphylococcus_equorum_001683315_04            33.04%    passed     98.21%
- 375  Staphylococcus_equorum_001683315_05            33.04%    passed     97.30%
- 376  Staphylococcus_caprae_003966585_00             33.55%    passed     71.65%
- 377  Staphylococcus_caprae_003966585_01             33.56%    passed     74.87%
- 378  Staphylococcus_caprae_003966585_02             31.55%    passed     48.00%
- 379  Staphylococcus_caprae_003966585_04             33.56%    passed     68.18%
- 380  Staphylococcus_aureus_001879545_00             32.97%    passed     99.82%
- 381  Staphylococcus_aureus_001879545_02             29.61%    passed     99.15%
- 382  Staphylococcus_aureus_001879545_03             29.68%    passed     60.60%
- 383  Staphylococcus_aureus_001879545_04             31.34%    passed     94.30%
- 384  Staphylococcus_lugdunensis_002591215_01        30.54%    passed     92.76%
- 385  Staphylococcus_lugdunensis_002591215_02        30.54%    passed     91.27%
- 386  Staphylococcus_lugdunensis_002591215_03        30.57%    passed     87.07%
- 387  Staphylococcus_lugdunensis_002591215_04        28.23%    passed     99.60%
- 388  Staphylococcus_aureus_900324295_00             29.62%    passed     99.84%
- 389  Staphylococcus_aureus_900324295_01             30.49%    passed     80.32%
- 390  Staphylococcus_aureus_900324295_02             32.35%    passed     98.97%
- 391  Staphylococcus_aureus_900324295_03             32.35%    passed     98.53%
- 392  Staphylococcus_simulans_003006055_00           33.81%    passed     43.76%
- 393  Staphylococcus_simulans_003006055_01           36.25%    passed     32.85%
- 394  Staphylococcus_simulans_003006055_02           31.44%    passed     45.34%
- 395  Staphylococcus_simulans_003006055_04           33.81%    passed     50.08%
- 396  Staphylococcus_aureus_003595505_00             32.15%    passed     95.71%
- 397  Staphylococcus_aureus_003595505_01             19.37%    passed     52.99%
- 398  Staphylococcus_aureus_003595505_02             30.67%    passed     99.49%
- 399  Staphylococcus_aureus_003595505_03             30.67%    passed     99.28%
- 400  Staphylococcus_aureus_003595505_04             32.98%    passed     99.79%
- 401  Staphylococcus_lugdunensis_001558815_00        29.23%    passed     99.29%
- 402  Staphylococcus_lugdunensis_001558815_01        30.59%    passed     93.91%
- 403  Staphylococcus_lugdunensis_001558815_02        30.59%    passed     92.10%
- 404  Staphylococcus_lugdunensis_001558815_03        29.61%    passed     81.74%
- 405  Staphylococcus_pseudintermedius_000185885_00   31.73%    passed     80.96%
- 406  Staphylococcus_pseudintermedius_000185885_02   29.38%    passed     80.12%
- 407  Staphylococcus_pseudintermedius_000185885_03   31.73%    passed     82.85%
- 408  Staphylococcus_pseudintermedius_000185885_04   29.69%    passed     96.65%
- 409  Staphylococcus_warneri_003691405_00            32.02%    passed     96.78%
- 410  Staphylococcus_warneri_003691405_01            32.02%    passed     95.58%
- 411  Staphylococcus_warneri_003691405_02            31.36%    passed     94.82%
- 412  Staphylococcus_warneri_003691405_03            19.54%    passed     66.53%
- 413  Staphylococcus_warneri_003691405_04            32.04%    passed     97.18%
- 414  Staphylococcus_capitis_002356175_00            32.13%    passed     95.44%
- 415  Staphylococcus_capitis_002356175_01            32.13%    passed     95.44%
- 416  Staphylococcus_capitis_002356175_02            29.61%    passed     91.49%
- 417  Staphylococcus_capitis_002356175_03            20.19%    passed     54.60%
- 418  Staphylococcus_capitis_002356175_04            32.13%    passed     95.98%
- 419  Staphylococcus_epidermidis_002944995_00        31.04%    passed     73.13%
- 420  Staphylococcus_epidermidis_002944995_01        33.58%    passed     85.42%
- 421  Staphylococcus_epidermidis_002944995_02        33.59%    passed     85.31%
- 422  Staphylococcus_epidermidis_002944995_03        33.56%    passed     89.50%
- 423  Staphylococcus_warneri_900636385_00            32.01%    passed     98.10%
- 424  Staphylococcus_warneri_900636385_01            32.01%    passed     96.97%
- 425  Staphylococcus_warneri_900636385_02            31.34%    passed     95.50%
- 426  Staphylococcus_warneri_900636385_04            31.93%    passed     90.48%
- 427  Staphylococcus_aureus_002089075_00             30.50%    passed     79.73%
- 428  Staphylococcus_aureus_002089075_02             29.62%    passed     99.63%
- 429  Staphylococcus_aureus_002089075_03             30.50%    passed     81.11%
- 430  Staphylococcus_aureus_002089075_04             32.35%    passed     98.78%
- 431  Staphylococcus_aureus_002000685_00             32.13%    passed     95.56%
- 432  Staphylococcus_aureus_002000685_01             19.37%    passed     52.99%
- 433  Staphylococcus_aureus_002000685_02             30.66%    passed     99.47%
- 434  Staphylococcus_aureus_002000685_03             30.66%    passed     99.26%
- 435  Staphylococcus_aureus_002000685_04             32.97%    passed     99.84%
- 436  Staphylococcus_nepalensis_002442935_00         33.18%    passed     99.40%
- 437  Staphylococcus_nepalensis_002442935_01         33.18%    passed     99.67%
- 438  Staphylococcus_nepalensis_002442935_02         30.63%    passed     98.85%
- 439  Staphylococcus_nepalensis_002442935_03         19.82%    passed     60.40%
- 440  Staphylococcus_aureus_000016805_00             32.13%    passed     95.82%
- 441  Staphylococcus_aureus_000016805_02             30.66%    passed     99.04%
- 442  Staphylococcus_aureus_000016805_03             30.72%    passed     80.78%
- 443  Staphylococcus_aureus_000016805_04             30.72%    passed     81.99%
- 444  Staphylococcus_aureus_003432345_00             32.19%    passed     95.92%
- 445  Staphylococcus_aureus_003432345_01             30.74%    passed     76.17%
- 446  Staphylococcus_aureus_003432345_02             30.67%    passed     99.35%
- 447  Staphylococcus_aureus_003432345_04             31.17%    passed     75.49%
- 448  Staphylococcus_aureus_003185005_00             31.11%    passed     81.98%
- 449  Staphylococcus_aureus_003185005_02             30.67%    passed     98.56%
- 450  Staphylococcus_aureus_003185005_03             29.46%    passed     54.69%
- 451  Staphylococcus_aureus_003185005_04             32.13%    passed     96.28%
- 452  Staphylococcus_condimenti_001922405_00         33.78%    passed     27.72%
- 453  Staphylococcus_condimenti_001922405_01         36.21%    passed      9.45%
- 454  Staphylococcus_condimenti_001922405_02         31.26%    passed     19.28%
- 455  Staphylococcus_condimenti_001922405_03         19.34%    passed     26.20%
- 456  Staphylococcus_condimenti_001922405_04         33.78%    passed     26.84%
- 457  Staphylococcus_saprophyticus_900240075_00      37.92%    failed      0.00%
- 458  Staphylococcus_aureus_001021875_00             32.13%    passed     96.55%
- 459  Staphylococcus_aureus_001021875_02             30.66%    passed     99.47%
- 460  Staphylococcus_aureus_001021875_03             32.97%    passed     99.90%
- 461  Staphylococcus_aureus_001021875_04             32.97%    passed     99.84%
- 462  Staphylococcus_aureus_002000865_00             32.13%    passed     95.56%
- 463  Staphylococcus_aureus_002000865_01             19.37%    passed     52.99%
- 464  Staphylococcus_aureus_002000865_02             30.66%    passed     99.47%
- 465  Staphylococcus_aureus_002000865_03             30.66%    passed     99.26%
- 466  Staphylococcus_aureus_002000865_04             32.97%    passed     99.84%
- 467  Staphylococcus_argenteus_003595345_00          31.96%    passed     91.63%
- 468  Staphylococcus_argenteus_003595345_01          17.72%    passed     34.93%
- 469  Staphylococcus_argenteus_003595345_02          30.63%    passed     99.35%
- 470  Staphylococcus_argenteus_003595345_03          33.00%    passed     99.85%
- 471  Staphylococcus_argenteus_003595345_04          31.66%    passed     92.78%
- 472  Staphylococcus_aureus_001717725_00             32.98%    passed     99.79%
- 473  Staphylococcus_aureus_001717725_01             32.98%    passed     98.88%
- 474  Staphylococcus_aureus_001717725_02             30.67%    passed     99.26%
- 475  Staphylococcus_aureus_001717725_04             32.15%    passed     96.84%
- 476  Staphylococcus_aureus_001465755_00             32.33%    passed     98.97%
- 477  Staphylococcus_aureus_001465755_02             29.61%    passed     99.78%
- 478  Staphylococcus_aureus_001465755_03             30.47%    passed     76.92%
- 479  Staphylococcus_aureus_001465755_04             32.33%    passed     98.93%
- 480  Staphylococcus_schleiferi_001188895_00         33.71%    passed     51.65%
- 481  Staphylococcus_schleiferi_001188895_01         33.72%    passed     49.67%
- 482  Staphylococcus_schleiferi_001188895_02         30.96%    passed     48.84%
- 483  Staphylococcus_schleiferi_001188895_04         33.60%    passed     55.66%
- 484  Staphylococcus_haemolyticus_002906595_00       32.58%    passed     98.65%
- 485  Staphylococcus_haemolyticus_002906595_01       31.19%    passed     87.27%
- 486  Staphylococcus_haemolyticus_002906595_02       31.03%    passed     93.86%
- 487  Staphylococcus_haemolyticus_002906595_04       32.58%    passed     98.30%
- 488  Staphylococcus_aureus_003073655_01             32.15%    passed     95.07%
- 489  Staphylococcus_aureus_003073655_02             30.73%    passed     82.52%
- 490  Staphylococcus_aureus_003073655_03             30.73%    passed     81.39%
- 491  Staphylococcus_aureus_003073655_04             30.67%    passed     98.90%
- 492  Staphylococcus_aureus_003073755_00             31.34%    passed     96.09%
- 493  Staphylococcus_aureus_003073755_01             32.13%    passed     97.65%
- 494  Staphylococcus_aureus_003073755_02             32.33%    passed     98.61%
- 495  Staphylococcus_aureus_003073755_04             31.28%    passed     93.21%
- 496  Staphylococcus_aureus_003354785_00             31.35%    passed     97.07%
- 497  Staphylococcus_aureus_003354785_01             17.73%    passed     39.47%
- 498  Staphylococcus_aureus_003354785_02             30.66%    passed     98.29%
- 499  Staphylococcus_aureus_003354785_03             32.13%    passed     98.15%
- 500  Staphylococcus_aureus_003354785_04             30.89%    passed     94.53%
- 501  Staphylococcus_nepalensis_003097555_00         33.20%    passed     98.65%
- 502  Staphylococcus_nepalensis_003097555_01         33.20%    passed     99.27%
- 503  Staphylococcus_nepalensis_003097555_02         30.65%    passed     99.25%
- 504  Staphylococcus_nepalensis_003097555_04         33.20%    passed     98.62%
- 505  Staphylococcus_capitis_001028645_00            30.62%    passed     72.76%
- 506  Staphylococcus_capitis_001028645_01            33.14%    passed     74.96%
- 507  Staphylococcus_capitis_001028645_02            33.87%    passed     62.06%
- 508  Staphylococcus_capitis_001028645_03            33.86%    passed     62.05%
- 509  Staphylococcus_aureus_002310395_00             32.15%    passed     96.21%
- 510  Staphylococcus_aureus_002310395_01             19.37%    passed     52.90%
- 511  Staphylococcus_aureus_002310395_02             30.67%    passed     99.49%
- 512  Staphylococcus_aureus_002310395_03             29.69%    passed     59.99%
- 513  Staphylococcus_aureus_002310395_04             29.69%    passed     59.77%
- 514  Staphylococcus_aureus_003354685_00             31.35%    passed     97.07%
- 515  Staphylococcus_aureus_003354685_01             17.73%    passed     39.47%
- 516  Staphylococcus_aureus_003354685_02             30.66%    passed     98.29%
- 517  Staphylococcus_aureus_003354685_03             32.13%    passed     98.15%
- 518  Staphylococcus_aureus_003354685_04             30.89%    passed     94.53%
- 519  Staphylococcus_aureus_900324415_01             32.35%    passed     98.53%
- 520  Staphylococcus_aureus_900324415_02             32.36%    passed     98.66%
- 521  Staphylococcus_aureus_900324415_03             30.49%    passed     78.76%
- 522  Staphylococcus_aureus_900324415_04             29.60%    passed     99.72%
- 523  Staphylococcus_aureus_900636335_00             31.31%    passed     86.37%
- 524  Staphylococcus_aureus_900636335_02             30.67%    passed     98.48%
- 525  Staphylococcus_aureus_900636335_03             31.11%    passed     76.43%
- 526  Staphylococcus_aureus_900636335_04             31.32%    passed     88.33%
- 527  Staphylococcus_aureus_003394105_00             30.67%    passed     99.49%
- 528  Staphylococcus_aureus_003394105_01             29.69%    passed     61.44%
- 529  Staphylococcus_aureus_003394105_02             29.69%    passed     57.79%
- 530  Staphylococcus_aureus_003394105_03             32.15%    passed     96.21%
- 531  Staphylococcus_aureus_003394105_04             19.35%    passed     54.73%
- 532  Staphylococcus_simulans_003006075_00           33.81%    passed     43.76%
- 533  Staphylococcus_simulans_003006075_01           36.25%    passed     32.85%
- 534  Staphylococcus_simulans_003006075_02           31.44%    passed     45.34%
- 535  Staphylococcus_simulans_003006075_04           33.79%    passed     49.40%
- 536  Staphylococcus_xylosus_002078255_00            30.61%    passed     98.45%
- 537  Staphylococcus_xylosus_002078255_01            33.08%    passed     97.97%
- 538  Staphylococcus_xylosus_002078255_02            33.08%    passed     97.97%
- 539  Staphylococcus_epidermidis_003856395_01        33.56%    passed     88.39%
- 540  Staphylococcus_epidermidis_003856395_02        33.58%    passed     82.93%
- 541  Staphylococcus_epidermidis_003856395_03        33.59%    passed     84.99%
- 542  Staphylococcus_epidermidis_003856395_04        31.04%    passed     74.53%
- 543  Staphylococcus_equorum_001682235_02            30.50%    passed     99.32%
- 544  Staphylococcus_equorum_001682235_03            33.04%    passed     97.97%
- 545  Staphylococcus_equorum_001682235_04            33.04%    passed     95.11%
- 546  Staphylococcus_aureus_000013425_00             32.13%    passed     95.28%
- 547  Staphylococcus_aureus_000013425_01             18.99%    passed     42.13%
- 548  Staphylococcus_aureus_000013425_02             30.67%    passed     99.49%
- 549  Staphylococcus_aureus_000013425_03             29.68%    passed     58.93%
- 550  Staphylococcus_aureus_000013425_04             30.82%    passed     97.71%
- 551  Staphylococcus_aureus_900323955_00             31.28%    passed     91.95%
- 552  Staphylococcus_aureus_900323955_01             31.34%    passed     96.75%
- 553  Staphylococcus_aureus_900323955_02             32.13%    passed     97.65%
- 554  Staphylococcus_aureus_900323955_03             32.38%    passed     98.88%
- 555  Staphylococcus_aureus_002633785_00             31.34%    passed     96.48%
- 556  Staphylococcus_aureus_002633785_02             30.66%    passed     98.73%
- 557  Staphylococcus_aureus_002633785_03             32.12%    passed     98.69%
- 558  Staphylococcus_aureus_002633785_04             31.11%    passed     96.93%
- 559  Staphylococcus_epidermidis_002085695_00        33.58%    passed     84.41%
- 560  Staphylococcus_epidermidis_002085695_01        33.55%    passed     88.76%
- 561  Staphylococcus_epidermidis_002085695_02        31.01%    passed     71.56%
- 562  Staphylococcus_epidermidis_002085695_04        33.56%    passed     87.18%
- 563  Staphylococcus_xylosus_000953575_00            33.06%    passed     97.76%
- 564  Staphylococcus_xylosus_000953575_01            33.09%    passed     98.03%
- 565  Staphylococcus_xylosus_000953575_02            30.59%    passed     98.96%
- 566  Staphylococcus_xylosus_000953575_03            18.53%    passed     55.74%
- 567  Staphylococcus_aureus_003193705_00             32.17%    passed     95.75%
- 568  Staphylococcus_aureus_003193705_01             19.42%    passed     55.96%
- 569  Staphylococcus_aureus_003193705_02             30.69%    passed     99.04%
- 570  Staphylococcus_aureus_003193705_03             30.82%    passed     79.25%
- 571  Staphylococcus_aureus_003193705_04             30.76%    passed     81.23%
- 572  Staphylococcus_aureus_000253135_00             30.67%    passed     99.03%
- 573  Staphylococcus_aureus_000253135_01             19.38%    passed     55.14%
- 574  Staphylococcus_aureus_000253135_02             32.15%    passed     96.95%
- 575  Staphylococcus_aureus_000253135_03             30.73%    passed     81.39%
- 576  Staphylococcus_aureus_000253135_04             30.73%    passed     82.60%
- 577  Staphylococcus_aureus_003342735_00             32.78%    passed     99.52%
- 578  Staphylococcus_aureus_003342735_02             29.65%    passed     99.78%
- 579  Staphylococcus_aureus_003342735_03             29.47%    passed     53.96%
- 580  Staphylococcus_aureus_003342735_04             29.70%    passed     54.11%
- 581  Staphylococcus_saprophyticus_900635295_00      33.16%    passed     97.14%
- 582  Staphylococcus_saprophyticus_900635295_01      33.16%    passed     96.78%
- 583  Staphylococcus_saprophyticus_900635295_02      30.69%    passed     88.88%
- 584  Staphylococcus_saprophyticus_900635295_04      33.14%    passed     97.43%
- 585  Staphylococcus_pseudintermedius_001682435_00   31.74%    passed     83.26%
- 586  Staphylococcus_pseudintermedius_001682435_01   31.74%    passed     85.90%
- 587  Staphylococcus_pseudintermedius_001682435_02   29.38%    passed     83.34%
- 588  Staphylococcus_pseudintermedius_001682435_06   33.97%    passed     98.26%
- 589  Staphylococcus_warneri_000332735_00            31.97%    passed     95.15%
- 590  Staphylococcus_warneri_000332735_01            31.97%    passed     95.13%
- 591  Staphylococcus_warneri_000332735_02            31.97%    passed     95.15%
- 592  Staphylococcus_warneri_000332735_03            18.97%    passed     69.64%
- 593  Staphylococcus_warneri_000332735_04            31.97%    passed     95.74%
- 594  Staphylococcus_pseudintermedius_001682335_02   31.74%    passed     84.02%
- 595  Staphylococcus_pseudintermedius_001682335_03   29.43%    passed     85.51%
- 596  Staphylococcus_pseudintermedius_001682335_05   35.55%    passed     88.73%
- 597  Staphylococcus_epidermidis_003325735_00        33.59%    passed     86.36%
- 598  Staphylococcus_epidermidis_003325735_01        33.58%    passed     85.07%
- 599  Staphylococcus_epidermidis_003325735_02        31.04%    passed     73.13%
- 600  Staphylococcus_epidermidis_003325735_04        33.56%    passed     88.39%
- 601  Staphylococcus_saprophyticus_000010125_00      33.13%    passed     97.02%
- 602  Staphylococcus_saprophyticus_000010125_01      33.14%    passed     97.98%
- 603  Staphylococcus_saprophyticus_000010125_02      30.67%    passed     91.70%
- 604  Staphylococcus_saprophyticus_000010125_04      33.14%    passed     97.98%
- 605  Staphylococcus_aureus_000815125_00             32.16%    passed     96.09%
- 606  Staphylococcus_aureus_000815125_01             28.15%    passed     95.25%
- 607  Staphylococcus_aureus_000815125_02             30.67%    passed     98.75%
- 608  Staphylococcus_aureus_000815125_03             29.73%    passed     55.99%
- 609  Staphylococcus_aureus_000815125_04             29.69%    passed     59.26%
- 610  Staphylococcus_aureus_000463055_01             19.01%    passed     42.15%
- 611  Staphylococcus_aureus_000463055_02             32.16%    passed     96.82%
- 612  Staphylococcus_aureus_000463055_03             29.47%    passed     53.96%
- 613  Staphylococcus_aureus_000463055_04             29.69%    passed     54.75%
- 614  Staphylococcus_aureus_003347055_00             32.77%    passed     99.42%
- 615  Staphylococcus_aureus_003347055_02             29.64%    passed     99.53%
- 616  Staphylococcus_aureus_003347055_03             29.47%    passed     52.83%
- 617  Staphylococcus_aureus_003347055_04             29.69%    passed     57.79%
- 618  Staphylococcus_aureus_003431365_00             32.15%    passed     96.47%
- 619  Staphylococcus_aureus_003431365_02             30.67%    passed     99.39%
- 620  Staphylococcus_aureus_003431365_03             30.73%    passed     81.12%
- 621  Staphylococcus_aureus_003431365_04             30.73%    passed     81.12%
- 622  Staphylococcus_caprae_003966625_00             33.55%    passed     72.27%
- 623  Staphylococcus_caprae_003966625_01             33.56%    passed     72.77%
- 624  Staphylococcus_caprae_003966625_02             31.55%    passed     45.46%
- 625  Staphylococcus_caprae_003966625_03             19.80%    passed     34.70%
- 626  Staphylococcus_caprae_003966625_04             33.56%    passed     69.34%
- 627  Staphylococcus_aureus_000009645_00             30.66%    passed     99.37%
- 628  Staphylococcus_aureus_000009645_01             19.38%    passed     56.51%
- 629  Staphylococcus_aureus_000009645_02             30.66%    passed     98.94%
- 630  Staphylococcus_aureus_000009645_03             30.72%    passed     80.78%
- 631  Staphylococcus_aureus_000009645_04             30.72%    passed     81.99%
- 632  Staphylococcus_lugdunensis_900474705_00        30.58%    passed     91.26%
- 633  Staphylococcus_lugdunensis_900474705_01        30.57%    passed     92.80%
- 634  Staphylococcus_lugdunensis_900474705_02        29.93%    passed     97.97%
- 635  Staphylococcus_lugdunensis_900474705_04        30.58%    passed     91.52%
- 636  Staphylococcus_aureus_003354905_00             32.15%    passed     95.66%
- 637  Staphylococcus_aureus_003354905_02             30.66%    passed     98.02%
- 638  Staphylococcus_aureus_003354905_03             30.72%    passed     84.26%
- 639  Staphylococcus_aureus_003354905_04             32.15%    passed     96.47%
- 640  Staphylococcus_argenteus_000236925_00          31.94%    passed     93.54%
- 641  Staphylococcus_argenteus_000236925_01          17.68%    passed     29.27%
- 642  Staphylococcus_argenteus_000236925_02          30.61%    passed     99.04%
- 643  Staphylococcus_argenteus_000236925_03          31.94%    passed     95.65%
- 644  Staphylococcus_argenteus_000236925_04          32.00%    passed     95.56%
- 645  Staphylococcus_epidermidis_000751035_00        31.03%    passed     78.22%
- 646  Staphylococcus_epidermidis_000751035_01        33.56%    passed     89.59%
- 647  Staphylococcus_epidermidis_000751035_02        33.58%    passed     86.01%
- 648  Staphylococcus_epidermidis_000751035_04        33.50%    passed     88.44%
- 649  Staphylococcus_lugdunensis_002073395_00        30.57%    passed     93.44%
- 650  Staphylococcus_lugdunensis_002073395_01        29.61%    passed     81.15%
- 651  Staphylococcus_lugdunensis_002073395_02        29.22%    passed     99.39%
- 652  Staphylococcus_lugdunensis_002073395_03        17.56%    passed     77.85%
- 653  Staphylococcus_lugdunensis_002073395_04        30.58%    passed     91.92%
- 654  Staphylococcus_aureus_000485885_00             29.68%    passed     57.38%
- 655  Staphylococcus_aureus_000485885_01             19.35%    passed     55.14%
- 656  Staphylococcus_aureus_000485885_02             30.66%    passed     98.75%
- 657  Staphylococcus_aureus_000485885_03             29.66%    passed     56.70%
- 658  Staphylococcus_aureus_000485885_04             29.68%    passed     60.38%
- 659  Staphylococcus_xylosus_000706685_01            30.61%    passed     98.48%
- 660  Staphylococcus_xylosus_000706685_02            30.61%    passed     98.48%
- 661  Staphylococcus_xylosus_000706685_03            30.61%    passed     98.69%
- 662  Staphylococcus_xylosus_000706685_04            30.61%    passed     98.48%
- 663  Staphylococcus_aureus_000010445_00             32.13%    passed     95.82%
- 664  Staphylococcus_aureus_000010445_01             19.39%    passed     55.93%
- 665  Staphylococcus_aureus_000010445_02             30.66%    passed     98.95%
- 666  Staphylococcus_aureus_000010445_03             30.72%    passed     80.78%
- 667  Staphylococcus_aureus_000010445_04             30.72%    passed     81.99%
- 668  Staphylococcus_epidermidis_900638695_00        31.04%    passed     75.62%
- 669  Staphylococcus_epidermidis_900638695_01        33.58%    passed     90.05%
- 670  Staphylococcus_epidermidis_900638695_02        33.60%    passed     89.00%
- 671  Staphylococcus_epidermidis_900638695_03        19.46%    passed     41.01%
- 672  Staphylococcus_epidermidis_900638695_04        33.56%    passed     90.71%
- 673  Staphylococcus_lugdunensis_000025085_00        30.55%    passed     92.87%
- 674  Staphylococcus_lugdunensis_000025085_01        29.60%    passed     81.88%
- 675  Staphylococcus_lugdunensis_000025085_02        29.22%    passed     99.63%
- 676  Staphylococcus_lugdunensis_000025085_04        29.60%    passed     79.29%
- 677  Staphylococcus_haemolyticus_000009865_00       32.54%    passed     98.07%
- 678  Staphylococcus_haemolyticus_000009865_01       31.17%    passed     80.86%
- 679  Staphylococcus_haemolyticus_000009865_02       31.00%    passed     93.13%
- 680  Staphylococcus_haemolyticus_000009865_03       19.22%    passed     54.03%
- 681  Staphylococcus_haemolyticus_000009865_04       32.55%    passed     98.60%
- 682  Staphylococcus_aureus_003354945_00             32.15%    passed     96.21%
- 683  Staphylococcus_aureus_003354945_02             30.69%    passed     99.57%
- 684  Staphylococcus_aureus_003354945_03             29.69%    passed     61.73%
- 685  Staphylococcus_aureus_003354945_04             29.72%    passed     58.51%
- 686  Staphylococcus_aureus_001019275_00             29.70%    passed     59.04%
- 687  Staphylococcus_aureus_001019275_01             32.15%    passed     96.03%
- 688  Staphylococcus_aureus_001019275_02             32.15%    passed     96.21%
- 689  Staphylococcus_aureus_001019275_04             30.67%    passed     99.55%
- 690  Staphylococcus_warneri_900636265_00            32.00%    passed     96.10%
- 691  Staphylococcus_warneri_900636265_01            32.01%    passed     97.53%
- 692  Staphylococcus_warneri_900636265_02            31.35%    passed     95.73%
- 693  Staphylococcus_warneri_900636265_04            31.89%    passed     92.06%
- 694  Staphylococcus_simulans_900474685_00           33.82%    passed     47.82%
- 695  Staphylococcus_simulans_900474685_01           36.26%    passed     31.51%
- 696  Staphylococcus_simulans_900474685_02           31.44%    passed     42.94%
- 697  Staphylococcus_simulans_900474685_04           33.78%    passed     58.02%
- 698  Staphylococcus_lugdunensis_001558775_01        30.54%    passed     92.11%
- 699  Staphylococcus_lugdunensis_001558775_02        30.54%    passed     91.51%
- 700  Staphylococcus_lugdunensis_001558775_03        30.54%    passed     88.02%
- 701  Staphylococcus_lugdunensis_001558775_04        28.23%    passed     99.64%
- 702  Staphylococcus_aureus_001018645_01             32.98%    passed     99.75%
- 703  Staphylococcus_aureus_001018645_02             31.35%    passed     94.60%
- 704  Staphylococcus_aureus_001018645_03             29.69%    passed     59.99%
- 705  Staphylococcus_aureus_001018645_04             29.64%    passed     99.61%
- 706  Staphylococcus_aureus_000815205_00             32.16%    passed     95.59%
- 707  Staphylococcus_aureus_000815205_01             28.15%    passed     95.25%
- 708  Staphylococcus_aureus_000815205_02             30.66%    passed     99.47%
- 709  Staphylococcus_aureus_000815205_03             29.66%    passed     58.88%
- 710  Staphylococcus_aureus_000815205_04             29.69%    passed     59.48%
+   1  Staphylococcus_saprophyticus_001558275_01      33.13%    passed     98.07%
+   2  Staphylococcus_saprophyticus_001558275_02      33.13%    passed     97.58%
+   3  Staphylococcus_saprophyticus_001558275_03      33.13%    passed     97.30%
+   4  Staphylococcus_saprophyticus_001558275_04      30.66%    passed     90.08%
+   5  Staphylococcus_pseudintermedius_003627735_01   31.70%    passed     85.21%
+   6  Staphylococcus_pseudintermedius_003627735_02   29.67%    passed     95.87%
+   7  Staphylococcus_pseudintermedius_003627735_03   31.70%    passed     83.51%
+   8  Staphylococcus_pseudintermedius_003627735_04   29.35%    passed     82.35%
+   9  Staphylococcus_schleiferi_001188855_00         33.74%    passed     53.47%
+  10  Staphylococcus_schleiferi_001188855_01         33.67%    passed     49.92%
+  11  Staphylococcus_schleiferi_001188855_02         30.93%    passed     49.12%
+  12  Staphylococcus_schleiferi_001188855_04         33.60%    passed     54.82%
+  13  Staphylococcus_lugdunensis_002250095_00        30.51%    passed     90.93%
+  14  Staphylococcus_lugdunensis_002250095_01        30.51%    passed     87.60%
+  15  Staphylococcus_lugdunensis_002250095_02        28.20%    passed     99.63%
+  16  Staphylococcus_lugdunensis_002250095_03        17.48%    passed     76.31%
+  17  Staphylococcus_lugdunensis_002250095_04        17.73%    passed     75.01%
+  18  Staphylococcus_lugdunensis_002250095_05        30.51%    passed     92.89%
+  19  Staphylococcus_aureus_002025145_00             31.31%    passed     94.35%
+  20  Staphylococcus_aureus_002025145_02             30.63%    passed     99.34%
+  21  Staphylococcus_aureus_002025145_03             31.08%    passed     82.10%
+  22  Staphylococcus_aureus_002025145_04             32.10%    passed     95.68%
+  23  Staphylococcus_capitis_002591175_00            32.12%    passed     96.76%
+  24  Staphylococcus_capitis_002591175_01            32.13%    passed     97.64%
+  25  Staphylococcus_capitis_002591175_02            29.59%    passed     91.70%
+  26  Staphylococcus_capitis_002591175_04            33.87%    passed     58.93%
+  27  Staphylococcus_haemolyticus_001611955_00       32.52%    passed     98.55%
+  28  Staphylococcus_haemolyticus_001611955_02       30.97%    passed     94.24%
+  29  Staphylococcus_haemolyticus_001611955_03       31.15%    passed     84.24%
+  30  Staphylococcus_haemolyticus_001611955_04       32.52%    passed     98.77%
+  31  Staphylococcus_epidermidis_900636255_00        31.98%    passed     96.67%
+  32  Staphylococcus_epidermidis_900636255_01        31.98%    passed     96.06%
+  33  Staphylococcus_epidermidis_900636255_02        31.32%    passed     94.29%
+  34  Staphylococcus_epidermidis_900636255_04        31.98%    passed     96.77%
+  35  Staphylococcus_hyicus_000816085_00             29.57%    passed     85.21%
+  36  Staphylococcus_hyicus_000816085_01             30.80%    passed     87.52%
+  37  Staphylococcus_hyicus_000816085_02             27.38%    passed     86.09%
+  38  Staphylococcus_hyicus_000816085_04             31.27%    passed     82.75%
+  39  Staphylococcus_schleiferi_001188915_00         33.70%    passed     51.31%
+  40  Staphylococcus_schleiferi_001188915_01         33.67%    passed     46.69%
+  41  Staphylococcus_schleiferi_001188915_02         30.93%    passed     48.80%
+  42  Staphylococcus_schleiferi_001188915_04         33.58%    passed     54.24%
+  43  Staphylococcus_aureus_002952015_01             38.41%    passed     37.30%
+  44  Staphylococcus_aureus_001717685_00             19.33%    passed     52.60%
+  45  Staphylococcus_aureus_001717685_01             32.12%    passed     94.56%
+  46  Staphylococcus_aureus_001717685_02             32.96%    passed     99.80%
+  47  Staphylococcus_aureus_001717685_03             32.96%    passed     99.84%
+  48  Staphylococcus_aureus_001717685_04             30.65%    passed     99.58%
+  49  Staphylococcus_aureus_000284535_00             31.07%    passed     84.14%
+  50  Staphylococcus_aureus_000284535_02             30.63%    passed     98.47%
+  51  Staphylococcus_aureus_000284535_03             29.42%    passed     53.52%
+  52  Staphylococcus_aureus_000284535_04             32.09%    passed     96.14%
+  53  Staphylococcus_condimenti_001618885_00         31.23%    passed     27.05%
+  54  Staphylococcus_condimenti_001618885_02         33.75%    passed     25.73%
+  55  Staphylococcus_condimenti_001618885_03         33.74%    passed     29.71%
+  56  Staphylococcus_condimenti_001618885_04         36.17%    passed     14.09%
+  57  Staphylococcus_aureus_003342775_00             32.74%    passed     99.52%
+  58  Staphylococcus_aureus_003342775_02             29.62%    passed     99.69%
+  59  Staphylococcus_aureus_003342775_03             29.45%    passed     54.14%
+  60  Staphylococcus_aureus_003342775_04             29.67%    passed     52.31%
+  61  Staphylococcus_aureus_001725965_00             32.10%    passed     95.89%
+  62  Staphylococcus_aureus_001725965_01             19.35%    passed     54.54%
+  63  Staphylococcus_aureus_001725965_02             30.63%    passed     98.90%
+  64  Staphylococcus_aureus_001725965_03             30.69%    passed     80.88%
+  65  Staphylococcus_aureus_001725965_04             30.69%    passed     82.08%
+  66  Staphylococcus_aureus_900324205_01             32.32%    passed     98.76%
+  67  Staphylococcus_aureus_900324205_02             32.32%    passed     98.99%
+  68  Staphylococcus_aureus_900324205_03             30.46%    passed     80.43%
+  69  Staphylococcus_aureus_900324205_04             29.59%    passed     99.82%
+  70  Staphylococcus_simulans_002386185_00           31.43%    passed     48.81%
+  71  Staphylococcus_simulans_002386185_01           36.24%    passed     34.40%
+  72  Staphylococcus_simulans_002386185_02           33.79%    passed     54.21%
+  73  Staphylococcus_simulans_002386185_03           33.78%    passed     55.41%
+  74  Staphylococcus_argenteus_003967115_00          31.93%    passed     94.55%
+  75  Staphylococcus_argenteus_003967115_02          30.61%    passed     99.09%
+  76  Staphylococcus_argenteus_003967115_03          32.97%    passed     99.85%
+  77  Staphylococcus_argenteus_003967115_04          31.63%    passed     92.07%
+  78  Staphylococcus_nepalensis_002442895_00         33.16%    passed     99.25%
+  79  Staphylococcus_nepalensis_002442895_01         33.16%    passed     99.54%
+  80  Staphylococcus_nepalensis_002442895_02         30.61%    passed     98.63%
+  81  Staphylococcus_nepalensis_002442895_04         33.16%    passed     99.29%
+  82  Staphylococcus_aureus_002356675_00             32.08%    passed     96.71%
+  83  Staphylococcus_aureus_002356675_02             30.63%    passed     99.43%
+  84  Staphylococcus_aureus_002356675_03             29.62%    passed     54.55%
+  85  Staphylococcus_aureus_002356675_04             29.59%    passed     51.01%
+  86  Staphylococcus_xylosus_000709415_00            33.04%    passed     98.04%
+  87  Staphylococcus_xylosus_000709415_01            33.10%    passed     98.71%
+  88  Staphylococcus_xylosus_000709415_02            30.58%    passed     98.43%
+  89  Staphylococcus_aureus_000452385_01             24.54%    passed      5.02%
+  90  Staphylococcus_aureus_000452385_02             29.65%    passed     61.02%
+  91  Staphylococcus_aureus_000452385_04             58.08%    passed     83.43%
+  92  Staphylococcus_aureus_000452385_05             29.66%    passed     61.60%
+  93  Staphylococcus_aureus_002209325_00             32.94%    passed     99.83%
+  94  Staphylococcus_aureus_002209325_01             19.36%    passed     52.65%
+  95  Staphylococcus_aureus_002209325_02             29.58%    passed     99.41%
+  96  Staphylococcus_aureus_002209325_03             29.65%    passed     60.38%
+  97  Staphylococcus_aureus_002209325_04             31.29%    passed     94.56%
+  98  Staphylococcus_aureus_003426145_00             29.66%    passed     59.94%
+  99  Staphylococcus_aureus_003426145_01             29.67%    passed     56.79%
+ 100  Staphylococcus_aureus_003426145_02             30.67%    passed     99.03%
+ 101  Staphylococcus_aureus_003426145_04             32.17%    passed     93.69%
+ 102  Staphylococcus_equorum_001432245_00            33.04%    passed     96.11%
+ 103  Staphylococcus_equorum_001432245_01            33.04%    passed     95.20%
+ 104  Staphylococcus_equorum_001432245_03            30.47%    passed     98.03%
+ 105  Staphylococcus_equorum_001432245_04            33.05%    passed     97.35%
+ 106  Staphylococcus_equorum_001432245_05            33.04%    passed     96.20%
+ 107  Staphylococcus_aureus_900635245_00             31.08%    passed     84.40%
+ 108  Staphylococcus_aureus_900635245_02             30.63%    passed     98.47%
+ 109  Staphylococcus_aureus_900635245_03             29.43%    passed     52.45%
+ 110  Staphylococcus_aureus_900635245_04             32.10%    passed     96.34%
+ 111  Staphylococcus_schleiferi_001188875_00         33.68%    passed     48.73%
+ 112  Staphylococcus_schleiferi_001188875_01         33.68%    passed     49.28%
+ 113  Staphylococcus_schleiferi_001188875_02         30.93%    passed     47.27%
+ 114  Staphylococcus_schleiferi_001188875_03         19.70%    passed     35.56%
+ 115  Staphylococcus_schleiferi_001188875_04         33.58%    passed     55.74%
+ 116  Staphylococcus_lugdunensis_002407165_00        30.54%    passed     91.30%
+ 117  Staphylococcus_lugdunensis_002407165_01        30.53%    passed     86.62%
+ 118  Staphylococcus_lugdunensis_002407165_02        28.23%    passed     99.41%
+ 119  Staphylococcus_lugdunensis_002407165_04        30.53%    passed     92.73%
+ 120  Staphylococcus_aureus_900636695_00             31.29%    passed     86.09%
+ 121  Staphylococcus_aureus_900636695_01             16.48%    passed     19.38%
+ 122  Staphylococcus_aureus_900636695_02             30.63%    passed     99.04%
+ 123  Staphylococcus_aureus_900636695_03             31.08%    passed     76.63%
+ 124  Staphylococcus_aureus_900636695_04             31.29%    passed     88.44%
+ 125  Staphylococcus_epidermidis_900086615_00        33.52%    passed     89.94%
+ 126  Staphylococcus_epidermidis_900086615_01        19.43%    passed     40.55%
+ 127  Staphylococcus_epidermidis_900086615_02        31.00%    passed     74.99%
+ 128  Staphylococcus_epidermidis_900086615_03        33.54%    passed     90.39%
+ 129  Staphylococcus_epidermidis_900086615_04        33.55%    passed     85.69%
+ 130  Staphylococcus_aureus_003490125_00             31.28%    passed     86.51%
+ 131  Staphylococcus_aureus_003490125_01             18.42%    passed     42.25%
+ 132  Staphylococcus_aureus_003490125_02             38.14%    passed     99.23%
+ 133  Staphylococcus_aureus_003490125_03             34.62%    passed     92.70%
+ 134  Staphylococcus_aureus_003490125_04             36.98%    passed     92.16%
+ 135  Staphylococcus_saprophyticus_002208905_01      33.13%    passed     97.68%
+ 136  Staphylococcus_saprophyticus_002208905_02      33.13%    passed     97.48%
+ 137  Staphylococcus_saprophyticus_002208905_03      33.13%    passed     97.81%
+ 138  Staphylococcus_saprophyticus_002208905_04      30.66%    passed     90.93%
+ 139  Staphylococcus_schleiferi_001548255_00         33.66%    passed     47.64%
+ 140  Staphylococcus_schleiferi_001548255_01         33.66%    passed     46.52%
+ 141  Staphylococcus_schleiferi_001548255_02         30.90%    passed     48.75%
+ 142  Staphylococcus_schleiferi_001548255_03         20.90%    passed     38.71%
+ 143  Staphylococcus_schleiferi_001548255_04         33.56%    passed     52.24%
+ 144  Staphylococcus_epidermidis_002954055_00        33.56%    passed     89.28%
+ 145  Staphylococcus_epidermidis_002954055_02        31.01%    passed     78.67%
+ 146  Staphylococcus_epidermidis_002954055_03        33.55%    passed     91.75%
+ 147  Staphylococcus_epidermidis_002954055_04        33.55%    passed     87.32%
+ 148  Staphylococcus_simulans_003096155_00           33.78%    passed     43.71%
+ 149  Staphylococcus_simulans_003096155_01           36.22%    passed     32.86%
+ 150  Staphylococcus_simulans_003096155_02           31.42%    passed     45.20%
+ 151  Staphylococcus_simulans_003096155_04           33.77%    passed     49.35%
+ 152  Staphylococcus_aureus_003264815_00             32.12%    passed     96.69%
+ 153  Staphylococcus_aureus_003264815_01             19.36%    passed     52.43%
+ 154  Staphylococcus_aureus_003264815_02             32.64%    passed     96.68%
+ 155  Staphylococcus_aureus_003264815_03             29.66%    passed     58.67%
+ 156  Staphylococcus_aureus_003264815_04             29.66%    passed     58.43%
+ 157  Staphylococcus_aureus_001887075_00             30.69%    passed     85.59%
+ 158  Staphylococcus_aureus_001887075_02             29.58%    passed     99.81%
+ 159  Staphylococcus_aureus_001887075_03             30.43%    passed     81.82%
+ 160  Staphylococcus_aureus_001887075_04             32.31%    passed     98.62%
+ 161  Staphylococcus_aureus_002310435_00             32.12%    passed     96.28%
+ 162  Staphylococcus_aureus_002310435_01             19.33%    passed     52.51%
+ 163  Staphylococcus_aureus_002310435_02             30.65%    passed     99.46%
+ 164  Staphylococcus_aureus_002310435_03             29.66%    passed     60.15%
+ 165  Staphylococcus_aureus_002310435_04             29.66%    passed     59.94%
+ 166  Staphylococcus_aureus_000009005_00             31.05%    passed     82.78%
+ 167  Staphylococcus_aureus_000009005_01             17.66%    passed     45.91%
+ 168  Staphylococcus_aureus_000009005_02             29.59%    passed     99.50%
+ 169  Staphylococcus_aureus_000009005_03             30.82%    passed     96.00%
+ 170  Staphylococcus_aureus_000009005_04             32.10%    passed     97.48%
+ 171  Staphylococcus_haemolyticus_002906615_00       32.55%    passed     98.85%
+ 172  Staphylococcus_haemolyticus_002906615_01       31.16%    passed     87.01%
+ 173  Staphylococcus_haemolyticus_002906615_02       31.05%    passed     95.86%
+ 174  Staphylococcus_haemolyticus_002906615_04       32.55%    passed     98.79%
+ 175  Staphylococcus_simulans_001559115_00           33.75%    passed     51.64%
+ 176  Staphylococcus_simulans_001559115_01           36.24%    passed     36.97%
+ 177  Staphylococcus_simulans_001559115_02           31.42%    passed     37.20%
+ 178  Staphylococcus_simulans_001559115_04           33.77%    passed     56.80%
+ 179  Staphylococcus_aureus_000967345_00             30.63%    passed     99.42%
+ 180  Staphylococcus_aureus_000967345_01             19.35%    passed     56.39%
+ 181  Staphylococcus_aureus_000967345_02             30.63%    passed     98.67%
+ 182  Staphylococcus_aureus_000967345_03             30.69%    passed     80.88%
+ 183  Staphylococcus_aureus_000967345_04             30.69%    passed     82.08%
+ 184  Staphylococcus_lugdunensis_900478255_00        30.54%    passed     93.59%
+ 185  Staphylococcus_lugdunensis_900478255_01        29.58%    passed     81.33%
+ 186  Staphylococcus_lugdunensis_900478255_02        29.19%    passed     99.41%
+ 187  Staphylococcus_lugdunensis_900478255_03        17.51%    passed     77.05%
+ 188  Staphylococcus_lugdunensis_900478255_04        30.55%    passed     92.07%
+ 189  Staphylococcus_condimenti_900637235_00         33.75%    passed     28.92%
+ 190  Staphylococcus_condimenti_900637235_01         36.18%    passed     13.55%
+ 191  Staphylococcus_condimenti_900637235_02         31.24%    passed     26.47%
+ 192  Staphylococcus_condimenti_900637235_04         33.77%    passed     25.01%
+ 193  Staphylococcus_aureus_001278745_00             32.10%    passed     96.02%
+ 194  Staphylococcus_aureus_001278745_02             30.63%    passed     99.00%
+ 195  Staphylococcus_aureus_001278745_03             30.69%    passed     80.88%
+ 196  Staphylococcus_aureus_001278745_04             30.69%    passed     82.08%
+ 197  Staphylococcus_warneri_003571725_00            31.98%    passed     97.01%
+ 198  Staphylococcus_warneri_003571725_01            31.97%    passed     97.51%
+ 199  Staphylococcus_warneri_003571725_02            31.35%    passed     93.98%
+ 200  Staphylococcus_warneri_003571725_04            31.97%    passed     97.90%
+ 201  Staphylococcus_simulans_003076375_00           33.78%    passed     43.71%
+ 202  Staphylococcus_simulans_003076375_01           36.22%    passed     32.86%
+ 203  Staphylococcus_simulans_003076375_02           31.42%    passed     45.20%
+ 204  Staphylococcus_simulans_003076375_04           33.77%    passed     49.35%
+ 205  Staphylococcus_epidermidis_000759555_00        31.01%    passed     77.33%
+ 206  Staphylococcus_epidermidis_000759555_01        33.56%    passed     90.46%
+ 207  Staphylococcus_epidermidis_000759555_02        33.56%    passed     87.88%
+ 208  Staphylococcus_epidermidis_000759555_03        33.51%    passed     88.70%
+ 209  Staphylococcus_lugdunensis_000270465_00        30.54%    passed     92.77%
+ 210  Staphylococcus_lugdunensis_000270465_01        29.61%    passed     78.02%
+ 211  Staphylococcus_lugdunensis_000270465_04        16.86%    passed     67.64%
+ 212  Staphylococcus_lugdunensis_000270465_05        29.65%    passed     76.48%
+ 213  Staphylococcus_aureus_002633825_00             32.94%    passed     99.90%
+ 214  Staphylococcus_aureus_002633825_02             29.59%    passed     99.33%
+ 215  Staphylococcus_aureus_002633825_03             31.28%    passed     89.83%
+ 216  Staphylococcus_aureus_002633825_04             31.34%    passed     93.92%
+ 217  Staphylococcus_aureus_001975005_00             32.10%    passed     96.31%
+ 218  Staphylococcus_aureus_001975005_02             30.63%    passed     99.00%
+ 219  Staphylococcus_aureus_001975005_03             30.69%    passed     80.88%
+ 220  Staphylococcus_aureus_001975005_04             30.70%    passed     80.28%
+ 221  Staphylococcus_caprae_003966605_00             33.54%    passed     70.97%
+ 222  Staphylococcus_caprae_003966605_01             33.56%    passed     74.98%
+ 223  Staphylococcus_caprae_003966605_02             31.52%    passed     45.35%
+ 224  Staphylococcus_caprae_003966605_03             19.77%    passed     35.28%
+ 225  Staphylococcus_caprae_003966605_04             33.54%    passed     68.78%
+ 226  Staphylococcus_aureus_000017125_00             32.10%    passed     95.89%
+ 227  Staphylococcus_aureus_000017125_02             30.63%    passed     99.00%
+ 228  Staphylococcus_aureus_000017125_03             30.69%    passed     80.88%
+ 229  Staphylococcus_aureus_000017125_04             30.69%    passed     82.08%
+ 230  Staphylococcus_aureus_000815045_00             32.13%    passed     95.67%
+ 231  Staphylococcus_aureus_000815045_01             28.12%    passed     95.16%
+ 232  Staphylococcus_aureus_000815045_02             30.65%    passed     99.56%
+ 233  Staphylococcus_aureus_000815045_03             29.65%    passed     58.48%
+ 234  Staphylococcus_aureus_000815045_04             29.67%    passed     59.05%
+ 235  Staphylococcus_saprophyticus_002209265_00      30.67%    passed     91.00%
+ 236  Staphylococcus_saprophyticus_002209265_02      33.13%    passed     97.72%
+ 237  Staphylococcus_saprophyticus_002209265_03      33.12%    passed     96.74%
+ 238  Staphylococcus_saprophyticus_002209265_04      33.16%    passed     98.08%
+ 239  Staphylococcus_epidermidis_000011925_00        33.52%    passed     89.03%
+ 240  Staphylococcus_epidermidis_000011925_02        31.00%    passed     78.09%
+ 241  Staphylococcus_epidermidis_000011925_03        33.54%    passed     86.16%
+ 242  Staphylococcus_epidermidis_000011925_04        33.55%    passed     87.02%
+ 243  Staphylococcus_epidermidis_003856455_01        33.55%    passed     88.93%
+ 244  Staphylococcus_epidermidis_003856455_02        33.55%    passed     85.74%
+ 245  Staphylococcus_epidermidis_003856455_03        33.59%    passed     88.69%
+ 246  Staphylococcus_epidermidis_003856455_04        31.02%    passed     77.59%
+ 247  Staphylococcus_saprophyticus_001558375_00      33.14%    passed     98.10%
+ 248  Staphylococcus_saprophyticus_001558375_01      33.13%    passed     97.81%
+ 249  Staphylococcus_saprophyticus_001558375_02      30.66%    passed     88.71%
+ 250  Staphylococcus_saprophyticus_001558375_04      33.13%    passed     97.01%
+ 251  Staphylococcus_aureus_003203655_01             32.12%    passed     95.97%
+ 252  Staphylococcus_aureus_003203655_02             30.70%    passed     81.39%
+ 253  Staphylococcus_aureus_003203655_03             30.70%    passed     81.49%
+ 254  Staphylococcus_aureus_003203655_04             30.65%    passed     99.10%
+ 255  Staphylococcus_pseudintermedius_000189495_00   31.70%    passed     83.31%
+ 256  Staphylococcus_pseudintermedius_000189495_01   31.70%    passed     84.30%
+ 257  Staphylococcus_pseudintermedius_000189495_02   29.34%    passed     81.53%
+ 258  Staphylococcus_pseudintermedius_000189495_03   18.90%    passed     72.13%
+ 259  Staphylococcus_pseudintermedius_000189495_04   31.67%    passed     86.20%
+ 260  Staphylococcus_aureus_001618305_00             31.25%    passed     92.19%
+ 261  Staphylococcus_aureus_001618305_01             31.31%    passed     93.12%
+ 262  Staphylococcus_aureus_001618305_02             18.17%    passed     36.28%
+ 263  Staphylococcus_aureus_001618305_03             31.25%    passed     92.19%
+ 264  Staphylococcus_aureus_001618305_04             31.25%    passed     92.19%
+ 265  Staphylococcus_aureus_000010465_00             32.10%    passed     96.16%
+ 266  Staphylococcus_aureus_000010465_01             19.33%    passed     52.51%
+ 267  Staphylococcus_aureus_000010465_02             30.63%    passed     99.43%
+ 268  Staphylococcus_aureus_000010465_03             29.65%    passed     59.48%
+ 269  Staphylococcus_aureus_000010465_04             29.65%    passed     59.30%
+ 270  Staphylococcus_aureus_003354705_00             30.70%    passed     81.13%
+ 271  Staphylococcus_aureus_003354705_01             19.35%    passed     56.32%
+ 272  Staphylococcus_aureus_003354705_02             30.70%    passed     81.49%
+ 273  Staphylococcus_aureus_003354705_03             30.65%    passed     98.86%
+ 274  Staphylococcus_aureus_003354705_04             30.70%    passed     82.69%
+ 275  Staphylococcus_epidermidis_002215535_00        33.55%    passed     85.43%
+ 276  Staphylococcus_epidermidis_002215535_01        33.54%    passed     89.63%
+ 277  Staphylococcus_epidermidis_002215535_02        30.97%    passed     79.72%
+ 278  Staphylococcus_epidermidis_002215535_04        33.55%    passed     88.31%
+ 279  Staphylococcus_aureus_001019305_00             19.35%    passed     56.13%
+ 280  Staphylococcus_aureus_001019305_01             32.12%    passed     95.97%
+ 281  Staphylococcus_aureus_001019305_02             30.71%    passed     82.14%
+ 282  Staphylococcus_aureus_001019305_03             30.70%    passed     81.49%
+ 283  Staphylococcus_aureus_001019305_04             30.65%    passed     99.07%
+ 284  Staphylococcus_aureus_001549675_00             31.07%    passed     81.92%
+ 285  Staphylococcus_aureus_001549675_01             16.50%    passed     17.42%
+ 286  Staphylococcus_aureus_001549675_02             29.59%    passed     99.61%
+ 287  Staphylococcus_aureus_001549675_03             29.43%    passed     53.61%
+ 288  Staphylococcus_aureus_001549675_04             29.65%    passed     55.55%
+ 289  Staphylococcus_aureus_002000665_00             32.10%    passed     95.63%
+ 290  Staphylococcus_aureus_002000665_01             19.33%    passed     52.60%
+ 291  Staphylococcus_aureus_002000665_02             30.63%    passed     99.43%
+ 292  Staphylococcus_aureus_002000665_03             30.63%    passed     99.22%
+ 293  Staphylococcus_aureus_002000665_04             32.94%    passed     99.86%
+ 294  Staphylococcus_aureus_003203635_00             32.13%    passed     96.36%
+ 295  Staphylococcus_aureus_003203635_02             30.67%    passed     99.01%
+ 296  Staphylococcus_aureus_003203635_03             30.84%    passed     81.08%
+ 297  Staphylococcus_aureus_003203635_04             30.77%    passed     77.80%
+ 298  Staphylococcus_aureus_003354885_00             32.51%    passed     98.10%
+ 299  Staphylococcus_aureus_003354885_02             30.65%    passed     99.46%
+ 300  Staphylococcus_aureus_003354885_03             31.29%    passed     90.17%
+ 301  Staphylococcus_aureus_003354885_04             29.66%    passed     61.63%
+ 302  Staphylococcus_epidermidis_000007645_00        31.00%    passed     76.36%
+ 303  Staphylococcus_epidermidis_000007645_01        33.52%    passed     87.87%
+ 304  Staphylococcus_epidermidis_000007645_02        33.59%    passed     85.32%
+ 305  Staphylococcus_epidermidis_000007645_03        19.47%    passed     40.00%
+ 306  Staphylococcus_epidermidis_000007645_04        33.55%    passed     80.87%
+ 307  Staphylococcus_aureus_000967405_00             30.66%    passed     99.11%
+ 308  Staphylococcus_aureus_000967405_01             18.17%    passed     41.71%
+ 309  Staphylococcus_aureus_000967405_02             30.65%    passed     98.91%
+ 310  Staphylococcus_aureus_000967405_03             30.69%    passed     80.88%
+ 311  Staphylococcus_aureus_000967405_04             30.69%    passed     82.08%
+ 312  Staphylococcus_argenteus_002812345_00          31.89%    passed     92.23%
+ 313  Staphylococcus_argenteus_002812345_01          17.69%    passed     34.69%
+ 314  Staphylococcus_argenteus_002812345_02          30.61%    passed     99.31%
+ 315  Staphylococcus_argenteus_002812345_03          32.97%    passed     99.85%
+ 316  Staphylococcus_argenteus_002812345_04          31.63%    passed     92.82%
+ 317  Staphylococcus_haemolyticus_003956005_01       32.58%    passed     98.46%
+ 318  Staphylococcus_haemolyticus_003956005_02       32.56%    passed     98.06%
+ 319  Staphylococcus_haemolyticus_003956005_03       31.19%    passed     82.39%
+ 320  Staphylococcus_haemolyticus_003956005_04       31.05%    passed     95.88%
+ 321  Staphylococcus_aureus_001018975_00             32.10%    passed     98.19%
+ 322  Staphylococcus_aureus_001018975_01             30.65%    passed     98.45%
+ 323  Staphylococcus_aureus_001018975_03             31.32%    passed     97.34%
+ 324  Staphylococcus_aureus_001018975_04             31.09%    passed     96.15%
+ 325  Staphylococcus_haemolyticus_002952715_00       32.55%    passed     98.11%
+ 326  Staphylococcus_haemolyticus_002952715_01       32.55%    passed     98.08%
+ 327  Staphylococcus_haemolyticus_002952715_03       30.98%    passed     91.92%
+ 328  Staphylococcus_haemolyticus_002952715_04       31.19%    passed     84.54%
+ 329  Staphylococcus_hyicus_900636345_00             33.79%    passed     39.85%
+ 330  Staphylococcus_hyicus_900636345_01             36.25%    passed     30.56%
+ 331  Staphylococcus_hyicus_900636345_02             31.42%    passed     44.34%
+ 332  Staphylococcus_hyicus_900636345_04             33.77%    passed     55.83%
+ 333  Staphylococcus_aureus_900324335_00             32.32%    passed     98.99%
+ 334  Staphylococcus_aureus_900324335_01             30.46%    passed     80.43%
+ 335  Staphylococcus_aureus_900324335_02             29.59%    passed     99.82%
+ 336  Staphylococcus_aureus_900324335_04             32.32%    passed     98.56%
+ 337  Staphylococcus_pseudintermedius_001685665_06   35.68%    passed     83.75%
+ 338  Staphylococcus_epidermidis_002850315_00        33.54%    passed     85.84%
+ 339  Staphylococcus_epidermidis_002850315_02        31.01%    passed     72.98%
+ 340  Staphylococcus_epidermidis_002850315_03        33.55%    passed     89.76%
+ 341  Staphylococcus_epidermidis_002850315_04        33.56%    passed     86.32%
+ 342  Staphylococcus_aureus_003595485_00             32.12%    passed     95.78%
+ 343  Staphylococcus_aureus_003595485_01             19.33%    passed     52.60%
+ 344  Staphylococcus_aureus_003595485_02             30.65%    passed     99.46%
+ 345  Staphylococcus_aureus_003595485_03             30.65%    passed     99.24%
+ 346  Staphylococcus_aureus_003595485_04             32.96%    passed     99.80%
+ 347  Staphylococcus_aureus_003193965_00             33.04%    passed     99.92%
+ 348  Staphylococcus_aureus_003193965_01             33.02%    passed     99.83%
+ 349  Staphylococcus_aureus_003193965_02             30.75%    passed     99.24%
+ 350  Staphylococcus_aureus_003193965_04             32.16%    passed     96.10%
+ 351  Staphylococcus_aureus_900475055_00             32.12%    passed     96.28%
+ 352  Staphylococcus_aureus_900475055_02             30.65%    passed     99.46%
+ 353  Staphylococcus_aureus_900475055_03             29.66%    passed     59.65%
+ 354  Staphylococcus_aureus_900475055_04             29.66%    passed     59.94%
+ 355  Staphylococcus_epidermidis_003812425_00        33.59%    passed     88.63%
+ 356  Staphylococcus_epidermidis_003812425_01        33.58%    passed     87.21%
+ 357  Staphylococcus_epidermidis_003812425_02        33.58%    passed     91.01%
+ 358  Staphylococcus_epidermidis_003812425_04        30.98%    passed     80.43%
+ 359  Staphylococcus_aureus_003264775_00             32.12%    passed     96.69%
+ 360  Staphylococcus_aureus_003264775_02             30.65%    passed     98.88%
+ 361  Staphylococcus_aureus_003264775_03             29.66%    passed     60.15%
+ 362  Staphylococcus_aureus_003264775_04             29.66%    passed     58.43%
+ 363  Staphylococcus_hyicus_900474585_00             29.58%    passed     84.18%
+ 364  Staphylococcus_hyicus_900474585_01             30.81%    passed     86.57%
+ 365  Staphylococcus_hyicus_900474585_02             27.39%    passed     85.18%
+ 366  Staphylococcus_hyicus_900474585_04             31.28%    passed     81.69%
+ 367  Staphylococcus_aureus_003952625_01             32.97%    passed     99.80%
+ 368  Staphylococcus_aureus_003952625_02             31.34%    passed     94.49%
+ 369  Staphylococcus_aureus_003952625_03             29.70%    passed     58.58%
+ 370  Staphylococcus_aureus_003952625_04             29.59%    passed     99.31%
+ 371  Staphylococcus_equorum_001683315_00            33.01%    passed     98.23%
+ 372  Staphylococcus_equorum_001683315_01            33.01%    passed     98.29%
+ 373  Staphylococcus_equorum_001683315_03            30.48%    passed     98.31%
+ 374  Staphylococcus_equorum_001683315_04            33.01%    passed     98.23%
+ 375  Staphylococcus_equorum_001683315_05            33.01%    passed     97.32%
+ 376  Staphylococcus_caprae_003966585_00             33.52%    passed     71.64%
+ 377  Staphylococcus_caprae_003966585_01             33.54%    passed     74.86%
+ 378  Staphylococcus_caprae_003966585_02             31.52%    passed     47.89%
+ 379  Staphylococcus_caprae_003966585_04             33.54%    passed     68.16%
+ 380  Staphylococcus_aureus_001879545_00             32.94%    passed     99.83%
+ 381  Staphylococcus_aureus_001879545_02             29.58%    passed     99.16%
+ 382  Staphylococcus_aureus_001879545_03             29.65%    passed     60.77%
+ 383  Staphylococcus_aureus_001879545_04             31.31%    passed     94.38%
+ 384  Staphylococcus_lugdunensis_002591215_01        30.51%    passed     92.89%
+ 385  Staphylococcus_lugdunensis_002591215_02        30.51%    passed     91.42%
+ 386  Staphylococcus_lugdunensis_002591215_03        30.54%    passed     87.23%
+ 387  Staphylococcus_lugdunensis_002591215_04        28.20%    passed     99.63%
+ 388  Staphylococcus_aureus_900324295_00             29.59%    passed     99.83%
+ 389  Staphylococcus_aureus_900324295_01             30.46%    passed     80.43%
+ 390  Staphylococcus_aureus_900324295_02             32.32%    passed     98.99%
+ 391  Staphylococcus_aureus_900324295_03             32.32%    passed     98.56%
+ 392  Staphylococcus_simulans_003006055_00           33.78%    passed     43.71%
+ 393  Staphylococcus_simulans_003006055_01           36.22%    passed     32.86%
+ 394  Staphylococcus_simulans_003006055_02           31.42%    passed     45.20%
+ 395  Staphylococcus_simulans_003006055_04           33.78%    passed     50.04%
+ 396  Staphylococcus_aureus_003595505_00             32.12%    passed     95.78%
+ 397  Staphylococcus_aureus_003595505_01             19.33%    passed     52.60%
+ 398  Staphylococcus_aureus_003595505_02             30.65%    passed     99.46%
+ 399  Staphylococcus_aureus_003595505_03             30.65%    passed     99.24%
+ 400  Staphylococcus_aureus_003595505_04             32.96%    passed     99.80%
+ 401  Staphylococcus_lugdunensis_001558815_00        29.20%    passed     99.29%
+ 402  Staphylococcus_lugdunensis_001558815_01        30.57%    passed     94.05%
+ 403  Staphylococcus_lugdunensis_001558815_02        30.57%    passed     92.23%
+ 404  Staphylococcus_lugdunensis_001558815_03        29.58%    passed     81.93%
+ 405  Staphylococcus_pseudintermedius_000185885_00   31.70%    passed     81.06%
+ 406  Staphylococcus_pseudintermedius_000185885_02   29.35%    passed     80.11%
+ 407  Staphylococcus_pseudintermedius_000185885_03   31.70%    passed     82.95%
+ 408  Staphylococcus_pseudintermedius_000185885_04   29.66%    passed     96.75%
+ 409  Staphylococcus_warneri_003691405_00            32.00%    passed     96.86%
+ 410  Staphylococcus_warneri_003691405_01            32.00%    passed     95.68%
+ 411  Staphylococcus_warneri_003691405_02            31.34%    passed     94.78%
+ 412  Staphylococcus_warneri_003691405_03            19.51%    passed     66.13%
+ 413  Staphylococcus_warneri_003691405_04            32.01%    passed     97.24%
+ 414  Staphylococcus_capitis_002356175_00            32.10%    passed     95.47%
+ 415  Staphylococcus_capitis_002356175_01            32.10%    passed     95.47%
+ 416  Staphylococcus_capitis_002356175_02            29.58%    passed     91.39%
+ 417  Staphylococcus_capitis_002356175_03            20.16%    passed     54.20%
+ 418  Staphylococcus_capitis_002356175_04            32.10%    passed     95.95%
+ 419  Staphylococcus_epidermidis_002944995_00        31.01%    passed     72.98%
+ 420  Staphylococcus_epidermidis_002944995_01        33.55%    passed     85.41%
+ 421  Staphylococcus_epidermidis_002944995_02        33.56%    passed     85.28%
+ 422  Staphylococcus_epidermidis_002944995_03        33.54%    passed     89.49%
+ 423  Staphylococcus_warneri_900636385_00            31.98%    passed     98.15%
+ 424  Staphylococcus_warneri_900636385_01            31.98%    passed     97.04%
+ 425  Staphylococcus_warneri_900636385_02            31.31%    passed     95.47%
+ 426  Staphylococcus_warneri_900636385_04            31.90%    passed     90.59%
+ 427  Staphylococcus_aureus_002089075_00             30.47%    passed     79.84%
+ 428  Staphylococcus_aureus_002089075_02             29.59%    passed     99.62%
+ 429  Staphylococcus_aureus_002089075_03             30.47%    passed     81.21%
+ 430  Staphylococcus_aureus_002089075_04             32.32%    passed     98.81%
+ 431  Staphylococcus_aureus_002000685_00             32.10%    passed     95.63%
+ 432  Staphylococcus_aureus_002000685_01             19.33%    passed     52.60%
+ 433  Staphylococcus_aureus_002000685_02             30.63%    passed     99.43%
+ 434  Staphylococcus_aureus_002000685_03             30.63%    passed     99.22%
+ 435  Staphylococcus_aureus_002000685_04             32.94%    passed     99.86%
+ 436  Staphylococcus_nepalensis_002442935_00         33.16%    passed     99.42%
+ 437  Staphylococcus_nepalensis_002442935_01         33.16%    passed     99.68%
+ 438  Staphylococcus_nepalensis_002442935_02         30.61%    passed     98.85%
+ 439  Staphylococcus_nepalensis_002442935_03         19.79%    passed     60.09%
+ 440  Staphylococcus_aureus_000016805_00             32.10%    passed     95.89%
+ 441  Staphylococcus_aureus_000016805_02             30.63%    passed     99.00%
+ 442  Staphylococcus_aureus_000016805_03             30.69%    passed     80.88%
+ 443  Staphylococcus_aureus_000016805_04             30.69%    passed     82.08%
+ 444  Staphylococcus_aureus_003432345_00             32.16%    passed     96.00%
+ 445  Staphylococcus_aureus_003432345_01             30.71%    passed     76.29%
+ 446  Staphylococcus_aureus_003432345_02             30.65%    passed     99.31%
+ 447  Staphylococcus_aureus_003432345_04             31.15%    passed     75.64%
+ 448  Staphylococcus_aureus_003185005_00             31.08%    passed     82.15%
+ 449  Staphylococcus_aureus_003185005_02             30.65%    passed     98.50%
+ 450  Staphylococcus_aureus_003185005_03             29.43%    passed     54.85%
+ 451  Staphylococcus_aureus_003185005_04             32.10%    passed     96.34%
+ 452  Staphylococcus_condimenti_001922405_00         33.75%    passed     27.65%
+ 453  Staphylococcus_condimenti_001922405_01         36.18%    passed      9.44%
+ 454  Staphylococcus_condimenti_001922405_02         31.23%    passed     19.22%
+ 455  Staphylococcus_condimenti_001922405_03         19.31%    passed     25.93%
+ 456  Staphylococcus_condimenti_001922405_04         33.75%    passed     26.79%
+ 457  Staphylococcus_aureus_001021875_00             32.10%    passed     96.61%
+ 458  Staphylococcus_aureus_001021875_02             30.63%    passed     99.43%
+ 459  Staphylococcus_aureus_001021875_03             32.94%    passed     99.91%
+ 460  Staphylococcus_aureus_001021875_04             32.94%    passed     99.86%
+ 461  Staphylococcus_aureus_002000865_00             32.10%    passed     95.63%
+ 462  Staphylococcus_aureus_002000865_01             19.33%    passed     52.60%
+ 463  Staphylococcus_aureus_002000865_02             30.63%    passed     99.43%
+ 464  Staphylococcus_aureus_002000865_03             30.63%    passed     99.22%
+ 465  Staphylococcus_aureus_002000865_04             32.94%    passed     99.86%
+ 466  Staphylococcus_argenteus_003595345_00          31.93%    passed     91.72%
+ 467  Staphylococcus_argenteus_003595345_01          17.69%    passed     34.69%
+ 468  Staphylococcus_argenteus_003595345_02          30.61%    passed     99.31%
+ 469  Staphylococcus_argenteus_003595345_03          32.97%    passed     99.85%
+ 470  Staphylococcus_argenteus_003595345_04          31.63%    passed     92.82%
+ 471  Staphylococcus_aureus_001717725_00             32.96%    passed     99.80%
+ 472  Staphylococcus_aureus_001717725_01             32.96%    passed     98.83%
+ 473  Staphylococcus_aureus_001717725_02             30.65%    passed     99.21%
+ 474  Staphylococcus_aureus_001717725_04             32.12%    passed     96.88%
+ 475  Staphylococcus_aureus_001465755_00             32.31%    passed     99.00%
+ 476  Staphylococcus_aureus_001465755_02             29.58%    passed     99.77%
+ 477  Staphylococcus_aureus_001465755_03             30.44%    passed     77.03%
+ 478  Staphylococcus_aureus_001465755_04             32.31%    passed     98.95%
+ 479  Staphylococcus_schleiferi_001188895_00         33.68%    passed     51.73%
+ 480  Staphylococcus_schleiferi_001188895_01         33.70%    passed     49.74%
+ 481  Staphylococcus_schleiferi_001188895_02         30.93%    passed     48.83%
+ 482  Staphylococcus_schleiferi_001188895_04         33.58%    passed     55.73%
+ 483  Staphylococcus_haemolyticus_002906595_00       32.55%    passed     98.69%
+ 484  Staphylococcus_haemolyticus_002906595_01       31.16%    passed     87.40%
+ 485  Staphylococcus_haemolyticus_002906595_02       31.00%    passed     93.83%
+ 486  Staphylococcus_haemolyticus_002906595_04       32.55%    passed     98.35%
+ 487  Staphylococcus_aureus_003073655_01             32.12%    passed     95.15%
+ 488  Staphylococcus_aureus_003073655_02             30.70%    passed     82.63%
+ 489  Staphylococcus_aureus_003073655_03             30.70%    passed     81.49%
+ 490  Staphylococcus_aureus_003073655_04             30.65%    passed     98.86%
+ 491  Staphylococcus_aureus_003073755_00             31.31%    passed     96.15%
+ 492  Staphylococcus_aureus_003073755_01             32.10%    passed     97.70%
+ 493  Staphylococcus_aureus_003073755_02             32.31%    passed     98.63%
+ 494  Staphylococcus_aureus_003073755_04             31.25%    passed     93.10%
+ 495  Staphylococcus_aureus_003354785_00             31.32%    passed     97.13%
+ 496  Staphylococcus_aureus_003354785_01             17.70%    passed     39.21%
+ 497  Staphylococcus_aureus_003354785_02             30.63%    passed     98.22%
+ 498  Staphylococcus_aureus_003354785_03             32.10%    passed     98.19%
+ 499  Staphylococcus_aureus_003354785_04             30.86%    passed     94.57%
+ 500  Staphylococcus_nepalensis_003097555_00         33.17%    passed     98.68%
+ 501  Staphylococcus_nepalensis_003097555_01         33.17%    passed     99.30%
+ 502  Staphylococcus_nepalensis_003097555_02         30.62%    passed     99.24%
+ 503  Staphylococcus_nepalensis_003097555_04         33.17%    passed     98.66%
+ 504  Staphylococcus_capitis_001028645_00            30.59%    passed     72.63%
+ 505  Staphylococcus_capitis_001028645_01            33.12%    passed     74.94%
+ 506  Staphylococcus_capitis_001028645_02            33.85%    passed     62.00%
+ 507  Staphylococcus_capitis_001028645_03            33.83%    passed     62.00%
+ 508  Staphylococcus_aureus_002310395_00             32.12%    passed     96.28%
+ 509  Staphylococcus_aureus_002310395_01             19.33%    passed     52.51%
+ 510  Staphylococcus_aureus_002310395_02             30.65%    passed     99.46%
+ 511  Staphylococcus_aureus_002310395_03             29.66%    passed     60.15%
+ 512  Staphylococcus_aureus_002310395_04             29.66%    passed     59.94%
+ 513  Staphylococcus_aureus_003354685_00             31.32%    passed     97.13%
+ 514  Staphylococcus_aureus_003354685_01             17.70%    passed     39.21%
+ 515  Staphylococcus_aureus_003354685_02             30.63%    passed     98.22%
+ 516  Staphylococcus_aureus_003354685_03             32.10%    passed     98.19%
+ 517  Staphylococcus_aureus_003354685_04             30.86%    passed     94.57%
+ 518  Staphylococcus_aureus_900324415_01             32.32%    passed     98.56%
+ 519  Staphylococcus_aureus_900324415_02             32.33%    passed     98.68%
+ 520  Staphylococcus_aureus_900324415_03             30.46%    passed     78.87%
+ 521  Staphylococcus_aureus_900324415_04             29.57%    passed     99.71%
+ 522  Staphylococcus_aureus_900636335_00             31.28%    passed     86.51%
+ 523  Staphylococcus_aureus_900636335_02             30.65%    passed     98.43%
+ 524  Staphylococcus_aureus_900636335_03             31.08%    passed     76.63%
+ 525  Staphylococcus_aureus_900636335_04             31.29%    passed     88.44%
+ 526  Staphylococcus_aureus_003394105_00             30.65%    passed     99.46%
+ 527  Staphylococcus_aureus_003394105_01             29.66%    passed     61.60%
+ 528  Staphylococcus_aureus_003394105_02             29.66%    passed     57.96%
+ 529  Staphylococcus_aureus_003394105_03             32.12%    passed     96.28%
+ 530  Staphylococcus_aureus_003394105_04             19.32%    passed     54.34%
+ 531  Staphylococcus_simulans_003006075_00           33.78%    passed     43.71%
+ 532  Staphylococcus_simulans_003006075_01           36.22%    passed     32.86%
+ 533  Staphylococcus_simulans_003006075_02           31.42%    passed     45.20%
+ 534  Staphylococcus_simulans_003006075_04           33.77%    passed     49.35%
+ 535  Staphylococcus_xylosus_002078255_00            30.58%    passed     98.45%
+ 536  Staphylococcus_xylosus_002078255_01            33.05%    passed     98.01%
+ 537  Staphylococcus_xylosus_002078255_02            33.05%    passed     98.01%
+ 538  Staphylococcus_epidermidis_003856395_01        33.54%    passed     88.38%
+ 539  Staphylococcus_epidermidis_003856395_02        33.55%    passed     82.89%
+ 540  Staphylococcus_epidermidis_003856395_03        33.56%    passed     84.97%
+ 541  Staphylococcus_epidermidis_003856395_04        31.01%    passed     74.39%
+ 542  Staphylococcus_equorum_001682235_02            30.47%    passed     99.30%
+ 543  Staphylococcus_equorum_001682235_03            33.01%    passed     97.98%
+ 544  Staphylococcus_equorum_001682235_04            33.01%    passed     95.14%
+ 545  Staphylococcus_aureus_000013425_00             32.10%    passed     95.35%
+ 546  Staphylococcus_aureus_000013425_01             18.96%    passed     41.87%
+ 547  Staphylococcus_aureus_000013425_02             30.65%    passed     99.46%
+ 548  Staphylococcus_aureus_000013425_03             29.65%    passed     59.09%
+ 549  Staphylococcus_aureus_000013425_04             30.80%    passed     97.76%
+ 550  Staphylococcus_aureus_900323955_00             31.25%    passed     91.84%
+ 551  Staphylococcus_aureus_900323955_01             31.31%    passed     96.80%
+ 552  Staphylococcus_aureus_900323955_02             32.10%    passed     97.70%
+ 553  Staphylococcus_aureus_900323955_03             32.35%    passed     98.91%
+ 554  Staphylococcus_aureus_002633785_00             31.31%    passed     96.54%
+ 555  Staphylococcus_aureus_002633785_02             30.63%    passed     98.67%
+ 556  Staphylococcus_aureus_002633785_03             32.09%    passed     98.72%
+ 557  Staphylococcus_aureus_002633785_04             31.08%    passed     96.98%
+ 558  Staphylococcus_epidermidis_002085695_00        33.55%    passed     84.39%
+ 559  Staphylococcus_epidermidis_002085695_01        33.52%    passed     88.75%
+ 560  Staphylococcus_epidermidis_002085695_02        30.98%    passed     71.42%
+ 561  Staphylococcus_epidermidis_002085695_04        33.54%    passed     87.16%
+ 562  Staphylococcus_xylosus_000953575_00            33.04%    passed     97.81%
+ 563  Staphylococcus_xylosus_000953575_01            33.06%    passed     98.08%
+ 564  Staphylococcus_xylosus_000953575_02            30.57%    passed     98.96%
+ 565  Staphylococcus_xylosus_000953575_03            18.50%    passed     55.41%
+ 566  Staphylococcus_aureus_003193705_00             32.15%    passed     95.82%
+ 567  Staphylococcus_aureus_003193705_01             19.39%    passed     55.58%
+ 568  Staphylococcus_aureus_003193705_02             30.66%    passed     99.00%
+ 569  Staphylococcus_aureus_003193705_03             30.80%    passed     79.35%
+ 570  Staphylococcus_aureus_003193705_04             30.73%    passed     81.33%
+ 571  Staphylococcus_aureus_000253135_00             30.65%    passed     98.99%
+ 572  Staphylococcus_aureus_000253135_01             19.35%    passed     54.76%
+ 573  Staphylococcus_aureus_000253135_02             32.12%    passed     97.01%
+ 574  Staphylococcus_aureus_000253135_03             30.70%    passed     81.49%
+ 575  Staphylococcus_aureus_000253135_04             30.70%    passed     82.69%
+ 576  Staphylococcus_aureus_003342735_00             32.75%    passed     99.55%
+ 577  Staphylococcus_aureus_003342735_02             29.62%    passed     99.77%
+ 578  Staphylococcus_aureus_003342735_03             29.45%    passed     54.14%
+ 579  Staphylococcus_aureus_003342735_04             29.67%    passed     54.27%
+ 580  Staphylococcus_saprophyticus_900635295_00      33.13%    passed     97.13%
+ 581  Staphylococcus_saprophyticus_900635295_01      33.13%    passed     96.78%
+ 582  Staphylococcus_saprophyticus_900635295_02      30.66%    passed     88.80%
+ 583  Staphylococcus_saprophyticus_900635295_04      33.12%    passed     97.44%
+ 584  Staphylococcus_pseudintermedius_001682435_00   31.71%    passed     83.37%
+ 585  Staphylococcus_pseudintermedius_001682435_01   31.71%    passed     86.01%
+ 586  Staphylococcus_pseudintermedius_001682435_02   29.35%    passed     83.35%
+ 587  Staphylococcus_pseudintermedius_001682435_06   33.94%    passed     98.28%
+ 588  Staphylococcus_warneri_000332735_00            31.94%    passed     95.23%
+ 589  Staphylococcus_warneri_000332735_01            31.94%    passed     95.22%
+ 590  Staphylococcus_warneri_000332735_02            31.94%    passed     95.23%
+ 591  Staphylococcus_warneri_000332735_03            18.94%    passed     69.35%
+ 592  Staphylococcus_warneri_000332735_04            31.94%    passed     95.82%
+ 593  Staphylococcus_pseudintermedius_001682335_02   31.71%    passed     84.13%
+ 594  Staphylococcus_pseudintermedius_001682335_03   29.40%    passed     85.51%
+ 595  Staphylococcus_pseudintermedius_001682335_05   35.52%    passed     88.74%
+ 596  Staphylococcus_epidermidis_003325735_00        33.56%    passed     86.32%
+ 597  Staphylococcus_epidermidis_003325735_01        33.55%    passed     85.05%
+ 598  Staphylococcus_epidermidis_003325735_02        31.01%    passed     72.98%
+ 599  Staphylococcus_epidermidis_003325735_04        33.54%    passed     88.38%
+ 600  Staphylococcus_saprophyticus_000010125_00      33.10%    passed     97.03%
+ 601  Staphylococcus_saprophyticus_000010125_01      33.12%    passed     97.98%
+ 602  Staphylococcus_saprophyticus_000010125_02      30.65%    passed     91.63%
+ 603  Staphylococcus_saprophyticus_000010125_04      33.12%    passed     97.98%
+ 604  Staphylococcus_aureus_000815125_00             32.13%    passed     96.17%
+ 605  Staphylococcus_aureus_000815125_01             28.12%    passed     95.16%
+ 606  Staphylococcus_aureus_000815125_02             30.65%    passed     98.70%
+ 607  Staphylococcus_aureus_000815125_03             29.70%    passed     56.14%
+ 608  Staphylococcus_aureus_000815125_04             29.66%    passed     59.43%
+ 609  Staphylococcus_aureus_000463055_01             18.98%    passed     41.90%
+ 610  Staphylococcus_aureus_000463055_02             32.13%    passed     96.89%
+ 611  Staphylococcus_aureus_000463055_03             29.45%    passed     54.14%
+ 612  Staphylococcus_aureus_000463055_04             29.66%    passed     54.92%
+ 613  Staphylococcus_aureus_003347055_00             32.74%    passed     99.45%
+ 614  Staphylococcus_aureus_003347055_02             29.61%    passed     99.52%
+ 615  Staphylococcus_aureus_003347055_03             29.45%    passed     53.00%
+ 616  Staphylococcus_aureus_003347055_04             29.66%    passed     57.96%
+ 617  Staphylococcus_aureus_003431365_00             32.12%    passed     96.54%
+ 618  Staphylococcus_aureus_003431365_02             30.65%    passed     99.36%
+ 619  Staphylococcus_aureus_003431365_03             30.70%    passed     81.23%
+ 620  Staphylococcus_aureus_003431365_04             30.70%    passed     81.23%
+ 621  Staphylococcus_caprae_003966625_00             33.52%    passed     72.26%
+ 622  Staphylococcus_caprae_003966625_01             33.54%    passed     72.75%
+ 623  Staphylococcus_caprae_003966625_02             31.52%    passed     45.35%
+ 624  Staphylococcus_caprae_003966625_03             19.77%    passed     34.37%
+ 625  Staphylococcus_caprae_003966625_04             33.54%    passed     69.33%
+ 626  Staphylococcus_aureus_000009645_00             30.63%    passed     99.34%
+ 627  Staphylococcus_aureus_000009645_01             19.35%    passed     56.13%
+ 628  Staphylococcus_aureus_000009645_02             30.63%    passed     98.89%
+ 629  Staphylococcus_aureus_000009645_03             30.69%    passed     80.88%
+ 630  Staphylococcus_aureus_000009645_04             30.69%    passed     82.08%
+ 631  Staphylococcus_lugdunensis_900474705_00        30.55%    passed     91.39%
+ 632  Staphylococcus_lugdunensis_900474705_01        30.54%    passed     92.93%
+ 633  Staphylococcus_lugdunensis_900474705_02        29.90%    passed     97.97%
+ 634  Staphylococcus_lugdunensis_900474705_04        30.55%    passed     91.67%
+ 635  Staphylococcus_aureus_003354905_00             32.12%    passed     95.73%
+ 636  Staphylococcus_aureus_003354905_02             30.63%    passed     97.95%
+ 637  Staphylococcus_aureus_003354905_03             30.69%    passed     84.35%
+ 638  Staphylococcus_aureus_003354905_04             32.12%    passed     96.54%
+ 639  Staphylococcus_argenteus_000236925_00          31.92%    passed     93.62%
+ 640  Staphylococcus_argenteus_000236925_01          17.65%    passed     29.04%
+ 641  Staphylococcus_argenteus_000236925_02          30.58%    passed     99.01%
+ 642  Staphylococcus_argenteus_000236925_03          31.92%    passed     95.73%
+ 643  Staphylococcus_argenteus_000236925_04          31.97%    passed     95.64%
+ 644  Staphylococcus_epidermidis_000751035_00        31.00%    passed     78.09%
+ 645  Staphylococcus_epidermidis_000751035_01        33.54%    passed     89.57%
+ 646  Staphylococcus_epidermidis_000751035_02        33.55%    passed     85.98%
+ 647  Staphylococcus_epidermidis_000751035_04        33.47%    passed     88.43%
+ 648  Staphylococcus_lugdunensis_002073395_00        30.54%    passed     93.59%
+ 649  Staphylococcus_lugdunensis_002073395_01        29.58%    passed     81.33%
+ 650  Staphylococcus_lugdunensis_002073395_02        29.19%    passed     99.41%
+ 651  Staphylococcus_lugdunensis_002073395_03        17.52%    passed     77.54%
+ 652  Staphylococcus_lugdunensis_002073395_04        30.55%    passed     92.07%
+ 653  Staphylococcus_aureus_000485885_00             29.65%    passed     57.54%
+ 654  Staphylococcus_aureus_000485885_01             19.32%    passed     54.75%
+ 655  Staphylococcus_aureus_000485885_02             30.63%    passed     98.70%
+ 656  Staphylococcus_aureus_000485885_03             29.63%    passed     56.86%
+ 657  Staphylococcus_aureus_000485885_04             29.65%    passed     60.55%
+ 658  Staphylococcus_xylosus_000706685_01            30.58%    passed     98.48%
+ 659  Staphylococcus_xylosus_000706685_02            30.58%    passed     98.48%
+ 660  Staphylococcus_xylosus_000706685_03            30.58%    passed     98.68%
+ 661  Staphylococcus_xylosus_000706685_04            30.58%    passed     98.48%
+ 662  Staphylococcus_aureus_000010445_00             32.10%    passed     95.89%
+ 663  Staphylococcus_aureus_000010445_01             19.36%    passed     55.54%
+ 664  Staphylococcus_aureus_000010445_02             30.63%    passed     98.90%
+ 665  Staphylococcus_aureus_000010445_03             30.69%    passed     80.88%
+ 666  Staphylococcus_aureus_000010445_04             30.69%    passed     82.08%
+ 667  Staphylococcus_epidermidis_900638695_00        31.01%    passed     75.47%
+ 668  Staphylococcus_epidermidis_900638695_01        33.55%    passed     90.04%
+ 669  Staphylococcus_epidermidis_900638695_02        33.58%    passed     88.96%
+ 670  Staphylococcus_epidermidis_900638695_03        19.43%    passed     40.65%
+ 671  Staphylococcus_epidermidis_900638695_04        33.54%    passed     90.68%
+ 672  Staphylococcus_lugdunensis_000025085_00        30.53%    passed     92.99%
+ 673  Staphylococcus_lugdunensis_000025085_01        29.57%    passed     82.07%
+ 674  Staphylococcus_lugdunensis_000025085_02        29.19%    passed     99.64%
+ 675  Staphylococcus_lugdunensis_000025085_04        29.57%    passed     79.48%
+ 676  Staphylococcus_haemolyticus_000009865_00       32.51%    passed     98.10%
+ 677  Staphylococcus_haemolyticus_000009865_01       31.15%    passed     81.00%
+ 678  Staphylococcus_haemolyticus_000009865_02       30.97%    passed     93.10%
+ 679  Staphylococcus_haemolyticus_000009865_03       19.18%    passed     53.65%
+ 680  Staphylococcus_haemolyticus_000009865_04       32.52%    passed     98.64%
+ 681  Staphylococcus_aureus_003354945_00             32.12%    passed     96.28%
+ 682  Staphylococcus_aureus_003354945_02             30.66%    passed     99.53%
+ 683  Staphylococcus_aureus_003354945_03             29.66%    passed     61.89%
+ 684  Staphylococcus_aureus_003354945_04             29.69%    passed     58.66%
+ 685  Staphylococcus_aureus_001019275_00             29.67%    passed     59.20%
+ 686  Staphylococcus_aureus_001019275_01             32.12%    passed     96.10%
+ 687  Staphylococcus_aureus_001019275_02             32.12%    passed     96.28%
+ 688  Staphylococcus_aureus_001019275_04             30.65%    passed     99.51%
+ 689  Staphylococcus_warneri_900636265_00            31.97%    passed     96.18%
+ 690  Staphylococcus_warneri_900636265_01            31.98%    passed     97.59%
+ 691  Staphylococcus_warneri_900636265_02            31.32%    passed     95.68%
+ 692  Staphylococcus_warneri_900636265_04            31.86%    passed     92.19%
+ 693  Staphylococcus_simulans_900474685_00           33.79%    passed     47.78%
+ 694  Staphylococcus_simulans_900474685_01           36.24%    passed     31.53%
+ 695  Staphylococcus_simulans_900474685_02           31.42%    passed     42.79%
+ 696  Staphylococcus_simulans_900474685_04           33.75%    passed     57.98%
+ 697  Staphylococcus_lugdunensis_001558775_01        30.51%    passed     92.25%
+ 698  Staphylococcus_lugdunensis_001558775_02        30.51%    passed     91.66%
+ 699  Staphylococcus_lugdunensis_001558775_03        30.51%    passed     88.17%
+ 700  Staphylococcus_lugdunensis_001558775_04        28.20%    passed     99.67%
+ 701  Staphylococcus_aureus_001018645_01             32.96%    passed     99.76%
+ 702  Staphylococcus_aureus_001018645_02             31.32%    passed     94.68%
+ 703  Staphylococcus_aureus_001018645_03             29.66%    passed     60.15%
+ 704  Staphylococcus_aureus_001018645_04             29.61%    passed     99.60%
+ 705  Staphylococcus_aureus_000815205_00             32.13%    passed     95.67%
+ 706  Staphylococcus_aureus_000815205_01             28.12%    passed     95.16%
+ 707  Staphylococcus_aureus_000815205_02             30.63%    passed     99.43%
+ 708  Staphylococcus_aureus_000815205_03             29.63%    passed     59.03%
+ 709  Staphylococcus_aureus_000815205_04             29.66%    passed     59.65%
 WARNING: 1 sequences contain more than 50% gaps/ambiguity
-****  TOTAL                                          30.73%  2 sequences failed composition chi2 test (p-value<5%; df=3)
-NOTE: 120 identical sequences will be ignored during tree search
+****  TOTAL                                          30.69%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Staphylococcus_lugdunensis_002591215_04 is identical to Staphylococcus_lugdunensis_002250095_02 but kept for subsequent analysis
+NOTE: Staphylococcus_lugdunensis_002591215_01 is identical to Staphylococcus_lugdunensis_002250095_05 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003595485_04 is identical to Staphylococcus_aureus_001717685_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003342735_03 is identical to Staphylococcus_aureus_003342775_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000017125_00 is identical to Staphylococcus_aureus_001725965_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000010445_02 is identical to Staphylococcus_aureus_001725965_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000967345_03 is identical to Staphylococcus_aureus_001725965_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000967345_04 is identical to Staphylococcus_aureus_001725965_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900324335_00 is identical to Staphylococcus_aureus_900324205_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900324335_01 is identical to Staphylococcus_aureus_900324205_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900324335_02 is identical to Staphylococcus_aureus_900324205_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_001879545_00 is identical to Staphylococcus_aureus_002209325_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900636335_03 is identical to Staphylococcus_aureus_900636695_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900636335_04 is identical to Staphylococcus_aureus_900636695_04 but kept for subsequent analysis
+NOTE: Staphylococcus_simulans_003076375_00 is identical to Staphylococcus_simulans_003096155_00 but kept for subsequent analysis
+NOTE: Staphylococcus_simulans_003076375_01 is identical to Staphylococcus_simulans_003096155_01 but kept for subsequent analysis
+NOTE: Staphylococcus_simulans_003076375_02 is identical to Staphylococcus_simulans_003096155_02 but kept for subsequent analysis
+NOTE: Staphylococcus_simulans_003076375_04 is identical to Staphylococcus_simulans_003096155_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003264775_00 is identical to Staphylococcus_aureus_003264815_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003264775_04 is identical to Staphylococcus_aureus_003264815_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900475055_00 is identical to Staphylococcus_aureus_002310435_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000010465_01 is identical to Staphylococcus_aureus_002310435_01 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003595485_02 is identical to Staphylococcus_aureus_002310435_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_002310395_03 is identical to Staphylococcus_aureus_002310435_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_002310395_04 is identical to Staphylococcus_aureus_002310435_04 but kept for subsequent analysis
+NOTE: Staphylococcus_lugdunensis_002073395_00 is identical to Staphylococcus_lugdunensis_900478255_00 but kept for subsequent analysis
+NOTE: Staphylococcus_lugdunensis_002073395_01 is identical to Staphylococcus_lugdunensis_900478255_01 but kept for subsequent analysis
+NOTE: Staphylococcus_lugdunensis_002073395_02 is identical to Staphylococcus_lugdunensis_900478255_02 but kept for subsequent analysis
+NOTE: Staphylococcus_lugdunensis_002073395_04 is identical to Staphylococcus_lugdunensis_900478255_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_001975005_02 is identical to Staphylococcus_aureus_001278745_02 but kept for subsequent analysis
+NOTE: Staphylococcus_caprae_003966625_02 is identical to Staphylococcus_caprae_003966605_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000815205_00 is identical to Staphylococcus_aureus_000815045_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000815125_01 is identical to Staphylococcus_aureus_000815045_01 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_001019305_01 is identical to Staphylococcus_aureus_003203655_01 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003354705_02 is identical to Staphylococcus_aureus_003203655_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_001618305_03 is identical to Staphylococcus_aureus_001618305_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_002000665_02 is identical to Staphylococcus_aureus_000010465_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000253135_04 is identical to Staphylococcus_aureus_003354705_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_000009645_01 is identical to Staphylococcus_aureus_001019305_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_002000685_00 is identical to Staphylococcus_aureus_002000665_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003595485_01 is identical to Staphylococcus_aureus_002000665_01 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_002000685_03 is identical to Staphylococcus_aureus_002000665_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_002000685_04 is identical to Staphylococcus_aureus_002000665_04 but kept for subsequent analysis
+NOTE: Staphylococcus_argenteus_003595345_01 is identical to Staphylococcus_argenteus_002812345_01 but kept for subsequent analysis
+NOTE: Staphylococcus_argenteus_003595345_02 is identical to Staphylococcus_argenteus_002812345_02 but kept for subsequent analysis
+NOTE: Staphylococcus_argenteus_003595345_03 is identical to Staphylococcus_argenteus_002812345_03 but kept for subsequent analysis
+NOTE: Staphylococcus_argenteus_003595345_04 is identical to Staphylococcus_argenteus_002812345_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_900324295_03 is identical to Staphylococcus_aureus_900324335_04 but kept for subsequent analysis
+NOTE: Staphylococcus_epidermidis_002944995_00 is identical to Staphylococcus_epidermidis_002850315_02 but kept for subsequent analysis
+NOTE: Staphylococcus_epidermidis_003325735_00 is identical to Staphylococcus_epidermidis_002850315_04 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003595505_00 is identical to Staphylococcus_aureus_003595485_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003595505_03 is identical to Staphylococcus_aureus_003595485_03 but kept for subsequent analysis
+NOTE: Staphylococcus_equorum_001683315_04 is identical to Staphylococcus_equorum_001683315_00 but kept for subsequent analysis
+NOTE: Staphylococcus_capitis_002356175_01 is identical to Staphylococcus_capitis_002356175_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003354685_00 is identical to Staphylococcus_aureus_003354785_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003354685_01 is identical to Staphylococcus_aureus_003354785_01 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003354685_02 is identical to Staphylococcus_aureus_003354785_02 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003354685_03 is identical to Staphylococcus_aureus_003354785_03 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003354685_04 is identical to Staphylococcus_aureus_003354785_04 but kept for subsequent analysis
+NOTE: Staphylococcus_xylosus_002078255_02 is identical to Staphylococcus_xylosus_002078255_01 but kept for subsequent analysis
+NOTE: Staphylococcus_warneri_000332735_02 is identical to Staphylococcus_warneri_000332735_00 but kept for subsequent analysis
+NOTE: Staphylococcus_aureus_003431365_04 is identical to Staphylococcus_aureus_003431365_03 but kept for subsequent analysis
+NOTE: Staphylococcus_xylosus_000706685_02 is identical to Staphylococcus_xylosus_000706685_01 but kept for subsequent analysis
+NOTE: 57 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Staphylococcus_aureus_003595505_04 (identical to Staphylococcus_aureus_001717685_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001717725_00 (identical to Staphylococcus_aureus_001717685_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000463055_03 (identical to Staphylococcus_aureus_003342775_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000016805_00 (identical to Staphylococcus_aureus_001725965_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000010445_00 (identical to Staphylococcus_aureus_001725965_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001278745_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001975005_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000017125_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000967405_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000016805_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000009645_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000010445_03 (identical to Staphylococcus_aureus_001725965_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001278745_04 (identical to Staphylococcus_aureus_001725965_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000017125_04 (identical to Staphylococcus_aureus_001725965_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000967405_04 (identical to Staphylococcus_aureus_001725965_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000016805_04 (identical to Staphylococcus_aureus_001725965_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000009645_04 (identical to Staphylococcus_aureus_001725965_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000010445_04 (identical to Staphylococcus_aureus_001725965_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_900324295_02 (identical to Staphylococcus_aureus_900324205_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_900324295_01 (identical to Staphylococcus_aureus_900324205_03) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006055_00 (identical to Staphylococcus_simulans_003096155_00) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006075_00 (identical to Staphylococcus_simulans_003096155_00) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006055_01 (identical to Staphylococcus_simulans_003096155_01) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006075_01 (identical to Staphylococcus_simulans_003096155_01) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006055_02 (identical to Staphylococcus_simulans_003096155_02) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006075_02 (identical to Staphylococcus_simulans_003096155_02) is ignored but added at the end
+NOTE: Staphylococcus_simulans_003006075_04 (identical to Staphylococcus_simulans_003096155_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002310395_00 (identical to Staphylococcus_aureus_002310435_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_003394105_03 (identical to Staphylococcus_aureus_002310435_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_003354945_00 (identical to Staphylococcus_aureus_002310435_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001019275_02 (identical to Staphylococcus_aureus_002310435_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002310395_01 (identical to Staphylococcus_aureus_002310435_01) is ignored but added at the end
+NOTE: Staphylococcus_aureus_900475055_02 (identical to Staphylococcus_aureus_002310435_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_003595505_02 (identical to Staphylococcus_aureus_002310435_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002310395_02 (identical to Staphylococcus_aureus_002310435_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_003394105_00 (identical to Staphylococcus_aureus_002310435_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000017125_02 (identical to Staphylococcus_aureus_001278745_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000016805_02 (identical to Staphylococcus_aureus_001278745_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000815205_01 (identical to Staphylococcus_aureus_000815045_01) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001019305_03 (identical to Staphylococcus_aureus_003203655_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_003073655_03 (identical to Staphylococcus_aureus_003203655_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000253135_03 (identical to Staphylococcus_aureus_003203655_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001618305_04 (identical to Staphylococcus_aureus_001618305_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000685_02 (identical to Staphylococcus_aureus_000010465_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001021875_02 (identical to Staphylococcus_aureus_000010465_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000865_02 (identical to Staphylococcus_aureus_000010465_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_000815205_02 (identical to Staphylococcus_aureus_000010465_02) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000865_00 (identical to Staphylococcus_aureus_002000665_00) is ignored but added at the end
+NOTE: Staphylococcus_aureus_003595505_01 (identical to Staphylococcus_aureus_002000665_01) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000685_01 (identical to Staphylococcus_aureus_002000665_01) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000865_01 (identical to Staphylococcus_aureus_002000665_01) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000865_03 (identical to Staphylococcus_aureus_002000665_03) is ignored but added at the end
+NOTE: Staphylococcus_aureus_001021875_04 (identical to Staphylococcus_aureus_002000665_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_002000865_04 (identical to Staphylococcus_aureus_002000665_04) is ignored but added at the end
+NOTE: Staphylococcus_aureus_900324415_01 (identical to Staphylococcus_aureus_900324335_04) is ignored but added at the end
+NOTE: Staphylococcus_epidermidis_003325735_02 (identical to Staphylococcus_epidermidis_002850315_02) is ignored but added at the end
+NOTE: Staphylococcus_xylosus_000706685_04 (identical to Staphylococcus_xylosus_000706685_01) is ignored but added at the end
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.330 seconds
+For your convenience alignment with unique sequences printed to Staphylococcus.fasta.uniqueseq.phy
 
-NOTE: 148 MB RAM is required!
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.318 seconds
+
+NOTE: 166 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -47866.425
-2. Current log-likelihood: -43994.647
-3. Current log-likelihood: -43668.641
-4. Current log-likelihood: -43636.406
-5. Current log-likelihood: -43633.849
-6. Current log-likelihood: -43633.664
-Optimal log-likelihood: -43633.648
-Rate parameters:  A-C: 1.000  A-G: 2.363  A-T: 1.000  C-G: 1.000  C-T: 2.363  G-T: 1.000
-Base frequencies:   A: 0.280  C: 0.204  G: 0.283  T: 0.232
-Gamma shape alpha: 0.206
-Parameters optimization took 6 rounds (4.354 sec)
-
+1. Initial log-likelihood: -43120.099
+2. Current log-likelihood: -40167.947
+3. Current log-likelihood: -40022.632
+4. Current log-likelihood: -40019.560
+Optimal log-likelihood: -40019.506
+Rate parameters:  A-C: 1.00000  A-G: 2.48432  A-T: 1.00000  C-G: 1.00000  C-T: 2.48432  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.204  G: 0.283  T: 0.232
+Gamma shape alpha: 0.195
+Parameters optimization took 4 rounds (5.254 sec)
+Computing ML distances based on estimated model parameters... 15.351 sec
+Computing BIONJ tree...
+0.446 seconds
+Log-likelihood of BIONJ tree: -41013.016
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Computing ML distances based on estimated model parameters... 6.968 sec
-Computing BIONJ tree...
-0.323 seconds
-Log-likelihood of BIONJ tree: -44711.478
-Generating 98 parsimony trees... 33.970 seconds 100 distinct starting trees
-Computing log-likelihood of 100 initial trees ... 30.739 seconds
-Optimizing top 20 initial trees with NNI...
-Iteration 1 / LogL: -43523.189 / Time: 0h:1m:14s
+Generating 98 parsimony trees... 33.476 second
+Computing log-likelihood of 98 initial trees ... 27.936 seconds
+Current best score: -39914.254
+
+Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -43523.028
-Iteration 2 / LogL: -43498.416 / Time: 0h:1m:17s
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 2: -43498.377
-Iteration 3 / LogL: -43502.390 / Time: 0h:1m:19s
-Iteration 4 / LogL: -43546.522 / Time: 0h:1m:21s
-Iteration 5 / LogL: -43536.016 / Time: 0h:1m:23s
-Iteration 6 / LogL: -43515.508 / Time: 0h:1m:25s
-Iteration 7 / LogL: -43535.416 / Time: 0h:1m:27s
-Iteration 8 / LogL: -43598.919 / Time: 0h:1m:28s
-Iteration 9 / LogL: -43562.372 / Time: 0h:1m:30s
-Iteration 10 / LogL: -43546.401 / Time: 0h:1m:32s
-Iteration 11 / LogL: -43540.805 / Time: 0h:1m:34s
-Iteration 12 / LogL: -43526.171 / Time: 0h:1m:36s
-Iteration 13 / LogL: -43540.688 / Time: 0h:1m:38s
-Iteration 14 / LogL: -43504.401 / Time: 0h:1m:40s
-Iteration 15 / LogL: -43525.910 / Time: 0h:1m:43s
-Iteration 16 / LogL: -43523.974 / Time: 0h:1m:45s
-Iteration 17 / LogL: -43520.571 / Time: 0h:1m:47s
-Iteration 18 / LogL: -43570.146 / Time: 0h:1m:48s
-Iteration 19 / LogL: -43507.497 / Time: 0h:1m:50s
-Iteration 20 / LogL: -43567.736 / Time: 0h:1m:52s
-Average CPU time for 1 NNI search: 15.714
-Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
-Current best tree score: -43498.377 / CPU time: 581.764
+BETTER TREE FOUND at iteration 1: -39841.150
+Iteration 10 / LogL: -39894.127 / Time: 0h:1m:41s
+Iteration 20 / LogL: -39898.158 / Time: 0h:2m:6s
+Finish initializing candidate tree set (20)
+Current best tree score: -39841.150 / CPU time: 116.971
+Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Iteration 30 / LogL: -43559.113 / Time: 0h:2m:18s (0h:5m:37s left)
-Iteration 40 / LogL: -43561.507 / Time: 0h:2m:55s (0h:4m:33s left)
-Iteration 50 / LogL: -43590.539 / Time: 0h:3m:28s (0h:3m:36s left)
-Iteration 60 / LogL: -43533.788 / Time: 0h:4m:0s (0h:2m:46s left)
-Iteration 70 / LogL: -43597.260 / Time: 0h:4m:34s (0h:2m:3s left)
-Iteration 80 / LogL: -43878.603 / Time: 0h:5m:9s (0h:1m:22s left)
-Iteration 90 / LogL: -43502.770 / Time: 0h:5m:43s (0h:0m:42s left)
-Iteration 100 / LogL: -43680.681 / Time: 0h:6m:19s (0h:0m:3s left)
-TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:6m:24s
+Iteration 30 / LogL: -39874.241 / Time: 0h:2m:47s (0h:6m:47s left)
+Iteration 40 / LogL: -39956.530 / Time: 0h:3m:25s (0h:5m:21s left)
+Iteration 50 / LogL: -39877.944 / Time: 0h:4m:5s (0h:4m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -39833.455
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -39830.201
+Iteration 60 / LogL: -39923.043 / Time: 0h:4m:45s (0h:7m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -39816.655
+Iteration 70 / LogL: -39816.655 / Time: 0h:5m:28s (0h:7m:55s left)
+Iteration 80 / LogL: -39882.483 / Time: 0h:6m:7s (0h:6m:58s left)
+Iteration 90 / LogL: -40044.919 / Time: 0h:6m:44s (0h:6m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -39814.932
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -39814.320
+Iteration 100 / LogL: -39930.077 / Time: 0h:7m:31s (0h:7m:30s left)
+Iteration 110 / LogL: -39840.347 / Time: 0h:8m:8s (0h:6m:38s left)
+Iteration 120 / LogL: -39932.723 / Time: 0h:8m:54s (0h:5m:54s left)
+Iteration 130 / LogL: -39821.383 / Time: 0h:9m:33s (0h:5m:6s left)
+Iteration 140 / LogL: -39827.434 / Time: 0h:10m:16s (0h:4m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -39814.137
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -39812.638
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 148: -39808.476
+Iteration 150 / LogL: -39898.515 / Time: 0h:11m:20s (0h:7m:27s left)
+Iteration 160 / LogL: -39879.870 / Time: 0h:12m:4s (0h:6m:40s left)
+Iteration 170 / LogL: -40056.804 / Time: 0h:12m:44s (0h:5m:52s left)
+Iteration 180 / LogL: -39917.733 / Time: 0h:13m:21s (0h:5m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 190: -39801.310
+Iteration 190 / LogL: -39801.310 / Time: 0h:14m:5s (0h:7m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 194: -39788.205
+Iteration 200 / LogL: -39820.487 / Time: 0h:14m:42s (0h:6m:56s left)
+Iteration 210 / LogL: -39863.489 / Time: 0h:15m:20s (0h:6m:9s left)
+Iteration 220 / LogL: -39803.522 / Time: 0h:15m:59s (0h:5m:24s left)
+Iteration 230 / LogL: -39789.611 / Time: 0h:16m:34s (0h:4m:37s left)
+Iteration 240 / LogL: -40121.114 / Time: 0h:17m:17s (0h:3m:54s left)
+Iteration 250 / LogL: -39816.890 / Time: 0h:17m:53s (0h:3m:9s left)
+Iteration 260 / LogL: -40212.959 / Time: 0h:18m:33s (0h:2m:26s left)
+Iteration 270 / LogL: -39829.618 / Time: 0h:19m:10s (0h:1m:42s left)
+Iteration 280 / LogL: -39805.078 / Time: 0h:19m:48s (0h:0m:59s left)
+Iteration 290 / LogL: -39840.423 / Time: 0h:20m:27s (0h:0m:16s left)
+TREE SEARCH COMPLETED AFTER 295 ITERATIONS / Time: 0h:20m:46s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -43498.378
-2. Current log-likelihood: -43498.330
-Optimal log-likelihood: -43498.315
-Rate parameters:  A-C: 1.000  A-G: 2.396  A-T: 1.000  C-G: 1.000  C-T: 2.396  G-T: 1.000
-Base frequencies:   A: 0.280  C: 0.204  G: 0.283  T: 0.232
-Gamma shape alpha: 0.205
-Parameters optimization took 2 rounds (1.217 sec)
+1. Initial log-likelihood: -39788.205
+Optimal log-likelihood: -39788.205
+Rate parameters:  A-C: 1.00000  A-G: 2.48052  A-T: 1.00000  C-G: 1.00000  C-T: 2.48052  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.204  G: 0.283  T: 0.232
+Gamma shape alpha: 0.194
+Parameters optimization took 1 rounds (0.443 sec)
+BEST SCORE FOUND : -39788.205
+Total tree length: 1.774
 
-BEST SCORE FOUND : -43498.315
-Total tree length: 3.819
-
-Total number of iterations: 101
-CPU time used for tree search: 2654.792 sec (0h:44m:14s)
-Wall-clock time used for tree search: 376.375 sec (0h:6m:16s)
-Total CPU time used: 2719.472 sec (0h:45m:19s)
-Total wall-clock time used: 385.478 sec (0h:6m:25s)
+Total number of iterations: 295
+CPU time used for tree search: 9235.855 sec (2h:33m:55s)
+Wall-clock time used for tree search: 1236.491 sec (0h:20m:36s)
+Total CPU time used: 9305.515 sec (2h:35m:5s)
+Total wall-clock time used: 1246.957 sec (0h:20m:46s)
 
 Analysis results written to: 
-  IQ-TREE report:                ./014_results/Staphylococcus.fasta.iqtree
-  Maximum-likelihood tree:       ./014_results/Staphylococcus.fasta.treefile
-  Likelihood distances:          ./014_results/Staphylococcus.fasta.mldist
-  Screen log file:               ./014_results/Staphylococcus.fasta.log
+  IQ-TREE report:                Staphylococcus.fasta.iqtree
+  Maximum-likelihood tree:       Staphylococcus.fasta.treefile
+  Likelihood distances:          Staphylococcus.fasta.mldist
+  Screen log file:               Staphylococcus.fasta.log
 
-Date and Time: Mon Feb 25 15:32:22 2019
+Date and Time: Wed Apr 24 10:00:27 2019

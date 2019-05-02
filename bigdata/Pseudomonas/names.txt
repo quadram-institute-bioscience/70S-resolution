@@ -1,0 +1,461 @@
+Considering the following 460 assemblies for download:
+GCF_000006765.1	Pseudomonas aeruginosa PAO1
+GCF_000014625.1	Pseudomonas aeruginosa UCBPP-PA14
+GCF_000017205.1	Pseudomonas aeruginosa PA7
+GCF_000026645.1	Pseudomonas aeruginosa LESB58
+GCF_000226155.1	Pseudomonas aeruginosa M18
+GCF_000271365.1	Pseudomonas aeruginosa DK2
+GCF_000271985.2	Pseudomonas aeruginosa SJTD-1
+GCF_000284555.1	Pseudomonas aeruginosa NCGM2.S1
+GCF_000359505.1	Pseudomonas aeruginosa B136-33
+GCF_000414035.1	Pseudomonas aeruginosa RP73
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04
+GCF_000496455.2	Pseudomonas aeruginosa DHS01
+GCF_000496605.2	Pseudomonas aeruginosa PA1
+GCF_000496645.1	Pseudomonas aeruginosa PA1R
+GCF_000504045.1	Pseudomonas aeruginosa MTB-1
+GCF_000508765.1	Pseudomonas aeruginosa LES431
+GCF_000510305.1	Pseudomonas aeruginosa SCV20265
+GCF_000524595.1	Pseudomonas aeruginosa YL84
+GCF_000568855.2	Pseudomonas aeruginosa PAK
+GCF_000816985.1	Pseudomonas aeruginosa
+GCF_000829255.1	Pseudomonas aeruginosa
+GCF_000829275.1	Pseudomonas aeruginosa
+GCF_000829885.1	Pseudomonas aeruginosa
+GCF_000981825.1	Pseudomonas aeruginosa
+GCF_001045685.1	Pseudomonas aeruginosa DSM 50071 = NBRC 12689
+GCF_001077475.1	Pseudomonas aeruginosa
+GCF_001293085.1	Pseudomonas aeruginosa
+GCF_001447845.1	Pseudomonas aeruginosa
+GCF_001457615.1	Pseudomonas aeruginosa
+GCF_001482325.1	Pseudomonas aeruginosa
+GCF_001515845.2	Pseudomonas aeruginosa
+GCF_001515915.2	Pseudomonas aeruginosa
+GCF_001516005.1	Pseudomonas aeruginosa
+GCF_001516105.1	Pseudomonas aeruginosa
+GCF_001516165.2	Pseudomonas aeruginosa
+GCF_001516185.2	Pseudomonas aeruginosa
+GCF_001516205.2	Pseudomonas aeruginosa
+GCF_001516225.2	Pseudomonas aeruginosa
+GCF_001516245.2	Pseudomonas aeruginosa
+GCF_001516265.1	Pseudomonas aeruginosa
+GCF_001516305.2	Pseudomonas aeruginosa
+GCF_001516325.2	Pseudomonas aeruginosa
+GCF_001516345.1	Pseudomonas aeruginosa
+GCF_001516365.2	Pseudomonas aeruginosa
+GCF_001516385.1	Pseudomonas aeruginosa
+GCF_001518975.1	Pseudomonas aeruginosa
+GCF_001542795.2	Pseudomonas aeruginosa
+GCF_001542835.1	Pseudomonas aeruginosa
+GCF_001547955.1	Pseudomonas aeruginosa
+GCF_001548135.1	Pseudomonas aeruginosa
+GCF_001548335.1	Pseudomonas aeruginosa
+GCF_001594325.2	Pseudomonas aeruginosa
+GCF_001606045.1	Pseudomonas aeruginosa
+GCF_001618925.1	Pseudomonas aeruginosa
+GCF_001632245.1	Pseudomonas aeruginosa
+GCF_001679685.1	Pseudomonas aeruginosa
+GCF_001687285.1	Pseudomonas aeruginosa
+GCF_001721745.1	Pseudomonas aeruginosa
+GCF_001721765.1	Pseudomonas aeruginosa
+GCF_001721785.1	Pseudomonas aeruginosa
+GCF_001721805.1	Pseudomonas aeruginosa
+GCF_001721825.1	Pseudomonas aeruginosa
+GCF_001721845.1	Pseudomonas aeruginosa
+GCF_001722005.2	Pseudomonas aeruginosa
+GCF_001722025.1	Pseudomonas aeruginosa
+GCF_001722045.1	Pseudomonas aeruginosa
+GCF_001729505.1	Pseudomonas aeruginosa
+GCF_001750705.1	Pseudomonas aeruginosa
+GCF_001792835.1	Pseudomonas aeruginosa
+GCF_001792855.1	Pseudomonas aeruginosa
+GCF_001792875.1	Pseudomonas aeruginosa
+GCF_001870265.1	Pseudomonas aeruginosa
+GCF_001874465.1	Pseudomonas aeruginosa
+GCF_001879525.1	Pseudomonas aeruginosa
+GCF_001900195.1	Pseudomonas aeruginosa
+GCF_001900225.1	Pseudomonas aeruginosa
+GCF_001900265.1	Pseudomonas aeruginosa
+GCF_002075065.1	Pseudomonas aeruginosa
+GCF_002085605.1	Pseudomonas aeruginosa
+GCF_002085755.1	Pseudomonas aeruginosa
+GCF_002104595.1	Pseudomonas aeruginosa
+GCF_002104615.1	Pseudomonas aeruginosa
+GCF_002192475.1	Pseudomonas aeruginosa
+GCF_002192495.1	Pseudomonas aeruginosa
+GCF_002205335.1	Pseudomonas aeruginosa
+GCF_002205355.1	Pseudomonas aeruginosa
+GCF_002205375.1	Pseudomonas aeruginosa
+GCF_002208645.1	Pseudomonas aeruginosa
+GCF_002215345.1	Pseudomonas aeruginosa
+GCF_002223805.1	Pseudomonas aeruginosa
+GCF_002237405.1	Pseudomonas aeruginosa
+GCF_002237425.1	Pseudomonas aeruginosa
+GCF_002287725.2	Pseudomonas aeruginosa
+GCF_002411865.2	Pseudomonas aeruginosa
+GCF_002442855.1	Pseudomonas aeruginosa
+GCF_002753655.1	Pseudomonas aeruginosa
+GCF_002812825.1	Pseudomonas aeruginosa
+GCF_002812845.1	Pseudomonas aeruginosa
+GCF_002812865.1	Pseudomonas aeruginosa
+GCF_002812885.1	Pseudomonas aeruginosa
+GCF_002812905.1	Pseudomonas aeruginosa
+GCF_002812925.1	Pseudomonas aeruginosa
+GCF_002946935.1	Pseudomonas aeruginosa
+GCF_002968515.1	Pseudomonas aeruginosa
+GCF_002968585.1	Pseudomonas aeruginosa
+GCF_002968655.1	Pseudomonas aeruginosa
+GCF_002968695.1	Pseudomonas aeruginosa
+GCF_002968755.1	Pseudomonas aeruginosa
+GCF_002968955.1	Pseudomonas aeruginosa
+GCF_002997005.1	Pseudomonas aeruginosa
+GCF_003025345.2	Pseudomonas aeruginosa
+GCF_003028335.1	Pseudomonas aeruginosa
+GCF_003052005.2	Pseudomonas aeruginosa
+GCF_003060845.1	Pseudomonas aeruginosa
+GCF_003073615.1	Pseudomonas aeruginosa
+GCF_003073695.1	Pseudomonas aeruginosa
+GCF_003073735.1	Pseudomonas aeruginosa
+GCF_003073795.1	Pseudomonas aeruginosa
+GCF_003073895.1	Pseudomonas aeruginosa
+GCF_003193645.1	Pseudomonas aeruginosa
+GCF_003194245.1	Pseudomonas aeruginosa
+GCF_003204335.1	Pseudomonas aeruginosa
+GCF_003206535.1	Pseudomonas aeruginosa
+GCF_003288335.1	Pseudomonas aeruginosa
+GCF_003288355.1	Pseudomonas aeruginosa
+GCF_003288435.1	Pseudomonas aeruginosa
+GCF_003319235.1	Pseudomonas aeruginosa
+GCF_003332705.2	Pseudomonas aeruginosa
+GCF_003369735.1	Pseudomonas aeruginosa
+GCF_003369755.1	Pseudomonas aeruginosa
+GCF_003369775.1	Pseudomonas aeruginosa
+GCF_003408495.1	Pseudomonas aeruginosa
+GCF_003429185.1	Pseudomonas aeruginosa
+GCF_003429205.1	Pseudomonas aeruginosa
+GCF_003433235.1	Pseudomonas aeruginosa
+GCF_003571505.1	Pseudomonas aeruginosa
+GCF_003571805.1	Pseudomonas aeruginosa
+GCF_003641125.1	Pseudomonas aeruginosa
+GCF_003716765.1	Pseudomonas aeruginosa
+GCF_003798105.1	Pseudomonas aeruginosa
+GCF_003798125.1	Pseudomonas aeruginosa
+GCF_003798145.1	Pseudomonas aeruginosa
+GCF_003812165.1	Pseudomonas aeruginosa
+GCF_003812885.1	Pseudomonas aeruginosa
+GCF_003812905.1	Pseudomonas aeruginosa
+GCF_003813005.1	Pseudomonas aeruginosa
+GCF_003813025.1	Pseudomonas aeruginosa
+GCF_003950015.1	Pseudomonas aeruginosa
+GCF_003952325.1	Pseudomonas aeruginosa
+GCF_003957825.1	Pseudomonas aeruginosa
+GCF_003991465.1	Pseudomonas aeruginosa
+GCF_004010895.1	Pseudomonas aeruginosa
+GCF_900069025.1	Pseudomonas aeruginosa DK1
+GCF_900070375.1	Pseudomonas aeruginosa
+GCF_900095805.1	Pseudomonas aeruginosa
+GCF_900149285.1	Pseudomonas aeruginosa
+GCF_900185255.1	Pseudomonas aeruginosa C-NN2
+GCF_900243355.1	Pseudomonas aeruginosa
+GCF_900618245.1	Pseudomonas aeruginosa
+GCF_900618255.1	Pseudomonas aeruginosa
+GCF_900618265.1	Pseudomonas aeruginosa
+GCF_900618275.1	Pseudomonas aeruginosa
+GCF_900618285.1	Pseudomonas aeruginosa
+GCF_900618305.1	Pseudomonas aeruginosa
+GCF_900618315.1	Pseudomonas aeruginosa
+GCF_900618325.1	Pseudomonas aeruginosa
+GCF_900618335.1	Pseudomonas aeruginosa
+GCF_900636735.1	Pseudomonas aeruginosa
+GCF_900636755.1	Pseudomonas aeruginosa
+GCF_900636975.1	Pseudomonas aeruginosa
+GCF_900637045.1	Pseudomonas aeruginosa
+GCF_000009225.2	Pseudomonas fluorescens SBW25
+GCF_000012445.1	Pseudomonas fluorescens Pf0-1
+GCF_000237065.1	Pseudomonas fluorescens F113
+GCF_000262325.2	Pseudomonas fluorescens A506
+GCF_000293885.2	Pseudomonas fluorescens NCIMB 11764
+GCF_000730425.1	Pseudomonas fluorescens
+GCF_000934565.1	Pseudomonas fluorescens
+GCF_000963495.1	Pseudomonas fluorescens PICF7
+GCF_001307155.1	Pseudomonas fluorescens
+GCF_001307275.1	Pseudomonas fluorescens
+GCF_001708445.1	Pseudomonas fluorescens
+GCF_001708465.1	Pseudomonas fluorescens
+GCF_001708485.1	Pseudomonas fluorescens
+GCF_001747385.1	Pseudomonas fluorescens
+GCF_003055645.1	Pseudomonas fluorescens
+GCF_003410335.1	Pseudomonas fluorescens
+GCF_003612935.1	Pseudomonas fluorescens
+GCF_003626995.1	Pseudomonas fluorescens
+GCF_900475215.1	Pseudomonas fluorescens
+GCF_900636635.1	Pseudomonas fluorescens
+GCF_900636825.1	Pseudomonas fluorescens
+GCF_001543265.1	Pseudomonas fragi
+GCF_002128325.1	Pseudomonas fragi
+GCF_000016565.1	Pseudomonas mendocina ymp
+GCF_000204295.1	Pseudomonas mendocina NK-01
+GCF_000733715.2	Pseudomonas mendocina S5.2
+GCF_002442555.1	Pseudomonas mendocina
+GCF_003008615.1	Pseudomonas mendocina
+GCF_900636545.1	Pseudomonas mendocina
+GCF_000007565.2	Pseudomonas putida KT2440
+GCF_000016865.1	Pseudomonas putida F1
+GCF_000019125.1	Pseudomonas putida GB-1
+GCF_000019445.1	Pseudomonas putida W619
+GCF_000183645.1	Pseudomonas putida BIRD-1
+GCF_000219705.1	Pseudomonas putida S16
+GCF_000226035.2	Pseudomonas putida B6-2
+GCF_000264665.2	Pseudomonas putida ND6
+GCF_000271965.2	Pseudomonas putida SJTE-1
+GCF_000325725.1	Pseudomonas putida HB3267
+GCF_000410575.1	Pseudomonas putida H8234
+GCF_000412675.1	Pseudomonas putida NBRC 14164
+GCF_000495455.2	Pseudomonas putida S12
+GCF_000498395.2	Pseudomonas putida S13.1.2
+GCF_000691565.1	Pseudomonas putida
+GCF_001515585.1	Pseudomonas putida
+GCF_001636055.1	Pseudomonas putida
+GCF_001767335.1	Pseudomonas putida JB
+GCF_001886975.1	Pseudomonas putida
+GCF_002025705.1	Pseudomonas putida
+GCF_002356095.1	Pseudomonas putida
+GCF_002736045.1	Pseudomonas putida
+GCF_002736125.1	Pseudomonas putida
+GCF_002741075.1	Pseudomonas putida
+GCF_003228315.1	Pseudomonas putida
+GCF_003290365.1	Pseudomonas putida
+GCF_003671955.1	Pseudomonas putida
+GCF_900636645.1	Pseudomonas putida
+GCF_000013785.1	Pseudomonas stutzeri A1501
+GCF_000195105.1	Pseudomonas stutzeri DSM 4166
+GCF_000219605.1	Pseudomonas stutzeri
+GCF_000267545.1	Pseudomonas stutzeri CCUG 29243
+GCF_000279165.1	Pseudomonas stutzeri DSM 10701
+GCF_000327065.1	Pseudomonas stutzeri RCH2
+GCF_000590475.1	Pseudomonas stutzeri
+GCF_000661915.1	Pseudomonas stutzeri
+GCF_001038645.1	Pseudomonas stutzeri
+GCF_001648195.1	Pseudomonas stutzeri
+GCF_003001655.1	Pseudomonas stutzeri
+GCF_003008495.1	Pseudomonas stutzeri
+GCF_003047145.2	Pseudomonas stutzeri
+GCF_003952645.1	Pseudomonas stutzeri
+GCF_003952685.1	Pseudomonas stutzeri
+GCF_900636845.1	Pseudomonas stutzeri
+GCF_900638035.1	Pseudomonas stutzeri
+GCF_000012245.1	Pseudomonas syringae pv. syringae B728a
+GCF_000344335.2	Pseudomonas syringae pv. actinidiae ICMP 9853
+GCF_000344355.2	Pseudomonas syringae pv. actinidiae ICMP 18708
+GCF_000344475.3	Pseudomonas syringae pv. actinidiae str. Shaanxi_M228
+GCF_000452445.2	Pseudomonas syringae pv. pisi str. PP1
+GCF_000452705.1	Pseudomonas syringae CC1557
+GCF_000648735.3	Pseudomonas syringae pv. actinidiae ICMP 18884
+GCF_000988395.1	Pseudomonas syringae pv. syringae HS191
+GCF_000988485.1	Pseudomonas syringae pv. syringae B301D
+GCF_001281365.1	Pseudomonas syringae UMAF0158
+GCF_001482725.1	Pseudomonas syringae pv. lapsa
+GCF_001913215.1	Pseudomonas syringae pv. actinidiae
+GCF_001913235.1	Pseudomonas syringae pv. actinidiae
+GCF_002024285.1	Pseudomonas syringae pv. actinidiae
+GCF_002024305.1	Pseudomonas syringae pv. actinidiae
+GCF_002763655.1	Pseudomonas syringae pv. actinidiae
+GCF_002905815.2	Pseudomonas syringae pv. syringae
+GCF_003047185.1	Pseudomonas syringae pv. atrofaciens
+GCF_003665415.1	Pseudomonas syringae pv. actinidiae
+GCF_004006335.1	Pseudomonas syringae
+GCF_900235815.1	Pseudomonas syringae
+GCF_900235825.1	Pseudomonas syringae pv. syringae
+GCF_900235835.1	Pseudomonas syringae pv. avii
+GCF_900235865.1	Pseudomonas syringae pv. syringae
+GCF_900235885.1	Pseudomonas syringae pv. cerasicola
+GCF_900289125.1	Pseudomonas syringae
+GCF_000297075.2	Pseudomonas pseudoalcaligenes CECT 5344
+GCF_000953455.1	Pseudomonas pseudoalcaligenes
+GCF_000012205.1	Pseudomonas savastanoi pv. phaseolicola 1448A
+GCF_000164015.3	Pseudomonas savastanoi pv. savastanoi NCPPB 3335
+GCF_900184295.1	Pseudomonas viridiflava
+GCF_000517305.1	Pseudomonas cichorii JBC1
+GCF_001597285.1	Pseudomonas alcaligenes
+GCF_002905795.2	Pseudomonas avellanae
+GCF_900475945.1	Pseudomonas mucidolens
+GCF_002068135.1	Pseudomonas amygdali pv. lachrymans
+GCF_002905685.2	Pseudomonas amygdali pv. morsprunorum
+GCF_001579805.1	Pseudomonas azotoformans
+GCF_002007785.1	Pseudomonas azotoformans
+GCF_001708425.1	Pseudomonas corrugata
+GCF_000213805.1	Pseudomonas fulva 12-X
+GCF_002951475.1	Pseudomonas fulva
+GCF_000968415.2	Pseudomonas synxantha
+GCF_003851465.1	Pseudomonas synxantha
+GCF_003851495.1	Pseudomonas synxantha
+GCF_003851525.1	Pseudomonas synxantha
+GCF_003851555.1	Pseudomonas synxantha
+GCF_003852025.1	Pseudomonas synxantha
+GCF_900475285.1	Pseudomonas taetrolens
+GCF_900637735.1	Pseudomonas taetrolens
+GCF_001518815.1	Pseudomonas oryzihabitans
+GCF_001586155.1	Pseudomonas citronellolis
+GCF_001654435.1	Pseudomonas citronellolis
+GCF_000412695.1	Pseudomonas resinovorans NBRC 106553
+GCF_000689415.1	Pseudomonas knackmussii B13
+GCF_000494915.1	Pseudomonas sp. VLB120
+GCF_000831585.1	Pseudomonas plecoglossicida
+GCF_003391255.1	Pseudomonas plecoglossicida
+GCF_000818015.1	Pseudomonas balearica DSM 6083
+GCF_003952245.1	Pseudomonas libanensis
+GCF_000257545.3	Pseudomonas mandelii JR-1
+GCF_002934065.1	Pseudomonas orientalis
+GCF_003851585.1	Pseudomonas orientalis
+GCF_003851605.1	Pseudomonas orientalis
+GCF_003851645.1	Pseudomonas orientalis
+GCF_003852045.1	Pseudomonas orientalis
+GCF_000510285.1	Pseudomonas monteilii SB3078
+GCF_000510325.1	Pseudomonas monteilii SB3101
+GCF_001534745.1	Pseudomonas monteilii
+GCF_002943995.1	Pseudomonas monteilii
+GCF_003671975.1	Pseudomonas monteilii
+GCF_002028325.1	Pseudomonas veronii
+GCF_002309555.1	Pseudomonas mosselii
+GCF_002736065.1	Pseudomonas mosselii
+GCF_001941865.1	Pseudomonas alcaliphila JAB1
+GCF_001874645.1	Pseudomonas frederiksbergensis
+GCF_001952935.1	Pseudomonas frederiksbergensis
+GCF_002355315.1	Pseudomonas frederiksbergensis
+GCF_000800255.1	Pseudomonas parafulva
+GCF_002021815.1	Pseudomonas parafulva
+GCF_003410295.1	Pseudomonas parafulva
+GCF_000759535.1	Pseudomonas cremoricolorata
+GCF_001605965.1	Pseudomonas koreensis
+GCF_001654515.1	Pseudomonas koreensis
+GCF_003049825.1	Pseudomonas koreensis
+GCF_001186335.1	Pseudomonas trivialis
+GCF_000336465.1	Pseudomonas poae RE*1-1-14
+GCF_000761155.1	Pseudomonas rhizosphaerae
+GCF_001647715.1	Pseudomonas antarctica
+GCF_000746525.1	Pseudomonas alkylphenolica
+GCF_001913135.1	Pseudomonas psychrotolerans
+GCF_002966835.1	Pseudomonas lurida
+GCF_000007805.1	Pseudomonas syringae pv. tomato str. DC3000
+GCF_002966555.1	Pseudomonas syringae pv. tomato
+GCF_900235905.1	Pseudomonas syringae group genomosp. 3
+GCF_003408635.1	Pseudomonas sp. phDV1
+GCF_000026105.1	Pseudomonas entomophila L48
+GCF_003940785.1	Pseudomonas entomophila
+GCF_003940825.1	Pseudomonas entomophila
+GCF_000012265.1	Pseudomonas protegens Pf-5
+GCF_000397205.1	Pseudomonas protegens CHA0
+GCF_000828695.1	Pseudomonas protegens Cab57
+GCF_002006545.1	Pseudomonas protegens
+GCF_002208745.2	Pseudomonas protegens
+GCF_003363755.1	Pseudomonas protegens
+GCF_001612705.2	Pseudomonas yamanorum
+GCF_000698865.1	Pseudomonas chlororaphis
+GCF_000761195.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_000963835.1	Pseudomonas chlororaphis
+GCF_001023535.1	Pseudomonas chlororaphis
+GCF_001602135.1	Pseudomonas chlororaphis
+GCF_002355875.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_002844145.1	Pseudomonas chlororaphis
+GCF_003008635.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850345.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850365.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850385.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850405.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850425.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850445.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850465.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850485.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850505.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850525.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850585.1	Pseudomonas chlororaphis subsp. piscium
+GCF_003850605.1	Pseudomonas chlororaphis
+GCF_003851145.1	Pseudomonas chlororaphis
+GCF_003851165.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851205.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851225.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851265.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851305.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851345.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851365.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851385.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851405.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851445.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851785.1	Pseudomonas chlororaphis
+GCF_003851805.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851835.1	Pseudomonas chlororaphis subsp. aurantiaca
+GCF_003851865.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851905.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851925.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851955.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003851985.1	Pseudomonas chlororaphis
+GCF_003852005.1	Pseudomonas chlororaphis subsp. aureofaciens
+GCF_003945765.1	Pseudomonas chlororaphis subsp. chlororaphis
+GCF_900636995.1	Pseudomonas chlororaphis
+GCF_003850565.1	Pseudomonas sp. CMR12a
+GCF_003850545.1	Pseudomonas sp. CMR5c
+GCF_003852295.1	Pseudomonas sp. R11-23-07
+GCF_003852355.1	Pseudomonas sp. R2-7-07
+GCF_003852375.1	Pseudomonas sp. R4-34-07
+GCF_003852235.1	Pseudomonas sp. R4-35-07
+GCF_003851685.1	Pseudomonas sp. R5-89-07
+GCF_000194805.1	Pseudomonas brassicacearum subsp. brassicacearum NFM421
+GCF_000585995.1	Pseudomonas brassicacearum
+GCF_001449085.1	Pseudomonas brassicacearum
+GCF_001746815.1	Pseudomonas brassicacearum
+GCF_000829415.1	Pseudomonas sp. StFLB209
+GCF_002355475.1	Pseudomonas furukawaii
+GCF_003852255.1	Pseudomonas sp. R1-43-08
+GCF_003851705.1	Pseudomonas sp. R2-37-08W
+GCF_003852335.1	Pseudomonas sp. R2-60-08W
+GCF_003852065.1	Pseudomonas sp. R3-18-08
+GCF_003851745.1	Pseudomonas sp. R3-52-08
+GCF_003852275.1	Pseudomonas sp. R4-39-08
+GCF_000346225.2	Pseudomonas sp. Lz4W
+GCF_000316175.1	Pseudomonas sp. UW4
+GCF_000511325.1	Pseudomonas sp. FGI182
+GCF_001511755.1	Pseudomonas sp. URMO17WK12:I11
+GCF_001511775.1	Pseudomonas sp. URMO17WK12:I11
+GCF_000349845.1	Pseudomonas sp. ATCC 13867
+GCF_000498975.2	Pseudomonas soli
+GCF_001655295.1	Pseudomonas sp. JY-Q
+GCF_000508205.1	Pseudomonas sp. TKP
+GCF_001547895.1	Pseudomonas sp. Os17
+GCF_001547915.1	Pseudomonas sp. St29
+GCF_001655595.1	Pseudomonas sp. DR 5-09
+GCF_900074915.1	Pseudomonas cerasi
+GCF_900235895.1	Pseudomonas cerasi
+GCF_000931465.1	Pseudomonas sp. MRSN12121
+GCF_003352185.1	Pseudomonas kribbensis
+GCF_002934345.1	Pseudomonas sp. PONIH3
+GCF_001007005.1	Pseudomonas sp. CCOS 191
+GCF_001655615.1	Pseudomonas sp. GR 6-02
+GCF_003627215.1	Pseudomonas sp. Leaf58
+GCF_003626975.1	Pseudomonas sp. DY-1
+GCF_001294575.1	Pseudomonas versuta
+GCF_002966775.1	Pseudomonas sp. MYb193
+GCF_001661075.1	Pseudomonas silesiensis
+GCF_001708505.1	Pseudomonas sp. TCU-HL1
+GCF_001703595.1	Pseudomonas sp. TMW 2.1634
+GCF_002037565.1	Pseudomonas sp. LPH1
+GCF_002025205.1	Pseudomonas sp. CC6-YY-74
+GCF_002056295.1	Pseudomonas sp. S-6-2
+GCF_002163625.1	Pseudomonas sp. M30-35
+GCF_004011755.1	Pseudomonas sp. RU47
+GCF_002591235.1	Pseudomonas sp. FDAARGOS_380
+GCF_002753995.1	Pseudomonas sp. HLS-6
+GCF_002874965.1	Pseudomonas sp. NC02
+GCF_002953115.1	Pseudomonas sp. XWY-1
+GCF_002947975.1	Pseudomonas sp. SWI6
+GCF_002948105.1	Pseudomonas sp. SWI36
+GCF_002947915.1	Pseudomonas sp. SWI44
+GCF_002949995.1	Pseudomonas sp. LG1D9
+GCF_002949975.1	Pseudomonas sp. LH1G9
+GCF_003852315.1	Pseudomonas sp. LBUM920
+GCF_003151075.1	Pseudomonas sp. 31-12
+GCF_003205815.1	Pseudomonas sp. R2A2
+GCF_003991975.1	Pseudomonas sp. QZS01
+GCF_003290225.1	Pseudomonas sp. LG1E9
+GCF_003595175.1	Pseudomonas sp. K2W31S-8
+GCF_003691465.1	Pseudomonas sp. LTJR-52
+GCF_003691445.1	Pseudomonas sp. LTGT-11-2Z

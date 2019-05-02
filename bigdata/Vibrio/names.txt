@@ -1,0 +1,182 @@
+Considering the following 181 assemblies for download:
+GCF_000354175.2	Vibrio alginolyticus NBRC 15630 = ATCC 17749
+GCF_001469735.1	Vibrio alginolyticus
+GCF_001679745.1	Vibrio alginolyticus
+GCF_002119505.2	Vibrio alginolyticus
+GCF_002119525.1	Vibrio alginolyticus
+GCF_002119545.1	Vibrio alginolyticus
+GCF_002119565.1	Vibrio alginolyticus
+GCF_002119585.1	Vibrio alginolyticus
+GCF_002149065.1	Vibrio alginolyticus
+GCF_002149085.1	Vibrio alginolyticus
+GCF_002149105.1	Vibrio alginolyticus
+GCF_002953515.1	Vibrio alginolyticus
+GCF_002953535.1	Vibrio alginolyticus
+GCF_002953975.1	Vibrio alginolyticus
+GCF_000006745.1	Vibrio cholerae O1 biovar El Tor str. N16961
+GCF_000016245.1	Vibrio cholerae O395
+GCF_000021605.1	Vibrio cholerae M66-2
+GCF_000021625.1	Vibrio cholerae O395
+GCF_000022585.1	Vibrio cholerae MJ-1236
+GCF_000166455.1	Vibrio cholerae O1 str. 2010EL-1786
+GCF_000250855.1	Vibrio cholerae IEC224
+GCF_000765415.1	Vibrio cholerae
+GCF_000788715.2	Vibrio cholerae
+GCF_000829215.1	Vibrio cholerae MS6
+GCF_000963555.1	Vibrio cholerae O1 biovar El Tor
+GCF_000969235.1	Vibrio cholerae
+GCF_000969265.1	Vibrio cholerae
+GCF_001250235.2	Vibrio cholerae
+GCF_001318185.1	Vibrio cholerae O1 str. KW3
+GCF_001683415.1	Vibrio cholerae 2740-80
+GCF_001854425.1	Vibrio cholerae
+GCF_001887395.1	Vibrio cholerae
+GCF_001887415.1	Vibrio cholerae
+GCF_001887435.1	Vibrio cholerae
+GCF_001887455.1	Vibrio cholerae
+GCF_001887475.1	Vibrio cholerae
+GCF_001887495.1	Vibrio cholerae
+GCF_001887515.1	Vibrio cholerae
+GCF_001887615.1	Vibrio cholerae
+GCF_001887635.1	Vibrio cholerae
+GCF_001887655.1	Vibrio cholerae
+GCF_002073335.2	Vibrio cholerae
+GCF_002313025.1	Vibrio cholerae
+GCF_002749635.1	Vibrio cholerae
+GCF_002892855.1	Vibrio cholerae
+GCF_002946655.1	Vibrio cholerae O1 biovar El Tor
+GCF_002997215.1	Vibrio cholerae
+GCF_003063785.1	Vibrio cholerae
+GCF_003063885.1	Vibrio cholerae
+GCF_003097695.1	Vibrio cholerae
+GCF_003574155.1	Vibrio cholerae
+GCF_003591575.1	Vibrio cholerae
+GCF_003719755.1	Vibrio cholerae
+GCF_004117115.1	Vibrio cholerae
+GCF_900185995.1	Vibrio cholerae
+GCF_900324425.1	Vibrio cholerae
+GCF_900324445.1	Vibrio cholerae
+GCF_900324455.1	Vibrio cholerae
+GCF_900538065.1	Vibrio cholerae
+GCF_000770115.1	Vibrio harveyi
+GCF_001558435.2	Vibrio harveyi
+GCF_001908435.2	Vibrio harveyi
+GCF_002850295.1	Vibrio harveyi
+GCF_000196095.1	Vibrio parahaemolyticus RIMD 2210633
+GCF_000328405.1	Vibrio parahaemolyticus BB22OP
+GCF_000430405.1	Vibrio parahaemolyticus O1:Kuk str. FDA_R31
+GCF_000430425.1	Vibrio parahaemolyticus O1:K33 str. CDC_K4557
+GCF_000568495.1	Vibrio parahaemolyticus UCM-V493
+GCF_001188185.2	Vibrio parahaemolyticus
+GCF_001244315.1	Vibrio parahaemolyticus
+GCF_001304775.1	Vibrio parahaemolyticus
+GCF_001433415.1	Vibrio parahaemolyticus
+GCF_001558495.2	Vibrio parahaemolyticus
+GCF_001636035.1	Vibrio parahaemolyticus
+GCF_001682175.1	Vibrio parahaemolyticus
+GCF_001700835.1	Vibrio parahaemolyticus
+GCF_001758605.1	Vibrio parahaemolyticus
+GCF_001879585.1	Vibrio parahaemolyticus
+GCF_001887055.1	Vibrio parahaemolyticus
+GCF_002073775.2	Vibrio parahaemolyticus
+GCF_002209725.2	Vibrio parahaemolyticus
+GCF_002220985.3	Vibrio parahaemolyticus
+GCF_003076895.1	Vibrio parahaemolyticus
+GCF_003085735.1	Vibrio parahaemolyticus
+GCF_003119375.1	Vibrio parahaemolyticus
+GCF_003351885.1	Vibrio parahaemolyticus
+GCF_003612695.1	Vibrio parahaemolyticus
+GCF_003612715.1	Vibrio parahaemolyticus
+GCF_003691525.1	Vibrio parahaemolyticus
+GCF_004006515.1	Vibrio parahaemolyticus
+GCF_004194515.1	Vibrio parahaemolyticus
+GCF_000009745.1	Vibrio vulnificus YJ016
+GCF_000039765.1	Vibrio vulnificus CMCP6
+GCF_000186585.1	Vibrio vulnificus MO6-24/O
+GCF_000746665.1	Vibrio vulnificus
+GCF_001433435.1	Vibrio vulnificus
+GCF_001558515.2	Vibrio vulnificus
+GCF_001653775.1	Vibrio vulnificus
+GCF_001675245.1	Vibrio vulnificus
+GCF_002117205.1	Vibrio vulnificus
+GCF_002204915.1	Vibrio vulnificus
+GCF_002215135.1	Vibrio vulnificus
+GCF_002224265.1	Vibrio vulnificus NBRC 15645 = ATCC 27562
+GCF_002850455.1	Vibrio vulnificus
+GCF_002863725.1	Vibrio vulnificus
+GCF_003047125.1	Vibrio vulnificus Env1
+GCF_003522555.1	Vibrio vulnificus
+GCF_001558475.2	Vibrio mimicus
+GCF_001767355.1	Vibrio mimicus
+GCF_001558415.2	Vibrio fluvialis
+GCF_001952955.1	Vibrio fluvialis
+GCF_002953375.1	Vibrio fluvialis
+GCF_000017705.1	Vibrio campbellii ATCC BAA-1116
+GCF_000464435.1	Vibrio campbellii ATCC BAA-1116
+GCF_001969325.1	Vibrio campbellii
+GCF_002140055.1	Vibrio campbellii
+GCF_002142655.1	Vibrio campbellii
+GCF_002163755.1	Vibrio campbellii CAIM 519 = NBRC 15631
+GCF_002906455.1	Vibrio campbellii
+GCF_002906475.1	Vibrio campbellii
+GCF_003312585.1	Vibrio campbellii
+GCF_003691485.1	Vibrio campbellii
+GCF_002196515.1	Vibrio gazogenes
+GCF_002214345.1	Vibrio mediterranei
+GCF_003726935.1	Vibrio mediterranei
+GCF_001456255.1	Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759
+GCF_001680025.1	Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759
+GCF_001680045.1	Vibrio natriegens
+GCF_001680065.1	Vibrio natriegens
+GCF_001680085.1	Vibrio natriegens
+GCF_000801275.2	Vibrio nigripulchritudo
+GCF_000184325.1	Vibrio furnissii NCTC 11218
+GCF_003345295.1	Vibrio splendidus
+GCF_000772105.1	Vibrio tubiashii ATCC 19109
+GCF_001685465.1	Vibrio scophthalmi
+GCF_001687805.1	Vibrio scophthalmi
+GCF_002953335.1	Vibrio diabolicus
+GCF_002953355.1	Vibrio diabolicus
+GCF_002953395.1	Vibrio diabolicus
+GCF_900233005.1	Vibrio tapetis subsp. tapetis
+GCF_000217675.1	Vibrio anguillarum 775
+GCF_000462975.1	Vibrio anguillarum M3
+GCF_000786425.1	Vibrio anguillarum
+GCF_001660505.1	Vibrio anguillarum
+GCF_002163795.1	Vibrio anguillarum
+GCF_002211505.1	Vibrio anguillarum
+GCF_002211985.1	Vibrio anguillarum
+GCF_002212005.1	Vibrio anguillarum
+GCF_002212025.1	Vibrio anguillarum
+GCF_002287545.1	Vibrio anguillarum
+GCF_002291265.1	Vibrio anguillarum
+GCF_002310335.1	Vibrio anguillarum
+GCF_003031205.1	Vibrio anguillarum
+GCF_003399575.2	Vibrio anguillarum
+GCF_003595585.1	Vibrio anguillarum
+GCF_002218045.2	Vibrio rumoiensis
+GCF_000024825.1	Vibrio antiquarius
+GCF_004022545.1	Vibrio chagasii
+GCF_000763535.1	Vibrio coralliilyticus
+GCF_000772065.1	Vibrio coralliilyticus
+GCF_001693615.1	Vibrio coralliilyticus
+GCF_002073995.1	Vibrio coralliilyticus
+GCF_003391375.1	Vibrio coralliilyticus
+GCF_002214395.1	Vibrio rotiferianus
+GCF_000091465.1	Vibrio tasmaniensis LGP32
+GCF_001677275.1	Vibrio breoganii
+GCF_002218025.2	Vibrio casei
+GCF_002021755.1	Vibrio owensii
+GCF_002887655.1	Vibrio owensii
+GCF_003691505.1	Vibrio owensii
+GCF_003691545.1	Vibrio owensii
+GCF_002887615.1	Vibrio jasicida 090810c
+GCF_003544875.1	Vibrio alfacsensis
+GCF_000241385.1	Vibrio sp. EJY3
+GCF_001547935.1	Vibrio tritonius
+GCF_002906655.1	Vibrio hyugaensis
+GCF_002157735.2	Vibrio aphrogenes
+GCF_002216685.1	Vibrio sp. 2521-89
+GCF_002257545.1	Vibrio qinghaiensis
+GCF_003443775.1	Vibrio sp. dhg
+GCF_003716875.1	Vibrio sp. HBUAS61001

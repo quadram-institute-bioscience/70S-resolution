@@ -1,0 +1,184 @@
+Considering the following 183 assemblies for download:
+GCF_000252975.1	Listeria ivanovii subsp. ivanovii PAM 55
+GCF_000565155.1	Listeria ivanovii WSLC3009
+GCF_000763475.1	Listeria ivanovii subsp. londoniensis
+GCF_000763495.1	Listeria ivanovii subsp. londoniensis
+GCF_000763515.1	Listeria ivanovii subsp. ivanovii
+GCF_900187025.1	Listeria ivanovii subsp. ivanovii
+GCF_900187195.1	Listeria ivanovii subsp. ivanovii
+GCF_900637745.1	Listeria ivanovii subsp. londoniensis
+GCF_000008285.1	Listeria monocytogenes serotype 4b str. F2365
+GCF_000021185.1	Listeria monocytogenes HCC23
+GCF_000022925.1	Listeria monocytogenes 08-5923
+GCF_000026705.1	Listeria monocytogenes serotype 4b str. CLIP 80459
+GCF_000093125.2	Listeria monocytogenes 08-5578
+GCF_000168575.2	Listeria monocytogenes FSL R2-561
+GCF_000168595.2	Listeria monocytogenes Finland 1998
+GCF_000168635.2	Listeria monocytogenes J0161
+GCF_000168695.2	Listeria monocytogenes 10403S
+GCF_000195395.4	Listeria monocytogenes J1-220
+GCF_000195435.3	Listeria monocytogenes J1816
+GCF_000196035.1	Listeria monocytogenes EGD-e
+GCF_000197755.2	Listeria monocytogenes SLCC2755
+GCF_000209755.1	Listeria monocytogenes L99
+GCF_000210815.2	Listeria monocytogenes SLCC2372
+GCF_000218305.1	Listeria monocytogenes M7
+GCF_000258905.1	Listeria monocytogenes 07PF0776
+GCF_000306905.1	Listeria monocytogenes SLCC2540
+GCF_000306985.1	Listeria monocytogenes SLCC7179
+GCF_000307005.1	Listeria monocytogenes SLCC2479
+GCF_000307025.1	Listeria monocytogenes ATCC 19117
+GCF_000307045.1	Listeria monocytogenes SLCC5850
+GCF_000307065.1	Listeria monocytogenes SLCC2376
+GCF_000307085.1	Listeria monocytogenes L312
+GCF_000307615.1	Listeria monocytogenes SLCC2378
+GCF_000318055.1	Listeria monocytogenes serotype 4b str. LL195
+GCF_000438585.1	Listeria monocytogenes
+GCF_000438605.1	Listeria monocytogenes
+GCF_000438625.1	Listeria monocytogenes
+GCF_000438645.1	Listeria monocytogenes
+GCF_000438665.1	Listeria monocytogenes
+GCF_000438685.2	Listeria monocytogenes
+GCF_000438705.2	Listeria monocytogenes
+GCF_000438725.2	Listeria monocytogenes
+GCF_000438745.2	Listeria monocytogenes
+GCF_000513595.1	Listeria monocytogenes serotype 1/2a str. 08-6569
+GCF_000513615.1	Listeria monocytogenes serotype 4b str. 81-0861
+GCF_000513635.1	Listeria monocytogenes serotype 1/2a str. 08-6997
+GCF_000513655.1	Listeria monocytogenes serotype 1/2a str. 10-0815
+GCF_000513675.1	Listeria monocytogenes serotype 1/2a str. 10-1047
+GCF_000513695.1	Listeria monocytogenes serotype 1/2a str. 88-0478
+GCF_000568475.1	Listeria monocytogenes WSLC1001
+GCF_000568935.1	Listeria monocytogenes WSLC1042
+GCF_000577745.1	Listeria monocytogenes 6179
+GCF_000582845.1	Listeria monocytogenes EGD
+GCF_000600015.1	Listeria monocytogenes
+GCF_000613085.1	Listeria monocytogenes R479a
+GCF_000681515.1	Listeria monocytogenes
+GCF_000746625.1	Listeria monocytogenes
+GCF_000800335.1	Listeria monocytogenes
+GCF_000808055.1	Listeria monocytogenes
+GCF_000950775.1	Listeria monocytogenes
+GCF_001005925.2	Listeria monocytogenes
+GCF_001005985.1	Listeria monocytogenes
+GCF_001027065.1	Listeria monocytogenes
+GCF_001027085.1	Listeria monocytogenes
+GCF_001027125.1	Listeria monocytogenes
+GCF_001027165.1	Listeria monocytogenes
+GCF_001027205.1	Listeria monocytogenes
+GCF_001027245.1	Listeria monocytogenes
+GCF_001047715.1	Listeria monocytogenes
+GCF_001188025.2	Listeria monocytogenes
+GCF_001188655.1	Listeria monocytogenes
+GCF_001454845.1	Listeria monocytogenes
+GCF_001454865.1	Listeria monocytogenes
+GCF_001454885.1	Listeria monocytogenes
+GCF_001454905.1	Listeria monocytogenes ATCC 19117
+GCF_001454925.1	Listeria monocytogenes
+GCF_001483405.1	Listeria monocytogenes
+GCF_001483425.1	Listeria monocytogenes
+GCF_001483445.1	Listeria monocytogenes
+GCF_001513695.1	Listeria monocytogenes
+GCF_001548585.1	Listeria monocytogenes
+GCF_001548635.1	Listeria monocytogenes
+GCF_001551855.1	Listeria monocytogenes
+GCF_001596775.2	Listeria monocytogenes
+GCF_001644625.1	Listeria monocytogenes
+GCF_001908335.1	Listeria monocytogenes
+GCF_001913195.1	Listeria monocytogenes
+GCF_001952735.1	Listeria monocytogenes
+GCF_001952755.1	Listeria monocytogenes
+GCF_001952775.1	Listeria monocytogenes
+GCF_001952795.1	Listeria monocytogenes
+GCF_001998915.1	Listeria monocytogenes
+GCF_001998945.1	Listeria monocytogenes
+GCF_001998985.1	Listeria monocytogenes
+GCF_001999005.1	Listeria monocytogenes
+GCF_001999025.1	Listeria monocytogenes
+GCF_001999045.1	Listeria monocytogenes
+GCF_001999065.1	Listeria monocytogenes
+GCF_001999085.1	Listeria monocytogenes
+GCF_001999105.1	Listeria monocytogenes
+GCF_001999125.1	Listeria monocytogenes
+GCF_001999145.1	Listeria monocytogenes
+GCF_001999165.1	Listeria monocytogenes
+GCF_002025165.1	Listeria monocytogenes
+GCF_002043045.1	Listeria monocytogenes
+GCF_002101275.1	Listeria monocytogenes
+GCF_002105615.1	Listeria monocytogenes
+GCF_002105635.1	Listeria monocytogenes
+GCF_002105655.1	Listeria monocytogenes
+GCF_002105675.1	Listeria monocytogenes
+GCF_002105695.1	Listeria monocytogenes
+GCF_002105715.1	Listeria monocytogenes
+GCF_002208215.1	Listeria monocytogenes
+GCF_002213505.1	Listeria monocytogenes serotype 4b str. 02-6679
+GCF_002213545.1	Listeria monocytogenes serotype 1/2a str. 02-5993
+GCF_002213565.1	Listeria monocytogenes serotype 1/2a str. 04-5457
+GCF_002213585.1	Listeria monocytogenes serotype 1/2a str. 08-6056
+GCF_002213605.1	Listeria monocytogenes serotype 1/2a str. 08-7374
+GCF_002213625.1	Listeria monocytogenes serotype 1/2a str. 08-7669
+GCF_002213645.1	Listeria monocytogenes serotype 1/2a str. 10-1046
+GCF_002213665.1	Listeria monocytogenes serotype 1/2a str. 10-1321
+GCF_002213685.1	Listeria monocytogenes serotype 1/2a str. 95-0093
+GCF_002213705.1	Listeria monocytogenes serotype 1/2a str. 98-2035
+GCF_002213725.1	Listeria monocytogenes serotype 1/2a str. 99-6370
+GCF_002213745.1	Listeria monocytogenes serotype 1/2c str. 10-5025
+GCF_002213765.1	Listeria monocytogenes serotype 1/2c str. 10-5026
+GCF_002213785.1	Listeria monocytogenes serotype 3c str. 10-5027
+GCF_002213805.1	Listeria monocytogenes serotype 1/2a str. 10-4754
+GCF_002213825.1	Listeria monocytogenes serotype 1/2a str. 10-4758
+GCF_002213845.1	Listeria monocytogenes serotype 1/2a str. 10-0933
+GCF_002213865.1	Listeria monocytogenes serotype 1/2a str. 10-0934
+GCF_002213885.1	Listeria monocytogenes serotype 4b str. 02-1103
+GCF_002213905.1	Listeria monocytogenes serotype 1/2a str. 10-5024
+GCF_002213925.1	Listeria monocytogenes serotype 4b str. 02-1289
+GCF_002213945.1	Listeria monocytogenes serotype 4b str. 02-1792
+GCF_002213965.1	Listeria monocytogenes serotype 4b str. 02-6680
+GCF_002213985.1	Listeria monocytogenes serotype 4b str. 81-0558
+GCF_002214005.1	Listeria monocytogenes serotype 4b str. 81-0592
+GCF_002214045.1	Listeria monocytogenes serotype 1/2a str. 10-0814
+GCF_002214065.1	Listeria monocytogenes serotype 4b str. 10-0809
+GCF_002214085.1	Listeria monocytogenes serotype 1/2b str. 10-0810
+GCF_002214105.1	Listeria monocytogenes serotype 1/2b str. 10-0811
+GCF_002214125.1	Listeria monocytogenes serotype 1/2a str. 10-0812
+GCF_002214145.1	Listeria monocytogenes serotype 1/2a str. 10-0813
+GCF_002220325.1	Listeria monocytogenes
+GCF_002285655.1	Listeria monocytogenes
+GCF_002285835.1	Listeria monocytogenes
+GCF_002557735.1	Listeria monocytogenes
+GCF_002557815.1	Listeria monocytogenes
+GCF_002831485.1	Listeria monocytogenes
+GCF_002843525.1	Listeria monocytogenes
+GCF_002848425.1	Listeria monocytogenes
+GCF_002848465.1	Listeria monocytogenes
+GCF_002848485.1	Listeria monocytogenes
+GCF_002848505.1	Listeria monocytogenes
+GCF_002969195.1	Listeria monocytogenes
+GCF_003030165.1	Listeria monocytogenes
+GCF_003030405.1	Listeria monocytogenes
+GCF_003031895.1	Listeria monocytogenes
+GCF_003031915.1	Listeria monocytogenes
+GCF_003031935.1	Listeria monocytogenes
+GCF_003031955.1	Listeria monocytogenes
+GCF_003031975.1	Listeria monocytogenes
+GCF_003032055.1	Listeria monocytogenes
+GCF_003032075.1	Listeria monocytogenes
+GCF_003043895.1	Listeria monocytogenes
+GCF_003144075.1	Listeria monocytogenes
+GCF_003390475.1	Listeria monocytogenes
+GCF_003409075.1	Listeria monocytogenes
+GCF_003433415.1	Listeria monocytogenes
+GCF_003722375.1	Listeria monocytogenes
+GCF_003812545.1	Listeria monocytogenes
+GCF_003812565.1	Listeria monocytogenes
+GCF_900187225.1	Listeria monocytogenes
+GCF_900231475.1	Listeria monocytogenes
+GCF_900231485.1	Listeria monocytogenes
+GCF_900275645.1	Listeria monocytogenes
+GCF_900637785.1	Listeria monocytogenes
+GCF_000027145.1	Listeria seeligeri serovar 1/2b str. SLCC3954
+GCF_900638015.1	Listeria grayi
+GCF_000195795.1	Listeria innocua Clip11262
+GCF_000060285.1	Listeria welshimeri serovar 6b str. SLCC5334
+GCF_900187315.1	Listeria welshimeri
