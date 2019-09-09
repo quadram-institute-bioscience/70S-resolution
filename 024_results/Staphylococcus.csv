@@ -1,0 +1,108 @@
+,Organism (NCBI),Accession Number,File Name,Species (GTDB),Number of Operons,Average Operon Size,Min Operon Size,Max Operon Size
+0,Staphylococcus aureus O46,GCF_000189455.2,GCF_000189455.2_ASM18945v3_genomic.gbff.gz,Staphylococcus aureus,4,5074.5,5024,5164
+1,Staphylococcus aureus subsp. aureus SA40,GCF_000470865.1,GCF_000470865.1_ASM47086v1_genomic.gbff.gz,Staphylococcus aureus,5,5261.6,5028,6008
+2,Staphylococcus aureus subsp. aureus,GCF_000769575.1,GCF_000769575.1_ASM76957v1_genomic.gbff.gz,Staphylococcus aureus,5,5316.0,5029,5979
+3,Staphylococcus aureus,GCF_000969225.1,GCF_000969225.1_ASM96922v1_genomic.gbff.gz,Staphylococcus aureus,5,5161.6,4967,5940
+4,Staphylococcus aureus,GCF_001019535.2,GCF_001019535.2_ASM101953v2_genomic.gbff.gz,Staphylococcus aureus,4,5125.25,4966,5234
+5,Staphylococcus aureus subsp. aureus,GCF_001549675.1,GCF_001549675.1_ASM154967v1_genomic.gbff.gz,Staphylococcus aureus,5,5388.8,5106,6185
+6,Staphylococcus aureus,GCF_001611385.1,GCF_001611385.1_ASM161138v1_genomic.gbff.gz,Staphylococcus aureus,4,5054.75,5027,5131
+7,Staphylococcus aureus,GCF_001640885.1,GCF_001640885.1_ASM164088v1_genomic.gbff.gz,Staphylococcus aureus,5,5281.8,5029,5974
+8,Staphylococcus aureus,GCF_001641025.1,GCF_001641025.1_ASM164102v1_genomic.gbff.gz,Staphylococcus aureus,5,5313.0,5029,5976
+9,Staphylococcus aureus subsp. aureus,GCF_001717645.1,GCF_001717645.1_ASM171764v3_genomic.gbff.gz,Staphylococcus aureus,4,5024.25,4966,5137
+10,Staphylococcus aureus,GCF_001879545.1,GCF_001879545.1_ASM187954v1_genomic.gbff.gz,Staphylococcus aureus,4,5120.5,4967,5216
+11,Staphylococcus aureus subsp. aureus,GCF_001887075.1,GCF_001887075.1_ASM188707v1_genomic.gbff.gz,Staphylococcus aureus,4,5129.25,5014,5216
+12,Staphylococcus aureus,GCF_002097595.2,GCF_002097595.2_ASM209759v2_genomic.gbff.gz,Staphylococcus aureus,4,5111.5,5012,5210
+13,Staphylococcus aureus,GCF_002202095.1,GCF_002202095.1_ASM220209v1_genomic.gbff.gz,Staphylococcus aureus,4,5102.0,5030,5151
+14,Staphylococcus aureus,GCF_002355355.1,GCF_002355355.1_ASM235535v1_genomic.gbff.gz,Staphylococcus aureus,4,5117.25,5029,5211
+15,Staphylococcus aureus,GCF_002633785.1,GCF_002633785.1_ASM263378v1_genomic.gbff.gz,Staphylococcus aureus,4,5090.25,5030,5138
+16,Staphylococcus aureus,GCF_900004855.1,GCF_900004855.1_BB155_genomic.gbff.gz,Staphylococcus aureus,5,5290.6,5088,6065
+17,Staphylococcus aureus,GCF_900474535.1,GCF_900474535.1_40853_C01_genomic.gbff.gz,Staphylococcus aureus,4,5113.5,5028,5215
+18,Staphylococcus aureus,GCF_900474695.1,GCF_900474695.1_41004_B01_genomic.gbff.gz,Staphylococcus aureus,4,5090.0,5028,5215
+19,Staphylococcus aureus,GCF_900478245.1,GCF_900478245.1_35910_A02_genomic.gbff.gz,Staphylococcus aureus,5,5291.0,5030,6096
+20,Staphylococcus carnosus subsp. carnosus TM300,GCF_000009405.1,GCF_000009405.1_ASM940v1_genomic.gbff.gz,Staphylococcus carnosus,4,5220.25,4906,5883
+21,Staphylococcus carnosus,GCF_001701005.1,GCF_001701005.1_ASM170100v1_genomic.gbff.gz,Staphylococcus carnosus,3,4970.0,4908,5094
+22,Staphylococcus epidermidis ATCC 12228,GCF_000007645.1,GCF_000007645.1_ASM764v1_genomic.gbff.gz,Staphylococcus epidermidis,5,5168.2,4919,5965
+23,Staphylococcus epidermidis RP62A,GCF_000011925.1,GCF_000011925.1_ASM1192v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4970.0,4922,5111
+24,Staphylococcus epidermidis PM221,GCF_000751035.1,GCF_000751035.1_PM221_genomic.gbff.gz,Staphylococcus epidermidis,4,4971.0,4922,5111
+25,Staphylococcus epidermidis,GCF_000759555.1,GCF_000759555.1_ASM75955v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4969.25,4921,5110
+26,Staphylococcus epidermidis,GCF_002085695.1,GCF_002085695.1_ASM208569v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4970.25,4922,5112
+27,Staphylococcus epidermidis,GCF_002215535.1,GCF_002215535.1_ASM221553v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4970.0,4922,5113
+28,Staphylococcus epidermidis,GCF_002850315.1,GCF_002850315.1_ASM285031v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4969.0,4921,5110
+29,Staphylococcus epidermidis,GCF_002944995.1,GCF_002944995.1_ASM294499v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4969.0,4921,5110
+30,Staphylococcus epidermidis,GCF_002954055.1,GCF_002954055.1_ASM295405v1_genomic.gbff.gz,Staphylococcus epidermidis,4,4968.75,4921,5110
+31,Staphylococcus epidermidis,GCF_900086615.1,GCF_900086615.1_BPH0662_genomic.gbff.gz,Staphylococcus epidermidis,5,5169.6,4922,5968
+32,Staphylococcus haemolyticus JCSC1435,GCF_000009865.1,GCF_000009865.1_ASM986v1_genomic.gbff.gz,Staphylococcus haemolyticus,5,5239.2,4998,5986
+33,Staphylococcus haemolyticus,GCF_001611955.1,GCF_001611955.1_ASM161195v1_genomic.gbff.gz,Staphylococcus haemolyticus,4,5052.25,4998,5113
+34,Staphylococcus haemolyticus,GCF_002906595.1,GCF_002906595.1_ASM290659v1_genomic.gbff.gz,Staphylococcus haemolyticus,4,5050.5,4996,5111
+35,Staphylococcus haemolyticus,GCF_002906615.1,GCF_002906615.1_ASM290661v1_genomic.gbff.gz,Staphylococcus haemolyticus,4,5049.5,4996,5107
+36,Staphylococcus haemolyticus,GCF_002952715.2,GCF_002952715.2_ASM295271v2_genomic.gbff.gz,Staphylococcus haemolyticus,4,5050.25,4996,5112
+37,Staphylococcus hyicus,GCF_000816085.1,GCF_000816085.1_ASM81608v1_genomic.gbff.gz,Staphylococcus hyicus,4,5203.25,5091,5379
+38,Staphylococcus hyicus,GCF_900474585.1,GCF_900474585.1_41315_E01_genomic.gbff.gz,Staphylococcus hyicus,4,5202.25,5090,5378
+39,Staphylococcus simulans,GCF_001559115.2,GCF_001559115.2_ASM155911v2_genomic.gbff.gz,Staphylococcus simulans,3,4964.333333333333,4906,5080
+40,Staphylococcus simulans,GCF_002386185.1,GCF_002386185.1_ASM238618v1_genomic.gbff.gz,Staphylococcus simulans,3,4962.666666666667,4904,5079
+41,Staphylococcus simulans,GCF_003006055.1,GCF_003006055.1_ASM300605v1_genomic.gbff.gz,Staphylococcus simulans,3,4963.333333333333,4905,5080
+42,Staphylococcus simulans,GCF_003006075.1,GCF_003006075.1_ASM300607v1_genomic.gbff.gz,Staphylococcus simulans,3,4963.666666666667,4905,5080
+43,Staphylococcus simulans,GCF_003076375.1,GCF_003076375.1_ASM307637v1_genomic.gbff.gz,Staphylococcus simulans,3,4963.666666666667,4905,5080
+44,Staphylococcus simulans,GCF_003096155.1,GCF_003096155.1_ASM309615v1_genomic.gbff.gz,Staphylococcus simulans,3,4963.666666666667,4905,5080
+45,Staphylococcus simulans,GCF_900474685.1,GCF_900474685.1_40961_B01_genomic.gbff.gz,Staphylococcus simulans,3,4963.666666666667,4904,5080
+46,Staphylococcus xylosus,GCF_000706685.1,GCF_000706685.1_ASM70668v1_genomic.gbff.gz,Staphylococcus xylosus,4,5142.0,5142,5142
+47,Staphylococcus xylosus,GCF_000709415.1,GCF_000709415.1_ASM70941v1_genomic.gbff.gz,Staphylococcus xylosus,3,5019.0,4955,5142
+48,Staphylococcus xylosus,GCF_000953575.1,GCF_000953575.1_Staphylococcus_xylosus_C2a_genomic.gbff.gz,Staphylococcus xylosus,4,5274.5,4958,6037
+49,Staphylococcus xylosus,GCF_002078255.1,GCF_002078255.1_ASM207825v1_genomic.gbff.gz,Staphylococcus xylosus,3,5020.0,4959,5142
+50,Staphylococcus warneri SG1,GCF_000332735.1,GCF_000332735.1_ASM33273v1_genomic.gbff.gz,Staphylococcus warneri,5,5233.6,5041,6004
+51,Staphylococcus muscae,GCF_003019275.1,GCF_003019275.1_ASM301927v1_genomic.gbff.gz,Staphylococcus muscae,4,5125.75,4994,5207
+52,Staphylococcus muscae,GCF_900187005.1,GCF_900187005.1_50569_B01_genomic.gbff.gz,Staphylococcus muscae,4,5126.5,4995,5208
+53,Staphylococcus schleiferi,GCF_001188855.1,GCF_001188855.1_ASM118885v1_genomic.gbff.gz,Staphylococcus schleiferi,4,4963.75,4908,5116
+54,Staphylococcus schleiferi,GCF_001188875.1,GCF_001188875.1_ASM118887v1_genomic.gbff.gz,Staphylococcus schleiferi,5,5161.6,4912,5948
+55,Staphylococcus schleiferi,GCF_001188895.1,GCF_001188895.1_ASM118889v1_genomic.gbff.gz,Staphylococcus schleiferi,4,4964.75,4911,5116
+56,Staphylococcus schleiferi,GCF_001188915.1,GCF_001188915.1_ASM118891v1_genomic.gbff.gz,Staphylococcus schleiferi,4,4965.0,4911,5116
+57,Staphylococcus schleiferi,GCF_001548255.1,GCF_001548255.1_ASM154825v1_genomic.gbff.gz,Staphylococcus schleiferi,5,5145.2,4914,5859
+58,Staphylococcus sciuri,GCF_002209165.2,GCF_002209165.2_ASM220916v2_genomic.gbff.gz,Staphylococcus A sciuri,4,5062.25,4928,5162
+59,Staphylococcus sciuri subsp. sciuri,GCF_900474615.1,GCF_900474615.1_40295_D02_genomic.gbff.gz,Staphylococcus A sciuri,4,5003.75,4928,5116
+60,Staphylococcus lugdunensis HKU09-01,GCF_000025085.1,GCF_000025085.1_ASM2508v1_genomic.gbff.gz,Staphylococcus lugdunensis,4,5206.25,5146,5245
+61,Staphylococcus lugdunensis N920143,GCF_000270465.1,GCF_000270465.1_ASM27046v1_genomic.gbff.gz,Staphylococcus lugdunensis,4,5432.0,5145,6158
+62,Staphylococcus lugdunensis,GCF_001558775.1,GCF_001558775.1_ASM155877v1_genomic.gbff.gz,Staphylococcus lugdunensis,4,5189.75,5147,5318
+63,Staphylococcus lugdunensis,GCF_001558815.2,GCF_001558815.2_ASM155881v2_genomic.gbff.gz,Staphylococcus lugdunensis,4,5186.5,5143,5244
+64,Staphylococcus lugdunensis,GCF_002073395.2,GCF_002073395.2_ASM207339v2_genomic.gbff.gz,Staphylococcus lugdunensis,5,5371.8,5144,6109
+65,Staphylococcus lugdunensis,GCF_002250095.2,GCF_002250095.2_ASM225009v2_genomic.gbff.gz,Staphylococcus lugdunensis,6,5494.166666666667,5147,6112
+66,Staphylococcus lugdunensis,GCF_002407165.1,GCF_002407165.1_ASM240716v1_genomic.gbff.gz,Staphylococcus lugdunensis,4,5188.25,5145,5316
+67,Staphylococcus lugdunensis,GCF_002591215.1,GCF_002591215.1_ASM259121v1_genomic.gbff.gz,Staphylococcus lugdunensis,4,5189.25,5145,5318
+68,Staphylococcus lugdunensis,GCF_900474705.1,GCF_900474705.1_41236_B02_genomic.gbff.gz,Staphylococcus lugdunensis,4,5156.25,5144,5192
+69,Staphylococcus lugdunensis,GCF_900478255.1,GCF_900478255.1_34211_E02_genomic.gbff.gz,Staphylococcus lugdunensis,5,5372.0,5144,6110
+70,Staphylococcus auricularis,GCF_900478415.1,GCF_900478415.1_35910_E02_genomic.gbff.gz,Staphylococcus auricularis,5,5142.2,4887,5970
+71,Staphylococcus cohnii,GCF_002984565.1,GCF_002984565.1_ASM298456v1_genomic.gbff.gz,Staphylococcus cohnii A,4,4995.75,4949,5136
+72,Staphylococcus kloosii,GCF_003019255.1,GCF_003019255.1_ASM301925v1_genomic.gbff.gz,Staphylococcus kloosii,5,5266.2,4940,6072
+73,Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305,GCF_000010125.1,GCF_000010125.1_ASM1012v1_genomic.gbff.gz,Staphylococcus saprophyticus,4,5000.0,4954,5137
+74,Staphylococcus saprophyticus,GCF_001558275.2,GCF_001558275.2_ASM155827v2_genomic.gbff.gz,Staphylococcus saprophyticus,4,4998.75,4953,5136
+75,Staphylococcus saprophyticus,GCF_001558375.2,GCF_001558375.2_ASM155837v2_genomic.gbff.gz,Staphylococcus saprophyticus,4,4998.5,4952,5136
+76,Staphylococcus saprophyticus,GCF_002208905.1,GCF_002208905.1_ASM220890v2_genomic.gbff.gz,Staphylococcus saprophyticus,4,4998.75,4953,5136
+77,Staphylococcus saprophyticus,GCF_002209265.1,GCF_002209265.1_ASM220926v2_genomic.gbff.gz,Staphylococcus saprophyticus,4,4998.25,4951,5135
+78,Staphylococcus capitis subsp. capitis,GCF_001028645.1,GCF_001028645.1_ASM102864v1_genomic.gbff.gz,Staphylococcus capitis,4,4974.0,4900,5141
+79,Staphylococcus capitis,GCF_002356175.1,GCF_002356175.1_ASM235617v1_genomic.gbff.gz,Staphylococcus capitis,5,5243.4,5029,5914
+80,Staphylococcus capitis,GCF_002591175.1,GCF_002591175.1_ASM259117v1_genomic.gbff.gz,Staphylococcus capitis,4,5042.0,4898,5215
+81,Staphylococcus pasteuri SP1,GCF_000494875.1,GCF_000494875.1_ASM49487v1_genomic.gbff.gz,Staphylococcus warneri,5,5243.8,4999,6003
+82,Staphylococcus pasteuri,GCF_002442915.1,GCF_002442915.1_ASM244291v1_genomic.gbff.gz,Staphylococcus pasteuri,4,5021.0,4915,5091
+83,Staphylococcus felis,GCF_003012915.1,GCF_003012915.1_ASM301291v1_genomic.gbff.gz,Staphylococcus felis,4,5096.0,5050,5234
+84,Staphylococcus succinus,GCF_001902315.1,GCF_001902315.1_ASM190231v1_genomic.gbff.gz,Staphylococcus succinus,4,5005.75,4957,5150
+85,Staphylococcus condimenti,GCF_001618885.1,GCF_001618885.1_ASM161888v1_genomic.gbff.gz,Staphylococcus condimenti,3,4969.666666666667,4907,5094
+86,Staphylococcus condimenti,GCF_001922405.1,GCF_001922405.1_ASM192240v1_genomic.gbff.gz,Staphylococcus condimenti,4,5221.25,4907,5977
+87,Staphylococcus piscifermentans,GCF_900186985.1,GCF_900186985.1_50377_C01_genomic.gbff.gz,Staphylococcus piscifermentans,3,4967.0,4904,5093
+88,Staphylococcus lutrae,GCF_002101335.1,GCF_002101335.1_ASM210133v1_genomic.gbff.gz,Staphylococcus lutrae,4,4942.25,4894,5083
+89,Staphylococcus pettenkoferi,GCF_002208805.2,GCF_002208805.2_ASM220880v2_genomic.gbff.gz,Staphylococcus pettenkoferi,4,5065.5,5041,5137
+90,Staphylococcus nepalensis,GCF_002442895.1,GCF_002442895.1_ASM244289v1_genomic.gbff.gz,Staphylococcus nepalensis,4,4998.25,4951,5140
+91,Staphylococcus nepalensis,GCF_002442935.1,GCF_002442935.1_ASM244293v1_genomic.gbff.gz,Staphylococcus nepalensis,4,5245.75,4951,5941
+92,Staphylococcus nepalensis,GCF_003097555.1,GCF_003097555.1_ASM309755v1_genomic.gbff.gz,Staphylococcus nepalensis,4,4997.25,4950,5139
+93,Staphylococcus equorum,GCF_001432245.1,GCF_001432245.1_ASM143224v1_genomic.gbff.gz,Staphylococcus equorum B,5,4997.8,4959,5150
+94,Staphylococcus equorum,GCF_001682235.1,GCF_001682235.1_ASM168223v1_genomic.gbff.gz,Staphylococcus equorum B,3,5024.666666666667,4962,5150
+95,Staphylococcus equorum,GCF_001683315.1,GCF_001683315.1_ASM168331v1_genomic.gbff.gz,Staphylococcus equorum B,5,4999.4,4962,5149
+96,Staphylococcus pseudintermedius HKU10-03,GCF_000185885.1,GCF_000185885.1_ASM18588v1_genomic.gbff.gz,Staphylococcus pseudintermedius,4,5140.25,5059,5233
+97,Staphylococcus pseudintermedius ED99,GCF_000189495.1,GCF_000189495.1_ASM18949v1_genomic.gbff.gz,Staphylococcus pseudintermedius,5,5284.0,5059,6007
+98,Staphylococcus pseudintermedius,GCF_001682335.1,GCF_001682335.1_ASM168233v1_genomic.gbff.gz,Staphylococcus pseudintermedius,3,5021.0,4776,5229
+99,Staphylococcus pseudintermedius,GCF_001682435.2,GCF_001682435.2_ASM168243v2_genomic.gbff.gz,Staphylococcus pseudintermedius,4,5060.5,4893,5233
+100,Staphylococcus pseudintermedius,GCF_001685665.2,GCF_001685665.2_ASM168566v2_genomic.gbff.gz,Staphylococcus pseudintermedius,1,4769.0,4769,4769
+101,Staphylococcus simiae,GCF_900187055.1,GCF_900187055.1_50377_D01_genomic.gbff.gz,Staphylococcus simiae,4,4991.75,4910,5150
+102,Staphylococcus stepanovicii,GCF_900187075.1,GCF_900187075.1_50432_F01_genomic.gbff.gz,Staphylococcus A stepanovicii,4,5006.25,4930,5161
+103,Staphylococcus argenteus,GCF_000236925.1,GCF_000236925.1_ASM23692v1_genomic.gbff.gz,Staphylococcus argenteus,5,5273.8,5041,6100
+104,Staphylococcus argenteus,GCF_002812345.2,GCF_002812345.2_ASM281234v2_genomic.gbff.gz,Staphylococcus argenteus,5,5262.2,4965,6097
+105,Staphylococcus agnetis,GCF_001442815.1,GCF_001442815.1_ASM144281v1_genomic.gbff.gz,Staphylococcus agnetis,5,5404.0,5125,6211
+106,Staphylococcus sp. AntiMn-1,GCF_001663395.1,GCF_001663395.1_ASM166339v1_genomic.gbff.gz,Staphylococcus equorum B,5,4991.2,4931,5146

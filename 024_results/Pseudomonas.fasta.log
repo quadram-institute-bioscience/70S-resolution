@@ -1,0 +1,1194 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n114312.nbi.ac.uk (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -redo -s ./024_results/Pseudomonas.fasta -nt 8 -m HKY+G
+Seed:    461061 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep  9 13:39:34 2019
+Kernel:  AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file ./024_results/Pseudomonas.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 985 sequences with 8450 columns, 1992 distinct patterns
+1407 parsimony-informative, 525 singleton sites, 6518 constant sites
+                                                 Gap/Ambiguity  Composition  p-value
+   1  Pseudomonas.aeruginosa_A.000017205.00             38.99%    passed     97.28%
+   2  Pseudomonas.aeruginosa_A.000017205.01             38.99%    passed     97.28%
+   3  Pseudomonas.aeruginosa_A.000017205.02             38.99%    passed     96.77%
+   4  Pseudomonas.aeruginosa_A.000017205.03             38.99%    passed     96.92%
+   5  Pseudomonas.aeruginosa.000026645.00               38.97%    passed     96.68%
+   6  Pseudomonas.aeruginosa.000026645.01               38.97%    passed     97.59%
+   7  Pseudomonas.aeruginosa.000026645.02               38.97%    passed     97.59%
+   8  Pseudomonas.aeruginosa.000026645.03               38.97%    passed     98.07%
+   9  Pseudomonas.aeruginosa.000271365.00               38.97%    passed     98.07%
+  10  Pseudomonas.aeruginosa.000271365.01               38.97%    passed     97.59%
+  11  Pseudomonas.aeruginosa.000271365.02               38.97%    passed     97.59%
+  12  Pseudomonas.aeruginosa.000271365.03               38.97%    passed     97.59%
+  13  Pseudomonas.aeruginosa.000359505.00               38.96%    passed     97.11%
+  14  Pseudomonas.aeruginosa.000359505.01               38.96%    passed     97.39%
+  15  Pseudomonas.aeruginosa.000359505.02               38.96%    passed     97.59%
+  16  Pseudomonas.aeruginosa.000359505.03               38.96%    passed     97.14%
+  17  Pseudomonas.aeruginosa.000829255.00               38.98%    passed     98.45%
+  18  Pseudomonas.aeruginosa.000829255.01               38.98%    passed     98.45%
+  19  Pseudomonas.aeruginosa.000829255.02               38.98%    passed     97.76%
+  20  Pseudomonas.aeruginosa.000829255.03               38.98%    passed     98.45%
+  21  Pseudomonas.aeruginosa.001447845.00               38.97%    passed     95.58%
+  22  Pseudomonas.aeruginosa.001447845.01               38.97%    passed     95.58%
+  23  Pseudomonas.aeruginosa.001447845.02               38.98%    passed     95.82%
+  24  Pseudomonas.aeruginosa.001447845.03               38.98%    passed     96.08%
+  25  Pseudomonas.aeruginosa.001516205.00               38.97%    passed     97.02%
+  26  Pseudomonas.aeruginosa.001516205.01               38.97%    passed     96.28%
+  27  Pseudomonas.aeruginosa.001516205.02               38.96%    passed     98.40%
+  28  Pseudomonas.aeruginosa.001516205.03               38.97%    passed     97.02%
+  29  Pseudomonas.aeruginosa.001516225.00               38.98%    passed     96.89%
+  30  Pseudomonas.aeruginosa.001516225.01               38.96%    passed     97.39%
+  31  Pseudomonas.aeruginosa.001516225.02               38.97%    passed     98.07%
+  32  Pseudomonas.aeruginosa.001516225.03               38.97%    passed     97.36%
+  33  Pseudomonas.aeruginosa.001594325.00               38.96%    passed     96.75%
+  34  Pseudomonas.aeruginosa.001594325.01               38.97%    passed     97.59%
+  35  Pseudomonas.aeruginosa.001594325.02               38.97%    passed     97.59%
+  36  Pseudomonas.aeruginosa.001594325.03               38.96%    passed     96.83%
+  37  Pseudomonas.aeruginosa.001721785.00               38.97%    passed     97.06%
+  38  Pseudomonas.aeruginosa.001721785.01               38.96%    passed     96.55%
+  39  Pseudomonas.aeruginosa.001721785.02               38.96%    passed     97.45%
+  40  Pseudomonas.aeruginosa.001721785.03               38.98%    passed     96.89%
+  41  Pseudomonas.aeruginosa.001721845.00               38.99%    passed     97.44%
+  42  Pseudomonas.aeruginosa.001721845.01               38.97%    passed     96.75%
+  43  Pseudomonas.aeruginosa.001721845.02               38.97%    passed     97.61%
+  44  Pseudomonas.aeruginosa.001721845.03               38.99%    passed     97.07%
+  45  Pseudomonas.aeruginosa.001722045.00               38.97%    passed     97.06%
+  46  Pseudomonas.aeruginosa.001722045.01               38.96%    passed     96.55%
+  47  Pseudomonas.aeruginosa.001722045.02               38.96%    passed     97.45%
+  48  Pseudomonas.aeruginosa.001722045.03               38.99%    passed     97.07%
+  49  Pseudomonas.aeruginosa.001900265.00               38.96%    passed     97.70%
+  50  Pseudomonas.aeruginosa.001900265.03               38.96%    passed     97.70%
+  51  Pseudomonas.aeruginosa.001900265.04               38.96%    passed     97.70%
+  52  Pseudomonas.aeruginosa.002205335.00               38.97%    passed     97.30%
+  53  Pseudomonas.aeruginosa.002205335.01               38.97%    passed     98.81%
+  54  Pseudomonas.aeruginosa.002205335.02               38.98%    passed     97.76%
+  55  Pseudomonas.aeruginosa.002205335.03               38.96%    passed     97.70%
+  56  Pseudomonas.aeruginosa.002205375.00               38.98%    passed     97.46%
+  57  Pseudomonas.aeruginosa.002205375.01               38.99%    passed     96.48%
+  58  Pseudomonas.aeruginosa.002205375.02               38.96%    passed     96.15%
+  59  Pseudomonas.aeruginosa.002205375.03               38.97%    passed     97.59%
+  60  Pseudomonas.aeruginosa.002223805.00               38.98%    passed     98.45%
+  61  Pseudomonas.aeruginosa.002223805.01               38.96%    passed     97.14%
+  62  Pseudomonas.aeruginosa.002223805.02               38.98%    passed     97.20%
+  63  Pseudomonas.aeruginosa.002223805.03               38.96%    passed     98.17%
+  64  Pseudomonas.aeruginosa.002237405.00               38.98%    passed     97.46%
+  65  Pseudomonas.aeruginosa.002237405.01               38.98%    passed     96.68%
+  66  Pseudomonas.aeruginosa.002237405.02               38.98%    passed     96.51%
+  67  Pseudomonas.aeruginosa.002237405.03               38.99%    passed     96.73%
+  68  Pseudomonas.aeruginosa.002237425.00               38.98%    passed     96.51%
+  69  Pseudomonas.aeruginosa.002237425.01               38.98%    passed     96.51%
+  70  Pseudomonas.aeruginosa.002237425.02               38.98%    passed     96.68%
+  71  Pseudomonas.aeruginosa.002237425.03               38.98%    passed     97.46%
+  72  Pseudomonas.aeruginosa.002812885.00               38.97%    passed     97.02%
+  73  Pseudomonas.aeruginosa.002812885.01               38.97%    passed     97.02%
+  74  Pseudomonas.aeruginosa.002812885.02               38.97%    passed     96.55%
+  75  Pseudomonas.aeruginosa.002812885.03               38.97%    passed     96.89%
+  76  Pseudomonas.aeruginosa.002812925.00               38.98%    passed     98.45%
+  77  Pseudomonas.aeruginosa.002812925.01               38.98%    passed     98.45%
+  78  Pseudomonas.aeruginosa.002812925.02               38.99%    passed     97.91%
+  79  Pseudomonas.aeruginosa.002812925.03               38.98%    passed     98.45%
+  80  Pseudomonas.aeruginosa_A.002968755.00             38.99%    passed     96.77%
+  81  Pseudomonas.aeruginosa_A.002968755.01             38.99%    passed     96.83%
+  82  Pseudomonas.aeruginosa_A.002968755.02             38.98%    passed     97.10%
+  83  Pseudomonas.aeruginosa_A.002968755.03             38.99%    passed     98.12%
+  84  Pseudomonas.aeruginosa.002968955.00               38.99%    passed     98.57%
+  85  Pseudomonas.aeruginosa.002968955.01               38.98%    passed     98.82%
+  86  Pseudomonas.aeruginosa.002968955.02               38.98%    passed     97.76%
+  87  Pseudomonas.aeruginosa.002968955.03               38.98%    passed     98.45%
+  88  Pseudomonas.aeruginosa_A.003025345.00             38.99%    passed     97.13%
+  89  Pseudomonas.aeruginosa_A.003025345.01             38.99%    passed     96.77%
+  90  Pseudomonas.aeruginosa_A.003025345.02             38.99%    passed     96.77%
+  91  Pseudomonas.aeruginosa_A.003025345.03             39.01%    passed     97.53%
+  92  Pseudomonas.aeruginosa.003028335.00               38.98%    passed     98.45%
+  93  Pseudomonas.aeruginosa.003028335.01               38.98%    passed     98.45%
+  94  Pseudomonas.aeruginosa.003028335.02               38.98%    passed     98.18%
+  95  Pseudomonas.aeruginosa.003028335.03               38.99%    passed     98.57%
+  96  Pseudomonas.aeruginosa_A.003073695.00             39.03%    passed     97.57%
+  97  Pseudomonas.aeruginosa_A.003073695.01             39.04%    passed     98.68%
+  98  Pseudomonas.aeruginosa_A.003073695.02             38.98%    passed     96.53%
+  99  Pseudomonas.aeruginosa_A.003073695.03             39.04%    passed     97.19%
+ 100  Pseudomonas_E.marginalis.000009225.00             35.61%    passed     82.64%
+ 101  Pseudomonas_E.marginalis.000009225.01             38.27%    passed     90.62%
+ 102  Pseudomonas_E.marginalis.000009225.02             38.27%    passed     91.71%
+ 103  Pseudomonas_E.marginalis.000009225.03             38.27%    passed     91.52%
+ 104  Pseudomonas_E.marginalis.000009225.04             38.27%    passed     93.88%
+ 105  Pseudomonas_E.fluorescens_AR.000012445.00         35.63%    passed     98.34%
+ 106  Pseudomonas_E.fluorescens_AR.000012445.01         38.25%    passed     99.47%
+ 107  Pseudomonas_E.fluorescens_AR.000012445.02         38.25%    passed     99.74%
+ 108  Pseudomonas_E.fluorescens_AR.000012445.03         38.26%    passed     99.91%
+ 109  Pseudomonas_E.fluorescens_AR.000012445.04         38.37%    passed     99.56%
+ 110  Pseudomonas_E.fluorescens_AR.000012445.05         38.25%    passed     99.47%
+ 111  Pseudomonas_E.kilonensis.000237065.00             35.72%    passed     99.86%
+ 112  Pseudomonas_E.kilonensis.000237065.01             38.36%    passed     99.10%
+ 113  Pseudomonas_E.kilonensis.000237065.02             38.34%    passed     98.95%
+ 114  Pseudomonas_E.kilonensis.000237065.03             38.36%    passed     99.10%
+ 115  Pseudomonas_E.kilonensis.000237065.04             38.36%    passed     99.10%
+ 116  Pseudomonas_E.sp002966775.000262325.00            35.66%    passed     82.17%
+ 117  Pseudomonas_E.sp002966775.000262325.01            38.15%    passed     80.02%
+ 118  Pseudomonas_E.sp002966775.000262325.02            38.31%    passed     90.66%
+ 119  Pseudomonas_E.sp002966775.000262325.03            38.17%    passed     81.27%
+ 120  Pseudomonas_E.sp002966775.000262325.04            38.32%    passed     89.70%
+ 121  Pseudomonas_E.sp002966775.000262325.05            38.32%    passed     89.41%
+ 122  Pseudomonas_E.fluorescens_B.000293885.01          38.47%    passed     98.91%
+ 123  Pseudomonas_E.fluorescens_B.000293885.02          35.68%    passed     91.43%
+ 124  Pseudomonas_E.fluorescens_B.000293885.03          38.78%    passed     97.73%
+ 125  Pseudomonas_E.fluorescens_B.000293885.04          38.30%    passed     98.37%
+ 126  Pseudomonas_E.fluorescens_B.000293885.05          38.47%    passed     98.91%
+ 127  Pseudomonas_E.fluorescens_X.000730425.01          38.14%    passed     95.69%
+ 128  Pseudomonas_E.fluorescens_X.000730425.02          35.50%    passed     86.97%
+ 129  Pseudomonas_E.fluorescens_X.000730425.03          38.14%    passed     93.82%
+ 130  Pseudomonas_E.fluorescens_X.000730425.04          38.14%    passed     94.79%
+ 131  Pseudomonas_E.fluorescens_X.000730425.05          38.14%    passed     95.69%
+ 132  Pseudomonas_E.simiae.000934565.00                 35.51%    passed     55.33%
+ 133  Pseudomonas_E.simiae.000934565.01                 38.28%    passed     74.53%
+ 134  Pseudomonas_E.simiae.000934565.02                 38.18%    passed     68.13%
+ 135  Pseudomonas_E.simiae.000934565.03                 40.66%    passed     60.05%
+ 136  Pseudomonas_E.simiae.000934565.04                 38.18%    passed     72.39%
+ 137  Pseudomonas_E.simiae.000934565.05                 38.18%    passed     67.13%
+ 138  Pseudomonas_E.simiae.000963495.00                 37.81%    passed     73.80%
+ 139  Pseudomonas_E.simiae.000963495.01                 35.62%    passed     66.37%
+ 140  Pseudomonas_E.simiae.000963495.02                 37.81%    passed     73.80%
+ 141  Pseudomonas_E.simiae.000963495.03                 38.28%    passed     80.15%
+ 142  Pseudomonas_E.simiae.000963495.04                 40.66%    passed     63.71%
+ 143  Pseudomonas_E.simiae.000963495.05                 37.81%    passed     75.59%
+ 144  Pseudomonas_E.fluorescens_E.001307155.00          38.37%    passed     98.52%
+ 145  Pseudomonas_E.fluorescens_E.001307155.01          38.40%    passed     98.51%
+ 146  Pseudomonas_E.fluorescens_E.001307155.02          37.94%    passed     83.34%
+ 147  Pseudomonas_E.fluorescens_E.001307155.03          38.43%    passed     97.55%
+ 148  Pseudomonas_E.fluorescens_E.001307155.04          38.37%    passed     98.52%
+ 149  Pseudomonas_E.fluorescens_E.001307155.05          38.38%    passed     98.25%
+ 150  Pseudomonas_E.fluorescens_AA.001307275.00         37.95%    passed     99.58%
+ 151  Pseudomonas_E.fluorescens_AA.001307275.01         35.31%    passed     99.49%
+ 152  Pseudomonas_E.fluorescens_AA.001307275.02         38.18%    passed     98.58%
+ 153  Pseudomonas_E.fluorescens_AA.001307275.03         37.96%    passed     99.42%
+ 154  Pseudomonas_E.fluorescens_AA.001307275.04         38.18%    passed     98.82%
+ 155  Pseudomonas_E.fluorescens_AN.001708445.00         38.28%    passed     95.53%
+ 156  Pseudomonas_E.fluorescens_AN.001708465.01         38.28%    passed     95.08%
+ 157  Pseudomonas_E.sp002966775.001747385.00            38.37%    passed     89.53%
+ 158  Pseudomonas_E.sp002966775.001747385.01            38.33%    passed     88.81%
+ 159  Pseudomonas_E.sp002966775.001747385.02            38.17%    passed     80.65%
+ 160  Pseudomonas_E.sp002966775.001747385.03            38.31%    passed     86.81%
+ 161  Pseudomonas_E.sp002966775.001747385.04            35.64%    passed     79.48%
+ 162  Pseudomonas_E.sp002966775.001747385.05            38.32%    passed     89.12%
+ 163  Pseudomonas_E.fluorescens_AR.003055645.00         35.24%    passed     97.69%
+ 164  Pseudomonas_E.fluorescens_AR.003055645.01         38.37%    passed     99.55%
+ 165  Pseudomonas_E.fluorescens_AR.003055645.02         38.15%    passed     97.76%
+ 166  Pseudomonas_E.fluorescens_AR.003055645.03         37.86%    passed     99.56%
+ 167  Pseudomonas_E.fluorescens_AR.003055645.04         38.15%    passed     97.40%
+ 168  Pseudomonas_E.fluorescens_AR.003055645.05         38.67%    passed     98.64%
+ 169  Pseudomonas_E.fluorescens.900475215.00            40.25%    passed     62.36%
+ 170  Pseudomonas_E.fluorescens.900475215.01            35.43%    passed     72.92%
+ 171  Pseudomonas_E.fluorescens.900475215.02            38.09%    passed     84.71%
+ 172  Pseudomonas_E.fluorescens.900475215.03            38.09%    passed     81.30%
+ 173  Pseudomonas_E.fluorescens.900475215.04            38.09%    passed     86.48%
+ 174  Pseudomonas_E.fluorescens.900475215.05            38.09%    passed     82.77%
+ 175  Pseudomonas_E.sp000346225.001543265.00            37.82%    passed     52.30%
+ 176  Pseudomonas_E.sp000346225.001543265.01            37.82%    passed     52.11%
+ 177  Pseudomonas_E.sp000346225.001543265.02            37.82%    passed     54.09%
+ 178  Pseudomonas_E.sp000346225.001543265.03            38.20%    passed     50.72%
+ 179  Pseudomonas_E.sp000346225.001543265.04            32.62%    passed     12.82%
+ 180  Pseudomonas_E.fragi.002128325.00                  40.62%    passed     39.51%
+ 181  Pseudomonas_E.fragi.002128325.01                  40.76%    passed     58.22%
+ 182  Pseudomonas_E.mendocina_A.000016565.00            38.26%    passed     93.24%
+ 183  Pseudomonas_E.mendocina_A.000016565.01            38.26%    passed     92.15%
+ 184  Pseudomonas_E.mendocina_A.000016565.02            38.26%    passed     92.15%
+ 185  Pseudomonas_E.mendocina_A.000016565.03            38.27%    passed     91.59%
+ 186  Pseudomonas_E.mendocina.000204295.00              38.50%    passed     99.40%
+ 187  Pseudomonas_E.mendocina.000204295.01              38.50%    passed     99.53%
+ 188  Pseudomonas_E.mendocina.000204295.02              38.50%    passed     99.68%
+ 189  Pseudomonas_E.mendocina.000204295.03              38.50%    passed     99.53%
+ 190  Pseudomonas_E.mendocina.000733715.00              38.51%    passed     99.47%
+ 191  Pseudomonas_E.mendocina.000733715.01              38.51%    passed     99.47%
+ 192  Pseudomonas_E.mendocina.000733715.02              38.51%    passed     99.47%
+ 193  Pseudomonas_E.mendocina.000733715.03              38.51%    passed     99.64%
+ 194  Pseudomonas_E.mendocina_A.002442555.00            38.27%    passed     88.70%
+ 195  Pseudomonas_E.mendocina_A.002442555.01            38.60%    passed     93.14%
+ 196  Pseudomonas_E.mendocina_A.002442555.02            38.27%    passed     89.42%
+ 197  Pseudomonas_E.mendocina_A.002442555.03            38.26%    passed     89.11%
+ 198  Pseudomonas_E.mendocina_C.003008615.00            38.46%    passed     99.52%
+ 199  Pseudomonas_E.mendocina_C.003008615.01            38.46%    passed     99.52%
+ 200  Pseudomonas_E.mendocina_C.003008615.02            38.46%    passed     99.52%
+ 201  Pseudomonas_E.mendocina_C.003008615.03            38.46%    passed     99.52%
+ 202  Pseudomonas_E.hunanensis.000007565.01             41.36%    passed     99.70%
+ 203  Pseudomonas_E.hunanensis.000007565.02             38.70%    passed     98.91%
+ 204  Pseudomonas_E.hunanensis.000007565.03             41.22%    passed     99.50%
+ 205  Pseudomonas_E.hunanensis.000007565.04             38.70%    passed     98.92%
+ 206  Pseudomonas_E.hunanensis.000007565.05             37.93%    passed     96.43%
+ 207  Pseudomonas_E.hunanensis.000016865.00             38.53%    passed     98.39%
+ 208  Pseudomonas_E.hunanensis.000016865.01             38.96%    passed     99.65%
+ 209  Pseudomonas_E.hunanensis.000016865.02             41.05%    passed     98.93%
+ 210  Pseudomonas_E.hunanensis.000016865.03             38.96%    passed     99.60%
+ 211  Pseudomonas_E.hunanensis.000016865.04             38.69%    passed     99.38%
+ 212  Pseudomonas_E.hunanensis.000016865.05             38.69%    passed     99.31%
+ 213  Pseudomonas_E.putida_P.000019125.01               41.30%    passed     99.93%
+ 214  Pseudomonas_E.putida_P.000019125.02               38.58%    passed     99.64%
+ 215  Pseudomonas_E.putida_P.000019125.03               38.58%    passed     99.76%
+ 216  Pseudomonas_E.putida_P.000019125.04               41.30%    passed     99.96%
+ 217  Pseudomonas_E.putida_P.000019125.05               41.30%    passed     99.91%
+ 218  Pseudomonas_E.putida_E.000019445.00               38.76%    passed     97.66%
+ 219  Pseudomonas_E.putida_E.000019445.01               39.08%    passed     99.29%
+ 220  Pseudomonas_E.putida_E.000019445.02               39.08%    passed     99.29%
+ 221  Pseudomonas_E.putida_E.000019445.03               38.76%    passed     97.26%
+ 222  Pseudomonas_E.putida_E.000019445.04               40.90%    passed     95.99%
+ 223  Pseudomonas_E.hunanensis.000183645.01             41.21%    passed     99.36%
+ 224  Pseudomonas_E.hunanensis.000183645.02             38.54%    passed     99.40%
+ 225  Pseudomonas_E.hunanensis.000183645.03             41.07%    passed     99.21%
+ 226  Pseudomonas_E.hunanensis.000183645.04             38.53%    passed     99.59%
+ 227  Pseudomonas_E.hunanensis.000183645.05             37.75%    passed     97.34%
+ 228  Pseudomonas_E.monteilii_B.000219705.00            38.26%    passed    100.00%
+ 229  Pseudomonas_E.monteilii_B.000219705.01            40.90%    passed     98.90%
+ 230  Pseudomonas_E.monteilii_B.000219705.02            40.90%    passed     99.10%
+ 231  Pseudomonas_E.monteilii_B.000219705.03            40.90%    passed     99.59%
+ 232  Pseudomonas_E.monteilii_B.000219705.04            40.86%    passed     98.78%
+ 233  Pseudomonas_E.monteilii_B.000219705.05            40.90%    passed     99.41%
+ 234  Pseudomonas_E.hunanensis.000226035.01             39.10%    passed     99.95%
+ 235  Pseudomonas_E.hunanensis.000226035.02             17.73%    passed     98.64%
+ 236  Pseudomonas_E.hunanensis.000226035.03             41.21%    passed     99.24%
+ 237  Pseudomonas_E.hunanensis.000226035.06             39.09%    passed     99.85%
+ 238  Pseudomonas_E.hunanensis.000264665.00             38.67%    passed     99.51%
+ 239  Pseudomonas_E.hunanensis.000264665.01             38.67%    passed     99.56%
+ 240  Pseudomonas_E.hunanensis.000264665.02             38.40%    passed     98.10%
+ 241  Pseudomonas_E.hunanensis.000264665.03             39.10%    passed     99.74%
+ 242  Pseudomonas_E.hunanensis.000264665.04             41.05%    passed     98.92%
+ 243  Pseudomonas_E.hunanensis.000264665.05             38.96%    passed     99.75%
+ 244  Pseudomonas_E.hunanensis.000271965.00             38.53%    passed     97.85%
+ 245  Pseudomonas_E.hunanensis.000271965.01             38.53%    passed     99.65%
+ 246  Pseudomonas_E.hunanensis.000271965.02             38.69%    passed     99.62%
+ 247  Pseudomonas_E.hunanensis.000271965.03             38.69%    passed     99.62%
+ 248  Pseudomonas_E.hunanensis.000271965.04             38.69%    passed     99.57%
+ 249  Pseudomonas_E.hunanensis.000271965.05             38.69%    passed     99.70%
+ 250  Pseudomonas_E.monteilii_B.000325725.01            41.30%    passed     99.93%
+ 251  Pseudomonas_E.monteilii_B.000325725.02            41.05%    passed     98.93%
+ 252  Pseudomonas_E.monteilii_B.000325725.03            38.54%    passed     99.34%
+ 253  Pseudomonas_E.monteilii_B.000325725.04            41.30%    passed     99.96%
+ 254  Pseudomonas_E.monteilii_B.000325725.05            37.78%    passed     97.50%
+ 255  Pseudomonas_E.putida_H.000410575.00               38.96%    passed     97.84%
+ 256  Pseudomonas_E.putida_H.000410575.01               41.30%    passed     99.93%
+ 257  Pseudomonas_E.putida_H.000410575.02               38.58%    passed     99.64%
+ 258  Pseudomonas_E.putida_H.000410575.03               38.59%    passed     99.80%
+ 259  Pseudomonas_E.putida_H.000410575.05               37.78%    passed     97.50%
+ 260  Pseudomonas_E.putida.000412675.01                 39.05%    passed     99.61%
+ 261  Pseudomonas_E.putida.000412675.02                 40.80%    passed     99.36%
+ 262  Pseudomonas_E.putida.000412675.03                 40.80%    passed     99.43%
+ 263  Pseudomonas_E.putida.000412675.04                 38.63%    passed     99.78%
+ 264  Pseudomonas_E.putida.000412675.05                 38.62%    passed     99.67%
+ 265  Pseudomonas_E.hunanensis.000495455.00             38.54%    passed     99.34%
+ 266  Pseudomonas_E.hunanensis.000495455.01             38.54%    passed     99.03%
+ 267  Pseudomonas_E.hunanensis.000495455.02             38.54%    passed     99.28%
+ 268  Pseudomonas_E.hunanensis.000495455.03             38.54%    passed     99.34%
+ 269  Pseudomonas_E.hunanensis.000495455.04             38.64%    passed     99.36%
+ 270  Pseudomonas_E.hunanensis.000495455.05             38.78%    passed     99.49%
+ 271  Pseudomonas_E.putida_Q.000498395.00               40.88%    passed     99.50%
+ 272  Pseudomonas_E.putida_Q.000498395.01               38.64%    passed     99.57%
+ 273  Pseudomonas_E.putida_Q.000498395.02               38.64%    passed     99.42%
+ 274  Pseudomonas_E.putida_Q.000498395.04               40.86%    passed     99.23%
+ 275  Pseudomonas_E.putida_Q.000498395.05               38.64%    passed     99.51%
+ 276  Pseudomonas_E.mosselii.001515585.00               39.01%    passed     97.55%
+ 277  Pseudomonas_E.mosselii.001515585.01               39.01%    passed     98.11%
+ 278  Pseudomonas_E.mosselii.001515585.02               38.62%    passed     98.95%
+ 279  Pseudomonas_E.mosselii.001515585.03               38.66%    passed     97.48%
+ 280  Pseudomonas_E.mosselii.001515585.04               38.62%    passed     97.54%
+ 281  Pseudomonas_E.mosselii.001515585.05               38.62%    passed     97.27%
+ 282  Pseudomonas_E.mosselii.001515585.06               35.95%    passed     92.89%
+ 283  Pseudomonas_E.putida_B.001636055.00               36.17%    passed     97.31%
+ 284  Pseudomonas_E.putida_B.001636055.01               39.22%    passed     96.32%
+ 285  Pseudomonas_E.putida_B.001636055.02               39.22%    passed     95.11%
+ 286  Pseudomonas_E.putida_B.001636055.03               39.22%    passed     98.58%
+ 287  Pseudomonas_E.putida_B.001636055.04               38.02%    passed     96.44%
+ 288  Pseudomonas_E.putida_B.001636055.05               39.22%    passed     98.73%
+ 289  Pseudomonas_E.hunanensis.001767335.00             38.37%    passed     98.25%
+ 290  Pseudomonas_E.hunanensis.001767335.01             41.05%    passed     99.56%
+ 291  Pseudomonas_E.hunanensis.001767335.02             41.20%    passed     99.50%
+ 292  Pseudomonas_E.hunanensis.001767335.03             38.54%    passed     99.40%
+ 293  Pseudomonas_E.hunanensis.001767335.04             41.05%    passed     99.56%
+ 294  Pseudomonas_E.hunanensis.001767335.05             38.53%    passed     99.46%
+ 295  Pseudomonas_E.putida_P.001886975.01               41.30%    passed     99.91%
+ 296  Pseudomonas_E.putida_P.001886975.02               38.58%    passed     99.64%
+ 297  Pseudomonas_E.putida_P.001886975.03               38.58%    passed     99.71%
+ 298  Pseudomonas_E.putida_P.001886975.04               41.30%    passed     99.88%
+ 299  Pseudomonas_E.putida_P.001886975.05               41.30%    passed     99.95%
+ 300  Pseudomonas_E.putida_J.002025705.00               41.15%    passed     97.71%
+ 301  Pseudomonas_E.putida_J.002025705.01               38.45%    passed     99.33%
+ 302  Pseudomonas_E.putida_J.002025705.02               38.33%    passed     99.02%
+ 303  Pseudomonas_E.putida_J.002025705.03               41.15%    passed     97.79%
+ 304  Pseudomonas_E.putida_J.002025705.04               41.15%    passed     96.92%
+ 305  Pseudomonas_E.putida_H.002356095.01               40.88%    passed     96.02%
+ 306  Pseudomonas_E.putida_H.002356095.02               40.88%    passed     98.95%
+ 307  Pseudomonas_E.putida_H.002356095.03               37.86%    passed     95.39%
+ 308  Pseudomonas_E.putida_H.002356095.04               38.64%    passed     99.90%
+ 309  Pseudomonas_E.putida_H.002356095.05               39.04%    passed     98.68%
+ 310  Pseudomonas_E.putida_M.002736045.01               38.75%    passed     99.36%
+ 311  Pseudomonas_E.putida_M.002736045.02               40.99%    passed     93.13%
+ 312  Pseudomonas_E.putida_M.002736045.03               41.01%    passed     95.13%
+ 313  Pseudomonas_E.putida_M.002736045.04               39.20%    passed     99.60%
+ 314  Pseudomonas_E.putida_M.002736045.05               39.18%    passed     99.66%
+ 315  Pseudomonas_E.putida_M.002736125.01               41.03%    passed     95.37%
+ 316  Pseudomonas_E.putida_M.002736125.02               37.69%    passed     98.91%
+ 317  Pseudomonas_E.putida_M.002736125.03               41.02%    passed     95.36%
+ 318  Pseudomonas_E.putida_M.002736125.04               41.04%    passed     95.25%
+ 319  Pseudomonas_E.putida_M.002736125.05               38.75%    passed     99.40%
+ 320  Pseudomonas_E.putida_T.002741075.00               38.86%    passed     96.15%
+ 321  Pseudomonas_E.putida_T.002741075.01               38.86%    passed     96.46%
+ 322  Pseudomonas_E.putida_T.002741075.02               38.86%    passed     96.15%
+ 323  Pseudomonas_E.putida_T.002741075.03               38.86%    passed     96.15%
+ 324  Pseudomonas_E.putida_T.002741075.04               36.20%    passed     90.77%
+ 325  Pseudomonas_E.putida_T.002741075.05               38.86%    passed     95.79%
+ 326  Pseudomonas_E.putida_S.003228315.00               38.51%    passed     99.15%
+ 327  Pseudomonas_E.putida_S.003228315.01               38.51%    passed     98.55%
+ 328  Pseudomonas_E.putida_S.003228315.02               38.51%    passed     98.55%
+ 329  Pseudomonas_E.putida_S.003228315.03               38.51%    passed     99.15%
+ 330  Pseudomonas_E.putida_S.003228315.04               35.88%    passed     97.63%
+ 331  Pseudomonas_E.putida_S.003228315.05               38.51%    passed     98.55%
+ 332  Pseudomonas_A.stutzeri.000013785.00               38.67%    passed     93.30%
+ 333  Pseudomonas_A.stutzeri.000013785.01               38.67%    passed     95.61%
+ 334  Pseudomonas_A.stutzeri.000013785.02               38.67%    passed     91.85%
+ 335  Pseudomonas_A.stutzeri.000013785.03               38.14%    passed     98.45%
+ 336  Pseudomonas_A.stutzeri.000195105.00               38.67%    passed     92.18%
+ 337  Pseudomonas_A.stutzeri.000195105.01               38.67%    passed     91.70%
+ 338  Pseudomonas_A.stutzeri.000195105.02               38.67%    passed     91.70%
+ 339  Pseudomonas_A.stutzeri.000195105.03               38.67%    passed     92.18%
+ 340  Pseudomonas_A.stutzeri.000219605.00               38.67%    passed     91.01%
+ 341  Pseudomonas_A.stutzeri.000219605.01               38.67%    passed     88.60%
+ 342  Pseudomonas_A.stutzeri.000219605.02               38.67%    passed     93.65%
+ 343  Pseudomonas_A.stutzeri.000219605.03               38.67%    passed     90.27%
+ 344  Pseudomonas_A.stutzeri_U.000267545.00             38.40%    passed     99.48%
+ 345  Pseudomonas_A.stutzeri_U.000267545.01             38.40%    passed     99.25%
+ 346  Pseudomonas_A.stutzeri_U.000267545.02             38.39%    passed     99.27%
+ 347  Pseudomonas_A.stutzeri_U.000267545.03             38.40%    passed     99.25%
+ 348  Pseudomonas_A.stutzeri_AG.000279165.00            38.24%    passed     69.43%
+ 349  Pseudomonas_A.stutzeri_AG.000279165.01            38.18%    passed     65.83%
+ 350  Pseudomonas_A.stutzeri_AG.000279165.02            38.01%    passed     73.99%
+ 351  Pseudomonas_A.stutzeri_AG.000279165.03            38.05%    passed     55.43%
+ 352  Pseudomonas_A.stutzeri_AE.000327065.00            38.44%    passed     98.14%
+ 353  Pseudomonas_A.stutzeri_AE.000327065.01            38.40%    passed     98.27%
+ 354  Pseudomonas_A.stutzeri_AE.000327065.02            38.41%    passed     98.07%
+ 355  Pseudomonas_A.stutzeri_AE.000327065.03            38.41%    passed     98.09%
+ 356  Pseudomonas_A.stutzeri_D.000590475.00             38.15%    passed     97.10%
+ 357  Pseudomonas_A.stutzeri_D.000590475.01             38.15%    passed     97.54%
+ 358  Pseudomonas_A.stutzeri_D.000590475.02             38.15%    passed     95.15%
+ 359  Pseudomonas_A.stutzeri_D.000590475.03             38.15%    passed     97.23%
+ 360  Pseudomonas_A.stutzeri_A.000661915.00             38.20%    passed     99.50%
+ 361  Pseudomonas_A.stutzeri_A.000661915.01             38.20%    passed     99.50%
+ 362  Pseudomonas_A.stutzeri_A.000661915.02             38.20%    passed     99.50%
+ 363  Pseudomonas_A.stutzeri_A.000661915.03             38.20%    passed     99.50%
+ 364  Pseudomonas_A.stutzeri.001038645.00               38.77%    passed     96.16%
+ 365  Pseudomonas_A.stutzeri.001038645.01               38.75%    passed     93.44%
+ 366  Pseudomonas_A.stutzeri.001038645.02               38.78%    passed     93.68%
+ 367  Pseudomonas_A.stutzeri.001038645.03               38.75%    passed     95.03%
+ 368  Pseudomonas_A.zhaodongensis.001648195.00          38.30%    passed     99.59%
+ 369  Pseudomonas_A.zhaodongensis.001648195.01          38.30%    passed     99.81%
+ 370  Pseudomonas_A.zhaodongensis.001648195.02          38.30%    passed     99.81%
+ 371  Pseudomonas_A.zhaodongensis.001648195.03          38.30%    passed     99.59%
+ 372  Pseudomonas_A.stutzeri_AJ.003001655.00            38.45%    passed     98.18%
+ 373  Pseudomonas_A.stutzeri_AJ.003001655.01            38.45%    passed     98.18%
+ 374  Pseudomonas_A.stutzeri_AJ.003001655.02            38.45%    passed     98.18%
+ 375  Pseudomonas_A.stutzeri_AJ.003001655.03            38.45%    passed     98.18%
+ 376  Pseudomonas_A.stutzeri.003008495.00               38.70%    passed     91.48%
+ 377  Pseudomonas_A.stutzeri.003008495.01               38.70%    passed     91.39%
+ 378  Pseudomonas_A.stutzeri.003008495.02               38.70%    passed     91.48%
+ 379  Pseudomonas_A.stutzeri.003008495.03               38.70%    passed     91.39%
+ 380  Pseudomonas_E.syringae_M.000012245.00             37.88%    passed     99.73%
+ 381  Pseudomonas_E.syringae_M.000012245.01             37.82%    passed     99.81%
+ 382  Pseudomonas_E.syringae_M.000012245.02             38.01%    passed     99.13%
+ 383  Pseudomonas_E.syringae_M.000012245.03             38.01%    passed     99.55%
+ 384  Pseudomonas_E.syringae_M.000012245.04             35.43%    passed     98.39%
+ 385  Pseudomonas_E.avellanae.000344335.00              38.01%    passed     96.72%
+ 386  Pseudomonas_E.avellanae.000344335.01              38.01%    passed     96.15%
+ 387  Pseudomonas_E.avellanae.000344335.02              38.01%    passed     96.73%
+ 388  Pseudomonas_E.avellanae.000344335.03              38.01%    passed     96.72%
+ 389  Pseudomonas_E.avellanae.000344335.04              35.37%    passed     98.97%
+ 390  Pseudomonas_E.avellanae.000344355.00              38.01%    passed     96.22%
+ 391  Pseudomonas_E.avellanae.000344355.01              38.01%    passed     96.22%
+ 392  Pseudomonas_E.avellanae.000344355.02              38.01%    passed     96.71%
+ 393  Pseudomonas_E.avellanae.000344355.03              38.01%    passed     96.22%
+ 394  Pseudomonas_E.avellanae.000344355.04              35.37%    passed     98.36%
+ 395  Pseudomonas_E.syringae_F.000452705.00             37.17%    passed     99.95%
+ 396  Pseudomonas_E.syringae_F.000452705.01             37.83%    passed     99.86%
+ 397  Pseudomonas_E.syringae_F.000452705.02             37.16%    passed     99.56%
+ 398  Pseudomonas_E.syringae_F.000452705.03             38.01%    passed     98.72%
+ 399  Pseudomonas_E.syringae_F.000452705.04             35.35%    passed     98.63%
+ 400  Pseudomonas_E.avellanae.000648735.00              38.01%    passed     96.22%
+ 401  Pseudomonas_E.avellanae.000648735.01              38.01%    passed     96.22%
+ 402  Pseudomonas_E.avellanae.000648735.02              38.01%    passed     96.71%
+ 403  Pseudomonas_E.avellanae.000648735.03              38.01%    passed     96.22%
+ 404  Pseudomonas_E.avellanae.000648735.04              35.37%    passed     98.36%
+ 405  Pseudomonas_E.syringae.000988395.00               37.81%    passed     98.84%
+ 406  Pseudomonas_E.syringae.000988395.01               37.81%    passed     98.68%
+ 407  Pseudomonas_E.syringae.000988395.02               37.80%    passed     98.53%
+ 408  Pseudomonas_E.syringae.000988395.03               37.81%    passed     99.00%
+ 409  Pseudomonas_E.syringae.000988395.04               35.17%    passed     99.26%
+ 410  Pseudomonas_E.syringae_M.000988485.00             37.80%    passed     99.94%
+ 411  Pseudomonas_E.syringae_M.000988485.01             37.80%    passed     99.92%
+ 412  Pseudomonas_E.syringae_M.000988485.02             37.99%    passed     98.71%
+ 413  Pseudomonas_E.syringae_M.000988485.03             37.99%    passed     98.87%
+ 414  Pseudomonas_E.syringae_M.000988485.04             35.35%    passed     99.14%
+ 415  Pseudomonas_E.cerasi.001281365.00                 38.05%    passed     99.26%
+ 416  Pseudomonas_E.cerasi.001281365.01                 38.06%    passed     99.12%
+ 417  Pseudomonas_E.cerasi.001281365.02                 35.42%    passed     98.76%
+ 418  Pseudomonas_E.cerasi.001281365.03                 38.06%    passed     99.12%
+ 419  Pseudomonas_E.cerasi.001281365.04                 38.06%    passed     99.12%
+ 420  Pseudomonas_E.syringae.001482725.00               37.99%    passed     99.16%
+ 421  Pseudomonas_E.syringae.001482725.01               37.81%    passed     99.78%
+ 422  Pseudomonas_E.syringae.001482725.02               37.81%    passed     99.87%
+ 423  Pseudomonas_E.syringae.001482725.03               37.81%    passed     99.78%
+ 424  Pseudomonas_E.syringae.001482725.04               35.17%    passed     98.02%
+ 425  Pseudomonas_E.avellanae.001913215.00              38.02%    passed     96.47%
+ 426  Pseudomonas_E.avellanae.001913215.01              38.01%    passed     96.22%
+ 427  Pseudomonas_E.avellanae.001913215.02              38.01%    passed     96.71%
+ 428  Pseudomonas_E.avellanae.001913215.03              38.02%    passed     96.47%
+ 429  Pseudomonas_E.avellanae.001913215.04              35.38%    passed     98.27%
+ 430  Pseudomonas_E.avellanae.001913235.00              38.01%    passed     96.22%
+ 431  Pseudomonas_E.avellanae.001913235.01              38.01%    passed     96.22%
+ 432  Pseudomonas_E.avellanae.001913235.02              38.01%    passed     96.71%
+ 433  Pseudomonas_E.avellanae.001913235.03              38.01%    passed     96.22%
+ 434  Pseudomonas_E.avellanae.001913235.04              35.37%    passed     98.36%
+ 435  Pseudomonas_E.avellanae.002024285.00              38.01%    passed     96.22%
+ 436  Pseudomonas_E.avellanae.002024285.01              38.01%    passed     96.22%
+ 437  Pseudomonas_E.avellanae.002024285.02              38.01%    passed     96.71%
+ 438  Pseudomonas_E.avellanae.002024285.03              38.01%    passed     96.22%
+ 439  Pseudomonas_E.avellanae.002024285.04              35.37%    passed     98.36%
+ 440  Pseudomonas_E.avellanae.002024305.00              38.01%    passed     96.22%
+ 441  Pseudomonas_E.avellanae.002024305.01              38.01%    passed     96.22%
+ 442  Pseudomonas_E.avellanae.002024305.02              38.01%    passed     96.22%
+ 443  Pseudomonas_E.avellanae.002024305.03              38.01%    passed     96.71%
+ 444  Pseudomonas_E.avellanae.002024305.04              35.37%    passed     98.36%
+ 445  Pseudomonas_E.avellanae.002763655.00              35.48%    passed     97.35%
+ 446  Pseudomonas_E.avellanae.002763655.01              38.02%    passed     95.93%
+ 447  Pseudomonas_E.avellanae.002763655.02              38.18%    passed     98.61%
+ 448  Pseudomonas_E.avellanae.002763655.03              38.07%    passed     96.93%
+ 449  Pseudomonas_E.avellanae.002763655.04              38.12%    passed     97.78%
+ 450  Pseudomonas_E.syringae_M.002905815.00             38.00%    passed     98.07%
+ 451  Pseudomonas_E.syringae_M.002905815.01             38.00%    passed     98.01%
+ 452  Pseudomonas_E.syringae_M.002905815.02             37.81%    passed     99.94%
+ 453  Pseudomonas_E.syringae_M.002905815.03             38.00%    passed     98.30%
+ 454  Pseudomonas_E.syringae_M.002905815.04             38.00%    passed     98.38%
+ 455  Pseudomonas_E.syringae.003047185.00               37.99%    passed     98.60%
+ 456  Pseudomonas_E.syringae.003047185.01               37.81%    passed     98.00%
+ 457  Pseudomonas_E.syringae.003047185.02               37.81%    passed     99.61%
+ 458  Pseudomonas_E.syringae.003047185.03               35.17%    passed     98.08%
+ 459  Pseudomonas_E.syringae.003047185.04               37.81%    passed     99.74%
+ 460  Pseudomonas_E.ficuserectae.900235815.00           35.38%    passed     99.36%
+ 461  Pseudomonas_E.ficuserectae.900235815.01           38.01%    passed     96.87%
+ 462  Pseudomonas_E.ficuserectae.900235815.02           37.83%    passed     98.49%
+ 463  Pseudomonas_E.ficuserectae.900235815.03           38.01%    passed     96.28%
+ 464  Pseudomonas_E.ficuserectae.900235815.04           38.01%    passed     96.28%
+ 465  Pseudomonas_E.syringae_M.900235825.00             37.86%    passed     99.89%
+ 466  Pseudomonas_E.syringae_M.900235825.01             37.99%    passed     99.51%
+ 467  Pseudomonas_E.syringae_M.900235825.02             37.99%    passed     99.44%
+ 468  Pseudomonas_E.syringae_M.900235825.03             37.99%    passed     99.51%
+ 469  Pseudomonas_E.syringae_M.900235825.04             35.35%    passed     98.87%
+ 470  Pseudomonas_E.avellanae.900235835.00              37.96%    passed     96.77%
+ 471  Pseudomonas_E.avellanae.900235835.01              37.96%    passed     96.77%
+ 472  Pseudomonas_E.avellanae.900235835.02              37.96%    passed     96.77%
+ 473  Pseudomonas_E.avellanae.900235835.03              37.96%    passed     96.21%
+ 474  Pseudomonas_E.avellanae.900235835.04              35.33%    passed     99.00%
+ 475  Pseudomonas_E.syringae_M.900235865.00             38.00%    passed     99.02%
+ 476  Pseudomonas_E.syringae_M.900235865.01             37.81%    passed     99.42%
+ 477  Pseudomonas_E.syringae_M.900235865.02             37.99%    passed     98.00%
+ 478  Pseudomonas_E.syringae_M.900235865.03             38.00%    passed     99.02%
+ 479  Pseudomonas_E.syringae_M.900235865.04             35.35%    passed     99.32%
+ 480  Pseudomonas_E.ficuserectae.900235885.00           35.38%    passed     99.17%
+ 481  Pseudomonas_E.ficuserectae.900235885.01           38.01%    passed     94.94%
+ 482  Pseudomonas_E.ficuserectae.900235885.02           38.01%    passed     94.94%
+ 483  Pseudomonas_E.ficuserectae.900235885.03           38.01%    passed     94.94%
+ 484  Pseudomonas_E.ficuserectae.900235885.04           38.01%    passed     95.58%
+ 485  Pseudomonas_E.ficuserectae.900289125.00           38.01%    passed     96.28%
+ 486  Pseudomonas_E.ficuserectae.900289125.01           38.01%    passed     96.28%
+ 487  Pseudomonas_E.ficuserectae.900289125.02           37.83%    passed     98.49%
+ 488  Pseudomonas_E.ficuserectae.900289125.03           38.01%    passed     96.28%
+ 489  Pseudomonas_E.ficuserectae.900289125.04           35.40%    passed     99.32%
+ 490  Pseudomonas_E.oleovorans.000297075.00             38.45%    passed     99.10%
+ 491  Pseudomonas_E.oleovorans.000297075.01             38.31%    passed     98.28%
+ 492  Pseudomonas_E.oleovorans.000297075.02             38.31%    passed     97.37%
+ 493  Pseudomonas_E.oleovorans.000297075.03             38.31%    passed     98.28%
+ 494  Pseudomonas_E.oleovorans.000953455.00             38.43%    passed     98.35%
+ 495  Pseudomonas_E.oleovorans.000953455.01             38.31%    passed     98.10%
+ 496  Pseudomonas_E.oleovorans.000953455.02             38.31%    passed     97.83%
+ 497  Pseudomonas_E.oleovorans.000953455.03             38.31%    passed     98.10%
+ 498  Pseudomonas_E.ficuserectae.000012205.00           37.83%    passed     99.21%
+ 499  Pseudomonas_E.ficuserectae.000012205.01           37.83%    passed     99.21%
+ 500  Pseudomonas_E.ficuserectae.000012205.02           37.83%    passed     99.21%
+ 501  Pseudomonas_E.ficuserectae.000012205.03           37.83%    passed     99.21%
+ 502  Pseudomonas_E.ficuserectae.000012205.04           35.21%    passed     98.48%
+ 503  Pseudomonas_E.ficuserectae.000164015.00           35.21%    passed     98.95%
+ 504  Pseudomonas_E.ficuserectae.000164015.01           37.83%    passed     99.32%
+ 505  Pseudomonas_E.ficuserectae.000164015.02           37.98%    passed     98.94%
+ 506  Pseudomonas_E.ficuserectae.000164015.03           37.83%    passed     99.32%
+ 507  Pseudomonas_E.ficuserectae.000164015.04           37.83%    passed     99.29%
+ 508  Pseudomonas_E.viridiflava.900184295.00            38.26%    passed     98.99%
+ 509  Pseudomonas_E.viridiflava.900184295.01            38.22%    passed     99.71%
+ 510  Pseudomonas_E.viridiflava.900184295.02            38.26%    passed     98.26%
+ 511  Pseudomonas_E.viridiflava.900184295.03            38.56%    passed     97.06%
+ 512  Pseudomonas_E.viridiflava.900184295.04            35.61%    passed     95.96%
+ 513  Pseudomonas_E.cichorii.000517305.00               39.08%    passed     94.38%
+ 514  Pseudomonas_E.cichorii.000517305.01               39.12%    passed     93.29%
+ 515  Pseudomonas_E.cichorii.000517305.02               39.12%    passed     92.92%
+ 516  Pseudomonas_E.cichorii.000517305.03               39.12%    passed     91.66%
+ 517  Pseudomonas_E.cichorii.000517305.04               39.12%    passed     91.66%
+ 518  Pseudomonas_E.cichorii.000517305.05               36.46%    passed     94.78%
+ 519  Pseudomonas_E.alcaligenes.001597285.00            38.69%    passed     96.13%
+ 520  Pseudomonas_E.alcaligenes.001597285.01            38.69%    passed     95.76%
+ 521  Pseudomonas_E.alcaligenes.001597285.02            38.69%    passed     96.13%
+ 522  Pseudomonas_E.avellanae.002905795.00              38.01%    passed     96.18%
+ 523  Pseudomonas_E.avellanae.002905795.01              38.01%    passed     96.18%
+ 524  Pseudomonas_E.avellanae.002905795.02              38.01%    passed     97.66%
+ 525  Pseudomonas_E.avellanae.002905795.03              38.01%    passed     96.65%
+ 526  Pseudomonas_E.avellanae.002905795.04              35.37%    passed     98.43%
+ 527  Pseudomonas_E.mucidolens.900475945.00             35.75%    passed     87.38%
+ 528  Pseudomonas_E.mucidolens.900475945.01             38.40%    passed     92.34%
+ 529  Pseudomonas_E.mucidolens.900475945.02             38.40%    passed     94.94%
+ 530  Pseudomonas_E.mucidolens.900475945.03             38.40%    passed     92.87%
+ 531  Pseudomonas_E.mucidolens.900475945.04             38.40%    passed     93.73%
+ 532  Pseudomonas_E.ficuserectae.002068135.00           37.96%    passed     99.49%
+ 533  Pseudomonas_E.ficuserectae.002068135.01           38.14%    passed     98.33%
+ 534  Pseudomonas_E.ficuserectae.002068135.02           38.14%    passed     99.31%
+ 535  Pseudomonas_E.ficuserectae.002068135.03           37.96%    passed     99.26%
+ 536  Pseudomonas_E.ficuserectae.002068135.04           35.51%    passed     99.83%
+ 537  Pseudomonas_E.ficuserectae.002905685.00           38.01%    passed     96.28%
+ 538  Pseudomonas_E.ficuserectae.002905685.01           38.01%    passed     96.28%
+ 539  Pseudomonas_E.ficuserectae.002905685.02           37.85%    passed     98.55%
+ 540  Pseudomonas_E.ficuserectae.002905685.03           38.01%    passed     96.28%
+ 541  Pseudomonas_E.ficuserectae.002905685.04           35.38%    passed     99.36%
+ 542  Pseudomonas_E.azotoformans_A.001579805.00         38.31%    passed     83.99%
+ 543  Pseudomonas_E.azotoformans_A.001579805.01         38.31%    passed     83.99%
+ 544  Pseudomonas_E.azotoformans_A.001579805.02         38.22%    passed     82.18%
+ 545  Pseudomonas_E.azotoformans_A.001579805.03         35.55%    passed     77.00%
+ 546  Pseudomonas_E.azotoformans_A.001579805.04         38.22%    passed     80.65%
+ 547  Pseudomonas_E.azotoformans_A.001579805.05         38.30%    passed     83.42%
+ 548  Pseudomonas_E.azotoformans_B.002007785.00         35.62%    passed     80.81%
+ 549  Pseudomonas_E.azotoformans_B.002007785.01         38.28%    passed     81.60%
+ 550  Pseudomonas_E.azotoformans_B.002007785.02         38.28%    passed     83.17%
+ 551  Pseudomonas_E.azotoformans_B.002007785.03         38.28%    passed     81.60%
+ 552  Pseudomonas_E.azotoformans_B.002007785.04         38.28%    passed     83.17%
+ 553  Pseudomonas_E.corrugata.001708425.00              38.32%    passed     99.43%
+ 554  Pseudomonas_E.corrugata.001708425.01              38.33%    passed     99.31%
+ 555  Pseudomonas_E.corrugata.001708425.02              38.33%    passed     98.31%
+ 556  Pseudomonas_E.corrugata.001708425.03              35.33%    passed     99.28%
+ 557  Pseudomonas_E.corrugata.001708425.04              38.33%    passed     98.87%
+ 558  Pseudomonas_E.fulva_B.000213805.00                38.52%    passed     98.15%
+ 559  Pseudomonas_E.fulva_B.000213805.01                38.53%    passed     97.79%
+ 560  Pseudomonas_E.fulva_B.000213805.02                38.52%    passed     97.10%
+ 561  Pseudomonas_E.fulva_B.000213805.03                38.53%    passed     98.39%
+ 562  Pseudomonas_E.fulva.002951475.01                  41.34%    passed     97.73%
+ 563  Pseudomonas_E.fulva.002951475.02                  38.65%    passed     99.52%
+ 564  Pseudomonas_E.fulva.002951475.03                  38.64%    passed     99.74%
+ 565  Pseudomonas_E.fulva.002951475.04                  38.64%    passed     99.33%
+ 566  Pseudomonas_E.fulva.002951475.05                  41.33%    passed     95.74%
+ 567  Pseudomonas_E.synxantha.000968415.00              38.28%    passed     94.50%
+ 568  Pseudomonas_E.synxantha.000968415.01              38.28%    passed     94.50%
+ 569  Pseudomonas_E.synxantha.000968415.02              38.30%    passed     94.35%
+ 570  Pseudomonas_E.synxantha.000968415.03              38.30%    passed     94.08%
+ 571  Pseudomonas_E.synxantha.000968415.04              35.51%    passed     77.83%
+ 572  Pseudomonas_E.synxantha.000968415.05              38.30%    passed     90.95%
+ 573  Pseudomonas_E.taetrolens.900475285.00             37.96%    passed     76.24%
+ 574  Pseudomonas_E.taetrolens.900475285.01             40.64%    passed     67.81%
+ 575  Pseudomonas_E.taetrolens.900475285.02             37.96%    passed     80.11%
+ 576  Pseudomonas_E.taetrolens.900475285.03             37.96%    passed     80.11%
+ 577  Pseudomonas_B.oryzihabitans_E.001518815.00        37.82%    passed     50.22%
+ 578  Pseudomonas_B.oryzihabitans_E.001518815.01        37.92%    passed     52.34%
+ 579  Pseudomonas_B.oryzihabitans_E.001518815.02        37.81%    passed     56.81%
+ 580  Pseudomonas_B.oryzihabitans_E.001518815.03        37.83%    passed     57.03%
+ 581  Pseudomonas_B.oryzihabitans_E.001518815.04        37.82%    passed     50.22%
+ 582  Pseudomonas.citronellolis.001586155.00            38.95%    passed     57.37%
+ 583  Pseudomonas.citronellolis.001586155.01            38.95%    passed     57.24%
+ 584  Pseudomonas.citronellolis.001586155.02            38.95%    passed     55.44%
+ 585  Pseudomonas.citronellolis.001586155.03            38.95%    passed     54.81%
+ 586  Pseudomonas.citronellolis.001586155.04            38.93%    passed     55.96%
+ 587  Pseudomonas.citronellolis.001654435.00            39.02%    passed     59.92%
+ 588  Pseudomonas.citronellolis.001654435.01            38.00%    passed     44.45%
+ 589  Pseudomonas.citronellolis.001654435.02            38.45%    passed     50.87%
+ 590  Pseudomonas.citronellolis.001654435.03            38.95%    passed     49.08%
+ 591  Pseudomonas.citronellolis.001654435.04            38.96%    passed     48.49%
+ 592  Pseudomonas_F.resinovorans_A.000412695.00         38.91%    passed     77.24%
+ 593  Pseudomonas_F.resinovorans_A.000412695.01         38.91%    passed     78.57%
+ 594  Pseudomonas_F.resinovorans_A.000412695.02         35.88%    passed     65.04%
+ 595  Pseudomonas.knackmussii.000689415.00              38.99%    passed     97.75%
+ 596  Pseudomonas.knackmussii.000689415.01              34.12%    passed     95.18%
+ 597  Pseudomonas.knackmussii.000689415.02              38.99%    passed     97.58%
+ 598  Pseudomonas.knackmussii.000689415.03              38.98%    passed     98.28%
+ 599  Pseudomonas_E.taiwanensis.000494915.01            39.12%    passed     99.41%
+ 600  Pseudomonas_E.taiwanensis.000494915.02            39.12%    passed     99.59%
+ 601  Pseudomonas_E.taiwanensis.000494915.03            38.67%    passed     99.48%
+ 602  Pseudomonas_E.taiwanensis.000494915.04            38.67%    passed     99.64%
+ 603  Pseudomonas_E.taiwanensis.000494915.05            39.12%    passed     99.57%
+ 604  Pseudomonas_E.monteilii_B.000831585.01            38.66%    passed     99.22%
+ 605  Pseudomonas_E.monteilii_B.000831585.02            40.91%    passed     99.25%
+ 606  Pseudomonas_E.monteilii_B.000831585.03            40.91%    passed     98.38%
+ 607  Pseudomonas_E.monteilii_B.000831585.04            40.91%    passed     98.38%
+ 608  Pseudomonas_A.balearica.000818015.00              38.89%    passed     69.25%
+ 609  Pseudomonas_A.balearica.000818015.01              38.85%    passed     71.09%
+ 610  Pseudomonas_A.balearica.000818015.02              38.89%    passed     73.16%
+ 611  Pseudomonas_A.balearica.000818015.03              38.89%    passed     70.13%
+ 612  Pseudomonas_E.mandelii.000257545.00               38.11%    passed     97.36%
+ 613  Pseudomonas_E.mandelii.000257545.01               38.11%    passed     97.94%
+ 614  Pseudomonas_E.mandelii.000257545.02               35.64%    passed     92.73%
+ 615  Pseudomonas_E.mandelii.000257545.03               38.08%    passed     96.38%
+ 616  Pseudomonas_E.mandelii.000257545.04               38.11%    passed     95.91%
+ 617  Pseudomonas_E.mandelii.000257545.05               40.60%    passed     91.14%
+ 618  Pseudomonas_E.orientalis_A.002934065.00           35.64%    passed     87.86%
+ 619  Pseudomonas_E.orientalis_A.002934065.01           38.15%    passed     91.74%
+ 620  Pseudomonas_E.orientalis_A.002934065.02           38.33%    passed     98.11%
+ 621  Pseudomonas_E.orientalis_A.002934065.03           38.15%    passed     92.27%
+ 622  Pseudomonas_E.orientalis_A.002934065.04           38.18%    passed     91.12%
+ 623  Pseudomonas_E.orientalis_A.002934065.05           38.05%    passed     93.75%
+ 624  Pseudomonas_E.monteilii_B.000510285.00            40.91%    passed     98.45%
+ 625  Pseudomonas_E.monteilii_B.000510285.01            40.91%    passed     98.78%
+ 626  Pseudomonas_E.monteilii_B.000510285.02            40.91%    passed     99.14%
+ 627  Pseudomonas_E.monteilii_B.000510285.03            40.91%    passed     98.60%
+ 628  Pseudomonas_E.monteilii_B.000510285.04            40.91%    passed     99.14%
+ 629  Pseudomonas_E.monteilii_B.000510285.05            38.28%    passed     99.74%
+ 630  Pseudomonas_E.monteilii_B.000510325.00            40.91%    passed     98.45%
+ 631  Pseudomonas_E.monteilii_B.000510325.01            40.91%    passed     98.78%
+ 632  Pseudomonas_E.monteilii_B.000510325.02            40.91%    passed     99.14%
+ 633  Pseudomonas_E.monteilii_B.000510325.03            40.91%    passed     98.60%
+ 634  Pseudomonas_E.monteilii_B.000510325.04            40.91%    passed     99.14%
+ 635  Pseudomonas_E.monteilii_B.000510325.05            38.28%    passed     99.74%
+ 636  Pseudomonas_E.monteilii_A.001534745.00            38.54%    passed     75.79%
+ 637  Pseudomonas_E.monteilii_A.001534745.01            38.70%    passed     76.44%
+ 638  Pseudomonas_E.monteilii_A.001534745.02            38.53%    passed     80.30%
+ 639  Pseudomonas_E.monteilii_A.001534745.03            38.54%    passed     74.15%
+ 640  Pseudomonas_E.monteilii_A.001534745.04            38.54%    passed     78.63%
+ 641  Pseudomonas_E.monteilii_A.001534745.05            35.89%    passed     72.47%
+ 642  Pseudomonas_E.monteilii.002943995.00              38.71%    passed     99.27%
+ 643  Pseudomonas_E.monteilii.002943995.01              39.03%    passed     99.55%
+ 644  Pseudomonas_E.monteilii.002943995.02              41.31%    passed     94.87%
+ 645  Pseudomonas_E.monteilii.002943995.04              38.71%    passed     99.45%
+ 646  Pseudomonas_E.monteilii.002943995.05              41.33%    passed     94.94%
+ 647  Pseudomonas_E.veronii.002028325.00                35.69%    passed     88.58%
+ 648  Pseudomonas_E.veronii.002028325.01                38.36%    passed     93.59%
+ 649  Pseudomonas_E.veronii.002028325.02                38.37%    passed     93.28%
+ 650  Pseudomonas_E.veronii.002028325.03                41.09%    passed     89.57%
+ 651  Pseudomonas_E.veronii.002028325.04                38.36%    passed     91.23%
+ 652  Pseudomonas_E.veronii.002028325.05                38.36%    passed     94.21%
+ 653  Pseudomonas_E.mosselii.002309555.00               38.62%    passed     98.24%
+ 654  Pseudomonas_E.mosselii.002309555.01               38.62%    passed     98.20%
+ 655  Pseudomonas_E.mosselii.002309555.02               38.62%    passed     98.64%
+ 656  Pseudomonas_E.mosselii.002309555.03               35.95%    passed     91.53%
+ 657  Pseudomonas_E.mosselii.002309555.04               38.62%    passed     98.20%
+ 658  Pseudomonas_E.mosselii.002309555.05               35.95%    passed     91.35%
+ 659  Pseudomonas_E.mosselii.002309555.06               38.62%    passed     99.08%
+ 660  Pseudomonas_E.mosselii.002736065.00               38.62%    passed     98.64%
+ 661  Pseudomonas_E.mosselii.002736065.01               38.62%    passed     98.43%
+ 662  Pseudomonas_E.mosselii.002736065.02               38.64%    passed     97.01%
+ 663  Pseudomonas_E.mosselii.002736065.03               38.62%    passed     99.08%
+ 664  Pseudomonas_E.mosselii.002736065.04               38.63%    passed     97.91%
+ 665  Pseudomonas_E.mosselii.002736065.05               38.62%    passed     97.93%
+ 666  Pseudomonas_E.mosselii.002736065.06               35.96%    passed     92.27%
+ 667  Pseudomonas_E.alcaliphila_B.001941865.00          38.31%    passed     99.34%
+ 668  Pseudomonas_E.alcaliphila_B.001941865.01          38.31%    passed     98.57%
+ 669  Pseudomonas_E.alcaliphila_B.001941865.02          38.31%    passed     99.34%
+ 670  Pseudomonas_E.alcaliphila_B.001941865.03          38.31%    passed     99.34%
+ 671  Pseudomonas_E.frederiksbergensis_B.001874645.00   38.80%    passed     98.94%
+ 672  Pseudomonas_E.frederiksbergensis_B.001874645.01   37.95%    passed     87.37%
+ 673  Pseudomonas_E.frederiksbergensis_B.001874645.02   38.80%    passed     98.83%
+ 674  Pseudomonas_E.frederiksbergensis_B.001874645.03   38.82%    passed     99.03%
+ 675  Pseudomonas_E.frederiksbergensis_B.001874645.04   37.48%    passed     94.90%
+ 676  Pseudomonas_E.frederiksbergensis_B.001874645.05   38.80%    passed     98.83%
+ 677  Pseudomonas_E.frederiksbergensis_B.001874645.06   38.41%    passed     97.17%
+ 678  Pseudomonas_E.frederiksbergensis_E.001952935.00   40.49%    passed     87.78%
+ 679  Pseudomonas_E.frederiksbergensis_E.001952935.01   40.47%    passed     92.97%
+ 680  Pseudomonas_E.frederiksbergensis_E.001952935.02   38.14%    passed     97.84%
+ 681  Pseudomonas_E.frederiksbergensis_E.001952935.03   35.50%    passed     92.13%
+ 682  Pseudomonas_E.frederiksbergensis_E.001952935.04   40.49%    passed     90.29%
+ 683  Pseudomonas_E.frederiksbergensis_E.001952935.05   38.12%    passed     95.59%
+ 684  Pseudomonas_E.frederiksbergensis_E.001952935.06   38.12%    passed     95.59%
+ 685  Pseudomonas_E.sp001655615.002355315.00            38.32%    passed     99.40%
+ 686  Pseudomonas_E.sp001655615.002355315.01            37.44%    passed     96.09%
+ 687  Pseudomonas_E.sp001655615.002355315.02            38.13%    passed     99.61%
+ 688  Pseudomonas_E.sp001655615.002355315.03            37.46%    passed     96.19%
+ 689  Pseudomonas_E.sp001655615.002355315.04            37.44%    passed     96.09%
+ 690  Pseudomonas_E.sp001655615.002355315.05            38.00%    passed     93.43%
+ 691  Pseudomonas_E.parafulva_A.000800255.01            38.32%    passed     92.79%
+ 692  Pseudomonas_E.parafulva_A.000800255.02            38.33%    passed     91.57%
+ 693  Pseudomonas_E.parafulva_A.000800255.03            38.32%    passed     90.26%
+ 694  Pseudomonas_E.parafulva_A.000800255.04            38.32%    passed     90.12%
+ 695  Pseudomonas_E.parafulva_A.000800255.05            35.66%    passed     92.57%
+ 696  Pseudomonas_E.parafulva_B.002021815.01            41.33%    passed     95.74%
+ 697  Pseudomonas_E.parafulva_B.002021815.02            38.56%    passed     98.53%
+ 698  Pseudomonas_E.parafulva_B.002021815.03            41.33%    passed     93.92%
+ 699  Pseudomonas_E.parafulva_B.002021815.04            38.56%    passed     98.93%
+ 700  Pseudomonas_E.parafulva_B.002021815.05            38.56%    passed     99.23%
+ 701  Pseudomonas_E.cremoricolorata_A.000759535.00      38.45%    passed     92.94%
+ 702  Pseudomonas_E.cremoricolorata_A.000759535.01      38.45%    passed     93.83%
+ 703  Pseudomonas_E.cremoricolorata_A.000759535.02      35.79%    passed     91.16%
+ 704  Pseudomonas_E.cremoricolorata_A.000759535.03      38.45%    passed     93.99%
+ 705  Pseudomonas_E.cremoricolorata_A.000759535.04      38.45%    passed     94.81%
+ 706  Pseudomonas_E.cremoricolorata_A.000759535.05      38.45%    passed     93.52%
+ 707  Pseudomonas_E.koreensis_C.001605965.00            35.56%    passed     78.10%
+ 708  Pseudomonas_E.koreensis_C.001605965.01            38.17%    passed     95.83%
+ 709  Pseudomonas_E.koreensis_C.001605965.02            38.18%    passed     96.56%
+ 710  Pseudomonas_E.koreensis_C.001605965.03            38.18%    passed     97.40%
+ 711  Pseudomonas_E.koreensis_C.001605965.04            38.32%    passed     99.08%
+ 712  Pseudomonas_E.koreensis_D.001654515.00            35.80%    passed     95.39%
+ 713  Pseudomonas_E.koreensis_D.001654515.01            38.44%    passed     97.43%
+ 714  Pseudomonas_E.koreensis_D.001654515.02            38.44%    passed     98.34%
+ 715  Pseudomonas_E.koreensis_D.001654515.03            38.19%    passed     95.71%
+ 716  Pseudomonas_E.koreensis_D.001654515.04            38.44%    passed     98.43%
+ 717  Pseudomonas_E.koreensis_D.001654515.05            38.45%    passed     98.88%
+ 718  Pseudomonas_E.koreensis_B.003049825.00            35.76%    passed     96.51%
+ 719  Pseudomonas_E.koreensis_B.003049825.01            38.34%    passed     98.76%
+ 720  Pseudomonas_E.koreensis_B.003049825.02            38.14%    passed     97.31%
+ 721  Pseudomonas_E.koreensis_B.003049825.03            40.93%    passed     84.15%
+ 722  Pseudomonas_E.koreensis_B.003049825.04            38.33%    passed     98.79%
+ 723  Pseudomonas_E.koreensis_B.003049825.05            38.07%    passed     97.97%
+ 724  Pseudomonas_E.trivialis_B.001186335.00            38.27%    passed     89.27%
+ 725  Pseudomonas_E.trivialis_B.001186335.01            38.27%    passed     85.93%
+ 726  Pseudomonas_E.trivialis_B.001186335.02            35.61%    passed     75.36%
+ 727  Pseudomonas_E.trivialis_B.001186335.03            38.27%    passed     86.72%
+ 728  Pseudomonas_E.trivialis_B.001186335.04            38.27%    passed     87.44%
+ 729  Pseudomonas_E.poae.000336465.00                   38.37%    passed     91.23%
+ 730  Pseudomonas_E.poae.000336465.01                   38.37%    passed     92.19%
+ 731  Pseudomonas_E.poae.000336465.02                   38.37%    passed     88.43%
+ 732  Pseudomonas_E.poae.000336465.03                   35.70%    passed     80.83%
+ 733  Pseudomonas_E.poae.000336465.04                   38.37%    passed     91.23%
+ 734  Pseudomonas_E.rhizosphaerae.000761155.01          38.88%    passed     99.93%
+ 735  Pseudomonas_E.rhizosphaerae.000761155.02          38.89%    passed     99.14%
+ 736  Pseudomonas_E.rhizosphaerae.000761155.03          37.95%    passed     99.84%
+ 737  Pseudomonas_E.rhizosphaerae.000761155.04          35.30%    passed     98.53%
+ 738  Pseudomonas_E.rhizosphaerae.000761155.05          38.86%    passed     99.44%
+ 739  Pseudomonas_E.antarctica_A.001647715.00           40.27%    passed     70.77%
+ 740  Pseudomonas_E.antarctica_A.001647715.01           35.48%    passed     82.07%
+ 741  Pseudomonas_E.antarctica_A.001647715.02           38.13%    passed     92.21%
+ 742  Pseudomonas_E.antarctica_A.001647715.03           38.13%    passed     92.21%
+ 743  Pseudomonas_E.antarctica_A.001647715.04           38.13%    passed     91.95%
+ 744  Pseudomonas_E.antarctica_A.001647715.05           38.13%    passed     93.03%
+ 745  Pseudomonas_E.alkylphenolica.000746525.00         38.96%    passed     99.40%
+ 746  Pseudomonas_E.alkylphenolica.000746525.01         38.95%    passed     98.93%
+ 747  Pseudomonas_E.alkylphenolica.000746525.02         38.95%    passed     98.93%
+ 748  Pseudomonas_E.alkylphenolica.000746525.03         38.97%    passed     99.08%
+ 749  Pseudomonas_E.alkylphenolica.000746525.04         38.93%    passed     98.97%
+ 750  Pseudomonas_E.alkylphenolica.000746525.05         38.96%    passed     99.32%
+ 751  Pseudomonas_B.psychrotolerans.001913135.00        38.01%    passed     26.38%
+ 752  Pseudomonas_B.psychrotolerans.001913135.01        38.02%    passed     30.84%
+ 753  Pseudomonas_B.psychrotolerans.001913135.02        38.02%    passed     30.84%
+ 754  Pseudomonas_B.psychrotolerans.001913135.03        37.55%    passed     32.92%
+ 755  Pseudomonas_B.psychrotolerans.001913135.04        37.55%    passed     36.10%
+ 756  Pseudomonas_E.lurida.002966835.00                 35.59%    passed     79.95%
+ 757  Pseudomonas_E.lurida.002966835.01                 38.15%    passed     75.45%
+ 758  Pseudomonas_E.lurida.002966835.02                 38.26%    passed     87.16%
+ 759  Pseudomonas_E.lurida.002966835.03                 38.26%    passed     87.16%
+ 760  Pseudomonas_E.lurida.002966835.04                 38.25%    passed     87.53%
+ 761  Pseudomonas_E.avellanae.000007805.00              38.09%    passed     95.11%
+ 762  Pseudomonas_E.avellanae.000007805.01              38.09%    passed     95.75%
+ 763  Pseudomonas_E.avellanae.000007805.02              38.09%    passed     95.75%
+ 764  Pseudomonas_E.avellanae.000007805.03              38.09%    passed     96.22%
+ 765  Pseudomonas_E.avellanae.000007805.04              38.09%    passed     97.36%
+ 766  Pseudomonas_E.avellanae.002966555.00              37.96%    passed     96.78%
+ 767  Pseudomonas_E.avellanae.002966555.01              37.96%    passed     96.27%
+ 768  Pseudomonas_E.avellanae.002966555.02              37.95%    passed     96.55%
+ 769  Pseudomonas_E.avellanae.002966555.03              37.96%    passed     96.78%
+ 770  Pseudomonas_E.avellanae.002966555.04              35.33%    passed     99.04%
+ 771  Pseudomonas_E.avellanae.900235905.00              38.01%    passed     97.20%
+ 772  Pseudomonas_E.avellanae.900235905.01              38.01%    passed     97.20%
+ 773  Pseudomonas_E.avellanae.900235905.02              38.01%    passed     97.20%
+ 774  Pseudomonas_E.avellanae.900235905.03              38.01%    passed     97.64%
+ 775  Pseudomonas_E.avellanae.900235905.04              35.37%    passed     97.99%
+ 776  Pseudomonas_E.entomophila.000026105.00            36.25%    passed     98.08%
+ 777  Pseudomonas_E.entomophila.000026105.01            38.93%    passed     99.91%
+ 778  Pseudomonas_E.entomophila.000026105.02            38.92%    passed     99.80%
+ 779  Pseudomonas_E.entomophila.000026105.03            38.93%    passed     99.87%
+ 780  Pseudomonas_E.entomophila.000026105.04            38.93%    passed     99.79%
+ 781  Pseudomonas_E.entomophila.000026105.05            38.93%    passed     99.90%
+ 782  Pseudomonas_E.entomophila.000026105.06            38.59%    passed     98.32%
+ 783  Pseudomonas_E.protegens.000012265.00              35.70%    passed     65.17%
+ 784  Pseudomonas_E.protegens.000012265.01              38.41%    passed     84.06%
+ 785  Pseudomonas_E.protegens.000012265.02              38.41%    passed     82.49%
+ 786  Pseudomonas_E.protegens.000012265.03              38.41%    passed     85.54%
+ 787  Pseudomonas_E.protegens.000012265.04              38.41%    passed     82.76%
+ 788  Pseudomonas_E.protegens.000397205.00              38.41%    passed     84.06%
+ 789  Pseudomonas_E.protegens.000397205.01              38.41%    passed     84.06%
+ 790  Pseudomonas_E.protegens.000397205.02              38.41%    passed     85.28%
+ 791  Pseudomonas_E.protegens.000397205.03              38.41%    passed     84.06%
+ 792  Pseudomonas_E.protegens.000397205.04              38.41%    passed     84.06%
+ 793  Pseudomonas_E.protegens.000828695.00              35.70%    passed     58.85%
+ 794  Pseudomonas_E.protegens.000828695.01              38.41%    passed     84.93%
+ 795  Pseudomonas_E.protegens.000828695.02              38.40%    passed     84.51%
+ 796  Pseudomonas_E.protegens.000828695.03              38.40%    passed     84.51%
+ 797  Pseudomonas_E.protegens.000828695.04              38.40%    passed     84.51%
+ 798  Pseudomonas_E.protegens.002006545.00              35.88%    passed     60.99%
+ 799  Pseudomonas_E.protegens.002006545.01              38.47%    passed     82.69%
+ 800  Pseudomonas_E.protegens.002006545.02              38.50%    passed     81.63%
+ 801  Pseudomonas_E.protegens.002006545.03              38.49%    passed     82.33%
+ 802  Pseudomonas_E.protegens.002006545.04              38.50%    passed     81.76%
+ 803  Pseudomonas_E.protegens.002208745.00              38.43%    passed     83.59%
+ 804  Pseudomonas_E.protegens.002208745.01              35.70%    passed     65.17%
+ 805  Pseudomonas_E.protegens.002208745.02              38.41%    passed     82.76%
+ 806  Pseudomonas_E.protegens.002208745.03              38.44%    passed     84.58%
+ 807  Pseudomonas_E.protegens.002208745.04              38.43%    passed     82.02%
+ 808  Pseudomonas_E.yamanorum.001612705.00              38.49%    passed     91.68%
+ 809  Pseudomonas_E.yamanorum.001612705.01              38.47%    passed     93.42%
+ 810  Pseudomonas_E.yamanorum.001612705.02              38.49%    passed     91.68%
+ 811  Pseudomonas_E.yamanorum.001612705.03              38.47%    passed     91.81%
+ 812  Pseudomonas_E.yamanorum.001612705.04              35.79%    passed     85.96%
+ 813  Pseudomonas_E.piscium.000698865.01                38.88%    passed     95.14%
+ 814  Pseudomonas_E.piscium.000698865.02                38.88%    passed     94.04%
+ 815  Pseudomonas_E.piscium.000698865.03                38.88%    passed     95.01%
+ 816  Pseudomonas_E.piscium.000698865.04                38.88%    passed     95.01%
+ 817  Pseudomonas_E.piscium.000761195.00                38.89%    passed     97.68%
+ 818  Pseudomonas_E.piscium.000761195.01                38.90%    passed     97.65%
+ 819  Pseudomonas_E.piscium.000761195.02                38.89%    passed     98.17%
+ 820  Pseudomonas_E.piscium.000761195.03                38.89%    passed     97.23%
+ 821  Pseudomonas_E.piscium.000761195.04                36.21%    passed     95.20%
+ 822  Pseudomonas_E.sp000931465.000963835.00            38.58%    passed     99.96%
+ 823  Pseudomonas_E.sp000931465.000963835.01            38.58%    passed     99.96%
+ 824  Pseudomonas_E.sp000931465.000963835.02            38.58%    passed     99.96%
+ 825  Pseudomonas_E.sp000931465.000963835.03            38.58%    passed     99.94%
+ 826  Pseudomonas_E.sp000931465.000963835.04            35.88%    passed     95.55%
+ 827  Pseudomonas_E.chlororaphis_E.001023535.00         38.54%    passed     98.02%
+ 828  Pseudomonas_E.chlororaphis_E.001023535.01         35.89%    passed     93.44%
+ 829  Pseudomonas_E.chlororaphis_E.001023535.02         38.73%    passed     99.40%
+ 830  Pseudomonas_E.chlororaphis_E.001023535.04         38.59%    passed     98.99%
+ 831  Pseudomonas_E.chlororaphis_E.001023535.05         38.18%    passed     95.87%
+ 832  Pseudomonas_E.chlororaphis.001602135.00           38.85%    passed     97.29%
+ 833  Pseudomonas_E.chlororaphis.001602135.01           36.17%    passed     95.39%
+ 834  Pseudomonas_E.chlororaphis.001602135.02           38.82%    passed     97.92%
+ 835  Pseudomonas_E.chlororaphis.001602135.03           38.82%    passed     97.92%
+ 836  Pseudomonas_E.chlororaphis.001602135.04           38.82%    passed     97.92%
+ 837  Pseudomonas_E.piscium.002355875.00                38.88%    passed     95.82%
+ 838  Pseudomonas_E.piscium.002355875.01                38.85%    passed     96.70%
+ 839  Pseudomonas_E.piscium.002355875.02                38.89%    passed     95.86%
+ 840  Pseudomonas_E.piscium.002355875.03                38.89%    passed     95.86%
+ 841  Pseudomonas_E.piscium.002355875.04                36.21%    passed     93.74%
+ 842  Pseudomonas_E.piscium.002844145.00                36.08%    passed     93.99%
+ 843  Pseudomonas_E.piscium.002844145.01                38.64%    passed     91.67%
+ 844  Pseudomonas_E.piscium.002844145.02                38.76%    passed     97.76%
+ 845  Pseudomonas_E.piscium.002844145.03                39.25%    passed     76.41%
+ 846  Pseudomonas_E.piscium.002844145.04                38.76%    passed     97.46%
+ 847  Pseudomonas_E.piscium.003008635.00                36.20%    passed     94.20%
+ 848  Pseudomonas_E.piscium.003008635.01                38.88%    passed     96.67%
+ 849  Pseudomonas_E.piscium.003008635.02                38.88%    passed     96.67%
+ 850  Pseudomonas_E.piscium.003008635.03                38.88%    passed     96.67%
+ 851  Pseudomonas_E.piscium.003008635.04                38.88%    passed     97.58%
+ 852  Pseudomonas_E.brassicacearum_C.000194805.00       35.56%    passed     99.57%
+ 853  Pseudomonas_E.brassicacearum_C.000194805.01       37.99%    passed     99.76%
+ 854  Pseudomonas_E.brassicacearum_C.000194805.02       37.99%    passed     99.74%
+ 855  Pseudomonas_E.brassicacearum_C.000194805.03       38.19%    passed     99.61%
+ 856  Pseudomonas_E.brassicacearum_C.000194805.04       37.25%    passed     99.06%
+ 857  Pseudomonas_E.brassicacearum_A.000585995.00       38.32%    passed     99.19%
+ 858  Pseudomonas_E.brassicacearum_A.000585995.01       38.18%    passed     99.68%
+ 859  Pseudomonas_E.brassicacearum_A.000585995.02       37.94%    passed     99.73%
+ 860  Pseudomonas_E.brassicacearum_A.000585995.03       37.94%    passed     99.94%
+ 861  Pseudomonas_E.brassicacearum_A.000585995.04       35.29%    passed     96.61%
+ 862  Pseudomonas_E.brassicacearum_C.001449085.00       35.35%    passed     97.75%
+ 863  Pseudomonas_E.brassicacearum_C.001449085.01       38.19%    passed     99.64%
+ 864  Pseudomonas_E.brassicacearum_C.001449085.02       37.99%    passed     99.62%
+ 865  Pseudomonas_E.brassicacearum_C.001449085.03       38.19%    passed     99.64%
+ 866  Pseudomonas_E.brassicacearum_C.001449085.04       38.19%    passed     99.55%
+ 867  Pseudomonas_E.brassicacearum_C.001746815.00       37.98%    passed     99.81%
+ 868  Pseudomonas_E.brassicacearum_C.001746815.01       35.54%    passed     99.61%
+ 869  Pseudomonas_E.brassicacearum_C.001746815.02       37.69%    passed     99.99%
+ 870  Pseudomonas_E.brassicacearum_C.001746815.03       37.98%    passed     99.97%
+ 871  Pseudomonas_E.brassicacearum_C.001746815.04       37.98%    passed     99.87%
+ 872  Pseudomonas_E.sp000829415.000829415.00            41.31%    passed     98.41%
+ 873  Pseudomonas_E.sp000829415.000829415.01            37.89%    passed     91.89%
+ 874  Pseudomonas_E.sp000829415.000829415.02            41.29%    passed     97.61%
+ 875  Pseudomonas_E.sp000829415.000829415.03            38.70%    passed     95.62%
+ 876  Pseudomonas_E.sp000829415.000829415.04            41.31%    passed     97.44%
+ 877  Pseudomonas_E.sp000829415.000829415.05            38.64%    passed     97.01%
+ 878  Pseudomonas_F.furukawaii.002355475.01             38.90%    passed     61.35%
+ 879  Pseudomonas_F.furukawaii.002355475.02             38.91%    passed     63.75%
+ 880  Pseudomonas_F.furukawaii.002355475.03             38.91%    passed     64.57%
+ 881  Pseudomonas_E.sp000346225.000346225.00            37.78%    passed     62.02%
+ 882  Pseudomonas_E.sp000346225.000346225.01            40.46%    passed     52.48%
+ 883  Pseudomonas_E.sp000346225.000346225.02            40.46%    passed     52.48%
+ 884  Pseudomonas_E.sp000346225.000346225.03            40.47%    passed     48.96%
+ 885  Pseudomonas_E.sp000346225.000346225.04            37.86%    passed     32.12%
+ 886  Pseudomonas_E.sp000316175.000316175.00            35.49%    passed     90.90%
+ 887  Pseudomonas_E.sp000316175.000316175.01            37.94%    passed     93.18%
+ 888  Pseudomonas_E.sp000316175.000316175.02            37.99%    passed     88.66%
+ 889  Pseudomonas_E.sp000316175.000316175.03            38.08%    passed     89.10%
+ 890  Pseudomonas_E.sp000316175.000316175.04            38.14%    passed     96.15%
+ 891  Pseudomonas_E.sp000316175.000316175.05            38.17%    passed     97.72%
+ 892  Pseudomonas_E.sp000316175.000316175.06            38.30%    passed     96.21%
+ 893  Pseudomonas_E.monteilii_B.000511325.01            38.60%    passed     99.88%
+ 894  Pseudomonas_E.monteilii_B.000511325.02            40.84%    passed     98.55%
+ 895  Pseudomonas_E.monteilii_B.000511325.03            38.64%    passed     99.65%
+ 896  Pseudomonas_E.monteilii_B.000511325.04            40.85%    passed     99.36%
+ 897  Pseudomonas_E.monteilii_B.000511325.05            38.95%    passed     99.02%
+ 898  Pseudomonas_E.sp001511755.001511755.00            38.32%    passed     94.44%
+ 899  Pseudomonas_E.sp001511755.001511755.01            37.37%    passed     92.66%
+ 900  Pseudomonas_E.sp001511755.001511755.02            35.72%    passed     88.50%
+ 901  Pseudomonas_E.sp001511755.001511755.03            37.37%    passed     92.66%
+ 902  Pseudomonas_E.sp001511755.001511755.04            37.43%    passed     91.02%
+ 903  Pseudomonas_E.sp001511755.001511755.05            37.41%    passed     92.16%
+ 904  Pseudomonas_E.fulva.001511775.00                  38.65%    passed     98.44%
+ 905  Pseudomonas_E.fulva.001511775.01                  38.64%    passed     99.42%
+ 906  Pseudomonas_E.fulva.001511775.02                  41.33%    passed     97.64%
+ 907  Pseudomonas_E.fulva.001511775.04                  41.33%    passed     97.32%
+ 908  Pseudomonas_E.fulva.001511775.05                  38.64%    passed     99.45%
+ 909  Pseudomonas.sp000349845.000349845.00              38.02%    passed     81.32%
+ 910  Pseudomonas.sp000349845.000349845.01              35.46%    passed     74.02%
+ 911  Pseudomonas.sp000349845.000349845.02              38.04%    passed     82.11%
+ 912  Pseudomonas.sp000349845.000349845.03              38.04%    passed     77.73%
+ 913  Pseudomonas.sp000349845.000349845.04              38.01%    passed     81.70%
+ 914  Pseudomonas_E.soli.000498975.00                   38.59%    passed     96.49%
+ 915  Pseudomonas_E.soli.000498975.01                   38.62%    passed     96.26%
+ 916  Pseudomonas_E.soli.000498975.02                   38.59%    passed     96.49%
+ 917  Pseudomonas_E.soli.000498975.03                   38.60%    passed     96.86%
+ 918  Pseudomonas_E.soli.000498975.04                   35.94%    passed     94.62%
+ 919  Pseudomonas_E.soli.000498975.05                   38.95%    passed     96.67%
+ 920  Pseudomonas_E.soli.000498975.06                   38.59%    passed     96.49%
+ 921  Pseudomonas_E.hunanensis.001655295.00             39.10%    passed     99.75%
+ 922  Pseudomonas_E.hunanensis.001655295.01             39.10%    passed     99.85%
+ 923  Pseudomonas_E.hunanensis.001655295.02             39.10%    passed     99.77%
+ 924  Pseudomonas_E.hunanensis.001655295.03             39.09%    passed     99.63%
+ 925  Pseudomonas_E.hunanensis.001655295.04             39.10%    passed     99.95%
+ 926  Pseudomonas_E.fluorescens_AN.000508205.00         35.63%    passed     92.44%
+ 927  Pseudomonas_E.fluorescens_AN.000508205.01         38.28%    passed     96.37%
+ 928  Pseudomonas_E.fluorescens_AN.000508205.02         38.28%    passed     96.21%
+ 929  Pseudomonas_E.fluorescens_AN.000508205.03         38.27%    passed     95.18%
+ 930  Pseudomonas_E.fluorescens_AN.000508205.04         38.28%    passed     97.18%
+ 931  Pseudomonas_E.sp001547895.001547895.00            35.86%    passed     82.09%
+ 932  Pseudomonas_E.sp001547895.001547895.01            38.54%    passed     93.64%
+ 933  Pseudomonas_E.sp001547895.001547895.02            38.56%    passed     91.46%
+ 934  Pseudomonas_E.sp001547895.001547895.03            38.53%    passed     91.33%
+ 935  Pseudomonas_E.sp001547895.001547895.04            38.56%    passed     93.55%
+ 936  Pseudomonas_E.sp001547895.001547895.05            38.51%    passed     90.15%
+ 937  Pseudomonas_E.sp001547895.001547915.00            35.73%    passed     84.62%
+ 938  Pseudomonas_E.sp001547895.001547915.01            38.43%    passed     94.24%
+ 939  Pseudomonas_E.sp001547895.001547915.02            38.56%    passed     92.57%
+ 940  Pseudomonas_E.sp001547895.001547915.03            38.44%    passed     92.97%
+ 941  Pseudomonas_E.sp001547895.001547915.04            38.43%    passed     93.43%
+ 942  Pseudomonas_E.sp001547895.001547915.05            38.44%    passed     93.79%
+ 943  Pseudomonas_E.sp001655595.001655595.00            35.56%    passed     91.41%
+ 944  Pseudomonas_E.sp001655595.001655595.01            38.20%    passed     95.65%
+ 945  Pseudomonas_E.sp001655595.001655595.02            38.20%    passed     95.44%
+ 946  Pseudomonas_E.sp001655595.001655595.03            38.39%    passed     99.70%
+ 947  Pseudomonas_E.sp001655595.001655595.04            38.39%    passed     99.70%
+ 948  Pseudomonas_E.sp001655595.001655595.05            38.20%    passed     97.54%
+ 949  Pseudomonas_E.cerasi.900074915.00                 37.89%    passed     99.16%
+ 950  Pseudomonas_E.cerasi.900074915.01                 37.89%    passed     99.41%
+ 951  Pseudomonas_E.cerasi.900074915.02                 38.05%    passed     99.44%
+ 952  Pseudomonas_E.cerasi.900074915.03                 37.89%    passed     99.26%
+ 953  Pseudomonas_E.cerasi.900074915.04                 37.89%    passed     99.16%
+ 954  Pseudomonas_E.cerasi.900235895.00                 37.89%    passed     99.41%
+ 955  Pseudomonas_E.cerasi.900235895.01                 37.89%    passed     99.35%
+ 956  Pseudomonas_E.cerasi.900235895.02                 38.05%    passed     99.44%
+ 957  Pseudomonas_E.cerasi.900235895.03                 37.89%    passed     99.26%
+ 958  Pseudomonas_E.cerasi.900235895.04                 37.89%    passed     99.16%
+ 959  Pseudomonas_E.sp000931465.000931465.00            35.88%    passed     97.46%
+ 960  Pseudomonas_E.sp000931465.000931465.01            38.58%    passed     99.96%
+ 961  Pseudomonas_E.sp000931465.000931465.02            38.58%    passed     99.96%
+ 962  Pseudomonas_E.sp000931465.000931465.03            38.58%    passed     99.96%
+ 963  Pseudomonas_E.sp000931465.000931465.04            38.58%    passed     99.96%
+ 964  Pseudomonas_E.soli.002934345.00                   38.60%    passed     97.81%
+ 965  Pseudomonas_E.soli.002934345.01                   38.60%    passed     98.57%
+ 966  Pseudomonas_E.soli.002934345.02                   35.93%    passed     93.94%
+ 967  Pseudomonas_E.soli.002934345.03                   38.60%    passed     95.80%
+ 968  Pseudomonas_E.soli.002934345.04                   38.59%    passed     97.20%
+ 969  Pseudomonas_E.soli.002934345.05                   38.60%    passed     97.48%
+ 970  Pseudomonas_E.soli.002934345.06                   38.93%    passed     96.86%
+ 971  Pseudomonas_E.soli.001007005.00                   38.53%    passed     98.64%
+ 972  Pseudomonas_E.soli.001007005.01                   38.86%    passed     98.59%
+ 973  Pseudomonas_E.soli.001007005.02                   38.53%    passed     99.13%
+ 974  Pseudomonas_E.soli.001007005.03                   38.57%    passed     99.87%
+ 975  Pseudomonas_E.soli.001007005.04                   38.53%    passed     98.88%
+ 976  Pseudomonas_E.soli.001007005.05                   38.86%    passed     98.10%
+ 977  Pseudomonas_E.soli.001007005.06                   35.92%    passed     96.54%
+ 978  Pseudomonas_E.sp001655615.001655615.00            37.98%    passed     83.09%
+ 979  Pseudomonas_E.sp001655615.001655615.01            38.32%    passed     98.07%
+ 980  Pseudomonas_E.sp001655615.001655615.02            37.36%    passed     94.67%
+ 981  Pseudomonas_E.sp001655615.001655615.03            38.17%    passed     97.69%
+ 982  Pseudomonas_E.sp001655615.001655615.04            38.32%    passed     97.97%
+ 983  Pseudomonas_E.sp001655615.001655615.05            38.32%    passed     98.93%
+ 984  Pseudomonas_E.versuta.001294575.00                37.99%    passed     59.54%
+ 985  Pseudomonas_E.versuta.001294575.04                40.69%    passed     46.06%
+****  TOTAL                                             38.34%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Pseudomonas.aeruginosa_A.000017205.01 is identical to Pseudomonas.aeruginosa_A.000017205.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.000271365.02 is identical to Pseudomonas.aeruginosa.000271365.01 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002223805.01 is identical to Pseudomonas.aeruginosa.000359505.03 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.000829255.01 is identical to Pseudomonas.aeruginosa.000829255.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002968955.02 is identical to Pseudomonas.aeruginosa.000829255.02 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001447845.01 is identical to Pseudomonas.aeruginosa.001447845.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001516205.03 is identical to Pseudomonas.aeruginosa.001516205.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001594325.02 is identical to Pseudomonas.aeruginosa.001594325.01 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001722045.00 is identical to Pseudomonas.aeruginosa.001721785.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001722045.01 is identical to Pseudomonas.aeruginosa.001721785.01 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001722045.02 is identical to Pseudomonas.aeruginosa.001721785.02 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001900265.03 is identical to Pseudomonas.aeruginosa.001900265.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002237425.03 is identical to Pseudomonas.aeruginosa.002237405.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002237425.02 is identical to Pseudomonas.aeruginosa.002237405.01 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002237425.00 is identical to Pseudomonas.aeruginosa.002237405.02 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002812885.01 is identical to Pseudomonas.aeruginosa.002812885.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.003028335.03 is identical to Pseudomonas.aeruginosa.002968955.00 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa_A.003025345.02 is identical to Pseudomonas.aeruginosa_A.003025345.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.fluorescens_AR.000012445.05 is identical to Pseudomonas_E.fluorescens_AR.000012445.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.kilonensis.000237065.03 is identical to Pseudomonas_E.kilonensis.000237065.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.fluorescens_X.000730425.05 is identical to Pseudomonas_E.fluorescens_X.000730425.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.simiae.000963495.02 is identical to Pseudomonas_E.simiae.000963495.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.fluorescens_E.001307155.04 is identical to Pseudomonas_E.fluorescens_E.001307155.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.mendocina.000204295.03 is identical to Pseudomonas_E.mendocina.000204295.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.mendocina.000733715.01 is identical to Pseudomonas_E.mendocina.000733715.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.mendocina_C.003008615.01 is identical to Pseudomonas_E.mendocina_C.003008615.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000325725.02 is identical to Pseudomonas_E.hunanensis.000016865.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000325725.01 is identical to Pseudomonas_E.putida_P.000019125.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.putida_H.000410575.02 is identical to Pseudomonas_E.putida_P.000019125.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000325725.04 is identical to Pseudomonas_E.putida_P.000019125.04 but kept for subsequent analysis
+NOTE: Pseudomonas_E.putida_E.000019445.02 is identical to Pseudomonas_E.putida_E.000019445.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.hunanensis.000271965.03 is identical to Pseudomonas_E.hunanensis.000271965.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.putida_H.000410575.05 is identical to Pseudomonas_E.monteilii_B.000325725.05 but kept for subsequent analysis
+NOTE: Pseudomonas_E.hunanensis.000495455.03 is identical to Pseudomonas_E.hunanensis.000495455.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.hunanensis.001767335.04 is identical to Pseudomonas_E.hunanensis.001767335.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.putida_T.002741075.02 is identical to Pseudomonas_E.putida_T.002741075.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.putida_S.003228315.03 is identical to Pseudomonas_E.putida_S.003228315.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.putida_S.003228315.05 is identical to Pseudomonas_E.putida_S.003228315.02 but kept for subsequent analysis
+NOTE: Pseudomonas_A.stutzeri.000195105.03 is identical to Pseudomonas_A.stutzeri.000195105.00 but kept for subsequent analysis
+NOTE: Pseudomonas_A.stutzeri.000195105.02 is identical to Pseudomonas_A.stutzeri.000195105.01 but kept for subsequent analysis
+NOTE: Pseudomonas_A.stutzeri_A.000661915.01 is identical to Pseudomonas_A.stutzeri_A.000661915.00 but kept for subsequent analysis
+NOTE: Pseudomonas_A.zhaodongensis.001648195.03 is identical to Pseudomonas_A.zhaodongensis.001648195.00 but kept for subsequent analysis
+NOTE: Pseudomonas_A.stutzeri_AJ.003001655.01 is identical to Pseudomonas_A.stutzeri_AJ.003001655.00 but kept for subsequent analysis
+NOTE: Pseudomonas_A.stutzeri.003008495.02 is identical to Pseudomonas_A.stutzeri.003008495.00 but kept for subsequent analysis
+NOTE: Pseudomonas_A.stutzeri.003008495.03 is identical to Pseudomonas_A.stutzeri.003008495.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.000344335.03 is identical to Pseudomonas_E.avellanae.000344335.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.000344355.01 is identical to Pseudomonas_E.avellanae.000344355.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.000648735.02 is identical to Pseudomonas_E.avellanae.000344355.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.000648735.04 is identical to Pseudomonas_E.avellanae.000344355.04 but kept for subsequent analysis
+NOTE: Pseudomonas_E.cerasi.001281365.04 is identical to Pseudomonas_E.cerasi.001281365.03 but kept for subsequent analysis
+NOTE: Pseudomonas_E.syringae.001482725.03 is identical to Pseudomonas_E.syringae.001482725.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.001913215.03 is identical to Pseudomonas_E.avellanae.001913215.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.ficuserectae.900289125.02 is identical to Pseudomonas_E.ficuserectae.900235815.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.ficuserectae.900235815.04 is identical to Pseudomonas_E.ficuserectae.900235815.03 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.900235835.01 is identical to Pseudomonas_E.avellanae.900235835.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.syringae_M.900235865.03 is identical to Pseudomonas_E.syringae_M.900235865.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.ficuserectae.900235885.02 is identical to Pseudomonas_E.ficuserectae.900235885.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.oleovorans.000297075.03 is identical to Pseudomonas_E.oleovorans.000297075.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.ficuserectae.000012205.01 is identical to Pseudomonas_E.ficuserectae.000012205.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.ficuserectae.000164015.03 is identical to Pseudomonas_E.ficuserectae.000164015.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.cichorii.000517305.04 is identical to Pseudomonas_E.cichorii.000517305.03 but kept for subsequent analysis
+NOTE: Pseudomonas_E.alcaligenes.001597285.02 is identical to Pseudomonas_E.alcaligenes.001597285.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.002905795.01 is identical to Pseudomonas_E.avellanae.002905795.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.azotoformans_A.001579805.01 is identical to Pseudomonas_E.azotoformans_A.001579805.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.azotoformans_B.002007785.04 is identical to Pseudomonas_E.azotoformans_B.002007785.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.synxantha.000968415.01 is identical to Pseudomonas_E.synxantha.000968415.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.taetrolens.900475285.03 is identical to Pseudomonas_E.taetrolens.900475285.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510325.00 is identical to Pseudomonas_E.monteilii_B.000510285.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510325.01 is identical to Pseudomonas_E.monteilii_B.000510285.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510325.02 is identical to Pseudomonas_E.monteilii_B.000510285.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510325.03 is identical to Pseudomonas_E.monteilii_B.000510285.03 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510325.04 is identical to Pseudomonas_E.monteilii_B.000510285.04 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510325.05 is identical to Pseudomonas_E.monteilii_B.000510285.05 but kept for subsequent analysis
+NOTE: Pseudomonas_E.mosselii.002309555.04 is identical to Pseudomonas_E.mosselii.002309555.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.mosselii.002736065.00 is identical to Pseudomonas_E.mosselii.002309555.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.mosselii.002736065.03 is identical to Pseudomonas_E.mosselii.002309555.06 but kept for subsequent analysis
+NOTE: Pseudomonas_E.alcaliphila_B.001941865.02 is identical to Pseudomonas_E.alcaliphila_B.001941865.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.frederiksbergensis_B.001874645.05 is identical to Pseudomonas_E.frederiksbergensis_B.001874645.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.frederiksbergensis_E.001952935.06 is identical to Pseudomonas_E.frederiksbergensis_E.001952935.05 but kept for subsequent analysis
+NOTE: Pseudomonas_E.sp001655615.002355315.04 is identical to Pseudomonas_E.sp001655615.002355315.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.poae.000336465.04 is identical to Pseudomonas_E.poae.000336465.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.antarctica_A.001647715.03 is identical to Pseudomonas_E.antarctica_A.001647715.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.alkylphenolica.000746525.02 is identical to Pseudomonas_E.alkylphenolica.000746525.01 but kept for subsequent analysis
+NOTE: Pseudomonas_B.psychrotolerans.001913135.02 is identical to Pseudomonas_B.psychrotolerans.001913135.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.000007805.02 is identical to Pseudomonas_E.avellanae.000007805.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.002966555.03 is identical to Pseudomonas_E.avellanae.002966555.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.900235905.01 is identical to Pseudomonas_E.avellanae.900235905.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.protegens.002208745.01 is identical to Pseudomonas_E.protegens.000012265.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.protegens.000397205.00 is identical to Pseudomonas_E.protegens.000012265.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.protegens.002208745.02 is identical to Pseudomonas_E.protegens.000012265.04 but kept for subsequent analysis
+NOTE: Pseudomonas_E.protegens.000828695.03 is identical to Pseudomonas_E.protegens.000828695.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.piscium.000698865.04 is identical to Pseudomonas_E.piscium.000698865.03 but kept for subsequent analysis
+NOTE: Pseudomonas_E.sp000931465.000963835.02 is identical to Pseudomonas_E.sp000931465.000963835.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.chlororaphis.001602135.03 is identical to Pseudomonas_E.chlororaphis.001602135.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.piscium.002355875.03 is identical to Pseudomonas_E.piscium.002355875.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.piscium.003008635.02 is identical to Pseudomonas_E.piscium.003008635.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.brassicacearum_C.001449085.03 is identical to Pseudomonas_E.brassicacearum_C.001449085.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.sp000346225.000346225.02 is identical to Pseudomonas_E.sp000346225.000346225.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.sp001511755.001511755.03 is identical to Pseudomonas_E.sp001511755.001511755.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.soli.000498975.02 is identical to Pseudomonas_E.soli.000498975.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.cerasi.900074915.04 is identical to Pseudomonas_E.cerasi.900074915.00 but kept for subsequent analysis
+NOTE: Pseudomonas_E.cerasi.900235895.00 is identical to Pseudomonas_E.cerasi.900074915.01 but kept for subsequent analysis
+NOTE: Pseudomonas_E.cerasi.900235895.02 is identical to Pseudomonas_E.cerasi.900074915.02 but kept for subsequent analysis
+NOTE: Pseudomonas_E.cerasi.900235895.03 is identical to Pseudomonas_E.cerasi.900074915.03 but kept for subsequent analysis
+NOTE: Pseudomonas_E.sp000931465.000931465.02 is identical to Pseudomonas_E.sp000931465.000931465.01 but kept for subsequent analysis
+NOTE: 63 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.000271365.03 (identical to Pseudomonas.aeruginosa.000271365.01) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.000829255.03 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002812925.00 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002812925.01 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002812925.03 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002968955.03 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.003028335.00 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.003028335.01 (identical to Pseudomonas.aeruginosa.000829255.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001900265.04 (identical to Pseudomonas.aeruginosa.001900265.00) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002237425.01 (identical to Pseudomonas.aeruginosa.002237405.02) is ignored but added at the end
+NOTE: Pseudomonas_E.kilonensis.000237065.04 (identical to Pseudomonas_E.kilonensis.000237065.01) is ignored but added at the end
+NOTE: Pseudomonas_E.mendocina_C.003008615.02 (identical to Pseudomonas_E.mendocina_C.003008615.00) is ignored but added at the end
+NOTE: Pseudomonas_E.mendocina_C.003008615.03 (identical to Pseudomonas_E.mendocina_C.003008615.00) is ignored but added at the end
+NOTE: Pseudomonas_E.putida_H.000410575.01 (identical to Pseudomonas_E.putida_P.000019125.01) is ignored but added at the end
+NOTE: Pseudomonas_E.putida_P.001886975.02 (identical to Pseudomonas_E.putida_P.000019125.02) is ignored but added at the end
+NOTE: Pseudomonas_E.putida_T.002741075.03 (identical to Pseudomonas_E.putida_T.002741075.00) is ignored but added at the end
+NOTE: Pseudomonas_A.stutzeri_A.000661915.02 (identical to Pseudomonas_A.stutzeri_A.000661915.00) is ignored but added at the end
+NOTE: Pseudomonas_A.stutzeri_A.000661915.03 (identical to Pseudomonas_A.stutzeri_A.000661915.00) is ignored but added at the end
+NOTE: Pseudomonas_A.stutzeri_AJ.003001655.02 (identical to Pseudomonas_A.stutzeri_AJ.003001655.00) is ignored but added at the end
+NOTE: Pseudomonas_A.stutzeri_AJ.003001655.03 (identical to Pseudomonas_A.stutzeri_AJ.003001655.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.000344355.03 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.000648735.00 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.000648735.01 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.000648735.03 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913215.01 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913235.00 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913235.01 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913235.03 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024285.00 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024285.01 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024285.03 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024305.00 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024305.01 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024305.02 (identical to Pseudomonas_E.avellanae.000344355.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913215.02 (identical to Pseudomonas_E.avellanae.000344355.02) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913235.02 (identical to Pseudomonas_E.avellanae.000344355.02) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024285.02 (identical to Pseudomonas_E.avellanae.000344355.02) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024305.03 (identical to Pseudomonas_E.avellanae.000344355.02) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913235.04 (identical to Pseudomonas_E.avellanae.000344355.04) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024285.04 (identical to Pseudomonas_E.avellanae.000344355.04) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.002024305.04 (identical to Pseudomonas_E.avellanae.000344355.04) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.900289125.00 (identical to Pseudomonas_E.ficuserectae.900235815.03) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.900289125.01 (identical to Pseudomonas_E.ficuserectae.900235815.03) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.900289125.03 (identical to Pseudomonas_E.ficuserectae.900235815.03) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.002905685.00 (identical to Pseudomonas_E.ficuserectae.900235815.03) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.002905685.01 (identical to Pseudomonas_E.ficuserectae.900235815.03) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.002905685.03 (identical to Pseudomonas_E.ficuserectae.900235815.03) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.900235835.02 (identical to Pseudomonas_E.avellanae.900235835.00) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.900235885.03 (identical to Pseudomonas_E.ficuserectae.900235885.01) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.000012205.02 (identical to Pseudomonas_E.ficuserectae.000012205.00) is ignored but added at the end
+NOTE: Pseudomonas_E.ficuserectae.000012205.03 (identical to Pseudomonas_E.ficuserectae.000012205.00) is ignored but added at the end
+NOTE: Pseudomonas_E.alcaliphila_B.001941865.03 (identical to Pseudomonas_E.alcaliphila_B.001941865.00) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.900235905.02 (identical to Pseudomonas_E.avellanae.900235905.00) is ignored but added at the end
+NOTE: Pseudomonas_E.protegens.000397205.01 (identical to Pseudomonas_E.protegens.000012265.01) is ignored but added at the end
+NOTE: Pseudomonas_E.protegens.000397205.03 (identical to Pseudomonas_E.protegens.000012265.01) is ignored but added at the end
+NOTE: Pseudomonas_E.protegens.000397205.04 (identical to Pseudomonas_E.protegens.000012265.01) is ignored but added at the end
+NOTE: Pseudomonas_E.protegens.000828695.04 (identical to Pseudomonas_E.protegens.000828695.02) is ignored but added at the end
+NOTE: Pseudomonas_E.chlororaphis.001602135.04 (identical to Pseudomonas_E.chlororaphis.001602135.02) is ignored but added at the end
+NOTE: Pseudomonas_E.piscium.003008635.03 (identical to Pseudomonas_E.piscium.003008635.01) is ignored but added at the end
+NOTE: Pseudomonas_E.soli.000498975.06 (identical to Pseudomonas_E.soli.000498975.00) is ignored but added at the end
+NOTE: Pseudomonas_E.cerasi.900235895.04 (identical to Pseudomonas_E.cerasi.900074915.00) is ignored but added at the end
+NOTE: Pseudomonas_E.sp000931465.000931465.03 (identical to Pseudomonas_E.sp000931465.000931465.01) is ignored but added at the end
+NOTE: Pseudomonas_E.sp000931465.000931465.04 (identical to Pseudomonas_E.sp000931465.000931465.01) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to ./024_results/Pseudomonas.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.929 seconds
+
+NOTE: 238 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -93733.217
+2. Current log-likelihood: -83174.276
+3. Current log-likelihood: -82787.219
+4. Current log-likelihood: -82778.353
+Optimal log-likelihood: -82778.247
+Rate parameters:  A-C: 1.00000  A-G: 2.82562  A-T: 1.00000  C-G: 1.00000  C-T: 2.82562  G-T: 1.00000
+Base frequencies:  A: 0.261  C: 0.219  G: 0.301  T: 0.218
+Gamma shape alpha: 0.186
+Parameters optimization took 4 rounds (1069.430 sec)
+Computing ML distances based on estimated model parameters... 36.184 sec
+Computing BIONJ tree...
+1.653 seconds
+Log-likelihood of BIONJ tree: -84588.235
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 97.231 second
