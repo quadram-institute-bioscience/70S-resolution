@@ -1,201 +1,150 @@
 ,Organism (NCBI),Accession Number,File Name,Species (GTDB),Number of Operons,Average Operon Size,Min Operon Size,Max Operon Size
-0,Pseudomonas aeruginosa PA7,GCF_000017205.1,GCF_000017205.1_ASM1720v1_genomic.gbff.gz,Pseudomonas aeruginosa A,4,5155.0,5155,5155
-1,Pseudomonas aeruginosa LESB58,GCF_000026645.1,GCF_000026645.1_ASM2664v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5157,5157
-2,Pseudomonas aeruginosa DK2,GCF_000271365.1,GCF_000271365.1_ASM27136v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5157,5157
-3,Pseudomonas aeruginosa B136-33,GCF_000359505.1,GCF_000359505.1_ASM35950v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5158.0,5158,5158
-4,Pseudomonas aeruginosa,GCF_000829255.1,GCF_000829255.1_ASM82925v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5156.0,5156,5156
-5,Pseudomonas aeruginosa,GCF_001447845.1,GCF_001447845.1_ASM144784v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5156.5,5156,5157
-6,Pseudomonas aeruginosa,GCF_001516205.2,GCF_001516205.2_ASM151620v2_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.25,5157,5158
-7,Pseudomonas aeruginosa,GCF_001516225.2,GCF_001516225.2_ASM151622v2_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5156,5158
-8,Pseudomonas aeruginosa,GCF_001594325.2,GCF_001594325.2_ASM159432v2_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.5,5157,5158
-9,Pseudomonas aeruginosa,GCF_001721785.1,GCF_001721785.1_ASM172178v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.25,5156,5158
-10,Pseudomonas aeruginosa,GCF_001721845.1,GCF_001721845.1_ASM172184v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5156.0,5155,5157
-11,Pseudomonas aeruginosa,GCF_001722045.1,GCF_001722045.1_ASM172204v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5155,5158
-12,Pseudomonas aeruginosa,GCF_001900265.1,GCF_001900265.1_ASM190026v1_genomic.gbff.gz,Pseudomonas aeruginosa,3,5158.0,5158,5158
-13,Pseudomonas aeruginosa,GCF_002205335.1,GCF_002205335.1_ASM220533v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5156,5158
-14,Pseudomonas aeruginosa,GCF_002205375.1,GCF_002205375.1_ASM220537v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5156.5,5155,5158
-15,Pseudomonas aeruginosa,GCF_002223805.1,GCF_002223805.1_ASM222380v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5156,5158
-16,Pseudomonas aeruginosa,GCF_002237405.1,GCF_002237405.1_ASM223740v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5155.75,5155,5156
-17,Pseudomonas aeruginosa,GCF_002237425.1,GCF_002237425.1_ASM223742v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5156.0,5156,5156
-18,Pseudomonas aeruginosa,GCF_002812885.1,GCF_002812885.1_ASM281288v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5157.0,5157,5157
-19,Pseudomonas aeruginosa,GCF_002812925.1,GCF_002812925.1_ASM281292v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5155.75,5155,5156
-20,Pseudomonas aeruginosa,GCF_002968755.1,GCF_002968755.1_ASM296875v1_genomic.gbff.gz,Pseudomonas aeruginosa A,4,5155.25,5155,5156
-21,Pseudomonas aeruginosa,GCF_002968955.1,GCF_002968955.1_ASM296895v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5155.75,5155,5156
-22,Pseudomonas aeruginosa,GCF_003025345.2,GCF_003025345.2_ASM302534v2_genomic.gbff.gz,Pseudomonas aeruginosa A,4,5154.75,5154,5155
-23,Pseudomonas aeruginosa,GCF_003028335.1,GCF_003028335.1_ASM302833v1_genomic.gbff.gz,Pseudomonas aeruginosa,4,5155.75,5155,5156
-24,Pseudomonas aeruginosa,GCF_003073695.1,GCF_003073695.1_ASM307369v1_genomic.gbff.gz,Pseudomonas aeruginosa A,4,5152.5,5151,5156
-25,Pseudomonas fluorescens SBW25,GCF_000009225.2,GCF_000009225.2_ASM922v1_genomic.gbff.gz,Pseudomonas E marginalis,5,5261.0,5216,5441
-26,Pseudomonas fluorescens Pf0-1,GCF_000012445.1,GCF_000012445.1_ASM1244v1_genomic.gbff.gz,Pseudomonas E fluorescens AR,6,5253.0,5208,5439
-27,Pseudomonas fluorescens F113,GCF_000237065.1,GCF_000237065.1_ASM23706v1_genomic.gbff.gz,Pseudomonas E kilonensis,5,5253.8,5209,5432
-28,Pseudomonas fluorescens A506,GCF_000262325.2,GCF_000262325.2_ASM26232v2_genomic.gbff.gz,Pseudomonas E sp002966775,6,5254.166666666667,5212,5437
-29,Pseudomonas fluorescens NCIMB 11764,GCF_000293885.2,GCF_000293885.2_ASM29388v3_genomic.gbff.gz,Pseudomonas E fluorescens B,5,5244.0,5173,5435
-30,Pseudomonas fluorescens,GCF_000730425.1,GCF_000730425.1_ASM73042v1_genomic.gbff.gz,Pseudomonas E fluorescens X,5,5271.6,5227,5450
-31,Pseudomonas fluorescens,GCF_000934565.1,GCF_000934565.1_ASM93456v1_genomic.gbff.gz,Pseudomonas E simiae,6,5225.0,5014,5449
-32,Pseudomonas fluorescens PICF7,GCF_000963495.1,GCF_000963495.1_ASM96349v1_genomic.gbff.gz,Pseudomonas E simiae,6,5239.0,5014,5440
-33,Pseudomonas fluorescens,GCF_001307155.1,GCF_001307155.1_ASM130715v1_genomic.gbff.gz,Pseudomonas E fluorescens E,6,5212.5,5203,5244
-34,Pseudomonas fluorescens,GCF_001307275.1,GCF_001307275.1_ASM130727v1_genomic.gbff.gz,Pseudomonas E fluorescens AA,5,5279.8,5224,5466
-35,Pseudomonas fluorescens,GCF_001708445.1,GCF_001708445.1_ASM170844v1_genomic.gbff.gz,Pseudomonas E fluorescens AN,1,5215.0,5215,5215
-36,Pseudomonas fluorescens,GCF_001708465.1,GCF_001708465.1_ASM170846v1_genomic.gbff.gz,Pseudomonas E fluorescens AN,1,5215.0,5215,5215
-37,Pseudomonas fluorescens,GCF_001747385.1,GCF_001747385.1_ASM174738v1_genomic.gbff.gz,Pseudomonas E sp002966775,6,5251.166666666667,5208,5438
-38,Pseudomonas fluorescens,GCF_003055645.1,GCF_003055645.1_ASM305564v1_genomic.gbff.gz,Pseudomonas E fluorescens AR,6,5260.833333333333,5182,5472
-39,Pseudomonas fluorescens,GCF_900475215.1,GCF_900475215.1_42727_B01_genomic.gbff.gz,Pseudomonas E fluorescens,6,5238.166666666667,5049,5456
-40,Pseudomonas fragi,GCF_001543265.1,GCF_001543265.1_ASM154326v1_genomic.gbff.gz,Pseudomonas E sp000346225,5,5335.6,5222,5694
-41,Pseudomonas fragi,GCF_002128325.1,GCF_002128325.1_ASM212832v1_genomic.gbff.gz,Pseudomonas E fragi,2,5012.0,5006,5018
-42,Pseudomonas mendocina ymp,GCF_000016565.1,GCF_000016565.1_ASM1656v1_genomic.gbff.gz,Pseudomonas E mendocina A,4,5216.75,5216,5217
-43,Pseudomonas mendocina NK-01,GCF_000204295.1,GCF_000204295.1_ASM20429v1_genomic.gbff.gz,Pseudomonas E mendocina,4,5197.0,5197,5197
-44,Pseudomonas mendocina S5.2,GCF_000733715.2,GCF_000733715.2_ASM73371v2_genomic.gbff.gz,Pseudomonas E mendocina,4,5196.0,5196,5196
-45,Pseudomonas mendocina,GCF_002442555.1,GCF_002442555.1_ASM244255v1_genomic.gbff.gz,Pseudomonas E mendocina A,4,5209.25,5188,5217
-46,Pseudomonas mendocina,GCF_003008615.1,GCF_003008615.1_ASM300861v1_genomic.gbff.gz,Pseudomonas E mendocina C,4,5200.0,5200,5200
-47,Pseudomonas putida KT2440,GCF_000007565.2,GCF_000007565.2_ASM756v2_genomic.gbff.gz,Pseudomonas E hunanensis,5,5105.4,4955,5245
-48,Pseudomonas putida F1,GCF_000016865.1,GCF_000016865.1_ASM1686v1_genomic.gbff.gz,Pseudomonas E hunanensis,6,5142.166666666667,4981,5194
-49,Pseudomonas putida GB-1,GCF_000019125.1,GCF_000019125.1_ASM1912v1_genomic.gbff.gz,Pseudomonas E putida P,5,5052.0,4960,5190
-50,Pseudomonas putida W619,GCF_000019445.1,GCF_000019445.1_ASM1944v1_genomic.gbff.gz,Pseudomonas E putida E,5,5128.0,4994,5175
-51,Pseudomonas putida BIRD-1,GCF_000183645.1,GCF_000183645.1_ASM18364v1_genomic.gbff.gz,Pseudomonas E hunanensis,5,5119.0,4968,5260
-52,Pseudomonas putida S16,GCF_000219705.1,GCF_000219705.1_ASM21970v1_genomic.gbff.gz,Pseudomonas E monteilii B,6,5031.666666666667,4994,5217
-53,Pseudomonas putida B6-2,GCF_000226035.2,GCF_000226035.2_ASM22603v3_genomic.gbff.gz,Pseudomonas E hunanensis,4,5553.25,4968,6952
-54,Pseudomonas putida ND6,GCF_000264665.2,GCF_000264665.2_ASM26466v2_genomic.gbff.gz,Pseudomonas E hunanensis,6,5142.333333333333,4981,5205
-55,Pseudomonas putida SJTE-1,GCF_000271965.2,GCF_000271965.2_ASM27196v2_genomic.gbff.gz,Pseudomonas E hunanensis,6,5185.333333333333,5181,5194
-56,Pseudomonas putida HB3267,GCF_000325725.1,GCF_000325725.1_ASM32572v1_genomic.gbff.gz,Pseudomonas E monteilii B,5,5070.4,4960,5258
-57,Pseudomonas putida H8234,GCF_000410575.1,GCF_000410575.1_ASM41057v1_genomic.gbff.gz,Pseudomonas E putida H,5,5151.0,4960,5258
-58,Pseudomonas putida NBRC 14164,GCF_000412675.1,GCF_000412675.1_ASM41267v1_genomic.gbff.gz,Pseudomonas E putida,5,5105.4,5002,5187
-59,Pseudomonas putida S12,GCF_000495455.2,GCF_000495455.2_ASM49545v2_genomic.gbff.gz,Pseudomonas E hunanensis,6,5188.333333333333,5173,5193
-60,Pseudomonas putida S13.1.2,GCF_000498395.2,GCF_000498395.2_ASM49839v3_genomic.gbff.gz,Pseudomonas E putida Q,5,5109.6,4996,5185
-61,Pseudomonas putida,GCF_001515585.1,GCF_001515585.1_ASM151558v2_genomic.gbff.gz,Pseudomonas E mosselii,7,5209.142857142857,5154,5412
-62,Pseudomonas putida,GCF_001636055.1,GCF_001636055.1_ASM163605v1_genomic.gbff.gz,Pseudomonas E putida B,6,5195.833333333333,5136,5394
-63,Pseudomonas putida JB,GCF_001767335.1,GCF_001767335.1_ASM176733v1_genomic.gbff.gz,Pseudomonas E hunanensis,6,5087.666666666667,4969,5208
-64,Pseudomonas putida,GCF_001886975.1,GCF_001886975.1_ASM188697v1_genomic.gbff.gz,Pseudomonas E putida P,5,5052.0,4960,5190
-65,Pseudomonas putida,GCF_002025705.1,GCF_002025705.1_ASM202570v1_genomic.gbff.gz,Pseudomonas E putida J,5,5066.2,4973,5211
-66,Pseudomonas putida,GCF_002356095.1,GCF_002356095.1_ASM235609v1_genomic.gbff.gz,Pseudomonas E putida H,5,5115.8,4996,5251
-67,Pseudomonas putida,GCF_002736045.1,GCF_002736045.1_ASM273604v1_genomic.gbff.gz,Pseudomonas E putida M,5,5084.8,4985,5176
-68,Pseudomonas putida,GCF_002736125.1,GCF_002736125.1_ASM273612v1_genomic.gbff.gz,Pseudomonas E putida M,5,5078.0,4982,5265
-69,Pseudomonas putida,GCF_002741075.1,GCF_002741075.1_IEC330191.0_genomic.gbff.gz,Pseudomonas E putida T,6,5203.5,5166,5391
-70,Pseudomonas putida,GCF_003228315.1,GCF_003228315.1_ASM322831v1_genomic.gbff.gz,Pseudomonas E putida S,6,5233.0,5196,5418
-71,Pseudomonas stutzeri A1501,GCF_000013785.1,GCF_000013785.1_ASM1378v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5193.25,5182,5227
-72,Pseudomonas stutzeri DSM 4166,GCF_000195105.1,GCF_000195105.1_ASM19510v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5182.0,5182,5182
-73,Pseudomonas stutzeri,GCF_000219605.1,GCF_000219605.1_ASM21960v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5182.0,5182,5182
-74,Pseudomonas stutzeri CCUG 29243,GCF_000267545.1,GCF_000267545.1_ASM26754v1_genomic.gbff.gz,Pseudomonas A stutzeri U,4,5205.25,5205,5206
-75,Pseudomonas stutzeri DSM 10701,GCF_000279165.1,GCF_000279165.1_ASM27916v1_genomic.gbff.gz,Pseudomonas A stutzeri AG,4,5229.0,5219,5238
-76,Pseudomonas stutzeri RCH2,GCF_000327065.1,GCF_000327065.1_ASM32706v1_genomic.gbff.gz,Pseudomonas A stutzeri AE,4,5203.75,5202,5205
-77,Pseudomonas stutzeri,GCF_000590475.1,GCF_000590475.1_ASM59047v1_genomic.gbff.gz,Pseudomonas A stutzeri D,4,5226.0,5226,5226
-78,Pseudomonas stutzeri,GCF_000661915.1,GCF_000661915.1_ASM66191v1_genomic.gbff.gz,Pseudomonas A stutzeri A,4,5222.0,5222,5222
-79,Pseudomonas stutzeri,GCF_001038645.1,GCF_001038645.1_ASM103864v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5174.75,5173,5176
-80,Pseudomonas stutzeri,GCF_001648195.1,GCF_001648195.1_ASM164819v1_genomic.gbff.gz,Pseudomonas A zhaodongensis,4,5214.0,5214,5214
-81,Pseudomonas stutzeri,GCF_003001655.1,GCF_003001655.1_ASM300165v1_genomic.gbff.gz,Pseudomonas A stutzeri AJ,4,5201.0,5201,5201
-82,Pseudomonas stutzeri,GCF_003008495.1,GCF_003008495.1_ASM300849v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5180.0,5180,5180
-83,Pseudomonas syringae pv. syringae B728a,GCF_000012245.1,GCF_000012245.1_ASM1224v1_genomic.gbff.gz,Pseudomonas E syringae M,5,5287.0,5238,5456
-84,Pseudomonas syringae pv. actinidiae ICMP 9853,GCF_000344335.2,GCF_000344335.2_ASM34433v2_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-85,Pseudomonas syringae pv. actinidiae ICMP 18708,GCF_000344355.2,GCF_000344355.2_ASM34435v2_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-86,Pseudomonas syringae CC1557,GCF_000452705.1,GCF_000452705.1_ASM45270v3_genomic.gbff.gz,Pseudomonas E syringae F,5,5314.6,5238,5463
-87,Pseudomonas syringae pv. actinidiae ICMP 18884,GCF_000648735.3,GCF_000648735.3_ASM64873v3_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-88,Pseudomonas syringae pv. syringae HS191,GCF_000988395.1,GCF_000988395.1_ASM98839v1_genomic.gbff.gz,Pseudomonas E syringae,5,5299.8,5255,5478
-89,Pseudomonas syringae pv. syringae B301D,GCF_000988485.1,GCF_000988485.1_ASM98848v1_genomic.gbff.gz,Pseudomonas E syringae M,5,5291.0,5240,5463
-90,Pseudomonas syringae UMAF0158,GCF_001281365.1,GCF_001281365.1_ASM128136v1_genomic.gbff.gz,Pseudomonas E cerasi,5,5278.8,5234,5457
-91,Pseudomonas syringae pv. lapsa,GCF_001482725.1,GCF_001482725.1_ASM148272v1_genomic.gbff.gz,Pseudomonas E syringae,5,5296.6,5240,5478
-92,Pseudomonas syringae pv. actinidiae,GCF_001913215.1,GCF_001913215.1_ASM191321v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.0,5237,5460
-93,Pseudomonas syringae pv. actinidiae,GCF_001913235.1,GCF_001913235.1_ASM191323v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-94,Pseudomonas syringae pv. actinidiae,GCF_002024285.1,GCF_002024285.1_ASM202428v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-95,Pseudomonas syringae pv. actinidiae,GCF_002024305.1,GCF_002024305.1_ASM202430v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-96,Pseudomonas syringae pv. actinidiae,GCF_002763655.1,GCF_002763655.1_ASM276365v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5275.0,5224,5452
-97,Pseudomonas syringae pv. syringae,GCF_002905815.2,GCF_002905815.2_ASM290581v2_genomic.gbff.gz,Pseudomonas E syringae M,5,5242.2,5239,5255
-98,Pseudomonas syringae pv. atrofaciens,GCF_003047185.1,GCF_003047185.1_ASM304718v1_genomic.gbff.gz,Pseudomonas E syringae,5,5296.6,5240,5478
-99,Pseudomonas syringae,GCF_900235815.1,GCF_900235815.1_CFBP3840_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5285.4,5238,5460
-100,Pseudomonas syringae pv. syringae,GCF_900235825.1,GCF_900235825.1_CFBP4215_genomic.gbff.gz,Pseudomonas E syringae M,5,5286.8,5240,5463
-101,Pseudomonas syringae pv. avii,GCF_900235835.1,GCF_900235835.1_CFBP3846_genomic.gbff.gz,Pseudomonas E avellanae,5,5286.6,5242,5465
-102,Pseudomonas syringae pv. syringae,GCF_900235865.1,GCF_900235865.1_CFBP2118_genomic.gbff.gz,Pseudomonas E syringae M,5,5287.2,5239,5463
-103,Pseudomonas syringae pv. cerasicola,GCF_900235885.1,GCF_900235885.1_CFBP6109_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5282.4,5238,5460
-104,Pseudomonas syringae,GCF_900289125.1,GCF_900289125.1_CFBP2116_finsihed_replicons_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5285.2,5238,5459
-105,Pseudomonas pseudoalcaligenes CECT 5344,GCF_000297075.2,GCF_000297075.2_Ppseudo_final_genomic.gbff.gz,Pseudomonas E oleovorans,4,5210.0,5201,5213
-106,Pseudomonas pseudoalcaligenes,GCF_000953455.1,GCF_000953455.1_Ppseudo_Pac_genomic.gbff.gz,Pseudomonas E oleovorans,4,5210.5,5203,5213
-107,Pseudomonas savastanoi pv. phaseolicola 1448A,GCF_000012205.1,GCF_000012205.1_ASM1220v1_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5297.4,5253,5475
-108,Pseudomonas savastanoi pv. savastanoi NCPPB 3335,GCF_000164015.3,GCF_000164015.3_ASM16401v3_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5295.0,5241,5475
-109,Pseudomonas viridiflava,GCF_900184295.1,GCF_900184295.1_Chr_1_genomic.gbff.gz,Pseudomonas E viridiflava,5,5257.4,5192,5441
-110,Pseudomonas cichorii JBC1,GCF_000517305.1,GCF_000517305.1_ASM51730v1_genomic.gbff.gz,Pseudomonas E cichorii,6,5182.166666666667,5144,5369
-111,Pseudomonas alcaligenes,GCF_001597285.1,GCF_001597285.1_ASM159728v1_genomic.gbff.gz,Pseudomonas E alcaligenes,3,5181.0,5181,5181
-112,Pseudomonas avellanae,GCF_002905795.2,GCF_002905795.2_ASM290579v2_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-113,Pseudomonas mucidolens,GCF_900475945.1,GCF_900475945.1_48290_E02_genomic.gbff.gz,Pseudomonas E mucidolens,5,5249.8,5205,5429
-114,Pseudomonas amygdali pv. lachrymans,GCF_002068135.1,GCF_002068135.1_ASM206813v1_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5277.4,5227,5449
-115,Pseudomonas amygdali pv. morsprunorum,GCF_002905685.2,GCF_002905685.2_ASM290568v2_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5285.2,5238,5460
-116,Pseudomonas azotoformans,GCF_001579805.1,GCF_001579805.1_ASM157980v1_genomic.gbff.gz,Pseudomonas E azotoformans A,6,5254.333333333333,5213,5446
-117,Pseudomonas azotoformans,GCF_002007785.1,GCF_002007785.1_ASM200778v1_genomic.gbff.gz,Pseudomonas E azotoformans B,5,5260.0,5215,5440
-118,Pseudomonas corrugata,GCF_001708425.1,GCF_001708425.1_ASM170842v1_genomic.gbff.gz,Pseudomonas E corrugata,5,5262.0,5211,5465
-119,Pseudomonas fulva 12-X,GCF_000213805.1,GCF_000213805.1_ASM21380v1_genomic.gbff.gz,Pseudomonas E fulva B,4,5194.5,5194,5195
-120,Pseudomonas fulva,GCF_002951475.1,GCF_002951475.1_ASM295147v1_genomic.gbff.gz,Pseudomonas E fulva,5,5093.8,4957,5185
-121,Pseudomonas fluorescens,GCF_000968415.2,GCF_000968415.2_ASM96841v2_genomic.gbff.gz,Pseudomonas E synxantha,6,5253.5,5214,5449
-122,Pseudomonas taetrolens,GCF_900475285.1,GCF_900475285.1_43222_B01_genomic.gbff.gz,Pseudomonas E taetrolens,4,5185.5,5016,5242
-123,Pseudomonas oryzihabitans,GCF_001518815.1,GCF_001518815.1_ASM151881v1_genomic.gbff.gz,Pseudomonas B oryzihabitans E,5,5252.4,5246,5255
-124,Pseudomonas citronellolis,GCF_001586155.1,GCF_001586155.1_ASM158615v1_genomic.gbff.gz,Pseudomonas citronellolis,5,5159.2,5159,5160
-125,Pseudomonas citronellolis,GCF_001654435.1,GCF_001654435.1_ASM165443v1_genomic.gbff.gz,Pseudomonas citronellolis,5,5182.0,5153,5239
-126,Pseudomonas resinovorans NBRC 106553,GCF_000412695.1,GCF_000412695.1_ASM41269v1_genomic.gbff.gz,Pseudomonas F resinovorans A,3,5247.333333333333,5162,5418
-127,Pseudomonas knackmussii B13,GCF_000689415.1,GCF_000689415.1_PKB13_genomic.gbff.gz,Pseudomonas knackmussii,4,5258.25,5155,5567
-128,Pseudomonas sp. VLB120,GCF_000494915.1,GCF_000494915.1_ASM49491v1_genomic.gbff.gz,Pseudomonas E taiwanensis,5,5159.2,5144,5182
-129,Pseudomonas plecoglossicida,GCF_000831585.1,GCF_000831585.1_ASM83158v1_genomic.gbff.gz,Pseudomonas E monteilii B,4,5040.5,4993,5183
-130,Pseudomonas balearica DSM 6083,GCF_000818015.1,GCF_000818015.1_ASM81801v1_genomic.gbff.gz,Pseudomonas A balearica,4,5164.75,5164,5167
-131,Pseudomonas mandelii JR-1,GCF_000257545.3,GCF_000257545.3_ASM25754v3_genomic.gbff.gz,Pseudomonas E mandelii,6,5229.833333333333,5019,5438
-132,Pseudomonas orientalis,GCF_002934065.1,GCF_002934065.1_ASM293406v1_genomic.gbff.gz,Pseudomonas E orientalis A,6,5260.0,5211,5438
-133,Pseudomonas monteilii SB3078,GCF_000510285.1,GCF_000510285.1_ASM51028v1_genomic.gbff.gz,Pseudomonas E monteilii B,6,5030.0,4993,5215
-134,Pseudomonas monteilii SB3101,GCF_000510325.1,GCF_000510325.1_ASM51032v1_genomic.gbff.gz,Pseudomonas E monteilii B,6,5030.0,4993,5215
-135,Pseudomonas monteilii,GCF_001534745.1,GCF_001534745.1_ASM153474v1_genomic.gbff.gz,Pseudomonas E monteilii A,6,5228.333333333333,5180,5417
-136,Pseudomonas monteilii,GCF_002943995.1,GCF_002943995.1_ASM294399v1_genomic.gbff.gz,Pseudomonas E monteilii,5,5085.4,4958,5179
-137,Pseudomonas veronii,GCF_002028325.1,GCF_002028325.1_ASM202832v1_genomic.gbff.gz,Pseudomonas E veronii,6,5207.833333333333,4978,5434
-138,Pseudomonas mosselii,GCF_002309555.1,GCF_002309555.1_ASM230955v1_genomic.gbff.gz,Pseudomonas E mosselii,7,5251.285714285715,5187,5412
-139,Pseudomonas mosselii,GCF_002736065.1,GCF_002736065.1_ASM273606v1_genomic.gbff.gz,Pseudomonas E mosselii,7,5218.571428571428,5185,5411
-140,Pseudomonas alcaliphila JAB1,GCF_001941865.1,GCF_001941865.1_ASM194186v1_genomic.gbff.gz,Pseudomonas E alcaliphila B,4,5213.0,5213,5213
-141,Pseudomonas frederiksbergensis,GCF_001874645.1,GCF_001874645.1_ASM187464v1_genomic.gbff.gz,Pseudomonas E frederiksbergensis B,7,5201.857142857143,5170,5283
-142,Pseudomonas frederiksbergensis,GCF_001952935.1,GCF_001952935.1_ASM195293v1_genomic.gbff.gz,Pseudomonas E frederiksbergensis E,7,5174.714285714285,5029,5450
-143,Pseudomonas frederiksbergensis,GCF_002355315.1,GCF_002355315.1_ASM235531v1_genomic.gbff.gz,Pseudomonas E sp001655615,6,5256.0,5212,5286
-144,Pseudomonas parafulva,GCF_000800255.1,GCF_000800255.1_ASM80025v1_genomic.gbff.gz,Pseudomonas E parafulva A,5,5256.8,5211,5437
-145,Pseudomonas parafulva,GCF_002021815.1,GCF_002021815.1_ASM202181v1_genomic.gbff.gz,Pseudomonas E parafulva B,5,5098.4,4958,5192
-146,Pseudomonas cremoricolorata,GCF_000759535.1,GCF_000759535.1_ASM75953v1_genomic.gbff.gz,Pseudomonas E cremoricolorata A,6,5238.5,5201,5426
-147,Pseudomonas koreensis,GCF_001605965.1,GCF_001605965.1_ASM160596v1_genomic.gbff.gz,Pseudomonas E koreensis C,5,5266.0,5212,5445
-148,Pseudomonas koreensis,GCF_001654515.1,GCF_001654515.1_ASM165451v1_genomic.gbff.gz,Pseudomonas E koreensis D,6,5242.5,5201,5425
-149,Pseudomonas koreensis,GCF_003049825.1,GCF_003049825.1_ASM304982v1_genomic.gbff.gz,Pseudomonas E koreensis B,6,5216.666666666667,4991,5428
-150,Pseudomonas trivialis,GCF_001186335.1,GCF_001186335.1_ASM118633v1_genomic.gbff.gz,Pseudomonas E trivialis B,5,5261.0,5216,5441
-151,Pseudomonas poae RE*1-1-14,GCF_000336465.1,GCF_000336465.1_ASM33646v1_genomic.gbff.gz,Pseudomonas E poae,5,5253.0,5208,5433
-152,Pseudomonas rhizosphaerae,GCF_000761155.1,GCF_000761155.1_ASM76115v1_genomic.gbff.gz,Pseudomonas E rhizosphaerae,5,5241.0,5164,5467
-153,Pseudomonas antarctica,GCF_001647715.1,GCF_001647715.1_ASM164771v1_genomic.gbff.gz,Pseudomonas E antarctica A,6,5235.166666666667,5047,5452
-154,Pseudomonas alkylphenolica,GCF_000746525.1,GCF_000746525.1_ASM74652v1_genomic.gbff.gz,Pseudomonas E alkylphenolica,6,5158.5,5157,5160
-155,Pseudomonas psychrotolerans,GCF_001913135.1,GCF_001913135.1_ASM191313v1_genomic.gbff.gz,Pseudomonas B psychrotolerans,5,5253.2,5237,5277
-156,Pseudomonas lurida,GCF_002966835.1,GCF_002966835.1_ASM296683v1_genomic.gbff.gz,Pseudomonas E lurida,5,5264.2,5217,5443
-157,Pseudomonas syringae pv. tomato str. DC3000,GCF_000007805.1,GCF_000007805.1_ASM780v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5231.0,5231,5231
-158,Pseudomonas syringae pv. tomato,GCF_002966555.1,GCF_002966555.1_ASM296655v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5286.8,5242,5465
-159,Pseudomonas syringae group genomosp. 3,GCF_900235905.1,GCF_900235905.1_CFBP6411_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
-160,Pseudomonas entomophila L48,GCF_000026105.1,GCF_000026105.1_ASM2610v1_genomic.gbff.gz,Pseudomonas E entomophila,7,5196.714285714285,5160,5387
-161,Pseudomonas protegens Pf-5,GCF_000012265.1,GCF_000012265.1_ASM1226v1_genomic.gbff.gz,Pseudomonas E protegens,5,5249.8,5204,5433
-162,Pseudomonas protegens CHA0,GCF_000397205.1,GCF_000397205.1_ASM39720v1_genomic.gbff.gz,Pseudomonas E protegens,5,5204.0,5204,5204
-163,Pseudomonas protegens Cab57,GCF_000828695.1,GCF_000828695.1_ASM82869v1_genomic.gbff.gz,Pseudomonas E protegens,5,5250.4,5204,5433
-164,Pseudomonas protegens,GCF_002006545.1,GCF_002006545.1_ASM200654v1_genomic.gbff.gz,Pseudomonas E protegens,5,5241.8,5197,5418
-165,Pseudomonas protegens,GCF_002208745.2,GCF_002208745.2_ASM220874v2_genomic.gbff.gz,Pseudomonas E protegens,5,5249.0,5202,5433
-166,Pseudomonas fluorescens,GCF_001612705.2,GCF_001612705.2_ASM161270v2_genomic.gbff.gz,Pseudomonas E yamanorum,5,5244.0,5198,5426
-167,Pseudomonas chlororaphis,GCF_000698865.1,GCF_000698865.1_ASM69886v1_genomic.gbff.gz,Pseudomonas E piscium,4,5165.0,5165,5165
-168,Pseudomonas chlororaphis subsp. aurantiaca,GCF_000761195.1,GCF_000761195.1_ASM76119v1_genomic.gbff.gz,Pseudomonas E piscium,5,5209.0,5163,5390
-169,Pseudomonas chlororaphis,GCF_000963835.1,GCF_000963835.1_ASM96383v1_genomic.gbff.gz,Pseudomonas E sp000931465,5,5235.6,5190,5418
-170,Pseudomonas chlororaphis,GCF_001023535.1,GCF_001023535.1_ASM102353v1_genomic.gbff.gz,Pseudomonas E chlororaphis E,5,5240.4,5178,5417
-171,Pseudomonas chlororaphis,GCF_001602135.1,GCF_001602135.1_ASM160213v1_genomic.gbff.gz,Pseudomonas E chlororaphis,5,5214.2,5167,5394
-172,Pseudomonas chlororaphis subsp. aurantiaca,GCF_002355875.1,GCF_002355875.1_ASM235587v1_genomic.gbff.gz,Pseudomonas E piscium,5,5210.0,5164,5390
-173,Pseudomonas chlororaphis,GCF_002844145.1,GCF_002844145.1_ASM284414v1_genomic.gbff.gz,Pseudomonas E piscium,5,5213.8,5133,5401
-174,Pseudomonas chlororaphis subsp. piscium,GCF_003008635.1,GCF_003008635.1_ASM300863v1_genomic.gbff.gz,Pseudomonas E piscium,5,5210.2,5165,5391
-175,Pseudomonas brassicacearum subsp. brassicacearum NFM421,GCF_000194805.1,GCF_000194805.1_ASM19480v1_genomic.gbff.gz,Pseudomonas E brassicacearum C,5,5290.0,5223,5445
-176,Pseudomonas brassicacearum,GCF_000585995.1,GCF_000585995.1_ASM58599v1_genomic.gbff.gz,Pseudomonas E brassicacearum A,5,5278.4,5212,5468
-177,Pseudomonas brassicacearum,GCF_001449085.1,GCF_001449085.1_ASM144908v1_genomic.gbff.gz,Pseudomonas E brassicacearum C,5,5274.4,5223,5463
-178,Pseudomonas brassicacearum,GCF_001746815.1,GCF_001746815.1_ASM174681v1_genomic.gbff.gz,Pseudomonas E brassicacearum C,5,5287.2,5241,5448
-179,Pseudomonas sp. StFLB209,GCF_000829415.1,GCF_000829415.1_ASM82941v1_genomic.gbff.gz,Pseudomonas E sp000829415,6,5082.0,4959,5248
-180,Pseudomonas furukawaii,GCF_002355475.1,GCF_002355475.1_ASM235547v1_genomic.gbff.gz,Pseudomonas F furukawaii,3,5162.333333333333,5162,5163
-181,Pseudomonas sp. Lz4W,GCF_000346225.2,GCF_000346225.2_ASM34622v2_genomic.gbff.gz,Pseudomonas E sp000346225,5,5120.2,5030,5258
-182,Pseudomonas sp. UW4,GCF_000316175.1,GCF_000316175.1_ASM31617v1_genomic.gbff.gz,Pseudomonas E sp000316175,7,5261.857142857143,5214,5451
-183,Pseudomonas sp. FGI182,GCF_000511325.1,GCF_000511325.1_ASM51132v1_genomic.gbff.gz,Pseudomonas E monteilii B,5,5105.8,4998,5188
-184,Pseudomonas sp. URMO17WK12:I11,GCF_001511755.1,GCF_001511755.1_Shine_genomic.gbff.gz,Pseudomonas E sp001511755,6,5300.666666666667,5212,5432
-185,Pseudomonas sp. URMO17WK12:I11,GCF_001511775.1,GCF_001511775.1_YEL.embl.gz_genomic.gbff.gz,Pseudomonas E fulva,5,5094.0,4958,5185
-186,Pseudomonas sp. ATCC 13867,GCF_000349845.1,GCF_000349845.1_ASM34984v1_genomic.gbff.gz,Pseudomonas sp000349845,5,5280.2,5236,5454
-187,Pseudomonas mosselii SJ10,GCF_000498975.2,GCF_000498975.2_ASM49897v2_genomic.gbff.gz,Pseudomonas E soli,7,5216.285714285715,5159,5413
-188,Pseudomonas sp. JY-Q,GCF_001655295.1,GCF_001655295.1_ASM165529v1_genomic.gbff.gz,Pseudomonas E hunanensis,5,5146.2,5146,5147
-189,Pseudomonas sp. TKP,GCF_000508205.1,GCF_000508205.1_ASM50820v1_genomic.gbff.gz,Pseudomonas E fluorescens AN,5,5260.0,5215,5439
-190,Pseudomonas sp. Os17,GCF_001547895.1,GCF_001547895.1_ASM154789v1_genomic.gbff.gz,Pseudomonas E sp001547895,6,5231.166666666667,5192,5420
-191,Pseudomonas sp. St29,GCF_001547915.1,GCF_001547915.1_ASM154791v1_genomic.gbff.gz,Pseudomonas E sp001547895,6,5238.833333333333,5192,5431
-192,Pseudomonas sp. DR 5-09,GCF_001655595.1,GCF_001655595.1_ASM165559v1_genomic.gbff.gz,Pseudomonas E sp001655595,6,5253.833333333333,5206,5445
-193,Pseudomonas cerasi,GCF_900074915.1,GCF_900074915.1_PCPL58T_genomic.gbff.gz,Pseudomonas E cerasi,5,5245.4,5235,5248
-194,Pseudomonas cerasi,GCF_900235895.1,GCF_900235895.1_PL963_genomic.gbff.gz,Pseudomonas E cerasi,5,5245.4,5235,5248
-195,Pseudomonas sp. MRSN12121,GCF_000931465.1,GCF_000931465.1_ASM93146v1_genomic.gbff.gz,Pseudomonas E sp000931465,5,5235.6,5190,5418
-196,Pseudomonas sp. PONIH3,GCF_002934345.1,GCF_002934345.1_ASM293434v1_genomic.gbff.gz,Pseudomonas E soli,7,5216.428571428572,5160,5414
-197,Pseudomonas sp. CCOS 191,GCF_001007005.1,GCF_001007005.1_Pseudomonas_sp._strain_CCOS_191_genomic.gbff.gz,Pseudomonas E soli,7,5217.142857142857,5166,5415
-198,Pseudomonas sp. GR 6-02,GCF_001655615.1,GCF_001655615.1_ASM165561v1_genomic.gbff.gz,Pseudomonas E sp001655615,6,5232.5,5212,5293
-199,Pseudomonas versuta,GCF_001294575.1,GCF_001294575.1_ASM129457v1_genomic.gbff.gz,Pseudomonas E versuta,2,5126.0,5012,5240
+0,Pseudomonas aeruginosa,GCF_003025345.2,GCF_003025345.2_ASM302534v2_genomic.gbff.gz,Pseudomonas aeruginosa A,4,5154.75,5154,5155
+1,Pseudomonas aeruginosa,GCF_003073695.1,GCF_003073695.1_ASM307369v1_genomic.gbff.gz,Pseudomonas aeruginosa A,4,5152.5,5151,5156
+2,Pseudomonas fluorescens SBW25,GCF_000009225.2,GCF_000009225.2_ASM922v1_genomic.gbff.gz,Pseudomonas E marginalis,5,5261.0,5216,5441
+3,Pseudomonas fluorescens Pf0-1,GCF_000012445.1,GCF_000012445.1_ASM1244v1_genomic.gbff.gz,Pseudomonas E fluorescens AR,6,5253.0,5208,5439
+4,Pseudomonas fluorescens F113,GCF_000237065.1,GCF_000237065.1_ASM23706v1_genomic.gbff.gz,Pseudomonas E kilonensis,5,5253.8,5209,5432
+5,Pseudomonas fluorescens NCIMB 11764,GCF_000293885.2,GCF_000293885.2_ASM29388v3_genomic.gbff.gz,Pseudomonas E fluorescens B,5,5244.0,5173,5435
+6,Pseudomonas fluorescens,GCF_000730425.1,GCF_000730425.1_ASM73042v1_genomic.gbff.gz,Pseudomonas E fluorescens X,5,5271.6,5227,5450
+7,Pseudomonas fluorescens,GCF_000934565.1,GCF_000934565.1_ASM93456v1_genomic.gbff.gz,Pseudomonas E simiae,6,5225.0,5014,5449
+8,Pseudomonas fluorescens PICF7,GCF_000963495.1,GCF_000963495.1_ASM96349v1_genomic.gbff.gz,Pseudomonas E simiae,6,5239.0,5014,5440
+9,Pseudomonas fluorescens,GCF_001307155.1,GCF_001307155.1_ASM130715v1_genomic.gbff.gz,Pseudomonas E fluorescens E,6,5212.5,5203,5244
+10,Pseudomonas fluorescens,GCF_001307275.1,GCF_001307275.1_ASM130727v1_genomic.gbff.gz,Pseudomonas E fluorescens AA,5,5279.8,5224,5466
+11,Pseudomonas fluorescens,GCF_001708445.1,GCF_001708445.1_ASM170844v1_genomic.gbff.gz,Pseudomonas E fluorescens AN,1,5215.0,5215,5215
+12,Pseudomonas fluorescens,GCF_001747385.1,GCF_001747385.1_ASM174738v1_genomic.gbff.gz,Pseudomonas E sp002966775,6,5251.166666666667,5208,5438
+13,Pseudomonas fluorescens,GCF_003055645.1,GCF_003055645.1_ASM305564v1_genomic.gbff.gz,Pseudomonas E fluorescens AR,6,5260.833333333333,5182,5472
+14,Pseudomonas fluorescens,GCF_900475215.1,GCF_900475215.1_42727_B01_genomic.gbff.gz,Pseudomonas E fluorescens,6,5238.166666666667,5049,5456
+15,Pseudomonas fragi,GCF_001543265.1,GCF_001543265.1_ASM154326v1_genomic.gbff.gz,Pseudomonas E sp000346225,5,5335.6,5222,5694
+16,Pseudomonas fragi,GCF_002128325.1,GCF_002128325.1_ASM212832v1_genomic.gbff.gz,Pseudomonas E fragi,2,5012.0,5006,5018
+17,Pseudomonas mendocina ymp,GCF_000016565.1,GCF_000016565.1_ASM1656v1_genomic.gbff.gz,Pseudomonas E mendocina A,4,5216.75,5216,5217
+18,Pseudomonas mendocina NK-01,GCF_000204295.1,GCF_000204295.1_ASM20429v1_genomic.gbff.gz,Pseudomonas E mendocina,4,5197.0,5197,5197
+19,Pseudomonas mendocina S5.2,GCF_000733715.2,GCF_000733715.2_ASM73371v2_genomic.gbff.gz,Pseudomonas E mendocina,4,5196.0,5196,5196
+20,Pseudomonas mendocina,GCF_002442555.1,GCF_002442555.1_ASM244255v1_genomic.gbff.gz,Pseudomonas E mendocina A,4,5209.25,5188,5217
+21,Pseudomonas mendocina,GCF_003008615.1,GCF_003008615.1_ASM300861v1_genomic.gbff.gz,Pseudomonas E mendocina C,4,5200.0,5200,5200
+22,Pseudomonas putida GB-1,GCF_000019125.1,GCF_000019125.1_ASM1912v1_genomic.gbff.gz,Pseudomonas E putida P,5,5052.0,4960,5190
+23,Pseudomonas putida W619,GCF_000019445.1,GCF_000019445.1_ASM1944v1_genomic.gbff.gz,Pseudomonas E putida E,5,5128.0,4994,5175
+24,Pseudomonas putida HB3267,GCF_000325725.1,GCF_000325725.1_ASM32572v1_genomic.gbff.gz,Pseudomonas E monteilii B,5,5070.4,4960,5258
+25,Pseudomonas putida H8234,GCF_000410575.1,GCF_000410575.1_ASM41057v1_genomic.gbff.gz,Pseudomonas E putida H,5,5151.0,4960,5258
+26,Pseudomonas putida NBRC 14164,GCF_000412675.1,GCF_000412675.1_ASM41267v1_genomic.gbff.gz,Pseudomonas E putida,5,5105.4,5002,5187
+27,Pseudomonas putida S13.1.2,GCF_000498395.2,GCF_000498395.2_ASM49839v3_genomic.gbff.gz,Pseudomonas E putida Q,5,5109.6,4996,5185
+28,Pseudomonas putida,GCF_001636055.1,GCF_001636055.1_ASM163605v1_genomic.gbff.gz,Pseudomonas E putida B,6,5195.833333333333,5136,5394
+29,Pseudomonas putida JB,GCF_001767335.1,GCF_001767335.1_ASM176733v1_genomic.gbff.gz,Pseudomonas E hunanensis,6,5087.666666666667,4969,5208
+30,Pseudomonas putida,GCF_001886975.1,GCF_001886975.1_ASM188697v1_genomic.gbff.gz,Pseudomonas E putida P,5,5052.0,4960,5190
+31,Pseudomonas putida,GCF_002025705.1,GCF_002025705.1_ASM202570v1_genomic.gbff.gz,Pseudomonas E putida J,5,5066.2,4973,5211
+32,Pseudomonas putida,GCF_002356095.1,GCF_002356095.1_ASM235609v1_genomic.gbff.gz,Pseudomonas E putida H,5,5115.8,4996,5251
+33,Pseudomonas putida,GCF_002736045.1,GCF_002736045.1_ASM273604v1_genomic.gbff.gz,Pseudomonas E putida M,5,5084.8,4985,5176
+34,Pseudomonas putida,GCF_002736125.1,GCF_002736125.1_ASM273612v1_genomic.gbff.gz,Pseudomonas E putida M,5,5078.0,4982,5265
+35,Pseudomonas putida,GCF_002741075.1,GCF_002741075.1_IEC330191.0_genomic.gbff.gz,Pseudomonas E putida T,6,5203.5,5166,5391
+36,Pseudomonas putida,GCF_003228315.1,GCF_003228315.1_ASM322831v1_genomic.gbff.gz,Pseudomonas E putida S,6,5233.0,5196,5418
+37,Pseudomonas stutzeri A1501,GCF_000013785.1,GCF_000013785.1_ASM1378v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5193.25,5182,5227
+38,Pseudomonas stutzeri DSM 4166,GCF_000195105.1,GCF_000195105.1_ASM19510v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5182.0,5182,5182
+39,Pseudomonas stutzeri CCUG 29243,GCF_000267545.1,GCF_000267545.1_ASM26754v1_genomic.gbff.gz,Pseudomonas A stutzeri U,4,5205.25,5205,5206
+40,Pseudomonas stutzeri DSM 10701,GCF_000279165.1,GCF_000279165.1_ASM27916v1_genomic.gbff.gz,Pseudomonas A stutzeri AG,4,5229.0,5219,5238
+41,Pseudomonas stutzeri RCH2,GCF_000327065.1,GCF_000327065.1_ASM32706v1_genomic.gbff.gz,Pseudomonas A stutzeri AE,4,5203.75,5202,5205
+42,Pseudomonas stutzeri,GCF_000590475.1,GCF_000590475.1_ASM59047v1_genomic.gbff.gz,Pseudomonas A stutzeri D,4,5226.0,5226,5226
+43,Pseudomonas stutzeri,GCF_000661915.1,GCF_000661915.1_ASM66191v1_genomic.gbff.gz,Pseudomonas A stutzeri A,4,5222.0,5222,5222
+44,Pseudomonas stutzeri,GCF_001038645.1,GCF_001038645.1_ASM103864v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5174.75,5173,5176
+45,Pseudomonas stutzeri,GCF_001648195.1,GCF_001648195.1_ASM164819v1_genomic.gbff.gz,Pseudomonas A zhaodongensis,4,5214.0,5214,5214
+46,Pseudomonas stutzeri,GCF_003001655.1,GCF_003001655.1_ASM300165v1_genomic.gbff.gz,Pseudomonas A stutzeri AJ,4,5201.0,5201,5201
+47,Pseudomonas stutzeri,GCF_003008495.1,GCF_003008495.1_ASM300849v1_genomic.gbff.gz,Pseudomonas A stutzeri,4,5180.0,5180,5180
+48,Pseudomonas syringae pv. syringae B728a,GCF_000012245.1,GCF_000012245.1_ASM1224v1_genomic.gbff.gz,Pseudomonas E syringae M,5,5287.0,5238,5456
+49,Pseudomonas syringae pv. actinidiae ICMP 9853,GCF_000344335.2,GCF_000344335.2_ASM34433v2_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
+50,Pseudomonas syringae pv. actinidiae ICMP 18708,GCF_000344355.2,GCF_000344355.2_ASM34435v2_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
+51,Pseudomonas syringae CC1557,GCF_000452705.1,GCF_000452705.1_ASM45270v3_genomic.gbff.gz,Pseudomonas E syringae F,5,5314.6,5238,5463
+52,Pseudomonas syringae pv. syringae HS191,GCF_000988395.1,GCF_000988395.1_ASM98839v1_genomic.gbff.gz,Pseudomonas E syringae,5,5299.8,5255,5478
+53,Pseudomonas syringae UMAF0158,GCF_001281365.1,GCF_001281365.1_ASM128136v1_genomic.gbff.gz,Pseudomonas E cerasi,5,5278.8,5234,5457
+54,Pseudomonas syringae pv. lapsa,GCF_001482725.1,GCF_001482725.1_ASM148272v1_genomic.gbff.gz,Pseudomonas E syringae,5,5296.6,5240,5478
+55,Pseudomonas syringae pv. actinidiae,GCF_001913215.1,GCF_001913215.1_ASM191321v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.0,5237,5460
+56,Pseudomonas syringae pv. actinidiae,GCF_002024285.1,GCF_002024285.1_ASM202428v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5282.6,5238,5461
+57,Pseudomonas syringae pv. atrofaciens,GCF_003047185.1,GCF_003047185.1_ASM304718v1_genomic.gbff.gz,Pseudomonas E syringae,5,5296.6,5240,5478
+58,Pseudomonas pseudoalcaligenes CECT 5344,GCF_000297075.2,GCF_000297075.2_Ppseudo_final_genomic.gbff.gz,Pseudomonas E oleovorans,4,5210.0,5201,5213
+59,Pseudomonas pseudoalcaligenes,GCF_000953455.1,GCF_000953455.1_Ppseudo_Pac_genomic.gbff.gz,Pseudomonas E oleovorans,4,5210.5,5203,5213
+60,Pseudomonas savastanoi pv. savastanoi NCPPB 3335,GCF_000164015.3,GCF_000164015.3_ASM16401v3_genomic.gbff.gz,Pseudomonas E ficuserectae,5,5295.0,5241,5475
+61,Pseudomonas viridiflava,GCF_900184295.1,GCF_900184295.1_Chr_1_genomic.gbff.gz,Pseudomonas E viridiflava,5,5257.4,5192,5441
+62,Pseudomonas cichorii JBC1,GCF_000517305.1,GCF_000517305.1_ASM51730v1_genomic.gbff.gz,Pseudomonas E cichorii,6,5182.166666666667,5144,5369
+63,Pseudomonas alcaligenes,GCF_001597285.1,GCF_001597285.1_ASM159728v1_genomic.gbff.gz,Pseudomonas E alcaligenes,3,5181.0,5181,5181
+64,Pseudomonas mucidolens,GCF_900475945.1,GCF_900475945.1_48290_E02_genomic.gbff.gz,Pseudomonas E mucidolens,5,5249.8,5205,5429
+65,Pseudomonas azotoformans,GCF_001579805.1,GCF_001579805.1_ASM157980v1_genomic.gbff.gz,Pseudomonas E azotoformans A,6,5254.333333333333,5213,5446
+66,Pseudomonas azotoformans,GCF_002007785.1,GCF_002007785.1_ASM200778v1_genomic.gbff.gz,Pseudomonas E azotoformans B,5,5260.0,5215,5440
+67,Pseudomonas corrugata,GCF_001708425.1,GCF_001708425.1_ASM170842v1_genomic.gbff.gz,Pseudomonas E corrugata,5,5262.0,5211,5465
+68,Pseudomonas fulva 12-X,GCF_000213805.1,GCF_000213805.1_ASM21380v1_genomic.gbff.gz,Pseudomonas E fulva B,4,5194.5,5194,5195
+69,Pseudomonas fulva,GCF_002951475.1,GCF_002951475.1_ASM295147v1_genomic.gbff.gz,Pseudomonas E fulva,5,5093.8,4957,5185
+70,Pseudomonas fluorescens,GCF_000968415.2,GCF_000968415.2_ASM96841v2_genomic.gbff.gz,Pseudomonas E synxantha,6,5253.5,5214,5449
+71,Pseudomonas taetrolens,GCF_900475285.1,GCF_900475285.1_43222_B01_genomic.gbff.gz,Pseudomonas E taetrolens,4,5185.5,5016,5242
+72,Pseudomonas oryzihabitans,GCF_001518815.1,GCF_001518815.1_ASM151881v1_genomic.gbff.gz,Pseudomonas B oryzihabitans E,5,5252.4,5246,5255
+73,Pseudomonas citronellolis,GCF_001586155.1,GCF_001586155.1_ASM158615v1_genomic.gbff.gz,Pseudomonas citronellolis,5,5159.2,5159,5160
+74,Pseudomonas citronellolis,GCF_001654435.1,GCF_001654435.1_ASM165443v1_genomic.gbff.gz,Pseudomonas citronellolis,5,5182.0,5153,5239
+75,Pseudomonas resinovorans NBRC 106553,GCF_000412695.1,GCF_000412695.1_ASM41269v1_genomic.gbff.gz,Pseudomonas F resinovorans A,3,5247.333333333333,5162,5418
+76,Pseudomonas knackmussii B13,GCF_000689415.1,GCF_000689415.1_PKB13_genomic.gbff.gz,Pseudomonas knackmussii,4,5258.25,5155,5567
+77,Pseudomonas sp. VLB120,GCF_000494915.1,GCF_000494915.1_ASM49491v1_genomic.gbff.gz,Pseudomonas E taiwanensis,5,5159.2,5144,5182
+78,Pseudomonas balearica DSM 6083,GCF_000818015.1,GCF_000818015.1_ASM81801v1_genomic.gbff.gz,Pseudomonas A balearica,4,5164.75,5164,5167
+79,Pseudomonas mandelii JR-1,GCF_000257545.3,GCF_000257545.3_ASM25754v3_genomic.gbff.gz,Pseudomonas E mandelii,6,5229.833333333333,5019,5438
+80,Pseudomonas orientalis,GCF_002934065.1,GCF_002934065.1_ASM293406v1_genomic.gbff.gz,Pseudomonas E orientalis A,6,5260.0,5211,5438
+81,Pseudomonas monteilii,GCF_001534745.1,GCF_001534745.1_ASM153474v1_genomic.gbff.gz,Pseudomonas E monteilii A,6,5228.333333333333,5180,5417
+82,Pseudomonas monteilii,GCF_002943995.1,GCF_002943995.1_ASM294399v1_genomic.gbff.gz,Pseudomonas E monteilii,5,5085.4,4958,5179
+83,Pseudomonas veronii,GCF_002028325.1,GCF_002028325.1_ASM202832v1_genomic.gbff.gz,Pseudomonas E veronii,6,5207.833333333333,4978,5434
+84,Pseudomonas mosselii,GCF_002309555.1,GCF_002309555.1_ASM230955v1_genomic.gbff.gz,Pseudomonas E mosselii,7,5251.285714285715,5187,5412
+85,Pseudomonas mosselii,GCF_002736065.1,GCF_002736065.1_ASM273606v1_genomic.gbff.gz,Pseudomonas E mosselii,7,5218.571428571428,5185,5411
+86,Pseudomonas alcaliphila JAB1,GCF_001941865.1,GCF_001941865.1_ASM194186v1_genomic.gbff.gz,Pseudomonas E alcaliphila B,4,5213.0,5213,5213
+87,Pseudomonas frederiksbergensis,GCF_001874645.1,GCF_001874645.1_ASM187464v1_genomic.gbff.gz,Pseudomonas E frederiksbergensis B,7,5201.857142857143,5170,5283
+88,Pseudomonas frederiksbergensis,GCF_001952935.1,GCF_001952935.1_ASM195293v1_genomic.gbff.gz,Pseudomonas E frederiksbergensis E,7,5174.714285714285,5029,5450
+89,Pseudomonas frederiksbergensis,GCF_002355315.1,GCF_002355315.1_ASM235531v1_genomic.gbff.gz,Pseudomonas E sp001655615,6,5256.0,5212,5286
+90,Pseudomonas parafulva,GCF_000800255.1,GCF_000800255.1_ASM80025v1_genomic.gbff.gz,Pseudomonas E parafulva A,5,5256.8,5211,5437
+91,Pseudomonas parafulva,GCF_002021815.1,GCF_002021815.1_ASM202181v1_genomic.gbff.gz,Pseudomonas E parafulva B,5,5098.4,4958,5192
+92,Pseudomonas cremoricolorata,GCF_000759535.1,GCF_000759535.1_ASM75953v1_genomic.gbff.gz,Pseudomonas E cremoricolorata A,6,5238.5,5201,5426
+93,Pseudomonas koreensis,GCF_001605965.1,GCF_001605965.1_ASM160596v1_genomic.gbff.gz,Pseudomonas E koreensis C,5,5266.0,5212,5445
+94,Pseudomonas koreensis,GCF_001654515.1,GCF_001654515.1_ASM165451v1_genomic.gbff.gz,Pseudomonas E koreensis D,6,5242.5,5201,5425
+95,Pseudomonas koreensis,GCF_003049825.1,GCF_003049825.1_ASM304982v1_genomic.gbff.gz,Pseudomonas E koreensis B,6,5216.666666666667,4991,5428
+96,Pseudomonas trivialis,GCF_001186335.1,GCF_001186335.1_ASM118633v1_genomic.gbff.gz,Pseudomonas E trivialis B,5,5261.0,5216,5441
+97,Pseudomonas poae RE*1-1-14,GCF_000336465.1,GCF_000336465.1_ASM33646v1_genomic.gbff.gz,Pseudomonas E poae,5,5253.0,5208,5433
+98,Pseudomonas rhizosphaerae,GCF_000761155.1,GCF_000761155.1_ASM76115v1_genomic.gbff.gz,Pseudomonas E rhizosphaerae,5,5241.0,5164,5467
+99,Pseudomonas antarctica,GCF_001647715.1,GCF_001647715.1_ASM164771v1_genomic.gbff.gz,Pseudomonas E antarctica A,6,5235.166666666667,5047,5452
+100,Pseudomonas alkylphenolica,GCF_000746525.1,GCF_000746525.1_ASM74652v1_genomic.gbff.gz,Pseudomonas E alkylphenolica,6,5158.5,5157,5160
+101,Pseudomonas psychrotolerans,GCF_001913135.1,GCF_001913135.1_ASM191313v1_genomic.gbff.gz,Pseudomonas B psychrotolerans,5,5253.2,5237,5277
+102,Pseudomonas lurida,GCF_002966835.1,GCF_002966835.1_ASM296683v1_genomic.gbff.gz,Pseudomonas E lurida,5,5264.2,5217,5443
+103,Pseudomonas syringae pv. tomato,GCF_002966555.1,GCF_002966555.1_ASM296655v1_genomic.gbff.gz,Pseudomonas E avellanae,5,5286.8,5242,5465
+104,Pseudomonas entomophila L48,GCF_000026105.1,GCF_000026105.1_ASM2610v1_genomic.gbff.gz,Pseudomonas E entomophila,7,5196.714285714285,5160,5387
+105,Pseudomonas protegens,GCF_002006545.1,GCF_002006545.1_ASM200654v1_genomic.gbff.gz,Pseudomonas E protegens,5,5241.8,5197,5418
+106,Pseudomonas fluorescens,GCF_001612705.2,GCF_001612705.2_ASM161270v2_genomic.gbff.gz,Pseudomonas E yamanorum,5,5244.0,5198,5426
+107,Pseudomonas chlororaphis,GCF_000698865.1,GCF_000698865.1_ASM69886v1_genomic.gbff.gz,Pseudomonas E piscium,4,5165.0,5165,5165
+108,Pseudomonas chlororaphis subsp. aurantiaca,GCF_000761195.1,GCF_000761195.1_ASM76119v1_genomic.gbff.gz,Pseudomonas E piscium,5,5209.0,5163,5390
+109,Pseudomonas chlororaphis,GCF_000963835.1,GCF_000963835.1_ASM96383v1_genomic.gbff.gz,Pseudomonas E sp000931465,5,5235.6,5190,5418
+110,Pseudomonas chlororaphis,GCF_001023535.1,GCF_001023535.1_ASM102353v1_genomic.gbff.gz,Pseudomonas E chlororaphis E,5,5240.4,5178,5417
+111,Pseudomonas chlororaphis,GCF_001602135.1,GCF_001602135.1_ASM160213v1_genomic.gbff.gz,Pseudomonas E chlororaphis,5,5214.2,5167,5394
+112,Pseudomonas brassicacearum subsp. brassicacearum NFM421,GCF_000194805.1,GCF_000194805.1_ASM19480v1_genomic.gbff.gz,Pseudomonas E brassicacearum C,5,5290.0,5223,5445
+113,Pseudomonas brassicacearum,GCF_000585995.1,GCF_000585995.1_ASM58599v1_genomic.gbff.gz,Pseudomonas E brassicacearum A,5,5278.4,5212,5468
+114,Pseudomonas brassicacearum,GCF_001746815.1,GCF_001746815.1_ASM174681v1_genomic.gbff.gz,Pseudomonas E brassicacearum C,5,5287.2,5241,5448
+115,Pseudomonas sp. StFLB209,GCF_000829415.1,GCF_000829415.1_ASM82941v1_genomic.gbff.gz,Pseudomonas E sp000829415,6,5082.0,4959,5248
+116,Pseudomonas furukawaii,GCF_002355475.1,GCF_002355475.1_ASM235547v1_genomic.gbff.gz,Pseudomonas F furukawaii,3,5162.333333333333,5162,5163
+117,Pseudomonas sp. Lz4W,GCF_000346225.2,GCF_000346225.2_ASM34622v2_genomic.gbff.gz,Pseudomonas E sp000346225,5,5120.2,5030,5258
+118,Pseudomonas sp. UW4,GCF_000316175.1,GCF_000316175.1_ASM31617v1_genomic.gbff.gz,Pseudomonas E sp000316175,7,5261.857142857143,5214,5451
+119,Pseudomonas sp. FGI182,GCF_000511325.1,GCF_000511325.1_ASM51132v1_genomic.gbff.gz,Pseudomonas E monteilii B,5,5105.8,4998,5188
+120,Pseudomonas sp. URMO17WK12:I11,GCF_001511755.1,GCF_001511755.1_Shine_genomic.gbff.gz,Pseudomonas E sp001511755,6,5300.666666666667,5212,5432
+121,Pseudomonas sp. URMO17WK12:I11,GCF_001511775.1,GCF_001511775.1_YEL.embl.gz_genomic.gbff.gz,Pseudomonas E fulva,5,5094.0,4958,5185
+122,Pseudomonas sp. ATCC 13867,GCF_000349845.1,GCF_000349845.1_ASM34984v1_genomic.gbff.gz,Pseudomonas sp000349845,5,5280.2,5236,5454
+123,Pseudomonas sp. JY-Q,GCF_001655295.1,GCF_001655295.1_ASM165529v1_genomic.gbff.gz,Pseudomonas E hunanensis,5,5146.2,5146,5147
+124,Pseudomonas sp. Os17,GCF_001547895.1,GCF_001547895.1_ASM154789v1_genomic.gbff.gz,Pseudomonas E sp001547895,6,5231.166666666667,5192,5420
+125,Pseudomonas sp. St29,GCF_001547915.1,GCF_001547915.1_ASM154791v1_genomic.gbff.gz,Pseudomonas E sp001547895,6,5238.833333333333,5192,5431
+126,Pseudomonas sp. DR 5-09,GCF_001655595.1,GCF_001655595.1_ASM165559v1_genomic.gbff.gz,Pseudomonas E sp001655595,6,5253.833333333333,5206,5445
+127,Pseudomonas cerasi,GCF_900074915.1,GCF_900074915.1_PCPL58T_genomic.gbff.gz,Pseudomonas E cerasi,5,5245.4,5235,5248
+128,Pseudomonas cerasi,GCF_900235895.1,GCF_900235895.1_PL963_genomic.gbff.gz,Pseudomonas E cerasi,5,5245.4,5235,5248
+129,Pseudomonas sp. MRSN12121,GCF_000931465.1,GCF_000931465.1_ASM93146v1_genomic.gbff.gz,Pseudomonas E sp000931465,5,5235.6,5190,5418
+130,Pseudomonas sp. GR 6-02,GCF_001655615.1,GCF_001655615.1_ASM165561v1_genomic.gbff.gz,Pseudomonas E sp001655615,6,5232.5,5212,5293
+131,Pseudomonas versuta,GCF_001294575.1,GCF_001294575.1_ASM129457v1_genomic.gbff.gz,Pseudomonas E versuta,2,5126.0,5012,5240
+132,Pseudomonas sp. MYb193,GCF_002966775.1,GCF_002966775.1_ASM296677v1_genomic.gbff.gz,Pseudomonas E sp002966775,6,5261.666666666667,5203,5432
+133,Pseudomonas silesiensis,GCF_001661075.1,GCF_001661075.1_ASM166107v1_genomic.gbff.gz,Pseudomonas E silesiensis,7,5193.142857142857,5013,5301
+134,Pseudomonas sp. TCU-HL1,GCF_001708505.1,GCF_001708505.1_ASM170850v1_genomic.gbff.gz,Pseudomonas F sp001708505,5,5228.4,5157,5514
+135,Pseudomonas sp. LPH1,GCF_002037565.1,GCF_002037565.1_ASM203756v1_genomic.gbff.gz,Pseudomonas E toyotomiensis,4,5209.0,5200,5212
+136,Pseudomonas sp. CC6-YY-74,GCF_002025205.1,GCF_002025205.1_ASM202520v1_genomic.gbff.gz,Pseudomonas E sp002025205,4,5217.0,5217,5217
+137,Pseudomonas sp. S-6-2,GCF_002056295.1,GCF_002056295.1_ASM205629v1_genomic.gbff.gz,Pseudomonas D sp002056295,3,5278.0,5278,5278
+138,Pseudomonas sp. M30-35,GCF_002163625.1,GCF_002163625.1_ASM216362v1_genomic.gbff.gz,Pseudomonas E sp002163625,4,5185.0,5185,5185
+139,Pseudomonas sp. FDAARGOS_380,GCF_002591235.1,GCF_002591235.1_ASM259123v1_genomic.gbff.gz,Pseudomonas E lactis,6,5281.0,5214,5438
+140,Pseudomonas sp. HLS-6,GCF_002753995.1,GCF_002753995.1_ASM275399v1_genomic.gbff.gz,Pseudomonas E sp002753995,7,5207.142857142857,5009,5398
+141,Pseudomonas sp. NC02,GCF_002874965.1,GCF_002874965.1_ASM287496v1_genomic.gbff.gz,Pseudomonas E sp002874965,5,5252.8,5198,5436
+142,Pseudomonas sp. SWI6,GCF_002947975.1,GCF_002947975.1_ASM294797v1_genomic.gbff.gz,Pseudomonas E taiwanensis,6,5487.166666666667,5144,7127
+143,Pseudomonas sp. SWI36,GCF_002948105.1,GCF_002948105.1_ASM294810v1_genomic.gbff.gz,Pseudomonas E hunanensis,5,5094.4,4969,5194
+144,Pseudomonas sp. SWI44,GCF_002947915.1,GCF_002947915.1_ASM294791v1_genomic.gbff.gz,Pseudomonas E taiwanensis,5,5166.8,5144,5182
+145,Pseudomonas sp. LG1D9,GCF_002949995.1,GCF_002949995.1_ASM294999v1_genomic.gbff.gz,Pseudomonas E proteolytica,6,5246.5,5209,5433
+146,Pseudomonas sp. LH1G9,GCF_002949975.1,GCF_002949975.1_ASM294997v1_genomic.gbff.gz,Pseudomonas E veronii,6,5209.666666666667,4979,5436
+147,Pseudomonas sp. 31-12,GCF_003151075.1,GCF_003151075.1_ASM315107v1_genomic.gbff.gz,Pseudomonas E sp003151075,6,5236.833333333333,5035,5454
+148,Pseudomonas sp. R2A2,GCF_003205815.1,GCF_003205815.1_ASM320581v1_genomic.gbff.gz,Pseudomonas A sp003205815,4,5183.75,5183,5184

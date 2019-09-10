@@ -5,15 +5,15 @@ library(colorspace);
 library(RColorBrewer);
 
 ## leaf names are Pseudomonas_E.hunanensis.002953115.04 ( genus . sp . accession . paralognumber )
-# treefile <- list.files(pattern="fasta.treefile")
-treefile <- list.files(pattern="_upgma.treefile")
+treefile <- list.files(pattern="fasta.treefile")
+#treefile <- list.files(pattern="_upgma.treefile")
 for (i in 1:length(treefile)) {
     tre<-unroot(read.tree(treefile[i]))
     x=quantile(tre$edge.length, p=0.999)[[1]];
     for (j in 1:length(tre$edge.length)) {
         if (tre$edge.length[j] > 1 * x) tre$edge.length[j] = 1 * x
     }
-#    tre <- midpoint (tre) ## after outlier truncation  (not needed when plotting upgma trees) 
+    tre <- midpoint (tre) ## after outlier truncation  (not needed when plotting upgma trees) 
 
     tre$tip.label <- gsub("Pseudomonas", "P", tre$tip.label)
     tre$tip.label <- gsub("Staphylococcus", "S", tre$tip.label) # replace genus by first letter
@@ -25,8 +25,8 @@ for (i in 1:length(treefile)) {
     grouptre <- groupOTU(tre,groupInfo)
     color_palette  <- colorRampPalette(brewer.pal(12, "Paired"))(length(groupInfo) + 1);
     #color_palette  <- rainbow_hcl(length(groupInfo) + 1) 
-    # fname = unlist(strsplit(treefile[i],'[.]fasta[.]treefile'))[1]  # split is regexp, so dot is special
-    fname = unlist(strsplit(treefile[i],'_upgma[.]treefile'))[1]  # split is regexp, so dot is special
+    fname = unlist(strsplit(treefile[i],'[.]fasta[.]treefile'))[1]  # split is regexp, so dot is special
+    # fname = unlist(strsplit(treefile[i],'_upgma[.]treefile'))[1]  # split is regexp, so dot is special
 
     #p <- ggtree(grouptre, layout="circular", aes(color=group), size=0.9) 
     p <- ggtree(grouptre, layout="fan", open.angle=70, size=0.8, aes(color=group)) 
