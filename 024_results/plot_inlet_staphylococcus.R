@@ -12,45 +12,15 @@ tre$tip.label <- gsub("Staphylococcus", "S", tre$tip.label) # replace genus by f
 tre$tip.label <- gsub("\\.\\d{2}$","", tre$tip.label) # remove number with paralog number
 
 toprune = c(
-"aureus",
-"schleiferi",
-"pseudintermedius",
-"simulans",
-"equorum_B",
-"lutrae",
-"haemolyticus", ## paraphyly within species (between strains/samples) 
-"lugdunensis" ## paraphyly within species (between strains/samples) 
+"aureus","schleiferi","pseudintermedius","simulans","felis","simiae","argenteus","warneri", "pasteuri",
+"saprophyticus","epidermidis","equorum_B","kloosii","xylosus","cohnii_A","pettenkoferi","auricularis",
+"piscifermentans","nepalensis","succinus","stepanovicii","haemolyticus", "sciuri","lutrae"
 )
 
-may_remain = c(
-"argenteus",
-"auricularis",
-"capitis",
-"cohnii_A",
-"epidermidis",
-"felis",
-"kloosii",
-"muscae",
-"nepalensis",
-"pettenkoferi",
-"piscifermentans",
-"saprophyticus",
-"sciuri",
-"simiae",
-"stepanovicii",
-"succinus",
-"xylosus"
-)
 
-# these mess taxon classification depending on chosen copy
-must_remain = c(
-"condimenti",
-"carnosus",
-"agnetis",
-"hyicus",
-"pasteuri",
-"warneri"
-)
+# "agnetis","hyicus","pasteuri","warneri", carnosus, condimenti ,
+#"lugdunensis" ## paraphyly within species (between strains/samples) 
+# "muscae", ## nice paraphyly within species (between strains/samples) 
 
 for (i in 1:length(toprune)) { 
   tre <- drop.tip (tre, grep (toprune[i], tre$tip.label));
@@ -63,12 +33,13 @@ for (i in 1:length(toprune)) {
 tre <- midpoint (tre) ## after outlier truncation 
 
 # nested gsub removes prefix and sufix: A_B_C --> B
-groupInfo <- split(tre$tip.label, gsub("\\.\\w+","", gsub("^\\w*?\\.","", tre$tip.label)) )
+#groupInfo <- split(tre$tip.label, gsub("\\.\\w+","", gsub("^\\w*?\\.","", tre$tip.label)) )
+groupInfo <- split(tre$tip.label, gsub("^\\w*?\\.","", tre$tip.label)) 
 grouptre <- groupOTU(tre,groupInfo)
-color_palette <- wes_palette("Cavalcanti1", length(groupInfo) + 2, type="continuous"); # FantasticFox1
+color_palette <- wes_palette("FantasticFox1", length(groupInfo) + 2, type="continuous"); # FantasticFox1 Cavalcanti1
 
-p <- ggtree(grouptre, layout="fan", open.angle=171, size=0.8, aes(color=group)) ## angle=271 
-p <- p + geom_tiplab2(align=TRUE, linetype=1, linesize=0.15, fontface = "bold", size=2.4)  
+p <- ggtree(grouptre, layout="fan", open.angle=280, size=0.8, aes(color=group)) ## angle=271 
+p <- p + geom_tiplab2(align=TRUE, linetype=1, linesize=0.15, fontface = "bold", size=3.4)  
 p <- p + ggplot2::xlim(-0.05,NA)
 p <- p + ggplot2::scale_color_manual(values=color_palette) 
 ggplot2::ggsave ("Staphylococcus_inlet.png", width = 16, height= 16, bg = "white");

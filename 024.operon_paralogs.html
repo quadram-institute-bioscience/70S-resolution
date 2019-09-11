@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>026.concat_resolution</title>
+<title>024.operon_paralogs</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,10 +13077,9 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="026-change-in-resolution-for-concatenation">026 change in resolution for concatenation<a class="anchor-link" href="#026-change-in-resolution-for-concatenation">&#182;</a></h1><ul>
-<li>uses taxonomic information from GTDB (see 005.generate_gtdb_sheet.ipynb)</li>
-<li>in a nutshell, our refseq seqs are curated by (1) checkM (done by GTDB), (2) by having annotated rRNAs, and (3) by having a 'complete' 16S rRNA as given by primer presence.</li>
-<li>this notebook creates the data sets (alignments and trees), while notebook 028.monophyly_scores.ipynb calculates scores and plot the results. </li>
+<h1 id="Effect-of-paralog-choice-on-rRNA-full-operons">Effect of paralog choice on rRNA full operons<a class="anchor-link" href="#Effect-of-paralog-choice-on-rRNA-full-operons">&#182;</a></h1><ul>
+<li>The analysis below runs on Pseudomonas and Staphylococcus data sets; you can try different ones, using the files downloaded as described in 026.concat_resolution.ipynb</li>
+<li>BTW, please see 026.concat_resolution.ipynb for more details in case anything is not clear here.</li>
 </ul>
 
 </div>
@@ -13099,9 +13098,7 @@ div#notebook {
 <span class="kn">from</span> <span class="nn">Bio</span> <span class="k">import</span> <span class="n">Seq</span><span class="p">,</span> <span class="n">SeqIO</span><span class="p">,</span> <span class="n">Align</span><span class="p">,</span> <span class="n">AlignIO</span><span class="p">,</span> <span class="n">Phylo</span><span class="p">,</span> <span class="n">Alphabet</span><span class="p">,</span> <span class="n">pairwise2</span> 
 <span class="kn">from</span> <span class="nn">Bio.SeqRecord</span> <span class="k">import</span> <span class="n">SeqRecord</span>
 <span class="kn">from</span> <span class="nn">Bio.Align</span> <span class="k">import</span> <span class="n">AlignInfo</span><span class="p">,</span> <span class="n">Applications</span>
-<span class="kn">from</span> <span class="nn">Bio.Phylo</span> <span class="k">import</span> <span class="n">draw</span><span class="p">,</span> <span class="n">TreeConstruction</span> <span class="c1"># TreeConstruction.DistanceTreeConstructor </span>
-<span class="c1"># https://bioinformatics.stackexchange.com/questions/4337/ \</span>
-<span class="c1">#biopython-phylogenetic-tree-replace-branch-tip-labels-by-sequence-logos</span>
+<span class="kn">from</span> <span class="nn">Bio.Phylo</span> <span class="k">import</span> <span class="n">draw</span><span class="p">,</span> <span class="n">TreeConstruction</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
@@ -13121,9 +13118,9 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Some-global-variables">Some global variables<a class="anchor-link" href="#Some-global-variables">&#182;</a></h2><ul>
-<li>first  cell: where to save output, list of <em>arbitrarily</em> chosen genera (as well as list with all genera if you want to change it), RNA gene names</li>
-<li>second cell: how to generate species names from table, and how to subsample species (every sequence from well-represented species is sampled with probability inversely proportional to its representativity, s.t. we create an upper bound). We don't want to have &gt; 200 samples from one species and 3 from another.</li>
+<h3 id="defining-main-variables">defining main variables<a class="anchor-link" href="#defining-main-variables">&#182;</a></h3><ul>
+<li>we also assume that all RefSeq genomes are in directory <code>bigdata/</code>, in <code>gbff.gz</code> format.</li>
+<li>Here we apply a somehow 'agressive' subsampling (typically 1 or 2 samples per species) since we are not interested in quantitative analysis. We just want to show a case where different copies from the same strain cluster in distinct subtrees. </li>
 </ul>
 
 </div>
@@ -13138,15 +13135,10 @@ div#notebook {
 <span class="n">all_genera</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Campylobacter&quot;</span><span class="p">,</span><span class="s2">&quot;Enterococcus&quot;</span><span class="p">,</span><span class="s2">&quot;Klebsiella&quot;</span><span class="p">,</span><span class="s2">&quot;Listeria&quot;</span><span class="p">,</span><span class="s2">&quot;Neisseria&quot;</span><span class="p">,</span><span class="s2">&quot;Staphylococcus&quot;</span><span class="p">,</span>
                  <span class="s2">&quot;Vibrio&quot;</span><span class="p">,</span><span class="s2">&quot;Clostridium&quot;</span><span class="p">,</span><span class="s2">&quot;Escherichia&quot;</span><span class="p">,</span><span class="s2">&quot;Helicobacter&quot;</span><span class="p">,</span><span class="s2">&quot;Leptospira&quot;</span><span class="p">,</span><span class="s2">&quot;Mycobacterium&quot;</span><span class="p">,</span>
                  <span class="s2">&quot;Pseudomonas&quot;</span><span class="p">,</span><span class="s2">&quot;Salmonella&quot;</span><span class="p">,</span><span class="s2">&quot;Streptococcus&quot;</span><span class="p">]</span> <span class="c1">## we don&#39;t use this variable in practice</span>
-<span class="c1"># and these below were _arbitrarily_ chosen, based on representativity (i.e. we excluded smaller sets like Lepto, Helico, </span>
-<span class="c1"># Clostridium, Vibrio). But you are free to try different combinations </span>
-<span class="n">chosen_genera</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Klebsiella&quot;</span><span class="p">,</span><span class="s2">&quot;Enterococcus&quot;</span><span class="p">,</span><span class="s2">&quot;Escherichia&quot;</span><span class="p">,</span> <span class="s2">&quot;Pseudomonas&quot;</span><span class="p">,</span> <span class="s2">&quot;Staphylococcus&quot;</span><span class="p">,</span> <span class="s2">&quot;Streptococcus&quot;</span><span class="p">]</span>
-<span class="c1">#chosen_genera = [&quot;Escherichia&quot;, &quot;Pseudomonas&quot;, &quot;Staphylococcus&quot;, &quot;Streptococcus&quot;]</span>
-
-<span class="n">outdir</span> <span class="o">=</span> <span class="s2">&quot;./026_results/&quot;</span>
+<span class="c1"># Genera that we will in fact get all paralogs (rRNA copies)</span>
+<span class="n">bacteria_genera</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Pseudomonas&quot;</span><span class="p">,</span> <span class="s2">&quot;Staphylococcus&quot;</span><span class="p">]</span>
+<span class="n">outdir</span> <span class="o">=</span> <span class="s2">&quot;./024_results/&quot;</span>
 <span class="n">rrna_types</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;16S&quot;</span><span class="p">,</span> <span class="s2">&quot;23S&quot;</span><span class="p">,</span> <span class="s2">&quot;5S&quot;</span><span class="p">];</span>
-<span class="n">hyper_types</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;16Sv1v2&quot;</span><span class="p">,</span> <span class="s2">&quot;16Sv3v4&quot;</span><span class="p">];</span>
-<span class="n">iupac_dna</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">v</span><span class="p">)):</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">Seq</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">IUPACData</span><span class="o">.</span><span class="n">ambiguous_dna_values</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
 </pre></div>
 
     </div>
@@ -13156,7 +13148,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">species_list_from_binomial</span> <span class="p">(</span><span class="n">binomial_str</span><span class="p">):</span>
@@ -13170,7 +13162,7 @@ div#notebook {
         <span class="n">binstr</span> <span class="o">+=</span> <span class="s2">&quot;.&quot;</span> <span class="o">+</span> <span class="n">accession_str</span>
     <span class="k">return</span> <span class="n">binstr</span>
 
-<span class="k">def</span> <span class="nf">subsample_accept_genus</span> <span class="p">(</span><span class="n">sp_name</span><span class="p">,</span> <span class="n">list_of_genera</span> <span class="o">=</span> <span class="n">chosen_genera</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">subsample_accept_genus</span> <span class="p">(</span><span class="n">sp_name</span><span class="p">,</span> <span class="n">list_of_genera</span> <span class="o">=</span> <span class="n">bacteria_genera</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">list_of_genera</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">sp_name</span><span class="p">:</span>
             <span class="k">return</span> <span class="kc">True</span>
@@ -13180,10 +13172,10 @@ div#notebook {
     <span class="k">if</span> <span class="n">sp_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">collection_counter</span><span class="p">:</span>
         <span class="k">return</span> <span class="kc">False</span>
     <span class="n">x</span> <span class="o">=</span> <span class="n">collection_counter</span><span class="p">[</span><span class="n">sp_name</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">:</span>  <span class="c1">## with one or two samples, our scores don&#39;t make much sense </span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1">## used only in 026, not here (since we may have several paralogs even for one sample) </span>
         <span class="k">return</span> <span class="kc">False</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">32</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mi">32</span><span class="o">/</span><span class="n">x</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="c1">## in practice only subsamples P. aeruginosa, S. aureus, and maybe a few others</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="o">/</span><span class="n">x</span>
     <span class="k">return</span> <span class="kc">True</span>
 </pre></div>
 
@@ -13195,11 +13187,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Read-table-with-files-and-taxonomic-classification">Read table with files and taxonomic classification<a class="anchor-link" href="#Read-table-with-files-and-taxonomic-classification">&#182;</a></h2><ul>
-<li>This table was generated in R with notebook <a href="./005.generate_gtdb_sheet.ipynb">005.generate_gtdb_sheet.ipynb</a> and contains taxonomies (SILVA, NCBI, and GTDB) for all valid genome files that we downloaded. (By 'valid' we mean those passing the quality checks of GTDB.)</li>
-<li>In cell below, we add first column as file name, so e.g. <code>gtdb_taxonomy</code> is <code>table[2]</code></li>
-</ul>
-
+<h3 id="table-with-taxonomic-classification">table with taxonomic classification<a class="anchor-link" href="#table-with-taxonomic-classification">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13252,33 +13240,25 @@ first element, with file location:  [&#39;/media/deolivl/QIB_deolivl/bigdata/Cam
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="randomly-choose-samples-from-database">randomly choose samples from database<a class="anchor-link" href="#randomly-choose-samples-from-database">&#182;</a></h2><ul>
-<li>subsample based on species representativity, i.e. species w/ more than 40 are downsampled (resulting with at most ~40 samples for each species)</li>
-<li>also limit to a few genera (<em>arbitrarily</em> selected)</li>
-<li>result is stored in a table that contains both the file path, and several taxonomic inferences (from GTDB spreadsheet)</li>
-</ul>
-<p>'species' follows the GTDB classification, BTW.</p>
-
+<h3 id="subsample-from-database,-for-selected-genera">subsample from database, for selected genera<a class="anchor-link" href="#subsample-from-database,-for-selected-genera">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">print_redblack</span> <span class="p">(</span><span class="s2">&quot;Full set of genera in GTDB:&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="nb">set</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span>  <span class="ow">in</span> <span class="n">table_filenames_species</span><span class="p">]))</span>
-<span class="n">tbl_fl_sp</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">table_filenames_species</span><span class="p">)</span>
-<span class="c1"># remove all samples that don&#39;t belong to set of _arbitrarily_ chosen genera</span>
-<span class="n">tbl_fl_sp</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span>  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tbl_fl_sp</span> <span class="k">if</span> <span class="n">subsample_accept_genus</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">])]</span> 
-<span class="n">species_counter</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">Counter</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tbl_fl_sp</span> <span class="k">if</span> <span class="s2">&quot;sp.&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]])</span> <span class="c1">## remove generic &quot;sp.&quot;</span>
-<span class="n">print_redblack</span> <span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Most common species in selected genera (from all samples: &quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">species_counter</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tbl_fl_sp</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="c1"># remove all samples that don&#39;t belong to set of _arbitrarily_ chosen genera</span>
+    <span class="n">tbl_tmp</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span>  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">table_filenames_species</span><span class="p">)</span> <span class="k">if</span> <span class="n">subsample_accept_genus</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">list_of_genera</span><span class="o">=</span><span class="p">[</span><span class="n">genus</span><span class="p">])]</span> 
+    <span class="n">species_counter</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">Counter</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tbl_tmp</span> <span class="k">if</span> <span class="s2">&quot;sp.&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]])</span> <span class="c1">## remove generic &quot;sp.&quot;</span>
+    <span class="n">print_redblack</span> <span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Most common species in &quot;</span> <span class="o">+</span> <span class="n">genus</span> <span class="o">+</span> <span class="s2">&quot; (from all samples): &quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">species_counter</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
 
-<span class="n">tbl_fl_sp</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span>  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">table_filenames_species</span> <span class="k">if</span> <span class="n">subsample_accept_counter</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">species_counter</span><span class="p">)]</span>
-
-<span class="n">tmp_counter</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">Counter</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tbl_fl_sp</span><span class="p">])</span>
-<span class="n">print_redblack</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Final set with &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tbl_fl_sp</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&quot; samples &quot;</span><span class="p">,</span> <span class="s2">&quot;(&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tmp_counter</span><span class="p">))</span><span class="o">+</span> <span class="s2">&quot; species) &quot;</span><span class="p">,</span><span class="n">tmp_counter</span><span class="p">)</span>
-<span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">tbl_fl_sp</span><span class="p">)</span>
+    <span class="n">tbl_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span>  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">table_filenames_species</span> <span class="k">if</span> <span class="n">subsample_accept_counter</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">species_counter</span><span class="p">)]</span>
+    <span class="n">tmp_counter</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">Counter</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tbl_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]])</span>
+    <span class="n">print_redblack</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Final set with &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tbl_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]))</span> <span class="o">+</span> <span class="s2">&quot; samples &quot;</span><span class="p">,</span> <span class="s2">&quot;(&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tmp_counter</span><span class="p">))</span><span class="o">+</span> <span class="s2">&quot; species) &quot;</span><span class="p">,</span><span class="n">tmp_counter</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13295,11 +13275,14 @@ first element, with file location:  [&#39;/media/deolivl/QIB_deolivl/bigdata/Cam
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre><span class="ansi-red-intense-fg ansi-bold">Full set of genera in GTDB:</span>{&#39;Clostridium&#39;, &#39;Neisseria_B&#39;, &#39;Clostridium_H&#39;, &#39;Salmonella&#39;, &#39;Clostridium_AM&#39;, &#39;Eubacterium_I&#39;, &#39;Enterococcus_B&#39;, &#39;Helicobacter_G&#39;, &#39;Pseudomonas_F&#39;, &#39;Campylobacter_A&#39;, &#39;Helicobacter_H&#39;, &#39;Leptospira&#39;, &#39;Campylobacter&#39;, &#39;Campylobacter_D&#39;, &#39;Mycobacterium&#39;, &#39;Neisseria&#39;, &#39;Mycolicibacterium&#39;, &#39;Helicobacter_E&#39;, &#39;Mycobacteroides&#39;, &#39;UBA11063&#39;, &#39;Klebsiella_B&#39;, &#39;Clostridium_G&#39;, &#39;Ruminiclostridium_A&#39;, &#39;Clostridium_S&#39;, &#39;Vibrio&#39;, &#39;Klebsiella&#39;, &#39;Clostridium_W&#39;, &#39;Leptospira_A&#39;, &#39;Neisseria_D&#39;, &#39;Enterococcus&#39;, &#39;Helicobacter_A&#39;, &#39;Staphylococcus_A&#39;, &#39;Enterococcus_E&#39;, &#39;Escherichia&#39;, &#39;Clostridium_I&#39;, &#39;Clostridium_J&#39;, &#39;Klebsiella_A&#39;, &#39;Cedecea&#39;, &#39;Listeria&#39;, &#39;Pseudomonas_D&#39;, &#39;Helicobacter_C&#39;, &#39;Clostridium_B&#39;, &#39;Pseudomonas_A&#39;, &#39;Enterococcus_D&#39;, &#39;Helicobacter&#39;, &#39;Pseudomonas_E&#39;, &#39;Clostridium_F&#39;, &#39;Clostridium_AD&#39;, &#39;Helicobacter_F&#39;, &#39;Streptococcus&#39;, &#39;Campylobacter_B&#39;, &#39;Clostridium_K&#39;, &#39;Clostridium_AN&#39;, &#39;Pseudomonas&#39;, &#39;Helicobacter_D&#39;, &#39;Staphylococcus&#39;, &#39;Pseudomonas_B&#39;, &#39;Clostridium_P&#39;, &#39;Bergeriella&#39;}
+<pre><span class="ansi-red-intense-fg ansi-bold">
+Most common species in Pseudomonas (from all samples): </span>[(&#39;Pseudomonas aeruginosa&#39;, 122), (&#39;Pseudomonas_E avellanae&#39;, 13), (&#39;Pseudomonas_E hunanensis&#39;, 11), (&#39;Pseudomonas_E ficuserectae&#39;, 7), (&#39;Pseudomonas_E monteilii_B&#39;, 6), (&#39;Pseudomonas_A stutzeri&#39;, 5), (&#39;Pseudomonas_E syringae_M&#39;, 5), (&#39;Pseudomonas_E protegens&#39;, 5), (&#39;Pseudomonas_E piscium&#39;, 5), (&#39;Pseudomonas aeruginosa_A&#39;, 4)]
 <span class="ansi-red-intense-fg ansi-bold">
-Most common species in selected genera (from all samples: </span>[(&#39;Escherichia flexneri&#39;, 372), (&#39;Staphylococcus aureus&#39;, 260), (&#39;Klebsiella pneumoniae&#39;, 222), (&#39;Pseudomonas aeruginosa&#39;, 122), (&#39;Streptococcus pyogenes&#39;, 112), (&#39;Escherichia coli&#39;, 95), (&#39;Escherichia dysenteriae&#39;, 53), (&#39;Streptococcus agalactiae&#39;, 50), (&#39;Enterococcus_B faecium&#39;, 48), (&#39;Streptococcus pneumoniae&#39;, 46)]
+Final set with 150 samples </span><span class="ansi-black-intense-fg ansi-bold">(113 species) </span>Counter({&#39;Pseudomonas_E avellanae&#39;: 5, &#39;Pseudomonas_A stutzeri&#39;: 4, &#39;Pseudomonas_E hunanensis&#39;: 3, &#39;Pseudomonas_E syringae&#39;: 3, &#39;Pseudomonas_E cerasi&#39;: 3, &#39;Pseudomonas_E taiwanensis&#39;: 3, &#39;Pseudomonas aeruginosa_A&#39;: 2, &#39;Pseudomonas_E fluorescens_AR&#39;: 2, &#39;Pseudomonas_E simiae&#39;: 2, &#39;Pseudomonas_E lurida&#39;: 2, &#39;Pseudomonas_E sp002966775&#39;: 2, &#39;Pseudomonas_E sp000346225&#39;: 2, &#39;Pseudomonas_E mendocina_A&#39;: 2, &#39;Pseudomonas_E mendocina&#39;: 2, &#39;Pseudomonas_E putida_P&#39;: 2, &#39;Pseudomonas_E monteilii_B&#39;: 2, &#39;Pseudomonas_E putida_H&#39;: 2, &#39;Pseudomonas_E putida_M&#39;: 2, &#39;Pseudomonas_E oleovorans&#39;: 2, &#39;Pseudomonas_E fulva&#39;: 2, &#39;Pseudomonas citronellolis&#39;: 2, &#39;Pseudomonas_E veronii&#39;: 2, &#39;Pseudomonas_E mosselii&#39;: 2, &#39;Pseudomonas_E sp001655615&#39;: 2, &#39;Pseudomonas_E piscium&#39;: 2, &#39;Pseudomonas_E sp000931465&#39;: 2, &#39;Pseudomonas_E brassicacearum_C&#39;: 2, &#39;Pseudomonas_E sp001547895&#39;: 2, &#39;Pseudomonas_E marginalis&#39;: 1, &#39;Pseudomonas_E kilonensis&#39;: 1, &#39;Pseudomonas_E fluorescens_B&#39;: 1, &#39;Pseudomonas_E fluorescens_X&#39;: 1, &#39;Pseudomonas_E fluorescens_E&#39;: 1, &#39;Pseudomonas_E fluorescens_AA&#39;: 1, &#39;Pseudomonas_E fluorescens_AN&#39;: 1, &#39;Pseudomonas_E fluorescens&#39;: 1, &#39;Pseudomonas_E fragi&#39;: 1, &#39;Pseudomonas_E mendocina_C&#39;: 1, &#39;Pseudomonas_E putida_E&#39;: 1, &#39;Pseudomonas_E putida&#39;: 1, &#39;Pseudomonas_E putida_Q&#39;: 1, &#39;Pseudomonas_E putida_B&#39;: 1, &#39;Pseudomonas_E putida_J&#39;: 1, &#39;Pseudomonas_E putida_T&#39;: 1, &#39;Pseudomonas_E putida_S&#39;: 1, &#39;Pseudomonas_A stutzeri_U&#39;: 1, &#39;Pseudomonas_A stutzeri_AG&#39;: 1, &#39;Pseudomonas_A stutzeri_AE&#39;: 1, &#39;Pseudomonas_A stutzeri_D&#39;: 1, &#39;Pseudomonas_A stutzeri_A&#39;: 1, &#39;Pseudomonas_A zhaodongensis&#39;: 1, &#39;Pseudomonas_A stutzeri_AJ&#39;: 1, &#39;Pseudomonas_E syringae_M&#39;: 1, &#39;Pseudomonas_E syringae_F&#39;: 1, &#39;Pseudomonas_E ficuserectae&#39;: 1, &#39;Pseudomonas_E viridiflava&#39;: 1, &#39;Pseudomonas_E cichorii&#39;: 1, &#39;Pseudomonas_E alcaligenes&#39;: 1, &#39;Pseudomonas_E mucidolens&#39;: 1, &#39;Pseudomonas_E azotoformans_A&#39;: 1, &#39;Pseudomonas_E azotoformans_B&#39;: 1, &#39;Pseudomonas_E corrugata&#39;: 1, &#39;Pseudomonas_E fulva_B&#39;: 1, &#39;Pseudomonas_E synxantha&#39;: 1, &#39;Pseudomonas_E taetrolens&#39;: 1, &#39;Pseudomonas_B oryzihabitans_E&#39;: 1, &#39;Pseudomonas_F resinovorans_A&#39;: 1, &#39;Pseudomonas knackmussii&#39;: 1, &#39;Pseudomonas_A balearica&#39;: 1, &#39;Pseudomonas_E mandelii&#39;: 1, &#39;Pseudomonas_E orientalis_A&#39;: 1, &#39;Pseudomonas_E monteilii_A&#39;: 1, &#39;Pseudomonas_E monteilii&#39;: 1, &#39;Pseudomonas_E alcaliphila_B&#39;: 1, &#39;Pseudomonas_E frederiksbergensis_B&#39;: 1, &#39;Pseudomonas_E frederiksbergensis_E&#39;: 1, &#39;Pseudomonas_E parafulva_A&#39;: 1, &#39;Pseudomonas_E parafulva_B&#39;: 1, &#39;Pseudomonas_E cremoricolorata_A&#39;: 1, &#39;Pseudomonas_E koreensis_C&#39;: 1, &#39;Pseudomonas_E koreensis_D&#39;: 1, &#39;Pseudomonas_E koreensis_B&#39;: 1, &#39;Pseudomonas_E trivialis_B&#39;: 1, &#39;Pseudomonas_E poae&#39;: 1, &#39;Pseudomonas_E rhizosphaerae&#39;: 1, &#39;Pseudomonas_E antarctica_A&#39;: 1, &#39;Pseudomonas_E alkylphenolica&#39;: 1, &#39;Pseudomonas_B psychrotolerans&#39;: 1, &#39;Pseudomonas_E entomophila&#39;: 1, &#39;Pseudomonas_E protegens&#39;: 1, &#39;Pseudomonas_E yamanorum&#39;: 1, &#39;Pseudomonas_E chlororaphis_E&#39;: 1, &#39;Pseudomonas_E chlororaphis&#39;: 1, &#39;Pseudomonas_E brassicacearum_A&#39;: 1, &#39;Pseudomonas_E sp000829415&#39;: 1, &#39;Pseudomonas_F furukawaii&#39;: 1, &#39;Pseudomonas_E sp000316175&#39;: 1, &#39;Pseudomonas_E sp001511755&#39;: 1, &#39;Pseudomonas sp000349845&#39;: 1, &#39;Pseudomonas_E sp001655595&#39;: 1, &#39;Pseudomonas_E versuta&#39;: 1, &#39;Pseudomonas_E silesiensis&#39;: 1, &#39;Pseudomonas_F sp001708505&#39;: 1, &#39;Pseudomonas_E toyotomiensis&#39;: 1, &#39;Pseudomonas_E sp002025205&#39;: 1, &#39;Pseudomonas_D sp002056295&#39;: 1, &#39;Pseudomonas_E sp002163625&#39;: 1, &#39;Pseudomonas_E lactis&#39;: 1, &#39;Pseudomonas_E sp002753995&#39;: 1, &#39;Pseudomonas_E sp002874965&#39;: 1, &#39;Pseudomonas_E proteolytica&#39;: 1, &#39;Pseudomonas_E sp003151075&#39;: 1, &#39;Pseudomonas_A sp003205815&#39;: 1})
 <span class="ansi-red-intense-fg ansi-bold">
-Final set with 697 samples </span><span class="ansi-black-intense-fg ansi-bold">(51 species) </span>Counter({&#39;Klebsiella pneumoniae&#39;: 39, &#39;Streptococcus pyogenes&#39;: 37, &#39;Escherichia flexneri&#39;: 35, &#39;Streptococcus pneumoniae&#39;: 35, &#39;Enterococcus_B faecium&#39;: 33, &#39;Escherichia coli_D&#39;: 33, &#39;Escherichia coli&#39;: 33, &#39;Streptococcus agalactiae&#39;: 33, &#39;Escherichia dysenteriae&#39;: 31, &#39;Staphylococcus aureus&#39;: 31, &#39;Streptococcus suis&#39;: 31, &#39;Pseudomonas aeruginosa&#39;: 30, &#39;Streptococcus thermophilus&#39;: 23, &#39;Enterococcus faecalis&#39;: 17, &#39;Klebsiella_A michiganensis&#39;: 16, &#39;Pseudomonas_E avellanae&#39;: 13, &#39;Klebsiella_B aerogenes&#39;: 11, &#39;Klebsiella variicola&#39;: 11, &#39;Pseudomonas_E hunanensis&#39;: 11, &#39;Klebsiella quasipneumoniae&#39;: 10, &#39;Staphylococcus epidermidis&#39;: 10, &#39;Staphylococcus lugdunensis&#39;: 10, &#39;Streptococcus salivarius&#39;: 9, &#39;Streptococcus dysgalactiae&#39;: 9, &#39;Streptococcus equi&#39;: 9, &#39;Streptococcus mutans&#39;: 8, &#39;Escherichia albertii&#39;: 7, &#39;Pseudomonas_E ficuserectae&#39;: 7, &#39;Staphylococcus simulans&#39;: 7, &#39;Streptococcus gordonii&#39;: 7, &#39;Pseudomonas_E monteilii_B&#39;: 6, &#39;Staphylococcus saprophyticus&#39;: 6, &#39;Streptococcus sobrinus&#39;: 6, &#39;Streptococcus intermedius&#39;: 6, &#39;Klebsiella_A oxytoca&#39;: 5, &#39;Pseudomonas_A stutzeri&#39;: 5, &#39;Pseudomonas_E syringae_M&#39;: 5, &#39;Pseudomonas_E protegens&#39;: 5, &#39;Pseudomonas_E piscium&#39;: 5, &#39;Staphylococcus haemolyticus&#39;: 5, &#39;Staphylococcus schleiferi&#39;: 5, &#39;Staphylococcus pseudintermedius&#39;: 5, &#39;Streptococcus gallolyticus&#39;: 5, &#39;Pseudomonas aeruginosa_A&#39;: 4, &#39;Staphylococcus xylosus&#39;: 4, &#39;Staphylococcus equorum_B&#39;: 4, &#39;Streptococcus sanguinis&#39;: 4, &#39;Streptococcus anginosus&#39;: 4, &#39;Streptococcus iniae&#39;: 4, &#39;Streptococcus uberis&#39;: 4, &#39;Streptococcus lutetiensis&#39;: 4})
+Most common species in Staphylococcus (from all samples): </span>[(&#39;Staphylococcus aureus&#39;, 260), (&#39;Staphylococcus epidermidis&#39;, 10), (&#39;Staphylococcus lugdunensis&#39;, 10), (&#39;Staphylococcus simulans&#39;, 7), (&#39;Staphylococcus saprophyticus&#39;, 6), (&#39;Staphylococcus haemolyticus&#39;, 5), (&#39;Staphylococcus schleiferi&#39;, 5), (&#39;Staphylococcus pseudintermedius&#39;, 5), (&#39;Staphylococcus xylosus&#39;, 4), (&#39;Staphylococcus equorum_B&#39;, 4)]
+<span class="ansi-red-intense-fg ansi-bold">
+Final set with 46 samples </span><span class="ansi-black-intense-fg ansi-bold">(30 species) </span>Counter({&#39;Staphylococcus xylosus&#39;: 3, &#39;Staphylococcus schleiferi&#39;: 3, &#39;Staphylococcus equorum_B&#39;: 3, &#39;Staphylococcus carnosus&#39;: 2, &#39;Staphylococcus haemolyticus&#39;: 2, &#39;Staphylococcus hyicus&#39;: 2, &#39;Staphylococcus warneri&#39;: 2, &#39;Staphylococcus muscae&#39;: 2, &#39;Staphylococcus_A sciuri&#39;: 2, &#39;Staphylococcus lugdunensis&#39;: 2, &#39;Staphylococcus condimenti&#39;: 2, &#39;Staphylococcus nepalensis&#39;: 2, &#39;Staphylococcus argenteus&#39;: 2, &#39;Staphylococcus aureus&#39;: 1, &#39;Staphylococcus epidermidis&#39;: 1, &#39;Staphylococcus hominis&#39;: 1, &#39;Staphylococcus auricularis&#39;: 1, &#39;Staphylococcus cohnii_A&#39;: 1, &#39;Staphylococcus kloosii&#39;: 1, &#39;Staphylococcus saprophyticus&#39;: 1, &#39;Staphylococcus pasteuri&#39;: 1, &#39;Staphylococcus felis&#39;: 1, &#39;Staphylococcus succinus&#39;: 1, &#39;Staphylococcus piscifermentans&#39;: 1, &#39;Staphylococcus lutrae&#39;: 1, &#39;Staphylococcus pettenkoferi&#39;: 1, &#39;Staphylococcus pseudintermedius&#39;: 1, &#39;Staphylococcus simiae&#39;: 1, &#39;Staphylococcus_A stepanovicii&#39;: 1, &#39;Staphylococcus agnetis&#39;: 1})
 </pre>
 </div>
 </div>
@@ -13311,75 +13294,8 @@ Final set with 697 samples </span><span class="ansi-black-intense-fg ansi-bold">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Auxiliary-functions">Auxiliary functions<a class="anchor-link" href="#Auxiliary-functions">&#182;</a></h3><ul>
-<li>how to extract hypervariable regions from 16S: we use Smith-Waterman to find established primers, for v1v2 and v3v4:<blockquote><p>We used the primer pair 27 F/338 R (27 F: 5′-AGAGTTTGATCCTGGCTCAG-3′/ 338 R: 5′-TGCTGCCTCCCGTAGGAGT-3′) to amplify the &gt;V1/V2 region, and the primer pair V3F/V4R (V3F: 5′-CCTACGGGAGGCAGCAG-3′/ V4R: 5′-GGACTACHVGGGTWTCTAAT-3′) for the V3/V4 &gt;hypervariable region from the same sample. <a href="https://www.nature.com/articles/s41598-018-27757-8">https://www.nature.com/articles/s41598-018-27757-8</a></p>
-</blockquote>
-</li>
-</ul>
-<p>Therefore the two reverse ones are: <code>ACTCCTACGGGAGGCAGCA</code> and <code>ATTAGAWACCCBDGTAGTCC</code>. We use the locations relative to a reference, if the local alignment search fails (<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0076185">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0076185</a> for V1V2 location, for instance). In some cases we can find the second primer only (i.e. beginning of 16S is missing), in which case we use it to predict the first one.</p>
-<p>The downstream analysis may decide to remove such samples altogether, and here we provide also a check to see if we have 'proper' hypervar segments. Rule-of-thumb is that segment length $l$ should fall within $200&lt;l&lt;500$. The rationale is that some refseq genomes have annotation issues that are picked up by absence of primers or overly large 16S. We are being conservative and excluding such samples from the analysis. BTW the "primers" may not be an exact match.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hyper_types</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;16Sv1v2&quot;</span><span class="p">,</span> <span class="s2">&quot;16Sv3v4&quot;</span><span class="p">]</span>
-<span class="c1">#start = res.end_query - res.len_query</span>
-<span class="c1"># v1234[] contains primers for v1v2 forward, v1v2 rev complement, v3v4 forward, v3v4 rev complem </span>
-<span class="n">v1234</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;AGAGTTTGATCCTGGCTCAG&quot;</span><span class="p">,</span><span class="s2">&quot;ACTCCTACGGGAGGCAGCA&quot;</span><span class="p">,</span><span class="s2">&quot;CCTACGGGAGGCAGCAG&quot;</span><span class="p">,</span><span class="s2">&quot;ATTAGAWACCCBDGTAGTCC&quot;</span><span class="p">];</span>
-<span class="c1"># fallback: use relative position</span>
-
-<span class="n">hypervar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">135</span><span class="p">,</span> <span class="mi">360</span><span class="p">,</span> <span class="mi">540</span><span class="p">,</span> <span class="mi">820</span><span class="p">,</span> <span class="mi">900</span><span class="p">,</span> <span class="mi">1100</span><span class="p">,</span> <span class="mi">1240</span><span class="p">,</span> <span class="mi">1390</span><span class="p">,</span> <span class="mi">1500</span><span class="p">])</span> <span class="c1"># last position, including assumed 16S size</span>
-<span class="n">hypervar</span> <span class="o">=</span> <span class="n">hypervar</span><span class="o">/</span><span class="n">hypervar</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># fractions, w.r.t sequence length</span>
-
-<span class="k">def</span> <span class="nf">get_hypervar_16S</span> <span class="p">(</span><span class="n">sequence</span><span class="p">,</span> <span class="n">check_valid</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="n">seqsize</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span> 
-    <span class="n">n_h</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">seqsize</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">hypervar</span><span class="p">[:</span><span class="mi">4</span><span class="p">]]</span> <span class="c1"># fallback </span>
-    <span class="n">res</span> <span class="o">=</span> <span class="p">[</span><span class="n">parasail</span><span class="o">.</span><span class="n">sw_stats_diag_16</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">sequence</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">parasail</span><span class="o">.</span><span class="n">blosum30</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">v1234</span><span class="p">]</span>
-
-    <span class="n">v1</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">end_ref</span> <span class="o">-</span> <span class="n">res</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">end_query</span> <span class="c1"># first position of match</span>
-    <span class="n">v2</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">end_ref</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1"># last position of match is end_ref, which shold be included (thus, +1)</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">v1</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">):</span>
-        <span class="n">v1</span> <span class="o">=</span> <span class="mi">0</span> 
-    <span class="n">v3</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">end_ref</span> <span class="o">-</span> <span class="n">res</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">end_query</span> <span class="c1"># first position of match</span>
-    <span class="n">v4</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">end_ref</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1"># last position of match is end_ref, which shold be included (thus, +1)</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">v2</span> <span class="o">-</span> <span class="n">v1</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">v4</span> <span class="o">-</span> <span class="n">v3</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="p">):</span> <span class="c1">## only v3v4 was found</span>
-        <span class="n">v1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">v2</span> <span class="o">=</span> <span class="n">v3</span> <span class="o">+</span> <span class="mi">20</span> <span class="c1">## primers have 20 bp of overlap</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">v2</span> <span class="o">-</span> <span class="n">v1</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">v4</span> <span class="o">-</span> <span class="n">v3</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">):</span> <span class="c1">## only v1v2 was found</span>
-        <span class="n">v3</span> <span class="o">=</span> <span class="n">v2</span> <span class="o">-</span> <span class="mi">20</span><span class="p">;</span> <span class="n">v4</span> <span class="o">=</span> <span class="n">v3</span> <span class="o">+</span> <span class="mi">460</span> 
-    
-    <span class="k">if</span> <span class="p">(</span><span class="n">v2</span> <span class="o">-</span> <span class="n">v1</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">):</span> <span class="c1"># last resource, use relative position</span>
-        <span class="n">v1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">v2</span> <span class="o">=</span> <span class="n">n_h</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">v4</span> <span class="o">-</span> <span class="n">v3</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">):</span>
-        <span class="n">v3</span> <span class="o">=</span> <span class="n">n_h</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="n">v4</span> <span class="o">=</span> <span class="n">n_h</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="c1">## start of hypervar v3 and end of v4</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">v4</span> <span class="o">&gt;</span> <span class="n">seqsize</span><span class="p">):</span>
-        <span class="n">v4</span> <span class="o">=</span> <span class="n">seqsize</span>
-    
-    <span class="k">if</span> <span class="p">(</span><span class="n">check_valid</span> <span class="ow">and</span> <span class="p">((</span><span class="n">v2</span><span class="o">-</span><span class="n">v1</span> <span class="o">&lt;</span> <span class="mi">200</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">v2</span><span class="o">-</span><span class="n">v1</span> <span class="o">&gt;</span> <span class="mi">500</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">v4</span><span class="o">-</span><span class="n">v3</span> <span class="o">&lt;</span> <span class="mi">200</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">v4</span><span class="o">-</span><span class="n">v3</span> <span class="o">&gt;</span> <span class="mi">600</span><span class="p">))):</span>
-        <span class="k">return</span> <span class="kc">None</span>
-    <span class="c1">## print (&quot;DEBUG:&quot;, v1, v2, v3, v4)</span>
-    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;16Sv1v2&quot;</span><span class="p">:</span><span class="n">sequence</span><span class="p">[</span><span class="n">v1</span><span class="p">:</span><span class="n">v2</span><span class="p">],</span> <span class="s2">&quot;16Sv3v4&quot;</span><span class="p">:</span><span class="n">sequence</span><span class="p">[</span><span class="n">v3</span><span class="p">:</span><span class="n">v4</span><span class="p">]}</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Auxiliary-functions">Auxiliary functions<a class="anchor-link" href="#Auxiliary-functions">&#182;</a></h3><ul>
-<li>alignment wrappers, choice of RNA sequence. When there are several copies, we can <ol>
-<li>choose the longest one,
-or</li>
-<li>we can calculate a consensus between all sequences: align them, and then use IUPAC code</li>
-</ol>
-</li>
+<h3 id="main-functions">main functions<a class="anchor-link" href="#main-functions">&#182;</a></h3><ul>
+<li>find all operons, align sequences</li>
 </ul>
 
 </div>
@@ -13387,22 +13303,10 @@ or</li>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">align_seqs_small</span> <span class="p">(</span><span class="n">unaligned</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot; muscle alignment using pipes (not files) &quot;&quot;&quot;</span>
-    <span class="n">cline</span> <span class="o">=</span> <span class="n">Align</span><span class="o">.</span><span class="n">Applications</span><span class="o">.</span><span class="n">MuscleCommandline</span><span class="p">(</span><span class="n">clwstrict</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">fasta</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">diags</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">maxiters</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">maxhours</span><span class="o">=</span><span class="mf">4.</span><span class="p">)</span> 
-    <span class="n">child</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">cline</span><span class="p">),</span> <span class="n">stdin</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> 
-                             <span class="n">universal_newlines</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">platform</span><span class="o">!=</span><span class="s2">&quot;win32&quot;</span><span class="p">))</span>
-
-    <span class="n">SeqIO</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">unaligned</span><span class="p">,</span> <span class="n">child</span><span class="o">.</span><span class="n">stdin</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span> <span class="c1"># after this muscle is still waiting, so...</span>
-    <span class="n">child</span><span class="o">.</span><span class="n">stdin</span><span class="o">.</span><span class="n">close</span><span class="p">()</span> <span class="c1"># ... we must close the handle by hand, which will then make muscle start calculations</span>
-    <span class="n">aligned</span> <span class="o">=</span> <span class="n">AlignIO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">child</span><span class="o">.</span><span class="n">stdout</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span>  <span class="c1"># read from stdout as a fasta file </span>
-    <span class="n">child</span><span class="o">.</span><span class="n">terminate</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">aligned</span>
-
-<span class="k">def</span> <span class="nf">align_seqs</span> <span class="p">(</span><span class="n">sequences</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">maxiters</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">infile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">mafft</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">align_seqs</span> <span class="p">(</span><span class="n">sequences</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">maxiters</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">infile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">mafft</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
     <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;started aligning...&quot;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">sequences</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">infile</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">):</span>
         <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;ERROR: You must give me an alignment object or file&quot;</span><span class="p">)</span>
@@ -13431,76 +13335,69 @@ or</li>
         <span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s2">&quot;rm -f &quot;</span> <span class="o">+</span> <span class="n">ofl</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">aligned</span>
 
-<span class="k">def</span> <span class="nf">ambiguous_consensus_from_alignment</span> <span class="p">(</span><span class="n">align</span><span class="p">):</span>
-    <span class="c1">#summary_align = AlignInfo.SummaryInfo(Align.MultipleSeqAlignment(align))</span>
-    <span class="n">summary_align</span> <span class="o">=</span> <span class="n">AlignInfo</span><span class="o">.</span><span class="n">SummaryInfo</span><span class="p">(</span><span class="n">align</span><span class="p">)</span> <span class="c1"># must be aligned sequences</span>
-    <span class="n">pssm</span> <span class="o">=</span> <span class="n">summary_align</span><span class="o">.</span><span class="n">pos_specific_score_matrix</span><span class="p">()</span>
-    <span class="n">consensus</span> <span class="o">=</span> <span class="p">[];</span> 
-    <span class="k">for</span> <span class="n">score</span> <span class="ow">in</span> <span class="n">pssm</span><span class="p">:</span> <span class="c1"># something like {&#39;A&#39;: 0, &#39;T&#39;: 4.0, &#39;G&#39;: 0, &#39;C&#39;: 2.0} for each column</span>
-        <span class="n">base_present</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">([</span><span class="n">base</span> <span class="k">for</span> <span class="n">base</span> <span class="ow">in</span> <span class="s2">&quot;ACGT&quot;</span> <span class="k">if</span> <span class="n">score</span><span class="p">[</span><span class="n">base</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]))</span> <span class="c1">## neglect indels</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">base_present</span><span class="p">):</span> 
-            <span class="n">consensus</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">iupac_dna</span><span class="p">[</span><span class="n">base_present</span><span class="p">])</span>
-    <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">consensus</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">get_longest_from_dict</span><span class="p">(</span><span class="n">rRNA</span><span class="p">):</span>
-    <span class="n">longest_dict</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-        <span class="n">longest_dict</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">rRNA</span><span class="p">[</span><span class="n">rna</span><span class="p">][</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">([</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">rRNA</span><span class="p">[</span><span class="n">rna</span><span class="p">]])[</span><span class="mi">0</span><span class="p">]</span> <span class="p">]</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">longest_dict</span>
-
-<span class="k">def</span> <span class="nf">get_consensus_from_dict</span><span class="p">(</span><span class="n">rRNA</span><span class="p">):</span>
-    <span class="n">consensus_dict</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-        <span class="n">consensus_dict</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="n">ambiguous_consensus_from_alignment</span><span class="p">(</span><span class="n">align_seqs_small</span><span class="p">(</span><span class="n">rRNA</span><span class="p">[</span><span class="n">rna</span><span class="p">]))</span>
-    <span class="k">return</span> <span class="n">consensus_dict</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="RefSeq-reading-function">RefSeq reading function<a class="anchor-link" href="#RefSeq-reading-function">&#182;</a></h2><ul>
-<li>receives element from our table (but uses only the sequence name) and returns a dictionary with sequences for every RNA found</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_rrna_from_genbank_to_dict</span> <span class="p">(</span><span class="n">table_fs</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">return_contig_locations</span> <span class="p">(</span><span class="n">featurelist</span><span class="p">):</span> <span class="c1"># featurelist has list of [ [location1, location2], rnaname, strand ]</span>
+    <span class="n">featurelist</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">featurelist</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]))</span>
+    <span class="n">rnablocks</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">rnabnames</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">rnasignal</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">tmp_loc</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">featurelist</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># start and end locations</span>
+    <span class="n">tmp_nam</span> <span class="o">=</span> <span class="p">[</span><span class="n">featurelist</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]]</span>    <span class="c1"># gene name</span>
+    <span class="n">tmp_sig</span> <span class="o">=</span> <span class="p">[</span><span class="n">featurelist</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]]</span>
+    <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">featurelist</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">tmp_loc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">feature</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">1000</span><span class="p">):</span>
+            <span class="n">tmp_loc</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">feature</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+            <span class="n">tmp_nam</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="n">feature</span><span class="p">[</span><span class="mi">1</span><span class="p">]])</span>
+            <span class="n">tmp_sig</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="n">feature</span><span class="p">[</span><span class="mi">2</span><span class="p">]])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rnablocks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp_loc</span><span class="p">)</span>
+            <span class="n">rnabnames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp_nam</span><span class="p">)</span>
+            <span class="n">rnasignal</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp_sig</span><span class="p">)</span>
+            <span class="n">tmp_loc</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">feature</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">tmp_nam</span> <span class="o">=</span> <span class="p">[</span><span class="n">feature</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+            <span class="n">tmp_sig</span> <span class="o">=</span> <span class="p">[</span><span class="n">feature</span><span class="p">[</span><span class="mi">2</span><span class="p">]]</span>
+    <span class="n">rnablocks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp_loc</span><span class="p">)</span>
+    <span class="n">rnabnames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp_nam</span><span class="p">)</span>
+    <span class="n">rnasignal</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp_sig</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rnablocks</span><span class="p">,</span> <span class="n">rnabnames</span><span class="p">,</span> <span class="n">rnasignal</span>
+    
+<span class="k">def</span> <span class="nf">get_rrna_from_genbank_to_list_and_dict</span> <span class="p">(</span><span class="n">table_fs</span><span class="p">):</span>
     <span class="n">gbank</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">gzip</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">table_fs</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;rt&quot;</span><span class="p">),</span> <span class="s2">&quot;genbank&quot;</span><span class="p">)</span>
-    <span class="n">rRNA</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-        <span class="n">rRNA</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">list_of_features</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">list_of_seqs</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">genome</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">gbank</span><span class="p">)</span> <span class="c1"># no point in iterating over gbank, only this has whole information</span>
     <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">genome</span><span class="o">.</span><span class="n">features</span><span class="p">:</span>
         <span class="k">if</span><span class="p">(</span><span class="n">feature</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;rRNA&quot;</span><span class="p">):</span>
-            <span class="k">try</span><span class="p">:</span>
-                <span class="n">feature_name</span> <span class="o">=</span> <span class="n">feature</span><span class="o">.</span><span class="n">qualifiers</span><span class="p">[</span><span class="s1">&#39;product&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
-            <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
-                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;WARNING: no &#39;product&#39; feature in&quot;</span> <span class="o">+</span> <span class="n">table_fs</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
             <span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-                <span class="k">if</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">feature_name</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">feature</span><span class="o">.</span><span class="n">qualifiers</span><span class="p">[</span><span class="s1">&#39;product&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span>
                     <span class="n">this_product</span> <span class="o">=</span> <span class="n">rna</span>
-                    <span class="n">desc</span> <span class="o">=</span> <span class="n">feature</span><span class="o">.</span><span class="n">qualifiers</span><span class="p">[</span><span class="s1">&#39;locus_tag&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-                    <span class="n">seq</span> <span class="o">=</span> <span class="n">feature</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">genome</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span>
-                    <span class="n">record</span> <span class="o">=</span> <span class="n">SeqRecord</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="n">desc</span><span class="p">)</span>
-                    <span class="n">rRNA</span><span class="p">[</span><span class="n">this_product</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
                     <span class="k">break</span>
-    <span class="n">success</span> <span class="o">=</span> <span class="kc">True</span>
-    <span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-        <span class="n">success</span> <span class="o">=</span> <span class="n">success</span> <span class="ow">and</span> <span class="n">rRNA</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">success</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">rRNA</span>
-    <span class="k">return</span> <span class="kc">None</span>
+            <span class="n">this_location</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;\d+&#39;</span><span class="p">,</span><span class="nb">str</span><span class="p">(</span><span class="n">feature</span><span class="o">.</span><span class="n">location</span><span class="p">))]</span>
+            <span class="n">this_strand</span> <span class="o">=</span> <span class="n">feature</span><span class="o">.</span><span class="n">strand</span>
+            <span class="k">if</span> <span class="mi">0</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">this_location</span><span class="p">:</span>
+                <span class="n">list_of_features</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">this_location</span><span class="p">[:</span><span class="mi">2</span><span class="p">],</span> <span class="n">this_product</span><span class="p">,</span> <span class="n">this_strand</span><span class="p">])</span>
+    <span class="c1"># now list_of_features is complete  for this genome record (gbank[0])</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">list_of_features</span><span class="p">:</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;no info from &quot;</span><span class="p">,</span> <span class="n">table_fs</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="k">return</span> <span class="kc">None</span> <span class="c1"># some genomes have no relevant annotation</span>
+    <span class="n">location</span><span class="p">,</span> <span class="n">gnames</span><span class="p">,</span> <span class="n">strand</span> <span class="o">=</span> <span class="n">return_contig_locations</span> <span class="p">(</span><span class="n">list_of_features</span><span class="p">)</span>
+    <span class="n">genome_len</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">genome</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">l</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">s</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">location</span><span class="p">,</span> <span class="n">gnames</span><span class="p">,</span> <span class="n">strand</span><span class="p">)):</span>
+        <span class="n">i_start</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">l</span><span class="p">);</span> <span class="n">i_end</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">sum</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span> <span class="c1">## hopefully they all have same signal</span>
+            <span class="n">contig</span> <span class="o">=</span> <span class="n">genome</span><span class="o">.</span><span class="n">seq</span><span class="p">[</span><span class="n">i_start</span><span class="p">:</span><span class="n">i_end</span><span class="p">]</span><span class="o">.</span><span class="n">reverse_complement</span><span class="p">()</span>
+            <span class="n">seqgenes</span> <span class="o">=</span> <span class="s2">&quot;s&quot;</span> <span class="o">+</span> <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">g</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">contig</span> <span class="o">=</span> <span class="n">genome</span><span class="o">.</span><span class="n">seq</span><span class="p">[</span><span class="n">i_start</span><span class="p">:</span><span class="n">i_end</span><span class="p">]</span>
+            <span class="n">seqgenes</span> <span class="o">=</span> <span class="s2">&quot;s&quot;</span> <span class="o">+</span> <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+        <span class="n">numbercode</span> <span class="o">=</span> <span class="s1">&#39;.</span><span class="si">{:02d}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1">## unlike pilot, here dot is the field delimiter</span>
+        
+        <span class="c1"># table_fs[2] = GTDB, 3=lsuSILVA, 5=NCBI, 6=ssuSILVA</span>
+        <span class="n">seqname</span>  <span class="o">=</span> <span class="n">species_name_from_binomial</span> <span class="p">(</span><span class="n">table_fs</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">table_fs</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># table_fs[1] = accession number </span>
+        <span class="n">seqname</span> <span class="o">+=</span> <span class="n">numbercode</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">contig</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">3000</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">contig</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">8500</span><span class="p">):</span> <span class="c1"># some contigs have only 5S or only this 5S annotated</span>
+            <span class="k">if</span> <span class="s2">&quot;16S23S5S&quot;</span> <span class="ow">in</span> <span class="n">seqgenes</span><span class="p">:</span> <span class="c1"># only full operon, in proper order (to avoid e.g. 16S16S...)</span>
+                <span class="n">list_of_seqs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">SeqRecord</span><span class="p">(</span><span class="n">contig</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="n">seqname</span><span class="p">,</span> <span class="n">description</span> <span class="o">=</span> <span class="n">seqname</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">list_of_seqs</span>
 </pre></div>
 
     </div>
@@ -13511,16 +13408,8 @@ or</li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Main-loop,-reading-through-all-sequences-in-table">Main loop, reading through all sequences in table<a class="anchor-link" href="#Main-loop,-reading-through-all-sequences-in-table">&#182;</a></h2><ul>
-<li>table is the one produced above, with refseq genome file path and distinct taxonomic classifications</li>
-<li>this loop will create:<ol>
-<li><code>rna_concat[]</code> and <code>rna_consen[]</code> dictionaries with longest and consensus, respect., sequences from each "valid" genomes. the keys of dictionary are 16S, 23S, 5S, 16Sv1v2 etc. </li>
-<li>new table with "valid" genomes only</li>
-<li>dictionary with statistics, that  will used by Panda to save spreadsheet </li>
-</ol>
-</li>
-<li>"valid" genomes are those for which reasonable RNA sequences were found (some are not annotated, some are missing,..), although these genomes were already curated by GTDB</li>
-<li>this loops processes 40 genomes/minute (i.e. this cell takes ~20 minutes to complete)</li>
+<h3 id="sample-genomes-and-create-unaligned-list">sample genomes and create unaligned list<a class="anchor-link" href="#sample-genomes-and-create-unaligned-list">&#182;</a></h3><ul>
+<li>also saves variables (internediate results) to <code>xxx_fl_sp.pickle.gz</code> where xxx is the genus name ;) </li>
 </ul>
 
 </div>
@@ -13531,70 +13420,30 @@ or</li>
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## run this if you want to reset variables</span>
-<span class="n">rna_concat</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">rna_consen</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">stats_dict</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="o">+</span><span class="n">hyper_types</span><span class="p">:</span> <span class="c1"># must also initalise &#39;v1v2&#39; and &#39;v3v4&#39;</span>
-    <span class="n">rna_concat</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">rna_consen</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-    <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Longest &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Consensus &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Copies &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">all_fl_sp</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">file_counter</span><span class="p">,</span> <span class="n">tfs</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tbl_fl_sp</span><span class="p">):</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">file_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">%</span><span class="k">20</span>:
-        <span class="nb">print</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">file_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">rna_dict</span> <span class="o">=</span> <span class="n">get_rrna_from_genbank_to_dict</span> <span class="p">(</span><span class="n">tfs</span><span class="p">)</span>
-    <span class="c1"># (some dict will have no usable features or b/c too long/too short</span>
-    <span class="k">if</span> <span class="n">rna_dict</span><span class="p">:</span> <span class="c1"># tfs[2] = GTDB, 3=lsuSILVA, 5=NCBI, 6=ssuSILVA</span>
-        <span class="n">spname</span> <span class="o">=</span> <span class="n">species_name_from_binomial</span> <span class="p">(</span><span class="n">tfs</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">tfs</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># tfs[1] = accession number </span>
-        
-        <span class="n">concat_seqs</span> <span class="o">=</span> <span class="n">get_longest_from_dict</span> <span class="p">(</span><span class="n">rna_dict</span><span class="p">)</span>
-        <span class="n">hypervars</span> <span class="o">=</span> <span class="n">get_hypervar_16S</span><span class="p">(</span><span class="n">concat_seqs</span><span class="p">[</span><span class="s1">&#39;16S&#39;</span><span class="p">],</span> <span class="n">check_valid</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">hypervars</span><span class="p">):</span> <span class="c1">## only considers samples with well-formated hypervar segments</span>
-            <span class="n">concat_seqs</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">hypervars</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">rna</span><span class="p">,</span> <span class="n">rseq</span> <span class="ow">in</span> <span class="n">concat_seqs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-                <span class="n">rna_concat</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">SeqRecord</span><span class="p">(</span><span class="n">Seq</span><span class="o">.</span><span class="n">Seq</span><span class="p">(</span><span class="n">rseq</span><span class="p">,</span><span class="n">Alphabet</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">ambiguous_dna</span><span class="p">),</span><span class="nb">id</span><span class="o">=</span><span class="n">spname</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="n">spname</span><span class="p">))</span>
-
-            <span class="n">consen_seqs</span> <span class="o">=</span> <span class="n">get_consensus_from_dict</span> <span class="p">(</span><span class="n">rna_dict</span><span class="p">)</span>
-            <span class="n">consen_seqs</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">get_hypervar_16S</span><span class="p">(</span><span class="n">consen_seqs</span><span class="p">[</span><span class="s1">&#39;16S&#39;</span><span class="p">]))</span> <span class="c1"># adds two elements, with v3v4 and v1v2 regions</span>
-            <span class="k">for</span> <span class="n">rna</span><span class="p">,</span> <span class="n">rseq</span> <span class="ow">in</span> <span class="n">consen_seqs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-                <span class="n">rna_consen</span><span class="p">[</span><span class="n">rna</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">SeqRecord</span><span class="p">(</span><span class="n">Seq</span><span class="o">.</span><span class="n">Seq</span><span class="p">(</span><span class="n">rseq</span><span class="p">,</span><span class="n">Alphabet</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">ambiguous_dna</span><span class="p">),</span><span class="nb">id</span><span class="o">=</span><span class="n">spname</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="n">spname</span><span class="p">))</span>
-
-            <span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span> <span class="c1"># stored into CSV </span>
-                <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Longest &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">concat_seqs</span><span class="p">[</span><span class="n">rna</span><span class="p">]))</span>
-                <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Consensus &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">consen_seqs</span><span class="p">[</span><span class="n">rna</span><span class="p">]))</span>
-                <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Copies &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rna_dict</span><span class="p">[</span><span class="n">rna</span><span class="p">]))</span> <span class="c1"># how many copies</span>
-            <span class="n">all_fl_sp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tfs</span><span class="p">)</span> <span class="c1"># successful elements of tbl_fs_sp    </span>
-
-<span class="c1"># save table</span>
-<span class="n">fl</span><span class="o">=</span><span class="n">gzip</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">outdir</span><span class="o">+</span><span class="s2">&quot;all_fl_sp.pickle.gz&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">);</span> <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">([</span><span class="n">all_fl_sp</span><span class="p">],</span><span class="n">fl</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span> <span class="n">fl</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-
-<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="c1"># newline</span>
-<span class="k">for</span> <span class="n">rna</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="p">:</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Longest &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span> 
-    <span class="n">prtnbr</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">95</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">)]</span>
-    <span class="n">prtstr</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s2">&quot;</span><span class="si">{0:0.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">prtnbr</span><span class="p">])</span>
-    <span class="n">print_redblack</span> <span class="p">(</span><span class="n">rna</span><span class="p">,</span> <span class="s2">&quot;        &quot;</span><span class="p">,</span> <span class="n">prtstr</span><span class="p">);</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">stats_dict</span><span class="p">[</span><span class="s2">&quot;Consensus &quot;</span> <span class="o">+</span> <span class="n">rna</span><span class="p">]</span>
-    <span class="n">prtnbr</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">95</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">)]</span>
-    <span class="n">prtstr</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s2">&quot;</span><span class="si">{0:0.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">prtnbr</span><span class="p">])</span>
-    <span class="n">print_redblack</span> <span class="p">(</span><span class="s2">&quot;consensus&quot;</span><span class="p">,</span> <span class="s2">&quot;  &quot;</span><span class="p">,</span> <span class="n">prtstr</span><span class="p">);</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">good_fl_sp</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">rna_operon</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># includes all paralogs</span>
+<span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">good_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">rna_operon</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">file_counter</span><span class="p">,</span> <span class="n">tfs</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tbl_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">good_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">])</span> <span class="o">==</span> <span class="mi">200</span><span class="p">):</span>
+            <span class="k">break</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">file_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">%</span><span class="k">20</span>:
+            <span class="nb">print</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">file_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">rna_list</span> <span class="o">=</span> <span class="n">get_rrna_from_genbank_to_list_and_dict</span> <span class="p">(</span><span class="n">tfs</span><span class="p">)</span>
+        <span class="c1"># (some list will have no usable features or b/c too long/too short; some dict has no usable features</span>
+        <span class="k">if</span> <span class="n">rna_list</span><span class="p">:</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">rna_list</span><span class="p">]</span>
+            <span class="n">good_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tfs</span> <span class="o">+</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">rna_list</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">)])</span>
+            <span class="n">rna_operon</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">rna_list</span><span class="p">)</span>
+    <span class="n">outfile</span> <span class="o">=</span> <span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span>
+    <span class="c1"># save table</span>
+    <span class="n">fl</span> <span class="o">=</span> <span class="n">gzip</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">outfile</span> <span class="o">+</span> <span class="s2">&quot;_fl_sp.pickle.gz&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">);</span> <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">([</span><span class="n">good_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]],</span><span class="n">fl</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span> <span class="n">fl</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">print_redblack</span><span class="p">(</span><span class="n">genus</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;first sequence of operon alignment:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">rna_operon</span><span class="p">[</span><span class="n">genus</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">rna_operon</span><span class="p">[</span><span class="n">genus</span><span class="p">]]</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;percentiles:&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="s2">&quot; | &quot;</span><span class="p">,</span> 
+           <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">95</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13611,13 +13460,22 @@ or</li>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>20 40 60 80 100 120 140 160 180 200 220 240 260 280 300 320 340 360 380 400 420 440 460 480 500 520 540 560 580 600 620 640 660 680 
-<span class="ansi-red-intense-fg ansi-bold">16S</span><span class="ansi-black-intense-fg ansi-bold">        </span>1550.49 32.30 691.00 1110.00 1540.00 1566.00 1569.00
-<span class="ansi-red-intense-fg ansi-bold">consensus</span><span class="ansi-black-intense-fg ansi-bold">  </span>1556.21 45.64 691.00 1514.00 1544.00 1567.00 2741.00
-<span class="ansi-red-intense-fg ansi-bold">23S</span><span class="ansi-black-intense-fg ansi-bold">        </span>2907.99 65.63 691.00 2070.00 2901.00 2930.00 3040.00
-<span class="ansi-red-intense-fg ansi-bold">consensus</span><span class="ansi-black-intense-fg ansi-bold">  </span>2923.91 88.67 691.00 2833.00 2902.00 2938.00 5180.00
-<span class="ansi-red-intense-fg ansi-bold">5S</span><span class="ansi-black-intense-fg ansi-bold">        </span>115.87 0.80 691.00 105.00 115.00 116.00 127.00
-<span class="ansi-red-intense-fg ansi-bold">consensus</span><span class="ansi-black-intense-fg ansi-bold">  </span>117.17 32.09 691.00 115.00 115.00 116.00 960.00
+<pre>20 40 60 80 100 120 140 <span class="ansi-red-intense-fg ansi-bold">Pseudomonas</span>
+first sequence of operon alignment:
+ ID: Pseudomonas.aeruginosa_A.003025345.00
+Name: &lt;unknown name&gt;
+Description: Pseudomonas.aeruginosa_A.003025345.00
+Number of features: 0
+Seq(&#39;GAACTGAAGAGTTTGATCATGGCTCAGATTGAACGCTGGCGGCAGGCCTAACAC...AGC&#39;, IUPACAmbiguousDNA())
+percentiles: 5215.84779706275 126.62942079984022 749  |  4957 4994.799999999999 5441.0 7127
+20 40 <span class="ansi-red-intense-fg ansi-bold">Staphylococcus</span>
+first sequence of operon alignment:
+ ID: Staphylococcus.aureus.001018685.00
+Name: &lt;unknown name&gt;
+Description: Staphylococcus.aureus.001018685.00
+Number of features: 0
+Seq(&#39;TTTATGGAGAGTTTGATCCTGGCTCAGGATGAACGCTGGCGGCGTGCCTAATAC...GGC&#39;, IUPACAmbiguousDNA())
+percentiles: 5119.324468085107 289.88500294638857 188  |  4887 4906.35 5993.9 6211
 </pre>
 </div>
 </div>
@@ -13626,76 +13484,51 @@ or</li>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="create-spreadsheet-for-supplementary-table">create spreadsheet for supplementary table<a class="anchor-link" href="#create-spreadsheet-for-supplementary-table">&#182;</a></h3>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## no need to run in general: reading from previous analysis</span>
-<span class="n">fl</span><span class="o">=</span><span class="n">gzip</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span>  <span class="s2">&quot;all_fl_sp.pickle.gz&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">);</span> <span class="p">[</span><span class="n">all_fl_sp</span><span class="p">]</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">fl</span><span class="p">);</span> <span class="n">fl</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_dataframe_from_table_filename_species</span> <span class="p">(</span><span class="n">table_fs</span><span class="p">):</span>
+    <span class="n">dfd</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Organism (NCBI)&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Accession Number&quot;</span><span class="p">:[],</span><span class="s2">&quot;File Name&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Species (GTDB)&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Number of Operons&quot;</span><span class="p">:[],</span> 
+          <span class="s2">&quot;Average Operon Size&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Min Operon Size&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Max Operon Size&quot;</span><span class="p">:[]}</span>
+    <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">table_fs</span><span class="p">:</span> <span class="c1"># 7,8,9,10 are length, mean, min, max</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Accession Number&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Organism (NCBI)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>  <span class="c1">## species=[5], but organism=[4] </span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;File Name&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Species (GTDB)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)))</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Number of Operons&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">7</span><span class="p">])</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Average Operon Size&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">8</span><span class="p">])</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Min Operon Size&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Max Operon Size&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">10</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">pandas</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dfd</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">create_dataframe_from_table_filename_species</span> <span class="p">(</span><span class="n">good_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">])</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span> <span class="o">+</span> <span class="s2">&quot;.csv&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Save-statistics-as-CSV-spreadsheet">Save statistics as CSV spreadsheet<a class="anchor-link" href="#Save-statistics-as-CSV-spreadsheet">&#182;</a></h2><ul>
-<li>create pandas.DataFrame</li>
-</ul>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_dataframe_from_table_filename_species</span> <span class="p">(</span><span class="n">table_fs</span><span class="p">,</span> <span class="n">stats_dictionary</span><span class="p">):</span>
-    <span class="n">dfd</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Organism (NCBI)&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Accession Number&quot;</span><span class="p">:[],</span><span class="s2">&quot;File Name&quot;</span><span class="p">:[],</span> <span class="s2">&quot;Species (GTDB)&quot;</span><span class="p">:[]}</span>
-    <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">table_fs</span><span class="p">:</span> <span class="c1"># output at top of notebook has order of elem columns</span>
-        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Accession Number&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> 
-        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Organism (NCBI)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
-        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;File Name&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-        <span class="c1">#dfd[&quot;Species (GTDB)&quot;].append(&quot; &quot;.join(elem[3].split(&quot;_&quot;)))</span>
-        <span class="n">dfd</span><span class="p">[</span><span class="s2">&quot;Species (GTDB)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">elem</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
-    <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">stats_dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span> <span class="c1">## append statistics </span>
-        <span class="n">dfd</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
-    <span class="k">return</span> <span class="n">pandas</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dfd</span><span class="p">)</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">create_dataframe_from_table_filename_species</span> <span class="p">(</span><span class="n">all_fl_sp</span><span class="p">,</span> <span class="n">stats_dict</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="s2">&quot;all.csv&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Align-RNA-genes-independently">Align RNA genes independently<a class="anchor-link" href="#Align-RNA-genes-independently">&#182;</a></h2><ul>
-<li>that is, each gene or fragment (e.g. 16Sv1v2) is aligned and saved in fasta format to disk</li>
-<li>the auxiliary function above is used to call MAFFT (with e=0.123 for similar sequences)</li>
-<li>this step usually takes ~5 minutes (for 700 sequences)</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># align each of the dictionary values (lists of unaligned seqs)</span>
-<span class="n">concat_aligned</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">align_seqs</span><span class="p">(</span><span class="n">sequences</span><span class="o">=</span><span class="n">v</span><span class="p">,</span> <span class="n">infile</span><span class="o">=</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;_long.unfas&quot;</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;_long.fasta&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">rna_concat</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-<span class="n">consen_aligned</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">align_seqs</span><span class="p">(</span><span class="n">sequences</span><span class="o">=</span><span class="n">v</span><span class="p">,</span> <span class="n">infile</span><span class="o">=</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;_consensus.unfas&quot;</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;_consensus.fasta&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">rna_consen</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">operon_aligned</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">operon_aligned</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span> <span class="o">=</span> <span class="n">align_seqs</span><span class="p">(</span><span class="n">sequences</span><span class="o">=</span><span class="n">rna_operon</span><span class="p">[</span><span class="n">genus</span><span class="p">],</span> <span class="n">outfile</span><span class="o">=</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span> <span class="o">+</span> <span class="s2">&quot;.fasta&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13714,14 +13547,6 @@ or</li>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>started aligning... Finished
 started aligning... Finished
-started aligning... Finished
-started aligning... Finished
-started aligning... Finished
-started aligning... Finished
-started aligning... Finished
-started aligning... Finished
-started aligning... Finished
-started aligning... Finished
 </pre>
 </div>
 </div>
@@ -13730,35 +13555,16 @@ started aligning... Finished
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Auxiliary-functions-for-concatenating-alignments">Auxiliary functions for concatenating alignments<a class="anchor-link" href="#Auxiliary-functions-for-concatenating-alignments">&#182;</a></h2>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## rna_alignment is a dict with one alignment per rRNA; below the dictionaries have _sequence_ids_ as keys.</span>
-<span class="k">def</span> <span class="nf">add_missing_sequences</span> <span class="p">(</span><span class="n">align_1</span><span class="p">,</span> <span class="n">align_2</span><span class="p">):</span>
-    <span class="n">seqdict_1</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">align_1</span><span class="p">);</span> <span class="n">seqdict_2</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">align_2</span><span class="p">)</span>
-    <span class="n">n1</span> <span class="o">=</span> <span class="n">align_1</span><span class="o">.</span><span class="n">get_alignment_length</span><span class="p">();</span> <span class="n">n2</span> <span class="o">=</span> <span class="n">align_2</span><span class="o">.</span><span class="n">get_alignment_length</span><span class="p">();</span>
-    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">seqdict_1</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">seqdict_2</span><span class="p">:</span>
-            <span class="n">seqdict_2</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">SeqRecord</span><span class="p">(</span><span class="n">Seq</span><span class="o">.</span><span class="n">Seq</span><span class="p">(</span><span class="s1">&#39;N&#39;</span><span class="o">*</span><span class="n">n2</span><span class="p">,</span> <span class="n">Alphabet</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">ambiguous_dna</span><span class="p">),</span> <span class="nb">id</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="n">k</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">seqdict_2</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">seqdict_1</span><span class="p">:</span>
-            <span class="n">seqdict_1</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">SeqRecord</span><span class="p">(</span><span class="n">Seq</span><span class="o">.</span><span class="n">Seq</span><span class="p">(</span><span class="s1">&#39;N&#39;</span><span class="o">*</span><span class="n">n1</span><span class="p">,</span> <span class="n">Alphabet</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">ambiguous_dna</span><span class="p">),</span> <span class="nb">id</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="n">k</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">Align</span><span class="o">.</span><span class="n">MultipleSeqAlignment</span><span class="p">(</span><span class="n">seqdict_1</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span> <span class="n">Align</span><span class="o">.</span><span class="n">MultipleSeqAlignment</span><span class="p">(</span><span class="n">seqdict_2</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
-
-<span class="k">def</span> <span class="nf">create_species_genus_labels</span> <span class="p">(</span><span class="n">seqlist</span><span class="p">,</span> <span class="n">have_paralogs</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span> 
-    <span class="n">species</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;.&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sequence</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[:</span><span class="mi">2</span><span class="p">])</span> <span class="k">for</span> <span class="n">sequence</span> <span class="ow">in</span> <span class="n">seqlist</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_species_genus_labels</span> <span class="p">(</span><span class="n">seqlist</span><span class="p">,</span> <span class="n">have_paralogs</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span> 
+    <span class="n">species</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sequence</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[:</span><span class="mi">2</span><span class="p">])</span> <span class="k">for</span> <span class="n">sequence</span> <span class="ow">in</span> <span class="n">seqlist</span><span class="p">]</span>
     <span class="n">genus</span> <span class="o">=</span> <span class="p">[</span><span class="n">sequence</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">sequence</span> <span class="ow">in</span> <span class="n">seqlist</span><span class="p">]</span>
     <span class="k">if</span> <span class="n">have_paralogs</span><span class="p">:</span><span class="c1"># assumes &#39;genus_species_code_number&#39; names </span>
-        <span class="n">sample</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;.&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sequence</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[:</span><span class="mi">3</span><span class="p">])</span> <span class="k">for</span> <span class="n">sequence</span> <span class="ow">in</span> <span class="n">seqlist</span><span class="p">]</span>
+        <span class="n">sample</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sequence</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[:</span><span class="mi">3</span><span class="p">])</span> <span class="k">for</span> <span class="n">sequence</span> <span class="ow">in</span> <span class="n">seqlist</span><span class="p">]</span>
         <span class="k">return</span> <span class="n">species</span><span class="p">,</span> <span class="n">genus</span><span class="p">,</span> <span class="n">sample</span>
     <span class="k">return</span> <span class="n">species</span><span class="p">,</span> <span class="n">genus</span> 
 </pre></div>
@@ -13771,18 +13577,19 @@ started aligning... Finished
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="if-resuming-from-previous-analysis,-run-code-below-to-read-genome-names-table-and-alignments">if resuming from previous analysis, run code below to read genome names table and alignments<a class="anchor-link" href="#if-resuming-from-previous-analysis,-run-code-below-to-read-genome-names-table-and-alignments">&#182;</a></h4>
+<h3 id="if-resuming-from-previous-analysis,-run-code-below-to-read-genome-names-table-and-alignments">if resuming from previous analysis, run code below to read genome names table and alignments<a class="anchor-link" href="#if-resuming-from-previous-analysis,-run-code-below-to-read-genome-names-table-and-alignments">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># DO NOT RUN::  read table</span>
-<span class="n">concat_aligned</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">AlignIO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;_long.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="o">+</span><span class="n">hyper_types</span><span class="p">}</span>
-<span class="n">consen_aligned</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">AlignIO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="s2">&quot;_consensus.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">rrna_types</span><span class="o">+</span><span class="n">hyper_types</span><span class="p">}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># read table</span>
+<span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">fl</span><span class="o">=</span><span class="n">gzip</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span> <span class="o">+</span> <span class="s2">&quot;_fl_sp.pickle.gz&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">);</span> <span class="n">good_fl_sp</span><span class="p">[</span><span class="n">genus</span><span class="p">]</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">fl</span><span class="p">);</span> <span class="n">fl</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">operon_aligned</span> <span class="o">=</span> <span class="n">AlignIO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span> <span class="o">+</span> <span class="s2">&quot;.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13793,90 +13600,23 @@ started aligning... Finished
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="creates-list-of-gene-labels-in-a-specific-order">creates list of gene labels in a specific order<a class="anchor-link" href="#creates-list-of-gene-labels-in-a-specific-order">&#182;</a></h4>
+<h3 id="estimates-trees-with-UPGMA-(muscle)-and-Likelihood-(iqtree)">estimates trees with UPGMA (muscle) and Likelihood (iqtree)<a class="anchor-link" href="#estimates-trees-with-UPGMA-(muscle)-and-Likelihood-(iqtree)">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># order of outfile_list is important, since defines order in table, figures</span>
-<span class="n">outfile_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">outdir</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span> <span class="k">for</span> <span class="n">keys</span> <span class="ow">in</span> <span class="n">hyper_types</span> <span class="o">+</span> <span class="n">rrna_types</span><span class="p">]</span> <span class="c1"># 16S etc. but also v1v2 v4</span>
-<span class="nb">print</span> <span class="p">(</span><span class="n">outfile_list</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;./026_results/16Sv1v2&#39;, &#39;./026_results/16Sv3v4&#39;, &#39;./026_results/16S&#39;, &#39;./026_results/23S&#39;, &#39;./026_results/5S&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Create-concatenated-alignments">Create concatenated alignments<a class="anchor-link" href="#Create-concatenated-alignments">&#182;</a></h2><ul>
-<li>from single-gene alignments, merge two-by-two and also the three of them together (16Sv1v2 etc. alignments are not used, only the full 16S)</li>
-<li>if gene is missing, replace it by "N" (although this should not happen, since against our definition of "valid" genome above, in 'main loop')</li>
-<li>we read alignments from disk, merge, and save them to disk. No actual alignment optimisation takes place. </li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## (1) Individual rRNAs (already done by align_seqs)</span>
-<span class="k">for</span> <span class="n">r1</span><span class="p">,</span> <span class="n">r2</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">combinations</span><span class="p">(</span><span class="n">rrna_types</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span> <span class="c1"># ensure all samples are present</span>
-    <span class="n">concat_aligned</span><span class="p">[</span><span class="n">r1</span><span class="p">],</span> <span class="n">concat_aligned</span><span class="p">[</span><span class="n">r2</span><span class="p">]</span> <span class="o">=</span> <span class="n">add_missing_sequences</span><span class="p">(</span><span class="n">concat_aligned</span><span class="p">[</span><span class="n">r1</span><span class="p">],</span> <span class="n">concat_aligned</span><span class="p">[</span><span class="n">r2</span><span class="p">])</span>
-    
-<span class="c1">## (2) pairs of rRNAs (16+23, 16+5, 23+5)</span>
-<span class="k">for</span> <span class="n">r1</span><span class="p">,</span> <span class="n">r2</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">combinations</span><span class="p">(</span><span class="n">rrna_types</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
-    <span class="n">outfile_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r2</span><span class="p">))</span>
-    <span class="k">for</span> <span class="n">thisalign</span><span class="p">,</span> <span class="n">suff</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="n">concat_aligned</span><span class="p">,</span> <span class="n">consen_aligned</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;_long&quot;</span><span class="p">,</span> <span class="s2">&quot;_consensus&quot;</span><span class="p">]):</span>
-        <span class="n">seq_dict_1</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">thisalign</span><span class="p">[</span><span class="n">r1</span><span class="p">])</span>
-        <span class="n">seq_dict_2</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">thisalign</span><span class="p">[</span><span class="n">r2</span><span class="p">])</span>
-        <span class="n">tmpalign</span> <span class="o">=</span> <span class="p">[</span><span class="n">SeqRecord</span><span class="p">(</span><span class="n">Seq</span><span class="o">.</span><span class="n">Seq</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">seq_dict_1</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">seq_dict_2</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">seq</span><span class="p">),</span> 
-                                      <span class="n">Alphabet</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">ambiguous_dna</span><span class="p">),</span> <span class="nb">id</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="n">k</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">seq_dict_1</span><span class="p">]</span>
-        <span class="c1"># tmpalign has concat seqs related to _same_ sample (that&#39;s why a dictionary and not simply align1+align2)</span>
-        <span class="n">output_handle</span> <span class="o">=</span> <span class="nb">open</span> <span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r2</span><span class="p">)</span> <span class="o">+</span> <span class="n">suff</span> <span class="o">+</span> <span class="s2">&quot;.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span>
-        <span class="n">SeqIO</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">tmpalign</span><span class="p">,</span> <span class="n">output_handle</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span>
-        <span class="n">output_handle</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-
-<span class="c1">## (3) all three concatenated</span>
-<span class="n">r1</span><span class="p">,</span> <span class="n">r2</span><span class="p">,</span> <span class="n">r3</span> <span class="o">=</span> <span class="n">rrna_types</span>
-<span class="n">outfile_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r2</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r3</span><span class="p">))</span>
-
-<span class="k">for</span> <span class="n">thisalign</span><span class="p">,</span> <span class="n">suff</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="n">concat_aligned</span><span class="p">,</span> <span class="n">consen_aligned</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;_long&quot;</span><span class="p">,</span> <span class="s2">&quot;_consensus&quot;</span><span class="p">]):</span>
-    <span class="n">seq_dict_1</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">thisalign</span><span class="p">[</span><span class="n">r1</span><span class="p">])</span>
-    <span class="n">seq_dict_2</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">thisalign</span><span class="p">[</span><span class="n">r2</span><span class="p">])</span>
-    <span class="n">seq_dict_3</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">thisalign</span><span class="p">[</span><span class="n">r3</span><span class="p">])</span>
-    <span class="n">tmpalign</span> <span class="o">=</span> <span class="p">[</span><span class="n">SeqRecord</span><span class="p">(</span><span class="n">Seq</span><span class="o">.</span><span class="n">Seq</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">seq_dict_1</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">seq_dict_2</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">seq_dict_3</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">seq</span><span class="p">),</span> 
-                                  <span class="n">Alphabet</span><span class="o">.</span><span class="n">IUPAC</span><span class="o">.</span><span class="n">ambiguous_dna</span><span class="p">),</span> <span class="nb">id</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="n">k</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">seq_dict_1</span><span class="p">]</span>
-    <span class="n">output_handle</span> <span class="o">=</span> <span class="nb">open</span> <span class="p">(</span><span class="n">outdir</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r2</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">r3</span><span class="p">)</span> <span class="o">+</span> <span class="n">suff</span> <span class="o">+</span> <span class="s2">&quot;.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span>
-    <span class="n">SeqIO</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">tmpalign</span><span class="p">,</span> <span class="n">output_handle</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span>
-    <span class="n">output_handle</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">fname</span> <span class="o">=</span> <span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span>
+    <span class="n">outcheck</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="s2">&quot;muscle -maketree -in &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;.fasta -out &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;_upgma.treefile&quot;</span><span class="p">,</span> 
+                                      <span class="n">shell</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">universal_newlines</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">fname</span> <span class="o">=</span> <span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span>
+    <span class="n">outcheck</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="s2">&quot;iqtree -redo -s &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;.fasta -nt 8 -m HKY+G&quot;</span><span class="p">,</span>
+                                       <span class="n">shell</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">universal_newlines</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13887,21 +13627,32 @@ started aligning... Finished
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Infer-maximum-likelihood-trees-with-iqtree">Infer maximum likelihood trees with iqtree<a class="anchor-link" href="#Infer-maximum-likelihood-trees-with-iqtree">&#182;</a></h2><ul>
-<li>consensus and long sequences are split in two cells just for convenience, since they may take a while (each inference takes between 10 and 40 minutes)</li>
-<li>for testing purposes mainly, we also calculate the UPGMA tree (3rd cell)</li>
-</ul>
-
+<h3 id="calculates-leaf-to-leaf-distances-from-estimated-trees">calculates leaf-to-leaf distances from estimated trees<a class="anchor-link" href="#calculates-leaf-to-leaf-distances-from-estimated-trees">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="p">[</span><span class="n">ofile</span> <span class="o">+</span> <span class="n">suff</span> <span class="k">for</span> <span class="n">suff</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;_consensus&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">ofile</span> <span class="ow">in</span> <span class="n">outfile_list</span><span class="p">]:</span>
-    <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="s2">&quot;iqtree -s &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;.fasta -nt 8 -redo -m HKY+G&quot;</span><span class="p">,</span><span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">universal_newlines</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">patristic_distances_from_treefile</span> <span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">have_paralogs</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">shuffle</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
+    <span class="n">tree</span> <span class="o">=</span> <span class="n">dendropy</span><span class="o">.</span><span class="n">Tree</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s2">&quot;newick&quot;</span><span class="p">,</span> <span class="n">preserve_underscores</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">shuffle</span><span class="p">:</span>
+        <span class="n">tree</span> <span class="o">=</span> <span class="n">dendropy</span><span class="o">.</span><span class="n">simulate</span><span class="o">.</span><span class="n">treesim</span><span class="o">.</span><span class="n">pure_kingman_tree</span><span class="p">(</span><span class="n">taxon_namespace</span><span class="o">=</span><span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">,</span> <span class="n">pop_size</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">species</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)[:</span><span class="mi">2</span><span class="p">])</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">]</span> <span class="c1">## follow order of taxon_namespace</span>
+    <span class="n">genus</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">]</span>
+    <span class="n">ntaxa</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">)</span>
+    <span class="n">distmat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">ntaxa</span><span class="p">,</span><span class="n">ntaxa</span><span class="p">))</span> <span class="c1"># diagonals are zero</span>
+    <span class="n">nodemat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">ntaxa</span><span class="p">,</span><span class="n">ntaxa</span><span class="p">))</span>
+    <span class="n">pdm</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">phylogenetic_distance_matrix</span><span class="p">()</span> <span class="c1"># initialises class</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">j</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">combinations</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">ntaxa</span><span class="p">),</span><span class="mi">2</span><span class="p">):</span>
+        <span class="n">distmat</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">distmat</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">pdm</span><span class="o">.</span><span class="n">distance</span><span class="p">(</span><span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+        <span class="n">nodemat</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">nodemat</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">pdm</span><span class="o">.</span><span class="n">path_edge_count</span><span class="p">(</span><span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+    <span class="k">if</span> <span class="n">have_paralogs</span><span class="p">:</span>
+        <span class="n">sample</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)[:</span><span class="mi">3</span><span class="p">])</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tree</span><span class="o">.</span><span class="n">taxon_namespace</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">species</span><span class="p">,</span> <span class="n">genus</span><span class="p">,</span> <span class="n">distmat</span><span class="p">,</span> <span class="n">nodemat</span><span class="p">,</span> <span class="n">sample</span>
+    <span class="k">return</span> <span class="n">species</span><span class="p">,</span> <span class="n">genus</span><span class="p">,</span> <span class="n">distmat</span><span class="p">,</span> <span class="n">nodemat</span>
 </pre></div>
 
     </div>
@@ -13911,25 +13662,14 @@ started aligning... Finished
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="p">[</span><span class="n">ofile</span> <span class="o">+</span> <span class="n">suff</span> <span class="k">for</span> <span class="n">suff</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;_long&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">ofile</span> <span class="ow">in</span> <span class="n">outfile_list</span><span class="p">[</span><span class="mi">5</span><span class="p">:]]:</span>
-    <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="s2">&quot;iqtree -s &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;.fasta -nt 8 -redo -m HKY+G&quot;</span><span class="p">,</span><span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">universal_newlines</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="p">[</span><span class="n">ofile</span> <span class="o">+</span> <span class="n">suff</span> <span class="k">for</span> <span class="n">suff</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;_long&quot;</span><span class="p">,</span><span class="s2">&quot;_consensus&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">ofile</span> <span class="ow">in</span> <span class="n">outfile_list</span><span class="p">]:</span>
-    <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="s2">&quot;muscle -maketree -in &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;.fasta -out &quot;</span> <span class="o">+</span> <span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;_upgma.treefile&quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">universal_newlines</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">silhouette_str</span><span class="p">(</span><span class="n">dist</span><span class="p">,</span> <span class="n">labels</span><span class="p">):</span>
+    <span class="n">distrib</span> <span class="o">=</span> <span class="n">metrics</span><span class="o">.</span><span class="n">silhouette_samples</span><span class="p">(</span><span class="n">dist</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s2">&quot;precomputed&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s1">&#39;</span><span class="si">{:7.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">distrib</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> <span class="o">+</span> \
+    <span class="s1">&#39;</span><span class="si">{:7.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">distrib</span><span class="p">,</span> <span class="mi">25</span><span class="p">))</span> <span class="o">+</span> \
+    <span class="s1">&#39;</span><span class="si">{:7.3f}</span><span class="s1">  &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">distrib</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">distrib</span><span class="p">)))</span> 
 </pre></div>
 
     </div>
@@ -13940,12 +13680,39 @@ started aligning... Finished
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="next-step:-go-to-notebook-028.monophyly_scores.ipynb">next step: go to notebook 028.monophyly_scores.ipynb<a class="anchor-link" href="#next-step:-go-to-notebook-028.monophyly_scores.ipynb">&#182;</a></h2><ul>
-<li>Now that we have alignments and trees, we proceed to calculate monophyly scores</li>
-</ul>
+<p>Each triplet from <code>silhouette_str()</code> has $5\%$, $25\%$ and proportion of positive silhouettes. And we have two triplets on the left for <em>species</em> (S), and two on the right for <em>strain</em> (T), one being from weighted (W) and one from unweighted (U) patristic distances. Therefore the header is: SW SU TW TU</p>
+<p>By the way having low silhouettte scores is not necessarily bad, since</p>
+<ol>
+<li>clusters of size one will have score of <em>zero</em> <strong>by definition</strong> (should be <em>one</em> given the silhouette function but this would lead to ever-increasing clusterings)</li>
+<li>clusters with within-distance zero are perfect, while for phylogenies we want non-zero diversification</li>
+<li>they can be negative if for a case like <code>((A:a,A:a,A:a),B:b)</code> with $a&gt;b$ since $d(A,A)=2a &gt; a+b = d(A,B)$ --- however the taxonomic classification is fine for A and B</li>
+</ol>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">genus</span> <span class="ow">in</span> <span class="n">bacteria_genera</span><span class="p">:</span>
+    <span class="n">fname</span> <span class="o">=</span> <span class="n">outdir</span> <span class="o">+</span> <span class="n">genus</span>
+    <span class="n">print_redblack</span><span class="p">(</span><span class="n">genus</span><span class="p">)</span>
+    <span class="n">sp</span><span class="p">,</span> <span class="n">ge</span><span class="p">,</span> <span class="n">mat</span><span class="p">,</span> <span class="n">mat2</span><span class="p">,</span> <span class="n">strain</span> <span class="o">=</span> <span class="n">patristic_distances_from_treefile</span> <span class="p">(</span><span class="n">fname</span> <span class="o">+</span> <span class="s2">&quot;.fasta.treefile&quot;</span><span class="p">,</span> <span class="n">have_paralogs</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">shuffle</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;random </span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat</span><span class="p">,</span> <span class="n">sp</span><span class="p">),</span>  <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat2</span><span class="p">,</span> <span class="n">sp</span><span class="p">),</span> <span class="s2">&quot; | &quot;</span><span class="p">,</span> 
+          <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat</span><span class="p">,</span> <span class="n">strain</span><span class="p">),</span>  <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat2</span><span class="p">,</span> <span class="n">strain</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">suffix1</span><span class="p">,</span> <span class="n">title1</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s2">&quot;_upgma.treefile&quot;</span><span class="p">,</span><span class="s2">&quot;.fasta.treefile&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;upgma &quot;</span><span class="p">,</span> <span class="s2">&quot;ML    &quot;</span><span class="p">]):</span>
+        <span class="c1">## operon doenst have _long or _consensus</span>
+        <span class="n">sp</span><span class="p">,</span> <span class="n">ge</span><span class="p">,</span> <span class="n">mat</span><span class="p">,</span> <span class="n">mat2</span><span class="p">,</span> <span class="n">strain</span> <span class="o">=</span> <span class="n">patristic_distances_from_treefile</span> <span class="p">(</span><span class="n">fname</span> <span class="o">+</span> <span class="n">suffix1</span><span class="p">,</span> <span class="n">have_paralogs</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="n">title1</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat</span><span class="p">,</span> <span class="n">sp</span><span class="p">),</span>  <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat2</span><span class="p">,</span> <span class="n">sp</span><span class="p">),</span> <span class="s2">&quot; | &quot;</span><span class="p">,</span> 
+          <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat</span><span class="p">,</span> <span class="n">strain</span><span class="p">),</span>  <span class="n">silhouette_str</span><span class="p">(</span><span class="n">mat2</span><span class="p">,</span> <span class="n">strain</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
