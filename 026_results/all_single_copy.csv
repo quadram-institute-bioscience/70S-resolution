@@ -1,0 +1,692 @@
+,Organism (NCBI),Accession Number,File Name,Species (GTDB),Longest 16S,Consensus 16S,Copies 16S,Longest 23S,Consensus 23S,Copies 23S,Longest 5S,Consensus 5S,Copies 5S
+385,Enterococcus faecalis ARO1/DG,GCF_002814115.1,GCF_002814115.1_ASM281411v1_genomic.gbff.gz,Enterococcus faecalis,1565,1566,4,2913,2915,4,116,116,4
+265,Enterococcus faecalis ATCC 29212,GCF_000742975.1,GCF_000742975.1_ASM74297v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2916,4,116,116,4
+597,Enterococcus faecalis D32,GCF_000281195.1,GCF_000281195.1_ASM28119v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2915,4,116,116,4
+211,Enterococcus faecalis DENG1,GCF_000550745.1,GCF_000550745.1_ASM55074v1_genomic.gbff.gz,Enterococcus faecalis,1566,1567,4,2916,2917,4,116,116,4
+612,Enterococcus faecalis,GCF_001598635.1,GCF_001598635.1_ASM159863v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2914,2915,4,116,116,4
+290,Enterococcus faecalis,GCF_001689055.2,GCF_001689055.2_ASM168905v2_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2915,4,116,116,4
+401,Enterococcus faecalis,GCF_001878735.1,GCF_001878735.1_ASM187873v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2916,4,116,116,4
+347,Enterococcus faecalis,GCF_001886675.1,GCF_001886675.1_ASM188667v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2916,4,116,116,4
+414,Enterococcus faecalis,GCF_001989555.1,GCF_001989555.1_ASM198955v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2915,4,116,116,4
+322,Enterococcus faecalis,GCF_002163735.1,GCF_002163735.1_ASM216373v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2915,4,116,116,4
+143,Enterococcus faecalis,GCF_002208945.1,GCF_002208945.1_ASM220894v2_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2915,2915,4,116,116,4
+25,Enterococcus faecalis,GCF_002289045.2,GCF_002289045.2_ASM228904v2_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2914,2915,4,116,116,4
+394,Enterococcus faecalis,GCF_002355755.1,GCF_002355755.1_ASM235575v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2914,2915,4,116,116,4
+271,Enterococcus faecalis,GCF_003030425.1,GCF_003030425.1_ASM303042v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2914,2915,4,116,116,4
+613,Enterococcus faecalis OG1RF,GCF_000172575.2,GCF_000172575.2_ASM17257v2_genomic.gbff.gz,Enterococcus faecalis,1564,1566,4,2915,2915,4,116,116,4
+632,Enterococcus faecalis str. Symbioflor 1,GCF_000317915.1,GCF_000317915.1_ASM31791v1_genomic.gbff.gz,Enterococcus faecalis,1566,1566,4,2914,2915,4,116,116,4
+604,Enterococcus faecalis V583,GCF_000007785.1,GCF_000007785.1_ASM778v1_genomic.gbff.gz,Enterococcus faecalis,1522,1522,4,2909,2909,4,116,116,4
+621,Enterococcus faecium Aus0004,GCF_000250945.1,GCF_000250945.1_ASM25094v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2916,2917,6,116,117,6
+422,Enterococcus faecium Aus0085,GCF_000444405.1,GCF_000444405.1_ASM44440v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2913,2919,6,116,116,6
+176,Enterococcus faecium DO,GCF_000174395.2,GCF_000174395.2_ASM17439v2_genomic.gbff.gz,Enterococcus_B faecium,1546,1549,6,2912,2914,6,115,115,6
+486,Enterococcus faecium,GCF_001518735.1,GCF_001518735.1_ASM151873v1_genomic.gbff.gz,Enterococcus_B faecium,1565,1571,6,2917,2917,6,116,116,6
+469,Enterococcus faecium,GCF_001587115.1,GCF_001587115.1_ASM158711v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+568,Enterococcus faecium,GCF_001635875.1,GCF_001635875.1_ASM163587v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+168,Enterococcus faecium,GCF_001720945.1,GCF_001720945.1_ASM172094v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1570,6,2916,2917,6,116,116,6
+516,Enterococcus faecium,GCF_001721065.1,GCF_001721065.1_ASM172106v1_genomic.gbff.gz,Enterococcus_B faecium,1567,1570,6,2916,2917,6,116,116,6
+205,Enterococcus faecium,GCF_001721905.1,GCF_001721905.1_ASM172190v1_genomic.gbff.gz,Enterococcus_B faecium,1233,1570,6,2913,2917,6,116,116,6
+654,Enterococcus faecium,GCF_001750885.1,GCF_001750885.1_ASM175088v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+79,Enterococcus faecium,GCF_001953235.1,GCF_001953235.1_ASM195323v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+388,Enterococcus faecium,GCF_001953255.1,GCF_001953255.1_ASM195325v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+97,Enterococcus faecium,GCF_002007625.1,GCF_002007625.1_ASM200762v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1570,6,2917,2917,6,116,116,6
+418,Enterococcus faecium,GCF_002334625.1,GCF_002334625.1_ASM233462v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1571,6,2916,2917,6,116,116,6
+482,Enterococcus faecium,GCF_002761255.1,GCF_002761255.1_ASM276125v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+319,Enterococcus faecium,GCF_002761275.1,GCF_002761275.1_ASM276127v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+680,Enterococcus faecium,GCF_002761555.1,GCF_002761555.1_ASM276155v1_genomic.gbff.gz,Enterococcus_B faecium,1557,1570,7,2917,2917,6,116,116,6
+416,Enterococcus faecium,GCF_002777275.1,GCF_002777275.1_ASM277727v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+40,Enterococcus faecium,GCF_002848385.1,GCF_002848385.1_ASM284838v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+537,Enterococcus faecium,GCF_002848625.1,GCF_002848625.1_ASM284862v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+37,Enterococcus faecium,GCF_002848665.1,GCF_002848665.1_ASM284866v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2397,2917,6,116,116,6
+291,Enterococcus faecium,GCF_002848745.1,GCF_002848745.1_ASM284874v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2397,2917,6,116,116,6
+132,Enterococcus faecium,GCF_002850515.1,GCF_002850515.1_ASM285051v1_genomic.gbff.gz,Enterococcus_B faecium,1567,1568,6,2916,2917,6,116,116,6
+639,Enterococcus faecium,GCF_002880635.1,GCF_002880635.1_ASM288063v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2921,6,116,116,6
+178,Enterococcus faecium,GCF_002983785.1,GCF_002983785.1_ASM298378v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+358,Enterococcus faecium,GCF_003020685.1,GCF_003020685.1_ASM302068v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+532,Enterococcus faecium,GCF_003020705.1,GCF_003020705.1_ASM302070v1_genomic.gbff.gz,Enterococcus_B faecium,1567,1570,6,2916,2917,6,116,116,6
+409,Enterococcus faecium,GCF_003020765.1,GCF_003020765.1_ASM302076v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1569,6,2917,2917,6,116,116,6
+510,Enterococcus faecium,GCF_003071425.1,GCF_003071425.1_ASM307142v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1570,6,2917,2917,6,116,116,6
+36,Enterococcus faecium,GCF_003071445.1,GCF_003071445.1_ASM307144v1_genomic.gbff.gz,Enterococcus_B faecium,1568,1570,6,2917,2917,6,116,116,6
+494,Enterococcus faecium,GCF_900066025.1,GCF_900066025.1_Enterococcus_faecium_E1002_isolate_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+669,Enterococcus faecium,GCF_900092475.1,GCF_900092475.1_Ef_aus00233_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+20,Enterococcus faecium NRRL B-2354,GCF_000336405.1,GCF_000336405.1_ASM33640v1_genomic.gbff.gz,Enterococcus_B faecium,1569,1570,6,2917,2917,6,116,116,6
+275,Escherichia albertii,GCF_001549955.1,GCF_001549955.1_ASM154995v1_genomic.gbff.gz,Escherichia albertii,1552,1552,7,2835,2933,7,116,116,8
+472,Escherichia albertii,GCF_002285455.1,GCF_002285455.1_ASM228545v1_genomic.gbff.gz,Escherichia albertii,1554,1556,7,2923,2932,7,116,116,8
+277,Escherichia albertii,GCF_002285475.1,GCF_002285475.1_ASM228547v1_genomic.gbff.gz,Escherichia albertii,1554,1554,7,2926,2934,7,116,116,8
+77,Escherichia albertii,GCF_002741375.1,GCF_002741375.1_ASM274137v1_genomic.gbff.gz,Escherichia albertii,1554,1556,7,2924,2933,7,116,116,8
+254,Escherichia albertii,GCF_002872455.1,GCF_002872455.1_ASM287245v1_genomic.gbff.gz,Escherichia albertii,1552,1552,7,2926,2932,7,116,116,8
+19,Escherichia albertii,GCF_002895205.1,GCF_002895205.1_ASM289520v1_genomic.gbff.gz,Escherichia albertii,1552,1552,7,2929,2930,7,116,116,8
+165,Escherichia albertii KF1,GCF_000512125.1,GCF_000512125.1_ASM51212v1_genomic.gbff.gz,Escherichia albertii,1553,1561,7,2929,2941,7,116,116,8
+425,Escherichia coli 042,GCF_000027125.1,GCF_000027125.1_ASM2712v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2924,2932,7,116,116,8
+670,Escherichia coli APEC IMT5155,GCF_000813165.1,GCF_000813165.1_ASM81316v1_genomic.gbff.gz,Escherichia coli,1556,1557,6,2925,2932,6,116,116,7
+232,Escherichia coli DH1,GCF_000023365.1,GCF_000023365.1_ASM2336v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2933,7,116,116,8
+200,Escherichia coli,GCF_000599625.1,GCF_000599625.1_ASM59962v1_genomic.gbff.gz,Escherichia flexneri,1554,2741,9,2262,2943,11,114,116,11
+21,Escherichia coli,GCF_000599645.1,GCF_000599645.1_ASM59964v1_genomic.gbff.gz,Escherichia flexneri,1554,1567,10,2070,5180,11,115,116,10
+286,Escherichia coli,GCF_000784925.1,GCF_000784925.1_ASM78492v1_genomic.gbff.gz,Escherichia coli_D,1554,1554,7,2925,2932,7,116,116,8
+439,Escherichia coli,GCF_001021595.1,GCF_001021595.1_ASM102159v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2926,7,116,116,8
+571,Escherichia coli,GCF_001485455.1,GCF_001485455.1_ASM148545v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2925,2931,7,116,116,7
+391,Escherichia coli,GCF_001566675.1,GCF_001566675.1_ASM156667v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+228,Escherichia coli,GCF_001577325.1,GCF_001577325.1_ASM157732v1_genomic.gbff.gz,Escherichia coli,1555,1556,7,2924,2925,7,116,116,8
+215,Escherichia coli,GCF_001612495.1,GCF_001612495.1_ASM161249v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+278,Escherichia coli,GCF_001617565.1,GCF_001617565.1_ASM161756v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+180,Escherichia coli,GCF_001618365.1,GCF_001618365.1_ASM161836v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2924,2925,7,116,116,8
+421,Escherichia coli,GCF_001660585.1,GCF_001660585.1_ASM166058v1_genomic.gbff.gz,Escherichia coli,1555,1567,7,2925,2925,7,116,116,8
+191,Escherichia coli,GCF_001663475.1,GCF_001663475.1_ASM166347v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+313,Escherichia coli,GCF_001675145.1,GCF_001675145.1_ASM167514v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+540,Escherichia coli,GCF_001677475.1,GCF_001677475.1_ASM167747v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2924,2930,7,116,116,8
+298,Escherichia coli,GCF_001678965.1,GCF_001678965.1_ASM167896v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2930,2936,7,116,116,8
+344,Escherichia coli,GCF_001721225.1,GCF_001721225.1_ASM172122v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2930,2930,7,116,116,8
+684,Escherichia coli,GCF_001721525.1,GCF_001721525.1_ASM172152v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2925,2932,7,116,116,8
+233,Escherichia coli,GCF_001806285.1,GCF_001806285.1_ASM180628v1_genomic.gbff.gz,Escherichia dysenteriae,1551,1554,7,2926,2938,7,116,116,8
+26,Escherichia coli,GCF_001860505.1,GCF_001860505.1_ASM186050v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2929,2933,7,116,116,8
+207,Escherichia coli,GCF_001865295.1,GCF_001865295.1_ASM186529v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+216,Escherichia coli,GCF_001890225.1,GCF_001890225.1_ASM189022v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+559,Escherichia coli,GCF_001890245.1,GCF_001890245.1_ASM189024v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+100,Escherichia coli,GCF_001890325.1,GCF_001890325.1_ASM189032v1_genomic.gbff.gz,Escherichia dysenteriae,1552,1554,7,2930,2938,7,116,116,8
+463,Escherichia coli,GCF_001890365.1,GCF_001890365.1_ASM189036v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2928,2932,7,116,116,8
+588,Escherichia coli,GCF_001900295.1,GCF_001900295.1_ASM190029v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2931,2934,7,116,116,7
+334,Escherichia coli,GCF_001900315.1,GCF_001900315.1_ASM190031v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2925,2926,7,116,116,8
+623,Escherichia coli,GCF_001900335.1,GCF_001900335.1_ASM190033v1_genomic.gbff.gz,Escherichia flexneri,1556,1557,7,2924,2924,7,116,116,8
+542,Escherichia coli,GCF_001900535.1,GCF_001900535.1_ASM190053v1_genomic.gbff.gz,Escherichia flexneri,1557,1557,7,2928,2932,7,116,116,8
+270,Escherichia coli,GCF_001900735.1,GCF_001900735.1_ASM190073v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2933,2933,7,116,116,8
+175,Escherichia coli,GCF_001900885.1,GCF_001900885.1_ASM190088v1_genomic.gbff.gz,Escherichia flexneri,1556,1557,7,2931,2935,7,116,116,8
+645,Escherichia coli,GCF_001900945.1,GCF_001900945.1_ASM190094v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,8,2930,2930,8,116,116,10
+592,Escherichia coli,GCF_001900985.1,GCF_001900985.1_ASM190098v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2927,7,116,116,8
+169,Escherichia coli,GCF_001901465.1,GCF_001901465.1_ASM190146v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2926,7,116,116,8
+196,Escherichia coli,GCF_001969285.2,GCF_001969285.2_ASM196928v3_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2930,2931,7,116,116,8
+199,Escherichia coli,GCF_002009315.1,GCF_002009315.1_ASM200931v1_genomic.gbff.gz,Escherichia coli_D,1554,1554,7,2925,2933,7,116,116,8
+151,Escherichia coli,GCF_002011965.1,GCF_002011965.1_ASM201196v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+281,Escherichia coli,GCF_002011985.1,GCF_002011985.1_ASM201198v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2924,2926,7,116,116,8
+630,Escherichia coli,GCF_002012045.1,GCF_002012045.1_ASM201204v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2929,2932,7,116,116,8
+405,Escherichia coli,GCF_002012065.1,GCF_002012065.1_ASM201206v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+163,Escherichia coli,GCF_002012145.1,GCF_002012145.1_ASM201214v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+688,Escherichia coli,GCF_002012205.1,GCF_002012205.1_ASM201220v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+57,Escherichia coli,GCF_002012225.1,GCF_002012225.1_ASM201222v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2925,2932,7,116,116,8
+390,Escherichia coli,GCF_002056635.1,GCF_002056635.1_ASM205663v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+181,Escherichia coli,GCF_002058765.1,GCF_002058765.1_ASM205876v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2924,2930,7,116,116,8
+96,Escherichia coli,GCF_002157245.1,GCF_002157245.1_ASM215724v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+314,Escherichia coli,GCF_002163935.1,GCF_002163935.1_ASM216393v1_genomic.gbff.gz,Escherichia flexneri,1552,1554,7,2927,2936,7,116,116,8
+104,Escherichia coli,GCF_002164645.2,GCF_002164645.2_ASM216464v2_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2926,2932,7,116,116,8
+274,Escherichia coli,GCF_002180095.1,GCF_002180095.1_ASM218009v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2936,7,116,116,8
+309,Escherichia coli,GCF_002180195.1,GCF_002180195.1_ASM218019v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+142,Escherichia coli,GCF_002193095.1,GCF_002193095.1_ASM219309v1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+64,Escherichia coli,GCF_002196475.1,GCF_002196475.1_ASM219647v1_genomic.gbff.gz,Escherichia dysenteriae,1556,1556,7,2924,2931,7,116,116,8
+456,Escherichia coli,GCF_002211725.1,GCF_002211725.1_ASM221172v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2933,7,116,116,8
+690,Escherichia coli,GCF_002237305.1,GCF_002237305.1_ASM223730v1_genomic.gbff.gz,Escherichia coli,1556,1558,6,2913,2936,6,116,116,7
+8,Escherichia coli,GCF_002310595.1,GCF_002310595.1_ASM231059v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2924,2932,7,116,116,8
+269,Escherichia coli,GCF_002310615.1,GCF_002310615.1_ASM231061v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2925,2927,7,116,116,8
+226,Escherichia coli,GCF_002310695.1,GCF_002310695.1_ASM231069v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2925,2932,7,116,116,8
+27,Escherichia coli,GCF_002357875.1,GCF_002357875.1_ASM235787v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2925,2934,7,116,116,8
+184,Escherichia coli,GCF_002587005.1,GCF_002587005.1_ASM258700v1_genomic.gbff.gz,Escherichia coli_D,1556,1556,7,2925,2931,7,116,116,8
+128,Escherichia coli,GCF_002589795.1,GCF_002589795.1_ASM258979v1_genomic.gbff.gz,Escherichia flexneri,1555,1556,7,2925,2931,7,116,116,8
+119,Escherichia coli,GCF_002741555.1,GCF_002741555.1_ASM274155v1_genomic.gbff.gz,Escherichia dysenteriae,1556,1556,7,2924,2939,7,116,116,8
+247,Escherichia coli,GCF_002761835.1,GCF_002761835.1_ASM276183v1_genomic.gbff.gz,Escherichia flexneri,1552,1554,7,2925,2931,7,116,116,8
+492,Escherichia coli,GCF_002787215.1,GCF_002787215.1_ASM278721v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2925,2926,7,116,116,8
+240,Escherichia coli,GCF_002787645.1,GCF_002787645.1_ASM278764v1_genomic.gbff.gz,Escherichia coli_D,1554,1554,7,2926,2934,7,116,116,8
+65,Escherichia coli,GCF_002788115.1,GCF_002788115.1_ASM278811v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2925,2932,7,116,116,8
+46,Escherichia coli,GCF_002796585.1,GCF_002796585.1_ASM279658v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+423,Escherichia coli,GCF_002853715.1,GCF_002853715.1_ASM285371v1_genomic.gbff.gz,Escherichia coli,1552,1554,7,2923,2933,7,116,116,8
+465,Escherichia coli,GCF_002870165.1,GCF_002870165.1_ASM287016v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2931,2932,7,116,116,8
+107,Escherichia coli,GCF_002887715.1,GCF_002887715.1_ASM288771v1_genomic.gbff.gz,Escherichia coli,1321,1554,7,2911,2926,7,116,116,8
+374,Escherichia coli,GCF_002899495.1,GCF_002899495.1_ASM289949v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2925,2933,7,116,116,8
+560,Escherichia coli,GCF_002903125.1,GCF_002903125.1_ASM290312v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2930,2933,7,116,116,8
+155,Escherichia coli,GCF_002944935.1,GCF_002944935.1_ASM294493v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2926,7,116,116,8
+217,Escherichia coli,GCF_002946715.1,GCF_002946715.1_ASM294671v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2926,2931,7,116,116,8
+353,Escherichia coli,GCF_002952855.1,GCF_002952855.1_ASM295285v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2925,2933,7,116,116,9
+218,Escherichia coli,GCF_002953055.1,GCF_002953055.1_ASM295305v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2925,2933,7,116,116,9
+566,Escherichia coli,GCF_002966755.1,GCF_002966755.1_ASM296675v1_genomic.gbff.gz,Escherichia coli_D,1380,1554,7,2727,2932,7,116,116,8
+346,Escherichia coli,GCF_002996945.1,GCF_002996945.1_ASM299694v1_genomic.gbff.gz,Escherichia coli,1553,1554,7,2925,2925,7,116,116,8
+562,Escherichia coli,GCF_003017455.1,GCF_003017455.1_ASM301745v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2930,2936,7,116,116,8
+0,Escherichia coli,GCF_003017975.1,GCF_003017975.1_ASM301797v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2930,2936,7,116,116,8
+369,Escherichia coli,GCF_003018215.1,GCF_003018215.1_ASM301821v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2924,2931,7,116,116,8
+379,Escherichia coli,GCF_003018255.1,GCF_003018255.1_ASM301825v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2927,7,116,116,8
+34,Escherichia coli,GCF_003018275.1,GCF_003018275.1_ASM301827v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2924,2931,7,116,116,8
+514,Escherichia coli,GCF_003018995.1,GCF_003018995.1_ASM301899v1_genomic.gbff.gz,Escherichia dysenteriae,1553,1554,7,2930,2932,7,116,116,8
+615,Escherichia coli,GCF_003019035.1,GCF_003019035.1_ASM301903v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2925,2933,7,116,116,8
+268,Escherichia coli,GCF_003019095.1,GCF_003019095.1_ASM301909v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+574,Escherichia coli,GCF_003019215.1,GCF_003019215.1_ASM301921v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2925,2931,7,116,116,8
+260,Escherichia coli,GCF_003020885.1,GCF_003020885.1_ASM302088v1_genomic.gbff.gz,Escherichia coli,1552,1555,7,2925,2925,7,116,116,8
+220,Escherichia coli,GCF_003030245.1,GCF_003030245.1_ASM303024v1_genomic.gbff.gz,Escherichia coli_D,1554,1554,7,2925,2925,7,116,116,8
+631,Escherichia coli,GCF_003073815.1,GCF_003073815.1_ASM307381v1_genomic.gbff.gz,Escherichia flexneri,1554,1554,7,2929,2931,7,116,116,8
+336,Escherichia coli,GCF_003095635.1,GCF_003095635.1_ASM309563v1_genomic.gbff.gz,Escherichia coli_D,1554,1554,7,2925,2933,7,116,116,8
+504,Escherichia coli,GCF_003180995.1,GCF_003180995.1_ASM318099v1_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2925,2932,7,116,116,8
+45,Escherichia coli,GCF_003181035.1,GCF_003181035.1_ASM318103v1_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+536,Escherichia coli,GCF_003194345.1,GCF_003194345.1_ASM319434v1_genomic.gbff.gz,Escherichia coli,1553,1554,7,2922,2925,7,116,116,8
+408,Escherichia coli IAI39,GCF_000026345.1,GCF_000026345.1_ASM2634v1_genomic.gbff.gz,Escherichia coli_D,1542,1542,7,2904,2904,7,113,120,8
+634,Escherichia coli K-12,GCF_001559675.1,GCF_001559675.1_ASM155967v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2933,7,116,116,11
+162,Escherichia coli LF82,GCF_000284495.1,GCF_000284495.1_ASM28449v1_genomic.gbff.gz,Escherichia coli,1554,1556,7,2925,2931,7,116,116,8
+642,Escherichia coli O103 str. RM8385,GCF_003112165.1,GCF_003112165.1_ASM311216v1_genomic.gbff.gz,Escherichia flexneri,1553,1554,7,2924,2936,7,116,116,8
+668,Escherichia coli O104:H4 str. 2009EL-2050,GCF_000299255.1,GCF_000299255.1_ASM29925v1_genomic.gbff.gz,Escherichia flexneri,1554,1558,7,2926,2940,7,116,116,8
+451,Escherichia coli O114:H49,GCF_002741255.1,GCF_002741255.1_ASM274125v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2928,2931,7,116,116,8
+157,Escherichia coli O127:H6,GCF_900149875.1,GCF_900149875.1_EPEC1_genomic.gbff.gz,Escherichia coli,1556,1556,7,2925,2925,7,116,116,8
+292,Escherichia coli O127:H6,GCF_900149915.1,GCF_900149915.1_EPEC-E2348_69-V2_genomic.gbff.gz,Escherichia coli,1554,1554,7,2925,2925,7,116,116,8
+193,Escherichia coli O145:H28 str. RM12761,GCF_000662395.1,GCF_000662395.1_ASM66239v1_genomic.gbff.gz,Escherichia dysenteriae,1556,1556,7,2926,2933,7,116,116,8
+250,Escherichia coli O145:H28 str. RM13516,GCF_000520055.1,GCF_000520055.1_ASM52005v1_genomic.gbff.gz,Escherichia dysenteriae,1556,1556,7,2926,2933,7,116,116,8
+548,Escherichia coli O157,GCF_001650275.1,GCF_001650275.1_ASM165027v1_genomic.gbff.gz,Escherichia dysenteriae,1552,1554,7,2930,2938,7,116,116,8
+66,Escherichia coli O157,GCF_001650295.1,GCF_001650295.1_ASM165029v1_genomic.gbff.gz,Escherichia dysenteriae,1552,1554,7,2930,2938,7,116,116,8
+74,Escherichia coli O157,GCF_002208865.2,GCF_002208865.2_ASM220886v2_genomic.gbff.gz,Escherichia dysenteriae,1552,1554,7,2928,2938,7,116,116,8
+92,Escherichia coli O157:H7,GCF_001307215.1,GCF_001307215.1_ASM130721v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+47,Escherichia coli O157:H7,GCF_001651925.2,GCF_001651925.2_ASM165192v2_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2932,2932,7,116,116,8
+466,Escherichia coli O157:H7,GCF_001651965.2,GCF_001651965.2_ASM165196v2_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2932,2932,7,116,116,8
+430,Escherichia coli O157:H7,GCF_001695515.1,GCF_001695515.1_ASM169551v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2932,2932,7,116,116,8
+43,Escherichia coli O157:H7,GCF_001753445.1,GCF_001753445.1_ASM175344v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+398,Escherichia coli O157:H7,GCF_001753465.1,GCF_001753465.1_ASM175346v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+266,Escherichia coli O157:H7,GCF_001753525.1,GCF_001753525.1_ASM175352v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+361,Escherichia coli O157:H7,GCF_001753545.1,GCF_001753545.1_ASM175354v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+407,Escherichia coli O157:H7,GCF_001753565.1,GCF_001753565.1_ASM175356v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+126,Escherichia coli O157:H7 str. EC4115,GCF_000021125.1,GCF_000021125.1_ASM2112v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2924,2939,7,116,116,8
+166,Escherichia coli O157:H7 str. EDL933,GCF_000732965.1,GCF_000732965.1_ASM73296v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+335,Escherichia coli O157:H7 str. SS17,GCF_000730345.1,GCF_000730345.1_ASM73034v1_genomic.gbff.gz,Escherichia dysenteriae,1553,1556,7,2926,2942,7,116,116,8
+5,Escherichia coli O157:H7 str. SS52,GCF_000803705.1,GCF_000803705.1_ASM80370v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2929,2938,7,116,116,8
+457,Escherichia coli O169:H41,GCF_002741495.1,GCF_002741495.1_ASM274149v1_genomic.gbff.gz,Escherichia dysenteriae,1556,1556,7,2924,2939,7,116,116,8
+72,Escherichia coli O43 str. RM10042,GCF_003112205.1,GCF_003112205.1_ASM311220v1_genomic.gbff.gz,Escherichia flexneri,1551,1554,7,2924,2931,7,116,116,8
+10,Escherichia coli O55:H7 str. CB9615,GCF_000025165.1,GCF_000025165.1_ASM2516v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2931,7,116,116,8
+256,Escherichia coli O7:K1 str. CE10,GCF_000227625.1,GCF_000227625.1_ASM22762v1_genomic.gbff.gz,Escherichia coli_D,1554,1556,7,2925,2931,7,116,116,8
+116,Escherichia coli PCN033,GCF_000219515.2,GCF_000219515.2_ASM21951v3_genomic.gbff.gz,Escherichia coli_D,1552,1554,7,2925,2925,7,116,116,8
+490,Escherichia coli SMS-3-5,GCF_000019645.1,GCF_000019645.1_ASM1964v1_genomic.gbff.gz,Escherichia coli_D,1551,1554,7,2923,2927,7,116,116,8
+49,Escherichia coli str. K-12 substr. W3110,GCF_000010245.2,GCF_000010245.2_ASM1024v1_genomic.gbff.gz,Escherichia flexneri,1556,1556,7,2925,2933,7,116,116,8
+2,Escherichia coli UM146,GCF_000148605.1,GCF_000148605.1_ASM14860v1_genomic.gbff.gz,Escherichia coli,1554,1556,7,2556,2931,7,116,116,8
+16,Escherichia coli Xuzhou21,GCF_000262125.1,GCF_000262125.1_ASM26212v1_genomic.gbff.gz,Escherichia dysenteriae,1554,1556,7,2930,2938,7,116,116,8
+53,Klebsiella aerogenes EA1509E,GCF_000334515.1,GCF_000334515.1_ASM33451v1_genomic.gbff.gz,Klebsiella_B aerogenes,1544,1555,8,2930,2935,8,116,116,10
+375,Klebsiella aerogenes,GCF_001021995.1,GCF_001021995.1_ASM102199v1_genomic.gbff.gz,Klebsiella_B aerogenes,1554,1554,8,2931,2933,8,116,116,9
+509,Klebsiella aerogenes,GCF_001559215.2,GCF_001559215.2_ASM155921v2_genomic.gbff.gz,Klebsiella_B aerogenes,1550,1550,8,2926,2933,8,116,116,9
+436,Klebsiella aerogenes,GCF_001571545.2,GCF_001571545.2_ASM157154v2_genomic.gbff.gz,Klebsiella_B aerogenes,1550,1550,8,2926,2934,8,116,116,9
+585,Klebsiella aerogenes,GCF_001593585.2,GCF_001593585.2_ASM159358v2_genomic.gbff.gz,Klebsiella_B aerogenes,1550,1550,8,2925,2932,8,116,116,9
+327,Klebsiella aerogenes,GCF_002591115.1,GCF_002591115.1_ASM259111v1_genomic.gbff.gz,Klebsiella_B aerogenes,1553,1554,8,2930,2933,8,116,116,9
+628,Klebsiella aerogenes,GCF_002796405.1,GCF_002796405.1_ASM279640v1_genomic.gbff.gz,Klebsiella_B aerogenes,1549,1550,8,2931,2932,8,116,116,9
+441,Klebsiella aerogenes,GCF_002796425.1,GCF_002796425.1_ASM279642v1_genomic.gbff.gz,Klebsiella_B aerogenes,1550,1550,8,2931,2934,8,116,116,9
+682,Klebsiella aerogenes,GCF_002796525.1,GCF_002796525.1_ASM279652v1_genomic.gbff.gz,Klebsiella_B aerogenes,1550,1550,8,2926,2933,8,116,116,9
+468,Klebsiella aerogenes,GCF_003071285.1,GCF_003071285.1_ASM307128v1_genomic.gbff.gz,Klebsiella_B aerogenes,1550,1550,8,2926,2934,8,116,116,9
+185,Klebsiella aerogenes KCTC 2190,GCF_000215745.1,GCF_000215745.1_ASM21574v1_genomic.gbff.gz,Klebsiella_B aerogenes,1554,1555,8,2905,2909,8,116,116,9
+563,Klebsiella michiganensis E718,GCF_000276705.2,GCF_000276705.2_ASM27670v2_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2927,3042,8,116,116,9
+54,Klebsiella michiganensis,GCF_000724525.1,GCF_000724525.1_ASM72452v1_genomic.gbff.gz,Klebsiella_A michiganensis,1554,1560,8,2927,2927,8,116,117,9
+643,Klebsiella michiganensis,GCF_002216835.1,GCF_002216835.1_ASM221683v1_genomic.gbff.gz,Klebsiella_A michiganensis,1554,1554,8,2926,3042,8,116,116,9
+241,Klebsiella michiganensis,GCF_002290285.1,GCF_002290285.1_ASM229028v1_genomic.gbff.gz,Klebsiella_A michiganensis,1554,1554,8,2926,3042,8,116,116,9
+282,Klebsiella michiganensis,GCF_003074075.1,GCF_003074075.1_ASM307407v1_genomic.gbff.gz,Klebsiella_A michiganensis,1549,1550,8,2926,3041,8,116,116,9
+591,Klebsiella michiganensis HKOPL1,GCF_000632415.1,GCF_000632415.1_ASM63241v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,3040,3042,8,116,116,9
+648,Klebsiella michiganensis KCTC 1686,GCF_000240325.1,GCF_000240325.1_ASM24032v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2927,3041,8,116,116,9
+188,Klebsiella oxytoca,GCF_001022115.1,GCF_001022115.1_ASM102211v1_genomic.gbff.gz,Klebsiella_A oxytoca,1554,1554,8,2927,3041,8,116,116,9
+190,Klebsiella oxytoca,GCF_001022195.1,GCF_001022195.1_ASM102219v1_genomic.gbff.gz,Klebsiella_A michiganensis,1554,1554,8,2926,3042,8,116,116,9
+305,Klebsiella oxytoca,GCF_001022295.1,GCF_001022295.1_ASM102229v1_genomic.gbff.gz,Klebsiella_A oxytoca,1554,1554,8,2927,3041,8,116,116,9
+172,Klebsiella oxytoca,GCF_001870185.1,GCF_001870185.1_ASM187018v1_genomic.gbff.gz,Klebsiella_A oxytoca,1554,1554,8,2927,3041,8,116,116,9
+545,Klebsiella oxytoca,GCF_001970835.1,GCF_001970835.1_ASM197083v1_genomic.gbff.gz,Klebsiella_A michiganensis,1554,1554,8,2927,2927,8,116,117,9
+543,Klebsiella oxytoca,GCF_002072655.1,GCF_002072655.1_ASM207265v1_genomic.gbff.gz,Klebsiella_A michiganensis,1554,1554,8,2926,3040,8,116,116,9
+386,Klebsiella oxytoca,GCF_002906395.1,GCF_002906395.1_ASM290639v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2927,2927,8,116,117,9
+651,Klebsiella oxytoca,GCF_002906415.1,GCF_002906415.1_ASM290641v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2927,3041,8,116,116,9
+458,Klebsiella oxytoca,GCF_002906435.1,GCF_002906435.1_ASM290643v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2927,3041,8,116,116,9
+257,Klebsiella oxytoca,GCF_002947505.1,GCF_002947505.1_ASM294750v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2925,2928,8,116,116,9
+579,Klebsiella oxytoca,GCF_002984395.1,GCF_002984395.1_ASM298439v1_genomic.gbff.gz,Klebsiella_A oxytoca,1549,1550,8,2926,3042,8,116,116,9
+583,Klebsiella oxytoca,GCF_003073975.1,GCF_003073975.1_ASM307397v1_genomic.gbff.gz,Klebsiella_A oxytoca,1550,1550,8,2926,3042,8,116,116,9
+329,Klebsiella oxytoca KONIH1,GCF_000714655.1,GCF_000714655.1_ASM71465v1_genomic.gbff.gz,Klebsiella_A michiganensis,1550,1550,8,2927,2927,8,116,117,9
+30,Klebsiella pneumoniae 342,GCF_000019565.1,GCF_000019565.1_ASM1956v1_genomic.gbff.gz,Klebsiella variicola,1550,1550,8,2925,2932,8,116,116,9
+234,Klebsiella pneumoniae CG43,GCF_000474015.1,GCF_000474015.1_ASM47401v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2922,2934,8,116,116,9
+131,Klebsiella pneumoniae DMC1097,GCF_000417225.2,GCF_000417225.2_ASM41722v2_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2924,8,116,116,9
+90,Klebsiella pneumoniae,GCF_000364385.3,GCF_000364385.3_ASM36438v3_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+133,Klebsiella pneumoniae,GCF_000764615.1,GCF_000764615.1_ASM76461v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+24,Klebsiella pneumoniae,GCF_001456135.1,GCF_001456135.1_ASM145613v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+110,Klebsiella pneumoniae,GCF_001482345.1,GCF_001482345.1_ASM148234v1_genomic.gbff.gz,Klebsiella pneumoniae,1553,1554,8,2923,2923,8,116,116,9
+258,Klebsiella pneumoniae,GCF_001548315.1,GCF_001548315.1_ASM154831v1_genomic.gbff.gz,Klebsiella variicola,1554,1554,8,2927,2932,8,116,116,9
+186,Klebsiella pneumoniae,GCF_001648215.1,GCF_001648215.1_ASM164821v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2932,8,116,116,9
+171,Klebsiella pneumoniae,GCF_001708225.1,GCF_001708225.1_ASM170822v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+343,Klebsiella pneumoniae,GCF_001709275.1,GCF_001709275.1_ASM170927v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2922,2923,8,116,116,9
+29,Klebsiella pneumoniae,GCF_001709295.1,GCF_001709295.1_ASM170929v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2920,2923,8,116,116,9
+123,Klebsiella pneumoniae,GCF_001902415.1,GCF_001902415.1_ASM190241v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+544,Klebsiella pneumoniae,GCF_001908655.1,GCF_001908655.1_ASM190865v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2926,8,116,116,9
+70,Klebsiella pneumoniae,GCF_001908895.1,GCF_001908895.1_ASM190889v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+22,Klebsiella pneumoniae,GCF_001956965.1,GCF_001956965.1_ASM195696v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2926,8,116,116,9
+276,Klebsiella pneumoniae,GCF_002156765.1,GCF_002156765.1_ASM215676v1_genomic.gbff.gz,Klebsiella variicola,1554,1554,8,2925,2931,8,116,116,9
+502,Klebsiella pneumoniae,GCF_002180175.1,GCF_002180175.1_ASM218017v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+284,Klebsiella pneumoniae,GCF_002192375.1,GCF_002192375.1_ASM219237v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2926,8,116,116,9
+681,Klebsiella pneumoniae,GCF_002197505.1,GCF_002197505.1_ASM219750v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+371,Klebsiella pneumoniae,GCF_002202195.1,GCF_002202195.1_ASM220219v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+31,Klebsiella pneumoniae,GCF_002202255.1,GCF_002202255.1_ASM220225v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+86,Klebsiella pneumoniae,GCF_002202275.1,GCF_002202275.1_ASM220227v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+659,Klebsiella pneumoniae,GCF_002587885.1,GCF_002587885.1_ASM258788v1_genomic.gbff.gz,Klebsiella pneumoniae,1553,1554,8,2920,2923,8,116,116,9
+576,Klebsiella pneumoniae,GCF_002752815.1,GCF_002752815.1_ASM275281v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+577,Klebsiella pneumoniae,GCF_002752975.1,GCF_002752975.1_ASM275297v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+689,Klebsiella pneumoniae,GCF_002752995.1,GCF_002752995.1_ASM275299v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+102,Klebsiella pneumoniae,GCF_002753035.1,GCF_002753035.1_ASM275303v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+259,Klebsiella pneumoniae,GCF_002753165.1,GCF_002753165.1_ASM275316v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+365,Klebsiella pneumoniae,GCF_002833425.1,GCF_002833425.1_ASM283342v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+138,Klebsiella pneumoniae,GCF_002903005.1,GCF_002903005.1_ASM290300v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+125,Klebsiella pneumoniae,GCF_002903025.1,GCF_002903025.1_ASM290302v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+89,Klebsiella pneumoniae,GCF_002948565.1,GCF_002948565.1_ASM294856v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2922,2923,8,116,116,9
+580,Klebsiella pneumoniae,GCF_003031325.1,GCF_003031325.1_ASM303132v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2922,2923,8,116,116,9
+644,Klebsiella pneumoniae,GCF_003073315.1,GCF_003073315.1_ASM307331v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2924,8,116,116,9
+1,Klebsiella pneumoniae JM45,GCF_000445405.1,GCF_000445405.1_ASM44540v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+442,Klebsiella pneumoniae subsp. pneumoniae,GCF_000742755.1,GCF_000742755.1_ASM74275v1_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+673,Klebsiella pneumoniae subsp. pneumoniae,GCF_000775375.1,GCF_000775375.1_ASM77537v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+264,Klebsiella pneumoniae subsp. pneumoniae,GCF_001280925.1,GCF_001280925.1_ASM128092v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1551,1551,8,2923,2924,8,116,116,8
+506,Klebsiella pneumoniae subsp. pneumoniae,GCF_002852945.2,GCF_002852945.2_ASM285294v2_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+60,Klebsiella pneumoniae subsp. pneumoniae,GCF_002951555.1,GCF_002951555.1_ASM295155v1_genomic.gbff.gz,Klebsiella pneumoniae,1550,1550,8,2923,2923,8,116,116,9
+381,Klebsiella pneumoniae UHKPC07,GCF_000417265.2,GCF_000417265.2_ASM41726v2_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2923,2923,8,116,116,9
+650,Klebsiella pneumoniae UHKPC33,GCF_000417085.2,GCF_000417085.2_ASM41708v2_genomic.gbff.gz,Klebsiella pneumoniae,1554,1554,8,2921,2923,8,116,116,9
+154,Klebsiella quasipneumoniae,GCF_001596075.2,GCF_001596075.2_ASM159607v2_genomic.gbff.gz,Klebsiella quasipneumoniae,1554,1554,8,2923,2923,8,116,116,9
+452,Klebsiella quasipneumoniae,GCF_002240295.1,GCF_002240295.1_ASM224029v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1554,1554,8,2923,2923,8,116,116,9
+489,Klebsiella quasipneumoniae,GCF_002953295.1,GCF_002953295.1_ASM295329v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2922,2923,8,116,116,9
+515,Klebsiella quasipneumoniae,GCF_003020825.1,GCF_003020825.1_ASM302082v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2923,2924,8,116,116,9
+373,Klebsiella quasipneumoniae,GCF_003146635.1,GCF_003146635.1_ASM314663v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2922,2925,8,116,116,9
+359,Klebsiella quasipneumoniae,GCF_003146655.1,GCF_003146655.1_ASM314665v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2923,2925,8,116,116,9
+582,Klebsiella quasipneumoniae,GCF_003146685.1,GCF_003146685.1_ASM314668v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2923,2925,8,116,116,9
+197,Klebsiella quasipneumoniae subsp. similipneumoniae,GCF_003181175.1,GCF_003181175.1_ASM318117v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2923,2923,8,116,116,9
+575,Klebsiella sp. LTGPAF-6F,GCF_001753185.1,GCF_001753185.1_ASM175318v1_genomic.gbff.gz,Klebsiella_A michiganensis,1552,1554,8,2921,3041,8,116,116,9
+533,Klebsiella variicola At-22,GCF_000025465.1,GCF_000025465.1_ASM2546v1_genomic.gbff.gz,Klebsiella variicola,1554,1561,8,2925,2941,8,116,116,9
+117,Klebsiella variicola,GCF_000812205.2,GCF_000812205.2_ASM81220v2_genomic.gbff.gz,Klebsiella variicola,1554,1564,8,2925,2946,8,116,118,9
+63,Klebsiella variicola,GCF_000828055.2,GCF_000828055.2_ASM82805v2_genomic.gbff.gz,Klebsiella variicola,1554,1554,8,2925,2932,8,116,116,9
+433,Klebsiella variicola,GCF_001278905.1,GCF_001278905.1_ASM127890v1_genomic.gbff.gz,Klebsiella quasipneumoniae,1550,1550,8,2923,2923,8,116,116,9
+339,Klebsiella variicola,GCF_001989495.1,GCF_001989495.1_ASM198949v1_genomic.gbff.gz,Klebsiella variicola,1554,1554,8,2926,2932,8,116,116,9
+71,Klebsiella variicola,GCF_001989515.1,GCF_001989515.1_ASM198951v1_genomic.gbff.gz,Klebsiella variicola,1554,1554,8,2926,2932,8,116,116,9
+448,Klebsiella variicola,GCF_001989535.1,GCF_001989535.1_ASM198953v1_genomic.gbff.gz,Klebsiella variicola,1554,1554,8,2926,2932,8,116,116,9
+523,Klebsiella variicola,GCF_002164805.2,GCF_002164805.2_ASM216480v2_genomic.gbff.gz,Klebsiella variicola,1550,1550,8,2926,2931,8,116,116,9
+440,Klebsiella variicola,GCF_002852915.3,GCF_002852915.3_ASM285291v3_genomic.gbff.gz,Klebsiella variicola,1550,1550,8,2925,2930,8,116,116,9
+246,Pseudomonas aeruginosa,GCF_001077475.1,GCF_001077475.1_ASM107747v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+616,Pseudomonas aeruginosa,GCF_001447845.1,GCF_001447845.1_ASM144784v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+287,Pseudomonas aeruginosa,GCF_001515845.2,GCF_001515845.2_ASM151584v2_genomic.gbff.gz,Pseudomonas aeruginosa,1155,1544,4,2912,2912,4,116,116,4
+33,Pseudomonas aeruginosa,GCF_001516105.1,GCF_001516105.1_ASM151610v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+455,Pseudomonas aeruginosa,GCF_001542835.1,GCF_001542835.1_ASM154283v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+454,Pseudomonas aeruginosa,GCF_001547955.1,GCF_001547955.1_ASM154795v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+311,Pseudomonas aeruginosa,GCF_001548135.1,GCF_001548135.1_ASM154813v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+665,Pseudomonas aeruginosa,GCF_001721805.1,GCF_001721805.1_ASM172180v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+561,Pseudomonas aeruginosa,GCF_001721845.1,GCF_001721845.1_ASM172184v1_genomic.gbff.gz,Pseudomonas aeruginosa,1543,1544,4,2910,2912,4,116,116,4
+599,Pseudomonas aeruginosa,GCF_001792855.1,GCF_001792855.1_ASM179285v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+474,Pseudomonas aeruginosa,GCF_001874465.1,GCF_001874465.1_ASM187446v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+122,Pseudomonas aeruginosa,GCF_001879525.1,GCF_001879525.1_ASM187952v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2915,4,116,116,4
+445,Pseudomonas aeruginosa,GCF_001900225.1,GCF_001900225.1_ASM190022v1_genomic.gbff.gz,Pseudomonas aeruginosa,1285,1544,4,2512,2912,4,116,116,4
+299,Pseudomonas aeruginosa,GCF_002085605.1,GCF_002085605.1_ASM208560v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+148,Pseudomonas aeruginosa,GCF_002104595.1,GCF_002104595.1_ASM210459v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+402,Pseudomonas aeruginosa,GCF_002192475.1,GCF_002192475.1_ASM219247v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+382,Pseudomonas aeruginosa,GCF_002192495.1,GCF_002192495.1_ASM219249v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+396,Pseudomonas aeruginosa,GCF_002205335.1,GCF_002205335.1_ASM220533v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+403,Pseudomonas aeruginosa,GCF_002237405.1,GCF_002237405.1_ASM223740v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2911,2912,4,116,116,4
+572,Pseudomonas aeruginosa,GCF_002812825.1,GCF_002812825.1_ASM281282v1_genomic.gbff.gz,Pseudomonas aeruginosa,1537,1537,4,2912,2912,4,116,116,4
+550,Pseudomonas aeruginosa,GCF_002812905.1,GCF_002812905.1_ASM281290v1_genomic.gbff.gz,Pseudomonas aeruginosa,1537,1537,4,2911,2912,4,116,116,4
+480,Pseudomonas aeruginosa,GCF_002968755.1,GCF_002968755.1_ASM296875v1_genomic.gbff.gz,Pseudomonas aeruginosa_A,1537,1537,4,2911,2912,4,116,116,4
+198,Pseudomonas aeruginosa,GCF_002997005.1,GCF_002997005.1_ASM299700v1_genomic.gbff.gz,Pseudomonas aeruginosa,1537,1537,4,2912,2912,4,116,116,4
+324,Pseudomonas aeruginosa,GCF_003025345.2,GCF_003025345.2_ASM302534v2_genomic.gbff.gz,Pseudomonas aeruginosa_A,1537,1537,4,2911,2912,4,116,116,4
+620,Pseudomonas aeruginosa,GCF_003060845.1,GCF_003060845.1_ASM306084v1_genomic.gbff.gz,Pseudomonas aeruginosa,1537,1550,4,2911,2930,4,116,116,4
+7,Pseudomonas aeruginosa,GCF_003073695.1,GCF_003073695.1_ASM307369v1_genomic.gbff.gz,Pseudomonas aeruginosa_A,1536,1537,4,2908,2912,4,116,116,4
+214,Pseudomonas aeruginosa,GCF_003193645.1,GCF_003193645.1_ASM319364v1_genomic.gbff.gz,Pseudomonas aeruginosa,1537,1537,4,2912,2912,4,116,116,4
+325,Pseudomonas aeruginosa,GCF_003206535.1,GCF_003206535.1_ASM320653v1_genomic.gbff.gz,Pseudomonas aeruginosa,1537,1537,4,2911,2912,4,116,116,4
+177,Pseudomonas aeruginosa LESB58,GCF_000026645.1,GCF_000026645.1_ASM2664v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+137,Pseudomonas aeruginosa MTB-1,GCF_000504045.1,GCF_000504045.1_ASM50404v1_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,4,2912,2912,4,116,116,4
+273,Pseudomonas aeruginosa PA7,GCF_000017205.1,GCF_000017205.1_ASM1720v1_genomic.gbff.gz,Pseudomonas aeruginosa_A,1544,1544,4,2912,2912,4,116,116,4
+640,Pseudomonas aeruginosa PAO1,GCF_000006765.1,GCF_000006765.1_ASM676v1_genomic.gbff.gz,Pseudomonas aeruginosa,1536,1537,4,2889,2892,4,120,960,5
+114,Pseudomonas aeruginosa VRFPA04,GCF_000473745.2,GCF_000473745.2_ASM47374v3_genomic.gbff.gz,Pseudomonas aeruginosa,1544,1544,8,2912,2912,8,116,116,11
+530,Pseudomonas amygdali pv. lachrymans,GCF_002068135.1,GCF_002068135.1_ASM206813v1_genomic.gbff.gz,Pseudomonas_E ficuserectae,1540,1540,5,2917,2917,5,116,116,6
+528,Pseudomonas amygdali pv. morsprunorum,GCF_002905685.2,GCF_002905685.2_ASM290568v2_genomic.gbff.gz,Pseudomonas_E ficuserectae,1540,1540,5,2916,2917,5,116,116,6
+481,Pseudomonas avellanae,GCF_002905795.2,GCF_002905795.2_ASM290579v2_genomic.gbff.gz,Pseudomonas_E avellanae,1540,1540,5,2918,2918,5,116,116,6
+589,Pseudomonas chlororaphis,GCF_000698865.1,GCF_000698865.1_ASM69886v1_genomic.gbff.gz,Pseudomonas_E piscium,1540,1547,5,2916,2916,5,116,116,6
+101,Pseudomonas chlororaphis,GCF_002844145.1,GCF_002844145.1_ASM284414v1_genomic.gbff.gz,Pseudomonas_E piscium,1507,1557,5,2910,2916,5,116,116,6
+367,Pseudomonas chlororaphis subsp. aurantiaca,GCF_000761195.1,GCF_000761195.1_ASM76119v1_genomic.gbff.gz,Pseudomonas_E piscium,1547,1547,5,2915,2916,5,116,116,6
+227,Pseudomonas chlororaphis subsp. aurantiaca,GCF_002355875.1,GCF_002355875.1_ASM235587v1_genomic.gbff.gz,Pseudomonas_E piscium,1547,1550,5,2916,2916,5,116,116,6
+541,Pseudomonas chlororaphis subsp. piscium,GCF_003008635.1,GCF_003008635.1_ASM300863v1_genomic.gbff.gz,Pseudomonas_E piscium,1538,1538,5,2916,2916,5,116,116,6
+526,Pseudomonas monteilii SB3078,GCF_000510285.1,GCF_000510285.1_ASM51028v1_genomic.gbff.gz,Pseudomonas_E monteilii_B,1547,1547,6,2916,2916,6,116,116,7
+262,Pseudomonas monteilii SB3101,GCF_000510325.1,GCF_000510325.1_ASM51032v1_genomic.gbff.gz,Pseudomonas_E monteilii_B,1547,1547,6,2916,2916,6,116,116,7
+633,Pseudomonas plecoglossicida,GCF_000831585.1,GCF_000831585.1_ASM83158v1_genomic.gbff.gz,Pseudomonas_E monteilii_B,1547,1547,7,2913,2916,7,116,116,8
+485,Pseudomonas protegens Cab57,GCF_000828695.1,GCF_000828695.1_ASM82869v1_genomic.gbff.gz,Pseudomonas_E protegens,1549,1550,5,2916,2916,5,116,116,6
+75,Pseudomonas protegens CHA0,GCF_000397205.1,GCF_000397205.1_ASM39720v1_genomic.gbff.gz,Pseudomonas_E protegens,1549,1549,5,2916,2916,5,116,116,5
+554,Pseudomonas protegens,GCF_002006545.1,GCF_002006545.1_ASM200654v1_genomic.gbff.gz,Pseudomonas_E protegens,1544,1550,5,2911,2917,5,115,116,6
+67,Pseudomonas protegens,GCF_002208745.2,GCF_002208745.2_ASM220874v2_genomic.gbff.gz,Pseudomonas_E protegens,1539,1540,5,2914,2916,5,116,116,6
+607,Pseudomonas protegens Pf-5,GCF_000012265.1,GCF_000012265.1_ASM1226v1_genomic.gbff.gz,Pseudomonas_E protegens,1549,1549,5,2916,2916,5,116,116,6
+606,Pseudomonas putida BIRD-1,GCF_000183645.1,GCF_000183645.1_ASM18364v1_genomic.gbff.gz,Pseudomonas_E hunanensis,1547,1547,7,2914,2917,7,116,116,8
+567,Pseudomonas putida F1,GCF_000016865.1,GCF_000016865.1_ASM1686v1_genomic.gbff.gz,Pseudomonas_E hunanensis,1547,1547,6,2914,2917,6,116,116,7
+149,Pseudomonas putida HB3267,GCF_000325725.1,GCF_000325725.1_ASM32572v1_genomic.gbff.gz,Pseudomonas_E monteilii_B,1547,1547,7,2914,2917,7,116,116,8
+372,Pseudomonas putida JB,GCF_001767335.1,GCF_001767335.1_ASM176733v1_genomic.gbff.gz,Pseudomonas_E hunanensis,1546,1547,6,2917,2920,6,115,116,7
+364,Pseudomonas putida KT2440,GCF_000007565.2,GCF_000007565.2_ASM756v2_genomic.gbff.gz,Pseudomonas_E hunanensis,1522,1522,7,2902,2902,7,120,120,8
+229,Pseudomonas putida ND6,GCF_000264665.2,GCF_000264665.2_ASM26466v2_genomic.gbff.gz,Pseudomonas_E hunanensis,1538,1538,6,2915,2918,6,116,116,7
+127,Pseudomonas putida S12,GCF_000495455.2,GCF_000495455.2_ASM49545v2_genomic.gbff.gz,Pseudomonas_E hunanensis,1547,1547,6,2917,2917,6,116,116,6
+152,Pseudomonas putida S16,GCF_000219705.1,GCF_000219705.1_ASM21970v1_genomic.gbff.gz,Pseudomonas_E monteilii_B,1547,1549,6,2917,2918,6,116,116,7
+337,Pseudomonas putida SJTE-1,GCF_000271965.2,GCF_000271965.2_ASM27196v2_genomic.gbff.gz,Pseudomonas_E hunanensis,1547,1547,6,2914,2917,6,116,116,7
+376,Pseudomonas savastanoi pv. phaseolicola 1448A,GCF_000012205.1,GCF_000012205.1_ASM1220v1_genomic.gbff.gz,Pseudomonas_E ficuserectae,1548,1548,5,2917,2917,5,116,116,6
+134,Pseudomonas savastanoi pv. savastanoi NCPPB 3335,GCF_000164015.3,GCF_000164015.3_ASM16401v3_genomic.gbff.gz,Pseudomonas_E ficuserectae,1548,1548,5,2917,2917,5,116,116,6
+671,Pseudomonas sp. FGI182,GCF_000511325.1,GCF_000511325.1_ASM51132v1_genomic.gbff.gz,Pseudomonas_E monteilii_B,1547,1549,7,2916,2917,7,116,116,8
+35,Pseudomonas sp. JY-Q,GCF_001655295.1,GCF_001655295.1_ASM165529v1_genomic.gbff.gz,Pseudomonas_E hunanensis,1547,1547,7,2914,2917,7,116,116,8
+84,Pseudomonas sp. SWI36,GCF_002948105.1,GCF_002948105.1_ASM294810v1_genomic.gbff.gz,Pseudomonas_E hunanensis,1538,1538,7,2914,2917,7,116,116,8
+464,Pseudomonas sp. XWY-1,GCF_002953115.1,GCF_002953115.1_ASM295311v1_genomic.gbff.gz,Pseudomonas_E hunanensis,1538,1538,7,2915,2918,7,116,116,8
+230,Pseudomonas stutzeri A1501,GCF_000013785.1,GCF_000013785.1_ASM1378v1_genomic.gbff.gz,Pseudomonas_A stutzeri,1546,1549,4,2915,2915,4,116,116,4
+338,Pseudomonas stutzeri DSM 4166,GCF_000195105.1,GCF_000195105.1_ASM19510v1_genomic.gbff.gz,Pseudomonas_A stutzeri,1549,1549,4,2915,2915,4,116,116,4
+501,Pseudomonas stutzeri,GCF_000219605.1,GCF_000219605.1_ASM21960v1_genomic.gbff.gz,Pseudomonas_A stutzeri,1549,1549,4,2915,2915,4,116,116,4
+411,Pseudomonas stutzeri,GCF_001038645.1,GCF_001038645.1_ASM103864v1_genomic.gbff.gz,Pseudomonas_A stutzeri,1546,1548,4,2909,2913,4,116,116,4
+307,Pseudomonas stutzeri,GCF_003008495.1,GCF_003008495.1_ASM300849v1_genomic.gbff.gz,Pseudomonas_A stutzeri,1537,1538,4,2913,2914,4,116,116,4
+87,Pseudomonas syringae,GCF_900235815.1,GCF_900235815.1_CFBP3840_genomic.gbff.gz,Pseudomonas_E ficuserectae,1540,1540,5,2917,2917,5,116,116,6
+318,Pseudomonas syringae,GCF_900289125.1,GCF_900289125.1_CFBP2116_finsihed_replicons_genomic.gbff.gz,Pseudomonas_E ficuserectae,1540,1540,5,2916,2917,5,116,116,6
+399,Pseudomonas syringae group genomosp. 3,GCF_900235905.1,GCF_900235905.1_CFBP6411_genomic.gbff.gz,Pseudomonas_E avellanae,1540,1540,5,2918,2918,5,116,116,6
+297,Pseudomonas syringae pv. actinidiae,GCF_001913215.1,GCF_001913215.1_ASM191321v1_genomic.gbff.gz,Pseudomonas_E avellanae,1547,1548,5,2917,2917,5,116,116,6
+499,Pseudomonas syringae pv. actinidiae,GCF_001913235.1,GCF_001913235.1_ASM191323v1_genomic.gbff.gz,Pseudomonas_E avellanae,1548,1548,5,2917,2917,5,116,116,6
+4,Pseudomonas syringae pv. actinidiae,GCF_002024285.1,GCF_002024285.1_ASM202428v1_genomic.gbff.gz,Pseudomonas_E avellanae,1548,1548,5,2917,2917,5,116,116,6
+263,Pseudomonas syringae pv. actinidiae,GCF_002024305.1,GCF_002024305.1_ASM202430v1_genomic.gbff.gz,Pseudomonas_E avellanae,1548,1548,5,2917,2917,5,116,116,6
+253,Pseudomonas syringae pv. actinidiae,GCF_002763655.1,GCF_002763655.1_ASM276365v1_genomic.gbff.gz,Pseudomonas_E avellanae,1536,1540,5,2907,2917,5,116,116,6
+602,Pseudomonas syringae pv. actinidiae ICMP 18708,GCF_000344355.2,GCF_000344355.2_ASM34435v2_genomic.gbff.gz,Pseudomonas_E avellanae,1548,1548,5,2917,2917,5,116,116,6
+332,Pseudomonas syringae pv. actinidiae ICMP 18884,GCF_000648735.3,GCF_000648735.3_ASM64873v3_genomic.gbff.gz,Pseudomonas_E avellanae,1548,1548,5,2917,2917,5,116,116,6
+656,Pseudomonas syringae pv. actinidiae ICMP 9853,GCF_000344335.2,GCF_000344335.2_ASM34433v2_genomic.gbff.gz,Pseudomonas_E avellanae,1548,1548,5,2917,2917,5,116,116,6
+524,Pseudomonas syringae pv. avii,GCF_900235835.1,GCF_900235835.1_CFBP3846_genomic.gbff.gz,Pseudomonas_E avellanae,1540,1540,5,2917,2917,5,116,116,6
+17,Pseudomonas syringae pv. cerasicola,GCF_900235885.1,GCF_900235885.1_CFBP6109_genomic.gbff.gz,Pseudomonas_E ficuserectae,1540,1540,5,2917,2917,5,116,116,6
+652,Pseudomonas syringae pv. syringae B301D,GCF_000988485.1,GCF_000988485.1_ASM98848v1_genomic.gbff.gz,Pseudomonas_E syringae_M,1548,1548,5,2918,2918,5,116,116,6
+539,Pseudomonas syringae pv. syringae B728a,GCF_000012245.1,GCF_000012245.1_ASM1224v1_genomic.gbff.gz,Pseudomonas_E syringae_M,1538,1538,5,2903,2903,5,115,115,6
+23,Pseudomonas syringae pv. syringae,GCF_002905815.2,GCF_002905815.2_ASM290581v2_genomic.gbff.gz,Pseudomonas_E syringae_M,1540,1540,5,2918,2918,5,116,116,5
+222,Pseudomonas syringae pv. syringae,GCF_900235825.1,GCF_900235825.1_CFBP4215_genomic.gbff.gz,Pseudomonas_E syringae_M,1540,1540,5,2918,2918,5,116,116,6
+279,Pseudomonas syringae pv. syringae,GCF_900235865.1,GCF_900235865.1_CFBP2118_genomic.gbff.gz,Pseudomonas_E syringae_M,1540,1540,5,2918,2918,5,116,116,6
+495,Pseudomonas syringae pv. tomato,GCF_002966555.1,GCF_002966555.1_ASM296655v1_genomic.gbff.gz,Pseudomonas_E avellanae,1540,1540,5,2917,2917,5,116,116,6
+105,Pseudomonas syringae pv. tomato str. DC3000,GCF_000007805.1,GCF_000007805.1_ASM780v1_genomic.gbff.gz,Pseudomonas_E avellanae,1518,1518,5,2903,2903,5,120,120,5
+618,Staphylococcus aureus 04-02981,GCF_000025145.1,GCF_000025145.1_ASM2514v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2926,2926,5,115,115,7
+315,Staphylococcus aureus,GCF_000597965.1,GCF_000597965.1_ASM59796v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2926,2926,6,115,115,7
+368,Staphylococcus aureus,GCF_000815245.1,GCF_000815245.1_ASM81524v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2926,2926,5,115,115,6
+349,Staphylococcus aureus,GCF_000953255.1,GCF_000953255.1_Staphylococcus_aureus_Sa_ILRI_217_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2926,2927,5,115,115,6
+210,Staphylococcus aureus,GCF_000969225.1,GCF_000969225.1_ASM96922v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2926,2926,5,115,115,6
+535,Staphylococcus aureus,GCF_001018655.2,GCF_001018655.2_ASM101865v2_genomic.gbff.gz,Staphylococcus aureus,1554,1554,6,2926,2926,6,115,115,7
+38,Staphylococcus aureus,GCF_001018975.2,GCF_001018975.2_ASM101897v2_genomic.gbff.gz,Staphylococcus aureus,1554,1554,6,2926,2927,6,115,115,7
+78,Staphylococcus aureus,GCF_001019255.2,GCF_001019255.2_ASM101925v2_genomic.gbff.gz,Staphylococcus aureus,1554,1556,7,2923,2926,7,115,115,8
+94,Staphylococcus aureus,GCF_001045795.2,GCF_001045795.2_ASM104579v2_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2926,2926,6,115,115,7
+378,Staphylococcus aureus,GCF_001298325.2,GCF_001298325.2_ASM129832v2_genomic.gbff.gz,Staphylococcus aureus,1556,1557,5,2926,2930,5,115,115,6
+594,Staphylococcus aureus,GCF_001457495.1,GCF_001457495.1_NCTC13435_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2926,2926,6,115,115,7
+406,Staphylococcus aureus,GCF_001465675.1,GCF_001465675.1_ASM146567v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2927,2928,6,115,115,7
+272,Staphylococcus aureus,GCF_001594205.1,GCF_001594205.1_ASM159420v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2927,2927,5,115,115,6
+209,Staphylococcus aureus,GCF_001611345.1,GCF_001611345.1_ASM161134v1_genomic.gbff.gz,Staphylococcus aureus,1549,1557,6,2924,2926,6,115,115,7
+565,Staphylococcus aureus,GCF_001956755.1,GCF_001956755.1_ASM195675v1_genomic.gbff.gz,Staphylococcus aureus,1556,1557,5,2926,2927,5,115,117,7
+488,Staphylococcus aureus,GCF_001975005.1,GCF_001975005.1_ASM197500v1_genomic.gbff.gz,Staphylococcus aureus,1556,1557,6,2926,2926,6,115,115,7
+341,Staphylococcus aureus,GCF_002000765.1,GCF_002000765.1_ASM200076v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2926,2926,5,115,115,6
+59,Staphylococcus aureus,GCF_002209325.1,GCF_002209325.1_ASM220932v1_genomic.gbff.gz,Staphylococcus aureus,1557,1558,5,2926,2927,5,115,115,6
+121,Staphylococcus aureus,GCF_002355355.1,GCF_002355355.1_ASM235535v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2926,2927,6,115,115,7
+552,Staphylococcus aureus,GCF_002952015.1,GCF_002952015.1_ASM295201v1_genomic.gbff.gz,Staphylococcus aureus,1554,1554,1,2926,2926,1,115,115,1
+676,Staphylococcus aureus,GCF_003030065.1,GCF_003030065.1_ASM303006v1_genomic.gbff.gz,Staphylococcus aureus,1554,1554,6,2926,2927,6,115,115,7
+511,Staphylococcus aureus,GCF_003031425.1,GCF_003031425.1_ASM303142v1_genomic.gbff.gz,Staphylococcus aureus,1554,1555,6,2926,2927,6,115,115,7
+410,Staphylococcus aureus,GCF_003185005.1,GCF_003185005.1_ASM318500v1_genomic.gbff.gz,Staphylococcus aureus,1554,1554,6,2926,2927,6,115,115,7
+161,Staphylococcus aureus,GCF_003193705.1,GCF_003193705.1_ASM319370v1_genomic.gbff.gz,Staphylococcus aureus,1553,1554,5,2921,2926,5,115,115,6
+357,Staphylococcus aureus,GCF_003203635.1,GCF_003203635.1_ASM320363v1_genomic.gbff.gz,Staphylococcus aureus,1552,1554,6,2922,2927,6,115,115,7
+534,Staphylococcus aureus,GCF_900017775.1,GCF_900017775.1_NZAK3_genomic.gbff.gz,Staphylococcus aureus,1557,1557,5,2926,2926,5,115,115,6
+82,Staphylococcus aureus,GCF_900474665.1,GCF_900474665.1_41236_D02_genomic.gbff.gz,Staphylococcus aureus,1554,1555,6,2926,2926,6,115,115,7
+88,Staphylococcus aureus subsp. aureus COL,GCF_000012045.1,GCF_000012045.1_ASM1204v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2926,2926,6,115,115,7
+249,Staphylococcus aureus subsp. aureus MW2,GCF_000011265.1,GCF_000011265.1_ASM1126v1_genomic.gbff.gz,Staphylococcus aureus,1557,1557,6,2926,2926,6,115,115,7
+484,Staphylococcus aureus subsp. aureus NCTC 8325,GCF_900475245.1,GCF_900475245.1_43024_E01_genomic.gbff.gz,Staphylococcus aureus,1554,1554,6,2926,2926,6,115,115,7
+449,Staphylococcus epidermidis ATCC 12228,GCF_000007645.1,GCF_000007645.1_ASM764v1_genomic.gbff.gz,Staphylococcus epidermidis,1554,1554,5,2828,2833,5,115,115,6
+194,Staphylococcus epidermidis,GCF_000759555.1,GCF_000759555.1_ASM75955v1_genomic.gbff.gz,Staphylococcus epidermidis,1554,1556,6,2925,2933,6,115,115,7
+244,Staphylococcus epidermidis,GCF_002085695.1,GCF_002085695.1_ASM208569v1_genomic.gbff.gz,Staphylococcus epidermidis,1553,1553,6,2927,2933,6,115,115,7
+251,Staphylococcus epidermidis,GCF_002215535.1,GCF_002215535.1_ASM221553v1_genomic.gbff.gz,Staphylococcus epidermidis,1556,1556,6,2926,2932,6,115,115,7
+432,Staphylococcus epidermidis,GCF_002850315.1,GCF_002850315.1_ASM285031v1_genomic.gbff.gz,Staphylococcus epidermidis,1553,1553,6,2931,2931,6,115,115,7
+649,Staphylococcus epidermidis,GCF_002944995.1,GCF_002944995.1_ASM294499v1_genomic.gbff.gz,Staphylococcus epidermidis,1553,1553,6,2930,2931,6,115,115,7
+426,Staphylococcus epidermidis,GCF_002954055.1,GCF_002954055.1_ASM295405v1_genomic.gbff.gz,Staphylococcus epidermidis,1552,1554,6,2930,2931,6,115,115,7
+476,Staphylococcus epidermidis,GCF_900086615.1,GCF_900086615.1_BPH0662_genomic.gbff.gz,Staphylococcus epidermidis,1556,1556,5,2931,2932,5,115,115,6
+44,Staphylococcus epidermidis PM221,GCF_000751035.1,GCF_000751035.1_PM221_genomic.gbff.gz,Staphylococcus epidermidis,1556,1556,6,2930,2937,6,115,115,7
+467,Staphylococcus epidermidis RP62A,GCF_000011925.1,GCF_000011925.1_ASM1192v1_genomic.gbff.gz,Staphylococcus epidermidis,1556,1556,6,2931,2931,6,115,115,7
+679,Staphylococcus equorum,GCF_001432245.1,GCF_001432245.1_ASM143224v1_genomic.gbff.gz,Staphylococcus equorum_B,1558,1558,7,2938,2942,7,115,115,8
+267,Staphylococcus equorum,GCF_001682235.1,GCF_001682235.1_ASM168223v1_genomic.gbff.gz,Staphylococcus equorum_B,1558,1558,7,2939,2939,7,115,115,8
+503,Staphylococcus equorum,GCF_001683315.1,GCF_001683315.1_ASM168331v1_genomic.gbff.gz,Staphylococcus equorum_B,1558,1558,7,2938,2938,7,115,115,8
+427,Staphylococcus haemolyticus,GCF_001611955.1,GCF_001611955.1_ASM161195v1_genomic.gbff.gz,Staphylococcus haemolyticus,1556,1556,6,2926,2926,6,115,115,7
+144,Staphylococcus haemolyticus,GCF_002906595.1,GCF_002906595.1_ASM290659v1_genomic.gbff.gz,Staphylococcus haemolyticus,1553,1553,6,2926,2926,6,115,115,7
+609,Staphylococcus haemolyticus,GCF_002906615.1,GCF_002906615.1_ASM290661v1_genomic.gbff.gz,Staphylococcus haemolyticus,1552,1554,6,2923,2927,6,115,115,7
+662,Staphylococcus haemolyticus,GCF_002952715.2,GCF_002952715.2_ASM295271v2_genomic.gbff.gz,Staphylococcus haemolyticus,1551,1553,6,2925,2927,6,115,115,7
+140,Staphylococcus haemolyticus JCSC1435,GCF_000009865.1,GCF_000009865.1_ASM986v1_genomic.gbff.gz,Staphylococcus haemolyticus,1556,1556,5,2926,2926,5,115,115,6
+109,Staphylococcus lugdunensis,GCF_001558775.1,GCF_001558775.1_ASM155877v1_genomic.gbff.gz,Staphylococcus lugdunensis,1556,1556,6,2924,2925,6,115,115,7
+326,Staphylococcus lugdunensis,GCF_001558815.2,GCF_001558815.2_ASM155881v2_genomic.gbff.gz,Staphylococcus lugdunensis,1553,1553,6,2923,2924,6,115,115,7
+674,Staphylococcus lugdunensis,GCF_002073395.2,GCF_002073395.2_ASM207339v2_genomic.gbff.gz,Staphylococcus lugdunensis,1553,1553,5,2923,2924,5,115,115,6
+41,Staphylococcus lugdunensis,GCF_002250095.2,GCF_002250095.2_ASM225009v2_genomic.gbff.gz,Staphylococcus lugdunensis,1556,1556,6,2906,2925,6,115,116,8
+303,Staphylococcus lugdunensis,GCF_002407165.1,GCF_002407165.1_ASM240716v1_genomic.gbff.gz,Staphylococcus lugdunensis,1555,1556,6,2922,2924,6,115,115,7
+383,Staphylococcus lugdunensis,GCF_002591215.1,GCF_002591215.1_ASM259121v1_genomic.gbff.gz,Staphylococcus lugdunensis,1555,1556,6,2922,2924,6,115,115,7
+493,Staphylococcus lugdunensis,GCF_900474705.1,GCF_900474705.1_41236_B02_genomic.gbff.gz,Staphylococcus lugdunensis,1553,1553,6,2924,2924,6,115,115,7
+310,Staphylococcus lugdunensis,GCF_900478255.1,GCF_900478255.1_34211_E02_genomic.gbff.gz,Staphylococcus lugdunensis,1553,1553,5,2924,2924,5,115,115,6
+304,Staphylococcus lugdunensis HKU09-01,GCF_000025085.1,GCF_000025085.1_ASM2508v1_genomic.gbff.gz,Staphylococcus lugdunensis,1556,1556,6,2924,2924,6,115,115,7
+362,Staphylococcus lugdunensis N920143,GCF_000270465.1,GCF_000270465.1_ASM27046v1_genomic.gbff.gz,Staphylococcus lugdunensis,1276,1556,5,2921,2928,4,115,115,6
+236,Staphylococcus pseudintermedius ED99,GCF_000189495.1,GCF_000189495.1_ASM18949v1_genomic.gbff.gz,Staphylococcus pseudintermedius,1557,1557,5,2923,2926,5,115,115,6
+285,Staphylococcus pseudintermedius,GCF_001682335.1,GCF_001682335.1_ASM168233v1_genomic.gbff.gz,Staphylococcus pseudintermedius,1556,1557,6,2646,2926,5,115,115,7
+553,Staphylococcus pseudintermedius,GCF_001682435.2,GCF_001682435.2_ASM168243v2_genomic.gbff.gz,Staphylococcus pseudintermedius,1556,1557,5,2621,2926,4,115,115,7
+159,Staphylococcus pseudintermedius,GCF_001685665.2,GCF_001685665.2_ASM168566v2_genomic.gbff.gz,Staphylococcus pseudintermedius,1110,1562,5,2632,2924,3,115,115,7
+14,Staphylococcus pseudintermedius HKU10-03,GCF_000185885.1,GCF_000185885.1_ASM18588v1_genomic.gbff.gz,Staphylococcus pseudintermedius,1556,1557,6,2922,2926,6,115,115,7
+470,Staphylococcus saprophyticus,GCF_001558275.2,GCF_001558275.2_ASM155827v2_genomic.gbff.gz,Staphylococcus saprophyticus,1555,1555,6,2930,2930,6,115,115,7
+48,Staphylococcus saprophyticus,GCF_001558375.2,GCF_001558375.2_ASM155837v2_genomic.gbff.gz,Staphylococcus saprophyticus,1555,1555,6,2927,2938,6,115,115,7
+657,Staphylococcus saprophyticus,GCF_002208905.1,GCF_002208905.1_ASM220890v2_genomic.gbff.gz,Staphylococcus saprophyticus,1555,1555,6,2929,2930,6,115,115,7
+58,Staphylococcus saprophyticus,GCF_002209265.1,GCF_002209265.1_ASM220926v2_genomic.gbff.gz,Staphylococcus saprophyticus,1554,1555,6,2929,2930,6,115,115,7
+219,Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305,GCF_000010125.1,GCF_000010125.1_ASM1012v1_genomic.gbff.gz,Staphylococcus saprophyticus,1558,1558,6,2930,2930,6,115,115,7
+213,Staphylococcus schleiferi,GCF_001188855.1,GCF_001188855.1_ASM118885v1_genomic.gbff.gz,Staphylococcus schleiferi,1556,1556,6,2928,2933,6,115,115,7
+55,Staphylococcus schleiferi,GCF_001188875.1,GCF_001188875.1_ASM118887v1_genomic.gbff.gz,Staphylococcus schleiferi,1556,1557,5,2932,2933,5,115,115,6
+239,Staphylococcus schleiferi,GCF_001188895.1,GCF_001188895.1_ASM118889v1_genomic.gbff.gz,Staphylococcus schleiferi,1556,1557,6,2932,2933,6,115,115,7
+85,Staphylococcus schleiferi,GCF_001188915.1,GCF_001188915.1_ASM118891v1_genomic.gbff.gz,Staphylococcus schleiferi,1556,1557,6,2932,2933,6,115,115,7
+187,Staphylococcus schleiferi,GCF_001548255.1,GCF_001548255.1_ASM154825v1_genomic.gbff.gz,Staphylococcus schleiferi,1557,1557,5,2933,2933,5,115,115,6
+419,Staphylococcus simulans,GCF_001559115.2,GCF_001559115.2_ASM155911v2_genomic.gbff.gz,Staphylococcus simulans,1553,1553,6,2928,2930,6,115,115,6
+660,Staphylococcus simulans,GCF_002386185.1,GCF_002386185.1_ASM238618v1_genomic.gbff.gz,Staphylococcus simulans,1554,1555,6,2927,2929,6,115,115,6
+112,Staphylococcus simulans,GCF_003006055.1,GCF_003006055.1_ASM300605v1_genomic.gbff.gz,Staphylococcus simulans,1553,1554,6,2926,2928,6,115,115,6
+323,Staphylococcus simulans,GCF_003006075.1,GCF_003006075.1_ASM300607v1_genomic.gbff.gz,Staphylococcus simulans,1554,1554,6,2928,2928,6,115,115,6
+593,Staphylococcus simulans,GCF_003076375.1,GCF_003076375.1_ASM307637v1_genomic.gbff.gz,Staphylococcus simulans,1554,1554,6,2928,2928,6,115,115,6
+108,Staphylococcus simulans,GCF_003096155.1,GCF_003096155.1_ASM309615v1_genomic.gbff.gz,Staphylococcus simulans,1554,1554,6,2928,2928,6,115,115,6
+81,Staphylococcus simulans,GCF_900474685.1,GCF_900474685.1_40961_B01_genomic.gbff.gz,Staphylococcus simulans,1554,1554,6,2928,2930,6,115,116,6
+558,Staphylococcus sp. AntiMn-1,GCF_001663395.1,GCF_001663395.1_ASM166339v1_genomic.gbff.gz,Staphylococcus equorum_B,1537,1560,7,2930,2938,7,115,115,8
+141,Staphylococcus xylosus,GCF_000706685.1,GCF_000706685.1_ASM70668v1_genomic.gbff.gz,Staphylococcus xylosus,1558,1558,4,2927,2927,4,115,115,5
+646,Staphylococcus xylosus,GCF_000709415.1,GCF_000709415.1_ASM70941v1_genomic.gbff.gz,Staphylococcus xylosus,1558,1558,7,2927,2927,7,115,115,8
+450,Staphylococcus xylosus,GCF_000953575.1,GCF_000953575.1_Staphylococcus_xylosus_C2a_genomic.gbff.gz,Staphylococcus xylosus,1558,1561,6,2927,2927,6,115,115,7
+145,Staphylococcus xylosus,GCF_002078255.1,GCF_002078255.1_ASM207825v1_genomic.gbff.gz,Staphylococcus xylosus,1558,1558,7,2927,2927,7,115,115,8
+392,Streptococcus agalactiae 09mas018883,GCF_000427035.1,GCF_000427035.1_09mas018883_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+255,Streptococcus agalactiae 2603V/R,GCF_000007265.1,GCF_000007265.1_ASM726v1_genomic.gbff.gz,Streptococcus agalactiae,1551,1551,7,2903,2903,7,117,117,7
+520,Streptococcus agalactiae A909,GCF_000012705.1,GCF_000012705.1_ASM1270v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+330,Streptococcus agalactiae COH1,GCF_000689235.1,GCF_000689235.1_GBCO_p1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+333,Streptococcus agalactiae,GCF_000730215.1,GCF_000730215.1_ASM73021v2_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+320,Streptococcus agalactiae,GCF_000730255.1,GCF_000730255.1_ASM73025v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+417,Streptococcus agalactiae,GCF_000831125.1,GCF_000831125.1_ASM83112v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+242,Streptococcus agalactiae,GCF_001026925.1,GCF_001026925.1_ASM102692v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+203,Streptococcus agalactiae,GCF_001190805.1,GCF_001190805.1_ASM119080v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+677,Streptococcus agalactiae,GCF_001190885.1,GCF_001190885.1_ASM119088v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+667,Streptococcus agalactiae,GCF_001266635.1,GCF_001266635.1_ASM126663v1_genomic.gbff.gz,Streptococcus agalactiae,1554,1557,6,2903,2915,6,115,116,6
+471,Streptococcus agalactiae,GCF_001552035.1,GCF_001552035.1_ASM155203v1_genomic.gbff.gz,Streptococcus agalactiae,1553,1555,8,2906,2906,8,116,116,8
+655,Streptococcus agalactiae,GCF_001592385.1,GCF_001592385.1_ASM159238v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,5,2906,2906,5,116,116,6
+183,Streptococcus agalactiae,GCF_001592425.1,GCF_001592425.1_ASM159242v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,5,2907,2907,5,105,116,6
+294,Streptococcus agalactiae,GCF_001683515.1,GCF_001683515.1_ASM168351v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,6,2906,2906,6,116,116,6
+170,Streptococcus agalactiae,GCF_001712835.1,GCF_001712835.1_ASM171283v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+517,Streptococcus agalactiae,GCF_001729925.1,GCF_001729925.1_ASM172992v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+95,Streptococcus agalactiae,GCF_001932715.1,GCF_001932715.1_ASM193271v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+106,Streptococcus agalactiae,GCF_002073695.2,GCF_002073695.2_ASM207369v2_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2905,2906,7,116,116,7
+605,Streptococcus agalactiae,GCF_002197245.1,GCF_002197245.1_ASM219724v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+340,Streptococcus agalactiae,GCF_002197265.1,GCF_002197265.1_ASM219726v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+156,Streptococcus agalactiae,GCF_002197285.1,GCF_002197285.1_ASM219728v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+619,Streptococcus agalactiae,GCF_002197365.1,GCF_002197365.1_ASM219736v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+462,Streptococcus agalactiae,GCF_002197425.1,GCF_002197425.1_ASM219742v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+617,Streptococcus agalactiae,GCF_002289205.1,GCF_002289205.1_ASM228920v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2905,2906,7,116,116,7
+18,Streptococcus agalactiae,GCF_002812425.1,GCF_002812425.1_ASM281242v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+529,Streptococcus agalactiae,GCF_002812465.1,GCF_002812465.1_ASM281246v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+348,Streptococcus agalactiae,GCF_002812505.1,GCF_002812505.1_ASM281250v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2905,2906,7,116,116,7
+412,Streptococcus agalactiae,GCF_002881315.1,GCF_002881315.1_ASM288131v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,6,2906,2906,6,116,116,6
+15,Streptococcus agalactiae,GCF_900155855.1,GCF_900155855.1_BM110_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+555,Streptococcus agalactiae GD201008-001,GCF_000299135.1,GCF_000299135.1_ASM29913v1_genomic.gbff.gz,Streptococcus agalactiae,1555,1559,7,2906,2909,7,116,117,7
+345,Streptococcus agalactiae ILRI005,GCF_000427075.1,GCF_000427075.1_ILRI005_genomic.gbff.gz,Streptococcus agalactiae,1554,1555,7,2906,2906,7,116,116,7
+622,Streptococcus anginosus C1051,GCF_000463465.1,GCF_000463465.1_ASM46346v1_genomic.gbff.gz,Streptococcus anginosus,1558,1558,4,2908,2908,4,116,116,4
+283,Streptococcus anginosus C238,GCF_000463505.1,GCF_000463505.1_ASM46350v1_genomic.gbff.gz,Streptococcus anginosus,1560,1562,4,2904,2905,4,116,116,4
+625,Streptococcus anginosus,GCF_001412635.1,GCF_001412635.1_ASM141263v1_genomic.gbff.gz,Streptococcus anginosus,1558,1560,4,2908,2908,4,116,116,4
+624,Streptococcus anginosus subsp. whileyi MAS624,GCF_000478925.1,GCF_000478925.1_ASM47892v1_genomic.gbff.gz,Streptococcus anginosus,1560,1560,5,2904,2904,5,116,116,5
+231,Streptococcus dysgalactiae subsp. equisimilis AC-2713,GCF_000317855.1,GCF_000317855.1_ASM31785v1_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1561,5,2905,2910,5,116,116,5
+497,Streptococcus dysgalactiae subsp. equisimilis ATCC 12394,GCF_000188715.1,GCF_000188715.1_ASM18871v1_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,5,2905,2905,5,116,116,5
+80,Streptococcus dysgalactiae subsp. equisimilis,GCF_900474785.1,GCF_900474785.1_41767_C01_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,6,2905,2905,6,116,116,6
+356,Streptococcus dysgalactiae subsp. equisimilis,GCF_900475145.1,GCF_900475145.1_42727_G01_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,6,2904,2905,6,116,116,6
+527,Streptococcus dysgalactiae subsp. equisimilis,GCF_900475185.1,GCF_900475185.1_42197_A02_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,6,2905,2905,6,116,116,6
+370,Streptococcus dysgalactiae subsp. equisimilis,GCF_900475255.1,GCF_900475255.1_42545_F02_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,6,2905,2906,6,116,116,6
+146,Streptococcus dysgalactiae subsp. equisimilis,GCF_900475725.1,GCF_900475725.1_46166_D01_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,6,2905,2905,6,116,116,6
+611,Streptococcus dysgalactiae subsp. equisimilis GGS_124,GCF_000010705.1,GCF_000010705.1_ASM1070v1_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1561,5,2905,2906,5,116,116,5
+413,Streptococcus dysgalactiae subsp. equisimilis RE378,GCF_000307185.1,GCF_000307185.1_ASM30718v1_genomic.gbff.gz,Streptococcus dysgalactiae,1556,1556,5,2901,2905,5,116,116,5
+638,Streptococcus equi subsp. zooepidemicus ATCC 35246,GCF_000219765.1,GCF_000219765.1_ASM21976v1_genomic.gbff.gz,Streptococcus equi,1561,1561,5,2915,2915,5,116,116,5
+354,Streptococcus equi subsp. zooepidemicus CY,GCF_000696505.1,GCF_000696505.1_ASM69650v1_genomic.gbff.gz,Streptococcus equi,1561,1561,5,2915,2915,5,116,116,5
+221,Streptococcus equi subsp. zooepidemicus,GCF_000026605.1,GCF_000026605.1_ASM2660v1_genomic.gbff.gz,Streptococcus equi,1561,1561,5,2903,2903,5,116,116,5
+547,Streptococcus equi subsp. zooepidemicus,GCF_900474805.1,GCF_900474805.1_41800_D01_genomic.gbff.gz,Streptococcus equi,1556,1556,6,2903,2903,6,116,116,6
+393,Streptococcus equi subsp. zooepidemicus,GCF_900474875.1,GCF_900474875.1_41851_B01_genomic.gbff.gz,Streptococcus equi,1561,1561,5,2902,2904,5,116,116,5
+397,Streptococcus equi subsp. zooepidemicus,GCF_900475125.1,GCF_900475125.1_42042_H01_genomic.gbff.gz,Streptococcus equi,1556,1556,6,2903,2903,6,116,116,6
+296,Streptococcus equi subsp. zooepidemicus,GCF_900475295.1,GCF_900475295.1_43188_D01_genomic.gbff.gz,Streptococcus equi,1561,1561,6,2900,2912,6,116,116,6
+225,Streptococcus equi subsp. zooepidemicus,GCF_900475435.1,GCF_900475435.1_42912_B01_genomic.gbff.gz,Streptococcus equi,1561,1561,6,2903,2903,6,116,116,6
+350,Streptococcus equi subsp. zooepidemicus MGCS10565,GCF_000020765.1,GCF_000020765.1_ASM2076v1_genomic.gbff.gz,Streptococcus equi,1559,1559,5,2903,2903,5,116,116,5
+557,Streptococcus gallolyticus,GCF_900475715.1,GCF_900475715.1_44927_A02_genomic.gbff.gz,Streptococcus gallolyticus,1554,1554,6,2901,2901,6,116,116,6
+206,Streptococcus gallolyticus subsp. gallolyticus ATCC 43143,GCF_000270145.1,GCF_000270145.1_ASM27014v1_genomic.gbff.gz,Streptococcus gallolyticus,1554,1554,5,2901,2901,5,116,116,5
+235,Streptococcus gallolyticus subsp. gallolyticus ATCC BAA-2069,GCF_000203195.1,GCF_000203195.1_ASM20319v1_genomic.gbff.gz,Streptococcus gallolyticus,1554,1554,7,2901,2900,7,116,116,7
+360,Streptococcus gallolyticus subsp. gallolyticus DSM 16831,GCF_002000985.1,GCF_002000985.1_ASM200098v1_genomic.gbff.gz,Streptococcus gallolyticus,1554,1554,6,2901,2901,6,116,116,6
+496,Streptococcus gallolyticus UCN34,GCF_000027185.1,GCF_000027185.1_ASM2718v1_genomic.gbff.gz,Streptococcus gallolyticus,1554,1554,6,2901,2901,6,116,116,6
+248,Streptococcus gordonii,GCF_000970665.2,GCF_000970665.2_ASM97066v2_genomic.gbff.gz,Streptococcus gordonii,1562,1562,2,2904,2904,2,116,116,4
+522,Streptococcus gordonii,GCF_001281105.1,GCF_001281105.1_ASM128110v1_genomic.gbff.gz,Streptococcus gordonii,1562,1562,5,2904,2904,5,116,116,5
+76,Streptococcus gordonii,GCF_002073435.2,GCF_002073435.2_ASM207343v2_genomic.gbff.gz,Streptococcus gordonii,1562,1562,4,2903,2904,4,116,116,4
+678,Streptococcus gordonii,GCF_002386285.1,GCF_002386285.1_ASM238628v1_genomic.gbff.gz,Streptococcus gordonii,1562,1562,4,2903,2904,4,116,116,4
+519,Streptococcus gordonii,GCF_900475015.1,GCF_900475015.1_41975_E01_genomic.gbff.gz,Streptococcus gordonii,1562,1562,4,2904,2904,4,116,116,4
+658,Streptococcus gordonii,GCF_900475385.1,GCF_900475385.1_43597_G01_genomic.gbff.gz,Streptococcus gordonii,1562,1562,4,2904,2904,4,116,116,4
+443,Streptococcus gordonii str. Challis substr. CH1,GCF_000017005.1,GCF_000017005.1_ASM1700v1_genomic.gbff.gz,Streptococcus gordonii,1562,1562,4,2904,2904,4,116,116,4
+500,Streptococcus infantarius,GCF_001477615.1,GCF_001477615.1_ASM147761v1_genomic.gbff.gz,Streptococcus lutetiensis,1531,1554,9,2286,2906,9,116,116,8
+505,Streptococcus iniae,GCF_000831485.1,GCF_000831485.1_ASM83148v1_genomic.gbff.gz,Streptococcus iniae,1553,1555,5,2906,2906,5,116,116,5
+584,Streptococcus iniae,GCF_001885145.1,GCF_001885145.1_ASM188514v1_genomic.gbff.gz,Streptococcus iniae,1553,1555,6,2906,2906,6,116,116,6
+614,Streptococcus iniae,GCF_002220115.1,GCF_002220115.1_ASM222011v1_genomic.gbff.gz,Streptococcus iniae,1553,1555,5,2906,2906,5,116,116,5
+136,Streptococcus iniae,GCF_002787125.1,GCF_002787125.1_ASM278712v1_genomic.gbff.gz,Streptococcus iniae,1553,1555,5,2905,2906,5,116,116,5
+525,Streptococcus intermedius B196,GCF_000463355.1,GCF_000463355.1_ASM46335v1_genomic.gbff.gz,Streptococcus intermedius,1560,1561,4,2908,2909,4,116,116,4
+3,Streptococcus intermedius C270,GCF_000463385.1,GCF_000463385.1_ASM46338v1_genomic.gbff.gz,Streptococcus intermedius,1561,1563,4,2907,2908,4,116,116,4
+342,Streptococcus intermedius,GCF_002073355.2,GCF_002073355.2_ASM207335v2_genomic.gbff.gz,Streptococcus intermedius,1560,1561,4,2905,2906,4,116,116,4
+73,Streptococcus intermedius,GCF_002356055.1,GCF_002356055.1_ASM235605v1_genomic.gbff.gz,Streptococcus intermedius,1561,1561,4,2909,2909,4,116,116,4
+586,Streptococcus intermedius,GCF_900475975.1,GCF_900475975.1_46931_F01_genomic.gbff.gz,Streptococcus intermedius,1561,1561,4,2905,2905,4,116,116,4
+551,Streptococcus intermedius JTH08,GCF_000306805.1,GCF_000306805.1_ASM30680v1_genomic.gbff.gz,Streptococcus intermedius,1561,1561,4,2905,2905,4,116,116,4
+321,Streptococcus lutetiensis 033,GCF_000441535.1,GCF_000441535.1_ASM44153v1_genomic.gbff.gz,Streptococcus lutetiensis,1552,1553,6,2903,2903,6,116,116,6
+437,Streptococcus lutetiensis,GCF_900475065.1,GCF_900475065.1_42545_C02_genomic.gbff.gz,Streptococcus lutetiensis,1553,1553,7,2903,2903,7,116,116,7
+428,Streptococcus lutetiensis,GCF_900475675.1,GCF_900475675.1_45473_D02_genomic.gbff.gz,Streptococcus lutetiensis,1553,1553,7,2903,2903,7,116,116,7
+400,Streptococcus mutans,GCF_001558215.1,GCF_001558215.1_ASM155821v1_genomic.gbff.gz,Streptococcus mutans,1562,1562,5,2905,2905,5,116,116,5
+6,Streptococcus mutans,GCF_002995555.1,GCF_002995555.1_ASM299555v1_genomic.gbff.gz,Streptococcus mutans,1564,1564,5,2904,2904,5,116,116,5
+174,Streptococcus mutans,GCF_900475095.1,GCF_900475095.1_42197_E01_genomic.gbff.gz,Streptococcus mutans,1562,1562,5,2905,2905,5,116,116,5
+13,Streptococcus mutans GS-5,GCF_000271865.1,GCF_000271865.1_ASM27186v1_genomic.gbff.gz,Streptococcus mutans,1562,1562,5,2905,2905,5,116,116,5
+380,Streptococcus mutans LJ23,GCF_000284575.1,GCF_000284575.1_ASM28457v1_genomic.gbff.gz,Streptococcus mutans,1562,1562,5,2905,2905,5,116,116,5
+288,Streptococcus mutans NN2025,GCF_000091645.1,GCF_000091645.1_ASM9164v1_genomic.gbff.gz,Streptococcus mutans,1562,1564,5,2905,2905,5,116,116,5
+636,Streptococcus mutans UA159-FR,GCF_000817065.1,GCF_000817065.1_ASM81706v1_genomic.gbff.gz,Streptococcus mutans,1562,1562,5,2905,2905,5,116,116,5
+404,Streptococcus mutans UA159,GCF_000007465.2,GCF_000007465.2_ASM746v2_genomic.gbff.gz,Streptococcus mutans,1552,1552,5,2901,2901,5,120,120,5
+12,Streptococcus pneumoniae 670-6B,GCF_000147095.1,GCF_000147095.1_ASM14709v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+387,Streptococcus pneumoniae 70585,GCF_000018965.1,GCF_000018965.1_ASM1896v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+435,Streptococcus pneumoniae AP200,GCF_000146975.1,GCF_000146975.1_ASM14697v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1555,4,2904,2906,4,116,117,4
+538,Streptococcus pneumoniae ATCC 700669,GCF_000026665.1,GCF_000026665.1_ASM2666v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+201,Streptococcus pneumoniae CGSP14,GCF_000019985.1,GCF_000019985.1_ASM1998v1_genomic.gbff.gz,Streptococcus pneumoniae,1551,1552,4,2899,2905,4,116,116,4
+9,Streptococcus pneumoniae D39,GCF_000014365.2,GCF_000014365.2_ASM1436v2_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+103,Streptococcus pneumoniae,GCF_000817005.1,GCF_000817005.1_ASM81700v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+32,Streptococcus pneumoniae,GCF_001457635.1,GCF_001457635.1_NCTC7465_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+444,Streptococcus pneumoniae,GCF_001896045.1,GCF_001896045.1_ASM189604v1_genomic.gbff.gz,Streptococcus pneumoniae,1554,1554,4,2904,2904,4,116,116,4
+596,Streptococcus pneumoniae,GCF_001896065.1,GCF_001896065.1_ASM189606v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+98,Streptococcus pneumoniae,GCF_001896085.1,GCF_001896085.1_ASM189608v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+293,Streptococcus pneumoniae,GCF_001902455.1,GCF_001902455.1_ASM190245v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+578,Streptococcus pneumoniae,GCF_002357995.1,GCF_002357995.1_ASM235799v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+569,Streptococcus pneumoniae,GCF_003003495.1,GCF_003003495.1_ASM300349v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+600,Streptococcus pneumoniae,GCF_900475305.1,GCF_900475305.1_43721_E02_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+302,Streptococcus pneumoniae,GCF_900475805.1,GCF_900475805.1_46514_B03_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+224,Streptococcus pneumoniae,GCF_900476445.1,GCF_900476445.1_55312_D02_genomic.gbff.gz,Streptococcus pneumoniae,1551,1552,5,2392,2904,2,116,116,2
+587,Streptococcus pneumoniae,GCF_900476455.1,GCF_900476455.1_55312_E02_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+113,Streptococcus pneumoniae,GCF_900476465.1,GCF_900476465.1_55312_F02_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+317,Streptococcus pneumoniae,GCF_900476475.1,GCF_900476475.1_49768_F01_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2903,2904,4,116,116,4
+459,Streptococcus pneumoniae,GCF_900476505.1,GCF_900476505.1_55312_C02_genomic.gbff.gz,Streptococcus pneumoniae,1553,1553,4,2904,2904,4,116,116,4
+115,Streptococcus pneumoniae Hungary19A-6,GCF_000019265.1,GCF_000019265.1_ASM1926v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+647,Streptococcus pneumoniae INV104,GCF_000210975.1,GCF_000210975.1_ASM21097v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+453,Streptococcus pneumoniae JJA,GCF_000018985.1,GCF_000018985.1_ASM1898v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+173,Streptococcus pneumoniae P1031,GCF_000019005.1,GCF_000019005.1_ASM1900v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+237,Streptococcus pneumoniae R6,GCF_000007045.1,GCF_000007045.1_ASM704v1_genomic.gbff.gz,Streptococcus pneumoniae,1514,1514,4,2902,2902,4,115,115,4
+130,Streptococcus pneumoniae SPN032672,GCF_000211075.1,GCF_000211075.1_ASM21107v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1554,4,2904,2904,4,116,116,4
+93,Streptococcus pneumoniae SPN033038,GCF_000211095.1,GCF_000211095.1_ASM21109v1_genomic.gbff.gz,Streptococcus pneumoniae,1551,1552,4,2904,2908,4,116,116,4
+629,Streptococcus pneumoniae SPN034156,GCF_000210995.1,GCF_000210995.1_ASM21099v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1554,4,2904,2904,4,116,116,4
+687,Streptococcus pneumoniae SPN034183,GCF_000211015.1,GCF_000211015.1_ASM21101v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+384,Streptococcus pneumoniae SPN994038,GCF_000211035.1,GCF_000211035.1_ASM21103v2_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+160,Streptococcus pneumoniae SPN994039,GCF_000211055.1,GCF_000211055.1_ASM21105v2_genomic.gbff.gz,Streptococcus pneumoniae,1552,1553,4,2904,2904,4,116,116,4
+147,Streptococcus pneumoniae ST556,GCF_000251085.2,GCF_000251085.2_ASM25108v2_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+68,Streptococcus pneumoniae Taiwan19F-14,GCF_000019025.1,GCF_000019025.1_ASM1902v1_genomic.gbff.gz,Streptococcus pneumoniae,1552,1552,4,2904,2904,4,116,116,4
+603,Streptococcus pneumoniae TCH8431/19A,GCF_000196595.1,GCF_000196595.1_ASM19659v1_genomic.gbff.gz,Streptococcus pneumoniae,1554,1555,4,2904,2905,4,116,116,4
+570,Streptococcus pyogenes,GCF_000743015.1,GCF_000743015.1_ASM74301v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1558,6,2903,2906,6,115,116,6
+479,Streptococcus pyogenes,GCF_000756485.1,GCF_000756485.1_ASM75648v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2906,5,116,116,5
+477,Streptococcus pyogenes,GCF_000767505.1,GCF_000767505.1_ASM76750v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+666,Streptococcus pyogenes,GCF_000993765.1,GCF_000993765.1_ASM99376v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2906,5,116,116,5
+473,Streptococcus pyogenes,GCF_001014305.1,GCF_001014305.1_ASM101430v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+118,Streptococcus pyogenes,GCF_001051095.1,GCF_001051095.1_ASM105109v1_genomic.gbff.gz,Streptococcus pyogenes,1552,1556,6,2901,2915,6,116,116,6
+212,Streptococcus pyogenes,GCF_001267805.1,GCF_001267805.1_ASM126780v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2905,2906,6,116,116,6
+685,Streptococcus pyogenes,GCF_001559175.2,GCF_001559175.2_ASM155917v2_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+483,Streptococcus pyogenes,GCF_001635895.1,GCF_001635895.1_ASM163589v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2913,5,116,116,5
+111,Streptococcus pyogenes,GCF_001635935.1,GCF_001635935.1_ASM163593v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2906,5,116,116,5
+549,Streptococcus pyogenes,GCF_002355175.1,GCF_002355175.1_ASM235517v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2906,5,116,116,5
+316,Streptococcus pyogenes,GCF_003203475.1,GCF_003203475.1_ASM320347v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+69,Streptococcus pyogenes,GCF_900474455.1,GCF_900474455.1_42017_D01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+518,Streptococcus pyogenes,GCF_900474765.1,GCF_900474765.1_41800_G01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+590,Streptococcus pyogenes,GCF_900474795.1,GCF_900474795.1_41767_B01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+573,Streptococcus pyogenes,GCF_900474815.1,GCF_900474815.1_41800_F01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+120,Streptococcus pyogenes,GCF_900474845.1,GCF_900474845.1_41906_C02_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+491,Streptococcus pyogenes,GCF_900474865.1,GCF_900474865.1_41906_D02_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+478,Streptococcus pyogenes,GCF_900474975.1,GCF_900474975.1_41906_B02_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+355,Streptococcus pyogenes,GCF_900475075.1,GCF_900475075.1_42290_F02_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+389,Streptococcus pyogenes,GCF_900475085.1,GCF_900475085.1_42206_C01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+189,Streptococcus pyogenes,GCF_900475115.1,GCF_900475115.1_42197_A01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+52,Streptococcus pyogenes,GCF_900475155.1,GCF_900475155.1_41975_A01_genomic.gbff.gz,Streptococcus pyogenes,1555,1556,6,2906,2906,6,116,116,6
+129,Streptococcus pyogenes,GCF_900475425.1,GCF_900475425.1_43908_F01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,115,116,6
+182,Streptococcus pyogenes,GCF_900475455.1,GCF_900475455.1_44451_G01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+295,Streptococcus pyogenes,GCF_900475485.1,GCF_900475485.1_42969_E01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+91,Streptococcus pyogenes,GCF_900475565.1,GCF_900475565.1_42912_A01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+223,Streptococcus pyogenes,GCF_900475765.1,GCF_900475765.1_46931_G01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+420,Streptococcus pyogenes,GCF_900475795.1,GCF_900475795.1_46514_A02_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+243,Streptococcus pyogenes,GCF_900475955.1,GCF_900475955.1_45889_E01_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+280,Streptococcus pyogenes JRS4,GCF_001547715.1,GCF_001547715.1_ASM154771v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+447,Streptococcus pyogenes MGAS10394,GCF_000011665.1,GCF_000011665.1_ASM1166v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+135,Streptococcus pyogenes MGAS15252,GCF_000250905.1,GCF_000250905.1_ASM25090v1_genomic.gbff.gz,Streptococcus pyogenes,1555,1556,5,2906,2906,5,116,116,5
+556,Streptococcus pyogenes MGAS1882,GCF_000250925.1,GCF_000250925.1_ASM25092v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2907,5,116,116,5
+595,Streptococcus pyogenes MGAS9429,GCF_000013485.1,GCF_000013485.1_ASM1348v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,6,2906,2906,6,116,116,6
+601,Streptococcus pyogenes SSI-1,GCF_000011285.1,GCF_000011285.1_ASM1128v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2906,5,116,116,5
+261,Streptococcus pyogenes STAB902,GCF_000732425.1,GCF_000732425.1_ASM73242v1_genomic.gbff.gz,Streptococcus pyogenes,1556,1556,5,2906,2906,5,116,116,5
+208,Streptococcus salivarius CCHSS3,GCF_000253335.1,GCF_000253335.1_ASM25333v1_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2901,2901,6,116,116,6
+438,Streptococcus salivarius,GCF_000448685.2,GCF_000448685.2_ASM44868v2_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2902,2902,6,116,116,6
+312,Streptococcus salivarius,GCF_000785515.1,GCF_000785515.1_ASM78551v1_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2902,2902,6,116,116,6
+429,Streptococcus salivarius,GCF_001543085.1,GCF_001543085.1_ASM154308v1_genomic.gbff.gz,Streptococcus salivarius,1490,1555,8,2875,2904,6,110,116,8
+83,Streptococcus salivarius,GCF_002094955.1,GCF_002094955.1_ASM209495v1_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2901,2902,6,116,116,6
+351,Streptococcus salivarius,GCF_002094975.1,GCF_002094975.1_ASM209497v1_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2902,2902,6,116,116,6
+626,Streptococcus salivarius,GCF_900475225.1,GCF_900475225.1_42685_C01_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2902,2902,6,116,116,6
+564,Streptococcus salivarius JIM8777,GCF_000253315.1,GCF_000253315.1_ASM25331v1_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2902,2902,6,116,116,6
+377,Streptococcus sanguinis,GCF_900475045.1,GCF_900475045.1_42290_B02_genomic.gbff.gz,Streptococcus sanguinis,1554,1554,4,2903,2903,4,116,116,4
+683,Streptococcus sanguinis,GCF_900475275.1,GCF_900475275.1_42685_F01_genomic.gbff.gz,Streptococcus sanguinis,1554,1554,4,2898,2902,4,116,116,4
+546,Streptococcus sanguinis,GCF_900475505.1,GCF_900475505.1_42925_G01_genomic.gbff.gz,Streptococcus sanguinis,1554,1554,4,2903,2903,4,116,116,4
+446,Streptococcus sanguinis SK36,GCF_000014205.1,GCF_000014205.1_ASM1420v1_genomic.gbff.gz,Streptococcus sanguinis,1551,1551,4,2898,2901,4,116,116,4
+331,Streptococcus sobrinus,GCF_003172975.1,GCF_003172975.1_ASM317297v1_genomic.gbff.gz,Streptococcus sobrinus,1564,1564,6,2903,2903,6,116,116,6
+395,Streptococcus sobrinus,GCF_003172995.1,GCF_003172995.1_ASM317299v1_genomic.gbff.gz,Streptococcus sobrinus,1564,1564,6,2903,2903,6,116,116,6
+512,Streptococcus sobrinus,GCF_003176795.1,GCF_003176795.1_ASM317679v1_genomic.gbff.gz,Streptococcus sobrinus,1560,1564,6,2903,2903,6,116,116,6
+62,Streptococcus sobrinus,GCF_003176815.1,GCF_003176815.1_ASM317681v1_genomic.gbff.gz,Streptococcus sobrinus,1560,1564,6,2903,2903,6,116,116,6
+581,Streptococcus sobrinus,GCF_900475365.1,GCF_900475365.1_43908_G01_genomic.gbff.gz,Streptococcus sobrinus,1560,1564,6,2903,2903,6,116,116,6
+139,Streptococcus sobrinus,GCF_900475395.1,GCF_900475395.1_43908_H01_genomic.gbff.gz,Streptococcus sobrinus,1564,1564,6,2903,2903,6,116,116,6
+424,Streptococcus sp. FDAARGOS_192,GCF_002073815.2,GCF_002073815.2_ASM207381v2_genomic.gbff.gz,Streptococcus salivarius,1555,1555,6,2902,2902,6,116,116,6
+415,Streptococcus sp. 'group B',GCF_002073795.1,GCF_002073795.1_ASM207379v2_genomic.gbff.gz,Streptococcus agalactiae,1555,1555,7,2906,2906,7,116,116,7
+28,Streptococcus suis 05HAS68,GCF_000168355.3,GCF_000168355.3_ASM16835v3_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+301,Streptococcus suis 6407,GCF_000732355.1,GCF_000732355.1_ASM73235v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2905,2905,4,116,116,4
+461,Streptococcus suis A7,GCF_000233575.1,GCF_000233575.1_ASM23357v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2910,2911,4,116,116,4
+487,Streptococcus suis BM407,GCF_000026745.1,GCF_000026745.1_ASM2674v1_genomic.gbff.gz,Streptococcus suis,1544,1544,4,2904,2905,4,127,129,4
+610,Streptococcus suis D12,GCF_000231905.1,GCF_000231905.1_ASM23190v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+124,Streptococcus suis D9,GCF_000231885.1,GCF_000231885.1_ASM23188v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,114,118,4
+653,Streptococcus suis,GCF_000993745.1,GCF_000993745.1_ASM99374v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+475,Streptococcus suis,GCF_001272635.1,GCF_001272635.1_ASM127263v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+11,Streptococcus suis,GCF_001572685.1,GCF_001572685.1_ASM157268v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+641,Streptococcus suis,GCF_001610935.1,GCF_001610935.1_ASM161093v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2905,2906,4,116,116,4
+598,Streptococcus suis,GCF_001640765.1,GCF_001640765.1_ASM164076v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2904,2906,4,115,116,4
+434,Streptococcus suis,GCF_001721625.1,GCF_001721625.1_ASM172162v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+460,Streptococcus suis,GCF_001936415.1,GCF_001936415.1_ASM193641v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,3
+39,Streptococcus suis,GCF_002111405.1,GCF_002111405.1_ASM211140v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+179,Streptococcus suis,GCF_002189695.1,GCF_002189695.1_ASM218969v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+672,Streptococcus suis,GCF_002688665.1,GCF_002688665.1_ASM268866v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+245,Streptococcus suis,GCF_002736265.1,GCF_002736265.1_ASM273626v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+635,Streptococcus suis,GCF_003144175.1,GCF_003144175.1_ASM314417v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+204,Streptococcus suis,GCF_900475585.1,GCF_900475585.1_44087_H01_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+363,Streptococcus suis GZ1,GCF_000018185.1,GCF_000018185.1_ASM1818v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+300,Streptococcus suis JS14,GCF_000186405.1,GCF_000186405.1_ASM18640v1_genomic.gbff.gz,Streptococcus suis,1555,1603,4,2909,2912,4,116,116,4
+508,Streptococcus suis P1/7,GCF_000091905.1,GCF_000091905.1_ASM9190v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+675,Streptococcus suis S735,GCF_000294495.1,GCF_000294495.1_ASM29449v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2911,4,116,116,4
+150,Streptococcus suis SC070731,GCF_000344765.1,GCF_000344765.1_ASM34476v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+158,Streptococcus suis SC84,GCF_000026725.1,GCF_000026725.1_ASM2672v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+51,Streptococcus suis SS12,GCF_000231865.1,GCF_000231865.1_ASM23186v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+252,Streptococcus suis ST1,GCF_000231925.1,GCF_000231925.1_ASM23192v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2911,2911,4,116,116,4
+627,Streptococcus suis ST3,GCF_000204625.1,GCF_000204625.1_ASM20462v1_genomic.gbff.gz,Streptococcus suis,1555,1556,4,2906,2906,4,116,116,4
+531,Streptococcus suis T15,GCF_000494895.1,GCF_000494895.1_ASM49489v1_genomic.gbff.gz,Streptococcus suis,1556,1559,4,2906,2906,4,116,118,4
+202,Streptococcus suis TL13,GCF_000390245.1,GCF_000390245.1_ASM39024v1_genomic.gbff.gz,Streptococcus suis,1556,1560,4,2906,2916,4,116,116,4
+192,Streptococcus suis YB51,GCF_000471985.1,GCF_000471985.1_ASM47198v1_genomic.gbff.gz,Streptococcus suis,1556,1556,4,2906,2906,4,116,116,4
+664,Streptococcus thermophilus ASCC 1275,GCF_000698885.1,GCF_000698885.1_ASM69888v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+663,Streptococcus thermophilus CNRZ1066,GCF_000011845.1,GCF_000011845.1_ASM1184v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+637,Streptococcus thermophilus,GCF_000971665.1,GCF_000971665.1_ASM97166v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+153,Streptococcus thermophilus,GCF_001008015.1,GCF_001008015.1_ASM100801v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+195,Streptococcus thermophilus,GCF_001280285.1,GCF_001280285.1_ASM128028v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+513,Streptococcus thermophilus,GCF_001514435.1,GCF_001514435.1_ASM151443v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+608,Streptococcus thermophilus,GCF_001663795.1,GCF_001663795.1_ASM166379v1_genomic.gbff.gz,Streptococcus thermophilus,1554,1555,6,2900,2902,6,116,116,6
+56,Streptococcus thermophilus,GCF_001685375.1,GCF_001685375.1_ASM168537v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+164,Streptococcus thermophilus,GCF_001705585.1,GCF_001705585.1_ASM170558v1_genomic.gbff.gz,Streptococcus thermophilus,1554,1555,6,2899,2902,6,115,116,6
+431,Streptococcus thermophilus,GCF_001855705.1,GCF_001855705.1_ASM185570v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+308,Streptococcus thermophilus,GCF_002012365.1,GCF_002012365.1_ASM201236v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+42,Streptococcus thermophilus,GCF_002286255.1,GCF_002286255.1_ASM228625v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+50,Streptococcus thermophilus,GCF_002443035.1,GCF_002443035.1_ASM244303v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2901,2902,6,116,116,6
+352,Streptococcus thermophilus,GCF_002843115.1,GCF_002843115.1_ASM284311v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+328,Streptococcus thermophilus,GCF_002846075.1,GCF_002846075.1_ASM284607v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+99,Streptococcus thermophilus,GCF_002846155.1,GCF_002846155.1_ASM284615v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2902,6,116,116,6
+507,Streptococcus thermophilus,GCF_900094135.1,GCF_900094135.1_ASM90009413v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,119,5
+521,Streptococcus thermophilus,GCF_900474985.1,GCF_900474985.1_41965_C01_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+686,Streptococcus thermophilus JIM 8232,GCF_000253395.1,GCF_000253395.1_ASM25339v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2901,2902,6,116,116,6
+289,Streptococcus thermophilus LMD-9,GCF_000014485.1,GCF_000014485.1_ASM1448v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2901,2902,6,116,116,6
+661,Streptococcus thermophilus LMG 18311,GCF_000011825.1,GCF_000011825.1_ASM1182v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,6,2902,2907,6,116,116,6
+238,Streptococcus thermophilus MN-ZLW-002,GCF_000262675.1,GCF_000262675.1_ASM26267v1_genomic.gbff.gz,Streptococcus thermophilus,1555,1555,5,2902,2902,5,116,116,5
+167,Streptococcus thermophilus ND03,GCF_000182875.1,GCF_000182875.1_ASM18287v1_genomic.gbff.gz,Streptococcus thermophilus,1554,1555,5,2901,2903,5,116,116,5
+61,Streptococcus uberis 0140J,GCF_000009545.1,GCF_000009545.1_ASM954v1_genomic.gbff.gz,Streptococcus uberis,1553,1553,5,2904,2904,5,116,116,5
+306,Streptococcus uberis,GCF_002814135.1,GCF_002814135.1_ASM281413v1_genomic.gbff.gz,Streptococcus uberis,1553,1553,5,2904,2904,5,116,116,5
+366,Streptococcus uberis,GCF_900475595.1,GCF_900475595.1_44343_G01_genomic.gbff.gz,Streptococcus uberis,1553,1553,6,2904,2904,6,116,116,6
+498,Streptococcus uberis,GCF_900475695.1,GCF_900475695.1_46463_C01_genomic.gbff.gz,Streptococcus uberis,1553,1553,6,2904,2904,6,116,116,6

@@ -1,0 +1,466 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: ./024_results/Staphylococcus.fasta
+Type of analysis: tree reconstruction
+Random seed number: 833176
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 188 sequences with 6789 nucleotide sites
+Number of constant sites: 5076 (= 74.768% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 5076 (= 74.768% of all sites)
+Number of parsimony informative sites: 1364
+Number of distinct site patterns: 1679
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.2073
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.2073
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2791
+  pi(C) = 0.2051
+  pi(G) = 0.2853
+  pi(T) = 0.2305
+
+Rate matrix Q:
+
+  A    -1.013     0.195    0.5986    0.2191
+  C    0.2653     -1.02    0.2712    0.4836
+  G    0.5856     0.195   -0.9998    0.2191
+  T    0.2653    0.4305    0.2712    -0.967
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.1599
+
+ Category  Relative_rate  Proportion
+  1         9.413e-05      0.25
+  2         0.01431        0.25
+  3         0.2716         0.25
+  4         3.714          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -37080.6444 (s.e. 740.5111)
+Unconstrained log-likelihood (without tree): -28960.7108
+Number of free parameters (#branches + #model parameters): 376
+Akaike information criterion (AIC) score: 74913.2888
+Corrected Akaike information criterion (AICc) score: 74957.5034
+Bayesian information criterion (BIC) score: 77478.7590
+
+Total tree length (sum of branch lengths): 2.0097
+Sum of internal branch lengths: 1.6231 (80.7615% of tree length)
+
+WARNING: 25 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Staphylococcus.aureus.001018685.00' is drawn at root
+
++--Staphylococcus.aureus.001018685.00
+|
+|              +--Staphylococcus.aureus.001018685.01
+|           +--|
+|           |  +--Staphylococcus.aureus.001018685.02
+|        +--|
+|        |  +--Staphylococcus.aureus.001018685.03
+|     +--|
+|     |  +--Staphylococcus.argenteus.002812345.04
+|  +--|
+|  |  +--Staphylococcus.argenteus.002812345.03
++--|
+|  |                                                                    +--Staphylococcus.carnosus.000009405.00
+|  |                                                                 +--|
+|  |                                                                 |  |  +--Staphylococcus.carnosus.000009405.01
+|  |                                                                 |  +--|
+|  |                                                                 |     |        +--Staphylococcus.carnosus.000009405.02
+|  |                                                                 |     |     +--|
+|  |                                                                 |     |     |  +--Staphylococcus.carnosus.000009405.04
+|  |                                                                 |     |  +--|
+|  |                                                                 |     |  |  +**Staphylococcus.carnosus.001701005.02
+|  |                                                                 |     +**|
+|  |                                                                 |        |  +**Staphylococcus.carnosus.001701005.00
+|  |                                                                 |        +--|
+|  |                                                                 |           +--Staphylococcus.carnosus.001701005.04
+|  |                                                              +--|
+|  |                                                              |  |  +--Staphylococcus.condimenti.001618885.03
+|  |                                                              |  +--|
+|  |                                                              |     +**Staphylococcus.condimenti.001922405.00
+|  |                                                           +--|
+|  |                                                           |  |     +--Staphylococcus.condimenti.001618885.00
+|  |                                                           |  |  +--|
+|  |                                                           |  |  |  +--Staphylococcus.condimenti.001922405.02
+|  |                                                           |  +--|
+|  |                                                           |     +--Staphylococcus.condimenti.001922405.03
+|  |                                                        +--|
+|  |                                                        |  +**Staphylococcus.condimenti.001922405.04
+|  |                                                     +--|
+|  |                                                     |  +**Staphylococcus.condimenti.001618885.02
+|  |                                       +-------------|
+|  |                                       |             |  +--Staphylococcus.piscifermentans.900186985.00
+|  |                                       |             +--|
+|  |                                       |                |  +--Staphylococcus.piscifermentans.900186985.02
+|  |                                       |                +--|
+|  |                                       |                   +--Staphylococcus.piscifermentans.900186985.04
+|  |                                    +--|
+|  |                                    |  |                                          +**Staphylococcus.hyicus.000816085.00
+|  |                                    |  |                                       +--|
+|  |                                    |  |                                       |  +**Staphylococcus.hyicus.900474585.00
+|  |                                    |  |                                    +--|
+|  |                                    |  |                                    |  |  +--Staphylococcus.agnetis.001442815.01
+|  |                                    |  |                                    |  +--|
+|  |                                    |  |                                    |     +--Staphylococcus.agnetis.001442815.02
+|  |                                    |  |                                 +--|
+|  |                                    |  |                                 |  |  +**Staphylococcus.hyicus.000816085.01
+|  |                                    |  |                                 |  +--|
+|  |                                    |  |                                 |     +**Staphylococcus.hyicus.900474585.01
+|  |                                    |  |                              +--|
+|  |                                    |  |                              |  |  +**Staphylococcus.hyicus.000816085.04
+|  |                                    |  |                              |  +--|
+|  |                                    |  |                              |     +**Staphylococcus.hyicus.900474585.04
+|  |                                    |  |                           +--|
+|  |                                    |  |                           |  |  +**Staphylococcus.hyicus.000816085.02
+|  |                                    |  |                           |  +--|
+|  |                                    |  |                           |     +**Staphylococcus.hyicus.900474585.02
+|  |                                    |  |                        +--|
+|  |                                    |  |                        |  +--Staphylococcus.agnetis.001442815.03
+|  |                                    |  |                     +--|
+|  |                                    |  |                     |  +--Staphylococcus.agnetis.001442815.00
+|  |                                    |  |              +------|
+|  |                                    |  |              |      +**Staphylococcus.agnetis.001442815.04
+|  |                                    |  |           +--|
+|  |                                    |  |           |  |             +**Staphylococcus.muscae.003019275.00
+|  |                                    |  |           |  |          +**|
+|  |                                    |  |           |  |          |  +**Staphylococcus.muscae.900187005.02
+|  |                                    |  |           |  |  +-------|
+|  |                                    |  |           |  |  |       |           +**Staphylococcus.muscae.003019275.01
+|  |                                    |  |           |  |  |       |        +**|
+|  |                                    |  |           |  |  |       |        |  +**Staphylococcus.muscae.900187005.03
+|  |                                    |  |           |  |  |       |     +--|
+|  |                                    |  |           |  |  |       |     |  |  +**Staphylococcus.muscae.003019275.02
+|  |                                    |  |           |  |  |       |     |  +--|
+|  |                                    |  |           |  |  |       |     |     +**Staphylococcus.muscae.900187005.04
+|  |                                    |  |           |  |  |       +-----|
+|  |                                    |  |           |  |  |             |   +**Staphylococcus.muscae.003019275.03
+|  |                                    |  |           |  |  |             +---|
+|  |                                    |  |           |  |  |                 +**Staphylococcus.muscae.900187005.00
+|  |                                    |  |           |  +--|
+|  |                                    |  |           |     |                     +**Staphylococcus.schleiferi.001188875.00
+|  |                                    |  |           |     |                  +--|
+|  |                                    |  |           |     |                  |  +--Staphylococcus.schleiferi.001188915.00
+|  |                                    |  |           |     |               +--|
+|  |                                    |  |           |     |               |  +**Staphylococcus.schleiferi.001188915.01
+|  |                                    |  |           |     |            +--|
+|  |                                    |  |           |     |            |  +**Staphylococcus.schleiferi.001188875.01
+|  |                                    |  |           |     |         +--|
+|  |                                    |  |           |     |         |  |     +--Staphylococcus.schleiferi.001548255.00
+|  |                                    |  |           |     |         |  |  +**|
+|  |                                    |  |           |     |         |  |  |  +--Staphylococcus.schleiferi.001548255.02
+|  |                                    |  |           |     |         |  +--|
+|  |                                    |  |           |     |         |     +--Staphylococcus.schleiferi.001548255.01
+|  |                                    |  |           |     |      +**|
+|  |                                    |  |           |     |      |  |  +--Staphylococcus.schleiferi.001188875.03
+|  |                                    |  |           |     |      |  +--|
+|  |                                    |  |           |     |      |     |     +--Staphylococcus.schleiferi.001188875.04
+|  |                                    |  |           |     |      |     |  +--|
+|  |                                    |  |           |     |      |     |  |  +**Staphylococcus.schleiferi.001188915.04
+|  |                                    |  |           |     |      |     +**|
+|  |                                    |  |           |     |      |        |  +--Staphylococcus.schleiferi.001548255.03
+|  |                                    |  |           |     |      |        +--|
+|  |                                    |  |           |     |      |           +**Staphylococcus.schleiferi.001548255.04
+|  |                                    |  |           |     |  +---|
+|  |                                    |  |           |     |  |   |  +**Staphylococcus.schleiferi.001188875.02
+|  |                                    |  |           |     |  |   +--|
+|  |                                    |  |           |     |  |      +--Staphylococcus.schleiferi.001188915.02
+|  |                                    |  |           |     +--|
+|  |                                    |  |           |        |           +--Staphylococcus.lutrae.002101335.00
+|  |                                    |  |           |        |        +--|
+|  |                                    |  |           |        |        |  |  +--Staphylococcus.lutrae.002101335.01
+|  |                                    |  |           |        |        |  +--|
+|  |                                    |  |           |        |        |     +**Staphylococcus.lutrae.002101335.02
+|  |                                    |  |           |        |  +-----|
+|  |                                    |  |           |        |  |     +--Staphylococcus.lutrae.002101335.03
+|  |                                    |  |           |        +--|
+|  |                                    |  |           |           |  +**Staphylococcus.pseudintermedius.001682435.00
+|  |                                    |  |           |           +--|
+|  |                                    |  |           |              |     +--Staphylococcus.pseudintermedius.001682435.01
+|  |                                    |  |           |              |  +--|
+|  |                                    |  |           |              |  |  +-----Staphylococcus.pseudintermedius.001682435.06
+|  |                                    |  |           |              +--|
+|  |                                    |  |           |                 +--Staphylococcus.pseudintermedius.001682435.02
+|  |                                    |  +-----------|
+|  |                                    |              |         +--Staphylococcus.felis.003012915.00
+|  |                                    |              |      +--|
+|  |                                    |              |      |  |  +**Staphylococcus.felis.003012915.02
+|  |                                    |              |      |  +--|
+|  |                                    |              |      |     +--Staphylococcus.felis.003012915.04
+|  |                                    |              +------|
+|  |                                    |                     +--Staphylococcus.felis.003012915.03
+|  |                                 +--|
+|  |                                 |  |                                +**Staphylococcus.xylosus.000706685.01
+|  |                                 |  |                             +**|
+|  |                                 |  |                             |  +**Staphylococcus.xylosus.000706685.02
+|  |                                 |  |                          +--|
+|  |                                 |  |                          |  +--Staphylococcus.xylosus.000706685.03
+|  |                                 |  |                       +--|
+|  |                                 |  |                       |  |  +--Staphylococcus.xylosus.000709415.02
+|  |                                 |  |                       |  +**|
+|  |                                 |  |                       |     +--Staphylococcus.xylosus.000953575.02
+|  |                                 |  |                    +--|
+|  |                                 |  |                    |  +--Staphylococcus.xylosus.000953575.03
+|  |                                 |  |                 +--|
+|  |                                 |  |                 |  |     +**Staphylococcus.xylosus.000709415.00
+|  |                                 |  |                 |  |  +**|
+|  |                                 |  |                 |  |  |  +--Staphylococcus.xylosus.000709415.01
+|  |                                 |  |                 |  +--|
+|  |                                 |  |                 |     |  +**Staphylococcus.xylosus.000953575.00
+|  |                                 |  |                 |     +--|
+|  |                                 |  |                 |        +**Staphylococcus.xylosus.000953575.01
+|  |                                 |  |              +--|
+|  |                                 |  |              |  |        +--Staphylococcus.saprophyticus.001558375.00
+|  |                                 |  |              |  |     +--|
+|  |                                 |  |              |  |     |  +--Staphylococcus.saprophyticus.001558375.04
+|  |                                 |  |              |  |  +**|
+|  |                                 |  |              |  |  |  +--Staphylococcus.saprophyticus.001558375.01
+|  |                                 |  |              |  +--|
+|  |                                 |  |              |     +--Staphylococcus.saprophyticus.001558375.02
+|  |                                 |  |           +--|
+|  |                                 |  |           |  |            +--Staphylococcus.succinus.001902315.00
+|  |                                 |  |           |  |         +**|
+|  |                                 |  |           |  |         |  +**Staphylococcus.succinus.001902315.03
+|  |                                 |  |           |  |      +--|
+|  |                                 |  |           |  |      |  +--Staphylococcus.succinus.001902315.01
+|  |                                 |  |           |  |  +---|
+|  |                                 |  |           |  |  |   +**Staphylococcus.succinus.001902315.04
+|  |                                 |  |           |  +--|
+|  |                                 |  |           |     |                  +--Staphylococcus.equorum_B.001432245.00
+|  |                                 |  |           |     |               +--|
+|  |                                 |  |           |     |               |  +--Staphylococcus.equorum_B.001432245.01
+|  |                                 |  |           |     |            +--|
+|  |                                 |  |           |     |            |  +--Staphylococcus.equorum_B.001432245.05
+|  |                                 |  |           |     |         +--|
+|  |                                 |  |           |     |         |  |     +--Staphylococcus.equorum_B.001432245.04
+|  |                                 |  |           |     |         |  |  +**|
+|  |                                 |  |           |     |         |  |  |  +--Staphylococcus.equorum_B.001663395.00
+|  |                                 |  |           |     |         |  +--|
+|  |                                 |  |           |     |         |     |     +--Staphylococcus.equorum_B.001663395.03
+|  |                                 |  |           |     |         |     |  +--|
+|  |                                 |  |           |     |         |     |  |  +**Staphylococcus.equorum_B.001663395.04
+|  |                                 |  |           |     |         |     +**|
+|  |                                 |  |           |     |         |        +**Staphylococcus.equorum_B.001663395.05
+|  |                                 |  |           |     |      +--|
+|  |                                 |  |           |     |      |  |  +--Staphylococcus.equorum_B.001682235.03
+|  |                                 |  |           |     |      |  +**|
+|  |                                 |  |           |     |      |     +--Staphylococcus.equorum_B.001682235.04
+|  |                                 |  |           |     +------|
+|  |                                 |  |           |            |     +--Staphylococcus.equorum_B.001432245.03
+|  |                                 |  |           |            |  +--|
+|  |                                 |  |           |            |  |  +--Staphylococcus.equorum_B.001663395.01
+|  |                                 |  |           |            +--|
+|  |                                 |  |           |               +--Staphylococcus.equorum_B.001682235.02
+|  |                                 |  |      +----|
+|  |                                 |  |      |    |        +--Staphylococcus.cohnii_A.002984565.01
+|  |                                 |  |      |    |     +--|
+|  |                                 |  |      |    |     |  |  +--Staphylococcus.cohnii_A.002984565.02
+|  |                                 |  |      |    |     |  +--|
+|  |                                 |  |      |    |     |     +--Staphylococcus.cohnii_A.002984565.03
+|  |                                 |  |      |    |  +--|
+|  |                                 |  |      |    |  |  +--Staphylococcus.cohnii_A.002984565.04
+|  |                                 |  |      |    +--|
+|  |                                 |  |      |       |           +--Staphylococcus.nepalensis.002442895.00
+|  |                                 |  |      |       |        +--|
+|  |                                 |  |      |       |        |  +--Staphylococcus.nepalensis.003097555.00
+|  |                                 |  |      |       |     +--|
+|  |                                 |  |      |       |     |  |  +--Staphylococcus.nepalensis.002442895.04
+|  |                                 |  |      |       |     |  +--|
+|  |                                 |  |      |       |     |     +--Staphylococcus.nepalensis.003097555.04
+|  |                                 |  |      |       |  +--|
+|  |                                 |  |      |       |  |  |  +--Staphylococcus.nepalensis.002442895.01
+|  |                                 |  |      |       |  |  +--|
+|  |                                 |  |      |       |  |     +--Staphylococcus.nepalensis.003097555.01
+|  |                                 |  |      |       +--|
+|  |                                 |  |      |          |  +--Staphylococcus.nepalensis.002442895.02
+|  |                                 |  |      |          +--|
+|  |                                 |  |      |             +--Staphylococcus.nepalensis.003097555.02
+|  |                                 |  |  +---|
+|  |                                 |  |  |   |               +--Staphylococcus.kloosii.003019255.00
+|  |                                 |  |  |   |            +--|
+|  |                                 |  |  |   |            |  |  +--Staphylococcus.kloosii.003019255.02
+|  |                                 |  |  |   |            |  +--|
+|  |                                 |  |  |   |            |     +--Staphylococcus.kloosii.003019255.04
+|  |                                 |  |  |   |         +**|
+|  |                                 |  |  |   |         |  +--Staphylococcus.kloosii.003019255.01
+|  |                                 |  |  |   +---------|
+|  |                                 |  |  |             +--Staphylococcus.kloosii.003019255.03
+|  |                                 |  +--|
+|  |                                 |     |                 +--Staphylococcus.auricularis.900478415.00
+|  |                                 |     |              +--|
+|  |                                 |     |              |  +--Staphylococcus.auricularis.900478415.03
+|  |                                 |     |           +--|
+|  |                                 |     |           |  +--Staphylococcus.auricularis.900478415.04
+|  |                                 |     |  +--------|
+|  |                                 |     |  |        |  +**Staphylococcus.auricularis.900478415.01
+|  |                                 |     |  |        +--|
+|  |                                 |     |  |           +--Staphylococcus.auricularis.900478415.02
+|  |                                 |     +--|
+|  |                                 |        |             +--Staphylococcus.pettenkoferi.002208805.00
+|  |                                 |        +-------------|
+|  |                                 |                      |         +--Staphylococcus.pettenkoferi.002208805.01
+|  |                                 |                      |      +--|
+|  |                                 |                      |      |  +--Staphylococcus.pettenkoferi.002208805.02
+|  |                                 |                      +------|
+|  |                                 |                             +--Staphylococcus.pettenkoferi.002208805.03
+|  |                             +---|
+|  |                             |   |                                    +--Staphylococcus_A.sciuri.002209165.00
+|  |                             |   |                                 +**|
+|  |                             |   |                                 |  +--Staphylococcus_A.sciuri.002209165.01
+|  |                             |   |                              +--|
+|  |                             |   |                              |  +--Staphylococcus_A.sciuri.900474615.00
+|  |                             |   |                           +--|
+|  |                             |   |                           |  |        +--Staphylococcus_A.sciuri.002209165.02
+|  |                             |   |                           |  |     +--|
+|  |                             |   |                           |  |     |  +--Staphylococcus_A.sciuri.900474615.02
+|  |                             |   |                           |  |  +--|
+|  |                             |   |                           |  |  |  |  +--Staphylococcus_A.sciuri.900474615.01
+|  |                             |   |                           |  |  |  +**|
+|  |                             |   |                           |  |  |     +--Staphylococcus_A.sciuri.900474615.04
+|  |                             |   |                           |  +--|
+|  |                             |   |                           |     +--Staphylococcus_A.sciuri.002209165.04
+|  |                             |   +---------------------------|
+|  |                             |                               |      +**Staphylococcus_A.stepanovicii.900187075.00
+|  |                             |                               |   +--|
+|  |                             |                               |   |  |  +--Staphylococcus_A.stepanovicii.900187075.01
+|  |                             |                               |   |  +--|
+|  |                             |                               |   |     +--Staphylococcus_A.stepanovicii.900187075.04
+|  |                             |                               +---|
+|  |                             |                                   +--Staphylococcus_A.stepanovicii.900187075.02
+|  |                          +--|
+|  |                          |  |              +--Staphylococcus.haemolyticus.001611955.00
+|  |                          |  |           +--|
+|  |                          |  |           |  +--Staphylococcus.haemolyticus.001611955.04
+|  |                          |  |        +--|
+|  |                          |  |        |  |     +--Staphylococcus.haemolyticus.001611955.03
+|  |                          |  |        |  |  +--|
+|  |                          |  |        |  |  |  +--Staphylococcus.haemolyticus.002906615.01
+|  |                          |  |        |  +--|
+|  |                          |  |        |     |  +--Staphylococcus.haemolyticus.002906615.00
+|  |                          |  |        |     +--|
+|  |                          |  |        |        +--Staphylococcus.haemolyticus.002906615.04
+|  |                          |  |  +-----|
+|  |                          |  |  |     |  +--Staphylococcus.haemolyticus.001611955.02
+|  |                          |  |  |     +--|
+|  |                          |  |  |        +--Staphylococcus.haemolyticus.002906615.02
+|  |                          |  +--|
+|  |                          |     |             +--Staphylococcus.lugdunensis.000270465.00
+|  |                          |     |          +--|
+|  |                          |     |          |  |     +--Staphylococcus.lugdunensis.000270465.01
+|  |                          |     |          |  |  +--|
+|  |                          |     |          |  |  |  |  +**Staphylococcus.lugdunensis.000270465.04
+|  |                          |     |          |  |  |  +--|
+|  |                          |     |          |  |  |     +--Staphylococcus.lugdunensis.000270465.05
+|  |                          |     |          |  +--|
+|  |                          |     |          |     +--Staphylococcus.lugdunensis.002250095.05
+|  |                          |     |       +--|
+|  |                          |     |       |  |  +--Staphylococcus.lugdunensis.002250095.00
+|  |                          |     |       |  +--|
+|  |                          |     |       |     +--Staphylococcus.lugdunensis.002250095.01
+|  |                          |     |    +--|
+|  |                          |     |    |  |  +--Staphylococcus.lugdunensis.002250095.03
+|  |                          |     |    |  +--|
+|  |                          |     |    |     +--Staphylococcus.lugdunensis.002250095.04
+|  |                          |     +----|
+|  |                          |          +--Staphylococcus.lugdunensis.002250095.02
+|  |                       +--|
+|  |                       |  |                            +**Staphylococcus.warneri.000332735.00
+|  |                       |  |                         +**|
+|  |                       |  |                         |  +**Staphylococcus.warneri.000332735.02
+|  |                       |  |                      +**|
+|  |                       |  |                      |  +--Staphylococcus.warneri.000332735.01
+|  |                       |  |                   +--|
+|  |                       |  |                   |  +--Staphylococcus.warneri.000332735.04
+|  |                       |  |                +--|
+|  |                       |  |                |  +**Staphylococcus.warneri.000332735.03
+|  |                       |  |             +**|
+|  |                       |  |             |  +--Staphylococcus.warneri.000494875.01
+|  |                       |  |          +--|
+|  |                       |  |          |  +--Staphylococcus.warneri.000494875.04
+|  |                       |  |     +----|
+|  |                       |  |     |    |     +--Staphylococcus.pasteuri.002442915.00
+|  |                       |  |     |    |  +--|
+|  |                       |  |     |    |  |  +--Staphylococcus.pasteuri.002442915.01
+|  |                       |  |     |    +--|
+|  |                       |  |     |       +--Staphylococcus.pasteuri.002442915.04
+|  |                       |  |  +--|
+|  |                       |  |  |  +--Staphylococcus.warneri.000494875.02
+|  |                       |  +--|
+|  |                       |     |     +--Staphylococcus.warneri.000494875.00
+|  |                       |     |  +--|
+|  |                       |     |  |  +--Staphylococcus.warneri.000494875.03
+|  |                       |     +--|
+|  |                       |        +--Staphylococcus.pasteuri.002442915.02
+|  |                 +-----|
+|  |                 |     |   +--Staphylococcus.epidermidis.002850315.00
+|  |                 |     +---|
+|  |                 |         |  +--Staphylococcus.epidermidis.002850315.02
+|  |                 |         +**|
+|  |                 |            |  +--Staphylococcus.epidermidis.002850315.03
+|  |                 |            +**|
+|  |                 |               +--Staphylococcus.epidermidis.002850315.04
+|  |              +--|
+|  |              |  |     +--Staphylococcus.simiae.900187055.00
+|  |              |  |  +**|
+|  |              |  |  |  +--Staphylococcus.simiae.900187055.02
+|  |              |  +--|
+|  |              |     |  +--Staphylococcus.simiae.900187055.03
+|  |              |     +--|
+|  |              |        +--Staphylococcus.simiae.900187055.04
+|  |           +--|
+|  |           |  +--Staphylococcus.argenteus.002812345.00
+|  |        +**|
+|  |        |  +--Staphylococcus.argenteus.000236925.00
+|  |     +--|
+|  |     |  |  +--Staphylococcus.argenteus.000236925.03
+|  |     |  +--|
+|  |     |     +--Staphylococcus.argenteus.000236925.04
+|  |  +**|
+|  |  |  +--Staphylococcus.argenteus.002812345.01
+|  +--|
+|     +--Staphylococcus.argenteus.000236925.01
+|
+|  +--Staphylococcus.argenteus.000236925.02
++--|
+   +--Staphylococcus.argenteus.002812345.02
+
+Tree in newick format:
+
+(Staphylococcus.aureus.001018685.00:0.0049584987,(((((Staphylococcus.aureus.001018685.01:0.0008290597,Staphylococcus.aureus.001018685.02:0.0006888250):0.0040853557,Staphylococcus.aureus.001018685.03:0.0024418687):0.0042764745,Staphylococcus.argenteus.002812345.04:0.0063345478):0.0118966186,Staphylococcus.argenteus.002812345.03:0.0011536778):0.0182906365,((((((((((((((((((Staphylococcus.carnosus.000009405.00:0.0016847800,(Staphylococcus.carnosus.000009405.01:0.0023212939,(((Staphylococcus.carnosus.000009405.02:0.0031326097,Staphylococcus.carnosus.000009405.04:0.0094788400):0.0004399587,Staphylococcus.carnosus.001701005.02:0.0000020783):0.0047038968,(Staphylococcus.carnosus.001701005.00:0.0000029571,Staphylococcus.carnosus.001701005.04:0.0005566528):0.0005572034):0.0000021262):0.0013033259):0.0048697308,(Staphylococcus.condimenti.001618885.03:0.0011155632,Staphylococcus.condimenti.001922405.00:0.0000024968):0.0022415442):0.0015732459,((Staphylococcus.condimenti.001618885.00:0.0004412417,Staphylococcus.condimenti.001922405.02:0.0104020746):0.0052046921,Staphylococcus.condimenti.001922405.03:0.0056138095):0.0026188150):0.0010947299,Staphylococcus.condimenti.001922405.04:0.0000025288):0.0004571086,Staphylococcus.condimenti.001618885.02:0.0000021018):0.0105574625,(Staphylococcus.piscifermentans.900186985.00:0.0006532048,(Staphylococcus.piscifermentans.900186985.02:0.0068257641,Staphylococcus.piscifermentans.900186985.04:0.0011440398):0.0008247184):0.0041675137):0.0782916012,((((((((((Staphylococcus.hyicus.000816085.00:0.0000021431,Staphylococcus.hyicus.900474585.00:0.0000021431):0.0011729970,(Staphylococcus.agnetis.001442815.01:0.0003955399,Staphylococcus.agnetis.001442815.02:0.0003929088):0.0088554965):0.0007505407,(Staphylococcus.hyicus.000816085.01:0.0000021431,Staphylococcus.hyicus.900474585.01:0.0000021431):0.0016581853):0.0142716974,(Staphylococcus.hyicus.000816085.04:0.0000021431,Staphylococcus.hyicus.900474585.04:0.0000021431):0.0003815694):0.0019735523,(Staphylococcus.hyicus.000816085.02:0.0000025417,Staphylococcus.hyicus.900474585.02:0.0000020592):0.0035742400):0.0042949918,Staphylococcus.agnetis.001442815.03:0.0037771702):0.0032884985,Staphylococcus.agnetis.001442815.00:0.0024036726):0.0017868461,Staphylococcus.agnetis.001442815.04:0.0000025339):0.0420115984,(((Staphylococcus.muscae.003019275.00:0.0000021431,Staphylococcus.muscae.900187005.02:0.0000021431):0.0000020148,(((Staphylococcus.muscae.003019275.01:0.0000021431,Staphylococcus.muscae.900187005.03:0.0000021431):0.0000022678,(Staphylococcus.muscae.003019275.02:0.0000026097,Staphylococcus.muscae.900187005.04:0.0000021431):0.0023637637):0.0051717407,(Staphylococcus.muscae.003019275.03:0.0000021431,Staphylococcus.muscae.900187005.00:0.0000021431):0.0238279745):0.0332419815):0.0454291614,(((((((Staphylococcus.schleiferi.001188875.00:0.0000021314,Staphylococcus.schleiferi.001188915.00:0.0005435980):0.0010870108,Staphylococcus.schleiferi.001188915.01:0.0000029250):0.0005434433,Staphylococcus.schleiferi.001188875.01:0.0000020560):0.0005515242,((Staphylococcus.schleiferi.001548255.00:0.0021791204,Staphylococcus.schleiferi.001548255.02:0.0025646396):0.0000024405,Staphylococcus.schleiferi.001548255.01:0.0016223088):0.0008525037):0.0004219287,(Staphylococcus.schleiferi.001188875.03:0.0015655792,((Staphylococcus.schleiferi.001188875.04:0.0016090826,Staphylococcus.schleiferi.001188915.04:0.0000028812):0.0005363858,(Staphylococcus.schleiferi.001548255.03:0.0006027617,Staphylococcus.schleiferi.001548255.04:0.0000022318):0.0018127369):0.0000029488):0.0045960755):0.0000028758,(Staphylococcus.schleiferi.001188875.02:0.0000022222,Staphylococcus.schleiferi.001188915.02:0.0004265027):0.0008508645):0.0214727477,(((Staphylococcus.lutrae.002101335.00:0.0063328488,(Staphylococcus.lutrae.002101335.01:0.0005641741,Staphylococcus.lutrae.002101335.02:0.0000021431):0.0005754227):0.0003491145,Staphylococcus.lutrae.002101335.03:0.0024476742):0.0355475116,(Staphylococcus.pseudintermedius.001682435.00:0.0000027920,((Staphylococcus.pseudintermedius.001682435.01:0.0005141901,Staphylococcus.pseudintermedius.001682435.06:0.0334270081):0.0004255303,Staphylococcus.pseudintermedius.001682435.02:0.0091670542):0.0007083685):0.0121843548):0.0106392810):0.0096924741):0.0117752663):0.0198872827,((Staphylococcus.felis.003012915.00:0.0008889266,(Staphylococcus.felis.003012915.02:0.0000021431,Staphylococcus.felis.003012915.04:0.0004381784):0.0004261685):0.0039686978,Staphylococcus.felis.003012915.03:0.0041043527):0.0389262107):0.0643762326):0.0154366145,((((((((((Staphylococcus.xylosus.000706685.01:0.0000021431,Staphylococcus.xylosus.000706685.02:0.0000021431):0.0000020859,Staphylococcus.xylosus.000706685.03:0.0004157396):0.0012477725,(Staphylococcus.xylosus.000709415.02:0.0008318911,Staphylococcus.xylosus.000953575.02:0.0008317330):0.0000022866):0.0018537376,Staphylococcus.xylosus.000953575.03:0.0024033868):0.0019612890,((Staphylococcus.xylosus.000709415.00:0.0000021431,Staphylococcus.xylosus.000709415.01:0.0005124261):0.0000020297,(Staphylococcus.xylosus.000953575.00:0.0000027759,Staphylococcus.xylosus.000953575.01:0.0000021431):0.0005089684):0.0004548443):0.0060749360,(((Staphylococcus.saprophyticus.001558375.00:0.0030846923,Staphylococcus.saprophyticus.001558375.04:0.0005142875):0.0005098803,Staphylococcus.saprophyticus.001558375.01:0.0005120598):0.0000025654,Staphylococcus.saprophyticus.001558375.02:0.0048050018):0.0109527510):0.0140352270,((((Staphylococcus.succinus.001902315.00:0.0005091447,Staphylococcus.succinus.001902315.03:0.0000027904):0.0000023888,Staphylococcus.succinus.001902315.01:0.0073978112):0.0004856987,Staphylococcus.succinus.001902315.04:0.0000020153):0.0232203272,(((((Staphylococcus.equorum_B.001432245.00:0.0010175642,Staphylococcus.equorum_B.001432245.01:0.0005091930):0.0010185531,Staphylococcus.equorum_B.001432245.05:0.0010191540):0.0005074874,((Staphylococcus.equorum_B.001432245.04:0.0010189292,Staphylococcus.equorum_B.001663395.00:0.0119678840):0.0000026986,((Staphylococcus.equorum_B.001663395.03:0.0020390303,Staphylococcus.equorum_B.001663395.04:0.0000024467):0.0005083106,Staphylococcus.equorum_B.001663395.05:0.0000021431):0.0000028321):0.0005091271):0.0010166280,(Staphylococcus.equorum_B.001682235.03:0.0005082387,Staphylococcus.equorum_B.001682235.04:0.0020352933):0.0000020552):0.0022058300,((Staphylococcus.equorum_B.001432245.03:0.0004114807,Staphylococcus.equorum_B.001663395.01:0.0008291804):0.0012694124,Staphylococcus.equorum_B.001682235.02:0.0012107704):0.0007914559):0.0379716970):0.0049669180):0.0170784159,(((Staphylococcus.cohnii_A.002984565.01:0.0015520008,(Staphylococcus.cohnii_A.002984565.02:0.0005158588,Staphylococcus.cohnii_A.002984565.03:0.0005156155):0.0005124834):0.0012820653,Staphylococcus.cohnii_A.002984565.04:0.0024661447):0.0080505680,((((Staphylococcus.nepalensis.002442895.00:0.0005967666,Staphylococcus.nepalensis.003097555.00:0.0014667400):0.0005162740,(Staphylococcus.nepalensis.002442895.04:0.0016305880,Staphylococcus.nepalensis.003097555.04:0.0014659875):0.0005160506):0.0005195018,(Staphylococcus.nepalensis.002442895.01:0.0010312343,Staphylococcus.nepalensis.003097555.01:0.0010315537):0.0005943855):0.0010970273,(Staphylococcus.nepalensis.002442895.02:0.0012552773,Staphylococcus.nepalensis.003097555.02:0.0008306667):0.0013771504):0.0114046789):0.0204795421):0.0286865925,(((Staphylococcus.kloosii.003019255.00:0.0023963223,(Staphylococcus.kloosii.003019255.02:0.0024145751,Staphylococcus.kloosii.003019255.04:0.0025577884):0.0011949629):0.0005627174,Staphylococcus.kloosii.003019255.01:0.0017044808):0.0000024786,Staphylococcus.kloosii.003019255.03:0.0008860513):0.0551781641):0.0229701869,((((Staphylococcus.auricularis.900478415.00:0.0111986254,Staphylococcus.auricularis.900478415.03:0.0049358723):0.0005754181,Staphylococcus.auricularis.900478415.04:0.0013825704):0.0008726212,(Staphylococcus.auricularis.900478415.01:0.0000021274,Staphylococcus.auricularis.900478415.02:0.0005773333):0.0012151206):0.0528751578,(Staphylococcus.pettenkoferi.002208805.00:0.0039779566,((Staphylococcus.pettenkoferi.002208805.01:0.0037391820,Staphylococcus.pettenkoferi.002208805.02:0.0037483445):0.0020438153,Staphylococcus.pettenkoferi.002208805.03:0.0002950456):0.0400071376):0.0766340673):0.0188060969):0.0102929628):0.0137703571,((((Staphylococcus_A.sciuri.002209165.00:0.0106415827,Staphylococcus_A.sciuri.002209165.01:0.0004771261):0.0000026326,Staphylococcus_A.sciuri.900474615.00:0.0023745374):0.0050870607,(((Staphylococcus_A.sciuri.002209165.02:0.0017076100,Staphylococcus_A.sciuri.900474615.02:0.0012801519):0.0005012231,(Staphylococcus_A.sciuri.900474615.01:0.0005310463,Staphylococcus_A.sciuri.900474615.04:0.0005309799):0.0000022843):0.0005115140,Staphylococcus_A.sciuri.002209165.04:0.0005211700):0.0034154061):0.0125178502,((Staphylococcus_A.stepanovicii.900187075.00:0.0000020212,(Staphylococcus_A.stepanovicii.900187075.01:0.0005315157,Staphylococcus_A.stepanovicii.900187075.04:0.0010041653):0.0005008816):0.0015654288,Staphylococcus_A.stepanovicii.900187075.02:0.0009379604):0.0261305627):0.1516283791):0.0261696391,((((Staphylococcus.haemolyticus.001611955.00:0.0009551631,Staphylococcus.haemolyticus.001611955.04:0.0009564521):0.0006528768,((Staphylococcus.haemolyticus.001611955.03:0.0008352387,Staphylococcus.haemolyticus.002906615.01:0.0004244199):0.0096193250,(Staphylococcus.haemolyticus.002906615.00:0.0009564209,Staphylococcus.haemolyticus.002906615.04:0.0004793484):0.0009220101):0.0008953320):0.0190942155,(Staphylococcus.haemolyticus.001611955.02:0.0018196008,Staphylococcus.haemolyticus.002906615.02:0.0029277217):0.0019938982):0.0331268204,((((Staphylococcus.lugdunensis.000270465.00:0.0018005754,((Staphylococcus.lugdunensis.000270465.01:0.0032496730,(Staphylococcus.lugdunensis.000270465.04:0.0000027227,Staphylococcus.lugdunensis.000270465.05:0.0016257123):0.0003195823):0.0003245460,Staphylococcus.lugdunensis.002250095.05:0.0017359854):0.0006408088):0.0002721737,(Staphylococcus.lugdunensis.002250095.00:0.0016587332,Staphylococcus.lugdunensis.002250095.01:0.0008862080):0.0029782728):0.0160322107,(Staphylococcus.lugdunensis.002250095.03:0.0003059057,Staphylococcus.lugdunensis.002250095.04:0.0052326668):0.0008865037):0.0012546675,Staphylococcus.lugdunensis.002250095.02:0.0058796443):0.0284500549):0.0095947117):0.0032107406,(((((((((Staphylococcus.warneri.000332735.00:0.0000021431,Staphylococcus.warneri.000332735.02:0.0000021431):0.0000021431,Staphylococcus.warneri.000332735.01:0.0004673053):0.0000025988,Staphylococcus.warneri.000332735.04:0.0009356064):0.0004672432,Staphylococcus.warneri.000332735.03:0.0000029559):0.0034557390,Staphylococcus.warneri.000494875.01:0.0009366748):0.0000027282,Staphylococcus.warneri.000494875.04:0.0009336343):0.0055942132,((Staphylococcus.pasteuri.002442915.00:0.0004744712,Staphylococcus.pasteuri.002442915.01:0.0018728393):0.0008812914,Staphylococcus.pasteuri.002442915.04:0.0033012877):0.0185318630):0.0314262103,Staphylococcus.warneri.000494875.02:0.0009334981):0.0019574538,((Staphylococcus.warneri.000494875.00:0.0008896912,Staphylococcus.warneri.000494875.03:0.0004455103):0.0010473880,Staphylococcus.pasteuri.002442915.02:0.0130919599):0.0038393226):0.0200821470):0.0061562735,(Staphylococcus.epidermidis.002850315.00:0.0010663744,(Staphylococcus.epidermidis.002850315.02:0.0020710263,(Staphylococcus.epidermidis.002850315.03:0.0032156006,Staphylococcus.epidermidis.002850315.04:0.0016090737):0.0000027900):0.0000020507):0.0213305973):0.0338061388,((Staphylococcus.simiae.900187055.00:0.0022323602,Staphylococcus.simiae.900187055.02:0.0032815537):0.0000020098,(Staphylococcus.simiae.900187055.03:0.0015399250,Staphylococcus.simiae.900187055.04:0.0052697336):0.0005183506):0.0130457039):0.0166027290,Staphylococcus.argenteus.002812345.00:0.0009660677):0.0008270714,Staphylococcus.argenteus.000236925.00:0.0004604350):0.0000021142,(Staphylococcus.argenteus.000236925.03:0.0004504966,Staphylococcus.argenteus.000236925.04:0.0018270262):0.0013580837):0.0017546073,Staphylococcus.argenteus.002812345.01:0.0015935546):0.0000027116,Staphylococcus.argenteus.000236925.01:0.0107933360):0.0022993640):0.0012249711,(Staphylococcus.argenteus.000236925.02:0.0041131189,Staphylococcus.argenteus.002812345.02:0.0016983308):0.0016839526);
+
+TIME STAMP
+----------
+
+Date and time: Tue Sep 10 15:28:48 2019
+Total CPU time used: 2347.38 seconds (0h:39m:7s)
+Total wall-clock time used: 306.511 seconds (0h:5m:6s)
+

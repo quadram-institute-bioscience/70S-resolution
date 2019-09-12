@@ -1,0 +1,449 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: ./026_results/5S_long.fasta
+Type of analysis: tree reconstruction
+Random seed number: 873812
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 691 sequences with 128 nucleotide sites
+Number of constant sites: 37 (= 28.9062% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 37 (= 28.9062% of all sites)
+Number of parsimony informative sites: 80
+Number of distinct site patterns: 101
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.4414
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.4414
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2397
+  pi(C) = 0.2564
+  pi(G) = 0.2923
+  pi(T) = 0.2116
+
+Rate matrix Q:
+
+  A    -1.069     0.232    0.6457    0.1915
+  C     0.217    -0.949    0.2645    0.4676
+  G    0.5297     0.232   -0.9532    0.1915
+  T     0.217    0.5664    0.2645    -1.048
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.317
+
+ Category  Relative_rate  Proportion
+  1         0.1956         0.25
+  2         0.5549         0.25
+  3         1.038          0.25
+  4         2.212          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1383.5469 (s.e. 105.0922)
+Unconstrained log-likelihood (without tree): -561.3239
+Number of free parameters (#branches + #model parameters): 328
+Akaike information criterion (AIC) score: 3423.0938
+Corrected Akaike information criterion (AICc) score: 219247.0938
+Bayesian information criterion (BIC) score: 4358.5597
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 328
+Sample size (n, alignment length): 128
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 2.3924
+Sum of internal branch lengths: 1.6604 (69.4005% of tree length)
+
+WARNING: 93 near-zero internal branches (<0.0078) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Escherichia.flexneri.003017975' is drawn at root
+
++**Escherichia.flexneri.003017975
+|
+|                    +**Klebsiella.pneumoniae.000445405
+|                 +**|
+|                 |  +--Klebsiella.quasipneumoniae.003146635
+|              +--|
+|              |  +**Klebsiella.pneumoniae.001956965
+|           +**|
+|           |  |                                                                            +**Streptococcus.intermedius.000463385
+|           |  |                                                                         +--|
+|           |  |                                                                         |  +**Streptococcus.intermedius.000306805
+|           |  |                                                                      +**|
+|           |  |                                                                      |  +--Streptococcus.intermedius.002073355
+|           |  |                                                                   +**|
+|           |  |                                                                   |  |  +**Streptococcus.intermedius.002356055
+|           |  |                                                                   |  +**|
+|           |  |                                                                   |     +**Streptococcus.intermedius.000463355
+|           |  |                                                                +**|
+|           |  |                                                                |  |                       +**Streptococcus.mutans.002995555
+|           |  |                                                                |  |                    +--|
+|           |  |                                                                |  |                    |  |  +**Streptococcus.mutans.000271865
+|           |  |                                                                |  |                    |  +**|
+|           |  |                                                                |  |                    |     +**Streptococcus.mutans.000007465
+|           |  |                                                                |  |                 +**|
+|           |  |                                                                |  |                 |  +--Streptococcus.mutans.900475095
+|           |  |                                                                |  |              +**|
+|           |  |                                                                |  |              |  +**Streptococcus.mutans.000284575
+|           |  |                                                                |  |           +--|
+|           |  |                                                                |  |           |  +**Streptococcus.mutans.000091645
+|           |  |                                                                |  |        +--|
+|           |  |                                                                |  |        |  |                 +**Streptococcus.pyogenes.900475155
+|           |  |                                                                |  |        |  |              +**|
+|           |  |                                                                |  |        |  |              |  +**Streptococcus.pyogenes.900474455
+|           |  |                                                                |  |        |  |           +**|
+|           |  |                                                                |  |        |  |           |  +**Streptococcus.pyogenes.000743015
+|           |  |                                                                |  |        |  |        +**|
+|           |  |                                                                |  |        |  |        |  +--Streptococcus.pyogenes.000732425
+|           |  |                                                                |  |        |  |     +**|
+|           |  |                                                                |  |        |  |     |  +--Streptococcus.pyogenes.900474975
+|           |  |                                                                |  |        |  |  +--|
+|           |  |                                                                |  |        |  |  |  +--Streptococcus.pyogenes.900475425
+|           |  |                                                                |  |        |  +--|
+|           |  |                                                                |  |        |     +**Streptococcus.pyogenes.001267805
+|           |  |                                                                |  |     +--|
+|           |  |                                                                |  |     |  |                       +**Streptococcus.suis.001572685
+|           |  |                                                                |  |     |  |                    +**|
+|           |  |                                                                |  |     |  |                    |  +**Streptococcus.suis.000026745
+|           |  |                                                                |  |     |  |                 +**|
+|           |  |                                                                |  |     |  |                 |  |           +**Streptococcus.uberis.000009545
+|           |  |                                                                |  |     |  |                 |  |        +**|
+|           |  |                                                                |  |     |  |                 |  |        |  +**Streptococcus.uberis.002814135
+|           |  |                                                                |  |     |  |                 |  |     +--|
+|           |  |                                                                |  |     |  |                 |  |     |  |  +**Streptococcus.equi.000026605
+|           |  |                                                                |  |     |  |                 |  |     |  +--|
+|           |  |                                                                |  |     |  |                 |  |     |     +**Streptococcus.equi.900475435
+|           |  |                                                                |  |     |  |                 |  |  +--|
+|           |  |                                                                |  |     |  |                 |  |  |  |  +**Streptococcus.iniae.002787125
+|           |  |                                                                |  |     |  |                 |  |  |  +**|
+|           |  |                                                                |  |     |  |                 |  |  |     +**Streptococcus.iniae.000831485
+|           |  |                                                                |  |     |  |                 |  +--|
+|           |  |                                                                |  |     |  |                 |     |  +**Streptococcus.dysgalactiae.900474785
+|           |  |                                                                |  |     |  |                 |     +**|
+|           |  |                                                                |  |     |  |                 |        +**Streptococcus.dysgalactiae.900475725
+|           |  |                                                                |  |     |  |              +**|
+|           |  |                                                                |  |     |  |              |  +--Streptococcus.suis.000018185
+|           |  |                                                                |  |     |  |           +**|
+|           |  |                                                                |  |     |  |           |  |                    +**Streptococcus.thermophilus.002286255
+|           |  |                                                                |  |     |  |           |  |                 +**|
+|           |  |                                                                |  |     |  |           |  |                 |  +--Streptococcus.thermophilus.000253395
+|           |  |                                                                |  |     |  |           |  |              +**|
+|           |  |                                                                |  |     |  |           |  |              |  +**Streptococcus.thermophilus.001705585
+|           |  |                                                                |  |     |  |           |  |           +**|
+|           |  |                                                                |  |     |  |           |  |           |  +**Streptococcus.thermophilus.002443035
+|           |  |                                                                |  |     |  |           |  |        +--|
+|           |  |                                                                |  |     |  |           |  |        |  |     +**Streptococcus.salivarius.002094955
+|           |  |                                                                |  |     |  |           |  |        |  |  +**|
+|           |  |                                                                |  |     |  |           |  |        |  |  |  +**Streptococcus.thermophilus.900094135
+|           |  |                                                                |  |     |  |           |  |        |  +--|
+|           |  |                                                                |  |     |  |           |  |        |     |     +**Streptococcus.lutetiensis.000441535
+|           |  |                                                                |  |     |  |           |  |        |     |  +**|
+|           |  |                                                                |  |     |  |           |  |        |     |  |  +**Streptococcus.lutetiensis.900475675
+|           |  |                                                                |  |     |  |           |  |        |     +--|
+|           |  |                                                                |  |     |  |           |  |        |        +--Streptococcus.lutetiensis.001477615
+|           |  |                                                                |  |     |  |           |  |     +--|
+|           |  |                                                                |  |     |  |           |  |     |  +-----Streptococcus.salivarius.001543085
+|           |  |                                                                |  |     |  |           |  |  +**|
+|           |  |                                                                |  |     |  |           |  |  |  |  +**Streptococcus.gallolyticus.000270145
+|           |  |                                                                |  |     |  |           |  |  |  +--|
+|           |  |                                                                |  |     |  |           |  |  |     +**Streptococcus.gallolyticus.000203195
+|           |  |                                                                |  |     |  |           |  +--|
+|           |  |                                                                |  |     |  |           |     +**Streptococcus.suis.000231905
+|           |  |                                                                |  |     |  |        +**|
+|           |  |                                                                |  |     |  |        |  +**Streptococcus.suis.000168355
+|           |  |                                                                |  |     |  |     +**|
+|           |  |                                                                |  |     |  |     |  |  +**Streptococcus.suis.001640765
+|           |  |                                                                |  |     |  |     |  +**|
+|           |  |                                                                |  |     |  |     |     +--Streptococcus.suis.003144175
+|           |  |                                                                |  |     |  |  +--|
+|           |  |                                                                |  |     |  |  |  +--Streptococcus.suis.000233575
+|           |  |                                                                |  |     |  +--|
+|           |  |                                                                |  |     |     |        +**Streptococcus.sobrinus.003176815
+|           |  |                                                                |  |     |     |     +**|
+|           |  |                                                                |  |     |     |     |  +**Streptococcus.sobrinus.003176795
+|           |  |                                                                |  |     |     |  +--|
+|           |  |                                                                |  |     |     |  |  |  +**Streptococcus.sobrinus.900475395
+|           |  |                                                                |  |     |     |  |  +--|
+|           |  |                                                                |  |     |     |  |     +**Streptococcus.sobrinus.003172975
+|           |  |                                                                |  |     |     +**|
+|           |  |                                                                |  |     |        +------Streptococcus.suis.000231885
+|           |  |                                                                |  |  +**|
+|           |  |                                                                |  |  |  +**Streptococcus.gordonii.000970665
+|           |  |                                                                |  +**|
+|           |  |                                                                |     +**Streptococcus.gordonii.002073435
+|           |  |                                                             +**|
+|           |  |                                                             |  |  +**Streptococcus.anginosus.000463505
+|           |  |                                                             |  +**|
+|           |  |                                                             |     +**Streptococcus.anginosus.000478925
+|           |  |                                                          +--|
+|           |  |                                                          |  |           +**Streptococcus.agalactiae.900155855
+|           |  |                                                          |  |        +**|
+|           |  |                                                          |  |        |  |     +**Streptococcus.agalactiae.002812425
+|           |  |                                                          |  |        |  |  +**|
+|           |  |                                                          |  |        |  |  |  +--Streptococcus.agalactiae.002881315
+|           |  |                                                          |  |        |  +**|
+|           |  |                                                          |  |        |     +**Streptococcus.agalactiae.001266635
+|           |  |                                                          |  |     +**|
+|           |  |                                                          |  |     |  +**Streptococcus.agalactiae.000007265
+|           |  |                                                          |  |  +--|
+|           |  |                                                          |  |  |  +**Streptococcus.agalactiae.001592425
+|           |  |                                                          |  +--|
+|           |  |                                                          |     |  +**Streptococcus.anginosus.000463465
+|           |  |                                                          |     +**|
+|           |  |                                                          |        +**Streptococcus.anginosus.001412635
+|           |  |                                    +---------------------|
+|           |  |                                    |                     |        +**Streptococcus.pneumoniae.000014365
+|           |  |                                    |                     |     +**|
+|           |  |                                    |                     |     |  +**Streptococcus.pneumoniae.000147095
+|           |  |                                    |                     |  +**|
+|           |  |                                    |                     |  |  +**Streptococcus.pneumoniae.000007045
+|           |  |                                    |                     +**|
+|           |  |                                    |                        |  +**Streptococcus.pneumoniae.001457635
+|           |  |                                    |                        +--|
+|           |  |                                    |                           +**Streptococcus.pneumoniae.000019005
+|           |  |                                 +--|
+|           |  |                                 |  |     +**Enterococcus_B.faecium.000336405
+|           |  |                                 |  |  +**|
+|           |  |                                 |  |  |  +**Enterococcus_B.faecium.003071445
+|           |  |                                 |  +**|
+|           |  |                                 |     +**Enterococcus_B.faecium.000174395
+|           |  |                           +-----|
+|           |  |                           |     |        +**Enterococcus.faecalis.002289045
+|           |  |                           |     |     +**|
+|           |  |                           |     |     |  +**Enterococcus.faecalis.002208945
+|           |  |                           |     |  +**|
+|           |  |                           |     |  |  +--Enterococcus.faecalis.000742975
+|           |  |                           |     +--|
+|           |  |                           |        +--Enterococcus.faecalis.000281195
+|           |  |              +------------|
+|           |  |              |            |                                 +**Staphylococcus.pseudintermedius.000185885
+|           |  |              |            |                              +**|
+|           |  |              |            |                              |  +**Staphylococcus.pseudintermedius.001685665
+|           |  |              |            |                           +--|
+|           |  |              |            |                           |  |  +**Staphylococcus.schleiferi.001188875
+|           |  |              |            |                           |  +--|
+|           |  |              |            |                           |     +**Staphylococcus.schleiferi.001188915
+|           |  |              |            |                        +--|
+|           |  |              |            |                        |  |     +**Staphylococcus.simulans.900474685
+|           |  |              |            |                        |  |  +--|
+|           |  |              |            |                        |  |  |  +**Staphylococcus.simulans.003096155
+|           |  |              |            |                        |  +**|
+|           |  |              |            |                        |     |  +**Staphylococcus.xylosus.000706685
+|           |  |              |            |                        |     +**|
+|           |  |              |            |                        |        +**Staphylococcus.xylosus.002078255
+|           |  |              |            |                     +--|
+|           |  |              |            |                     |  |     +**Staphylococcus.saprophyticus.001558375
+|           |  |              |            |                     |  |  +**|
+|           |  |              |            |                     |  |  |  +**Staphylococcus.saprophyticus.002209265
+|           |  |              |            |                     |  +**|
+|           |  |              |            |                     |     |  +**Staphylococcus.equorum_B.001682235
+|           |  |              |            |                     |     +--|
+|           |  |              |            |                     |        +**Staphylococcus.equorum_B.001683315
+|           |  |              |            |                  +**|
+|           |  |              |            |                  |  |  +**Staphylococcus.lugdunensis.002250095
+|           |  |              |            |                  |  +--|
+|           |  |              |            |                  |     +**Staphylococcus.lugdunensis.001558775
+|           |  |              |            |               +**|
+|           |  |              |            |               |  +**Staphylococcus.lugdunensis.000025085
+|           |  |              |            |            +**|
+|           |  |              |            |            |  +**Staphylococcus.lugdunensis.900478255
+|           |  |              |            |         +**|
+|           |  |              |            |         |  |  +--Staphylococcus.epidermidis.000751035
+|           |  |              |            |         |  +--|
+|           |  |              |            |         |     |  +**Staphylococcus.epidermidis.000759555
+|           |  |              |            |         |     +**|
+|           |  |              |            |         |        +**Staphylococcus.epidermidis.002085695
+|           |  |              |            |      +--|
+|           |  |              |            |      |  |        +**Staphylococcus.aureus.001018975
+|           |  |              |            |      |  |     +**|
+|           |  |              |            |      |  |     |  +**Staphylococcus.aureus.002209325
+|           |  |              |            |      |  |  +**|
+|           |  |              |            |      |  |  |  |     +**Staphylococcus.aureus.001045795
+|           |  |              |            |      |  |  |  |  +--|
+|           |  |              |            |      |  |  |  |  |  +**Staphylococcus.aureus.002000765
+|           |  |              |            |      |  |  |  +**|
+|           |  |              |            |      |  |  |     +**Staphylococcus.aureus.000815245
+|           |  |              |            |      |  +--|
+|           |  |              |            |      |     +--Staphylococcus.aureus.002952015
+|           |  |              |            +------|
+|           |  |              |                   |  +**Staphylococcus.haemolyticus.000009865
+|           |  |              |                   +**|
+|           |  |              |                      +**Staphylococcus.haemolyticus.002906595
+|           |  |           +**|
+|           |  |           |  |                                                       +**Pseudomonas_E.avellanae.002024285
+|           |  |           |  |                                                    +**|
+|           |  |           |  |                                                    |  +**Pseudomonas_E.ficuserectae.900235885
+|           |  |           |  |                                                 +--|
+|           |  |           |  |                                                 |  +**Pseudomonas_E.avellanae.000007805
+|           |  |           |  |                                              +--|
+|           |  |           |  |                                              |  +**Pseudomonas_E.ficuserectae.002068135
+|           |  |           |  |                                           +--|
+|           |  |           |  |                                           |  |     +**Pseudomonas_E.syringae_M.002905815
+|           |  |           |  |                                           |  |  +**|
+|           |  |           |  |                                           |  |  |  +**Pseudomonas_E.syringae_M.900235825
+|           |  |           |  |                                           |  +**|
+|           |  |           |  |                                           |     +**Pseudomonas_E.syringae_M.000012245
+|           |  |           |  |                                        +**|
+|           |  |           |  |                                        |  +**Pseudomonas_E.hunanensis.000007565
+|           |  |           |  |                                     +**|
+|           |  |           |  |                                     |  +**Pseudomonas_E.hunanensis.001767335
+|           |  |           |  |                                  +**|
+|           |  |           |  |                                  |  +**Pseudomonas_E.hunanensis.001655295
+|           |  |           |  |                               +--|
+|           |  |           |  |                               |  +**Pseudomonas_E.hunanensis.002948105
+|           |  |           |  |                            +--|
+|           |  |           |  |                            |  |  +**Pseudomonas_E.monteilii_B.000325725
+|           |  |           |  |                            |  +**|
+|           |  |           |  |                            |     +**Pseudomonas_E.monteilii_B.000219705
+|           |  |           |  |                         +**|
+|           |  |           |  |                         |  +**Pseudomonas_E.piscium.002844145
+|           |  |           |  |                      +--|
+|           |  |           |  |                      |  +**Pseudomonas_E.piscium.002355875
+|           |  |           |  |                   +**|
+|           |  |           |  |                   |  +**Pseudomonas_E.protegens.000397205
+|           |  |           |  |                +**|
+|           |  |           |  |                |  +**Pseudomonas_E.protegens.002208745
+|           |  |           |  |             +--|
+|           |  |           |  |             |  +**Pseudomonas_E.protegens.002006545
+|           |  |           |  |          +--|
+|           |  |           |  |          |  |  +**Pseudomonas_A.stutzeri.000013785
+|           |  |           |  |          |  +--|
+|           |  |           |  |          |     +**Pseudomonas_A.stutzeri.003008495
+|           |  |           |  +----------|
+|           |  |           |             |  +**Pseudomonas.aeruginosa_A.003073695
+|           |  |           |             +--|
+|           |  |           |                |  +**Pseudomonas.aeruginosa.001516105
+|           |  |           |                +**|
+|           |  |           |                   +**Pseudomonas.aeruginosa.000006765
+|           |  |        +--|
+|           |  |        |  |  +**Klebsiella_A.michiganensis.000724525
+|           |  |        |  +--|
+|           |  |        |     +**Klebsiella_A.oxytoca.002984395
+|           |  |     +--|
+|           |  |     |  +--Klebsiella.quasipneumoniae.002953295
+|           |  |  +--|
+|           |  |  |  |        +**Escherichia.albertii.002895205
+|           |  |  |  |     +--|
+|           |  |  |  |     |  +**Escherichia.albertii.002741375
+|           |  |  |  |  +--|
+|           |  |  |  |  |  +**Escherichia.albertii.002872455
+|           |  |  |  +**|
+|           |  |  |     |     +**Klebsiella.variicola.000019565
+|           |  |  |     |  +**|
+|           |  |  |     |  |  +**Klebsiella_B.aerogenes.000334515
+|           |  |  |     +**|
+|           |  |  |        |  +**Klebsiella_A.oxytoca.001870185
+|           |  |  |        +--|
+|           |  |  |           +**Klebsiella_A.michiganensis.003074075
+|           |  +**|
+|           |     |  +**Klebsiella_B.aerogenes.002796425
+|           |     +**|
+|           |        +**Klebsiella_B.aerogenes.002796405
+|        +--|
+|        |  +**Klebsiella_A.oxytoca.003073975
+|     +--|
+|     |  |     +**Escherichia.flexneri.001860505
+|     |  |  +**|
+|     |  |  |  +**Escherichia.flexneri.001969285
+|     |  +**|
+|     |     |     +**Escherichia.coli.001663475
+|     |     |  +--|
+|     |     |  |  +**Escherichia.coli_D.002009315
+|     |     +**|
+|     |        +**Escherichia.coli_D.000026345
+|  +**|
+|  |  |        +**Escherichia.coli.000148605
+|  |  |     +**|
+|  |  |     |  |     +**Escherichia.dysenteriae.000803705
+|  |  |     |  |  +**|
+|  |  |     |  |  |  +**Escherichia.flexneri.000599645
+|  |  |     |  +**|
+|  |  |     |     |           +**Escherichia.coli_D.002310595
+|  |  |     |     |        +**|
+|  |  |     |     |        |  +**Escherichia.coli_D.002788115
+|  |  |     |     |     +--|
+|  |  |     |     |     |  +**Escherichia.flexneri.000599625
+|  |  |     |     |  +**|
+|  |  |     |     |  |  +--Escherichia.flexneri.003019215
+|  |  |     |     +**|
+|  |  |     |        |  +--Escherichia.coli.002796585
+|  |  |     |        +**|
+|  |  |     |           +--Escherichia.flexneri.003017455
+|  |  |  +**|
+|  |  |  |  |     +**Escherichia.coli.001577325
+|  |  |  |  |  +--|
+|  |  |  |  |  |  +**Escherichia.coli.001617565
+|  |  |  |  +**|
+|  |  |  |     +--Escherichia.coli.003019095
+|  |  +--|
+|  |     +--Escherichia.albertii.002285455
++**|
+|  |  +--Escherichia.flexneri.002761835
+|  +**|
+|     +--Escherichia.flexneri.002903125
+|
++**Escherichia.dysenteriae.000025165
+
+Tree in newick format:
+
+(Escherichia.flexneri.003017975:0.0000029171,(((((((Klebsiella.pneumoniae.000445405:0.0000029171,Klebsiella.quasipneumoniae.003146635:0.0089336764):0.0000020257,Klebsiella.pneumoniae.001956965:0.0000029171):0.0079564800,(((((((((((((((Streptococcus.intermedius.000463385:0.0000020345,Streptococcus.intermedius.000306805:0.0000029171):0.0088564796,Streptococcus.intermedius.002073355:0.0087802864):0.0000020978,(Streptococcus.intermedius.002356055:0.0000029171,Streptococcus.intermedius.000463355:0.0000029171):0.0000021135):0.0049815490,((((((((Streptococcus.mutans.002995555:0.0000022266,(Streptococcus.mutans.000271865:0.0000022933,Streptococcus.mutans.000007465:0.0000029171):0.0000029192):0.0094434759,Streptococcus.mutans.900475095:0.0088380754):0.0000025030,Streptococcus.mutans.000284575:0.0000029171):0.0000020000,Streptococcus.mutans.000091645:0.0000025563):0.0502724514,((((((Streptococcus.pyogenes.900475155:0.0000029171,Streptococcus.pyogenes.900474455:0.0000029171):0.0000027206,Streptococcus.pyogenes.000743015:0.0000029171):0.0000029724,Streptococcus.pyogenes.000732425:0.0087864637):0.0000029171,Streptococcus.pyogenes.900474975:0.0088734914):0.0000029171,Streptococcus.pyogenes.900475425:0.0276409236):0.0088076775,Streptococcus.pyogenes.001267805:0.0000021101):0.0090108712):0.0091061544,((((((((Streptococcus.suis.001572685:0.0000029171,Streptococcus.suis.000026745:0.0000024830):0.0000029874,((((Streptococcus.uberis.000009545:0.0000029171,Streptococcus.uberis.002814135:0.0000029171):0.0000020801,(Streptococcus.equi.000026605:0.0000020435,Streptococcus.equi.900475435:0.0000020402):0.0088496641):0.0087722008,(Streptococcus.iniae.002787125:0.0000020464,Streptococcus.iniae.000831485:0.0000029171):0.0000020705):0.0088642207,(Streptococcus.dysgalactiae.900474785:0.0000023653,Streptococcus.dysgalactiae.900475725:0.0000029171):0.0000028154):0.0087929308):0.0000021372,Streptococcus.suis.000018185:0.0087885114):0.0000024781,(((((((Streptococcus.thermophilus.002286255:0.0000029171,Streptococcus.thermophilus.000253395:0.0088123470):0.0000023617,Streptococcus.thermophilus.001705585:0.0000029171):0.0000020939,Streptococcus.thermophilus.002443035:0.0000021051):0.0000023705,((Streptococcus.salivarius.002094955:0.0000029288,Streptococcus.thermophilus.900094135:0.0000029171):0.0000020982,((Streptococcus.lutetiensis.000441535:0.0000024939,Streptococcus.lutetiensis.900475675:0.0000029171):0.0000020896,Streptococcus.lutetiensis.001477615:0.0087764789):0.0087754267):0.0087816847):0.0086141603,Streptococcus.salivarius.001543085:0.1032578951):0.0184625919,(Streptococcus.gallolyticus.000270145:0.0000023087,Streptococcus.gallolyticus.000203195:0.0000023068):0.0177056524):0.0000021901,Streptococcus.suis.000231905:0.0000028228):0.0088851021):0.0000027620,Streptococcus.suis.000168355:0.0000029171):0.0000021654,(Streptococcus.suis.001640765:0.0000029171,Streptococcus.suis.003144175:0.0087883850):0.0000021157):0.0000024907,Streptococcus.suis.000233575:0.0269669520):0.0089520178,(((Streptococcus.sobrinus.003176815:0.0000027152,Streptococcus.sobrinus.003176795:0.0000029171):0.0000021141,(Streptococcus.sobrinus.900475395:0.0000019505,Streptococcus.sobrinus.003172975:0.0000020581):0.0088795573):0.0162722346,Streptococcus.suis.000231885:0.1252247264):0.0026591624):0.0097161765):0.0093442155,Streptococcus.gordonii.000970665:0.0000020916):0.0000020710,Streptococcus.gordonii.002073435:0.0000021487):0.0047565630):0.0077852993,(Streptococcus.anginosus.000463505:0.0000029171,Streptococcus.anginosus.000478925:0.0000029171):0.0000020645):0.0000029465,((((Streptococcus.agalactiae.900155855:0.0000029171,((Streptococcus.agalactiae.002812425:0.0000029171,Streptococcus.agalactiae.002881315:0.0087378837):0.0000029171,Streptococcus.agalactiae.001266635:0.0000029171):0.0000029171):0.0000029171,Streptococcus.agalactiae.000007265:0.0000029171):0.0000029171,Streptococcus.agalactiae.001592425:0.0000029171):0.0456932101,(Streptococcus.anginosus.000463465:0.0000029171,Streptococcus.anginosus.001412635:0.0000020123):0.0000027239):0.0086872528):0.0180254667,(((Streptococcus.pneumoniae.000014365:0.0000029171,Streptococcus.pneumoniae.000147095:0.0000024058):0.0000020969,Streptococcus.pneumoniae.000007045:0.0000021160):0.0000021118,(Streptococcus.pneumoniae.001457635:0.0000024149,Streptococcus.pneumoniae.000019005:0.0000021357):0.0087856861):0.0000020052):0.3654815269,((Enterococcus_B.faecium.000336405:0.0000029171,Enterococcus_B.faecium.003071445:0.0000029171):0.0000029763,Enterococcus_B.faecium.000174395:0.0000025532):0.0063474241):0.0296001881,(((Enterococcus.faecalis.002289045:0.0000029171,Enterococcus.faecalis.002208945:0.0000029171):0.0000029171,Enterococcus.faecalis.000742975:0.0088514296):0.0000023788,Enterococcus.faecalis.000281195:0.0087962189):0.0106544271):0.1129235356,((((((((((Staphylococcus.pseudintermedius.000185885:0.0000029171,Staphylococcus.pseudintermedius.001685665:0.0000022013):0.0000029871,(Staphylococcus.schleiferi.001188875:0.0000022477,Staphylococcus.schleiferi.001188915:0.0000024440):0.0089653793):0.0366444986,((Staphylococcus.simulans.900474685:0.0000029171,Staphylococcus.simulans.003096155:0.0000029171):0.0088402494,(Staphylococcus.xylosus.000706685:0.0000029171,Staphylococcus.xylosus.002078255:0.0000029171):0.0000029356):0.0000021095):0.0178204881,((Staphylococcus.saprophyticus.001558375:0.0000029171,Staphylococcus.saprophyticus.002209265:0.0000029171):0.0000021443,(Staphylococcus.equorum_B.001682235:0.0000025239,Staphylococcus.equorum_B.001683315:0.0000029171):0.0089575871):0.0000021476):0.0089566253,(Staphylococcus.lugdunensis.002250095:0.0000029171,Staphylococcus.lugdunensis.001558775:0.0000029833):0.0088634655):0.0000022572,Staphylococcus.lugdunensis.000025085:0.0000029171):0.0000028176,Staphylococcus.lugdunensis.900478255:0.0000029171):0.0000020467,(Staphylococcus.epidermidis.000751035:0.0089480217,(Staphylococcus.epidermidis.000759555:0.0000029251,Staphylococcus.epidermidis.002085695:0.0000024665):0.0000021098):0.0089561186):0.0000027592,(((Staphylococcus.aureus.001018975:0.0000029171,Staphylococcus.aureus.002209325:0.0000029171):0.0000020887,((Staphylococcus.aureus.001045795:0.0000020108,Staphylococcus.aureus.002000765:0.0000029171):0.0088301381,Staphylococcus.aureus.000815245:0.0000029171):0.0000026510):0.0000023755,Staphylococcus.aureus.002952015:0.0088298329):0.0459133979):0.0178330317,(Staphylococcus.haemolyticus.000009865:0.0000029171,Staphylococcus.haemolyticus.002906595:0.0000029840):0.0000021578):0.1290166574):0.2137410697,((((((((((((((((Pseudomonas_E.avellanae.002024285:0.0000029171,Pseudomonas_E.ficuserectae.900235885:0.0000029171):0.0000029171,Pseudomonas_E.avellanae.000007805:0.0000029171):0.0083308378,Pseudomonas_E.ficuserectae.002068135:0.0000020541):0.0083231579,((Pseudomonas_E.syringae_M.002905815:0.0000029171,Pseudomonas_E.syringae_M.900235825:0.0000029171):0.0000023215,Pseudomonas_E.syringae_M.000012245:0.0000020627):0.0000020291):0.0083344827,Pseudomonas_E.hunanensis.000007565:0.0000023960):0.0000028440,Pseudomonas_E.hunanensis.001767335:0.0000029171):0.0000029171,Pseudomonas_E.hunanensis.001655295:0.0000029171):0.0000027203,Pseudomonas_E.hunanensis.002948105:0.0000029171):0.0087026271,(Pseudomonas_E.monteilii_B.000325725:0.0000022845,Pseudomonas_E.monteilii_B.000219705:0.0000021131):0.0022807039):0.0101702366,Pseudomonas_E.piscium.002844145:0.0000029042):0.0000020958,Pseudomonas_E.piscium.002355875:0.0000021053):0.0107787225,Pseudomonas_E.protegens.000397205:0.0000021210):0.0000022920,Pseudomonas_E.protegens.002208745:0.0000028295):0.0000029727,Pseudomonas_E.protegens.002006545:0.0000029171):0.0115211294,(Pseudomonas_A.stutzeri.000013785:0.0000020167,Pseudomonas_A.stutzeri.003008495:0.0000029171):0.0083909066):0.0216838352,(Pseudomonas.aeruginosa_A.003073695:0.0000029171,(Pseudomonas.aeruginosa.001516105:0.0000029171,Pseudomonas.aeruginosa.000006765:0.0000029171):0.0000029171):0.0215819891):0.1803385722):0.0000027595,(Klebsiella_A.michiganensis.000724525:0.0000027311,Klebsiella_A.oxytoca.002984395:0.0000026412):0.0092584808):0.0092737576,Klebsiella.quasipneumoniae.002953295:0.0364351079):0.0183857569,(((Escherichia.albertii.002895205:0.0000021253,Escherichia.albertii.002741375:0.0000021251):0.0089094727,Escherichia.albertii.002872455:0.0000023694):0.0273935051,((Klebsiella.variicola.000019565:0.0000029171,Klebsiella_B.aerogenes.000334515:0.0000029171):0.0000020872,(Klebsiella_A.oxytoca.001870185:0.0000023376,Klebsiella_A.michiganensis.003074075:0.0000021485):0.0089237376):0.0000021506):0.0000020751):0.0089202195,(Klebsiella_B.aerogenes.002796425:0.0000029171,Klebsiella_B.aerogenes.002796405:0.0000029171):0.0000024125):0.0049304826):0.0049725269,Klebsiella_A.oxytoca.003073975:0.0000028317):0.0089296661,((Escherichia.flexneri.001860505:0.0000029171,Escherichia.flexneri.001969285:0.0000029171):0.0000022689,((Escherichia.coli.001663475:0.0000029171,Escherichia.coli_D.002009315:0.0000029171):0.0179677703,Escherichia.coli_D.000026345:0.0000021451):0.0000029370):0.0000021172):0.0090314381,(((Escherichia.coli.000148605:0.0000029171,((Escherichia.dysenteriae.000803705:0.0000029171,Escherichia.flexneri.000599645:0.0000029171):0.0000020610,((((Escherichia.coli_D.002310595:0.0000029171,Escherichia.coli_D.002788115:0.0000029171):0.0000020906,Escherichia.flexneri.000599625:0.0000029171):0.0089361488,Escherichia.flexneri.003019215:0.0089356659):0.0000020121,(Escherichia.coli.002796585:0.0089337150,Escherichia.flexneri.003017455:0.0089334879):0.0000029171):0.0000029171):0.0000021978):0.0000027972,((Escherichia.coli.001577325:0.0000023120,Escherichia.coli.001617565:0.0000024796):0.0089361128,Escherichia.coli.003019095:0.0089957513):0.0000028815):0.0000021011,Escherichia.albertii.002285455:0.0180199725):0.0090203727):0.0000021011,(Escherichia.flexneri.002761835:0.0089506313,Escherichia.flexneri.002903125:0.0089495333):0.0000021567):0.0000021815,Escherichia.dysenteriae.000025165:0.0000029171);
+
+TIME STAMP
+----------
+
+Date and time: Mon Sep  9 17:19:16 2019
+Total CPU time used: 395.593 seconds (0h:6m:35s)
+Total wall-clock time used: 52.4248 seconds (0h:0m:52s)
+

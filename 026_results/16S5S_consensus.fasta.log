@@ -1,0 +1,1002 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n114312.nbi.ac.uk (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s ./026_results/16S5S_consensus.fasta -nt 8 -redo -m HKY+G
+Seed:    880868 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 10 10:51:20 2019
+Kernel:  AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file ./026_results/16S5S_consensus.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 691 sequences with 3905 columns, 1066 distinct patterns
+683 parsimony-informative, 117 singleton sites, 3105 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+   1  Escherichia.flexneri.003017975              57.85%    passed     51.83%
+   2  Klebsiella.pneumoniae.000445405             57.64%    passed     51.70%
+   3  Escherichia.coli.000148605                  57.41%    passed     58.65%
+   4  Streptococcus.intermedius.000463385         57.13%    passed     92.01%
+   5  Pseudomonas_E.avellanae.002024285           57.44%    passed     96.33%
+   6  Escherichia.dysenteriae.000803705           57.39%    passed     64.15%
+   7  Streptococcus.mutans.002995555              56.98%    passed     86.91%
+   8  Pseudomonas.aeruginosa_A.003073695          57.72%    passed     90.43%
+   9  Escherichia.coli_D.002310595                57.77%    passed     56.83%
+  10  Streptococcus.pneumoniae.000014365          57.29%    passed     89.78%
+  11  Escherichia.dysenteriae.000025165           57.64%    passed     61.97%
+  12  Streptococcus.suis.001572685                57.18%    passed     90.95%
+  13  Streptococcus.pneumoniae.000147095          57.29%    passed     85.16%
+  14  Streptococcus.mutans.000271865              57.03%    passed     89.90%
+  15  Staphylococcus.pseudintermedius.000185885   57.41%    passed     75.60%
+  16  Streptococcus.agalactiae.900155855          57.21%    passed     61.78%
+  17  Escherichia.dysenteriae.000262125           57.59%    passed     59.60%
+  18  Pseudomonas_E.ficuserectae.900235885        57.64%    passed     92.50%
+  19  Streptococcus.agalactiae.002812425          57.23%    passed     59.53%
+  20  Escherichia.albertii.002895205              57.67%    passed     61.37%
+  21  Enterococcus_B.faecium.000336405            56.85%    passed     96.11%
+  22  Escherichia.flexneri.000599645              57.23%    passed     39.27%
+  23  Klebsiella.pneumoniae.001956965             57.90%    passed     47.52%
+  24  Pseudomonas_E.syringae_M.002905815          57.64%    passed     96.81%
+  25  Klebsiella.pneumoniae.001456135             57.82%    passed     48.52%
+  26  Enterococcus.faecalis.002289045             56.95%    passed     94.98%
+  27  Escherichia.flexneri.001860505              57.87%    passed     54.34%
+  28  Escherichia.coli_D.002357875                57.80%    passed     63.34%
+  29  Streptococcus.suis.000168355                57.18%    passed     90.95%
+  30  Klebsiella.pneumoniae.001709295             57.70%    passed     48.41%
+  31  Klebsiella.variicola.000019565              57.87%    passed     52.62%
+  32  Klebsiella.pneumoniae.002202255             57.77%    passed     53.91%
+  33  Streptococcus.pneumoniae.001457635          57.29%    passed     84.84%
+  34  Pseudomonas.aeruginosa.001516105            57.49%    passed     89.73%
+  35  Escherichia.flexneri.003018275              57.70%    passed     52.16%
+  36  Pseudomonas_E.hunanensis.001655295          57.57%    passed     97.77%
+  37  Enterococcus_B.faecium.003071445            56.93%    passed     97.62%
+  38  Enterococcus_B.faecium.002848665            56.95%    passed     96.49%
+  39  Staphylococcus.aureus.001018975             57.29%    passed     32.48%
+  40  Streptococcus.suis.002111405                57.18%    passed     86.32%
+  41  Enterococcus_B.faecium.002848385            57.00%    passed     96.54%
+  42  Staphylococcus.lugdunensis.002250095        57.34%    passed     48.26%
+  43  Streptococcus.thermophilus.002286255        57.23%    passed     69.81%
+  44  Escherichia.dysenteriae.001753445           57.57%    passed     58.37%
+  45  Staphylococcus.epidermidis.000751035        57.36%    passed     49.13%
+  46  Escherichia.coli.003181035                  57.59%    passed     50.95%
+  47  Escherichia.coli.002796585                  57.54%    passed     55.42%
+  48  Escherichia.dysenteriae.001651925           57.57%    passed     60.57%
+  49  Staphylococcus.saprophyticus.001558375      57.44%    passed     47.98%
+  50  Escherichia.flexneri.000010245              57.87%    passed     54.13%
+  51  Streptococcus.thermophilus.002443035        57.21%    passed     70.50%
+  52  Streptococcus.suis.000231865                57.21%    passed     86.00%
+  53  Streptococcus.pyogenes.900475155            57.18%    passed     90.39%
+  54  Klebsiella_B.aerogenes.000334515            57.49%    passed     74.69%
+  55  Klebsiella_A.michiganensis.000724525        57.67%    passed     73.57%
+  56  Staphylococcus.schleiferi.001188875         57.39%    passed     83.73%
+  57  Streptococcus.thermophilus.001685375        57.23%    passed     72.60%
+  58  Escherichia.coli_D.002012225                57.64%    passed     60.83%
+  59  Staphylococcus.saprophyticus.002209265      57.41%    passed     48.00%
+  60  Staphylococcus.aureus.002209325             57.29%    passed     24.77%
+  61  Klebsiella.pneumoniae.002951555             57.82%    passed     47.21%
+  62  Streptococcus.uberis.000009545              57.26%    passed     90.55%
+  63  Streptococcus.sobrinus.003176815            57.00%    passed     87.99%
+  64  Klebsiella.variicola.000828055              57.72%    passed     54.26%
+  65  Escherichia.dysenteriae.002196475           57.85%    passed     59.61%
+  66  Escherichia.coli_D.002788115                57.72%    passed     53.41%
+  67  Escherichia.dysenteriae.001650295           57.64%    passed     55.25%
+  68  Pseudomonas_E.protegens.002208745           57.62%    passed     97.07%
+  69  Streptococcus.pneumoniae.000019025          57.29%    passed     85.16%
+  70  Streptococcus.pyogenes.900474455            57.21%    passed     88.13%
+  71  Klebsiella.pneumoniae.001908895             57.75%    passed     52.52%
+  72  Klebsiella.variicola.001989515              57.75%    passed     54.28%
+  73  Escherichia.flexneri.003112205              57.82%    passed     48.40%
+  74  Streptococcus.intermedius.002356055         57.08%    passed     94.97%
+  75  Escherichia.dysenteriae.002208865           57.70%    passed     57.74%
+  76  Pseudomonas_E.protegens.000397205           57.36%    passed     98.02%
+  77  Streptococcus.gordonii.002073435            57.06%    passed     75.78%
+  78  Escherichia.albertii.002741375              57.77%    passed     56.72%
+  79  Staphylococcus.aureus.001019255             57.31%    passed     29.33%
+  80  Enterococcus_B.faecium.001953235            56.93%    passed     95.91%
+  81  Streptococcus.dysgalactiae.900474785        57.18%    passed     93.98%
+  82  Staphylococcus.simulans.900474685           57.46%    passed     69.61%
+  83  Staphylococcus.aureus.900474665             57.39%    passed     27.78%
+  84  Streptococcus.salivarius.002094955          57.26%    passed     68.15%
+  85  Pseudomonas_E.hunanensis.002948105          57.75%    passed     97.49%
+  86  Staphylococcus.schleiferi.001188915         57.36%    passed     84.42%
+  87  Klebsiella.pneumoniae.002202275             57.75%    passed     54.42%
+  88  Pseudomonas_E.ficuserectae.900235815        57.67%    passed     95.26%
+  89  Staphylococcus.aureus.000012045             57.29%    passed     27.03%
+  90  Klebsiella.pneumoniae.002948565             57.67%    passed     47.53%
+  91  Klebsiella.pneumoniae.000364385             57.49%    passed     48.33%
+  92  Streptococcus.pyogenes.900475565            57.21%    passed     89.71%
+  93  Escherichia.dysenteriae.001307215           57.59%    passed     59.60%
+  94  Streptococcus.pneumoniae.000211095          57.31%    passed     86.80%
+  95  Staphylococcus.aureus.001045795             57.36%    passed     23.94%
+  96  Streptococcus.agalactiae.001932715          57.21%    passed     58.90%
+  97  Escherichia.coli.002157245                  57.57%    passed     52.72%
+  98  Enterococcus_B.faecium.002007625            56.90%    passed     96.34%
+  99  Streptococcus.pneumoniae.001896085          57.29%    passed     85.16%
+ 100  Streptococcus.thermophilus.002846155        57.21%    passed     70.50%
+ 101  Escherichia.dysenteriae.001890325           57.64%    passed     55.25%
+ 102  Pseudomonas_E.piscium.002844145             57.98%    passed     98.67%
+ 103  Klebsiella.pneumoniae.002753035             57.72%    passed     49.23%
+ 104  Streptococcus.pneumoniae.000817005          57.29%    passed     89.59%
+ 105  Escherichia.coli_D.002164645                57.39%    passed     59.44%
+ 106  Pseudomonas_E.avellanae.000007805           58.08%    passed     95.43%
+ 107  Streptococcus.agalactiae.002073695          57.21%    passed     61.78%
+ 108  Escherichia.coli.002887715                  57.67%    passed     52.97%
+ 109  Staphylococcus.simulans.003096155           57.57%    passed     73.49%
+ 110  Staphylococcus.lugdunensis.001558775        57.41%    passed     50.14%
+ 111  Klebsiella.pneumoniae.001482345             57.80%    passed     54.09%
+ 112  Streptococcus.pyogenes.001635935            57.21%    passed     89.71%
+ 113  Staphylococcus.simulans.003006055           57.57%    passed     73.49%
+ 114  Streptococcus.pneumoniae.900476465          57.29%    passed     89.78%
+ 115  Pseudomonas.aeruginosa.000473745            57.49%    passed     89.73%
+ 116  Streptococcus.pneumoniae.000019265          57.31%    passed     89.91%
+ 117  Escherichia.coli_D.000219515                57.80%    passed     60.19%
+ 118  Klebsiella.variicola.000812205              57.44%    passed     65.37%
+ 119  Streptococcus.pyogenes.001051095            57.18%    passed     90.39%
+ 120  Escherichia.dysenteriae.002741555           57.85%    passed     51.93%
+ 121  Streptococcus.pyogenes.900474845            57.18%    passed     90.39%
+ 122  Staphylococcus.aureus.002355355             57.31%    passed     25.80%
+ 123  Pseudomonas.aeruginosa.001879525            57.49%    passed     89.73%
+ 124  Klebsiella.pneumoniae.001902415             57.75%    passed     52.52%
+ 125  Streptococcus.suis.000231885                57.39%    passed     89.49%
+ 126  Klebsiella.pneumoniae.002903025             57.82%    passed     49.05%
+ 127  Escherichia.dysenteriae.000021125           57.64%    passed     62.15%
+ 128  Pseudomonas_E.hunanensis.000495455          57.44%    passed     98.69%
+ 129  Escherichia.flexneri.002589795              57.62%    passed     52.90%
+ 130  Streptococcus.pyogenes.900475425            57.18%    passed     90.39%
+ 131  Streptococcus.pneumoniae.000211075          57.52%    passed     86.40%
+ 132  Klebsiella.pneumoniae.000417225             57.72%    passed     51.63%
+ 133  Enterococcus_B.faecium.002850515            56.98%    passed     97.77%
+ 134  Klebsiella.pneumoniae.000764615             57.62%    passed     52.31%
+ 135  Pseudomonas_E.ficuserectae.000164015        57.44%    passed     94.57%
+ 136  Streptococcus.pyogenes.000250905            57.21%    passed     89.71%
+ 137  Streptococcus.iniae.002787125               57.87%    passed     89.85%
+ 138  Pseudomonas.aeruginosa.000504045            57.49%    passed     89.73%
+ 139  Klebsiella.pneumoniae.002903005             57.87%    passed     50.68%
+ 140  Streptococcus.sobrinus.900475395            57.00%    passed     86.47%
+ 141  Staphylococcus.haemolyticus.000009865       57.41%    passed     36.46%
+ 142  Staphylococcus.xylosus.000706685            57.18%    passed     33.60%
+ 143  Escherichia.coli.002193095                  57.54%    passed     57.97%
+ 144  Enterococcus.faecalis.002208945             57.00%    passed     95.47%
+ 145  Staphylococcus.haemolyticus.002906595       57.36%    passed     43.55%
+ 146  Staphylococcus.xylosus.002078255            57.18%    passed     34.18%
+ 147  Streptococcus.dysgalactiae.900475725        57.26%    passed     93.56%
+ 148  Streptococcus.pneumoniae.000251085          57.29%    passed     85.16%
+ 149  Pseudomonas.aeruginosa.002104595            57.49%    passed     89.73%
+ 150  Pseudomonas_E.monteilii_B.000325725         57.59%    passed     96.76%
+ 151  Streptococcus.suis.000344765                57.18%    passed     86.32%
+ 152  Escherichia.coli.002011965                  57.52%    passed     57.11%
+ 153  Pseudomonas_E.monteilii_B.000219705         57.95%    passed     94.72%
+ 154  Streptococcus.thermophilus.001008015        57.21%    passed     70.50%
+ 155  Klebsiella.quasipneumoniae.001596075        57.72%    passed     58.17%
+ 156  Escherichia.coli.002944935                  57.39%    passed     54.52%
+ 157  Streptococcus.agalactiae.002197285          57.26%    passed     58.76%
+ 158  Escherichia.coli.900149875                  57.57%    passed     58.10%
+ 159  Streptococcus.suis.000026725                57.18%    passed     86.32%
+ 160  Staphylococcus.pseudintermedius.001685665   59.85%    passed     90.57%
+ 161  Streptococcus.pneumoniae.000211055          57.26%    passed     86.93%
+ 162  Staphylococcus.aureus.003193705             57.44%    passed     27.10%
+ 163  Escherichia.coli.000284495                  57.67%    passed     55.37%
+ 164  Escherichia.coli.002012145                  57.52%    passed     57.62%
+ 165  Streptococcus.thermophilus.001705585        57.31%    passed     70.85%
+ 166  Escherichia.albertii.000512125              57.46%    passed     61.16%
+ 167  Escherichia.dysenteriae.000732965           57.59%    passed     59.60%
+ 168  Streptococcus.thermophilus.000182875        57.36%    passed     75.78%
+ 169  Enterococcus_B.faecium.001720945            56.93%    passed     96.77%
+ 170  Escherichia.flexneri.001901465              57.36%    passed     60.54%
+ 171  Streptococcus.agalactiae.001712835          57.21%    passed     61.78%
+ 172  Klebsiella.pneumoniae.001708225             57.70%    passed     52.17%
+ 173  Klebsiella_A.oxytoca.001870185              57.93%    passed     64.83%
+ 174  Streptococcus.pneumoniae.000019005          57.31%    passed     85.20%
+ 175  Streptococcus.mutans.900475095              57.08%    passed     92.35%
+ 176  Escherichia.flexneri.001900885              57.26%    passed     57.76%
+ 177  Enterococcus_B.faecium.000174395            57.70%    passed     97.55%
+ 178  Pseudomonas.aeruginosa.000026645            57.52%    passed     89.55%
+ 179  Enterococcus_B.faecium.002983785            56.95%    passed     97.32%
+ 180  Streptococcus.suis.002189695                57.18%    passed     86.32%
+ 181  Escherichia.coli.001618365                  57.57%    passed     53.20%
+ 182  Escherichia.dysenteriae.002058765           57.85%    passed     53.83%
+ 183  Streptococcus.pyogenes.900475455            57.18%    passed     90.39%
+ 184  Streptococcus.agalactiae.001592425          57.23%    passed     59.53%
+ 185  Escherichia.coli_D.002587005                57.64%    passed     57.26%
+ 186  Klebsiella_B.aerogenes.000215745            57.44%    passed     72.60%
+ 187  Klebsiella.pneumoniae.001648215             57.77%    passed     54.57%
+ 188  Staphylococcus.schleiferi.001548255         57.49%    passed     83.84%
+ 189  Klebsiella_A.oxytoca.001022115              57.90%    passed     67.11%
+ 190  Streptococcus.pyogenes.900475115            57.18%    passed     90.39%
+ 191  Klebsiella_A.michiganensis.001022195        57.80%    passed     69.32%
+ 192  Escherichia.coli.001663475                  57.57%    passed     53.20%
+ 193  Streptococcus.suis.000471985                57.31%    passed     92.70%
+ 194  Escherichia.dysenteriae.000662395           57.59%    passed     62.97%
+ 195  Staphylococcus.epidermidis.000759555        57.49%    passed     47.88%
+ 196  Streptococcus.thermophilus.001280285        57.21%    passed     69.57%
+ 197  Escherichia.flexneri.001969285              57.44%    passed     56.07%
+ 198  Klebsiella.quasipneumoniae.003181175        57.82%    passed     53.56%
+ 199  Pseudomonas.aeruginosa.002997005            57.70%    passed     90.09%
+ 200  Escherichia.coli_D.002009315                57.49%    passed     51.87%
+ 201  Escherichia.flexneri.000599625              27.27%    passed     29.87%
+ 202  Streptococcus.pneumoniae.000019985          57.34%    passed     91.03%
+ 203  Streptococcus.suis.000390245                57.18%    passed     86.84%
+ 204  Streptococcus.agalactiae.001190805          57.26%    passed     57.67%
+ 205  Streptococcus.suis.900475585                57.18%    passed     86.32%
+ 206  Enterococcus_B.faecium.001721905            56.93%    passed     96.77%
+ 207  Streptococcus.gallolyticus.000270145        57.23%    passed     66.42%
+ 208  Escherichia.dysenteriae.001865295           57.59%    passed     59.60%
+ 209  Streptococcus.salivarius.000253335          57.23%    passed     72.00%
+ 210  Staphylococcus.aureus.001611345             57.31%    passed     24.10%
+ 211  Staphylococcus.aureus.000969225             57.21%    passed     29.02%
+ 212  Enterococcus.faecalis.000550745             56.90%    passed     95.34%
+ 213  Streptococcus.pyogenes.001267805            57.23%    passed     90.55%
+ 214  Staphylococcus.schleiferi.001188855         57.41%    passed     84.19%
+ 215  Pseudomonas.aeruginosa.003193645            57.67%    passed     89.81%
+ 216  Escherichia.dysenteriae.001612495           57.59%    passed     59.60%
+ 217  Escherichia.dysenteriae.001890225           57.64%    passed     62.15%
+ 218  Escherichia.coli_D.002946715                57.31%    passed     56.98%
+ 219  Escherichia.flexneri.002953055              57.93%    passed     49.86%
+ 220  Staphylococcus.saprophyticus.000010125      57.34%    passed     43.84%
+ 221  Escherichia.coli_D.003030245                57.52%    passed     58.06%
+ 222  Streptococcus.equi.000026605                57.11%    passed     62.04%
+ 223  Pseudomonas_E.syringae_M.900235825          57.70%    passed     97.11%
+ 224  Streptococcus.pyogenes.900475765            57.21%    passed     89.43%
+ 225  Streptococcus.pneumoniae.900476445          57.29%    passed     87.04%
+ 226  Streptococcus.equi.900475435                57.11%    passed     61.15%
+ 227  Escherichia.coli_D.002310695                57.49%    passed     62.36%
+ 228  Pseudomonas_E.piscium.002355875             57.36%    passed     98.82%
+ 229  Escherichia.coli.001577325                  57.52%    passed     57.94%
+ 230  Pseudomonas_E.hunanensis.000264665          57.70%    passed     97.95%
+ 231  Pseudomonas_A.stutzeri.000013785            57.95%    passed     96.01%
+ 232  Streptococcus.dysgalactiae.000317855        57.11%    passed     98.02%
+ 233  Escherichia.flexneri.000023365              57.95%    passed     54.49%
+ 234  Escherichia.dysenteriae.001806285           57.70%    passed     57.73%
+ 235  Klebsiella.pneumoniae.000474015             57.67%    passed     51.23%
+ 236  Streptococcus.gallolyticus.000203195        57.23%    passed     66.42%
+ 237  Staphylococcus.pseudintermedius.000189495   57.34%    passed     71.85%
+ 238  Streptococcus.pneumoniae.000007045          58.28%    passed     93.38%
+ 239  Streptococcus.thermophilus.000262675        57.21%    passed     69.57%
+ 240  Staphylococcus.schleiferi.001188895         57.39%    passed     83.73%
+ 241  Escherichia.coli_D.002787645                57.82%    passed     57.96%
+ 242  Klebsiella_A.michiganensis.002290285        57.62%    passed     73.42%
+ 243  Streptococcus.agalactiae.001026925          57.21%    passed     61.78%
+ 244  Streptococcus.pyogenes.900475955            57.21%    passed     89.43%
+ 245  Staphylococcus.epidermidis.002085695        57.36%    passed     58.96%
+ 246  Streptococcus.suis.002736265                57.18%    passed     90.95%
+ 247  Pseudomonas.aeruginosa.001077475            57.49%    passed     89.73%
+ 248  Escherichia.flexneri.002761835              57.62%    passed     50.15%
+ 249  Streptococcus.gordonii.000970665            57.03%    passed     78.57%
+ 250  Staphylococcus.aureus.000011265             57.31%    passed     25.80%
+ 251  Escherichia.dysenteriae.000520055           57.59%    passed     62.97%
+ 252  Staphylococcus.epidermidis.002215535        57.41%    passed     46.60%
+ 253  Streptococcus.suis.000231925                57.21%    passed     80.72%
+ 254  Pseudomonas_E.avellanae.002763655           57.62%    passed     96.83%
+ 255  Escherichia.albertii.002872455              57.54%    passed     64.10%
+ 256  Streptococcus.agalactiae.000007265          57.29%    passed     60.57%
+ 257  Escherichia.coli_D.000227625                57.44%    passed     56.27%
+ 258  Klebsiella_A.michiganensis.002947505        57.87%    passed     61.33%
+ 259  Klebsiella.variicola.001548315              57.70%    passed     57.28%
+ 260  Klebsiella.pneumoniae.002753165             57.64%    passed     46.58%
+ 261  Escherichia.coli.003020885                  57.49%    passed     55.22%
+ 262  Streptococcus.pyogenes.000732425            57.21%    passed     87.72%
+ 263  Pseudomonas_E.monteilii_B.000510325         57.44%    passed     98.52%
+ 264  Pseudomonas_E.avellanae.002024305           57.44%    passed     96.33%
+ 265  Klebsiella.quasipneumoniae.001280925        57.34%    passed     48.57%
+ 266  Enterococcus.faecalis.000742975             57.06%    passed     94.63%
+ 267  Escherichia.dysenteriae.001753525           57.57%    passed     58.37%
+ 268  Staphylococcus.equorum_B.001682235          57.41%    passed     20.60%
+ 269  Escherichia.coli.003019095                  57.36%    passed     53.25%
+ 270  Escherichia.coli_D.002310615                57.67%    passed     54.32%
+ 271  Escherichia.coli.001900735                  57.29%    passed     56.60%
+ 272  Enterococcus.faecalis.003030425             56.95%    passed     95.97%
+ 273  Staphylococcus.aureus.001594205             57.18%    passed     27.93%
+ 274  Pseudomonas.aeruginosa_A.000017205          57.54%    passed     89.79%
+ 275  Escherichia.flexneri.002180095              57.82%    passed     52.76%
+ 276  Escherichia.albertii.001549955              57.52%    passed     63.29%
+ 277  Klebsiella.variicola.002156765              57.75%    passed     51.03%
+ 278  Escherichia.albertii.002285475              57.75%    passed     62.70%
+ 279  Escherichia.coli.001617565                  57.57%    passed     52.72%
+ 280  Pseudomonas_E.syringae_M.900235865          57.67%    passed     97.59%
+ 281  Streptococcus.pyogenes.001547715            57.18%    passed     88.82%
+ 282  Escherichia.coli_D.002011985                57.85%    passed     57.55%
+ 283  Klebsiella_A.michiganensis.003074075        57.90%    passed     61.72%
+ 284  Streptococcus.anginosus.000463505           57.13%    passed     78.20%
+ 285  Klebsiella.pneumoniae.002192375             57.75%    passed     53.85%
+ 286  Staphylococcus.pseudintermedius.001682335   57.39%    passed     74.56%
+ 287  Escherichia.coli_D.000784925                57.67%    passed     54.96%
+ 288  Pseudomonas.aeruginosa.001515845            57.57%    passed     89.55%
+ 289  Streptococcus.mutans.000091645              57.03%    passed     89.63%
+ 290  Streptococcus.thermophilus.000014485        57.26%    passed     67.98%
+ 291  Enterococcus.faecalis.001689055             56.98%    passed     94.22%
+ 292  Enterococcus_B.faecium.002848745            56.95%    passed     96.49%
+ 293  Escherichia.coli.900149915                  57.62%    passed     53.74%
+ 294  Streptococcus.pneumoniae.001902455          57.29%    passed     85.16%
+ 295  Streptococcus.agalactiae.001683515          57.21%    passed     60.24%
+ 296  Streptococcus.pyogenes.900475485            57.18%    passed     88.50%
+ 297  Streptococcus.equi.900475295                57.06%    passed     65.93%
+ 298  Pseudomonas_E.avellanae.001913215           57.44%    passed     96.33%
+ 299  Escherichia.flexneri.001678965              57.77%    passed     52.60%
+ 300  Pseudomonas.aeruginosa.002085605            57.49%    passed     89.73%
+ 301  Streptococcus.suis.000186405                59.00%    passed     73.23%
+ 302  Streptococcus.suis.000732355                57.18%    passed     88.50%
+ 303  Streptococcus.pneumoniae.900475805          57.31%    passed     87.18%
+ 304  Staphylococcus.lugdunensis.002407165        57.36%    passed     49.79%
+ 305  Staphylococcus.lugdunensis.000025085        57.36%    passed     44.31%
+ 306  Klebsiella_A.oxytoca.001022295              57.93%    passed     64.83%
+ 307  Streptococcus.uberis.002814135              57.26%    passed     90.55%
+ 308  Pseudomonas_A.stutzeri.003008495            57.64%    passed     98.25%
+ 309  Streptococcus.thermophilus.002012365        57.23%    passed     69.28%
+ 310  Escherichia.coli.002180195                  57.52%    passed     57.11%
+ 311  Staphylococcus.lugdunensis.900478255        57.44%    passed     51.70%
+ 312  Pseudomonas.aeruginosa.001548135            57.52%    passed     89.94%
+ 313  Streptococcus.salivarius.000785515          57.21%    passed     69.50%
+ 314  Escherichia.coli.001675145                  57.70%    passed     51.11%
+ 315  Escherichia.flexneri.002163935              57.54%    passed     51.45%
+ 316  Staphylococcus.aureus.000597965             57.36%    passed     26.13%
+ 317  Streptococcus.pyogenes.003203475            57.18%    passed     90.39%
+ 318  Streptococcus.pneumoniae.900476475          57.31%    passed     87.18%
+ 319  Pseudomonas_E.ficuserectae.900289125        57.64%    passed     95.35%
+ 320  Enterococcus_B.faecium.002761275            56.95%    passed     96.49%
+ 321  Streptococcus.agalactiae.000730255          57.23%    passed     61.12%
+ 322  Streptococcus.lutetiensis.000441535         57.29%    passed     75.16%
+ 323  Enterococcus.faecalis.002163735             56.98%    passed     94.22%
+ 324  Staphylococcus.simulans.003006075           57.57%    passed     73.49%
+ 325  Pseudomonas.aeruginosa_A.003025345          57.70%    passed     90.09%
+ 326  Pseudomonas.aeruginosa.003206535            57.70%    passed     89.49%
+ 327  Staphylococcus.lugdunensis.001558815        57.52%    passed     49.97%
+ 328  Klebsiella_B.aerogenes.002591115            57.57%    passed     77.48%
+ 329  Streptococcus.thermophilus.002846075        57.26%    passed     67.98%
+ 330  Klebsiella_A.michiganensis.000714655        57.95%    passed     62.51%
+ 331  Streptococcus.agalactiae.000689235          57.21%    passed     61.78%
+ 332  Streptococcus.sobrinus.003172975            56.98%    passed     90.57%
+ 333  Pseudomonas_E.avellanae.000648735           57.44%    passed     96.33%
+ 334  Streptococcus.agalactiae.000730215          57.21%    passed     61.78%
+ 335  Escherichia.coli_D.001900315                57.31%    passed     60.36%
+ 336  Escherichia.dysenteriae.000730345           57.62%    passed     60.92%
+ 337  Escherichia.coli_D.003095635                57.82%    passed     54.26%
+ 338  Pseudomonas_E.hunanensis.000271965          57.52%    passed     98.75%
+ 339  Pseudomonas_A.stutzeri.000195105            57.36%    passed     98.47%
+ 340  Klebsiella.variicola.001989495              57.75%    passed     54.28%
+ 341  Streptococcus.agalactiae.002197265          57.26%    passed     58.76%
+ 342  Staphylococcus.aureus.002000765             57.34%    passed     26.93%
+ 343  Streptococcus.intermedius.002073355         57.06%    passed     89.32%
+ 344  Klebsiella.pneumoniae.001709275             57.67%    passed     47.53%
+ 345  Escherichia.flexneri.001721225              57.62%    passed     57.31%
+ 346  Streptococcus.agalactiae.000427075          57.59%    passed     66.79%
+ 347  Escherichia.coli.002996945                  57.57%    passed     52.72%
+ 348  Enterococcus.faecalis.001886675             56.93%    passed     95.19%
+ 349  Streptococcus.agalactiae.002812505          57.23%    passed     60.78%
+ 350  Staphylococcus.aureus.000953255             57.29%    passed     28.11%
+ 351  Streptococcus.equi.000020765                57.11%    passed     62.46%
+ 352  Streptococcus.salivarius.002094975          57.29%    passed     71.03%
+ 353  Streptococcus.thermophilus.002843115        57.21%    passed     70.50%
+ 354  Escherichia.flexneri.002952855              57.93%    passed     49.86%
+ 355  Streptococcus.equi.000696505                57.06%    passed     64.78%
+ 356  Streptococcus.pyogenes.900475075            57.18%    passed     88.82%
+ 357  Streptococcus.dysgalactiae.900475145        57.23%    passed     94.14%
+ 358  Staphylococcus.aureus.003203635             57.39%    passed     29.09%
+ 359  Enterococcus_B.faecium.003020685            56.93%    passed     97.62%
+ 360  Klebsiella.quasipneumoniae.003146655        57.85%    passed     55.19%
+ 361  Streptococcus.gallolyticus.002000985        57.23%    passed     66.42%
+ 362  Escherichia.dysenteriae.001753545           57.64%    passed     62.15%
+ 363  Staphylococcus.lugdunensis.000270465        57.29%    passed     47.11%
+ 364  Streptococcus.suis.000018185                57.21%    passed     85.51%
+ 365  Pseudomonas_E.hunanensis.000007565          58.05%    passed     97.59%
+ 366  Klebsiella.pneumoniae.002833425             57.82%    passed     54.59%
+ 367  Streptococcus.uberis.900475595              57.26%    passed     90.23%
+ 368  Pseudomonas_E.piscium.000761195             57.57%    passed     97.47%
+ 369  Staphylococcus.aureus.000815245             57.29%    passed     28.91%
+ 370  Escherichia.flexneri.003018215              57.82%    passed     49.33%
+ 371  Streptococcus.dysgalactiae.900475255        57.18%    passed     93.98%
+ 372  Klebsiella.pneumoniae.002202195             57.80%    passed     52.79%
+ 373  Pseudomonas_E.hunanensis.001767335          57.49%    passed     98.96%
+ 374  Klebsiella.quasipneumoniae.003146635        57.85%    passed     55.19%
+ 375  Escherichia.flexneri.002899495              57.93%    passed     49.86%
+ 376  Klebsiella_B.aerogenes.001021995            57.52%    passed     72.04%
+ 377  Pseudomonas_E.ficuserectae.000012205        57.44%    passed     95.35%
+ 378  Streptococcus.sanguinis.900475045           57.23%    passed     92.72%
+ 379  Staphylococcus.aureus.001298325             57.39%    passed     20.66%
+ 380  Escherichia.coli.003018255                  57.72%    passed     51.91%
+ 381  Streptococcus.mutans.000284575              57.03%    passed     89.68%
+ 382  Klebsiella.pneumoniae.000417265             57.72%    passed     51.63%
+ 383  Pseudomonas.aeruginosa.002192495            57.49%    passed     89.73%
+ 384  Staphylococcus.lugdunensis.002591215        57.36%    passed     49.79%
+ 385  Streptococcus.pneumoniae.000211035          57.29%    passed     87.04%
+ 386  Enterococcus.faecalis.002814115             56.95%    passed     94.98%
+ 387  Klebsiella_A.michiganensis.002906395        57.95%    passed     62.51%
+ 388  Streptococcus.pneumoniae.000018965          57.29%    passed     87.04%
+ 389  Enterococcus_B.faecium.001953255            56.93%    passed     95.91%
+ 390  Streptococcus.pyogenes.900475085            57.23%    passed     88.77%
+ 391  Escherichia.coli.002056635                  57.59%    passed     53.58%
+ 392  Escherichia.coli.001566675                  57.57%    passed     52.72%
+ 393  Streptococcus.agalactiae.000427035          57.21%    passed     61.78%
+ 394  Streptococcus.equi.900474875                57.06%    passed     63.19%
+ 395  Enterococcus.faecalis.002355755             56.93%    passed     95.19%
+ 396  Streptococcus.sobrinus.003172995            57.00%    passed     86.47%
+ 397  Pseudomonas.aeruginosa.002205335            57.54%    passed     89.79%
+ 398  Streptococcus.equi.900475125                57.57%    passed     70.47%
+ 399  Escherichia.dysenteriae.001753465           57.57%    passed     58.37%
+ 400  Pseudomonas_E.avellanae.900235905           57.62%    passed     96.45%
+ 401  Streptococcus.mutans.001558215              57.08%    passed     92.15%
+ 402  Enterococcus.faecalis.001878735             56.93%    passed     95.19%
+ 403  Pseudomonas.aeruginosa.002192475            57.52%    passed     89.55%
+ 404  Pseudomonas.aeruginosa.002237405            57.52%    passed     89.55%
+ 405  Streptococcus.mutans.000007465              57.31%    passed     90.78%
+ 406  Escherichia.coli.002012065                  57.52%    passed     57.11%
+ 407  Staphylococcus.aureus.001465675             57.26%    passed     25.41%
+ 408  Escherichia.dysenteriae.001753565           57.52%    passed     55.65%
+ 409  Escherichia.coli_D.000026345                57.59%    passed     52.57%
+ 410  Enterococcus_B.faecium.003020765            56.95%    passed     96.49%
+ 411  Staphylococcus.aureus.003185005             57.36%    passed     29.77%
+ 412  Pseudomonas_A.stutzeri.001038645            57.39%    passed     98.78%
+ 413  Streptococcus.agalactiae.002881315          57.21%    passed     61.79%
+ 414  Streptococcus.dysgalactiae.000307185        57.18%    passed     93.98%
+ 415  Enterococcus.faecalis.001989555             56.93%    passed     95.19%
+ 416  Streptococcus.agalactiae.002073795          57.26%    passed     60.27%
+ 417  Enterococcus_B.faecium.002777275            56.95%    passed     96.49%
+ 418  Streptococcus.agalactiae.000831125          57.21%    passed     61.78%
+ 419  Enterococcus_B.faecium.002334625            56.90%    passed     96.34%
+ 420  Staphylococcus.simulans.001559115           57.52%    passed     74.82%
+ 421  Streptococcus.pyogenes.900475795            57.18%    passed     90.39%
+ 422  Escherichia.coli.001660585                  57.06%    passed     59.95%
+ 423  Enterococcus_B.faecium.000444405            56.93%    passed     95.86%
+ 424  Escherichia.coli.002853715                  57.77%    passed     54.04%
+ 425  Streptococcus.salivarius.002073815          57.29%    passed     67.34%
+ 426  Escherichia.coli_D.000027125                57.77%    passed     58.32%
+ 427  Staphylococcus.epidermidis.002954055        57.44%    passed     54.18%
+ 428  Staphylococcus.haemolyticus.001611955       57.34%    passed     36.53%
+ 429  Streptococcus.lutetiensis.900475675         57.29%    passed     75.45%
+ 430  Streptococcus.salivarius.001543085          57.26%    passed     67.47%
+ 431  Escherichia.dysenteriae.001695515           57.57%    passed     60.57%
+ 432  Streptococcus.thermophilus.001855705        57.21%    passed     70.50%
+ 433  Staphylococcus.epidermidis.002850315        57.41%    passed     54.34%
+ 434  Klebsiella.quasipneumoniae.001278905        57.54%    passed     49.03%
+ 435  Streptococcus.suis.001721625                57.18%    passed     90.34%
+ 436  Streptococcus.pneumoniae.000146975          57.18%    passed     83.99%
+ 437  Klebsiella_B.aerogenes.001571545            57.57%    passed     68.74%
+ 438  Streptococcus.lutetiensis.900475065         57.29%    passed     75.16%
+ 439  Streptococcus.salivarius.000448685          57.23%    passed     68.30%
+ 440  Escherichia.coli.001021595                  57.36%    passed     55.80%
+ 441  Klebsiella.variicola.002852915              57.52%    passed     49.26%
+ 442  Klebsiella_B.aerogenes.002796425            57.67%    passed     72.76%
+ 443  Klebsiella.pneumoniae.000742755             57.67%    passed     51.23%
+ 444  Streptococcus.gordonii.000017005            57.13%    passed     75.81%
+ 445  Streptococcus.pneumoniae.001896045          57.23%    passed     87.23%
+ 446  Pseudomonas.aeruginosa.001900225            57.49%    passed     89.73%
+ 447  Streptococcus.sanguinis.000014205           57.67%    passed     88.00%
+ 448  Streptococcus.pyogenes.000011665            57.21%    passed     88.13%
+ 449  Klebsiella.variicola.001989535              57.75%    passed     54.28%
+ 450  Staphylococcus.epidermidis.000007645        57.59%    passed     59.11%
+ 451  Staphylococcus.xylosus.000953575            57.18%    passed     39.61%
+ 452  Escherichia.flexneri.002741255              57.64%    passed     57.55%
+ 453  Klebsiella.quasipneumoniae.002240295        57.44%    passed     58.37%
+ 454  Streptococcus.pneumoniae.000018985          57.29%    passed     88.17%
+ 455  Pseudomonas.aeruginosa.001547955            57.49%    passed     89.73%
+ 456  Pseudomonas.aeruginosa.001542835            57.52%    passed     89.55%
+ 457  Escherichia.flexneri.002211725              57.64%    passed     56.52%
+ 458  Escherichia.dysenteriae.002741495           57.85%    passed     51.93%
+ 459  Klebsiella_A.michiganensis.002906435        58.00%    passed     67.30%
+ 460  Streptococcus.pneumoniae.900476505          57.26%    passed     80.48%
+ 461  Streptococcus.suis.001936415                57.18%    passed     86.32%
+ 462  Streptococcus.suis.000233575                57.26%    passed     87.11%
+ 463  Streptococcus.agalactiae.002197425          57.26%    passed     58.76%
+ 464  Escherichia.coli_D.001890365                57.80%    passed     54.65%
+ 465  Pseudomonas_E.hunanensis.002953115          57.67%    passed     98.30%
+ 466  Escherichia.flexneri.002870165              57.62%    passed     50.15%
+ 467  Escherichia.dysenteriae.001651965           57.57%    passed     60.57%
+ 468  Staphylococcus.epidermidis.000011925        57.46%    passed     47.63%
+ 469  Klebsiella_B.aerogenes.003071285            57.54%    passed     67.99%
+ 470  Enterococcus_B.faecium.001587115            56.95%    passed     96.33%
+ 471  Staphylococcus.saprophyticus.001558275      57.39%    passed     49.70%
+ 472  Streptococcus.agalactiae.001552035          57.21%    passed     61.78%
+ 473  Escherichia.albertii.002285455              57.90%    passed     59.69%
+ 474  Streptococcus.pyogenes.001014305            57.18%    passed     88.82%
+ 475  Pseudomonas.aeruginosa.001874465            57.49%    passed     89.73%
+ 476  Streptococcus.suis.001272635                57.18%    passed     90.95%
+ 477  Staphylococcus.epidermidis.900086615        57.36%    passed     49.13%
+ 478  Streptococcus.pyogenes.000767505            57.18%    passed     90.39%
+ 479  Streptococcus.pyogenes.900474975            57.21%    passed     91.47%
+ 480  Streptococcus.pyogenes.000756485            57.18%    passed     90.39%
+ 481  Pseudomonas.aeruginosa_A.002968755          57.72%    passed     90.43%
+ 482  Pseudomonas_E.avellanae.002905795           57.64%    passed     96.06%
+ 483  Enterococcus_B.faecium.002761255            56.95%    passed     96.49%
+ 484  Streptococcus.pyogenes.001635895            57.21%    passed     89.71%
+ 485  Staphylococcus.aureus.900475245             57.36%    passed     29.77%
+ 486  Pseudomonas_E.protegens.000828695           57.34%    passed     98.11%
+ 487  Enterococcus_B.faecium.001518735            56.98%    passed     96.75%
+ 488  Streptococcus.suis.000026745                57.18%    passed     85.82%
+ 489  Staphylococcus.aureus.001975005             57.29%    passed     26.45%
+ 490  Klebsiella.quasipneumoniae.002953295        57.82%    passed     53.56%
+ 491  Escherichia.coli_D.000019645                57.80%    passed     57.15%
+ 492  Streptococcus.pyogenes.900474865            57.18%    passed     90.39%
+ 493  Escherichia.coli_D.002787215                57.72%    passed     53.41%
+ 494  Staphylococcus.lugdunensis.900474705        57.46%    passed     54.86%
+ 495  Enterococcus_B.faecium.900066025            56.88%    passed     96.75%
+ 496  Pseudomonas_E.avellanae.002966555           57.62%    passed     95.93%
+ 497  Streptococcus.gallolyticus.000027185        57.23%    passed     66.42%
+ 498  Streptococcus.dysgalactiae.000188715        57.18%    passed     95.27%
+ 499  Streptococcus.uberis.900475695              57.26%    passed     90.55%
+ 500  Pseudomonas_E.avellanae.001913235           57.44%    passed     96.33%
+ 501  Streptococcus.lutetiensis.001477615         57.26%    passed     76.08%
+ 502  Pseudomonas_A.stutzeri.000219605            57.49%    passed     98.66%
+ 503  Klebsiella.pneumoniae.002180175             57.77%    passed     53.91%
+ 504  Staphylococcus.equorum_B.001683315          57.26%    passed     25.98%
+ 505  Escherichia.coli_D.003180995                57.70%    passed     52.16%
+ 506  Streptococcus.iniae.000831485               57.82%    passed     89.68%
+ 507  Klebsiella.pneumoniae.002852945             57.62%    passed     45.59%
+ 508  Streptococcus.thermophilus.900094135        57.31%    passed     71.16%
+ 509  Streptococcus.suis.000091905                57.18%    passed     86.32%
+ 510  Klebsiella_B.aerogenes.001559215            57.57%    passed     68.74%
+ 511  Enterococcus_B.faecium.003071425            56.93%    passed     97.62%
+ 512  Staphylococcus.aureus.003031425             57.34%    passed     37.69%
+ 513  Streptococcus.sobrinus.003176795            57.03%    passed     88.47%
+ 514  Streptococcus.thermophilus.001514435        57.21%    passed     70.50%
+ 515  Escherichia.dysenteriae.003018995           57.77%    passed     57.12%
+ 516  Klebsiella.quasipneumoniae.003020825        57.75%    passed     56.76%
+ 517  Enterococcus_B.faecium.001721065            56.93%    passed     95.91%
+ 518  Streptococcus.agalactiae.001729925          57.26%    passed     58.76%
+ 519  Streptococcus.pyogenes.900474765            57.18%    passed     90.39%
+ 520  Streptococcus.gordonii.900475015            57.03%    passed     76.96%
+ 521  Streptococcus.agalactiae.000012705          57.23%    passed     59.53%
+ 522  Streptococcus.thermophilus.900474985        57.21%    passed     70.50%
+ 523  Streptococcus.gordonii.001281105            57.13%    passed     75.81%
+ 524  Klebsiella.variicola.002164805              57.52%    passed     44.14%
+ 525  Pseudomonas_E.avellanae.900235835           57.64%    passed     95.62%
+ 526  Streptococcus.intermedius.000463355         57.06%    passed     94.22%
+ 527  Pseudomonas_E.monteilii_B.000510285         57.44%    passed     98.52%
+ 528  Streptococcus.dysgalactiae.900475185        57.18%    passed     92.81%
+ 529  Pseudomonas_E.ficuserectae.002905685        57.64%    passed     95.35%
+ 530  Streptococcus.agalactiae.002812465          57.23%    passed     59.53%
+ 531  Pseudomonas_E.ficuserectae.002068135        57.70%    passed     96.21%
+ 532  Streptococcus.suis.000494895                57.11%    passed     88.03%
+ 533  Enterococcus_B.faecium.003020705            56.95%    passed     97.32%
+ 534  Klebsiella.variicola.000025465              57.62%    passed     41.04%
+ 535  Staphylococcus.aureus.900017775             57.34%    passed     25.11%
+ 536  Staphylococcus.aureus.001018655             57.36%    passed     29.77%
+ 537  Escherichia.coli.003194345                  57.59%    passed     50.48%
+ 538  Enterococcus_B.faecium.002848625            56.95%    passed     96.49%
+ 539  Streptococcus.pneumoniae.000026665          57.31%    passed     83.47%
+ 540  Pseudomonas_E.syringae_M.000012245          57.80%    passed     96.40%
+ 541  Escherichia.coli_D.001677475                57.67%    passed     55.52%
+ 542  Pseudomonas_E.piscium.003008635             57.67%    passed     98.31%
+ 543  Escherichia.flexneri.001900535              57.23%    passed     57.40%
+ 544  Klebsiella_A.michiganensis.002072655        57.80%    passed     69.32%
+ 545  Klebsiella.pneumoniae.001908655             57.90%    passed     47.52%
+ 546  Klebsiella_A.michiganensis.001970835        57.80%    passed     66.13%
+ 547  Streptococcus.sanguinis.900475505           57.23%    passed     90.47%
+ 548  Streptococcus.equi.900474805                57.26%    passed     64.98%
+ 549  Escherichia.dysenteriae.001650275           57.64%    passed     55.25%
+ 550  Streptococcus.pyogenes.002355175            57.21%    passed     89.43%
+ 551  Pseudomonas.aeruginosa.002812905            57.67%    passed     89.81%
+ 552  Streptococcus.intermedius.000306805         57.06%    passed     94.38%
+ 553  Staphylococcus.aureus.002952015             57.26%    passed     27.07%
+ 554  Staphylococcus.pseudintermedius.001682435   57.36%    passed     72.92%
+ 555  Pseudomonas_E.protegens.002006545           57.34%    passed     98.28%
+ 556  Streptococcus.agalactiae.000299135          57.13%    passed     60.31%
+ 557  Streptococcus.pyogenes.000250925            57.18%    passed     88.50%
+ 558  Streptococcus.gallolyticus.900475715        57.23%    passed     66.42%
+ 559  Staphylococcus.equorum_B.001663395          57.44%    passed     27.70%
+ 560  Escherichia.dysenteriae.001890245           57.57%    passed     58.37%
+ 561  Escherichia.flexneri.002903125              57.64%    passed     51.52%
+ 562  Pseudomonas.aeruginosa.001721845            57.52%    passed     89.94%
+ 563  Escherichia.flexneri.003017455              57.93%    passed     54.99%
+ 564  Klebsiella_A.michiganensis.000276705        57.70%    passed     67.92%
+ 565  Streptococcus.salivarius.000253315          57.21%    passed     65.74%
+ 566  Staphylococcus.aureus.001956755             57.31%    passed     26.90%
+ 567  Escherichia.coli_D.002966755                57.77%    passed     56.72%
+ 568  Pseudomonas_E.hunanensis.000016865          57.49%    passed     98.27%
+ 569  Enterococcus_B.faecium.001635875            56.93%    passed     95.91%
+ 570  Streptococcus.pneumoniae.003003495          57.29%    passed     89.78%
+ 571  Streptococcus.pyogenes.000743015            57.16%    passed     90.56%
+ 572  Escherichia.coli_D.001485455                57.59%    passed     58.19%
+ 573  Pseudomonas.aeruginosa.002812825            57.70%    passed     89.49%
+ 574  Streptococcus.pyogenes.900474815            57.18%    passed     90.39%
+ 575  Escherichia.flexneri.003019215              57.98%    passed     52.54%
+ 576  Klebsiella_A.michiganensis.001753185        57.90%    passed     71.67%
+ 577  Klebsiella.pneumoniae.002752815             57.70%    passed     46.43%
+ 578  Klebsiella.pneumoniae.002752975             57.64%    passed     46.58%
+ 579  Streptococcus.pneumoniae.002357995          57.29%    passed     87.04%
+ 580  Klebsiella_A.oxytoca.002984395              57.87%    passed     63.48%
+ 581  Klebsiella.pneumoniae.003031325             57.72%    passed     49.74%
+ 582  Streptococcus.sobrinus.900475365            57.03%    passed     88.47%
+ 583  Klebsiella.quasipneumoniae.003146685        57.85%    passed     55.19%
+ 584  Klebsiella_A.oxytoca.003073975              57.85%    passed     63.60%
+ 585  Streptococcus.iniae.001885145               57.70%    passed     88.36%
+ 586  Klebsiella_B.aerogenes.001593585            57.57%    passed     68.74%
+ 587  Streptococcus.intermedius.900475975         57.06%    passed     94.38%
+ 588  Streptococcus.pneumoniae.900476455          57.29%    passed     89.78%
+ 589  Escherichia.coli_D.001900295                57.34%    passed     64.85%
+ 590  Pseudomonas_E.piscium.000698865             57.46%    passed     98.37%
+ 591  Streptococcus.pyogenes.900474795            57.18%    passed     90.39%
+ 592  Klebsiella_A.michiganensis.000632415        57.52%    passed     72.05%
+ 593  Escherichia.flexneri.001900985              57.23%    passed     52.00%
+ 594  Staphylococcus.simulans.003076375           57.57%    passed     73.49%
+ 595  Staphylococcus.aureus.001457495             57.26%    passed     25.41%
+ 596  Streptococcus.pyogenes.000013485            57.18%    passed     90.39%
+ 597  Streptococcus.pneumoniae.001896065          57.29%    passed     85.16%
+ 598  Enterococcus.faecalis.000281195             57.16%    passed     94.47%
+ 599  Streptococcus.suis.001640765                57.18%    passed     90.34%
+ 600  Pseudomonas.aeruginosa.001792855            57.49%    passed     89.73%
+ 601  Streptococcus.pneumoniae.900475305          57.29%    passed     89.78%
+ 602  Streptococcus.pyogenes.000011285            57.23%    passed     88.36%
+ 603  Pseudomonas_E.avellanae.000344355           57.44%    passed     96.33%
+ 604  Streptococcus.pneumoniae.000196595          57.23%    passed     80.32%
+ 605  Enterococcus.faecalis.000007785             58.08%    passed     96.12%
+ 606  Streptococcus.agalactiae.002197245          57.26%    passed     58.76%
+ 607  Pseudomonas_E.hunanensis.000183645          57.54%    passed     97.86%
+ 608  Pseudomonas_E.protegens.000012265           57.39%    passed     97.74%
+ 609  Streptococcus.thermophilus.001663795        57.21%    passed     70.50%
+ 610  Staphylococcus.haemolyticus.002906615       57.39%    passed     45.67%
+ 611  Streptococcus.suis.000231905                57.46%    passed     91.31%
+ 612  Streptococcus.dysgalactiae.000010705        57.26%    passed     89.04%
+ 613  Enterococcus.faecalis.001598635             56.98%    passed     95.25%
+ 614  Enterococcus.faecalis.000172575             56.98%    passed     94.61%
+ 615  Streptococcus.iniae.002220115               57.80%    passed     88.93%
+ 616  Escherichia.coli_D.003019035                57.77%    passed     55.53%
+ 617  Pseudomonas.aeruginosa.001447845            57.49%    passed     89.73%
+ 618  Streptococcus.agalactiae.002289205          57.21%    passed     61.78%
+ 619  Staphylococcus.aureus.000025145             57.31%    passed     25.80%
+ 620  Streptococcus.agalactiae.002197365          57.21%    passed     61.78%
+ 621  Pseudomonas.aeruginosa.003060845            57.34%    passed     83.32%
+ 622  Enterococcus_B.faecium.000250945            56.82%    passed     97.47%
+ 623  Streptococcus.anginosus.000463465           57.13%    passed     73.29%
+ 624  Escherichia.flexneri.001900335              57.34%    passed     54.31%
+ 625  Streptococcus.anginosus.000478925           57.08%    passed     77.29%
+ 626  Streptococcus.anginosus.001412635           57.08%    passed     70.92%
+ 627  Streptococcus.salivarius.900475225          57.26%    passed     71.85%
+ 628  Streptococcus.suis.000204625                57.23%    passed     92.25%
+ 629  Klebsiella_B.aerogenes.002796405            57.62%    passed     68.33%
+ 630  Streptococcus.pneumoniae.000210995          57.44%    passed     88.76%
+ 631  Escherichia.coli_D.002012045                57.77%    passed     59.97%
+ 632  Escherichia.flexneri.003073815              57.62%    passed     48.43%
+ 633  Enterococcus.faecalis.000317915             57.03%    passed     95.84%
+ 634  Pseudomonas_E.monteilii_B.000831585         57.52%    passed     98.17%
+ 635  Escherichia.flexneri.001559675              57.85%    passed     52.72%
+ 636  Streptococcus.suis.003144175                57.21%    passed     89.98%
+ 637  Streptococcus.mutans.000817065              57.06%    passed     89.86%
+ 638  Streptococcus.thermophilus.000971665        57.23%    passed     69.28%
+ 639  Streptococcus.equi.000219765                57.06%    passed     64.78%
+ 640  Enterococcus_B.faecium.002880635            56.95%    passed     96.49%
+ 641  Pseudomonas.aeruginosa.000006765            37.03%    failed      0.00%
+ 642  Streptococcus.suis.001610935                57.18%    passed     90.95%
+ 643  Escherichia.flexneri.003112165              57.85%    passed     51.93%
+ 644  Klebsiella_A.michiganensis.002216835        57.62%    passed     73.42%
+ 645  Klebsiella.pneumoniae.003073315             57.87%    passed     47.47%
+ 646  Escherichia.flexneri.001900945              57.62%    passed     57.31%
+ 647  Staphylococcus.xylosus.000709415            57.23%    passed     34.14%
+ 648  Streptococcus.pneumoniae.000210975          57.36%    passed     88.40%
+ 649  Klebsiella_A.michiganensis.000240325        57.90%    passed     65.47%
+ 650  Staphylococcus.epidermidis.002944995        57.52%    passed     55.55%
+ 651  Klebsiella.pneumoniae.000417085             57.72%    passed     51.63%
+ 652  Klebsiella_A.michiganensis.002906415        57.98%    passed     64.02%
+ 653  Pseudomonas_E.syringae_M.000988485          57.41%    passed     96.32%
+ 654  Streptococcus.suis.000993745                57.18%    passed     86.32%
+ 655  Enterococcus_B.faecium.001750885            56.98%    passed     96.75%
+ 656  Streptococcus.agalactiae.001592385          57.23%    passed     59.53%
+ 657  Pseudomonas_E.avellanae.000344335           57.44%    passed     95.67%
+ 658  Staphylococcus.saprophyticus.002208905      57.46%    passed     44.58%
+ 659  Streptococcus.gordonii.900475385            57.03%    passed     76.96%
+ 660  Klebsiella.pneumoniae.002587885             57.72%    passed     51.63%
+ 661  Staphylococcus.simulans.002386185           57.46%    passed     63.73%
+ 662  Streptococcus.thermophilus.000011825        57.26%    passed     72.34%
+ 663  Staphylococcus.haemolyticus.002952715       57.46%    passed     38.69%
+ 664  Streptococcus.thermophilus.000011845        57.23%    passed     72.60%
+ 665  Streptococcus.thermophilus.000698885        57.21%    passed     70.50%
+ 666  Pseudomonas.aeruginosa.001721805            57.52%    passed     89.94%
+ 667  Streptococcus.pyogenes.000993765            57.18%    passed     90.39%
+ 668  Streptococcus.agalactiae.001266635          57.18%    passed     58.37%
+ 669  Escherichia.flexneri.000299255              57.70%    passed     57.66%
+ 670  Enterococcus_B.faecium.900092475            56.90%    passed     96.34%
+ 671  Escherichia.coli.000813165                  57.26%    passed     57.76%
+ 672  Pseudomonas_E.monteilii_B.000511325         57.49%    passed     96.50%
+ 673  Streptococcus.suis.002688665                57.18%    passed     86.32%
+ 674  Klebsiella.pneumoniae.000775375             57.82%    passed     47.63%
+ 675  Staphylococcus.lugdunensis.002073395        57.44%    passed     51.70%
+ 676  Streptococcus.suis.000294495                57.18%    passed     86.32%
+ 677  Staphylococcus.aureus.003030065             57.39%    passed     30.85%
+ 678  Streptococcus.agalactiae.001190885          57.21%    passed     61.78%
+ 679  Streptococcus.gordonii.002386285            57.03%    passed     76.96%
+ 680  Staphylococcus.equorum_B.001432245          57.39%    passed     23.72%
+ 681  Enterococcus_B.faecium.002761555            56.95%    passed     98.04%
+ 682  Klebsiella.pneumoniae.002197505             57.72%    passed     51.63%
+ 683  Klebsiella_B.aerogenes.002796525            57.57%    passed     68.74%
+ 684  Streptococcus.sanguinis.900475275           57.23%    passed     89.80%
+ 685  Escherichia.coli_D.001721525                57.62%    passed     59.53%
+ 686  Streptococcus.pyogenes.001559175            57.21%    passed     89.71%
+ 687  Streptococcus.thermophilus.000253395        57.31%    passed     66.01%
+ 688  Streptococcus.pneumoniae.000211015          57.29%    passed     87.04%
+ 689  Escherichia.coli.002012205                  57.54%    passed     51.79%
+ 690  Klebsiella.pneumoniae.002752995             57.77%    passed     50.12%
+ 691  Escherichia.coli.002237305                  57.57%    passed     58.76%
+WARNING: 689 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       57.35%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Pseudomonas_E.avellanae.002024305 is identical to Pseudomonas_E.avellanae.002024285 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa_A.002968755 is identical to Pseudomonas.aeruginosa_A.003073695 but kept for subsequent analysis
+NOTE: Streptococcus.pneumoniae.003003495 is identical to Streptococcus.pneumoniae.000014365 but kept for subsequent analysis
+NOTE: Streptococcus.suis.000168355 is identical to Streptococcus.suis.001572685 but kept for subsequent analysis
+NOTE: Streptococcus.pneumoniae.000019025 is identical to Streptococcus.pneumoniae.000147095 but kept for subsequent analysis
+NOTE: Streptococcus.agalactiae.002073695 is identical to Streptococcus.agalactiae.900155855 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.001307215 is identical to Escherichia.dysenteriae.000262125 but kept for subsequent analysis
+NOTE: Streptococcus.agalactiae.001592425 is identical to Streptococcus.agalactiae.002812425 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.001908655 is identical to Klebsiella.pneumoniae.001956965 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.002180175 is identical to Klebsiella.pneumoniae.002202255 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.000473745 is identical to Pseudomonas.aeruginosa.001516105 but kept for subsequent analysis
+NOTE: Enterococcus_B.faecium.003071425 is identical to Enterococcus_B.faecium.003071445 but kept for subsequent analysis
+NOTE: Enterococcus_B.faecium.002848745 is identical to Enterococcus_B.faecium.002848665 but kept for subsequent analysis
+NOTE: Streptococcus.suis.000344765 is identical to Streptococcus.suis.002111405 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.001753525 is identical to Escherichia.dysenteriae.001753445 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.001695515 is identical to Escherichia.dysenteriae.001651925 but kept for subsequent analysis
+NOTE: Streptococcus.thermophilus.002846155 is identical to Streptococcus.thermophilus.002443035 but kept for subsequent analysis
+NOTE: Streptococcus.pyogenes.001051095 is identical to Streptococcus.pyogenes.900475155 but kept for subsequent analysis
+NOTE: Streptococcus.thermophilus.000011845 is identical to Streptococcus.thermophilus.001685375 but kept for subsequent analysis
+NOTE: Streptococcus.uberis.002814135 is identical to Streptococcus.uberis.000009545 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.001890325 is identical to Escherichia.dysenteriae.001650295 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.001902415 is identical to Klebsiella.pneumoniae.001908895 but kept for subsequent analysis
+NOTE: Klebsiella.variicola.001989495 is identical to Klebsiella.variicola.001989515 but kept for subsequent analysis
+NOTE: Enterococcus_B.faecium.001953255 is identical to Enterococcus_B.faecium.001953235 but kept for subsequent analysis
+NOTE: Streptococcus.dysgalactiae.900475255 is identical to Streptococcus.dysgalactiae.900474785 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.001709275 is identical to Klebsiella.pneumoniae.002948565 but kept for subsequent analysis
+NOTE: Escherichia.coli.001617565 is identical to Escherichia.coli.002157245 but kept for subsequent analysis
+NOTE: Staphylococcus.simulans.003006055 is identical to Staphylococcus.simulans.003096155 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.002741495 is identical to Escherichia.dysenteriae.002741555 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.001890225 is identical to Escherichia.dysenteriae.000021125 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.002587885 is identical to Klebsiella.pneumoniae.000417225 but kept for subsequent analysis
+NOTE: Streptococcus.sobrinus.003172995 is identical to Streptococcus.sobrinus.900475395 but kept for subsequent analysis
+NOTE: Escherichia.coli.002180195 is identical to Escherichia.coli.002011965 but kept for subsequent analysis
+NOTE: Streptococcus.agalactiae.002197265 is identical to Streptococcus.agalactiae.002197285 but kept for subsequent analysis
+NOTE: Klebsiella_A.oxytoca.001022295 is identical to Klebsiella_A.oxytoca.001870185 but kept for subsequent analysis
+NOTE: Escherichia.coli.001663475 is identical to Escherichia.coli.001618365 but kept for subsequent analysis
+NOTE: Klebsiella_A.michiganensis.002072655 is identical to Klebsiella_A.michiganensis.001022195 but kept for subsequent analysis
+NOTE: Escherichia.dysenteriae.000520055 is identical to Escherichia.dysenteriae.000662395 but kept for subsequent analysis
+NOTE: Streptococcus.thermophilus.000262675 is identical to Streptococcus.thermophilus.001280285 but kept for subsequent analysis
+NOTE: Klebsiella.quasipneumoniae.002953295 is identical to Klebsiella.quasipneumoniae.003181175 but kept for subsequent analysis
+NOTE: Streptococcus.gallolyticus.000203195 is identical to Streptococcus.gallolyticus.000270145 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.002812905 is identical to Pseudomonas.aeruginosa.003193645 but kept for subsequent analysis
+NOTE: Escherichia.flexneri.002952855 is identical to Escherichia.flexneri.002953055 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.000742755 is identical to Klebsiella.pneumoniae.000474015 but kept for subsequent analysis
+NOTE: Klebsiella_A.michiganensis.002216835 is identical to Klebsiella_A.michiganensis.002290285 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.002752975 is identical to Klebsiella.pneumoniae.002753165 but kept for subsequent analysis
+NOTE: Pseudomonas_E.monteilii_B.000510285 is identical to Pseudomonas_E.monteilii_B.000510325 but kept for subsequent analysis
+NOTE: Streptococcus.pyogenes.001014305 is identical to Streptococcus.pyogenes.001547715 but kept for subsequent analysis
+NOTE: Staphylococcus.lugdunensis.002591215 is identical to Staphylococcus.lugdunensis.002407165 but kept for subsequent analysis
+NOTE: Staphylococcus.lugdunensis.002073395 is identical to Staphylococcus.lugdunensis.900478255 but kept for subsequent analysis
+NOTE: Pseudomonas_E.ficuserectae.002905685 is identical to Pseudomonas_E.ficuserectae.900289125 but kept for subsequent analysis
+NOTE: Klebsiella_A.michiganensis.002906395 is identical to Klebsiella_A.michiganensis.000714655 but kept for subsequent analysis
+NOTE: Enterococcus.faecalis.002355755 is identical to Enterococcus.faecalis.001886675 but kept for subsequent analysis
+NOTE: Streptococcus.equi.000219765 is identical to Streptococcus.equi.000696505 but kept for subsequent analysis
+NOTE: Klebsiella.quasipneumoniae.003146635 is identical to Klebsiella.quasipneumoniae.003146655 but kept for subsequent analysis
+NOTE: Klebsiella.pneumoniae.000417085 is identical to Klebsiella.pneumoniae.000417265 but kept for subsequent analysis
+NOTE: Streptococcus.pneumoniae.000211015 is identical to Streptococcus.pneumoniae.000211035 but kept for subsequent analysis
+NOTE: Streptococcus.pneumoniae.002357995 is identical to Streptococcus.pneumoniae.000018965 but kept for subsequent analysis
+NOTE: Streptococcus.suis.001640765 is identical to Streptococcus.suis.001721625 but kept for subsequent analysis
+NOTE: Klebsiella_B.aerogenes.001559215 is identical to Klebsiella_B.aerogenes.001571545 but kept for subsequent analysis
+NOTE: Staphylococcus.aureus.001018655 is identical to Staphylococcus.aureus.900475245 but kept for subsequent analysis
+NOTE: Streptococcus.sobrinus.900475365 is identical to Streptococcus.sobrinus.003176795 but kept for subsequent analysis
+NOTE: Streptococcus.gordonii.900475385 is identical to Streptococcus.gordonii.900475015 but kept for subsequent analysis
+NOTE: Streptococcus.intermedius.900475975 is identical to Streptococcus.intermedius.000306805 but kept for subsequent analysis
+NOTE: Pseudomonas.aeruginosa.001721805 is identical to Pseudomonas.aeruginosa.001721845 but kept for subsequent analysis
+NOTE: 100 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pseudomonas_E.avellanae.001913215 (identical to Pseudomonas_E.avellanae.002024285) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.000648735 (identical to Pseudomonas_E.avellanae.002024285) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.001913235 (identical to Pseudomonas_E.avellanae.002024285) is ignored but added at the end
+NOTE: Pseudomonas_E.avellanae.000344355 (identical to Pseudomonas_E.avellanae.002024285) is ignored but added at the end
+NOTE: Streptococcus.pneumoniae.900475305 (identical to Streptococcus.pneumoniae.000014365) is ignored but added at the end
+NOTE: Streptococcus.suis.002736265 (identical to Streptococcus.suis.001572685) is ignored but added at the end
+NOTE: Streptococcus.suis.001272635 (identical to Streptococcus.suis.001572685) is ignored but added at the end
+NOTE: Streptococcus.suis.001610935 (identical to Streptococcus.suis.001572685) is ignored but added at the end
+NOTE: Streptococcus.pneumoniae.001896085 (identical to Streptococcus.pneumoniae.000147095) is ignored but added at the end
+NOTE: Streptococcus.pneumoniae.000251085 (identical to Streptococcus.pneumoniae.000147095) is ignored but added at the end
+NOTE: Streptococcus.pneumoniae.001902455 (identical to Streptococcus.pneumoniae.000147095) is ignored but added at the end
+NOTE: Streptococcus.pneumoniae.001896065 (identical to Streptococcus.pneumoniae.000147095) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.001712835 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.001026925 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.000689235 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.000730215 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.000427035 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.000831125 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.001552035 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.002289205 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.002197365 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.001190885 (identical to Streptococcus.agalactiae.900155855) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.000732965 (identical to Escherichia.dysenteriae.000262125) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.001865295 (identical to Escherichia.dysenteriae.000262125) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.001612495 (identical to Escherichia.dysenteriae.000262125) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.000012705 (identical to Streptococcus.agalactiae.002812425) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.002812465 (identical to Streptococcus.agalactiae.002812425) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.001592385 (identical to Streptococcus.agalactiae.002812425) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001879525 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.000504045 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002104595 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001077475 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002085605 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.002192495 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001900225 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001547955 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001874465 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001792855 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Pseudomonas.aeruginosa.001447845 (identical to Pseudomonas.aeruginosa.001516105) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.002761275 (identical to Enterococcus_B.faecium.002848665) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.002777275 (identical to Enterococcus_B.faecium.002848665) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.002761255 (identical to Enterococcus_B.faecium.002848665) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.002848625 (identical to Enterococcus_B.faecium.002848665) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.002880635 (identical to Enterococcus_B.faecium.002848665) is ignored but added at the end
+NOTE: Streptococcus.suis.000026725 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.002189695 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.900475585 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.001936415 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.000091905 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.000993745 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.002688665 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Streptococcus.suis.000294495 (identical to Streptococcus.suis.002111405) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.001753465 (identical to Escherichia.dysenteriae.001753445) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.001890245 (identical to Escherichia.dysenteriae.001753445) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.001651965 (identical to Escherichia.dysenteriae.001651925) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.001008015 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.002843115 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.001855705 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.001514435 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.900474985 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.001663795 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.thermophilus.000698885 (identical to Streptococcus.thermophilus.002443035) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900474845 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900475425 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900475455 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900475115 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.003203475 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900475795 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.000767505 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.000756485 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900474865 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900474765 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900474815 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.900474795 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.000013485 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.pyogenes.000993765 (identical to Streptococcus.pyogenes.900475155) is ignored but added at the end
+NOTE: Streptococcus.uberis.900475695 (identical to Streptococcus.uberis.000009545) is ignored but added at the end
+NOTE: Escherichia.dysenteriae.001650275 (identical to Escherichia.dysenteriae.001650295) is ignored but added at the end
+NOTE: Klebsiella.variicola.001989535 (identical to Klebsiella.variicola.001989515) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.001721065 (identical to Enterococcus_B.faecium.001953235) is ignored but added at the end
+NOTE: Enterococcus_B.faecium.001635875 (identical to Enterococcus_B.faecium.001953235) is ignored but added at the end
+NOTE: Streptococcus.dysgalactiae.000307185 (identical to Streptococcus.dysgalactiae.900474785) is ignored but added at the end
+NOTE: Escherichia.coli.002996945 (identical to Escherichia.coli.002157245) is ignored but added at the end
+NOTE: Escherichia.coli.001566675 (identical to Escherichia.coli.002157245) is ignored but added at the end
+NOTE: Staphylococcus.simulans.003006075 (identical to Staphylococcus.simulans.003096155) is ignored but added at the end
+NOTE: Staphylococcus.simulans.003076375 (identical to Staphylococcus.simulans.003096155) is ignored but added at the end
+NOTE: Escherichia.coli.002012065 (identical to Escherichia.coli.002011965) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.002197425 (identical to Streptococcus.agalactiae.002197285) is ignored but added at the end
+NOTE: Streptococcus.agalactiae.002197245 (identical to Streptococcus.agalactiae.002197285) is ignored but added at the end
+NOTE: Streptococcus.gallolyticus.002000985 (identical to Streptococcus.gallolyticus.000270145) is ignored but added at the end
+NOTE: Streptococcus.gallolyticus.000027185 (identical to Streptococcus.gallolyticus.000270145) is ignored but added at the end
+NOTE: Streptococcus.gallolyticus.900475715 (identical to Streptococcus.gallolyticus.000270145) is ignored but added at the end
+NOTE: Escherichia.flexneri.002899495 (identical to Escherichia.flexneri.002953055) is ignored but added at the end
+NOTE: Enterococcus.faecalis.001878735 (identical to Enterococcus.faecalis.001886675) is ignored but added at the end
+NOTE: Enterococcus.faecalis.001989555 (identical to Enterococcus.faecalis.001886675) is ignored but added at the end
+NOTE: Klebsiella.quasipneumoniae.003146685 (identical to Klebsiella.quasipneumoniae.003146655) is ignored but added at the end
+NOTE: Klebsiella.pneumoniae.002197505 (identical to Klebsiella.pneumoniae.000417265) is ignored but added at the end
+NOTE: Klebsiella_B.aerogenes.001593585 (identical to Klebsiella_B.aerogenes.001571545) is ignored but added at the end
+NOTE: Klebsiella_B.aerogenes.002796525 (identical to Klebsiella_B.aerogenes.001571545) is ignored but added at the end
+NOTE: Streptococcus.gordonii.002386285 (identical to Streptococcus.gordonii.900475015) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to ./026_results/16S5S_consensus.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.171 seconds
+
+NOTE: 82 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19544.779
+2. Current log-likelihood: -18024.580
+3. Current log-likelihood: -17954.883
+4. Current log-likelihood: -17952.037
+5. Current log-likelihood: -17951.900
+Optimal log-likelihood: -17951.888
+Rate parameters:  A-C: 1.00000  A-G: 2.50896  A-T: 1.00000  C-G: 1.00000  C-T: 2.50896  G-T: 1.00000
+Base frequencies:  A: 0.255  C: 0.227  G: 0.307  T: 0.211
+Gamma shape alpha: 0.253
+Parameters optimization took 5 rounds (2.482 sec)
+Computing ML distances based on estimated model parameters... 6.909 sec
+Computing BIONJ tree...
+0.307 seconds
+Log-likelihood of BIONJ tree: -18651.583
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 14.679 second
+Computing log-likelihood of 98 initial trees ... 14.809 seconds
+Current best score: -17932.198
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -17901.860
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -17894.292
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -17893.248
+Iteration 10 / LogL: -17903.518 / Time: 0h:0m:58s
+Iteration 20 / LogL: -17914.144 / Time: 0h:1m:21s
+Finish initializing candidate tree set (20)
+Current best tree score: -17893.248 / CPU time: 76.384
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -17904.701 / Time: 0h:1m:44s (0h:4m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -17884.838
+Iteration 40 / LogL: -18001.425 / Time: 0h:2m:9s (0h:5m:8s left)
+Iteration 50 / LogL: -17901.226 / Time: 0h:2m:30s (0h:4m:14s left)
+Iteration 60 / LogL: -17924.373 / Time: 0h:2m:56s (0h:3m:38s left)
+Iteration 70 / LogL: -17916.479 / Time: 0h:3m:17s (0h:3m:0s left)
+Iteration 80 / LogL: -17971.872 / Time: 0h:3m:37s (0h:2m:25s left)
+Iteration 90 / LogL: -17904.469 / Time: 0h:3m:59s (0h:1m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -17884.452
+Iteration 100 / LogL: -18152.411 / Time: 0h:4m:18s (0h:4m:0s left)
+Iteration 110 / LogL: -17938.328 / Time: 0h:4m:39s (0h:3m:30s left)
+Iteration 120 / LogL: -17912.276 / Time: 0h:5m:0s (0h:3m:1s left)
+Iteration 130 / LogL: -17918.974 / Time: 0h:5m:21s (0h:2m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 138: -17884.294
+Iteration 140 / LogL: -18178.164 / Time: 0h:5m:43s (0h:4m:1s left)
+Iteration 150 / LogL: -18066.314 / Time: 0h:6m:3s (0h:3m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 156: -17884.077
+Iteration 160 / LogL: -17926.926 / Time: 0h:6m:22s (0h:3m:50s left)
+Iteration 170 / LogL: -17953.226 / Time: 0h:6m:38s (0h:3m:22s left)
+Iteration 180 / LogL: -17928.859 / Time: 0h:7m:0s (0h:2m:58s left)
+Iteration 190 / LogL: -17886.079 / Time: 0h:7m:19s (0h:2m:33s left)
+Iteration 200 / LogL: -17884.663 / Time: 0h:7m:39s (0h:2m:9s left)
+Iteration 210 / LogL: -18040.748 / Time: 0h:8m:0s (0h:1m:45s left)
+Iteration 220 / LogL: -17972.403 / Time: 0h:8m:21s (0h:1m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 226: -17882.171
+Iteration 230 / LogL: -17896.047 / Time: 0h:8m:43s (0h:3m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 231: -17882.020
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 233: -17881.768
+Iteration 240 / LogL: -17981.245 / Time: 0h:9m:3s (0h:3m:31s left)
+Iteration 250 / LogL: -17889.568 / Time: 0h:9m:34s (0h:3m:11s left)
+Iteration 260 / LogL: -17920.281 / Time: 0h:9m:55s (0h:2m:47s left)
+Iteration 270 / LogL: -17922.885 / Time: 0h:10m:16s (0h:2m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 277: -17878.390
+Iteration 280 / LogL: -17887.931 / Time: 0h:10m:39s (0h:3m:42s left)
+Iteration 290 / LogL: -17928.221 / Time: 0h:10m:59s (0h:3m:18s left)
+Iteration 300 / LogL: -17895.020 / Time: 0h:11m:23s (0h:2m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 304: -17877.612
+Iteration 310 / LogL: -17918.554 / Time: 0h:11m:43s (0h:3m:33s left)
+Iteration 320 / LogL: -17953.743 / Time: 0h:12m:3s (0h:3m:10s left)
+Iteration 330 / LogL: -17947.110 / Time: 0h:12m:22s (0h:2m:46s left)
+Iteration 340 / LogL: -17960.030 / Time: 0h:12m:44s (0h:2m:24s left)
+Iteration 350 / LogL: -17923.680 / Time: 0h:13m:8s (0h:2m:2s left)
+Iteration 360 / LogL: -17887.846 / Time: 0h:13m:29s (0h:1m:39s left)
+Iteration 370 / LogL: -17898.761 / Time: 0h:13m:49s (0h:1m:16s left)
+Iteration 380 / LogL: -17941.757 / Time: 0h:14m:10s (0h:0m:53s left)
+Iteration 390 / LogL: -17879.900 / Time: 0h:14m:29s (0h:0m:31s left)
+Iteration 400 / LogL: -17891.003 / Time: 0h:14m:50s (0h:0m:8s left)
+TREE SEARCH COMPLETED AFTER 405 ITERATIONS / Time: 0h:15m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -17877.612
+Optimal log-likelihood: -17877.612
+Rate parameters:  A-C: 1.00000  A-G: 2.55094  A-T: 1.00000  C-G: 1.00000  C-T: 2.55094  G-T: 1.00000
+Base frequencies:  A: 0.255  C: 0.227  G: 0.307  T: 0.211
+Gamma shape alpha: 0.251
+Parameters optimization took 1 rounds (0.202 sec)
+BEST SCORE FOUND : -17877.612
+Total tree length: 3.831
+
+Total number of iterations: 405
+CPU time used for tree search: 6815.114 sec (1h:53m:35s)
+Wall-clock time used for tree search: 896.463 sec (0h:14m:56s)
+Total CPU time used: 6850.304 sec (1h:54m:10s)
+Total wall-clock time used: 901.741 sec (0h:15m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./026_results/16S5S_consensus.fasta.iqtree
+  Maximum-likelihood tree:       ./026_results/16S5S_consensus.fasta.treefile
+  Likelihood distances:          ./026_results/16S5S_consensus.fasta.mldist
+  Screen log file:               ./026_results/16S5S_consensus.fasta.log
+
+Date and Time: Tue Sep 10 11:06:22 2019
