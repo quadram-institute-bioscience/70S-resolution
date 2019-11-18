@@ -28,20 +28,26 @@ for (i in 1:length(treefile)) {
     fname = unlist(strsplit(treefile[i],'[.]fasta[.]treefile'))[1]  # split is regexp, so dot is special
     # fname = unlist(strsplit(treefile[i],'_upgma[.]treefile'))[1]  # split is regexp, so dot is special
 
+    tscaling = 1.; blen = 0.55; 
+    if (length(tre$tip.label) < 200) { tscaling = 2.4; blen = 0.22; }
+
     #p <- ggtree(grouptre, layout="circular", aes(color=group), size=0.9) 
-    p <- ggtree(grouptre, layout="fan", open.angle=70, size=0.8, aes(color=group)) 
-    p <- p + geom_tiplab2(align=TRUE,linetype=1, linesize=0.15, size=1.4)  
+    p <- ggtree(grouptre, layout="fan", open.angle=70, size=1. * tscaling, aes(color=group)) 
+    p <- p + geom_tiplab2(align=TRUE,linetype=1, linesize=0.15, size=1.4 * tscaling)  
     p <- p + ggplot2::scale_color_manual(values=color_palette) 
     p + ggplot2::ggtitle(fname)
     ggplot2::ggsave (paste(fname,"_ggcircular.png",sep=""), width = 20, height= 20, bg = "white");
 
+
     tre$edge.length <- log(tre$edge.length + 1.)
     color_palette  <- colorRampPalette(brewer.pal(7, "Dark2"))(length(groupInfo) + 1); ## or Dark2 or Set1
-    p <- ggtree(grouptre, aes(color=group)) 
-    p <- p + geom_tiplab(align=TRUE, linetype=1, linesize=0.2, size=0.8) 
+    p <- ggtree(grouptre, aes(color=group), size = 1. * tscaling) 
+    p <- p + geom_tiplab(align=TRUE, linetype=1, linesize=0.2, size=0.9 * tscaling) 
     p <- p + ggplot2::scale_color_manual(values=color_palette) 
     p <- p + theme_tree2() # adds bottom x scale 
+    p <- p + ggplot2::xlim(0, blen);
     p + ggplot2::ggtitle(fname)
+
     ggplot2::ggsave (paste(fname,"_ggtree.png",sep=""), width = 10, height= 20, bg = "white");
 }
 quit();
